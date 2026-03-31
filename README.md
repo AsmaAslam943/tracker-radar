@@ -21,4 +21,4 @@ Third-party requests were identified by comparing each request's domain against 
 **Most sites contact a small number of third-party domains**, with a median of 3, but the distribution has a long tail — the top 10% of sites contact 40 or more distinct third-party domains, typically large media and e-commerce properties with extensive ad-tech stacks.
 
 ## Plot
-[](results/figures/tracked.png)
+[](radar-tracker/results/figures/tracked.png)
