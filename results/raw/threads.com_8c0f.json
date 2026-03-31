@@ -1,0 +1,966 @@
+{
+  "initialUrl": "https://threads.com/",
+  "finalUrl": "https://www.threads.com/",
+  "timeout": false,
+  "testStarted": 1774991941008,
+  "testFinished": 1774991965396,
+  "data": {
+    "requests": [
+      {
+        "url": "https://threads.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.threads.com/",
+        "initiators": [],
+        "time": 0.1513859999995475
+      },
+      {
+        "url": "https://www.threads.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 121669,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "accept-ch": "viewport-width,dpr,Sec-CH-Prefers-Color-Scheme,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "csrftoken=m3sMV5DYAZ47IXJu5dgjZk; expires=Wed, 05-May-2027 21:19:01 GMT; Max-Age=34560000; path=/; domain=.threads.com; secure; SameSite=None"
+        },
+        "responseBodyHash": "8efc6a27971e45664f13432794a70ac0efeb21a4f2f6c27ab2466b7c7d24272a",
+        "redirectedFrom": "https://threads.com/",
+        "initiators": [],
+        "time": 0.8538639999987936
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v5/yB/l/0,cross/GpIbtIsfiks4zT1_TfPE9cfgQe914iiBfONMKn3YhINqU49pVNahkCk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 70167,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:42:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "76d795e730bf5f479954e81597bedb767506f49ae609faec2e898a97054ef830",
+        "initiators": [
+          "https://www.threads.com/"
+        ],
+        "time": 0.17964500000016415
+      },
+      {
+        "url": "https://www.threads.com/ajax/qm/?__a=1&__user=0&__comet_req=122&jazoest=22350",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 229,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "aa6bfe5d9ea8488cb4870f321df5e3ebb7ba37039035c7e0b21567cfdaf99f55",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yb/r/pV99Uq47Nuo.js"
+        ],
+        "time": 0.12724300000081712
+      },
+      {
+        "url": "https://www.threads.com/data/manifest.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 657,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "ad598990e0b82a09cdbff36b959dd03fab86a93465735dd082acdb72a83a409f",
+        "initiators": [
+          "https://www.threads.com/"
+        ],
+        "time": 0.11079100000097242
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 75875,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sun, 28 Mar 2027 01:05:35 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "966e5afce79e3a2e093130b8c33b88d0a6c48960c06eac87c897c48bf8dd2a17",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.0337470000013127
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 193992,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:00:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "834d1f6606f27077cc4fd27a7a52843be05433fd279f98cfed7d9403d992c370",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.056657999999515596
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4i66j4/yO/l/en_US-j/QUC3U5sBVFShCXgLBN1j0KlBK6n6_KCaAbF6eciVWfE__0TX6pO_RSTPegugwFwvT0i6jTMqFs_MAZH_JgQOjuDi.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 188978,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 18:38:59 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7940e21c4ea1ebb3a41c67f489d97dcb285ca565a7902deb2b6f6122d1a3fa15",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.16854899999998452
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4ivf04/yZ/l/en_US-j/O94EeNXzrUX.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 244916,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:00:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "30e45c3106d3c3756f602dcb21e49da923cf3afdc0f6d92e4591aceee8aaa626",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.21463500000027125
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4iJVq4/y7/l/en_US-j/dhVy9qS3tct.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36236,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sat, 27 Mar 2027 20:27:59 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d3a43894a5918a3182156dd8d83420b87a41f1249194ecfdb2562de0428a49fc",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.21710100000018429
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4iAjq4/y6/l/en_US-j/moyH6Xwr4P212Ldxk7e9IVoqWh87GvT8ZFWVq_e8hjmWpPnLlwyTuGxVXlNmlKFF5vNoMIO8kWJIbG8EZbP3sjzuPur9qvUu4TMbqU35NEQDUh.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51175,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 18:40:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "91c9809736afb6c6f588e93e8238cb915c06f0a8fac49a09bdba17a0e004d441",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.22376900000017486
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4i6IA4/yT/l/en_US-j/K2vWcG5ew7X.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41298,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:00:20 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "26bc7603f1d9c028b32bee724b74d157fd85e210cb8b30cf4c8dccdfa14a49c5",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.22480299999915587
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4ird44/yi/l/en_US-j/FjGY3_00yZK.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 143280,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:00:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "949b6d41457b2d6a544103c6cc794f7439c068858c8a0dafe9ff39545a70f7a8",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.24054099999921164
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4iWDP4/yb/l/en_US-j/JUzuAt6hrFi.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32004,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sat, 27 Mar 2027 05:50:19 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "83ee48d8202d1546dbcfe2f0998bbbeac3b7d9a631fb0751c345a57b49e5039d",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.2517859999989014
+      },
+      {
+        "url": "https://www.threads.com/graphql/query",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 5903,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "csrftoken=m3sMV5DYAZ47IXJu5dgjZk; Domain=.threads.com; expires=Wed, 05-May-2027 21:19:05 GMT; Max-Age=34560000; Path=/; Secure\nmid=acw6RwAEAAG3ZHQtiXCyVIfREbAk; Domain=.threads.com; expires=Wed, 05-May-2027 21:19:05 GMT; Max-Age=34560000; Path=/; Secure\nig_nrcb=1; Domain=.threads.com; expires=Wed, 31-Mar-2027 21:19:05 GMT; Max-Age=31536000; Path=/; Secure"
+        },
+        "responseBodyHash": "f8fe35c4db8e2c4f4bb7757296f5433842c4662991fa94e9c65018f41d7e7481",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4ivf04/yZ/l/en_US-j/O94EeNXzrUX.js",
+          "https://static.cdninstagram.com/rsrc.php/v4i66j4/yO/l/en_US-j/QUC3U5sBVFShCXgLBN1j0KlBK6n6_KCaAbF6eciVWfE__0TX6pO_RSTPegugwFwvT0i6jTMqFs_MAZH_JgQOjuDi.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 2.5746070000004693
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4/yi/r/yoWKRGc8X7fCaHvFuCEZkVD8qQgQgoUm3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6640,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Tue, 30 Mar 2027 20:18:57 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "88304ebd2f88d4b9d95be3517cfe89301b6140a15ff16bf1d54d3232feb650ee",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.08260800000061863
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4i63o4/yB/l/en_US-j/osrF0da0MKp.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15761,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 26 Mar 2027 08:16:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6a0072abbabfe6675d5071c47fa055aa9003008af416e7b32a8d9a7d5aec0e1b",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.08369800000036776
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4i0uZ4/yK/l/en_US-j/XEaWYNSZAU0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10011,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 19 Mar 2027 19:49:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bc443afaf7d2c2e1883de7891708c694fdcec607d694f83bfae694e2a2c28ee1",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.08533100000022387
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4i2Gu4/y9/l/en_US-j/MyAaesHn16c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31247,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sun, 28 Mar 2027 15:28:38 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cea028539c740af4e7fcae09bd53656aa8fc19ead965b0a8361698fd9af41f3c",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.08867199999986042
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4iyik4/yr/l/en_US-j/4T1VIz5Jc9P.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 130092,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 24 Mar 2027 22:19:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7d22e65976605934bd33cf5575f2b182dcce017bac19167b5be0410ad42343bf",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.10830299999906856
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4ijnG4/yr/l/en_US-j/u8vbeb2rlQR.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5048,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 26 Mar 2027 08:16:42 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "281fc8fce83e772b698b7febe6f98c22ec345934effd7e11984908d379479da9",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.10884799999985262
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4is9b4/yF/l/en_US-j/Bx9maFmsJh7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 76142,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sun, 28 Mar 2027 11:40:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d15404f6c61c4f3b83c00d4432b0d5e5f89d97de59cf515e78b691d82a3da7da",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.11184200000025157
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4/yT/r/C3dL3pFnJjb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11579,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Thu, 18 Mar 2027 20:32:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c8e7004f481e72c13d31b345a9fd2d02e25adbe77f4ba715b03d2358572ac291",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.11342999999942549
+      },
+      {
+        "url": "https://www.threads.com/ajax/bulk-route-definitions/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1398,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "81bf65d3b48f3066ea16455a2f3958ee68c33caa64f52faa6f33ae02a51cb85d",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4ivf04/yZ/l/en_US-j/O94EeNXzrUX.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.1125449999999546
+      },
+      {
+        "url": "https://www.instagram.com/accounts/xusername/",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 177,
+        "remoteIPAddress": "57.144.220.34",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "815649851a1b954f6601f3c7d4063e5d7da196db6d47d8496808aec9238f2511",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4ivf04/yZ/l/en_US-j/O94EeNXzrUX.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+          "https://static.cdninstagram.com/rsrc.php/v4i66j4/yO/l/en_US-j/QUC3U5sBVFShCXgLBN1j0KlBK6n6_KCaAbF6eciVWfE__0TX6pO_RSTPegugwFwvT0i6jTMqFs_MAZH_JgQOjuDi.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js"
+        ],
+        "time": 2.31553299999905
+      },
+      {
+        "url": "https://www.threads.com/ajax/bz?__a=1&__ccg=UNKNOWN&__comet_req=122&__crn=comet.barcelonawebloggedout.BarcelonaLoggedOutFeedColumnRoute&__hs=20543.HCSV2%3Abarcelona_logged_out_pkg.2.1...0&__hsi=7623532338429637865&__jssesw=2&__req=3&__rev=1036349929&__s=jwl6we%3Arwmcda%3Apxwr5m&__spin_b=trunk&__spin_r=1036349929&__spin_t=1774991941&__user=0&dpr=2&jazoest=22350&lsd=AdSjYE8viabJSfwF7AxRTp5HXVc&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 228,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "138c25802e7ddde57181d61912c56dafdfbb7b6948b2beefa0e5ee26e07c7235",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iyik4/yr/l/en_US-j/4T1VIz5Jc9P.js",
+          "https://static.cdninstagram.com/rsrc.php/v4i66j4/yO/l/en_US-j/QUC3U5sBVFShCXgLBN1j0KlBK6n6_KCaAbF6eciVWfE__0TX6pO_RSTPegugwFwvT0i6jTMqFs_MAZH_JgQOjuDi.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.08496799999920768
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/ye/r/lEu8iVizmNW.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 15233,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Thu, 18 Mar 2027 20:20:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "410dacd93cb0aaae1dde8f9b966dc04c6ae4ab3105af4236a23af7e8e337a493",
+        "initiators": [],
+        "time": 0.014705999999932828
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/yy/r/eBUIyhZuyUS.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2971,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 19 Mar 2027 00:34:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4e12a818b3046796a544b01dde0ff841ac0d8da2e2b471192b3638ff9fb06cc7",
+        "initiators": [],
+        "time": 0.07396499999958905
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/yp/r/a39oFm06sEy.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1236,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 15:42:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "86a48002899330d2b7d24ac3a107a1a864f4d7271ebaf52527c98476ab64433b",
+        "initiators": [],
+        "time": 0.008745999999518972
+      },
+      {
+        "url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/456465291_8343612382370345_8092768749465866765_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4yNjEuYzIifQ&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gFfXtgz8-F2emUYK__D3wRV3H5mlYci-xaLcaiG5GXfZO3oX0OyvzbuRx8MpeUAiV8&_nc_ohc=hPzxL0DRWkYQ7kNvwGOoebr&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&edm=ACM2rXoBAAAA&ccb=7-5&oh=00_Afxfn7Ahvug8-eFHAcDYymoEgufea3Iw2HVmFuoo4watwQ&oe=69D20EC0&_nc_sid=68810c",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5027,
+        "remoteIPAddress": "157.240.22.63",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "96f97309b1727807a44a229fde1f38083ff545ef468ff473f1160fac34e7baed",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.04589999999916472
+      },
+      {
+        "url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.71878-15/658186957_1632983777984232_731667475655972881_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InRocmVhZHMuRkVFRC5pbWFnZV91cmxnZW4uNjQweDM2MC5zZHIuZjcxODc4LmRlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFfXtgz8-F2emUYK__D3wRV3H5mlYci-xaLcaiG5GXfZO3oX0OyvzbuRx8MpeUAiV8&_nc_ohc=AilOVy5IjBwQ7kNvwE0kOA4&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&edm=ACM2rXoBAAAA&ccb=7-5&ig_cache_key=Mzg2NDQ3MDMwMzQ1NTk2NzA4NA%3D%3D.3-ccb7-5&oh=00_AfxLtmapNziyLZEGmjaCLZJzGE3OYBZUuzTtABb77dX9XQ&oe=69D200BF&_nc_sid=68810c",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 27282,
+        "remoteIPAddress": "157.240.22.63",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b109d0f0ef52d3d76510632319632b6dd1910fd5ba0d18d169c643f7f320ac90",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.017969000000448432
+      },
+      {
+        "url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/256892487_959100458013281_7608200366025202853_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gFfXtgz8-F2emUYK__D3wRV3H5mlYci-xaLcaiG5GXfZO3oX0OyvzbuRx8MpeUAiV8&_nc_ohc=YfuAF1oyVikQ7kNvwFrJxVd&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&edm=ACM2rXoBAAAA&ccb=7-5&oh=00_AfydQh5b4RQg3ifrjGb3N1s4TEAsqjwjtaZNEDLNNNGwyA&oe=69D2282C&_nc_sid=68810c",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4082,
+        "remoteIPAddress": "157.240.22.63",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0de5f551a45739580bf9aed5163ce5520ca1d57f3fb295bd898954a6fefb660e",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.009011999998620013
+      },
+      {
+        "url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/359194902_822655349205736_2939434532259534460_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gFfXtgz8-F2emUYK__D3wRV3H5mlYci-xaLcaiG5GXfZO3oX0OyvzbuRx8MpeUAiV8&_nc_ohc=Nxsoenski3oQ7kNvwEy4JXp&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&edm=ACM2rXoBAAAA&ccb=7-5&oh=00_AfwpGD_4EQ-89BLxHeiY19Y2olnxcS4649JndrGEmB1AGQ&oe=69D20783&_nc_sid=68810c",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6478,
+        "remoteIPAddress": "157.240.22.63",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a2d195315b48876347495153c5b5df33979a187e29e536e0a42ed8b2eac6199d",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.09547500000007858
+      },
+      {
+        "url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/587724089_17934576744110005_3828784852980712618_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44MDAuYzIifQ&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gFfXtgz8-F2emUYK__D3wRV3H5mlYci-xaLcaiG5GXfZO3oX0OyvzbuRx8MpeUAiV8&_nc_ohc=CWXb125W8I8Q7kNvwGsD32F&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&edm=ACM2rXoBAAAA&ccb=7-5&oh=00_AfxjI1Py_SxR22nRG1nShQX4FVunPtQx2blEaSdcCdV0JA&oe=69D2263C&_nc_sid=68810c",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3643,
+        "remoteIPAddress": "157.240.22.63",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0dc1270d5de4de622b295e477e011081281a6051d27be076327a01989ed2e3c0",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.07378699999935634
+      },
+      {
+        "url": "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/861319451803040192?stp=dst-src&url=https%3A%2F%2Fimage.cnbcfm.com%2Fapi%2Fv1%2Fimage%2F105143139-GettyImages-665276066.jpg%3Fv%3D1707384570%26w%3D1920%26h%3D1080&utld=cnbcfm.com&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&_nc_oc=AdoMpI_l5mUgGLC2jyRxikYRxJ93ATlqfl1jbV926zdVY0PDcWmO3YAEk3HLHL8c-y4&ccb=13-1&oh=06_Q3-9AZz5xsPd2jSL3VQ4-Gk0va7WOAkENdRdC9PB4IWzm5Aj&oe=69CE1A83&_nc_sid=1d65fc",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 256150,
+        "remoteIPAddress": "157.240.22.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "65986aa307ab233bc89cb5fcecf3e01c7698167da685edeada68ee1b643e9e25",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.12638300000071467
+      },
+      {
+        "url": "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/7013649328788431405?url=https%3A%2F%2Ffm.cnbc.com%2Fapplications%2Fcnbc.com%2Fresources%2Fimg%2FCNBC_LOGO_FAVICON_1C_KO_RGB.ico&utld=cnbc.com&stp=dst-png_s42x42&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&_nc_oc=AdpqbuLz09SlxkZRhPrerKj___6P55Gab5a5Jlcz7OdMurVgkk_lzYWtGFB6FSboxhY&ccb=13-1&oh=06_Q3-9AdfimqAqZwZ8kyOVNBYTGrI1V_c1kyLS3lKGrPacvo4s&oe=69CE0A32&_nc_sid=1d65fc",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1950,
+        "remoteIPAddress": "157.240.22.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9c221cf30b07c8fdd3c3ca4d287b4887142ec368f89019066cbee7ce284eec2c",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.08724400000028254
+      },
+      {
+        "url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/448451396_1034107205027924_845417300442216245_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFfXtgz8-F2emUYK__D3wRV3H5mlYci-xaLcaiG5GXfZO3oX0OyvzbuRx8MpeUAiV8&_nc_ohc=fJef4793F5cQ7kNvwEUIwFn&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&edm=ACM2rXoBAAAA&ccb=7-5&oh=00_Afzr_fIryWbcqkqu2pQ_j7n8iB-vJVh9feCBAfNrtTziOw&oe=69D2077A&_nc_sid=68810c",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5459,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600, no-transform",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8e1334ffaa0d7db61d3cddf13254e738e6a3a34c8977ded2e2eaeff46bc72b4d",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.07140400000025693
+      },
+      {
+        "url": "https://www.threads.com/ajax/bz?__a=1&__ccg=UNKNOWN&__comet_req=122&__crn=comet.barcelonawebloggedout.BarcelonaLoggedOutFeedColumnRoute&__hs=20543.HCSV2%3Abarcelona_logged_out_pkg.2.1...0&__hsi=7623532338429637865&__jssesw=2&__req=4&__rev=1036349929&__s=jwl6we%3Arwmcda%3Apxwr5m&__spin_b=trunk&__spin_r=1036349929&__spin_t=1774991941&__user=0&dpr=2&jazoest=22350&lsd=AdSjYE8viabJSfwF7AxRTp5HXVc&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 238,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ig_nrcb=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=-1774991947; path=/; domain=.threads.com; httponly"
+        },
+        "responseBodyHash": "925a95d4a162c13541c1752efae93827d7fd05ce08c05f75888c518cf5113f9d",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.11593100000027334
+      },
+      {
+        "url": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t16/f2/m84/AQMdXW57T-hCwaUBBrQBXF2lRuK-XUBhDYVR3RIDTdPmUcqr8leT85A9k1_PqbreYzOe8MfVIeEUwqDDEaP-WNRMwaZD8D2td7OeJAs.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=klz2cdxIBl0Q7kNvwGe_NHv&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NTU2MTQ0OTAxMDY1NTMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=d0076d283cd31682&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yRTQyRDFEQzlERDE1NTZCNDIyRUNEQzk0NkUwNEM5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JCNDNDRUFGREI3M0ZDRDEzQjNEREQwQTU4MDQyQzk3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACby6sD2qKLlPxUCKAJDMywXQEJeFHrhR64YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&_nc_gid=NpXMmJKeuHgaTsf6KMluIw&_nc_zt=28&_nc_ss=7a32e&oh=00_Afy6e7v12ymkyOuwKC8iC7RfDzEG88cFOgPU7zqUb6uRyw&oe=69CE2E57",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 4264301,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "23421dce133f595bb34573dac8751c8c3a5f00591bf4a7e1ba9c77e6a024d630",
+        "initiators": [],
+        "time": 1.2413889999988896
+      },
+      {
+        "url": "https://www.threads.com/ajax/bulk-route-definitions/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 15046,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "aa8ac1d1ee6aa7f9c43d53c0f934d1573adbfc42ac61438256e3eb7e54a96a22",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4ivf04/yZ/l/en_US-j/O94EeNXzrUX.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.23864900000080524
+      },
+      {
+        "url": "https://www.threads.com/ajax/bz?__a=1&__ccg=UNKNOWN&__comet_req=122&__crn=comet.barcelonawebloggedout.BarcelonaLoggedOutFeedColumnRoute&__hs=20543.HCSV2%3Abarcelona_logged_out_pkg.2.1...0&__hsi=7623532338429637865&__jssesw=2&__req=6&__rev=1036349929&__s=jwl6we%3Arwmcda%3Apxwr5m&__spin_b=trunk&__spin_r=1036349929&__spin_t=1774991941&__user=0&dpr=2&jazoest=22350&lsd=AdSjYE8viabJSfwF7AxRTp5HXVc&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 242,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6d8f19e679895fd725477deef6b1e889d23914ecc1fb4fa466594852a8dd297b",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.0853239999996731
+      },
+      {
+        "url": "https://www.threads.com/ajax/bz?__a=1&__ccg=UNKNOWN&__comet_req=122&__crn=comet.barcelonawebloggedout.BarcelonaLoggedOutFeedColumnRoute&__hs=20543.HCSV2%3Abarcelona_logged_out_pkg.2.1...0&__hsi=7623532338429637865&__jssesw=2&__req=7&__rev=1036349929&__s=jwl6we%3Arwmcda%3Apxwr5m&__spin_b=trunk&__spin_r=1036349929&__spin_t=1774991941&__user=0&dpr=2&jazoest=22350&lsd=AdSjYE8viabJSfwF7AxRTp5HXVc&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 243,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d941e5b1b7af57f10697f9a1a325e2219a2ddf8fba466be27823c9cdb8efe750",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.04221500000130618
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4/ye/r/EgTefaSToM_.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4077,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 11:19:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7d08140ba4f83bc77e3dd8c4c2ac0ffe461406a571254f75fa99601cf87d2f0a",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js"
+        ],
+        "time": 0.010754000000815722
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4/y7/r/wXxh6tpP8gs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1498,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 26 Mar 2027 05:41:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "61690c0cbe1c4f5e49b4ccec64d23b8646464a72a841b5171a82df6b84229723",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js"
+        ],
+        "time": 0.010237000000415719
+      },
+      {
+        "url": "https://static.cdninstagram.com/rsrc.php/v4/yE/r/Q4gpb-24PGh.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 946,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 11:13:57 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3add3da9eadad891cda4287b8c92dbb2fdb0240aa6d29faf1c87af504a2e55bd",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js"
+        ],
+        "time": 0.01080300000103307
+      },
+      {
+        "url": "https://www.threads.com/ajax/bz?__a=1&__ccg=UNKNOWN&__comet_req=122&__crn=comet.barcelonawebloggedout.BarcelonaLoggedOutFeedColumnRoute&__hs=20543.HCSV2%3Abarcelona_logged_out_pkg.2.1...0&__hsi=7623532338429637865&__jssesw=2&__req=8&__rev=1036349929&__s=jwl6we%3Arwmcda%3Apxwr5m&__spin_b=trunk&__spin_r=1036349929&__spin_t=1774991941&__user=0&dpr=2&jazoest=22350&lsd=AdSjYE8viabJSfwF7AxRTp5HXVc&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 245,
+        "remoteIPAddress": "57.144.220.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.threads.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "2e7f297551a524764b80a929e35d42674193330f7f645ff182295bbfcd6a7ae1",
+        "initiators": [
+          "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js",
+          "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.11120699999992212
+      }
+    ],
+    "cookies": [
+      {
+        "name": "ig_did",
+        "domain": ".threads.com",
+        "path": "/",
+        "expires": 1806527941757,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "csrftoken",
+        "domain": ".threads.com",
+        "path": "/",
+        "expires": 1809551945582,
+        "session": false
+      },
+      {
+        "name": "dpr",
+        "domain": ".threads.com",
+        "path": "/",
+        "expires": 1775596743000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "mid",
+        "domain": ".threads.com",
+        "path": "/",
+        "expires": 1809551945582,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://static.cdninstagram.com/rsrc.php/v4ivf04/yZ/l/en_US-j/O94EeNXzrUX.js": {
+          "Navigator.prototype.userAgent": 1,
+          "PerformanceTiming.prototype.navigationStart": 3,
+          "window.innerHeight": 56,
+          "window.innerWidth": 56,
+          "window.devicePixelRatio": 4,
+          "Navigator.prototype.connection": 4
+        },
+        "https://static.cdninstagram.com/rsrc.php/v4ird44/yi/l/en_US-j/FjGY3_00yZK.js": {
+          "Date.prototype.getTime": 5
+        },
+        "https://static.cdninstagram.com/rsrc.php/v4i66j4/yO/l/en_US-j/QUC3U5sBVFShCXgLBN1j0KlBK6n6_KCaAbF6eciVWfE__0TX6pO_RSTPegugwFwvT0i6jTMqFs_MAZH_JgQOjuDi.js": {
+          "Date.prototype.getTime": 10,
+          "Navigator.prototype.connection": 1
+        },
+        "https://static.cdninstagram.com/rsrc.php/v4iG-F4/yG/l/en_US-j/CD0dZvvQEzk.js": {
+          "Event.prototype.timeStamp": 76,
+          "Navigator.prototype.onLine": 6,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "window.innerHeight": 2,
+          "window.innerWidth": 2
+        },
+        "https://static.cdninstagram.com/rsrc.php/v4/ya/r/R1pEz0OuWy4.js": {
+          "PerformanceTiming.prototype.navigationStart": 3
+        },
+        "https://static.cdninstagram.com/rsrc.php/v4iyik4/yr/l/en_US-j/4T1VIz5Jc9P.js": {
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.deviceMemory": 2,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2
+        },
+        "https://static.cdninstagram.com/rsrc.php/v4iWDP4/yb/l/en_US-j/JUzuAt6hrFi.js": {
+          "Date.prototype.getTime": 2
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

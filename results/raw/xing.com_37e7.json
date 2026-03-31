@@ -1,0 +1,2461 @@
+{
+  "initialUrl": "https://xing.com/",
+  "finalUrl": "https://www.xing.com/",
+  "timeout": false,
+  "testStarted": 1774993830937,
+  "testFinished": 1774993847161,
+  "data": {
+    "requests": [
+      {
+        "url": "https://xing.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "109.233.159.253",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.xing.com/",
+        "initiators": [],
+        "time": 0.5158489999994345
+      },
+      {
+        "url": "https://www.xing.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 64415,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "xing_csrf_token=FYzYloeZbGUohG_w3Aj6DjfdYUNHbKPc; Path=/; Secure; SameSite=Lax\nxing_csrf_checksum=tE_nUN1WfK6sPJBjOyP4a6c-YwL93zBThSeyFWEdT4o; Path=/; HttpOnly; Secure; SameSite=Lax\nvisitor_id=f0dfa57a-bba5-43de-9118-b8ef4d59d30b; Max-Age=63072000000; Domain=xing.com; Path=/; HttpOnly; Secure; SameSite=Lax"
+        },
+        "responseBodyHash": "29ab1c8bb9b78069f76acf66a01fdbcfc9fe76b73a8bb09057d0f7b773bec4ef",
+        "redirectedFrom": "https://xing.com/",
+        "initiators": [],
+        "time": 1.189382000000478
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/manifest-xing-18c821cc52c27a83c15a1ead96fdc1c8a94e7c1f.json",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 57282,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"63c19c6c830914c53e012f4e74b703ee\""
+        },
+        "responseBodyHash": "6cc13afdaae251a963f88b001a6abdab75da8e58d7daa323a5080377cd09e8bb",
+        "initiators": [],
+        "time": 0.22820599999977276
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 263623,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"a305b2d27d3075738b92dc5658611a8a\""
+        },
+        "responseBodyHash": "cef68393ecec98875dd5f18cd3c0f366933b4c75c52b219bd08b1e0312d5ac13",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.22546000000147615
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/lang-en-n973j14e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13719,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"67c94f9f8655f723395fa1c7e1f32b26\""
+        },
+        "responseBodyHash": "44330408cabe5002e9bbe13f652e753da22296caf8f07997aaa137331f693f36",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.21748399999887624
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/main-mcd297p2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 95127,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"b35b7570d9d508264b56360d45cbfb54\""
+        },
+        "responseBodyHash": "0f25547e00e83f6d4edca5c25239b093e863f5a264ce688f65f5ff8bfcb3b1e9",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.23614999999881547
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/hops-environment-441c6ba4/main-mhbafvb8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1935,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"073bd7650a20305485216ca243e38a8c\""
+        },
+        "responseBodyHash": "b38717ff39485f489fdf3481fab494c51381e0e433b10af91d68ed10f1fd8040",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.1190279999991617
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/root-b33b72b3/lang-en-epfdf0ts.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3301,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"30ece16676800374aac1caa10cc536f6\""
+        },
+        "responseBodyHash": "5af21e53acfa3bf0383930bcaf3a163dd18e0aa71edbbc72138a0ca0914ff13c",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.21393299999908777
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 103072,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"9c44c5a1c3a499535480879480753edd\""
+        },
+        "responseBodyHash": "6029011cf9e41fe3666bb342f629b44b97f53c66a7f07ce1254c0f2ed220d9c2",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.236044999999649
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-14bd4a0c112a611d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4297,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"adafaf1ecce6f5275682c23b6ed45082\""
+        },
+        "responseBodyHash": "dbb1385eea888d8a9978e7defcc22c1c7743331b8317235be582546ed12e23d7",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.20560199999999895
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-292379f862a78554.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1912,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"97af631d43c8cd2763bde5f18429c41a\""
+        },
+        "responseBodyHash": "3a12e94773d6cbb1d5c02a3ba273252be798a895fae327ecb9372bcc5ae94ebb",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.11948099999972328
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-753b3255b5b2abca.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2485,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"ca53beb2e54a1d19392c6fe5303bdda0\""
+        },
+        "responseBodyHash": "f3a0b270204411609f3c7ff5caf405df210dbed854f0b31bed580943f4601933",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.2093380000005709
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-81dbb839fea11110.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6341,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"3b9ecd1d97884234fb856f362063a775\""
+        },
+        "responseBodyHash": "00b0693fcfd8778ca08c9b9fea49254c990c94e6fbe78b98518824957aaf4df2",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.20893299999988812
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-9e80ccf78b6c007b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3092,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"9d89132df60fe8e57b400ca4eba5c691\""
+        },
+        "responseBodyHash": "ed126432082c5f5936200b73898c853bdd9712ff86f5ba8ba689cd495bb0b80b",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.20502500000111468
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-b2422fa02c318a23.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1445,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"baf313f8210a17156b94523b24ee8da0\""
+        },
+        "responseBodyHash": "7c2c709f1d172d73b75b5ed15d6d85430fdcd8d781e2c1514f207cbcd197fa02",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.20775900000080583
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-f084ab5ae1eba82a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10808,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"959fec43b2dbe273d8d3dcaf0fb8eab7\""
+        },
+        "responseBodyHash": "5c61a38afcf1007fe829ad61735e1a30cf21bcfc770b710667e86c61b3b8f4a5",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.21622800000113784
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/main-mwh872hb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1992,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"cbcf580381d45b419447c0ba66c77c41\""
+        },
+        "responseBodyHash": "0f3e6647b6ece04008249b18c2764fa2a786dbd3dc40c1b59ee324f2ce6f420a",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.11543499999970663
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/root-b33b72b3/main-d9docir4.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2226,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"c3e219f22110ed77b08370bdb477593c\""
+        },
+        "responseBodyHash": "3c6a9b753a57ecfa939ec766fc2c49e59e3e54bd2b8f15181dd17cc466c3f2d3",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.11494999999922584
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/root-b33b72b3/XING-Sans-Regular-ge37eqjt.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26091,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"798e57225b531bda5655bacbd5e8e829\""
+        },
+        "responseBodyHash": "31aeb63d49e75d258d1ecf0eb3faee1fb942218f96e762920ef9252e3ea56bf4",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.22271600000021863
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/root-b33b72b3/XING-Sans-Bold-cxuuwdlg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27256,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"ef73eb86826ef3a35dac47dcca166f6c\""
+        },
+        "responseBodyHash": "09d5d6ce9b59a236f053f623a29c65553039125f7d36cad2eafc65cd9d2bcae2",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.22239799999988463
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/root-b33b72b3/super-ellipse-mask-416ism8v.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 996,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"db70bbc9c45f30252457337e6ed32ba0\""
+        },
+        "responseBodyHash": "710553467a7e8d7ffa41aec3664b5d05d3d3086d4bba8c5233238e28ed092651",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.01316699999915727
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/Background_01_7x2_a-csa0s8vm.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 882,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"37501ec75570ca6d8d64261c3b9f6741\""
+        },
+        "responseBodyHash": "9a6c80cd3334f0610269bf592241e09ef5c541f31c6bee7a12e83b3116e6de1f",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.014213999998901272
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/super-ellipse-mask-d5xeaztx.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 996,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"db70bbc9c45f30252457337e6ed32ba0\""
+        },
+        "responseBodyHash": "710553467a7e8d7ffa41aec3664b5d05d3d3086d4bba8c5233238e28ed092651",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.014787000000069384
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/deep-dive-frl9rwhm.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 94538,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"83780bf41e613af2e5f73f2138d12ba5\""
+        },
+        "responseBodyHash": "5ac0b8d2f7d1545b73ed214732e2c6338d514e87f9237441e2912da6f701599b",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.014798999998674844
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/banner-ebjegcmg.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1099,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"b7f59aa7386c52e5b2bdd58ffabf3d6c\""
+        },
+        "responseBodyHash": "7fcbb80a2679e6bf798fd0b93cd285c981a35efaa5aeaa029b70ecd18c440c19",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.01371600000129547
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/inspire-cozsbjcg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 73311,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"7aae0a862d051c4144e915a15c26f156\""
+        },
+        "responseBodyHash": "86501fb990a6649b27f492a28949c7eeaee9baf45aa345654d3269e752301826",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.014503000000331667
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/ottobock-photo-i55fwzfp.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3872,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"12cce4506b9dc510b933f483581cc9d5\""
+        },
+        "responseBodyHash": "bd3ff588541c2a8dfc348ff312f358aa3e3e81f433e1e56354146b72fdcfba74",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.0159590000002936
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/bmw-photo-cr80bg7s.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5934,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"3927708fccde20a70d018d1d8a588ec4\""
+        },
+        "responseBodyHash": "997cdad1294d19bd184988f9673157681018d3d041921185807a285e5891db04",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.016539000000193482
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/db-photo-m2lqbo3h.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3915,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"0633968d4e6cd5fcb8f7827e2fee0c0a\""
+        },
+        "responseBodyHash": "c2793626e58b18aebac52a0ab55817c5d500f9c72843fc06f973248d20f1e305",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.013366000001042266
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/sap-photo-eehfpx61.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4566,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"eb398c9458f8c576d3674f7b3973287d\""
+        },
+        "responseBodyHash": "cf9f16c4cfbcac379ef09f86a10520bf426b272604de0d5d8f31066a6839835d",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.016797000000224216
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/porsche-photo-fku8aqvj.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8689,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"c808473c3abfdad5996ebc58a55f73ae\""
+        },
+        "responseBodyHash": "11a29fe0d8874daba9b0501b7272e3cea676d0a48c425beade921af1c9ccb929",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.016480999998748302
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/background-g4f9gl7x.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1080,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"10444742ecdbfe1e5a02654786080edc\""
+        },
+        "responseBodyHash": "77746b2ab27018f540620a63e83df8086436a3f60321349c1e34942955534401",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.01137399999970512
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/illustration-native-app-section-ez60h1t8.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 147121,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"e488034edf3444dda1af30a050451130\""
+        },
+        "responseBodyHash": "b3da9f49c35093730a0a218a639fe4e1f90e47295d43001d394f5dcbf200c3e2",
+        "initiators": [
+          "https://www.xing.com/"
+        ],
+        "time": 0.01766200000020035
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-389391b360b19fd0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8341,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"9dce136ad18e423d6dc475ed97c28f21\""
+        },
+        "responseBodyHash": "9fe653409ff8e92cd65cbfe609592a057b4728be5f8daeba51817c4a38d96388",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.059033999999883235
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-f084ab5ae1eba82a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 430,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"959fec43b2dbe273d8d3dcaf0fb8eab7\""
+        },
+        "responseBodyHash": "5c61a38afcf1007fe829ad61735e1a30cf21bcfc770b710667e86c61b3b8f4a5",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.05790700000034121
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-81dbb839fea11110.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 428,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"3b9ecd1d97884234fb856f362063a775\""
+        },
+        "responseBodyHash": "00b0693fcfd8778ca08c9b9fea49254c990c94e6fbe78b98518824957aaf4df2",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.0570899999984249
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-9e80ccf78b6c007b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 428,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"9d89132df60fe8e57b400ca4eba5c691\""
+        },
+        "responseBodyHash": "ed126432082c5f5936200b73898c853bdd9712ff86f5ba8ba689cd495bb0b80b",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.059934000000794185
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-b2422fa02c318a23.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 412,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"baf313f8210a17156b94523b24ee8da0\""
+        },
+        "responseBodyHash": "7c2c709f1d172d73b75b5ed15d6d85430fdcd8d781e2c1514f207cbcd197fa02",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.11256999999932304
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-292379f862a78554.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 429,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"97af631d43c8cd2763bde5f18429c41a\""
+        },
+        "responseBodyHash": "3a12e94773d6cbb1d5c02a3ba273252be798a895fae327ecb9372bcc5ae94ebb",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.059660999999323394
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-753b3255b5b2abca.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 429,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"ca53beb2e54a1d19392c6fe5303bdda0\""
+        },
+        "responseBodyHash": "f3a0b270204411609f3c7ff5caf405df210dbed854f0b31bed580943f4601933",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.05986999999913678
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-da00677d5307478e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6547,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"2483e6b5d5320e15b9039f59e6b2be19\""
+        },
+        "responseBodyHash": "62b37d3d4a232378bba7ce1ef980c5fa83b4e03c56e1630cb04a33e8f4a362c9",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.05714499999885447
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/runtime/chunk-14bd4a0c112a611d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 429,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"adafaf1ecce6f5275682c23b6ed45082\""
+        },
+        "responseBodyHash": "dbb1385eea888d8a9978e7defcc22c1c7743331b8317235be582546ed12e23d7",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.06134600000041246
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/root-b33b72b3/chunk-dq7eomkc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2448,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"5bec24b82786cc014974c242c9e72b0a\""
+        },
+        "responseBodyHash": "0fe0c29dec4dca2319f6ff07c91f4b1d1d4ffb1d1d077433b66c6cb36ffd19c3",
+        "initiators": [
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.011409000000639935
+      },
+      {
+        "url": "https://stan.xing.com/stm-v1.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1057,
+        "remoteIPAddress": "18.244.214.49",
+        "responseHeaders": {
+          "etag": "\"3d4-64de88d70df40-gzip\""
+        },
+        "responseBodyHash": "be92fa651d6e3be0fde512b9a3e90900eea3f8e6172623e520bf99fc60aa38a4",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/chunk-81dbb839fea11110.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.3136950000007346
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11052,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600, no-transform",
+          "etag": "\"d7e1be140173a1cf16da6b127c6f5d9b\"",
+          "expires": "Tue, 31 Mar 2026 22:34:21 GMT"
+        },
+        "responseBodyHash": "56f2f874332dc06ab0d8abcf3533df7991b17a4160e569083a07b9275d9ba16e",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 3.4281360000004497
+      },
+      {
+        "url": "https://www.xing.com/graphql/api",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 330,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com"
+        },
+        "responseBodyHash": "cc582a1c726e62696d1da26d9b48956433735db1f65f72778a86adda3b41f845",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-f084ab5ae1eba82a.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.26344199999948614
+      },
+      {
+        "url": "https://www.xing.com/graphql/api",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 233,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com"
+        },
+        "responseBodyHash": "73e67cf467c7e652a62bd790b7deeefa2fa0259bd60413a7d81e16aba94e40e1",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-f084ab5ae1eba82a.js"
+        ],
+        "time": 0.37474400000064634
+      },
+      {
+        "url": "https://www.xing.com/api/unified-underdog",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "set-cookie": "visitor_id=f0dfa57a-bba5-43de-9118-b8ef4d59d30b; Max-Age=31536000; Domain=.xing.com; Path=/; Expires=Wed, 31 Mar 2027 21:50:37 GMT; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-81dbb839fea11110.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-9e80ccf78b6c007b.js",
+          "https://static.xingcdn.com/crate/entry-150bfe9b/main-mcd297p2.js"
+        ],
+        "time": 3.3317060000008496
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/entry-150bfe9b/dm-photo-gbk07ay1.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4435,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"2930ba6a0ed4bcf5a403aba26dbfe41f\""
+        },
+        "responseBodyHash": "e834585b1ed06c7a3b3469297ba577fbb48eb6519df9f1449f380f1447dc3604",
+        "initiators": [],
+        "time": 0.11007599999902595
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/jobs-section-a5d62286/lang-en-x7crdx1p.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9489,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"185d135a71875498667ceddc51617d11\""
+        },
+        "responseBodyHash": "2c41852daed3e47d6ccf448afa73c6864cdd6382274287a9370c5c1bfe09c4ec",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.05518900000060967
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/websocket-9c40af64/main-hoag8gcg.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4440,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"4884c9f6187c83e4c59b40408cb4dac4\""
+        },
+        "responseBodyHash": "33b933968630b6d9cfb737d74ba62585e759976296498af3055cafbcc3ea3f01",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.03637499999967986
+      },
+      {
+        "url": "https://www.xing.com/graphql/api",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 437,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com"
+        },
+        "responseBodyHash": "084409b5d741990b060440499fe5e11dfa0672582bc38eedf53333f917797157",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/websocket-9c40af64/main-hoag8gcg.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.1843429999989894
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/jobs-section-a5d62286/main-jcqrxh4f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27178,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"23155d849b85e907229481fcfdc7c03b\""
+        },
+        "responseBodyHash": "e446a7569f8c7aa5df9905a82cb1f29771b685b28b39c99d1f6cdd0837f2e899",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.013622000000395929
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/jobs-section-a5d62286/chunk-o7vd1gj2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2441,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"9c418f00fb02a842ee2dc1cb7be07119\""
+        },
+        "responseBodyHash": "8094dc9a68a99946fc91df1ea6a6a147dd6711e02aae090517c2a0d8ad09be13",
+        "initiators": [
+          "https://static.xingcdn.com/crate/jobs-section-a5d62286/main-jcqrxh4f.js"
+        ],
+        "time": 0.018829000000550877
+      },
+      {
+        "url": "https://www.xing.com/graphql/api",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4394,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com"
+        },
+        "responseBodyHash": "2aa285a43613c8a76ed1df5351031d2e05e863bf73e19b7270ad4ae822632099",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-f084ab5ae1eba82a.js"
+        ],
+        "time": 0.20072700000127952
+      },
+      {
+        "url": "https://www.xing.com/graphql/api",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 146,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com"
+        },
+        "responseBodyHash": "f3efe669bc1951eaa9d7cee3908c202471985845917adef336f87bfe8c44c3f9",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-f084ab5ae1eba82a.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.1793180000004213
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/braze-f7a6f3f8/main-eix3fluk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43236,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"e709937b03ba9636f183db85e3eaf44f\""
+        },
+        "responseBodyHash": "e4209cb57b311240c23e49562898d294ec3f80be63afbbd0ca56027d2e5d9aca",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.015529999998761923
+      },
+      {
+        "url": "wss://network-updates.xing.com/socket/websocket?token=SFMyNTY.g2gDdAAAAAZ3B3VzZXJfaWRhAHcJZGV2aWNlX2lkdwNuaWx3C2NsaWVudF90eXBlbQAAAAN3ZWJ3FHNjcmFtYmxpbmdfc2VwYXJhdG9ybQAAAAEudwp2aXNpdG9yX2lkbQAAACRmMGRmYTU3YS1iYmE1LTQzZGUtOTExOC1iOGVmNGQ1OWQzMGJ3D3NjcmFtYmxpbmdfc2FsdG0AAAAIT29yZWUwYWVuBgAmgOBFnQFiAAFRgA.ABXLob3kyix2rVSwsjPGfwyghXUfli5lwFGu3K5Iejg&user_id=0&client_type=web&vsn=2.0.0",
+        "type": "WebSocket",
+        "initiators": [
+          "https://static.xingcdn.com/crate/websocket-9c40af64/main-hoag8gcg.js",
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ]
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/logs",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 79,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 3.498899000000165
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/job-teaser-card-9c21bd42/lang-en-mcapmwsl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1151,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"f896f0ad120e3584aedb743af115765c\""
+        },
+        "responseBodyHash": "2f9407c07ddb52b17670bca82276a2b2b301dfcaf220e5fa1879d19ac81cb624",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.087573999999222
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/job-teaser-card-9c21bd42/main-gc0ytwcw.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24000,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"5ae3391c572e9b026b3107ae34cae596\""
+        },
+        "responseBodyHash": "8d0735731127bbaf05699f8be979ce36bd7760af9a3f8c745ead23174bd2d81a",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.015569999999570427
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/job-teaser-card-9c21bd42/super-ellipse-mask-d5dyhbw8.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 994,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"db70bbc9c45f30252457337e6ed32ba0\""
+        },
+        "responseBodyHash": "710553467a7e8d7ffa41aec3664b5d05d3d3086d4bba8c5233238e28ed092651",
+        "initiators": [],
+        "time": 0.014617999999245512
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/error-pages-44a6d4bc/lang-en-bqnd5u6e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 859,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "\"faf95ed295d1a30ccb774a5fee8823a0\""
+        },
+        "responseBodyHash": "2b46988ff97ec72dc7fd68442fca51613f0f66aa1e0e59b7d930f1960d9a90b4",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.014544999999998254
+      },
+      {
+        "url": "https://static.xingcdn.com/crate/error-pages-44a6d4bc/main-ei7a9sxs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29868,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"ddda30425a65490c607b604fe73fa7a0\""
+        },
+        "responseBodyHash": "d079a0d2d2ca39906f16da9e3ff99d6da408bbf88f9115c365a1fe4c3b0eba46",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/root-b33b72b3/main-gao21z2b.js"
+        ],
+        "time": 0.015544000001682434
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/traces",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 61,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 3.3079579999994166
+      },
+      {
+        "url": "https://www.xing.com/assets/companies/img/default-logo_96x96.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4076,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "expires": "Fri, 28 Mar 2036 21:50:34 GMT"
+        },
+        "responseBodyHash": "92bcfb7064f34184b375e6023a1dbd50ca6c5aed0846cd239849af76ec937c14",
+        "initiators": [],
+        "time": 0.15335500000037428
+      },
+      {
+        "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNWJjOGEzM2YtMTFjZi00ZDRlLTk4NWQtMDZkMDBmNTY0ZGM1IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=5ae643ab6fb57cff89919cc7311b3f58b7de2a7d4ad8e1f0a49683f10985199e",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "1af64c572d2a8970fe125f158d155cd73745c87bbfc9aa4e4d21794c804df8d6",
+        "redirectedTo": "https://image-cache.xingcdn.com/images/attachments/504/268/444/original/f379fecc_3c4f_45a2_bbd1_f04b80cb3f74.jpg?Expires=1775123399&Signature=Ci9qDuKPWUTqdD3Hc5D6uVR6LMYkB9PzxHX0Y8nb2Etr~idfzJGwp~-3niFW2YO82tpUFibTNQgwldk0ksG4LNCM73ZOg-F8mtr0m37qUIj3tE67KxGiMvAgf7OwDFByd0NYPzn5JtdpYayGaSXHztxJykGVE~vm6JljjkucI7sn24TysJrrrLWZdN6DaWR~6S5s6PaQwo71Ogpjy0V0r54-RGLacy2dDz5hhsnTUyqHJKwNxsQQJrAekL848f1i-JlqDyM4FEk6LkksKD~6QGIJ-igxpDil~Z7U2pYVStRonQTFrcewYiuQC3yU35N-N6Tx-cYjwR5Vr0avefiQPg__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "initiators": [],
+        "time": 0.2968190000010509
+      },
+      {
+        "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNGFlN2M5MzMtOTFmNy00MDQzLTg0OWYtMDc0YjU0NzQ4YzNkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=93b2ea72ffd49dfe230a7559a954ac4c3f4bcbeaab3ba84501c00ed56490dc47",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "4b2538bb60a9409d25b6fd7d3d04be8ff5bfddd086ae2ac946bd36a9bcf808cb",
+        "redirectedTo": "https://image-cache.xingcdn.com/images/attachments/151/489/115/original/0c91d465_7209_4a9a_8087_084b202bbc4b.jpg?Expires=1775124186&Signature=RJuZnZaf7cDNNxIXfRHvQzUd8xuuML2b3JyPEehwpgnwZjWSbQl2f64BlkCApD3YMdZI~6Mk~k9SaD3zudzds~Xd4mSnpvXC~I18rdY6Tvonvb0PpiPCQeyTDFaZTloui6XL392ieIPFlnHUsoerNxURM20DRRsD-3I3iJKmT6VyQ1Pm2aGFqIR-Yi3H2z4LhNoxy-0lTS513VymiX6wYALb~qZ0YRp-un3jgovHTLv0K2HGVt4B03h4Cs0a6kvzcU5lXyDkryXnnSYdoutzSYew7AY65Tdj6jAn8QlIOKw1bMhrqP3bNhfYCR63PF1eTGYW1iajFHICjnVg1ajOMw__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "initiators": [],
+        "time": 0.29643399999986286
+      },
+      {
+        "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjBlNmI3MGUtODg4Zi00ZjdkLWI0ZmYtOWJmMGYwMzIxYjNmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=06e67874c77307bff1f785c6023de187d708289e5e6336e54feb8a715fb91b15",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "442f20ec7b0fba03ab85bc9757522856a2869645a3c1a5516a8bb1b524993d5b",
+        "redirectedTo": "https://image-cache.xingcdn.com/images/attachments/270/947/109/original/caf14c6a_2972_454f_bcbc_9a1285bb7259.jpg?Expires=1775123449&Signature=N5Fm-ufxVFF1R8KbYgvMbjZ--Fvkb6XjqUvrEHAWvIGBbSuqV62-EsrWs0JETdJ2EvcH0TDtcDndNyA5TPOwUySqjBEkzuJLDlNzK1a4wKXM0G~6jfIFw9r9EbwuS0h~Wy168YiFSn~amKFQZGM5OD~C4fln-mBfgOtIMW5JwZPL9IfbOszt3cr3f-h26Ek1eo0gzYzGAOvm6eTM4Ifigk4iXZwkpjQdXGkztKDhoH9U-OjzUZmDiAQGrne2~07kS4d8mqBDd2inJrzfY19QlIs2NeUnLYcudSjZro0oyMnvPgbuYuZHuE4YJdyQJVjTPFdfEyLQHbqqW-UMaSsahQ__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "initiators": [],
+        "time": 0.2965989999993326
+      },
+      {
+        "url": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYTVlNWQwODYtZWNmMC00MTVkLWE1NTQtN2YzNjNhZWQ0NDk5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=f93cbdc701c96356a19f9751ef304c33c477798d03f24535633a9e94845222a7",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "2279bc2a11797e9013482df3d242258a5efd79b18017b4582d90b29bfee932f7",
+        "redirectedTo": "https://image-cache.xingcdn.com/images/attachments/592/373/769/original/ff4433fe_2eff_481b_b3a9_693ca63a7742.jpg?Expires=1775123779&Signature=r3ByUS13-AvRPHkXogbK4RszjIQrZVdZxQYGZTogBWTDHgavOueGjVgC5ZfGe7QPTJT573iACpitQIl3Qwy5HGpxisjypBWUPsDsy~7J9d506u-CWQTdeKAWAXJYBJJGyRFXLcGx9iAddQnErEyVKGsmNuB3XBtB3YJzwiP7TR8vh2FFVIOAd54hJs4amSNnFdsB3ICHbtNtIa2Psfrj7oxuPyJBkdOGbWI~xgrGHYjIycF~OGn8U3wlJ0LmYSDk48Kkq37TVg7FeKSJO8qzYb2BxnAit-rYxQsNmZpMz70b2kTGz1vVd7tgmrC6H~6~ptZGGjxPeGUrvzC0VDxR0w__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "initiators": [],
+        "time": 0.29685199999948964
+      },
+      {
+        "url": "https://www.xing.com/api/unified-underdog",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 428,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "set-cookie": "visitor_id=f0dfa57a-bba5-43de-9118-b8ef4d59d30b; Max-Age=31536000; Domain=.xing.com; Path=/; Expires=Wed, 31 Mar 2027 21:50:37 GMT; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-81dbb839fea11110.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-9e80ccf78b6c007b.js",
+          "https://static.xingcdn.com/crate/jobs-section-a5d62286/main-jcqrxh4f.js"
+        ],
+        "time": 2.4526999999998225
+      },
+      {
+        "url": "https://www.xing.com/api/unified-underdog",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "set-cookie": "visitor_id=f0dfa57a-bba5-43de-9118-b8ef4d59d30b; Max-Age=31536000; Domain=.xing.com; Path=/; Expires=Wed, 31 Mar 2027 21:50:37 GMT; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-81dbb839fea11110.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-9e80ccf78b6c007b.js",
+          "https://static.xingcdn.com/crate/jobs-section-a5d62286/main-jcqrxh4f.js"
+        ],
+        "time": 2.452744000000166
+      },
+      {
+        "url": "https://www.xing.com/api/unified-underdog",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.xing.com",
+          "set-cookie": "visitor_id=f0dfa57a-bba5-43de-9118-b8ef4d59d30b; Max-Age=31536000; Domain=.xing.com; Path=/; Expires=Wed, 31 Mar 2027 21:50:37 GMT; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-81dbb839fea11110.js",
+          "https://static.xingcdn.com/crate/runtime/chunk-9e80ccf78b6c007b.js",
+          "https://static.xingcdn.com/crate/jobs-section-a5d62286/main-jcqrxh4f.js"
+        ],
+        "time": 2.4643169999999373
+      },
+      {
+        "url": "https://image-cache.xingcdn.com/images/attachments/151/489/115/original/0c91d465_7209_4a9a_8087_084b202bbc4b.jpg?Expires=1775124186&Signature=RJuZnZaf7cDNNxIXfRHvQzUd8xuuML2b3JyPEehwpgnwZjWSbQl2f64BlkCApD3YMdZI~6Mk~k9SaD3zudzds~Xd4mSnpvXC~I18rdY6Tvonvb0PpiPCQeyTDFaZTloui6XL392ieIPFlnHUsoerNxURM20DRRsD-3I3iJKmT6VyQ1Pm2aGFqIR-Yi3H2z4LhNoxy-0lTS513VymiX6wYALb~qZ0YRp-un3jgovHTLv0K2HGVt4B03h4Cs0a6kvzcU5lXyDkryXnnSYdoutzSYew7AY65Tdj6jAn8QlIOKw1bMhrqP3bNhfYCR63PF1eTGYW1iajFHICjnVg1ajOMw__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2464,
+        "remoteIPAddress": "18.244.214.118",
+        "responseHeaders": {
+          "etag": "\"3a0ec19cf7c22693ae9015ca9b301c7c\""
+        },
+        "responseBodyHash": "4b2538bb60a9409d25b6fd7d3d04be8ff5bfddd086ae2ac946bd36a9bcf808cb",
+        "redirectedFrom": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNGFlN2M5MzMtOTFmNy00MDQzLTg0OWYtMDc0YjU0NzQ4YzNkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=93b2ea72ffd49dfe230a7559a954ac4c3f4bcbeaab3ba84501c00ed56490dc47",
+        "initiators": [],
+        "time": 2.1074250000001484
+      },
+      {
+        "url": "https://image-cache.xingcdn.com/images/attachments/270/947/109/original/caf14c6a_2972_454f_bcbc_9a1285bb7259.jpg?Expires=1775123449&Signature=N5Fm-ufxVFF1R8KbYgvMbjZ--Fvkb6XjqUvrEHAWvIGBbSuqV62-EsrWs0JETdJ2EvcH0TDtcDndNyA5TPOwUySqjBEkzuJLDlNzK1a4wKXM0G~6jfIFw9r9EbwuS0h~Wy168YiFSn~amKFQZGM5OD~C4fln-mBfgOtIMW5JwZPL9IfbOszt3cr3f-h26Ek1eo0gzYzGAOvm6eTM4Ifigk4iXZwkpjQdXGkztKDhoH9U-OjzUZmDiAQGrne2~07kS4d8mqBDd2inJrzfY19QlIs2NeUnLYcudSjZro0oyMnvPgbuYuZHuE4YJdyQJVjTPFdfEyLQHbqqW-UMaSsahQ__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2587,
+        "remoteIPAddress": "18.244.214.118",
+        "responseHeaders": {
+          "etag": "\"1de8a99dd26b7ff7274136fdd84c9033\""
+        },
+        "responseBodyHash": "442f20ec7b0fba03ab85bc9757522856a2869645a3c1a5516a8bb1b524993d5b",
+        "redirectedFrom": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjBlNmI3MGUtODg4Zi00ZjdkLWI0ZmYtOWJmMGYwMzIxYjNmIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=06e67874c77307bff1f785c6023de187d708289e5e6336e54feb8a715fb91b15",
+        "initiators": [],
+        "time": 2.106349000001501
+      },
+      {
+        "url": "https://image-cache.xingcdn.com/images/attachments/504/268/444/original/f379fecc_3c4f_45a2_bbd1_f04b80cb3f74.jpg?Expires=1775123399&Signature=Ci9qDuKPWUTqdD3Hc5D6uVR6LMYkB9PzxHX0Y8nb2Etr~idfzJGwp~-3niFW2YO82tpUFibTNQgwldk0ksG4LNCM73ZOg-F8mtr0m37qUIj3tE67KxGiMvAgf7OwDFByd0NYPzn5JtdpYayGaSXHztxJykGVE~vm6JljjkucI7sn24TysJrrrLWZdN6DaWR~6S5s6PaQwo71Ogpjy0V0r54-RGLacy2dDz5hhsnTUyqHJKwNxsQQJrAekL848f1i-JlqDyM4FEk6LkksKD~6QGIJ-igxpDil~Z7U2pYVStRonQTFrcewYiuQC3yU35N-N6Tx-cYjwR5Vr0avefiQPg__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4668,
+        "remoteIPAddress": "18.244.214.118",
+        "responseHeaders": {
+          "etag": "\"05b19f512cde3301240f95f45bf52129\""
+        },
+        "responseBodyHash": "1af64c572d2a8970fe125f158d155cd73745c87bbfc9aa4e4d21794c804df8d6",
+        "redirectedFrom": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNWJjOGEzM2YtMTFjZi00ZDRlLTk4NWQtMDZkMDBmNTY0ZGM1IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=5ae643ab6fb57cff89919cc7311b3f58b7de2a7d4ad8e1f0a49683f10985199e",
+        "initiators": [],
+        "time": 2.105735999999524
+      },
+      {
+        "url": "https://image-cache.xingcdn.com/images/attachments/592/373/769/original/ff4433fe_2eff_481b_b3a9_693ca63a7742.jpg?Expires=1775123779&Signature=r3ByUS13-AvRPHkXogbK4RszjIQrZVdZxQYGZTogBWTDHgavOueGjVgC5ZfGe7QPTJT573iACpitQIl3Qwy5HGpxisjypBWUPsDsy~7J9d506u-CWQTdeKAWAXJYBJJGyRFXLcGx9iAddQnErEyVKGsmNuB3XBtB3YJzwiP7TR8vh2FFVIOAd54hJs4amSNnFdsB3ICHbtNtIa2Psfrj7oxuPyJBkdOGbWI~xgrGHYjIycF~OGn8U3wlJ0LmYSDk48Kkq37TVg7FeKSJO8qzYb2BxnAit-rYxQsNmZpMz70b2kTGz1vVd7tgmrC6H~6~ptZGGjxPeGUrvzC0VDxR0w__&Key-Pair-Id=APKAJ7DHXHPGL3QFZP4Q",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2329,
+        "remoteIPAddress": "18.244.214.118",
+        "responseHeaders": {
+          "etag": "\"d361898da6197540a3adbeab55100129\""
+        },
+        "responseBodyHash": "2279bc2a11797e9013482df3d242258a5efd79b18017b4582d90b29bfee932f7",
+        "redirectedFrom": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiYTVlNWQwODYtZWNmMC00MTVkLWE1NTQtN2YzNjNhZWQ0NDk5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=f93cbdc701c96356a19f9751ef304c33c477798d03f24535633a9e94845222a7",
+        "initiators": [],
+        "time": 2.106502000000546
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/traces",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 61,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 2.0862840000008873
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/logs",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://ingress.eu-west-1.aws.dash0.com/v1/logs"
+        ],
+        "time": 0.586565999999948
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/traces",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://ingress.eu-west-1.aws.dash0.com/v1/traces"
+        ],
+        "time": 0.5869609999990644
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/traces",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://ingress.eu-west-1.aws.dash0.com/v1/traces"
+        ],
+        "time": 0.5855639999990672
+      },
+      {
+        "url": "https://stan.xing.com/stm-v1.ef4c6e25.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 99127,
+        "remoteIPAddress": "18.244.214.49",
+        "responseHeaders": {
+          "etag": "\"60940-64de88d70df40-gzip\""
+        },
+        "responseBodyHash": "b22782651fce422ee9a8156b9e0be6b8a8faa575b502ff43b3751f4313b80826",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.html"
+        ],
+        "time": 0.41972700000042096
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/languages.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 594,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=60",
+          "etag": "\"963450158ab2ccc3471eada588444540\"",
+          "expires": "Tue, 31 Mar 2026 21:51:40 GMT"
+        },
+        "responseBodyHash": "eb3f4cf387fca0337770c0919834536dca1fc6c95ec5d142c46537a0f20ec14b",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.42717000000084226
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/languages.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:40 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/languages.json"
+        ],
+        "time": 0.24945300000035786
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 122664,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"a9f3580d5d0642b308ac7b2829edc215\"",
+          "expires": "Wed, 31 Mar 2027 12:33:31 GMT"
+        },
+        "responseBodyHash": "ce5b2fb0eded98fb67295a3a4e6d31fc903028ca924517ca7a3eecd53fdf4b4b",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.07761400000163121
+      },
+      {
+        "url": "https://www.xing.com/assets/frontend_minified/img/shared/xing_r1.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 567,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "expires": "Fri, 28 Mar 2036 21:50:40 GMT"
+        },
+        "responseBodyHash": "3f0eabf788af569ca2de5609839eb6f06d886be1018283cc637d1ecdba577038",
+        "initiators": [],
+        "time": 0.18113400000038382
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/languages.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:40 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/languages.json"
+        ],
+        "time": 0.17217400000117777
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/languages.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=60",
+          "etag": "\"963450158ab2ccc3471eada588444540\"",
+          "expires": "Tue, 31 Mar 2026 21:51:40 GMT"
+        },
+        "responseBodyHash": "eb3f4cf387fca0337770c0919834536dca1fc6c95ec5d142c46537a0f20ec14b",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+          "https://app.usercentrics.eu/browser-ui/latest/loader.js"
+        ],
+        "time": 0.17420599999968545
+      },
+      {
+        "url": "https://www.xing.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 549,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "expires": "Fri, 28 Mar 2036 21:50:40 GMT"
+        },
+        "responseBodyHash": "3f0eabf788af569ca2de5609839eb6f06d886be1018283cc637d1ecdba577038",
+        "initiators": [],
+        "time": 0.1524730000001
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 10225,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=60",
+          "etag": "\"346b697a47107b14123988031d0696b5\"",
+          "expires": "Tue, 31 Mar 2026 21:51:41 GMT"
+        },
+        "responseBodyHash": "abfc1ddade9f08faa19026e5aa278a49457c97bb81b1b9c8c233eb5392fb8e37",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.3588880000006611
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/en.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:41 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/en.json"
+        ],
+        "time": 0.17606399999931455
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/en.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:41 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/en.json"
+        ],
+        "time": 0.1743209999985993
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/Tr_3B1GDkkB1q2/latest/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=60",
+          "etag": "\"346b697a47107b14123988031d0696b5\"",
+          "expires": "Tue, 31 Mar 2026 21:51:41 GMT"
+        },
+        "responseBodyHash": "abfc1ddade9f08faa19026e5aa278a49457c97bb81b1b9c8c233eb5392fb8e37",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+          "https://app.usercentrics.eu/browser-ui/latest/loader.js"
+        ],
+        "time": 0.3391990000000078
+      },
+      {
+        "url": "https://www.xing.com/cross-domain-bridge.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 5525,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8563f915516318c564b1a4b4d4005778294178cfac736d0ed7dd5afa86d4cd50",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.15547499999956926
+      },
+      {
+        "url": "https://www.xing.com/cross-domain-bridge.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 5525,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "cache-control": "no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8563f915516318c564b1a4b4d4005778294178cfac736d0ed7dd5afa86d4cd50",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.2778149999994639
+      },
+      {
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=Tr_3B1GDkkB1q2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 816,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "cache-control": "public,max-age=1800,no-transform",
+          "etag": "\"3702ada73b8951017b8451cbd6a96523\"",
+          "expires": "Tue, 31 Mar 2026 21:55:35 GMT"
+        },
+        "responseBodyHash": "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.021155000000362634
+      },
+      {
+        "url": "https://stan.xing.com/DefaultData-dfeb9fda.c9f5c932.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1351,
+        "remoteIPAddress": "18.244.214.49",
+        "responseHeaders": {
+          "etag": "\"960-64de88d70df40-gzip\""
+        },
+        "responseBodyHash": "457b037f1473880430e64f0897901fa106288e7975c17a957aae822ea8948415",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.5211830000007467
+      },
+      {
+        "url": "https://stan.xing.com/TcfData-96baa451.c7cb95e1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7900,
+        "remoteIPAddress": "18.244.214.49",
+        "responseHeaders": {
+          "etag": "\"7180-64de88d70df40-gzip\""
+        },
+        "responseBodyHash": "a4b5d9b41049959887c00636b24af097f4c6aefc52c5a2df3b10b4193c428c56",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.195160000001124
+      },
+      {
+        "url": "https://api.usercentrics.eu/translations/translations-en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3738,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=345600, s-maxage=86400",
+          "etag": "\"86bc1ebec54b76229a0663520d2f0b1f\"",
+          "expires": "Wed, 01 Apr 2026 18:16:08 GMT"
+        },
+        "responseBodyHash": "e92b27874ef8a2d8da44e2ae10e2bfa15de1f2f230fb60b3b175db9853151eef",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.22622899999987567
+      },
+      {
+        "url": "https://api.usercentrics.eu/translations/translations-en.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:42 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/translations/translations-en.json"
+        ],
+        "time": 0.2039889999996376
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/traces",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 84,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.17077300000164541
+      },
+      {
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=Tr_3B1GDkkB1q2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "cache-control": "public,max-age=1800,no-transform",
+          "etag": "\"3702ada73b8951017b8451cbd6a96523\"",
+          "expires": "Tue, 31 Mar 2026 21:55:35 GMT"
+        },
+        "responseBodyHash": "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.001277999999729218
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/TcfData-628267aa-f861a31f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7786,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"659e32afc80b0b44392712a853b436c4\"",
+          "expires": "Wed, 31 Mar 2027 12:34:32 GMT"
+        },
+        "responseBodyHash": "0b3ecda14ef5b62d2b629b4e2dcd31dd578a7168ca9a4b79033c58b17004bde2",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.10820099999909871
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/DefaultData-4516b0d2-37e97984.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 993,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"66b2a2f8687cf78e9cf9e3c230432406\"",
+          "expires": "Wed, 31 Mar 2027 12:33:35 GMT"
+        },
+        "responseBodyHash": "ae29aec9482e0adfa85970beb5ce5aaf4dc0e7290f6ba171da41ee74840682cf",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/TcfData-628267aa-f861a31f.js"
+        ],
+        "time": 0.022417000000132248
+      },
+      {
+        "url": "https://aggregator.service.usercentrics.eu/aggregate/en?templates=1fygolR7BYKCAJ@3.0.0,4b6s58GTvBCsDq@2.1.0,9Q2qrmB3@7.4.12,AOgl5ztxY@2.0.1,AX-MIs1I0rCMI5@3.0.0,BJz7qNsdj-7@15.8.20,ByjH5VouiZ7@6.4.4,ByzZ5EsOsZX@10.3.8,CNJZmL_FGd7qaF@3.0.0,CguMb4Rq@4.0.4,DT_3Di2WWG8PHj@1.2.0,Gd0bshOBs@12.2.15,GmlqohXAwJz8nq@9.5.1,H1Vl5NidjWX@40.18.46,H1oylqNodiWm@8.1.1,J05PmJuvt36qTe@1.0.9,JQ2XQxIk@9.6.11,LXa6PLcSj6knKc@5.1.0,MrbQUcLG4UQf0c@8.5.0,N5uWOIPUQP6Tr5@11.5.0,O6yaG8moo2nzpK@8.5.1,P7XVa18qr@2.0.4,Rns3hauXKAjbv5@12.7.1,Skj79NodobQ@8.1.6,SyUQ54odobQ@6.4.6,UY8j2uDDGvtdWv@5.0.0,V1ENirOT6@1.2.2,Wuncqbz1ehWuqC@10.5.0,XC6fk7gH92THGm@3.0.0,XJGT8f-58@1.0.6,XYQZBUojc@9.6.4,Z0TcXjY0P@1.3.7,acLRX8vKi9prYA@9.5.1,b2ulUEBsa4pYpi@3.0.0,cfADcn3E3@2.1.2,cvY5WeFtOysBQ4@2.1.0,dkIZzDFdBBwXH1@9.6.2,dvaNJlF76lxXOn@2.1.0,kvh19L2hvGYR_g@2.2.0,lEAV2WxHj@1.0.1,m_nN1ImW7fVp6J@2.4.0,qEs4t49Rg@1.1.1,qT3QhK5ytgZrFk@9.7.2,rJJjcVouoZ7@8.3.6,td-ZcI28Gd6oKT@8.5.1,vPKlLp_Oh@1.1.2,vtoY2LcrVB4gHm@1.0.1,w84yzXVeHAG7B2@6.0.0",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 22098,
+        "remoteIPAddress": "34.120.28.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=2592000",
+          "etag": "\"ZVkOP7ga21R04dEndKw2rNCoe7g=\""
+        },
+        "responseBodyHash": "8d0e71052edf0dd9bf85205f9ecd0f8796e3f4e80bedf2db9ef098b5c3320453",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.5593000000008033
+      },
+      {
+        "url": "https://api.usercentrics.eu/translations/translations-en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=345600, s-maxage=86400",
+          "etag": "\"86bc1ebec54b76229a0663520d2f0b1f\"",
+          "expires": "Wed, 01 Apr 2026 18:16:08 GMT"
+        },
+        "responseBodyHash": "e92b27874ef8a2d8da44e2ae10e2bfa15de1f2f230fb60b3b175db9853151eef",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.1828769999992801
+      },
+      {
+        "url": "https://aggregator.service.usercentrics.eu/aggregate/en?templates=1fygolR7BYKCAJ@3.0.0,4b6s58GTvBCsDq@2.1.0,9Q2qrmB3@7.4.12,AOgl5ztxY@2.0.1,AX-MIs1I0rCMI5@3.0.0,BJz7qNsdj-7@15.8.20,ByjH5VouiZ7@6.4.4,ByzZ5EsOsZX@10.3.8,CNJZmL_FGd7qaF@3.0.0,CguMb4Rq@4.0.4,DT_3Di2WWG8PHj@1.2.0,Gd0bshOBs@12.2.15,GmlqohXAwJz8nq@9.5.1,H1Vl5NidjWX@40.18.46,H1oylqNodiWm@8.1.1,J05PmJuvt36qTe@1.0.9,JQ2XQxIk@9.6.11,LXa6PLcSj6knKc@5.1.0,MrbQUcLG4UQf0c@8.5.0,N5uWOIPUQP6Tr5@11.5.0,O6yaG8moo2nzpK@8.5.1,P7XVa18qr@2.0.4,Rns3hauXKAjbv5@12.7.1,Skj79NodobQ@8.1.6,SyUQ54odobQ@6.4.6,UY8j2uDDGvtdWv@5.0.0,V1ENirOT6@1.2.2,Wuncqbz1ehWuqC@10.5.0,XC6fk7gH92THGm@3.0.0,XJGT8f-58@1.0.6,XYQZBUojc@9.6.4,Z0TcXjY0P@1.3.7,acLRX8vKi9prYA@9.5.1,b2ulUEBsa4pYpi@3.0.0,cfADcn3E3@2.1.2,cvY5WeFtOysBQ4@2.1.0,dkIZzDFdBBwXH1@9.6.2,dvaNJlF76lxXOn@2.1.0,kvh19L2hvGYR_g@2.2.0,lEAV2WxHj@1.0.1,m_nN1ImW7fVp6J@2.4.0,qEs4t49Rg@1.1.1,qT3QhK5ytgZrFk@9.7.2,rJJjcVouoZ7@8.3.6,td-ZcI28Gd6oKT@8.5.1,vPKlLp_Oh@1.1.2,vtoY2LcrVB4gHm@1.0.1,w84yzXVeHAG7B2@6.0.0",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.120.28.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://aggregator.service.usercentrics.eu/aggregate/en?templates=1fygolR7BYKCAJ@3.0.0,4b6s58GTvBCsDq@2.1.0,9Q2qrmB3@7.4.12,AOgl5ztxY@2.0.1,AX-MIs1I0rCMI5@3.0.0,BJz7qNsdj-7@15.8.20,ByjH5VouiZ7@6.4.4,ByzZ5EsOsZX@10.3.8,CNJZmL_FGd7qaF@3.0.0,CguMb4Rq@4.0.4,DT_3Di2WWG8PHj@1.2.0,Gd0bshOBs@12.2.15,GmlqohXAwJz8nq@9.5.1,H1Vl5NidjWX@40.18.46,H1oylqNodiWm@8.1.1,J05PmJuvt36qTe@1.0.9,JQ2XQxIk@9.6.11,LXa6PLcSj6knKc@5.1.0,MrbQUcLG4UQf0c@8.5.0,N5uWOIPUQP6Tr5@11.5.0,O6yaG8moo2nzpK@8.5.1,P7XVa18qr@2.0.4,Rns3hauXKAjbv5@12.7.1,Skj79NodobQ@8.1.6,SyUQ54odobQ@6.4.6,UY8j2uDDGvtdWv@5.0.0,V1ENirOT6@1.2.2,Wuncqbz1ehWuqC@10.5.0,XC6fk7gH92THGm@3.0.0,XJGT8f-58@1.0.6,XYQZBUojc@9.6.4,Z0TcXjY0P@1.3.7,acLRX8vKi9prYA@9.5.1,b2ulUEBsa4pYpi@3.0.0,cfADcn3E3@2.1.2,cvY5WeFtOysBQ4@2.1.0,dkIZzDFdBBwXH1@9.6.2,dvaNJlF76lxXOn@2.1.0,kvh19L2hvGYR_g@2.2.0,lEAV2WxHj@1.0.1,m_nN1ImW7fVp6J@2.4.0,qEs4t49Rg@1.1.1,qT3QhK5ytgZrFk@9.7.2,rJJjcVouoZ7@8.3.6,td-ZcI28Gd6oKT@8.5.1,vPKlLp_Oh@1.1.2,vtoY2LcrVB4gHm@1.0.1,w84yzXVeHAG7B2@6.0.0"
+        ],
+        "time": 0.5113789999995788
+      },
+      {
+        "url": "https://api.usercentrics.eu/translations/translations-en.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:42 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/translations/translations-en.json"
+        ],
+        "time": 0.1635630000000674
+      },
+      {
+        "url": "https://api.usercentrics.eu/tcfac/acp.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 16062,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, s-maxage=7200",
+          "etag": "\"02f790c66a3f2ebc3698a58e735ccf79\"",
+          "expires": "Tue, 31 Mar 2026 21:56:46 GMT"
+        },
+        "responseBodyHash": "3892f8028b2ce45e96b06d8a9e43d472c206a17d931eeb209ce9d8f2812a99c9",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/TcfData-628267aa-f861a31f.js"
+        ],
+        "time": 0.19502699999975448
+      },
+      {
+        "url": "https://api.usercentrics.eu/tcfac/acp.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:42 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/tcfac/acp.json"
+        ],
+        "time": 0.16762399999970512
+      },
+      {
+        "url": "https://api.usercentrics.eu/gvl/v3/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 98083,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, s-maxage=7200",
+          "etag": "\"595cb2ddeef6eb3fd822a247b1ec4317\"",
+          "expires": "Tue, 31 Mar 2026 23:36:17 GMT"
+        },
+        "responseBodyHash": "69a2c3ed0a7d72583dce730bfc289758238571360ab3d42473035c966d6fab34",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/TcfData-628267aa-f861a31f.js"
+        ],
+        "time": 0.13550000000032014
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/TcfUI-b8cdf0b3-f1e3f2ac.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 687,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"9b55fa01dd99644484fbba4e55695e39\"",
+          "expires": "Wed, 31 Mar 2027 12:34:36 GMT"
+        },
+        "responseBodyHash": "6c80a2a4b860d9c6cf3b148930348546443d43938ce63f73f08f1fa2e43f3294",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.022329999999783468
+      },
+      {
+        "url": "https://api.usercentrics.eu/tcfac/acp.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, s-maxage=7200",
+          "etag": "\"02f790c66a3f2ebc3698a58e735ccf79\"",
+          "expires": "Tue, 31 Mar 2026 21:56:46 GMT"
+        },
+        "responseBodyHash": "3892f8028b2ce45e96b06d8a9e43d472c206a17d931eeb209ce9d8f2812a99c9",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js",
+          "https://stan.xing.com/TcfData-96baa451.c7cb95e1.js"
+        ],
+        "time": 0.18742000000020198
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/FirstLayerCustomization-6ab7dbc6-16dc969f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1107,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"2d6d8f2f9e257bba73eb5a3c89c5ce69\"",
+          "expires": "Wed, 31 Mar 2027 12:33:37 GMT"
+        },
+        "responseBodyHash": "00db969c79370ef3f2b470f7e0577346af0d804d3a54381987fd72c03c46d0ad",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/TcfUI-b8cdf0b3-f1e3f2ac.js"
+        ],
+        "time": 0.01738900000054855
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/ButtonsCustomization-4ca89819-1320ab1d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 271,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"6d9bfd1490546b01aa7bb3c1ff635643\"",
+          "expires": "Wed, 31 Mar 2027 12:33:37 GMT"
+        },
+        "responseBodyHash": "7f7aae1b6c5ecc92bb7a77e36b3f75d116f6f7f797da238c49902de2dbf66827",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/TcfUI-b8cdf0b3-f1e3f2ac.js"
+        ],
+        "time": 0.018663000000742613
+      },
+      {
+        "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 201,
+        "size": 74,
+        "remoteIPAddress": "35.201.111.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.7013889999998355
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/PrivacyButton-d82ac1fc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2474,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"a77744557d82b8829a9f411133293d9b\"",
+          "expires": "Wed, 31 Mar 2027 12:33:37 GMT"
+        },
+        "responseBodyHash": "71b398bbc4f02021aac7221138bb98ef6b7ae4a8173dec386ecba0fe008349c2",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.023982999999134336
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/index-ce7ed161.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 862,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"c610046a9e3ff6b970b2967bcbfdf0df\"",
+          "expires": "Wed, 31 Mar 2027 12:33:37 GMT"
+        },
+        "responseBodyHash": "ded33c697fddd27dd4fc32d787392f1dc8bca469a4e58664d220997e79415c3a",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js"
+        ],
+        "time": 0.02248399999916728
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/index-ce9d6d6d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7615,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"5611c75c039fcc985a53e7e5622623bc\"",
+          "expires": "Wed, 31 Mar 2027 12:34:37 GMT"
+        },
+        "responseBodyHash": "dca4ff36164a273d5044484f47e1bd0dd60a19b9e9ffe7a642bdf39de8cbed56",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index-ce7ed161.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.02022200000101293
+      },
+      {
+        "url": "https://uct.service.usercentrics.eu/uct?v=1&sid=Tr_3B1GDkkB1q2&t=1&abv=&r=https%3A%2F%2Fwww.xing.com%2F&cb=1774993843063",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 236,
+        "remoteIPAddress": "34.95.108.180",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.5261289999998553
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/SaveButton-9b0518d8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 657,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"e418282f3e53ac3cb29166abac052ea6\"",
+          "expires": "Wed, 31 Mar 2027 12:33:38 GMT"
+        },
+        "responseBodyHash": "0c4438581ba80f970cd8402f611bb8084a38cced0300ccbd288eb6413ad923d0",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index-ce9d6d6d.js"
+        ],
+        "time": 0.028292000000874395
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/VirtualServiceItem-c9f2ea00.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 49924,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"be6f539b2975e4d8fe8105f64dd49dfc\"",
+          "expires": "Wed, 31 Mar 2027 12:33:38 GMT"
+        },
+        "responseBodyHash": "2d0a018266dbfe54088392d9a414f468720428b2641d8f6b4caf415ec9e104fe",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index-ce9d6d6d.js"
+        ],
+        "time": 0.027721000000383356
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/3.96.0/sort-c42e380d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 256,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"bdb59fb17be2a4c79d6fa424a631309a\"",
+          "expires": "Wed, 31 Mar 2027 12:34:37 GMT"
+        },
+        "responseBodyHash": "2c08c6b897f446abbad5b0c1a4bac5812768f8a3c454864d5186b07c041c631b",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index-ce9d6d6d.js"
+        ],
+        "time": 0.028440000000045984
+      },
+      {
+        "url": "https://api.usercentrics.eu/tcfac/acp.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:50:43 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/tcfac/acp.json"
+        ],
+        "time": -0.12205799999901501
+      },
+      {
+        "url": "https://api.usercentrics.eu/gvl/v3/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, s-maxage=7200",
+          "etag": "\"595cb2ddeef6eb3fd822a247b1ec4317\"",
+          "expires": "Tue, 31 Mar 2026 23:36:17 GMT"
+        },
+        "responseBodyHash": "69a2c3ed0a7d72583dce730bfc289758238571360ab3d42473035c966d6fab34",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js",
+          "https://stan.xing.com/TcfData-96baa451.c7cb95e1.js"
+        ],
+        "time": 0.0014739999987796182
+      },
+      {
+        "url": "https://stan.xing.com/TcfUI-19626f03.f3fc3133.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1952,
+        "remoteIPAddress": "18.244.214.49",
+        "responseHeaders": {
+          "etag": "\"133d-64de88d70df40-gzip\""
+        },
+        "responseBodyHash": "dc1077422d2571420c892132c4218215952bfd6b5a3dac13acc78b126649df53",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.5287140000000363
+      },
+      {
+        "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "35.201.111.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://consent-api.service.consent.usercentrics.eu/consent/uw/3"
+        ],
+        "time": 0.22889799999938987
+      },
+      {
+        "url": "https://static.xingcdn.com/xemail/petrol/Logos/Xing-Logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1214,
+        "remoteIPAddress": "18.173.121.16",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31556926, immutable",
+          "etag": "W/\"c31a37aa233885ebf87d3fd34746e5f5\""
+        },
+        "responseBodyHash": "2d79792a03b702d1ed7d599ca813abf188c3bc593a2b3c7eb05e8dcb52eaa0fc",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js",
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js",
+          "https://app.usercentrics.eu/browser-ui/3.96.0/index-ce9d6d6d.js"
+        ],
+        "time": 0.019803999999567168
+      },
+      {
+        "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "35.201.111.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://consent-api.service.consent.usercentrics.eu/consent/uw/3"
+        ],
+        "time": 0.16999100000066392
+      },
+      {
+        "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 201,
+        "size": 15,
+        "remoteIPAddress": "35.201.111.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.33768700000109675
+      },
+      {
+        "url": "https://www.xing.com/analytics/web_tracking_data",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 372,
+        "remoteIPAddress": "109.233.159.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://stan.xing.com",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"b2f4838c69c01318a735606ab7e7dbf1\""
+        },
+        "responseBodyHash": "b2f4838c69c01318a735606ab7e7dbf112c22b9dc368936fdd93f49f95c50144",
+        "initiators": [
+          "https://stan.xing.com/stm-v1.ef4c6e25.js"
+        ],
+        "time": 0.15695700000105717
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/traces",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 84,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.17405599999983679
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/logs",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 84,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.1581659999992553
+      },
+      {
+        "url": "https://ingress.eu-west-1.aws.dash0.com/v1/traces",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 89,
+        "remoteIPAddress": "52.210.74.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0",
+        "initiators": [
+          "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js"
+        ],
+        "time": 0.31027499999981956
+      }
+    ],
+    "cookies": [
+      {
+        "name": "xing_csrf_token",
+        "domain": "www.xing.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "xing_csrf_checksum",
+        "domain": "www.xing.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "visitor_id",
+        "domain": ".xing.com",
+        "path": "/",
+        "expires": 1806529837111,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "userConsent",
+        "domain": "www.xing.com",
+        "path": "/",
+        "expires": 1806529833000,
+        "session": false
+      },
+      {
+        "name": "nwtPrevPage",
+        "domain": ".xing.com",
+        "path": "/",
+        "expires": 1774995633000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "c_",
+        "domain": ".xing.com",
+        "path": "/",
+        "expires": 1775080234941,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://static.xingcdn.com/crate/runtime/main-4bd9fabeb6b6a7de.js": {
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Event.prototype.timeStamp": 5,
+          "Date.prototype.getTime": 12,
+          "window.innerWidth": 12,
+          "window.innerHeight": 12,
+          "Navigator.prototype.connection": 12
+        },
+        "https://static.xingcdn.com/crate/entry-150bfe9b/main-mcd297p2.js": {
+          "window.localStorage": 3
+        },
+        "https://stan.xing.com/stm-v1.ef4c6e25.js": {
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie getter": 125,
+          "window.localStorage": 3,
+          "window.sessionStorage": 3,
+          "Navigator.prototype.languages": 3,
+          "Navigator.prototype.userAgent": 3
+        },
+        "https://static.xingcdn.com/crate/websocket-9c40af64/main-hoag8gcg.js": {
+          "Navigator.prototype.onLine": 3
+        },
+        "https://app.usercentrics.eu/browser-ui/latest/loader.js": {
+          "window.localStorage": 2,
+          "Navigator.prototype.userAgent": 8
+        },
+        "https://app.usercentrics.eu/browser-ui/3.96.0/index.module.js": {
+          "Navigator.prototype.userAgent": 400,
+          "window.localStorage": 4,
+          "window.sessionStorage": 3,
+          "window.innerHeight": 198,
+          "window.innerWidth": 198,
+          "Date.prototype.getTime": 2
+        },
+        "https://www.xing.com/cross-domain-bridge.html": {
+          "window.localStorage": 30
+        },
+        "about:blank": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://app.usercentrics.eu/browser-ui/3.96.0/VirtualServiceItem-c9f2ea00.js": {
+          "Navigator.prototype.userAgent": 2,
+          "window.devicePixelRatio": 6,
+          "window.innerWidth": 6
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

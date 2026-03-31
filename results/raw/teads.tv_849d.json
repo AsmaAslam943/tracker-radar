@@ -1,0 +1,50 @@
+{
+  "initialUrl": "https://teads.tv/",
+  "finalUrl": "https://cdn.teads.tv/redirect.html",
+  "timeout": false,
+  "testStarted": 1774992331758,
+  "testFinished": 1774992342866,
+  "data": {
+    "requests": [
+      {
+        "url": "https://teads.tv/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "52.49.32.141",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://cdn.teads.tv/redirect.html",
+        "initiators": [],
+        "time": 0.5241359999999986
+      },
+      {
+        "url": "https://cdn.teads.tv/redirect.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 5376,
+        "remoteIPAddress": "23.37.17.155",
+        "responseHeaders": {
+          "etag": "\"8a69844257e00e4df8af398c7f67c379\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e95484810ffbed5388ddfc811bedd19bf3c40c7e9c44df2438cc9c567536f81c",
+        "redirectedFrom": "https://teads.tv/",
+        "initiators": [],
+        "time": 0.9442369999997027
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

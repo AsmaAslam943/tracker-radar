@@ -1,0 +1,1524 @@
+{
+  "initialUrl": "https://dhl.com/",
+  "finalUrl": "https://www.dhl.com/us-en/home.html?locale=true",
+  "timeout": false,
+  "testStarted": 1774992188672,
+  "testFinished": 1774992197762,
+  "data": {
+    "requests": [
+      {
+        "url": "https://dhl.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "156.137.3.32",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "http://www.dhl.com/",
+        "initiators": [],
+        "time": 0.5594639999999345
+      },
+      {
+        "url": "http://www.dhl.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.dhl.com/",
+        "redirectedFrom": "https://dhl.com/",
+        "initiators": [],
+        "time": 0.0009570000001986045
+      },
+      {
+        "url": "https://www.dhl.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "set-cookie": "_abck=CD0BD72BA0DFD06C903445232E69B87A~-1~YAAQXskLFwocqeacAQAAzGnHRQ/c4EUjsu3jXdtc040i6Twx1O+AfwVc9Vq3HXbeJEm2fX7qlLcb1KihgMvG4dUZzb7CFV3YAanOKeTA695ve3e5zbomReRPxHevSDKNj+aRhQLurNJnncGCPAeUHp0y6h0PefilYDjieRZoCOoXpuzaWvB0+vWNE2FkCCyaSy+y3wqRyjIqSJrX3q0/uVPdug7m6+vR9fhEsnqlJYO0EzhmTOwnmFuTUFZspXK4Nztl0avjbelriVjwtyi/QDxtuH2qzAV5vBrU9vYX097+j1Mg2sWX1AbpvQcUwTQQC1Qeb2e9TGGg/2FXSsxj/SFU4+UkSRXUGc1h9A8OyxwI3kc/m1ilEtqcehGAwwzyhDELV+WGLf0t9PQmS+XY6hze1NVQLbgTTwMCFo9F7AnKj/Ovox89IJUJNOt5UtGV0d6E5v7rUPW4jDW4Kzp64paccO7bT0m+Bfs=~-1~-1~-1~-1~-1; Domain=.dhl.com; Path=/; Expires=Wed, 31 Mar 2027 21:23:09 GMT; Max-Age=31536000; SameSite=None; Secure\nbm_sz=C36F4CB2661E346D6C31613582E9800B~YAAQXskLFwscqeacAQAAzGnHRR8ad4+RnCFmhwceU47THm3EAnYplTTb8aePuU9ID2nhnEKQmMsCj44xmm2AaJqDxZl5rzr+Qh2LevY0V2Bjx6MR9IItA6uR/5PbPUWsA5TpvVVpIjpcgQpG/lQFvxCTjLtgTwWkCYtGOe3rido2f8MbkvLRXp3q7gMW7rNjahrvWBs7INXu2Y4lofPlsyFTxUYIcwU8hBDg30OvPJbTO6FSWsx67gsZ+jrArWzdzyygCOfDycXk2L8ycRfFfAsN+HyrGOR/xe9nvYlI9bhyFqMoauLRweEdeW9M8PU37DlkD/sGrVCGjSIUDq5f4TbCAO72e+IlkTc448gZ5u4gfGVwZ0bfE7LgQiEffSuyyLj+P2+pMpmR4KRZ3Gh+sx87EIyk+oLnJEiq~4403265~4403778; Domain=.dhl.com; Path=/; Expires=Wed, 01 Apr 2026 01:23:09 GMT; Max-Age=14400; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.dhl.com/us-en/home.html?locale=true",
+        "redirectedFrom": "http://www.dhl.com/",
+        "initiators": [],
+        "time": 0.1768790000005538
+      },
+      {
+        "url": "https://www.dhl.com/us-en/home.html?locale=true",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 29015,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache",
+          "expires": "Tue, 31 Mar 2026 21:23:10 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=8BC437F0D300738EF2316F4EA2D80EA5~000000000000000000000000000000~YAAQXskLFxUcqeacAQAAQ2rHRR8n9AyuTIcTaXaZFJleyNpCZCqZAU38HOTD6nFjSUabhSMJaQyC6GhHsIATA2nJvfdBpwOZQi9FPfgZ9wYazpJKHqG7fPAGVK54jAQnd8ouoNC4md7zRfmn5kTTHfMdXHv3rf4xNhkC9Io1+W6eCtCTEBhygO3LwARKNzamg9uYygxJFXKGRWUUbslZ+FtQczeuxZ+Z04epzHdM9LzoHOVD34cfyuPqSDJYhiyArV4hneh3DBaawK9BQoaJfQmcLqJzM08AgdMoJKlY2u+gLKvIvt2hc1Y28tBN5CS9pHkhpzgJFmXttwCOTn52IXakqCuNZDu57tkwOiUjlBi4BFAGyrDwtUOozsxKb6Pa7ovr7Oote5To4A==; Domain=.dhl.com; Path=/; Expires=Tue, 31 Mar 2026 23:23:10 GMT; Max-Age=7200; SameSite=None; Secure; HttpOnly\nbm_sz=C36F4CB2661E346D6C31613582E9800B~YAAQXskLFxYcqeacAQAAQ2rHRR+/8e8FlxEp9pzwobACg3bfBuKCYm+M8FJmMGSgcV3XgU3gqQfPHCr9NMMGoeuyEBgqgZgZVb8vB2oRfRdQtj9seZuTFh8RMKrD06f2w9uigh6GYPsBQwV7QZXAKePc3RvXiUOZy0p03Fe16IBl8c2E+XENR/Jh5fkGddQyyzgSL5mL1UiMnYn0XGn+SsgWRh3Rp0IoCITgCRr+nXq6bN0qUGP3Eo0YlnKrwo7Fycw2fjpfZuRDPz0y46BiJxw6ScgvQbrMqLgIdOASAkb153+f7KS+axq3WQTVJ2T0QF3BY9ynxqWHoLxznZ7rYckDWWsS+RYxQ3oK4dT+triegiM3El2+5Xx14tf+wCCKfM8+IqYOvcoFqbzf0rS4QwLLWhsaw4J7c02qm1qm7UQ=~4403265~4403778; Domain=.dhl.com; Path=/; Expires=Wed, 01 Apr 2026 01:23:09 GMT; Max-Age=14399; SameSite=None; Secure"
+        },
+        "responseBodyHash": "0597140db1aeb8b25d5e1eaf7cf77025aa30331c56f093358966a02cd0239d6e",
+        "redirectedFrom": "https://www.dhl.com/",
+        "initiators": [],
+        "time": 0.046227999999246094
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/css/bundle.da3de711750c77cc3431b839edb7f280.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 57804,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6497a-64ded4cb0b229-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "f3fbd349ae2ca08c038b8c8471e8f49d7d76d2289f6e1c424680d6901a259b7c",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04297399999995832
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/assets/fonts/default-15a7ed37f53bdda49a82.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 47140,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"b590-6437b0296442e\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "605f3244d74a0a73d44655556ff9b10da5622453026d48fb1caeaa6f8a8dc93d",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.0532679999996617
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/assets/fonts/default-2d649dcaa71ff88f7b8a.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 43920,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"a8fc-6142b9fabeff0\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "b0812a12ce2a25dd0610e2ef32df6fdcd99a6cb22bc464f69fbc43bd801ba51a",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.05705399999897054
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/assets/fonts/default-4bcce82160b8c6f178f0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 43296,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"a68c-6437b029655a7\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "bedf14b53b4cc1451f8fb2e12695e99d38b5a914365e2d90f0c18fbb77dae3e2",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.05949999999938882
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/assets/fonts/default-b8062306a9c370ef50f5.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 43916,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"a8f8-6437afc7180ed\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "5fd9f5b412f895f259ae1902d309d21e982b1419a7afbfbd7fee95e9b88e9df2",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.06233500000053027
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.b104a4a85c21511ada13e2c6e7552d37.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 703,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"1d-64ded4c3fb7ff\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "34a8d4f240f1b7a01d0472d5367e1bc57e17f70a12a91aae37dcac3b33b24732",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04448500000034983
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.d05025b207bba72df31c34e969931a07.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4118,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2533-64ded4c680099-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "e763a82649ff37698e3587de44c2a512ed5220962f9f53f4d58c814a3637c310",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.06259999999929278
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/css/bundle-utapi-ui.da3de711750c77cc3431b839edb7f280.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4966,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"700f-64ded4c0e18be-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "54e6a4e1b97e4c93f6bb9b873cf748b2a5821a20849a846928c8482588e42818",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.0446219999994355
+      },
+      {
+        "url": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 166482,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"726ba11b137f49ad72d00c748599490e:1774970270.97109\"",
+          "expires": "Tue, 31 Mar 2026 22:23:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "29c90fa1f29e6e7d48c9437e69bbab6a71af91b9b68bc957de81416327538516",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 2.649674000000232
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/country-selection-layer.min.a58e5e5f1b11023be42fe349da9f586e.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1425,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"947-64ded4cd11b1e-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "e01a02f1e8771f7ecaf682fefb5e58079ae0e556df8158836706728df1bd4a81",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04474099999970349
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/globalnewsflash.min.e57bd0becadaa020d978304d7101f23f.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2008,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"1478-64ded4c5dfa2b-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "d3f7fefa53ffd9c2ccd2e2372f8fbb53b55e4a9d41d81421902fcca10e85e495",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04492899999968358
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/navigation.min.e70d08a771b58646a7fc7865bb46bcd8.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5745,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"8912-64ded4c6abfbb-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "310e7dea7ac61f6477aff6841e26011de6fa96a9c15087785045e7b46bcdfb93",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.046499000000039814
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/page-headline.min.cda39a2d4d097abed26512ed647401c2.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1217,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"7b4-64ded4cf7f870-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "9cfd1b8b5e698f4a91fda2b15b961085608e5e3eda3bc25e8e73030821d1cd27",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04671500000040396
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/horizontal-ruler.min.c94fa38dda04776ffdb597473835e7ea.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 991,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"287-64ded4c6cd6e5-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "606c00660a729afd7f59d88046ab224e4b280390342bdb740a89ffc232f87247",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04688399999940884
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/voc-footer.min.829e210719f70d8e91e34ea063c935cb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2875,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2d49-64ded4cb2a62a-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "fd0ca16fafb85c27c3bedcffd2d9e54f83b433c21361fb94df4d41e715c2692e",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04705600000124832
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/go-to-top-button.min.370fdbb0fbfe144f69d2c7240d9588a7.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1070,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"296-64ded4c7e3ff8-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "cdbebdc51019d107dfff6d5ec334a11e2be7ba708dab190cc9d78563c227a9c2",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.04721799999970244
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/country-selection-layer.min.129c27945f0a3d5851ecf6a08843baa9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2129,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"be0-64ded4c6bf454-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "18bebaec4cb2cd9f16e4e234c34fa2c7aec4eef4b66c9786a618c69b8d3a50f1",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.3771409999990283
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/globalnewsflash.min.f6a3ec24b413f5bc4c83f36221d7ef62.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9555,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6ffb-64ded4c89ec48-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "aac3f9853a5fd2cb5e0aeeb836e6b9dfbc2c149d52d6d978fd9ceca4e1c0f32f",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.4791089999998803
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/logos/dhl-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1127,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"3c2-64ded8e3f7bd5-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "328777be6ed92ae88755009a974a1283abf795957a3df244576ed70f5de4e9c3",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.062326999999640975
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/navigation.min.e40a15eb1d46b2d19da7d88c82644e97.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6359,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4d24-64ded4c3d5a85-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "29b9bd0e9b93621e78b2d6234ce2aed98c30aa90338e650f3ce1f8d7374af42b",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.4964620000009745
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/page-headline.min.a4eed82b0d68ca1c9ff34615bba4798c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 947,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"16b-64ded4c843f24-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "04b69f54d38e1a2cd6cf8077147facca50bb3b0c7edac826ca71210583ddcf81",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.5164270000004763
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/marketing-stage-2730x1120/north-america-core-homepage-banner.web.1920.600.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2821952,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"2b0694-64df9cbc49484\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "ec474d8ee1ffede9428b90e09deb92dfbf06a0c9a7b57eba4e1c03a2b385d3c0",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.29808799999955227
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/icons/general-icons/glo-core-online.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1110,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "W/\"403-64df6f86e6b95-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "61cd32d90ed753467f2e3c3c64e11dcde0ffc66b929d6bc787249c35f9025d7d",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.10615900000084366
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/voc-quick-link.min.5c5e5c18514cf910df0f1e9d61ff1149.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 947,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"16a-64ded54e8c1b8-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "81b1b19a8bdc719c026ee268e686eebbbdd557d6a3d867748259016ab72e6788",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.5385360000000219
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/icons/general-icons/glo-core-getaquote.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 937,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"173-64df1ef0ec875-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "84133c7b2408f5eeb39517bd3942eca1de496b29b6a641bd2385a4d0c6dc9f8a",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.17882700000154728
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/icons/gogreen-icons/glo-core-gogreen-warehousing.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 896,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"15e-64dfdccbd2a4e-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "685ef6a7fa4b012c32cf17ca60911f2aa5f491656ed16463bc341a0dd9ec97fb",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.5600389999999607
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/horizontal-ruler.min.23c57f8a00241acd86f7fe1ce2ffe7b1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 948,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"16c-64ded4cf92539-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "1201a66096e9b84c82758c91aee418d05b219cf3d432acfe681889970c58d59f",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.5803749999995489
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/voc-footer.min.aceb716b0fcecd8e7ea52da3afb2cf8f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2461,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"117a-64ded4c0f8fbf-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "b71a5745008a9f9240703768063825eb42a7cfa9c615f2901ddc4a4604125941",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.6007860000008804
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/logos/glo-footer-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2501,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"f32-64ded8e4294cd-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "eec352f272b13be3883b6b13674898e718d277a690011c4e6eb1e47189656433",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.6197539999993751
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/logos/youtube-new.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1080,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"332-64ded8e4236cf-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "8ab280a31a012ac7c6fb77be3e134d2858d50e3b1d16ffa4b45f35487cadf5bd",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.6403900000004796
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/logos/facebook-new.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1113,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"335-64ded8e64bae1-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "1979d99c5483675a8be762b48f46112909e27301c1f549c8cb35a2be5503f72f",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.678767000001244
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/logos/linkedIn-new.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1215,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"41e-64ded8eea71db-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "86a4a9a96396b1de82e1616e6c1c62a2185f808328816c40e2abb03c37c4e965",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.7026110000006156
+      },
+      {
+        "url": "https://www.dhl.com/content/dam/dhl/global/core/images/logos/instagram-new.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1972,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"d9d-64ded8e674b43-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:10 GMT"
+        },
+        "responseBodyHash": "f27026fef42b128c001a2c722d427044a148b50fc90c55f898c4447838580237",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.7278190000015456
+      },
+      {
+        "url": "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/go-to-top-button.min.4178e88548b557bfb5b04cdd6076629a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1526,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"5ce-64ded4c3e392e-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "e73ff360e650f3b7a5c81622c844bf1626825cf8f49a68ea0fcad25b0f4fa6e6",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.7625669999997626
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/js/bundle.da3de711750c77cc3431b839edb7f280.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 57888,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2cfea-64ded4c0f16a7-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "4dba6ff6d6c73e4141fb78b4fcfa36b35ec80f79d17b6ac0f155e54a44bea4b5",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.2541010000004462
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/js/bundle-utapi-ui.da3de711750c77cc3431b839edb7f280.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9517,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"5db4-64ded4c3dbc2e-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "1432f0e4d2fc048e5e9cefd675157391ba5eeb23ddfd8652ddf07ccf283678a4",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.298027999999249
+      },
+      {
+        "url": "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/J3aE8rSc6GQSLfJO/ZHE1PQ/dlZdB/nwEPFIB",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 179207,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"b89fc2d24b301ef74e065a34429632a42fa57f3c8d194320ff70a2990bf06b86\"",
+          "set-cookie": "_abck=CD0BD72BA0DFD06C903445232E69B87A~-1~YAAQXskLFyIcqeacAQAAlGvHRQ8KF5TNVfpcsXFEQXCqUEiaUFL+nMd1Q6+M5XcvAWcoitQf1yslo8Vlz+1UkdJZ49tA0zzo/mKxe1b2Z8vLhHNduFZwEFrptwtQMLOzysCHmptN3bKv00ULlSGvINPm6VZA/vBgabL5YCZw2BeouCpI0Q3S9x7MX1BE3SaXMi36R0CyysUWwd79lbHnyRLJ1cYtr4hCRh3Qlr7AfZ68TZxrJKpMu6qs3TSvLdl4ogLjQflmacjL7x9URShNSTS957988ykhq3NbYVH0tkYS+KkDxMbDnCeJ9zBVUSEgQ/d/SEcT1VpWHr7hgAhRIhEwAuZA/dSVaTRHWYYFp9qwvY3IsxmXcLFcFtt2hOCpZ0Hf5YPWS2DdBK8Bb3rNk+/EGFGsfjvmX+pwJqLWkKFOWbPZOw6Z/6o5tybB1JIHRtVBwtj2KqEJ6QCd1gL7CBcQ+fFobICK/uTeeEHl7y/o5iPgE05MVhdhCRdM+Qo7J/FsYv+aRs+oFqLbLU/vgPe1hkZOG7DvXpZZohw8E6HnKn77FdH3pxI6JMFZkrnCT7c5~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2fwW1kEI9eDGc3K8WuaGYEoKRUFrco8XZsApN%2fugS%2fg4Z3aqkPfxMZTLSBLy6K5KKAuzsAmJp5v8vZ7R22lUJoJIuERqII9gytwqV~-1; Domain=.dhl.com; Path=/; Expires=Wed, 31 Mar 2027 21:23:10 GMT; Max-Age=31536000; SameSite=None; Secure"
+        },
+        "responseBodyHash": "d2fd371b9d3eba7ee28fc810d6d5b1908814007d1f551eb931abe3c454fbdf88",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.3309300000000803
+      },
+      {
+        "url": "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/htaE/WEEmPQ/AxdEG/U0jCSxZ",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1110,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"435779c4d7e7f5954afc69338984fb97d13e4d1c56875b27fc63dc1cf474a7fe\""
+        },
+        "responseBodyHash": "bbf6d6790daeda99034c6eeb5a3398d442f824911bd1e444b69abd7dcb8d7f47",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.31407600000056846
+      },
+      {
+        "url": "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/htaE/WEEmPQ/dQ1yE/URMZVgp",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29307,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"db01f44f7d64dcf09e2f0c3f6df136de12e414ce36952a773038b4ec439fa32e\""
+        },
+        "responseBodyHash": "30edc67b495ebc4088eb539708ab734ae2d6fa3f56e9f575aff7bce54df45742",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.7801030000009632
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/css/bundle.da3de711750c77cc3431b839edb7f280.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6497a-64ded4cb0b229-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:10 GMT"
+        },
+        "responseBodyHash": "f3fbd349ae2ca08c038b8c8471e8f49d7d76d2289f6e1c424680d6901a259b7c",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.0007509999995818362
+      },
+      {
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13273,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "\"66aabcd8a7ba429711eebdad8acc3dd6:1729811534.672229\"",
+          "expires": "Tue, 31 Mar 2026 22:23:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7db8d077fc21c20f1449a2603d524e423cfa25d7df6d5fd845a8e5e883aa227e",
+        "initiators": [
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.0738389999987703
+      },
+      {
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1859,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "\"ddda3fb3f27121fcba6a33a82f32d57c:1729811534.987187\"",
+          "expires": "Tue, 31 Mar 2026 22:23:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2a250e2f225e48cf583d54a0a42d623c700847de17323bf23ea372e5d9e89cb2",
+        "initiators": [
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.07497399999920162
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9281,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE8ED5319CAE71"
+        },
+        "responseBodyHash": "15a5a919d4b2c63b74bac3c0752f7faa08675d5ecaab478032a0232013a2ba6a",
+        "initiators": [
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.07800900000074762
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/assets/fonts/iconfont-581c7402b000e53b0d90.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 58209,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e0c4-6498721b1c660\"",
+          "expires": "Wed, 31 Mar 2027 21:23:12 GMT"
+        },
+        "responseBodyHash": "253c15f1cb95dc2801f873bdc4ea7be2957d71cb39aef55126ce763501a7f08a",
+        "initiators": [
+          "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/css/bundle.da3de711750c77cc3431b839edb7f280.css"
+        ],
+        "time": 0.061327999999775784
+      },
+      {
+        "url": "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/J3aE8rSc6GQSLfJO/ZHE1PQ/dlZdB/nwEPFIB",
+        "method": "POST",
+        "type": "XHR",
+        "status": 201,
+        "size": 1063,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dhl.com",
+          "set-cookie": "_abck=CD0BD72BA0DFD06C903445232E69B87A~-1~YAAQXskLF3UcqeacAQAAE3fHRQ8ql6IjEPZ3i3nnJYYv1rgh7ckftzKXamcSpAxViQIUC+h5kEwxihk4QFZvc0Q/5fGeLFJAwKPhFpSVvRh7GXDgr7d7CGH3lLehpen/Pcx2PchURWb0vnChDLmCJ/F6g159hqQsz45fU7KCXmRVazuKEsqO90myxj6zdnsK25V7b19J84D1E+SeIF7pdPrivr5UaJg31wImjGPmcC0N9E1BWXKnr3MeilpxLSmwMTEALDS+jlZLiI3MtGjg0hSdMM1/JK/lrknXEKCUBNXI+BKIhFUfc2PBPKwLQuiRUZ7ojKJy3rnq0mYWxuGl9g4/EPsV5TvL3amH/b7nBXUwW4QofNNIdYIgGNCd+BMVRq5P7Bw1+hR49r13a5OqlTgUxFh9bhOJfofCmqSpaKy3DEeEVABopEK4Jp9tQmc2fWu9+Z1jCjmIEv9M9S623Oil5jJ9NzSLQkHqqJQur4MlahDgITAw0tNnlrCjoFwgXRnAUTK36drqKUFQgYA8FVtU4Pp2sISXmsPODJvyEWiM47zbSRwO1+RYxM/D8Bx9f5t/LGkBkn7CiFCteGDFFfrzXHSkZ7Gts47nWujMXz38ZgeVj/5w~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2fwW1kEI9eDGc3K8WuaGYEoKRUFrco8XZsApN%2fugS%2fg4Z3aqkPfxMZTLSBLy6K5KKAuzsAmJp5v8vZ7R22lUJoJIuERqII9gytwqV~-1; Domain=.dhl.com; Path=/; Expires=Wed, 31 Mar 2027 21:23:13 GMT; Max-Age=31536000; SameSite=None; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/J3aE8rSc6GQSLfJO/ZHE1PQ/dlZdB/nwEPFIB"
+        ],
+        "time": 0.14972400000078778
+      },
+      {
+        "url": "https://www.dhl.com/content/experience-fragments/dhl/en/core/primary_navigation/flyouts/ship_desktop/standard_dgf_exp_dsc_ecs/st3a_sme_hub_countries/_jcr_content/root/container_copy/container/teaser.coreimg.svg/1710785316874/manifest-received-rgb-red.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 981,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"1b0-64df16d666640-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "354587dbaa872752509e6b18fc13c0d8d53d17b02a6b8e31654e0bca9eb4cfce",
+        "initiators": [
+          "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.d05025b207bba72df31c34e969931a07.js"
+        ],
+        "time": 0.025836000000708736
+      },
+      {
+        "url": "https://www.dhl.com/content/experience-fragments/dhl/en/core/primary_navigation/flyouts/ship_desktop/standard_dgf_exp_dsc_ecs/st3a_sme_hub_countries/_jcr_content/root/container_copy/container/teaser_copy.coreimg.svg/1710785322121/calendar-rgb-red.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 863,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"e4-64defd8f5a11a-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "27af7ced5e75433a6dca20e8874ad6d109f268e0572e344a7efb7d98ca3d4fd7",
+        "initiators": [
+          "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.d05025b207bba72df31c34e969931a07.js"
+        ],
+        "time": 0.026137000000744592
+      },
+      {
+        "url": "https://www.dhl.com/content/experience-fragments/dhl/en/core/primary_navigation/flyouts/ship_desktop/standard_dgf_exp_dsc_ecs/st3a_sme_hub_countries/_jcr_content/root/container_copy/container/teaser_copy_copy.coreimg.svg/1710785309907/glo-core-gogreen-warehousing.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 897,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "W/\"15e-64df104c40162-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "685ef6a7fa4b012c32cf17ca60911f2aa5f491656ed16463bc341a0dd9ec97fb",
+        "initiators": [
+          "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.d05025b207bba72df31c34e969931a07.js"
+        ],
+        "time": 0.0635309999997844
+      },
+      {
+        "url": "https://www.dhl.com/content/experience-fragments/dhl/en/core/primary_navigation/flyouts/enterprise_logistics_1871926873/standard_enterprise_desktop/master/_jcr_content/root/container/container_copy/image.coreimg.80.1197.jpeg/1651242589022/workers-in-warehouse-0001.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 245835,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"3bd36-64df2f8cdac0a\"",
+          "expires": "Tue, 07 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "354990d23be7d72f7dffd82e8ef81bc5f69e165cf8701374b6be453cdb7f1dca",
+        "initiators": [
+          "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.d05025b207bba72df31c34e969931a07.js"
+        ],
+        "time": 0.06152799999836134
+      },
+      {
+        "url": "https://www.dhl.com/content/experience-fragments/dhl/en/csi/fwt/image_left_20_with_button/xbu_master_fwt_homepage_tariffs/_jcr_content/root/container_copy/container_1293166577/container_166412722/image.coreimg.80.284.jpeg/1746437927858/glo-core-person-holding-paperwork.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12315,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"2d85-64df596137226\"",
+          "expires": "Tue, 07 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "6a9e6ff50f78cb7040e07b395532ae44ee30da8e2066f5e456b2c340e5fd0646",
+        "initiators": [
+          "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.d05025b207bba72df31c34e969931a07.js"
+        ],
+        "time": 0.06282900000041991
+      },
+      {
+        "url": "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/assets/img/df9b30d811cfdb62c81f.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1333,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"17fc-61a53bca24a5a-gzip\"",
+          "expires": "Wed, 31 Mar 2027 21:23:13 GMT"
+        },
+        "responseBodyHash": "568d5dbe7af1916544703e89562a0440f3e9bf71b0a75e36000e547ef5143f49",
+        "initiators": [
+          "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/css/bundle.da3de711750c77cc3431b839edb7f280.css"
+        ],
+        "time": 0.04020400000081281
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/21ea6bde-3c6a-4350-a8dc-e86228114de3/21ea6bde-3c6a-4350-a8dc-e86228114de3.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2883,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE73AC1F1D7554",
+          "expires": "Wed, 01 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "c3d20632a2a67cd100c35aa469a1ef7e5251ddfc729122698eee3774fce1f3be",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.16014700000050652
+      },
+      {
+        "url": "https://www.dhl.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1017,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800, stale-while-revalidate=86400",
+          "etag": "\"47e-64df2aea07250-gzip\"",
+          "expires": "Tue, 07 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "0ee7dcc6de4c0e26e9fa6b2ec534894cca81f2bf7f5fe69769ecbcbb234d14f1",
+        "initiators": [],
+        "time": 0.10663799999929324
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "104.18.32.137",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4da8a6638ad70698ad3d01aa0ef124aebe35c297685c0796b174822f597b1d09",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.06544300000132353
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 114734,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DD141864E1A335"
+        },
+        "responseBodyHash": "0c5e5da9ad3458d5cbdf9c3262174f7689b8e42a1c7acf3675f7b2feb19afcf7",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.0363550000001851
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/21ea6bde-3c6a-4350-a8dc-e86228114de3/019566b9-bd0c-78d5-8c25-1d96b468e17f/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 32107,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE73ACB648BD92",
+          "expires": "Wed, 01 Apr 2026 21:23:13 GMT"
+        },
+        "responseBodyHash": "8c1645c417ced63813af582bfe533edc8dbcb4bf13e600e6895f6b83d3ab6279",
+        "initiators": [
+          "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/htaE/WEEmPQ/dQ1yE/URMZVgp",
+          "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.04935999999906926
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/assets/otFlat.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3302,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DD14186131BFE7"
+        },
+        "responseBodyHash": "d890abf66010907c7a0a61236d25c3c98bcb7edec34b13dc887f5be122bfef7e",
+        "initiators": [
+          "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/htaE/WEEmPQ/dQ1yE/URMZVgp",
+          "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.022198000000571483
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/assets/v2/otPcPanel.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 13201,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DD1418629D254D"
+        },
+        "responseBodyHash": "8aef418fe0bda9c238401c03925a3bec65e63a44e057645c488aa3a1bc2813c1",
+        "initiators": [
+          "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/htaE/WEEmPQ/dQ1yE/URMZVgp",
+          "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.023530000000391738
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4405,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "e2afa04c9a3e080712c94d68b9c1d33587fddcbaeaba9dfcaf1d53d19f6a280a",
+        "initiators": [
+          "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/htaE/WEEmPQ/dQ1yE/URMZVgp",
+          "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.02667199999996228
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 549,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19",
+        "initiators": [
+          "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/htaE/WEEmPQ/dQ1yE/URMZVgp",
+          "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js"
+        ],
+        "time": 0.02074499999980617
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/9375bad7-f65e-4f8a-bc16-8254723bd66a/10736aa6-11a1-40d7-b1de-de46f2e1acf2/DHL_logo_rgb.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12697,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8D7F25C47B3D78A"
+        },
+        "responseBodyHash": "adba9a03738b431b3c26bc395b644e47729e956078c049275bc34c3463fd17bc",
+        "initiators": [],
+        "time": 0.03418699999929231
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2348,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d",
+        "initiators": [],
+        "time": 0.02695999999923515
+      },
+      {
+        "url": "blob:https://www.dhl.com/07a2560e-7707-4667-aa22-39dd040892d3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f1476ea96cb762de4e62c4784bb9cb5e6614c172c48d3d9ade7303dbf3cadb59",
+        "initiators": [
+          "https://www.dhl.com/us-en/home.html?locale=true"
+        ],
+        "time": 0.07044599999971979
+      },
+      {
+        "url": "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/J3aE8rSc6GQSLfJO/ZHE1PQ/dlZdB/nwEPFIB",
+        "method": "POST",
+        "type": "XHR",
+        "status": 201,
+        "size": 1107,
+        "remoteIPAddress": "23.55.218.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dhl.com",
+          "set-cookie": "_abck=CD0BD72BA0DFD06C903445232E69B87A~-1~YAAQXskLF5EcqeacAQAApHzHRQ/l2MzNGy7v0zA8QETBfdgzKZkW12oLJJGcPcAIreVVPZowZAYb23ma4JlBxxvsoGUKjm5SsdH8S43OOt8baJAo8AMJ68pm3BwA0J5Z0q9XQhRdaE1PvY0z48BQTag5pRuZK5czeCIa+dHCP/8wX5vB71XpDspKC6hUJm+9ugYcWd3WSZqslEiRy2X+FncJXwgq6WCKmKxHdm3vvxRa9PZxWJgB49nZNHJUCFdtlBgJPtOHijLRr31CuihEHopGO9m/haw3N98+WKG/eQ9DdDHDBg77g/0N8O8VQ9nSbUr6uoRERDG53Ffz7OJUXf1CiaQEgZPi6gVVUdx6ZmbK00aeQ39F0fJCDJCZm8dGuZcl0eNdB+xg6mL8HhjXFzw/O8aRztGMexWpYSKEIco0P7fJqQSrAXCPtBzZYZJL0EjZeRFvv955G+k1zV5yzDFZWcWoqUPXj7Zo9yjrGdesNuAweP6QW/anWqtrtauPeUoPUsXLfl02gQDierdRc7urVV2GuUJmelu6dunxV586edPsSnhuBIYlUeeYYD4CKlAYeCJzJIvWQf2LUiPp9MQIl4vCqPd32Wu1pM59DUingSvUcrqrrKVGQbdymDHI2ZIdwRE8+PAjQKb9U7N2DGRYrBjTSytMG3fXlIWKOg==~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2fwW1kEI9eDGc3K8WuaGYEoKRUFrco8XZsApN%2fugS%2fg4Z3aqkPfxMZTLSBLy6K5KKAuzsAmJp5v8vZ7R22lUJoJIuERqII9gytwqV~-1; Domain=.dhl.com; Path=/; Expires=Wed, 31 Mar 2027 21:23:14 GMT; Max-Age=31536000; SameSite=None; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/J3aE8rSc6GQSLfJO/ZHE1PQ/dlZdB/nwEPFIB"
+        ],
+        "time": 0.18763299999955052
+      }
+    ],
+    "cookies": [
+      {
+        "name": "cookieDisclaimer",
+        "domain": "www.dhl.com",
+        "path": "/us-en",
+        "expires": 1809552192831,
+        "session": false
+      },
+      {
+        "name": "ak_bmsc",
+        "domain": ".dhl.com",
+        "path": "/",
+        "expires": 1774999390028,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "bm_sz",
+        "domain": ".dhl.com",
+        "path": "/",
+        "expires": 1775006589028,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "OnetrustActiveGroups",
+        "domain": "www.dhl.com",
+        "path": "/",
+        "expires": 1806528194000,
+        "session": false
+      },
+      {
+        "name": "OptanonConsent",
+        "domain": ".www.dhl.com",
+        "path": "/",
+        "expires": 1806528194000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_abck",
+        "domain": ".dhl.com",
+        "path": "/",
+        "expires": 1806528194732,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "shared_worker",
+        "url": "blob:https://www.dhl.com/07a2560e-7707-4667-aa22-39dd040892d3"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.dhl.com/etc.clientlibs/dhl/clientlibs/clientlib-core.min.d05025b207bba72df31c34e969931a07.js": {
+          "window.devicePixelRatio": 2
+        },
+        "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js": {
+          "Navigator.prototype.userAgent": 2,
+          "window.localStorage": 8,
+          "Date.prototype.getTime": 12,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Document.cookie getter": 69,
+          "Document.cookie setter": 8,
+          "Navigator.prototype.appName": 1,
+          "window.sessionStorage": 3
+        },
+        "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/js/bundle.da3de711750c77cc3431b839edb7f280.js": {
+          "Navigator.prototype.userAgent": 2,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "window.localStorage": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Document.cookie getter": 3
+        },
+        "https://www.dhl.com/etc/clientlibs/dhl/clientlib-all/js/bundle-utapi-ui.da3de711750c77cc3431b839edb7f280.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 4,
+          "Navigator.prototype.cookieEnabled": 1
+        },
+        "https://www.dhl.com/lUuI09H8kk2lCTn_ihnlZXLM/J3aE8rSc6GQSLfJO/ZHE1PQ/dlZdB/nwEPFIB": {
+          "window.localStorage": 6,
+          "Document.cookie getter": 16,
+          "Screen.prototype.colorDepth": 2,
+          "Screen.prototype.pixelDepth": 2,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.plugins": 59,
+          "window.sessionStorage": 5,
+          "window.indexedDB": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Navigator.prototype.storage": 4,
+          "Navigator.prototype.hardwareConcurrency": 5,
+          "Navigator.prototype.mediaDevices": 2,
+          "Navigator.prototype.permissions": 12,
+          "Navigator.prototype.webkitTemporaryStorage": 2,
+          "speechSynthesis.__proto__.getVoices": 1,
+          "Navigator.prototype.userAgent": 8,
+          "Navigator.prototype.maxTouchPoints": 5,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerHeight": 2,
+          "window.innerWidth": 4,
+          "window.outerWidth": 6,
+          "Navigator.prototype.productSub": 4,
+          "Navigator.prototype.language": 5,
+          "Navigator.prototype.product": 4,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.webdriver": 4,
+          "DeviceMotionEvent.prototype.acceleration": 4,
+          "DeviceMotionEvent.prototype.accelerationIncludingGravity": 4,
+          "DeviceMotionEvent.prototype.rotationRate": 4,
+          "DeviceOrientationEvent.prototype.alpha": 1,
+          "DeviceOrientationEvent.prototype.beta": 1,
+          "DeviceOrientationEvent.prototype.gamma": 1,
+          "Navigator.prototype.platform": 3,
+          "Notification.permission": 2,
+          "Navigator.prototype.deviceMemory": 3,
+          "WebGLRenderingContext.prototype.getExtension": 2,
+          "WebGLRenderingContext.prototype.getParameter": 4,
+          "Navigator.prototype.connection": 4,
+          "Performance.prototype.memory": 2,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "WebGL2RenderingContext.prototype.getExtension": 1,
+          "WebGL2RenderingContext.prototype.getParameter": 2,
+          "URL.createObjectURL": 1,
+          "SharedWorker.prototype.constructor": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.appVersion": 1,
+          "window.devicePixelRatio": 2
+        },
+        "https://www.dhl.com/etc.clientlibs/platform/components/clientlibs/navigation.min.e40a15eb1d46b2d19da7d88c82644e97.js": {
+          "window.devicePixelRatio": 2,
+          "window.innerHeight": 1
+        },
+        "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js": {
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.appName": 2,
+          "Date.prototype.getTime": 1
+        },
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": {
+          "Document.cookie getter": 8,
+          "window.sessionStorage": 4
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 39,
+          "Date.prototype.getTime": 11,
+          "Document.cookie setter": 10,
+          "Navigator.prototype.userAgent": 11,
+          "Navigator.prototype.vendor": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=dhl.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=dhl.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=dhl.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=dhl.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=dhl.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=dhl.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookieDisclaimer=seen; max-age=63072000"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8a1220c1-c23f-4d0f-bcfc-15af488527cd; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8a1220c1-c23f-4d0f-bcfc-15af488527cd&interactionCount=0; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8a1220c1-c23f-4d0f-bcfc-15af488527cd&interactionCount=0&isAnonUser=1; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A13+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8a1220c1-c23f-4d0f-bcfc-15af488527cd&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.dhl.com%2Fus-en%2Fhome.html%3Flocale%3Dtrue; expires=Wed, 31 Mar 2027 21:23:13 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/cd52279ef3fa/28cd5996a0e5/launch-ENa2e710b79eef40758cbb936003b8b231.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OnetrustActiveGroups=%2CC0001%2C; path=/; expires=Wed, 31 Mar 2027 21:23:14 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A14+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8a1220c1-c23f-4d0f-bcfc-15af488527cd&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.dhl.com%2Fus-en%2Fhome.html%3Flocale%3Dtrue&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CBIN01%3A0%2CC0007%3A0%2CMAP01%3A0; expires=Wed, 31 Mar 2027 21:23:14 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202411.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A23%3A14+GMT-0700+(Pacific+Daylight+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8a1220c1-c23f-4d0f-bcfc-15af488527cd&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.dhl.com%2Fus-en%2Fhome.html%3Flocale%3Dtrue&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CBIN01%3A0%2CC0007%3A0%2CMAP01%3A0; expires=Wed, 31 Mar 2027 21:23:14 GMT; path=/; domain=.www.dhl.com; Samesite=None; Secure"
+          ]
+        }
+      ]
+    }
+  }
+}

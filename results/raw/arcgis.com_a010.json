@@ -1,0 +1,712 @@
+{
+  "initialUrl": "https://arcgis.com/",
+  "finalUrl": "https://www.arcgis.com/index.html",
+  "timeout": false,
+  "testStarted": 1774992693755,
+  "testFinished": 1774992704139,
+  "data": {
+    "requests": [
+      {
+        "url": "https://arcgis.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.arcgis.com/",
+        "initiators": [],
+        "time": 0.28577600000062375
+      },
+      {
+        "url": "https://www.arcgis.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.arcgis.com/index.html",
+        "redirectedFrom": "https://arcgis.com/",
+        "initiators": [],
+        "time": 0.09326299999884213
+      },
+      {
+        "url": "https://www.arcgis.com/index.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 815,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "etag": "\"84881109426e6a40abdfe190c0879632\"",
+          "expires": "-1"
+        },
+        "responseBodyHash": "2e712b4084a72663900fa175ca9c931131a20d116843c2c82efe55eb40b4c6c6",
+        "redirectedFrom": "https://www.arcgis.com/",
+        "initiators": [],
+        "time": 0.07229100000040489
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 643,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"9a10d09d9e63f3e695e6e65f879f0110\""
+        },
+        "responseBodyHash": "db61e649ba9b8bb8747ba20e2d6290939b4e9ba66bc700b34f80565d68e01756",
+        "initiators": [
+          "https://www.arcgis.com/index.html"
+        ],
+        "time": 0.012468999999327934
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 56943,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"062629a8424dd630cab0cbeef68d1018\""
+        },
+        "responseBodyHash": "b3bf5b83cb577628873dd2e7f51d14cddb3f7a0dac642aa6d71bba7ee73f201c",
+        "initiators": [
+          "https://www.arcgis.com/index.html"
+        ],
+        "time": 0.019605999999839696
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/config.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 663,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"3b2bafb8bda4f903032706c60fef390f\""
+        },
+        "responseBodyHash": "7530056d71664e2a1f11ed452ceed69c2e3e24b23f7baa5ef0372754c697a6ef",
+        "initiators": [
+          "https://www.arcgis.com/js/app/config.js"
+        ],
+        "time": 0.01224999999976717
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/runtime.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1261,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"d65d99f787da5011e786e5ed91caee17\""
+        },
+        "responseBodyHash": "d5116f28582d9f5e856659751ad0ff9cc90c0b72984db7865e62cf004552d414",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.11336399999891
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/15651.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 209826,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"7a36ce082cc271bb0fff20a9cc5ca385\""
+        },
+        "responseBodyHash": "fdbd05aa04796d0fd0791d51a3981f973c067d8ec181bd4ce4e8c9e5366d5788",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.11318100000062259
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/81896.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1351,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"b13c488311c8a7dbf72548e21efde5a7\""
+        },
+        "responseBodyHash": "7cef44e41d221a79c4cf9f6036209930c87513d12c35810654aba8b50134390b",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/15651.js"
+        ],
+        "time": 0.013621000000057393
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/11547.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4054,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"1fd0f46cdbee44a8b9c23cc74096a460\""
+        },
+        "responseBodyHash": "c8a4f4723591bb16d8a409539810c7716df3449ba908efd0b3974ed616d0be5e",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.020071000000825734
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/69fae41471ed9dcab967.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 262129,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"d6e8e3d3f0b93f670116034645719696\""
+        },
+        "responseBodyHash": "bd86e1f2645c7e3949333d1fca8c9bdd172c7df92210a89970d7bcda11d099d9",
+        "initiators": [
+          "https://www.arcgis.com/index.html"
+        ],
+        "time": 0.03267000000050757
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/t9n/main_en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1132,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"08b8162cf6016b0b0c174e88571eead0\""
+        },
+        "responseBodyHash": "883357a1c8f5325480048bd5335d3f65ce8897eac2dfdaf304559f0fb96cc9ad",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.0280929999989894
+      },
+      {
+        "url": "https://www.arcgis.com/sharing/rest/oauth2/platformSelf",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 546,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.arcgis.com",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0ee5187b1e03c5c69d217a8ac26a1a7447976d3b0ae210745a75945806e53332",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.08150400000158697
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/t9n/main_en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"08b8162cf6016b0b0c174e88571eead0\""
+        },
+        "responseBodyHash": "883357a1c8f5325480048bd5335d3f65ce8897eac2dfdaf304559f0fb96cc9ad",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.010829999999259599
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/79000.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3721,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"47b8256c1826dbded158ae0b7819f662\""
+        },
+        "responseBodyHash": "2990fbee2f4689d355a51c78fe3ccae77453122270dc92279b1964ba741cfc42",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.013874999998733983
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/20307.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3059,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"74ff0efd8e37b85189292b6d1429028e\""
+        },
+        "responseBodyHash": "bc949573bf7afb671fdc281d7105f7c7ecfc4c7dccb4a91c80810ea8c05e127b",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.013283999998748186
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/72152.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7405,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"42d9973b37b549de1279dd629b3b03ef\""
+        },
+        "responseBodyHash": "55d036b577eb0834faa82d77016e4cc85c4e0d4eb1410454706d08d5666ad804",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.012608999999429216
+      },
+      {
+        "url": "https://www.arcgis.com/graphics/arcgis-online-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8395,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"21afe87d4672054822736f42cfad0a93\""
+        },
+        "responseBodyHash": "9a3e44ba5a521c9f791ec820ebe498d5b80478f4eb5fd99b0a579c50bb0df750",
+        "initiators": [],
+        "time": 0.012934999998833518
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/da35b5dac0012fb9049d.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32950,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"3d5d5f410cd621f5e166fd5d090f6a3b\""
+        },
+        "responseBodyHash": "d830e999251e86345efb6e87efbcd1ee6ef33434d6cefe358ddff99466f3e49e",
+        "initiators": [],
+        "time": 0.030174999999871943
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/69a9213c8f93653cd59d.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 33030,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"da19f879c0e1aadf0cc045c7d4245f6d\""
+        },
+        "responseBodyHash": "171fdc4215df70b5e153825fd2175013247d64aa04e9edfbdf75ded9f5b65e30",
+        "initiators": [],
+        "time": 0.03177099999993516
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@esri/calcite-components@5.0.0-next.21/dist/calcite/assets/button/t9n/messages.en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 404,
+        "size": 200,
+        "remoteIPAddress": "151.101.193.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, s-maxage=86400",
+          "etag": "W/\"6e-ORUDQ07gNKnjfOWyff/1CzIuWNk\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d73440d5445938a375c6b678107ee313beedc26ee9e9930810f256e15b873131",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/11547.js"
+        ],
+        "time": 3.5523689999990893
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/19393.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2574,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"f581a924402ebd7f38cccad1c5307ef6\""
+        },
+        "responseBodyHash": "0b5ff4d52905da1f697c8fb75285a4aa36fa72419182e8ec6458b51f9f4514d5",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js"
+        ],
+        "time": 0.01125300000057905
+      },
+      {
+        "url": "https://www.arcgis.com/sharing/geoip.jsp?f=json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 440,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7b647699ba89076a7940bf41155a439922aed7947cdb38a355504a05486fe504",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.0813799999996263
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@esri/calcite-components@5.0.0-next.21/dist/calcite/assets/icon/arrowRight16.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 404,
+        "size": 501,
+        "remoteIPAddress": "151.101.193.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, s-maxage=86400",
+          "etag": "W/\"69-F13grQRQ9bllvtI6CEkokQP1AtI\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "396a83c3b5ddb8055855c096aab0b725059ba5b128b68a2b4370276016f9a157",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/19393.js"
+        ],
+        "time": 3.5127290000000357
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/43305.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6107,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"1c2b1b6f0cf5878348d3d414d960a36a\""
+        },
+        "responseBodyHash": "08354407b84eb8d5524717ec881a03c85de1ec01c4b673699b6e370ad87af176",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.013382999999521417
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/82162.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7316,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"f0426ec350113a59d281b273787d9146\""
+        },
+        "responseBodyHash": "776052834d01e50404a91453a6c9ec7c00f2c3fae1fa8ef93aaca055591b62f2",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.013834999999744468
+      },
+      {
+        "url": "https://www.arcgis.com/js/app/build/66801.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6067,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"0460648b8b08e2ed2533daccbd074d03\""
+        },
+        "responseBodyHash": "2cc074bc3f5e26a2006e64d4c826c9f92b3706b7a324d44b79b41132d896097d",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/runtime.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js"
+        ],
+        "time": 0.013322999999218155
+      },
+      {
+        "url": "https://www.arcgis.com/sharing/rest/portals/self?f=json&culture=en-us",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3884,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "252b9272b26a65103581c64631eb26494c96b0435ab1bbb042bc9ed5f5ba3074",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.07938900000044669
+      },
+      {
+        "url": "https://cognito-identity.us-east-1.amazonaws.com/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 317,
+        "remoteIPAddress": "98.89.211.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a1c5e9b3a1df5d9619cffd78b2d35c5cc2ebb37f8b83ad5f0b1ff3e5b7883cd2",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 3.4594469999992725
+      },
+      {
+        "url": "https://cognito-identity.us-east-1.amazonaws.com/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 317,
+        "remoteIPAddress": "98.89.211.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "7f0ef26e24506f3a5b2e73196e8d6b0582709ca8c231546751b45850eb8d94b6",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/81896.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 3.455618999998478
+      },
+      {
+        "url": "https://cognito-identity.us-east-1.amazonaws.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "98.89.211.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cognito-identity.us-east-1.amazonaws.com/"
+        ],
+        "time": 0.07089300000006915
+      },
+      {
+        "url": "https://cognito-identity.us-east-1.amazonaws.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "98.89.211.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cognito-identity.us-east-1.amazonaws.com/"
+        ],
+        "time": 0.07131599999956961
+      },
+      {
+        "url": "https://cognito-identity.us-east-1.amazonaws.com/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 2000,
+        "remoteIPAddress": "98.89.211.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "ea98cc527ee3d11ea4a67538fcc3fc72eb61edc9941abc35d736abe9edc19d69",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.10793999999987136
+      },
+      {
+        "url": "https://cognito-identity.us-east-1.amazonaws.com/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 2000,
+        "remoteIPAddress": "98.89.211.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "d729e86f22d86792a48794e7152f304e5a4b572905350292d4544997ffd43dd8",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/81896.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.12542900000153168
+      },
+      {
+        "url": "https://www.arcgis.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1557,
+        "remoteIPAddress": "18.155.202.29",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"35ca520079d7e75e6052a2f967bef252\""
+        },
+        "responseBodyHash": "175b39ddcb023c0991a316d35147abf3face7abe426bc19068b93ec226479971",
+        "initiators": [],
+        "time": 0.09448199999860663
+      },
+      {
+        "url": "https://mobileanalytics.us-east-1.amazonaws.com/2014-06-05/events",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.180.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://mobileanalytics.us-east-1.amazonaws.com/2014-06-05/events"
+        ],
+        "time": 0.13554599999952188
+      },
+      {
+        "url": "https://mobileanalytics.us-east-1.amazonaws.com/2014-06-05/events",
+        "method": "POST",
+        "type": "XHR",
+        "status": 202,
+        "size": 529,
+        "remoteIPAddress": "65.8.180.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.38018600000032166
+      },
+      {
+        "url": "https://mobileanalytics.us-east-1.amazonaws.com/2014-06-05/events",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.180.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://mobileanalytics.us-east-1.amazonaws.com/2014-06-05/events"
+        ],
+        "time": 0.12354699999923469
+      },
+      {
+        "url": "https://mobileanalytics.us-east-1.amazonaws.com/2014-06-05/events",
+        "method": "POST",
+        "type": "XHR",
+        "status": 202,
+        "size": 529,
+        "remoteIPAddress": "65.8.180.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.arcgis.com/js/app/build/main.js",
+          "https://www.arcgis.com/js/app/build/81896.js",
+          "https://www.arcgis.com/js/app/build/15651.js",
+          "https://www.arcgis.com/js/app/build/runtime.js"
+        ],
+        "time": 0.3676149999992049
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.arcgis.com/js/app/build/main.js": {
+          "window.localStorage": 2
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

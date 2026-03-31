@@ -1,0 +1,977 @@
+{
+  "initialUrl": "https://bol.com/",
+  "finalUrl": "https://www.bol.com/nl/nl/",
+  "timeout": false,
+  "testStarted": 1774993953569,
+  "testFinished": 1774993966060,
+  "data": {
+    "requests": [
+      {
+        "url": "https://bol.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "79.170.100.62",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.bol.com/",
+        "initiators": [],
+        "time": 0.3241699999998673
+      },
+      {
+        "url": "https://www.bol.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 4614,
+        "remoteIPAddress": "23.67.33.41",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"9a489a018f60e61b7cd22445afbc5a7c:1765949122.527883\"",
+          "expires": "Tue, 31 Mar 2026 21:52:35 GMT",
+          "set-cookie": "sbsd_o=CA6A020B52E505999DFDD42B5AE1DAC92C38AA39E925F6FD347B80A5E890A2FD~5~sS6AC3jguxLJ1QbOFc6lZJLKWdU0E5uXMUa4aQGDSxfRSnvGCc8WoT8BtgEbUsTE5lh+Eks++UKLMZLS2haPKOuXRMTMhMIjFJUvXRCG7qg3HUuTREu0/B0h3rPMIyu4Cv+38w4X3B/4WCPDLy6UMypEexDZ+TQJWgYEIbR8HvW8U4PCQg2btCvduu8NFWUlZeEPM4EqbIiIJzogL8VrjV+dtAK0HT78VfbgWxDtaUP8bRGfr1MwjgnEwtJl16D/Q; Secure; SameSite=None; Partitioned; Domain=.bol.com; Path=/; Max-Age=86400\nsbsd_c=1~1~747430989~0~0~0~plcwhfsoKPWBqdUCpJ2eLaHRHbG5CHN92sUyNAWUWoJqk3P3eVMWGSPsADLoCbkxGzJSOQzghzybk7o2BYWZWWIProrNcE5b14FkYe4aOVm6UY1hlXjzRFlIPOVJEbUheHPBZySq2wI4JvnSZTREjUVDpXjGbQyYL6EgUaeb4hlQoJ+pdJolCl44SXZ7J/iD4fGG+ATRRJoJV6Qx+quYVrCFskFpwtzZsTwF9DEat27zB8k/N4cRCNSTDrdDubDCkc; Secure; SameSite=None; Partitioned; Domain=.bol.com; Path=/; Max-Age=660\nsbsd=s4X8Rp8giYRQQkn50qv8hpEw/UoQtuii2llSezRWrJ7y8XUGYPiYHIUTg9oNcHAhp/7EpSUdJeErcJqxMlfRWvqpw2+xvv57Rul+VVuOriLGmlf8TD4lxKIFjwaT5kpU2Eiyyadysqo2C8PxDw5Id/he7cNHSrhCaMiXcbCdMYCF5zH+0ZJp4jX8xjsGB+a/v6EMLjqROLzCQpGFPreJE8mnULOIAfzB5/pPdsL89HQ0VH/Fjwz99nk/pjxS+z0HJI4yidMXiFDbWu/A7qWQPY3K32vxOlqE/rk9TN01NdUkDpSAuSRH2RUVEKYeP7/5y9OWQCOYrgkx+rNSOlg+2ttlTkqraB3AmCPIk6OXbbamEalgggZ4sUcsk1jNF6bsYrZc9vetHg8ugE/szYttXkYVchTj5GYE5y1rckeXRjK5tpOaNXIScV1Izgn10EJpF6RcRf1Nobhx+NojvKawHO07QiHpuqi/oGsupHph+FKNOUt0e7qXd+7Bb0a68enUNWsUrF2k5uRCa3XDrdpfGwovgD4GWS+eDReahvVs2m6Pyd3XAtal+rsD20oLQmy4fIn1aAht88z6bvQPXbKl7uKOUFqosWpmk+plGQSz6/tEJ8qupc+trtUq8k7fuzkesokr6pC0UFMLbYgPVXE4WGg==; Secure; SameSite=None; Partitioned; Domain=.bol.com; Path=/; HttpOnly; Max-Age=2678400"
+        },
+        "responseBodyHash": "1a779948587e28a9cb11bfbf347ad7922c66b1eaeddcb300e848aa23246bf5ca",
+        "redirectedFrom": "https://bol.com/",
+        "initiators": [],
+        "time": 0.353291999999783
+      },
+      {
+        "url": "https://www.bol.com/.well-known/sbsd/5d217f?v=ba49d1b8-c0d7-6361-4e9d-393234661743&t=747430989",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 159285,
+        "remoteIPAddress": "23.67.33.41",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "\"a1d6466a1f48eb1e1338956dc45ec9be:1766184494.855389\"",
+          "set-cookie": "_abck=9FE7A4655922949655FBD768376FDE0F~-1~YAAQKU5DF+enkgKdAQAAgVviRQ9lCpnk22eJ8C9wrmjHo/JRGUvaPGQ6jLBkGE7uB1IBAdMGnSE8bXbWxH4Od1SJS83saeksh/tus3Zs04/vVZKKubUeMz6KVbEmG0nWc6hHU0yoBe0+o6QRbzvTAwPE09VmrG2jf/2D5642KnlMbor6orZ6pU2GEAbGTtqfxIUjv9IAR6dbE3KCrL2N3P5aI1cCh19I3sQ7DiZ3dhsqNejJ6TrxV+qe2WG7d/G1DgEs0aRW297B8eehMcrljLpz+6DOeXAtb45gm800bpmwlLm50cUh4HFUX0AoNAKgHdJ2lhuDqB9ed7lUjnUL8QU9MJ9IrbUCbhGqIMJ6zOcroNxqkkSdLpdvJ4vh41LO5nyYol7Biz6It3HGWAn8gtx/c4eT5CeNRoOz/doWABUteuIdTI0SzyRsGPuhVpkocN3//bg=~-1~-1~-1~-1~-1; Domain=.bol.com; Path=/; Expires=Wed, 31 Mar 2027 21:52:35 GMT; Max-Age=31536000; Secure\nbm_sz=0D18F6A94DFF304B5ABDAB283E60F0CB~YAAQKU5DF+inkgKdAQAAgVviRR94ImMZjFrQI+wahoGCrBKvSxvruuPUKtoQEGl5P+aNc+540SC3urxGE7q+t+ySOzfBs/R1Y/uqnD9U0ae71ICeVVQbR1+SfUYI9ivWtuDS4WD8BOtSkjG1+MLRXI9Gp/YbpdT99Iz2L0DQNZTt2+JTX3fL5flCBOwpgjeYRsg55+oC9YRh/Z02TkIae0pONkMWmC/v2XKgW4wujaefneYVsnZnvD3NV6IEzEeK8IVVgGn2af8YHH3d5si6KWVHJkMm3PaA+vi/+K9VUKuM+Q4QxKY/KA2hhAjP087ZdMZiOE3kFzEJ1URQZ5FImaGgn8Ib53NcZ++cwhDbftT8WiGz~3551289~3748932; Domain=.bol.com; Path=/; Expires=Wed, 01 Apr 2026 01:52:35 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": "ffa5737093d80edd627da85f68fe5086bcfe9bf934de37f5bb85dec909a72ab9",
+        "initiators": [
+          "https://www.bol.com/"
+        ],
+        "time": 0.45914600000105565
+      },
+      {
+        "url": "https://www.bol.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1942,
+        "remoteIPAddress": "23.67.33.41",
+        "responseHeaders": {
+          "set-cookie": "BUI=77e65475-b567-46c3-a9cf-dc177300d32c; Path=/; Domain=www.bol.com; Max-Age=94608000; Secure\nXSC=wVCyd6rx6W4qLBUkbb26l35x2fErDrGb; Path=/; Domain=bol.com; Max-Age=63072000; Secure\n_abck=9FE7A4655922949655FBD768376FDE0F~-1~YAAQKU5DF/eqkgKdAQAAVnPiRQ+VEO3a8EXSdKqnHprEOuMohrzJpqTt8TUiAFr5nwVxI3bKzh6NuYIlq/o01II5CfJrfUC7uUQnB4kohxsm+qgjqlWohAwY2C/Ame6mBjibHhq+QQch7yreCbu7e/bbgyG2aeLbN0z/c6APc0e+5cbV1Sg4W8u35iuYl73ut6JhOLtwHBYdYhH9P7IGy405gBMPr+eTM1EB3sXGh87drgmUYVieyNro0PeOB+J89IMqDayfHawInTeaIkAj/7dyzrhQYv34b6p8wu79FymIShNxQjPFKELoR8m++q+kbik9xaf2jAHxnnEyiRyC3vADs226KIdMFcfs95fbqrrxD287yMUKVEseTr/2FafnquMglE+PgJeGetYQb4/5W8FwGpTyjcwfBv0SKInEYko14RCkfHwLlVbqwYIG5wfKBgGgg4IBqaG9zSq0jPS85O7/hBqQKUTCQClisNc=~-1~-1~-1~-1~-1; Domain=.bol.com; Path=/; Expires=Wed, 31 Mar 2027 21:52:35 GMT; Max-Age=31535994; Secure"
+        },
+        "responseBodyHash": "462a93c8556a5465193f473d4ac60cdf9919e473a00b1017b3f78fe87d4a0040",
+        "initiators": [],
+        "time": 0.6184400000001915
+      },
+      {
+        "url": "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "fdc8b56e0db61ca3eba07097bfe8fab431efb58f119cd454dbcfe15fb060a768",
+        "initiators": [
+          "https://www.bol.com/"
+        ],
+        "time": 0.36055600000145205
+      },
+      {
+        "url": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/images/icons/app_icon-dark_bg-color-locked-12.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.07946400000037102
+      },
+      {
+        "url": "chrome-extension://flliilndjeohchalpbbcdekjklbdgfkk/html/blocked.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.07940299999972922
+      },
+      {
+        "url": "chrome-extension://caljgklbbfbcjjanaijlacgncafpegll/html/dashboard.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.07923200000004726
+      },
+      {
+        "url": "chrome-extension://nlipoenfbbikpbjkfpfillcgkoblgpmj/annotate-react.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.07904500000040571
+      },
+      {
+        "url": "chrome-extension://cndibmoanboadcifjkjbdpjgfedanolh/content-scripts/all.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.08147600000120292
+      },
+      {
+        "url": "chrome-extension://nngceckbapebfimnlniiiahkandclblb/content/fido2-page-script.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.11354100000062317
+      },
+      {
+        "url": "chrome-extension://pcblbflgdkdfdjpjifeppkljdnaekohj/assets/boost_writing_modal_icons.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.11189600000034261
+      },
+      {
+        "url": "chrome-extension://jgjaeacdkonaoafenlfkkkmbaopkbilf/content.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.1082540000006702
+      },
+      {
+        "url": "chrome-extension://pmjeegjhjdlccodhacdgbgfagbpmccpe/assets/images/$-selected.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.1077000000004773
+      },
+      {
+        "url": "chrome-extension://bhlhnicpbhignbdhedgjhgdocnmhomnp/images/checkmark-icon.svg",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.10705500000040047
+      },
+      {
+        "url": "chrome-extension://gplcmncpklkdjiccbknjjkoidpgkcakd/assets/icons/cl-logo.svg",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.04360199999973702
+      },
+      {
+        "url": "chrome-extension://mbnbehikldjhnfehhnaidhjhoofhpehk/advanced-typography.32e069a7.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.04352699999981269
+      },
+      {
+        "url": "chrome-extension://cofdbpoegempjloogbagkncekinflcnj/build/content.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.04348600000048464
+      },
+      {
+        "url": "chrome-extension://oncaapliomaamlbopdmhmdompfemljhm/content/index.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.04353400000036345
+      },
+      {
+        "url": "chrome-extension://fjgncogppolhfdpijihbpfmeohpaadpc/settings.json",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.04342300000098476
+      },
+      {
+        "url": "chrome-extension://kkjfobdnekhdpmgomkpeibhlnmcjgian/icon/icon128.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.04332299999987299
+      },
+      {
+        "url": "chrome-extension://dnebklifojaaecmheejjopgjdljebpeo/content-scripts/asana.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.043236999999862746
+      },
+      {
+        "url": "chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/BookmarkStyles.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.042981000000509084
+      },
+      {
+        "url": "chrome-extension://kjacjjdnoddnpbbcjilcajfhhbdhkpgk/images/about/en/1.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.04272799999853305
+      },
+      {
+        "url": "chrome-extension://blillmbchncajnhkjfdnincfndboieik/css/shareHighlight.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.042521000001215725
+      },
+      {
+        "url": "chrome-extension://mgijmajocgfcbeboacabfgobmjgjcoja/content.min.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.00426799999877403
+      },
+      {
+        "url": "chrome-extension://lpcaedmchfhocbbapmcbpinfpgnhiddi/i18n/symbols_af.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0037349999984144233
+      },
+      {
+        "url": "chrome-extension://lpcaedmchfhocbbapmcbpinfpgnhiddi/i18n/symbols_af.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0034379999997327104
+      },
+      {
+        "url": "chrome-extension://aapbdbdomjkkjkaonfhkkikfgjllcleb/popup_css_compiled.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0032129999999597203
+      },
+      {
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/css/AAA-initAssistant.styles.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.002829000000929227
+      },
+      {
+        "url": "chrome-extension://ffdaeeijbbijklfcpahbghahojgfgebo/imgs/crop.svg",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0027000000009138603
+      },
+      {
+        "url": "chrome-extension://bmnlcjabgnpnenekpadlanbbkooimhnj/checkoutPaypal/honeySPBContent.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.002456000000165659
+      },
+      {
+        "url": "chrome-extension://hehijbfgiekmjfkfjpbkbammjbdenadd/js/extapi_wp.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0022790000002714805
+      },
+      {
+        "url": "chrome-extension://eifflpmocdbdmepbjaopkkhbfmdgijcc/css/codemirror.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.002022999999098829
+      },
+      {
+        "url": "chrome-extension://ecnphlgnajanjnkcmbpancdjoidceilk/images/tick.svg",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0017739999984769383
+      },
+      {
+        "url": "chrome-extension://oldceeleldhonbafppcapldpdifcinji/assets/images/16/black/add_on_icon_16_ai.svg",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.007800000001225271
+      },
+      {
+        "url": "chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/webclient-infield.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0072619999991729856
+      },
+      {
+        "url": "chrome-extension://amciopbgphikbcmaffbmmibnbpiokfic/images/19-active.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.006808000000091852
+      },
+      {
+        "url": "chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/html/audioVisualizer.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0085239999989426
+      },
+      {
+        "url": "chrome-extension://flmcglmalcnabfaalkomeaohklknbbhg/icon-calendar-empty-@2x.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.010038000000349712
+      },
+      {
+        "url": "chrome-extension://ajphlblkfpppdpkgokiejbjfohfohhmk/flags/am-ET.svg",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.009941000000253553
+      },
+      {
+        "url": "chrome-extension://phidhnmbkbkbkbknhldmpmnacgicphkf/static/css/fonts.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.00967800000034913
+      },
+      {
+        "url": "chrome-extension://kohfgcgbkjodfcfkcackpagifgbcmimk/assets/bootstrap-material-design-icons/css/material-icons.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.009315999999671476
+      },
+      {
+        "url": "chrome-extension://bkhaagjahfmjljalopjnoealnfndnagc/icons/icon1024.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.00730199999998149
+      },
+      {
+        "url": "chrome-extension://gojbdfnpnhogfdgjbigejoaolejmgdhk/clipper.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.006970999998884508
+      },
+      {
+        "url": "chrome-extension://chhjbpecpncaggjpdakmflnfcopglcmi/css/content.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.004982000000381959
+      },
+      {
+        "url": "chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/52.chunk.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.00459699999919394
+      },
+      {
+        "url": "chrome-extension://kbbdabhdfibnancpjfhlkhafgdilcnji/assets/audio-tab-off.svg",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0041430000001128064
+      },
+      {
+        "url": "chrome-extension://okfkdaglfjjjfefdcppliegebpoegaii/assets/_commonjsHelpers-de833af9.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.003894000001309905
+      },
+      {
+        "url": "chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/static/icons/sa-b-12.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0036760000002686866
+      },
+      {
+        "url": "chrome-extension://gmechnknnhcmhlciielglhgodjlcbien/pages/communication.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.00336300000162737
+      },
+      {
+        "url": "chrome-extension://difoiogjjojoaoomphldepapgpbgkhkb/assets/5160-lg-GXT5B7JB.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0030900000001565786
+      },
+      {
+        "url": "chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0026649999999790452
+      },
+      {
+        "url": "chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/assets/black-white-mode-CozDyjbp.png",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0021040000010543736
+      },
+      {
+        "url": "chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/install-usercss.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.0017669999997451669
+      },
+      {
+        "url": "chrome-extension://fggkaccpbmombhnjkjokndojfgagejfb/googlemeet.inline.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.006194999999934225
+      },
+      {
+        "url": "chrome-extension://hlofigcdgjlnalbkeeinfcjceabpamci/html/suspended.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.005498000000443426
+      },
+      {
+        "url": "chrome-extension://noogafoofpebimajpfpamcfhoaifemoa/suspended.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.004437999999936437
+      },
+      {
+        "url": "chrome-extension://jldhpllghnbhlbpcmnajkpdmadaolakh/browserApi.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.005046000000220374
+      },
+      {
+        "url": "chrome-extension://nffaoalbilbmmfgbnbgppjihopabppdk/inject.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.005091999999422114
+      },
+      {
+        "url": "chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/content_scripts/vimium.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.007041999999273685
+      },
+      {
+        "url": "chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/dom.js",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.007654000000911765
+      },
+      {
+        "url": "chrome-extension://iceonohalfbfcldenclcjafcpboiplfo/wf.css",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.007306999999855179
+      },
+      {
+        "url": "chrome-extension://ngghlnfmdgnpegcmbpgehkbhkhkbkjpj/popup.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.007171999999627587
+      },
+      {
+        "url": "chrome-extension://gmagdfpiahgilkjlfgpedjjfpomdlkan/book-ticket.html",
+        "method": "HEAD",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+        ],
+        "time": 0.006962000001294655
+      },
+      {
+        "url": "https://www.bol.com/.well-known/sbsd/5d217f?t=747430989",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 16,
+        "remoteIPAddress": "23.67.33.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bol.com",
+          "set-cookie": "sbsd_c=3~1~747430989~0~0~0~plDd0JsN+jdYsxxh8L7Bc9YEgpNoDu9AzDtQczOFxXM++YHBYxt6emwJfGiP6SkXMaPBL/P8eeWdI1Cu1oo2DWdYs9TyYcokPE5EZu5KfMydUH0MLsP64gcer9RwaAFCuOHHLQ2798mAPNksP7ajkKSBgcTeC+iyvJDOLjjnKv1Y2+sY5xD8CiOjlFEupwC504r1E/pEQIrEzlqY7Cn1lmGcmGZSNxlVoOUWyNB5qcn0B5IksBr28/7zwTLthDqyFh; Secure; SameSite=None; Partitioned; Domain=.bol.com; Path=/; Max-Age=653\nak_bmsc=C0D6ABCD07E3B5EEE3BD8F57729C4197~000000000000000000000000000000~YAAQKU5DF06rkgKdAQAAm3biRR923JyzetX8LNXHv98bsdTICsenk2Kfw62hKfuKwsYD0DobsTajmaICPqBHHgGeA5w/sKDl/jxKEZEF6MgDMZD5YGiPc3KoUOeTJl4/99X2QTHx/8DWK4/Ida1s4lfJ3grB6S8yz2KTNUTAq+e9xuoLnmLUIsqmsLu0895Ii122KqyODqf/5Hc7Nvmb6pKSmNuVoJ1zKt9qb1sBrp8qVaCxJg9zdmDglnqI9x3MVw2flK2NyqxY6jkaaBSlAbADOO5Xn3BIYSNxHmAl4mqjEPbgSm2SHDz9Pxm+R0vvTG9BxJqCi5/3Z9n/UtKXitAnVYo1JCQxHFZnkZXuL/V0zp0HmFdi5vfuAFLJCbPf; Domain=.bol.com; Path=/; Expires=Tue, 31 Mar 2026 23:52:42 GMT; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.bol.com/",
+          "https://www.bol.com/.well-known/sbsd/5d217f?v=ba49d1b8-c0d7-6361-4e9d-393234661743&t=747430989"
+        ],
+        "time": 0.1353159999998752
+      },
+      {
+        "url": "https://www.bol.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "23.67.33.41",
+        "responseHeaders": {
+          "set-cookie": "BUI=77e65475-b567-46c3-a9cf-dc177300d32c; Path=/; Domain=www.bol.com; Max-Age=94608000; Secure\nXSC=wVCyd6rx6W4qLBUkbb26l35x2fErDrGb; Path=/; Domain=bol.com; Max-Age=63072000; Secure\nbm_sv=D97EA4DE155FC947FBC20EFE1AE9F1EE~YAAQKU5DF3arkgKdAQAAynjiRR+2gXvCIrWx1PAyAOC279rh+z9UsYYX6ekpDkzlzAXbfWaqTxIUFO4Zvp1loZTKPxxbBp740Lwz7rRp9akdHgvhxWUkcelGXj/C7XuVpmxJE+449mzmNYuhHttUfwS/HoI4KGL2f9l1+CicmpkobJxgyPwxmfneoN8ge4Ega2d9jrpWowVg4rZSKGcV9v70c4xHKHpIniQCViYnq8Aweyck1Zt68pDdDdvP~1; Domain=.bol.com; Path=/; Expires=Tue, 31 Mar 2026 23:52:43 GMT; Max-Age=7200; Secure\nbm_sz=0D18F6A94DFF304B5ABDAB283E60F0CB~YAAQKU5DF3erkgKdAQAAynjiRR/l3+lq1tN0E0z0A9AuFDOJQYXGZplSAVKJLYoUuY4J1wM/7t7FiwVNUpIAXmDRv7tyRe6F0NDxT4K6M+ut3hceLzxrMa7NaMtcuZ8NoYoMP4p0JPG4ZEmYYkfAqmrJIyKWszU5UY7hQ/xbwvG+y6Ht8IN4iACHZS19EM/J2Uf6iHA13EeMo7WY1lpxsWDV1nj9znRrYkvsyBscRSrQmX/I0swMi7Fbp85w05LRNcMgcMmsRYMTWrTMWAipRNSiR10dlkmzI8ibfZPOv1VBGJhhsVLIrjdccra0gGCNYUqC4hYFW/i8jdCMxORbTOBOFW1FIdM9tJthpvGspPx0kkmiYwkLFIR07EI0aBOgu0Rmj6WcBWg7JuM=~3551289~3748932; Domain=.bol.com; Path=/; Expires=Wed, 01 Apr 2026 01:52:35 GMT; Max-Age=14392"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.bol.com/nl/nl/",
+        "initiators": [
+          "https://www.bol.com/",
+          "https://www.bol.com/.well-known/sbsd/5d217f?v=ba49d1b8-c0d7-6361-4e9d-393234661743&t=747430989"
+        ],
+        "time": 0.5146759999988717
+      },
+      {
+        "url": "https://www.bol.com/nl/nl/",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 4766,
+        "remoteIPAddress": "23.67.33.41",
+        "responseHeaders": {
+          "set-cookie": "BUI=77e65475-b567-46c3-a9cf-dc177300d32c; Path=/; Domain=www.bol.com; Max-Age=94608000; Secure\nXSC=wVCyd6rx6W4qLBUkbb26l35x2fErDrGb; Path=/; Domain=bol.com; Max-Age=63072000; Secure\nshopping_session_id=e875877c31af1888596e4f113bb331fddff895a2c30f5ffb779d13923c05a9a0; Path=/; Domain=www.bol.com; HttpOnly; Secure; SameSite=None\nbltgSessionId=276ddf27-af71-40d8-a68d-7e52644983d1; Path=/; Domain=www.bol.com; Secure\nbm_sv=D97EA4DE155FC947FBC20EFE1AE9F1EE~YAAQKU5DF4mrkgKdAQAAk3niRR8aNquICPCuKZxKG59em0pPOEdQ2TONt4OCY/pSGmyLXd26PXXLUjN9K94tBrZI2Hd/XBwmOeBmBHH9kUz/82sSfQuZhsiHIWzCtZpKFZFsg4aOCDKz48I6nScnfkZq1G6s97gMVYclIgsc49V4FEbOXmbuW24oZfZy/R1F2nReU46s0MMTKswiJqK+9Qjql1002oflKJi7OpXS4mXGYkICUGj1Y0w0eQu2~1; Domain=.bol.com; Path=/; Expires=Tue, 31 Mar 2026 23:52:43 GMT; Max-Age=7200; Secure\nbm_sz=0D18F6A94DFF304B5ABDAB283E60F0CB~YAAQKU5DF4qrkgKdAQAAk3niRR9nSYMkFaZx0xI52rXb4oWwa9iKQZVmv3MIxTs4rDwWauvUA+1fGHYFzx8yv7VIshq7ceMIClrSRmyLXs2kg+2LFr/35sYfJ6leXbiPxERPSQq66+9d30HS4m2AlSc25F6oiXDoyrb2321evNHrTssiIVjhjfcR+w4JbJQs9f9uVEE87Sq0m/bMwaEmtdxh+1PrLwpJrmxuIc4jHzBWei3wzWC8GSCVHRey+DvEln92iMO6pxdm5OdZ6tQzfCvXvccsocoeyibP79raS7cjYBOWoP6euUNyl/FdxwrOveMRcMzrHaYUghcbm3PxKF4ZW90n/9XRO95TsMBXR0TiWp8aSGNf4Y6RO2dmKFSEu1O0MkBakzfsy07AzDKKNQ==~3551289~3748932; Domain=.bol.com; Path=/; Expires=Wed, 01 Apr 2026 01:52:35 GMT; Max-Age=14392"
+        },
+        "responseBodyHash": "fba9f054ad1b59619da604130fbee599e8b56b1a6c79bb23f9f00fbee06b578a",
+        "redirectedFrom": "https://www.bol.com/",
+        "initiators": [
+          "https://www.bol.com/",
+          "https://www.bol.com/.well-known/sbsd/5d217f?v=ba49d1b8-c0d7-6361-4e9d-393234661743&t=747430989"
+        ],
+        "time": 0.2046410000002652
+      },
+      {
+        "url": "https://assets.s-bol.com/fonts/Produkt-Bold-Web.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.95.97.165",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"4a64cc7546cf6e4c045b76618a411484\"",
+          "expires": "Thu, 25 Mar 2027 20:33:13 GMT"
+        },
+        "responseBodyHash": "266dedaa5994620d5123824b2617b94f2a4c03a76e68b5ee16547c31cd345d60",
+        "initiators": [
+          "https://www.bol.com/nl/nl/"
+        ],
+        "time": 0.0011130000002594898
+      },
+      {
+        "url": "https://assets.s-bol.com/fonts/Graphik-Regular-Web.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.95.97.165",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"23b9c448535c8e16d0e0ab59dfbb2f9a\"",
+          "expires": "Tue, 30 Mar 2027 15:45:17 GMT"
+        },
+        "responseBodyHash": "45a86e68bdda2834fe4d675bdae8af11396b24b78f359fc16a4cfce7bb750afe",
+        "initiators": [
+          "https://www.bol.com/nl/nl/"
+        ],
+        "time": 0.0010979999988194322
+      }
+    ],
+    "cookies": [
+      {
+        "name": "sbsd_o",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1775080355415,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "sbsd",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1777672355415,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "bm_lso",
+        "domain": ".www.bol.com",
+        "path": "/",
+        "expires": 1777585956000,
+        "session": false
+      },
+      {
+        "name": "BUI",
+        "domain": ".www.bol.com",
+        "path": "/",
+        "expires": 1809553963413,
+        "session": false
+      },
+      {
+        "name": "XSC",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1809553963413,
+        "session": false
+      },
+      {
+        "name": "_abck",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1806529955860,
+        "session": false
+      },
+      {
+        "name": "sbsd_c",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1774994615650,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ak_bmsc",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1775001162650,
+        "session": false
+      },
+      {
+        "name": "shopping_session_id",
+        "domain": ".www.bol.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "bltgSessionId",
+        "domain": ".www.bol.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "bm_sv",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1775001163413,
+        "session": false
+      },
+      {
+        "name": "bm_sz",
+        "domain": ".bol.com",
+        "path": "/",
+        "expires": 1775008355413,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "shared_worker",
+        "url": "blob:https://www.bol.com/b1cce7ed-14b8-4df3-a957-f135d98b5ab0"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.bol.com/.well-known/sbsd/5d217f?v=ba49d1b8-c0d7-6361-4e9d-393234661743&t=747430989": {
+          "Document.cookie getter": 13,
+          "Screen.prototype.height": 3,
+          "Screen.prototype.availHeight": 1,
+          "Screen.prototype.width": 3,
+          "Screen.prototype.availWidth": 1,
+          "window.devicePixelRatio": 3,
+          "Navigator.prototype.connection": 4,
+          "Performance.prototype.memory": 2,
+          "AudioBuffer.prototype.getChannelData": 1,
+          "Navigator.prototype.webdriver": 1,
+          "HTMLCanvasElement.prototype.toDataURL": 1,
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 4,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 1,
+          "Screen.prototype.colorDepth": 2,
+          "Screen.prototype.pixelDepth": 2,
+          "Screen.prototype.orientation": 3,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2,
+          "WebGL2RenderingContext.prototype.getExtension": 1,
+          "WebGL2RenderingContext.prototype.getParameter": 2,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.appVersion": 1,
+          "URL.createObjectURL": 1,
+          "SharedWorker.prototype.constructor": 1,
+          "speechSynthesis.__proto__.getVoices": 2,
+          "HTMLMediaElement.prototype.canPlayType": 6,
+          "window.sessionStorage": 5
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

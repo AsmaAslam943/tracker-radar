@@ -1,0 +1,454 @@
+{
+  "initialUrl": "https://33across.com/",
+  "finalUrl": "https://www.33across.com/",
+  "timeout": false,
+  "testStarted": 1774992346066,
+  "testFinished": 1774992359877,
+  "data": {
+    "requests": [
+      {
+        "url": "https://33across.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.194.159",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.33across.com/",
+        "initiators": [],
+        "time": 0.2347540000009758
+      },
+      {
+        "url": "https://www.33across.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 4467,
+        "remoteIPAddress": "104.18.28.101",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+          "set-cookie": "__cf_bm=ZBSrShQOpf_Ym.hXSeX48TozG66J4RzS6IUgZB8tMQ0-1774992348.421681-1.0.1.1-o1.G8qoqO7tgDtQ2Tx2xB02pM7_hH3RoDvebTI6cw6BFBn32rMhCZgf.ZCEI894HiqYVbNTbIYMXHDBOd8MzSOuJkT5EiDw.yJ.cPjVyx7f9c1wyvSIBOKnTDHTvvG_j; HttpOnly; Secure; Path=/; Domain=33across.com; Expires=Tue, 31 Mar 2026 21:55:48 GMT"
+        },
+        "responseBodyHash": "88ebaf9a0debe334a56f01d8221282628377f1a1c2cc8134619648f9d1a08444",
+        "redirectedFrom": "https://33across.com/",
+        "initiators": [],
+        "time": 0.06870699999853969
+      },
+      {
+        "url": "https://www.33across.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e526dc1ad498fc5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61057,
+        "remoteIPAddress": "104.18.28.101",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "set-cookie": "__cf_bm=VkylcX_MrTfBm0ex6vR2gZvickOkEoWyCj8fHkAzTfs-1774992348.5185146-1.0.1.1-Q1a.c.5wx7OQVnnCjd9ptyiAwVufu3gqXELd1XRaBiCkGpAwLG8ZFPBcBhm1OEEnGtNX_rHaDAvWrNvP1Aq.EoRLZWl4GQNdX71q2EFMetNN37ZNI2DGJa_3htGuV0vy; HttpOnly; Secure; Path=/; Domain=33across.com; Expires=Tue, 31 Mar 2026 21:55:48 GMT"
+        },
+        "responseBodyHash": "3108b5826d8adde98a5b1c280634090235124ef4b64c44065c7bc4b067df6c89",
+        "initiators": [
+          "https://www.33across.com/"
+        ],
+        "time": 0.022992999998677988
+      },
+      {
+        "url": "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17348,
+        "remoteIPAddress": "104.18.95.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, stale-if-error=10800, stale-while-revalidate=31536000, public",
+          "timing-allow-origin": "https://www.33across.com"
+        },
+        "responseBodyHash": "e4c4cdba4fc50a031a1148b252e402d55bc9bb8e268500d9d3870fcbe0eb5714",
+        "initiators": [
+          "https://www.33across.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e526dc1ad498fc5",
+          "https://www.33across.com/"
+        ],
+        "time": 7.2515510000012
+      },
+      {
+        "url": "blob:https://www.33across.com/e4adaa38-4c15-427d-8988-d70e5af398c3",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://www.33across.com/"
+        ]
+      },
+      {
+        "url": "https://www.33across.com/favicon.ico",
+        "method": "GET",
+        "type": "Image",
+        "status": 403,
+        "size": 5111,
+        "remoteIPAddress": "104.18.28.101",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+        },
+        "responseBodyHash": "4bc939e157068880d3a46be292594c7543d152832f456c272ecd2397e42ecf4e",
+        "initiators": [
+          "https://www.33across.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e526dc1ad498fc5",
+          "https://www.33across.com/"
+        ],
+        "time": 0.022366999999576365
+      },
+      {
+        "url": "https://www.33across.com/cdn-cgi/challenge-platform/h/g/flow/ov1/1999988631:1774424211:ufj9z36p3lrOYP8bcoAv7UVXu4jYYHVmCKOcowaP_oM/9e526dc1ad498fc5/iwdwtjPbbgs1RTPW6P_HBP77X0gGAmGjCC2DjJlbD1I-1774992348-1.2.1.1-oyyht5MN8c6t.3zzSvwzWqst3YNn8Jy0JFWxrExqCkCQ6gAqdm_Pc56mKCgCHqUE",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 14310,
+        "remoteIPAddress": "104.18.28.101",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=2S2QyQz_h_KTN9gn3mzdJV6Bi6Cr67CHs86NKhJgOzY-1774992356.4735084-1.0.1.1-g229bC9Nd.gRrgsWeVEzK62u8ov5Lq4r_m3GX2qs5TG7qHTUivLXBfzYqC.BjAG.9_v0SjtFWH5DZqFxHTGiQDxHjvVJmOI0Z9aUQ9Q4G9zavIq5o3nNOZXFQLoH8qU9; HttpOnly; Secure; Path=/; Domain=33across.com; Expires=Tue, 31 Mar 2026 21:55:56 GMT",
+          "timing-allow-origin": "https://www.33across.com"
+        },
+        "responseBodyHash": "d3c37caf0f6c868241b7cff2e69db4fee43353c325ca5956b7a75fe74026834e",
+        "initiators": [
+          "https://www.33across.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e526dc1ad498fc5",
+          "https://www.33across.com/"
+        ],
+        "time": 0.02709300000060466
+      },
+      {
+        "url": "blob:https://www.33across.com/c043e483-8dbd-4d3d-9fed-1b44045f6487",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f3418640c1204265881221580b9d1554424f6ed49549d408da50c690ab29f400",
+        "initiators": [
+          "https://www.33across.com/"
+        ],
+        "time": 0.06452900000113004
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 84558,
+        "remoteIPAddress": "104.18.95.41",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        },
+        "responseBodyHash": "7e9e623922d3b45793c91f31513ec0e07533acff188133d89516fb0aa95ceb5b",
+        "initiators": [
+          "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit",
+          "https://www.33across.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e526dc1ad498fc5"
+        ],
+        "time": 0.17052499999954307
+      },
+      {
+        "url": "https://www.33across.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 403,
+        "size": 3284,
+        "remoteIPAddress": "104.18.28.101",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+        },
+        "responseBodyHash": "a92e6cd25d8f753298132608356d3765e5257bd4947a7b6806b29868152c1d6a",
+        "initiators": [],
+        "time": 0.013460000000122818
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 208,
+        "remoteIPAddress": "104.18.95.41",
+        "responseHeaders": {},
+        "responseBodyHash": "fa2ab2475e5fbb12723f8f56380ba29c26bc6d4355dd6ca2d3922599a46cb973",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.015085000000908622
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/9527f987-df56-4c31-a3a9-84d8e6f3d20d",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ]
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/1151758751:1774424211:4o8Wa4Enn-QTt2lnuwi1reIgADkO95lDbuYaz16VfCU/9e526df4ee7115b8/XGNyMJKb3miIRTx3XPnT4Y1FwQysnPff09khmh4ehko-1774992356-1.2.1.1-PPwUdKo7DFlCF_FPEtmZZF2zk444A5JAy3zAnAVpUZyxo4Mk2wBKLu7lEwHTze3T",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 193677,
+        "remoteIPAddress": "104.18.95.41",
+        "responseHeaders": {
+          "timing-allow-origin": "https://challenges.cloudflare.com"
+        },
+        "responseBodyHash": "e869061ae7f97bada124563cd47c66cfcf16efbac1beb4ce987f6c201c8a2767",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.1254979999994248
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f3418640c1204265881221580b9d1554424f6ed49549d408da50c690ab29f400",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.08346499999970547
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f3418640c1204265881221580b9d1554424f6ed49549d408da50c690ab29f400",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.027903000000151224
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/d/9e526df4ee7115b8/1774992357413/a90yA7PnblhDzeA",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 590,
+        "remoteIPAddress": "104.18.95.41",
+        "responseHeaders": {},
+        "responseBodyHash": "7a8e92788b686e7000b05f94e2c92391d81edfef883450fe0fcb02f8d59acb72",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.01508300000023155
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9e526df4ee7115b8/1774992357413/7464355c0dcef7e4c99dd96699c38d672d1d9fe96b4f7486151cf086266ff358/BCa8BriP3aciLwP",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 401,
+        "remoteIPAddress": "104.18.95.41",
+        "responseHeaders": {},
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ]
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.027105999999548658
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.02460099999916565
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.024314999998750864
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.023736000001008506
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.023909999999887077
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ]
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": ".33across.com",
+        "path": "/",
+        "expires": 1774994156496,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://www.33across.com/c043e483-8dbd-4d3d-9fed-1b44045f6487"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/23576acd-4180-49a6-a9cd-d119a235927c"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.33across.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e526dc1ad498fc5": {
+          "URL.createObjectURL": 1
+        },
+        "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit": {
+          "window.innerWidth": 1
+        },
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/j8l6v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto": {
+          "window.localStorage": 4,
+          "URL.createObjectURL": 1,
+          "window.name": 4,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "window.screenX": 2,
+          "window.screenY": 2,
+          "window.outerWidth": 2,
+          "window.outerHeight": 2,
+          "window.devicePixelRatio": 2,
+          "window.screenLeft": 2,
+          "window.screenTop": 2,
+          "window.indexedDB": 2,
+          "window.sessionStorage": 2,
+          "Navigator.prototype.vendorSub": 1,
+          "Navigator.prototype.productSub": 1,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.webkitTemporaryStorage": 1,
+          "Navigator.prototype.webkitPersistentStorage": 1,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.appCodeName": 1,
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.language": 2,
+          "Navigator.prototype.languages": 2,
+          "Navigator.prototype.onLine": 3,
+          "Navigator.prototype.webdriver": 1,
+          "Navigator.prototype.plugins": 20,
+          "Navigator.prototype.mimeTypes": 9,
+          "Navigator.prototype.connection": 4,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.availHeight": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.pixelDepth": 1,
+          "Screen.prototype.availLeft": 1,
+          "Screen.prototype.availTop": 1,
+          "Screen.prototype.orientation": 2,
+          "Date.prototype.getTime": 12,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+          "OfflineAudioContext.prototype.constructor": 3,
+          "AudioBuffer.prototype.getChannelData": 3,
+          "CanvasRenderingContext2D.prototype.getImageData": 1,
+          "Performance.prototype.memory": 8,
+          "window.matchMedia(\"prefers-color-scheme\")": 1,
+          "Navigator.prototype.getGamepads": 1,
+          "Navigator.prototype.permissions": 5,
+          "Navigator.prototype.getBattery": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Document.cookie getter": 2,
+          "WebGLRenderingContext.prototype.getParameter": 4,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "HTMLCanvasElement.prototype.toDataURL": 2
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

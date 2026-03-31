@@ -1,0 +1,616 @@
+{
+  "initialUrl": "https://python.org/",
+  "finalUrl": "https://www.python.org/",
+  "timeout": true,
+  "testStarted": 1774992266431,
+  "testFinished": 1774992329802,
+  "data": {
+    "requests": [
+      {
+        "url": "https://python.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.python.org/",
+        "initiators": [],
+        "time": 0.05562300000019604
+      },
+      {
+        "url": "https://www.python.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 49328,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "5b7df1c2baed0e9519ee630d379cd8efab3247f150e16d6611d240eb79e42261",
+        "redirectedFrom": "https://python.org/",
+        "initiators": [],
+        "time": 0.040640999999595806
+      },
+      {
+        "url": "https://analytics.python.org/js/script.file-downloads.outbound-links.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1924,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, must-revalidate"
+        },
+        "responseBodyHash": "d50afd83686304b7893d699a120130acdf21c4e112c94f5501e8248fef284c9a",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.05570299999999406
+      },
+      {
+        "url": "https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8861,
+        "remoteIPAddress": "104.26.4.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "W/\"5e4a1bdb64b4ca47cb0d697af3bbcd8d\""
+        },
+        "responseBodyHash": "53784a0e276e7486b1043133c06240a4980f11fda65a4e9c7cc5a086b01aea2d",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.10493999999926018
+      },
+      {
+        "url": "https://www.python.org/static/js/libs/modernizr.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5267,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575b-2de9\""
+        },
+        "responseBodyHash": "3a4edef854cd17ebc840ad97b0c7cd3ec862f5074e9c920c8ed59182cdd31572",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.011968999999226071
+      },
+      {
+        "url": "https://www.python.org/static/stylesheets/style.c4f369bed0d3.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 125633,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69bdf928-554dd\""
+        },
+        "responseBodyHash": "d89cd2bd0637ccc5b4af65448deb9c85fac1f97c7b529ccc99b7070f8377b44d",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.030512999999700696
+      },
+      {
+        "url": "https://www.python.org/static/stylesheets/mq.a4feecea96fa.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 17761,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575c-17756\""
+        },
+        "responseBodyHash": "35e36199388e7f91c71fadd3c2619b88b0144a29e30784546f453a8d6285a5be",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.03071799999997893
+      },
+      {
+        "url": "https://www.python.org/static/stylesheets/font-awesome.bf0c425cdb73.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7335,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575c-7966\""
+        },
+        "responseBodyHash": "cc97f277693cd6797804977c15340f0901af3e04bb2737693921950de950396b",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.03158099999927799
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 8507,
+        "remoteIPAddress": "142.251.214.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Fri, 26 Mar 2027 05:31:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f9b751c1cd0d2b0f91862db987fed9dda48758b15e6f42ca67796b45f4b21702",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 3.049022999999579
+      },
+      {
+        "url": "https://www.python.org/static/img/python-logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15963,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69bdf927-3d9a\""
+        },
+        "responseBodyHash": "604044d1c95ba6fe4c98ad96828d60da871e3a066c0886394fe7534cb633741b",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.035265000000435975
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 34262,
+        "remoteIPAddress": "142.251.214.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Fri, 26 Mar 2027 05:31:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 3.029914999999164
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 68081,
+        "remoteIPAddress": "142.251.214.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Tue, 30 Mar 2027 02:00:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 3.0417639999996027
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.214.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Fri, 26 Mar 2027 05:31:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f554d2f09272c6f71447ebfe4532d3b1dd1959bce669f9a5ccc99e64ef511729",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 2.9798160000009375
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.214.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Tue, 30 Mar 2027 02:00:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "55accff7b642c2d7a402cbe03c1494c0f14a76bc03dee9d47d219562b6a152a5",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 2.9910930000005465
+      },
+      {
+        "url": "https://www.python.org/static/js/libs/masonry.pkgd.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8047,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575b-6643\""
+        },
+        "responseBodyHash": "027a97c8bb3c48bf7cd7e859283f9f32407cd4886ae9baa57125933a48576681",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.023703000000750762
+      },
+      {
+        "url": "https://www.python.org/static/js/libs/html-includes.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 379,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69bdf927-b2\""
+        },
+        "responseBodyHash": "374ae447d1c7830dbac7ef79aa1242cbec5c24dc62edb8c6cd13798a8c8aba1b",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.02377599999999802
+      },
+      {
+        "url": "https://www.python.org/static/js/main-min.e1f3949ae225.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10146,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575c-8297\""
+        },
+        "responseBodyHash": "96fd8add1146080693e474870b52f4eb6925c7cafdf7b31e5553d597206a8b36",
+        "initiators": [
+          "https://www.python.org/"
+        ],
+        "time": 0.024444999999104766
+      },
+      {
+        "url": "https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1694722768",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13274,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575c-3325\""
+        },
+        "responseBodyHash": "034f81783c10261468f855fa85b528a43380b470b10fd1dfe6de53f10b803ecf",
+        "initiators": [
+          "https://www.python.org/static/stylesheets/mq.a4feecea96fa.css"
+        ],
+        "time": 0.010840000000825967
+      },
+      {
+        "url": "https://www.python.org/static/fonts/SourceSansPro-Regular-webfont.fd0d51605201.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26548,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69bdf927-6718\""
+        },
+        "responseBodyHash": "3761f20fb77dcea07fcb95ebf7e02ba115a592c440cf70394f86465f92ac4d8b",
+        "initiators": [
+          "https://www.python.org/static/stylesheets/style.c4f369bed0d3.css"
+        ],
+        "time": 0.03417500000068685
+      },
+      {
+        "url": "https://www.python.org/static/fonts/FluxRegular.f5549a4fe75f.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30179,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69bdf927-7528\""
+        },
+        "responseBodyHash": "150f33746c487d69c420699ba0ad2fb36f84e6c2bd3a559b68adb7d1de8285a9",
+        "initiators": [
+          "https://www.python.org/static/stylesheets/style.c4f369bed0d3.css"
+        ],
+        "time": 0.029908999998951913
+      },
+      {
+        "url": "https://www.python.org/static/fonts/SourceSansPro-Bold-webfont.be855452e565.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26427,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69bdf927-6690\""
+        },
+        "responseBodyHash": "341277a2bdc771d8a7c8be48babdee2fa53efce49bac9504746c65ed328c7d90",
+        "initiators": [
+          "https://www.python.org/static/stylesheets/style.c4f369bed0d3.css"
+        ],
+        "time": 0.033944000000701635
+      },
+      {
+        "url": "https://www.python.org/static/fonts/SourceSansPro-It-webfont.1aa29ac0f190.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 28170,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69bdf928-6d3c\""
+        },
+        "responseBodyHash": "2af885543dfe8ce348a0e587d1dcd4bcec4c534533fc5a4eec29acae50891e2e",
+        "initiators": [
+          "https://www.python.org/static/stylesheets/style.c4f369bed0d3.css"
+        ],
+        "time": 0.03420899999946414
+      },
+      {
+        "url": "https://www.python.org/static/fonts/FluxBold.3fd71a747d5c.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 29346,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575c-71b1\""
+        },
+        "responseBodyHash": "5f5a4a0fb54f91ac07e273f19765890f372b1f91d286b71e6df3b1b78a1b528f",
+        "initiators": [
+          "https://www.python.org/static/stylesheets/style.c4f369bed0d3.css"
+        ],
+        "time": 0.03341700000055425
+      },
+      {
+        "url": "https://www.python.org/authenticated",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 452,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "31b90e462195611fc8b29bb10e706342e898e0815d066aa7c0d811bcd1e26dc4",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/libs/html-includes.js"
+        ],
+        "time": 0.01054900000053749
+      },
+      {
+        "url": "https://analytics.python.org/api/event",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 293,
+        "remoteIPAddress": "151.101.0.223",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate"
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://analytics.python.org/js/script.file-downloads.outbound-links.js"
+        ],
+        "time": 0.2836989999996149
+      },
+      {
+        "url": "https://console.python.org/python-dot-org-live-consoles-status",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 56.72994199999994
+      },
+      {
+        "url": "https://2p66nmmycsj3.statuspage.io/api/v2/status.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1204,
+        "remoteIPAddress": "108.139.10.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3, public, s-maxage=10, stale-while-revalidate=20, stale-if-error=3600",
+          "etag": "W/\"f700cc65ec092dede62645387658dbae\""
+        },
+        "responseBodyHash": "f700cc65ec092dede62645387658dbaee9a93128d1f83cbc8ca343f3c0dcd62c",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.05874500000027183
+      },
+      {
+        "url": "https://www.python.org/box/supernav-python-about/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 623,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "30561b6bd6b5acdaeef4dcc51206d0e497ec020e23a2c208700b08351fc2fd0d",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.012858999998570653
+      },
+      {
+        "url": "https://www.python.org/box/supernav-python-downloads/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2153,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "7db8b74e57a5a86a59997b5d74faf31e47ffb17411fc913f4e9c529006e7f176",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.012608999999429216
+      },
+      {
+        "url": "https://www.python.org/box/supernav-python-documentation/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 390,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "f92cb6d5a045d2f5782cdaf7cf25ca7e4bc747594dcaa6853c0a38a93281a4a5",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.013264000001072418
+      },
+      {
+        "url": "https://www.python.org/box/supernav-python-community/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 586,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "e33525fe4bdeb031cc1a6eebe87631732f9c9f27819a5bc81ff29be2f50f6444",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.013385000000198488
+      },
+      {
+        "url": "https://www.python.org/box/supernav-python-success-stories/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 497,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "c53b8d624ae0295ca4d954930092f6ec0f4953c314064a73fcd97ae474435041",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.012066999999660766
+      },
+      {
+        "url": "https://www.python.org/box/supernav-python-blog/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 474,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "f09ffcd1041244fe4493868715ccde0e00e5fb130d9663c6514ffd150fd6e866",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.011973000000580214
+      },
+      {
+        "url": "https://www.python.org/box/supernav-python-events/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 247,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {},
+        "responseBodyHash": "4495c0f824e676e3c94bb082e4508fec015ef1d41fd89888d0672b981b9a8ad8",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+          "https://www.python.org/static/js/main-min.e1f3949ae225.js"
+        ],
+        "time": 0.012225000000398722
+      },
+      {
+        "url": "https://www.python.org/static/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 15367,
+        "remoteIPAddress": "151.101.64.223",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public",
+          "etag": "\"69c6575b-3aee\""
+        },
+        "responseBodyHash": "e6c8d2390a7e1b4ed32216242befbdf466be83c6be8569cb8308c5e42c7efe54",
+        "initiators": [],
+        "time": 0.01075200000013865
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Date.prototype.getTime": 380,
+          "Event.prototype.timeStamp": 2
+        },
+        "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js": {
+          "Date.prototype.getTime": 1,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://analytics.python.org/js/script.file-downloads.outbound-links.js": {
+          "window.innerHeight": 1,
+          "Navigator.prototype.webdriver": 1,
+          "window.localStorage": 1
+        },
+        "https://www.python.org/static/js/main-min.e1f3949ae225.js": {
+          "Navigator.prototype.appVersion": 4
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

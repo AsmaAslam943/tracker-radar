@@ -1,0 +1,927 @@
+{
+  "initialUrl": "https://readthedocs.io/",
+  "finalUrl": "https://about.readthedocs.com/?ref=app.readthedocs.org",
+  "timeout": false,
+  "testStarted": 1774993501160,
+  "testFinished": 1774993510459,
+  "data": {
+    "requests": [
+      {
+        "url": "https://readthedocs.io/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.16.253.120",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Tue, 31 Mar 2026 22:05:02 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://readthedocs.org/",
+        "initiators": [],
+        "time": 0.13895299999967392
+      },
+      {
+        "url": "https://readthedocs.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.18.7.29",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Tue, 31 Mar 2026 22:05:02 GMT",
+          "set-cookie": "__cf_bm=8cwtrvTwxIntmY5AhoLAJuq3esUIJpgs4sCZEyW08jY-1774993502.1462069-1.0.1.1-4HMAE31_NiD1GwxLZnnUHdz9gQGI5hxeHu5wf3gx.p0.DAfd17VSVCVnVeroSBVWkO3SYJvKxO5TwfbQy5GAADQKwtbcpfSFfXpYT8kX4Yco0M_gzGnykz53lVF7bdvR; HttpOnly; Secure; Path=/; Domain=readthedocs.io; Expires=Tue, 31 Mar 2026 22:15:02 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://app.readthedocs.org/welcome/",
+        "redirectedFrom": "https://readthedocs.io/",
+        "initiators": [],
+        "time": 0.05755700000008801
+      },
+      {
+        "url": "https://app.readthedocs.org/welcome/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.18.7.29",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://about.readthedocs.com/?ref=app.readthedocs.org",
+        "redirectedFrom": "https://readthedocs.org/",
+        "initiators": [],
+        "time": 0.11044300000139629
+      },
+      {
+        "url": "https://about.readthedocs.com/?ref=app.readthedocs.org",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 7496,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"a6f073b5cd84f910e76715daef43a16b\"",
+          "set-cookie": "__cf_bm=OeSTH6K.AMZbrgsJOdAHrss3k9HrIyrxQOHQiXSsO.g-1774993502.4830766-1.0.1.1-q6U0Z_B.LcyJSmNpo8NSH55c0VT_VXvZoe4T.nmwN7uf3iNYzcCjV1EgQc2eVy0lxkHowSeYuOqeKhe.L2zGoeVv5Sc79BUwwmttnZ.skFO4bG9sDGfh1_I.LCUoBtbL; HttpOnly; Secure; Path=/; Domain=about.readthedocs.com; Expires=Tue, 31 Mar 2026 22:15:02 GMT"
+        },
+        "responseBodyHash": "a13b5c5e10874db6e5905dca020832f1a68851fef8b744d09d2238a66374a08d",
+        "redirectedFrom": "https://app.readthedocs.org/welcome/",
+        "initiators": [],
+        "time": 0.10725599999932456
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/css/site.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 104445,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"ad3c719cd3551c263b6cd09f278f3469\""
+        },
+        "responseBodyHash": "0f695023d975b9ad00d5610d1362895b2b2869c83b2e6133a9e762f7d98ffc37",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.10958699999901
+      },
+      {
+        "url": "https://kit.fontawesome.com/53af4251af.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5799,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60, public, stale-while-revalidate=30"
+        },
+        "responseBodyHash": "123e3ddf78dfd5c8a255c473e587c9de08d4a081e2e9ad584a5363ac96ab9824",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.2250690000000759
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/js/vendor.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 119392,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "W/\"e387821716c1e5bb5df6c0576b4a9198\""
+        },
+        "responseBodyHash": "a522e10530dd5b5036799a11685f078123109ffea23832eab97e3ec8cd7a8ecc",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.1230489999998099
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/js/site.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2844,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "W/\"f90d8910ad11ca1831a942a370010812\""
+        },
+        "responseBodyHash": "e7376e50e3cd5897a229f18e5ca9bd5fd15bb7a13b0830c903aad05884253152",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.08713999999963562
+      },
+      {
+        "url": "https://about.readthedocs.com/_/static/javascript/readthedocs-addons.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 135294,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "cache-control": "max-age=1200",
+          "etag": "W/\"ef8a2a573d552bb7165fadbeabe37887\""
+        },
+        "responseBodyHash": "ccf74657f2c524cee3aa261463d715671e160a9b22db18e78418a2a657feb6e6",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.2790390000009211
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/img/logo-wordmark-dark.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3841,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"8035ede2e46d39cbea33ed733e5356ff\""
+        },
+        "responseBodyHash": "cc1518178e58aaede3ca8b46cd42e94c5b1c9aadefe234d5eae28d1509eb3cfd",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.12306099999841535
+      },
+      {
+        "url": "https://about.readthedocs.com/images/homepage.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 33853,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"8e4f08b23e300277be66d42bc758cf30\""
+        },
+        "responseBodyHash": "fd242961469b16464fe9b39c7af36140c4c5f96b8a4d3bc11c4033e1b114c0bf",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.12379799999871466
+      },
+      {
+        "url": "https://about.readthedocs.com/images/amd-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1225,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"9423ebb10f539c7863ebb39bb9dfe26a\""
+        },
+        "responseBodyHash": "4db9db12a0005fed9a6647e6396d016c37317be6c3465572453ef5da8535ec6f",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.22519400000055612
+      },
+      {
+        "url": "https://about.readthedocs.com/images/canonical-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3600,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"8596309327627f0755944b6beea84e14\""
+        },
+        "responseBodyHash": "c4fecbc457f4504676c8f3c8c125d98bbbbe0c14cb1e89b639be558369ca8a9e",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.2307730000011361
+      },
+      {
+        "url": "https://about.readthedocs.com/images/anaconda-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7096,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"c9305bb8d9a23ea7a23e5875d6f54e32\""
+        },
+        "responseBodyHash": "3449d62cda753d314f41f973e3375170e5b1e1120849789f239829747e0057d1",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.26479400000062014
+      },
+      {
+        "url": "https://about.readthedocs.com/images/acquia-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2481,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"9a30cef06a7cbd6e9b9c7fec7ada60ca\""
+        },
+        "responseBodyHash": "74463cb429d9c27eeaf444b9a9a8e2b76d3372cd1682fabfc661c2872df43083",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.3047980000010284
+      },
+      {
+        "url": "https://about.readthedocs.com/images/flask-logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7652,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"42e07d1f46a09bebd73d831f54b5fdfa\""
+        },
+        "responseBodyHash": "a39e0c7f1e05e608dccb10b24394169d5a03f82f0b088977520d30d320df0678",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.304615000000922
+      },
+      {
+        "url": "https://about.readthedocs.com/images/jupyter-logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4329,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"2097a86a820116723bc1054c68dee1f1\""
+        },
+        "responseBodyHash": "1c887e66beea8922a86b5a6c3213e0eafff1a1243581f5fa01f5dee37eeef0d9",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.30423399999926914
+      },
+      {
+        "url": "https://about.readthedocs.com/images/godot-logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6596,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"ecc61b2de899c09b81ac359a7dfaca61\""
+        },
+        "responseBodyHash": "01f3e53781ec1ad3fb6ddeab8153abae5184e64ea00524bebe232dc80e7a73c0",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.3043680000009772
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/1654763?v=4",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 37855,
+        "remoteIPAddress": "185.199.108.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"db1153b849aebbf3ae3e9952f377020f7c3bf5ed70897a4a63c28be68ad84523\"",
+          "expires": "Tue, 31 Mar 2026 21:50:03 GMT",
+          "timing-allow-origin": "https://github.com"
+        },
+        "responseBodyHash": "211f29cdba97f47c33952eda9de245002442b065a355fe8ecbc56ba68e0b8b80",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.5845279999994091
+      },
+      {
+        "url": "https://github.com/mfisher87.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "140.82.116.4",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "dd96bd777b45b010e3ec085d890680ff3c04fe1529daf003499dd594a74b93d0",
+        "redirectedTo": "https://avatars.githubusercontent.com/u/3608264?v=4",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.7530850000002829
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro.min.css?token=53af4251af",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 82629,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"676048a5-14217\""
+        },
+        "responseBodyHash": "96d337d11501960ed43bce88c7d244685acc2131fc0216154da8cc1c7423f632",
+        "initiators": [
+          "https://kit.fontawesome.com/53af4251af.js"
+        ],
+        "time": 0.04542299999957322
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v4-shims.min.css?token=53af4251af",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4193,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"676048a5-ff8\""
+        },
+        "responseBodyHash": "f49c87c75bbfc7ff6fc8d0102a969b152cca0aad522f2883cd14354ce47b3c5e",
+        "initiators": [
+          "https://kit.fontawesome.com/53af4251af.js"
+        ],
+        "time": 0.028440000000045984
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v5-font-face.min.css?token=53af4251af",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 7280,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"676048a5-1c15\""
+        },
+        "responseBodyHash": "207393902fc5b673424da0b95213a3446c40ddf9aeb2b24b48e8a1eaa9d6a834",
+        "initiators": [
+          "https://kit.fontawesome.com/53af4251af.js"
+        ],
+        "time": 0.028679999999440042
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v4-font-face.min.css?token=53af4251af",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1930,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"676048a4-6c9\""
+        },
+        "responseBodyHash": "57fbb17bdd8a33539ce8cbff8e5cf6e8fa7ed468b7430e95dbe56d30fd050f6d",
+        "initiators": [
+          "https://kit.fontawesome.com/53af4251af.js"
+        ],
+        "time": 0.02670399999988149
+      },
+      {
+        "url": "https://kit.fontawesome.com/53af4251af/26008997/kit-upload.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 124,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926, public, must-revalidate",
+          "etag": "54af53b207eef226d6511e0a88e3038e"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://kit.fontawesome.com/53af4251af.js"
+        ],
+        "time": 0.02695299999868439
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/css/fonts/lato-normal.woff2?bd03a2cc277bbbc338d464e679fe9942",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 183495,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"bd03a2cc277bbbc338d464e679fe9942\""
+        },
+        "responseBodyHash": "2edfc5e868f0eb1ec9498b82cae4b79636ab60e9c7b0b354845602338ff230fa",
+        "initiators": [
+          "https://about.readthedocs.com/theme/css/site.css"
+        ],
+        "time": 0.04077800000050047
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/css/fonts/lato-bold.woff2?cccb897485813c7c256901dbca54ecf2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 185711,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"cccb897485813c7c256901dbca54ecf2\""
+        },
+        "responseBodyHash": "9ae6f6e85f3abe951ec8b13b058364f78787c0288945261231c5fd12c33edbc1",
+        "initiators": [
+          "https://about.readthedocs.com/theme/css/site.css"
+        ],
+        "time": 0.053456999999980326
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/css/fonts/lato-heavy.woff2?c9cbbdc3762c340d5d37073a54971487",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 185308,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"c9cbbdc3762c340d5d37073a54971487\""
+        },
+        "responseBodyHash": "20c8b05aa8ee7e78a6f4c7a7bf4a9ed4d98682f85c260d02bf79086301c53af3",
+        "initiators": [
+          "https://about.readthedocs.com/theme/css/site.css"
+        ],
+        "time": 0.06860099999903468
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/css/fonts/lato-bold-italic.woff2?0b6bb6725576b072c5d0b02ecdd1900d",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 194103,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "\"0b6bb6725576b072c5d0b02ecdd1900d\""
+        },
+        "responseBodyHash": "1769c00ae29fdf0dc9934ca1f0f5aad62ca353d82e7e77d69f2c6e754ac4f9ce",
+        "initiators": [
+          "https://about.readthedocs.com/theme/css/site.css"
+        ],
+        "time": 0.0565679999999702
+      },
+      {
+        "url": "https://plausible.io/api/event",
+        "method": "POST",
+        "type": "XHR",
+        "status": 202,
+        "size": 503,
+        "remoteIPAddress": "169.150.221.147",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform, Sec-CH-UA",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate"
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://about.readthedocs.com/theme/js/vendor.js",
+          "https://about.readthedocs.com/theme/js/site.js"
+        ],
+        "time": 0.4042109999991226
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-1.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 15771,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffc-3d40\""
+        },
+        "responseBodyHash": "8816405705a61f827735a57b1642bc2e5b0775ec63ea2d0f74ce13a0050e9c69",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.1267520000001241
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-2.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 40081,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffc-9be4\""
+        },
+        "responseBodyHash": "7bfb3688984c39b52070f6b6714ea61d29d95407c42f2f8a63c18b772ad0b2ce",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.1248730000006617
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-brands-400-0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 37807,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffc-9338\""
+        },
+        "responseBodyHash": "0c3a9424e46379d0ebbaaa5de45c2f102f307f04e89c3112191709d40e607aa3",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.12714099999902828
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 13306,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffc-338c\""
+        },
+        "responseBodyHash": "93a7d257690c4c0fbe5c599dae2184bebd6ea94b46cdcf6f8d3625a53d605e56",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.16156799999953364
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-28.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17109,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-4258\""
+        },
+        "responseBodyHash": "5528cfa7b5afbf064a1512dbd67f4a48cda52e7a2f12855225f71b2cfea2e115",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.14581299999917974
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-5.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 22728,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-5860\""
+        },
+        "responseBodyHash": "739b901bd115b5ac5ebb729ddff2f3b640b6c899653e61c73d10a040a01482e7",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.1438479999997071
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-14.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 12436,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-3038\""
+        },
+        "responseBodyHash": "0ade287548d48c3b9090750ac3c82fa2ce6c9401371d752e70ea22b9a06294ef",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.15959900000052585
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-24.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 20543,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-4fc4\""
+        },
+        "responseBodyHash": "c158338ba1ec58c4182d1b2bec6649e669b0c006753aa982005f93b3300de027",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.12455099999897357
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-13.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18621,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-4858\""
+        },
+        "responseBodyHash": "0ab56e1e038926ef892e853e5155f27c2d7f2efa7367e33338235c659196e9e6",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.1295269999991433
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-6.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 24906,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-60dc\""
+        },
+        "responseBodyHash": "ff4996d68e1617c4b3438b21028dbd80d487ce2279b43cd5309c4c42806a4cb5",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.15777100000013888
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-3.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18714,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-48b4\""
+        },
+        "responseBodyHash": "34acfb64a4e2d65e0a5b817534363f6d31c46620b6144584c7533b7246fd4361",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.1255730000011681
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-16.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 14259,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-3754\""
+        },
+        "responseBodyHash": "cc4e49c6bec71f4513684b145f69f3ea5f3049cc74ae54785dc49cfc7bbe04ee",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.13779199999953562
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-2.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17149,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-4298\""
+        },
+        "responseBodyHash": "d19e75350e437508f412883c503f1ec8221b6cdbd8472dfb92a9f3b258f1f244",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.12888900000143622
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-7.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27032,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-68ec\""
+        },
+        "responseBodyHash": "e82b852dbb81d7b2c2248d5bf1ed21c76d9583b6124de9be8bb96b159116fb32",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.15532399999938207
+      },
+      {
+        "url": "https://ka-p.fontawesome.com/releases/v6.7.2/webfonts/pro-fa-duotone-900-19.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 14825,
+        "remoteIPAddress": "172.64.147.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"67604ffd-3990\""
+        },
+        "responseBodyHash": "e843e37a559b395264436f97862c105877cc764f51e7c3edc6e80b8ce2514be5",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.13669099999970058
+      },
+      {
+        "url": "https://about.readthedocs.com/_/addons/?client-version=0.49.0&api-version=1&project-slug=readthedocs-about&version-slug=latest",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1502,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "cache-control": "max-age=1200"
+        },
+        "responseBodyHash": "62c15f2c10d4816037f53f7016437afc85cf4e81bbd5c56c08fac351fa6ee948",
+        "initiators": [
+          "https://about.readthedocs.com/_/static/javascript/readthedocs-addons.js"
+        ],
+        "time": 0.0654660000000149
+      },
+      {
+        "url": "https://about.readthedocs.com/_/api/v2/analytics/?project=readthedocs-about&version=latest&absolute_uri=https%3A%2F%2Fabout.readthedocs.com%2F%3Fref%3Dapp.readthedocs.org&status=200",
+        "method": "GET",
+        "type": "XHR",
+        "status": 204,
+        "size": 560,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "set-cookie": "_cfuvid=ZoOR.7OrCVfSfdn9eDKGi2Zs2pblYLgW8N_Q5BqY0m8-1774993503.242801-1.0.1.1-qO1o75oTJgGb9d4tHkEjMEQVRsvKLY03QLrfKrsyYOA; HttpOnly; SameSite=None; Secure; Path=/; Domain=about.readthedocs.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://about.readthedocs.com/_/static/javascript/readthedocs-addons.js"
+        ],
+        "time": 0.14111600000069302
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/3608264?v=4",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 244340,
+        "remoteIPAddress": "185.199.108.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"79d4811c38ece57f4b456080380e2ee90394d4edf8992ccbf3c14decc5cd7239\"",
+          "expires": "Tue, 31 Mar 2026 21:50:03 GMT",
+          "timing-allow-origin": "https://github.com"
+        },
+        "responseBodyHash": "dd96bd777b45b010e3ec085d890680ff3c04fe1529daf003499dd594a74b93d0",
+        "redirectedFrom": "https://github.com/mfisher87.png",
+        "initiators": [
+          "https://about.readthedocs.com/?ref=app.readthedocs.org"
+        ],
+        "time": 0.05686799999966752
+      },
+      {
+        "url": "https://about.readthedocs.com/theme/img/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4383,
+        "remoteIPAddress": "104.16.254.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1200",
+          "etag": "W/\"35b1c8d0300384683d8fbcef15a6036c\""
+        },
+        "responseBodyHash": "e9b222c9a1c349ef58cf18e42d5e4f4ba0468a519dc25c4dcc87d6ab3cb09804",
+        "initiators": [],
+        "time": 0.114105999999083
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": "readthedocs.io",
+        "path": "/",
+        "expires": 1774995302227,
+        "session": false
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".readthedocs.org",
+        "path": "/",
+        "expires": 1774995302395,
+        "session": false
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".readthedocs.org",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".about.readthedocs.com",
+        "path": "/",
+        "expires": 1774995302509,
+        "session": false
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".about.readthedocs.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

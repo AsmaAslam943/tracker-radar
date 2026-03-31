@@ -1,0 +1,781 @@
+{
+  "initialUrl": "https://doi.org/",
+  "finalUrl": "https://www.doi.org/",
+  "timeout": false,
+  "testStarted": 1774987887873,
+  "testFinished": 1774987895442,
+  "data": {
+    "requests": [
+      {
+        "url": "https://doi.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "104.26.5.132",
+        "responseHeaders": {
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.doi.org/",
+        "initiators": [],
+        "time": 0.0593589999998585
+      },
+      {
+        "url": "https://www.doi.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 7680,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "etag": "\"d091fd44dcc2d391ef58d10d499faabc\""
+        },
+        "responseBodyHash": "0ff64112748f2263f5c68467fe62fa9d0fae0051c72a4765e544e2df3cb7f985",
+        "redirectedFrom": "https://doi.org/",
+        "initiators": [],
+        "time": 0.07516000000032363
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 24776,
+        "remoteIPAddress": "151.101.65.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"260c5-fByeBXPlzqi603M74vxjqoxo6o0\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7633b7c0c97d19e682feee8afa2738523fcb2a14544a550572caeecd2eefe66b",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 3.5620969999999943
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23379,
+        "remoteIPAddress": "151.101.65.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"13397-kBFpUnUH/55mLPZNjjYfNZMIlw0\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e1f1503df765cca5e099891b94e318a2ef95081ba2af1eb6d417cc884bfdbfe",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 3.562061999999969
+      },
+      {
+        "url": "https://www.gstatic.com/charts/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18563,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:50:02 GMT"
+        },
+        "responseBodyHash": "369ae154eab37b7ada7776b934833183bb053ebd1d0255f70ef8944f65cabb0c",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 3.5687490000000253
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31731,
+        "remoteIPAddress": "142.251.214.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Tue, 30 Mar 2027 23:56:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a3cf00c109d907e543bc4f6dbc85eb31068f94515251347e9e57509b52ee3d74",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 3.5622000000003027
+      },
+      {
+        "url": "https://www.doi.org/css/fontawesome-free-6.7.2-web/css/fontawesome.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 16715,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"9e240338d6760d86ec4fbde1b5bd02eb\""
+        },
+        "responseBodyHash": "4c17b497d3e115a551dc3c07980da341b51fd72eb2436d9106024a2a43640b9d",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.016512000000147964
+      },
+      {
+        "url": "https://www.doi.org/css/fontawesome-free-6.7.2-web/css/solid.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 778,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"4c7b243ffb68cf55a109b7f388b3b730\""
+        },
+        "responseBodyHash": "1136ce38cf54f167da5e0d80916dadf906dda566054403be1c45ceb61f0441b6",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.015948999999636726
+      },
+      {
+        "url": "https://www.doi.org/css/fontawesome-free-6.7.2-web/css/brands.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5191,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"87f21ad1225bd69c3e4fa55fae59f817\""
+        },
+        "responseBodyHash": "96fa90cdf811c46f10041e5032aa591ab9638394ff84d982def0bb8b7ce7b652",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.015680999999858614
+      },
+      {
+        "url": "https://www.doi.org/css/style.396922656c054c5f43d96d61d78d931511d328beee57f2bb7e683671bc6537b8.css?v=sha256-OWkiZWwFTF9D2W1h142TFRHTKL7uV%2fK7fmg2cbxlN7g%3d",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7274,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"82930af76e48d4b8f4058d8d340951b4\""
+        },
+        "responseBodyHash": "c5e1f6b61a0e10c455cdf4901a7c20135eeeee99544f9b1e2c21695b3fd9cc53",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.01621900000009191
+      },
+      {
+        "url": "https://www.doi.org/images/logos/header_logo_cropped_registered.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2502,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"30b5e30d075f4712eb073a254a0d2104\""
+        },
+        "responseBodyHash": "c93bce3b220a5cfc3804c7643e2486bcf7a9940947a44eb877a31eea07cd989e",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.015975000000253203
+      },
+      {
+        "url": "https://www.doi.org/images/globe.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1246,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"9a1c329a60417d2e04e7ed776b8c0643\""
+        },
+        "responseBodyHash": "6f6e69c72b05e8670ea4dc4a8e884f5df03f2862bb36d9363f7a41cba5b3e9b2",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.01646699999946577
+      },
+      {
+        "url": "https://www.doi.org/images/target.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1168,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"b7277434b3851ede15090cd8614ae4b9\""
+        },
+        "responseBodyHash": "6b95f372df2a144cf7af17862c5393398102632c1479fb07d8e9ef35cadcc97b",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.02811999999994441
+      },
+      {
+        "url": "https://www.doi.org/images/communities/DOI%20Logo%20Icon-RGB.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35436,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"e8faab87b96a5ef6283254d8160b5c8a\""
+        },
+        "responseBodyHash": "0f562284ffc7a71f9154e40a2864e55d620a5c29ca5a7edc25ae2e27e1fdf6f2",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.046107999999549065
+      },
+      {
+        "url": "https://www.doi.org/images/logos/footer_logo_cropped_registered.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2983,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"503c8d45aea2f7098511e0f50a395bb7\""
+        },
+        "responseBodyHash": "a6a22577480d2f9f62b08ed25676e26de38667b7157e267882908eac28b51f0e",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.04634299999997893
+      },
+      {
+        "url": "https://www.doi.org/js/script.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3448,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"2592c2146f4beab04cd783d2e1dc7a3a\""
+        },
+        "responseBodyHash": "2047b6605dce190642e4451d064a668dad9bf522c0d2f97130b308ea8e059ddb",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.05987300000015239
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15927,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:23:46 GMT"
+        },
+        "responseBodyHash": "15f9c7dcb6d3f3fd50ac55a55f8a4168652122756d7763c13c333c9d4b8a36f0",
+        "initiators": [
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.021378999999797088
+      },
+      {
+        "url": "https://use.typekit.net/gcr6xms.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 921,
+        "remoteIPAddress": "23.212.62.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0ddee5ee714bc8b63170cca325224287381a30815836ff890d6e5c380f8bb0a6",
+        "initiators": [
+          "https://www.doi.org/css/style.396922656c054c5f43d96d61d78d931511d328beee57f2bb7e683671bc6537b8.css?v=sha256-OWkiZWwFTF9D2W1h142TFRHTKL7uV%2fK7fmg2cbxlN7g%3d"
+        ],
+        "time": 0.04565499999989697
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/css/core/tooltip.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 560,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 21:08:31 GMT"
+        },
+        "responseBodyHash": "2cb6d99c8ba2262a4d0c6d0333a35b67be6d4db6c5a7d2c4a9cff74e5970e4f6",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.018497000000024855
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/css/util/util.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3230,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:52:43 GMT"
+        },
+        "responseBodyHash": "e9c9244f08810a7573b16fd89288d4587f617de4c005b3e4d74ee034b6dbf280",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.02413299999989249
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/css/table/table.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2057,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:24:25 GMT"
+        },
+        "responseBodyHash": "bdfd284557089f415bc6780fd59f6f957746ebd2f3de6b7aa668c401eb5a3063",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.028672999999798776
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/css/util/format.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 338,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 21:02:23 GMT"
+        },
+        "responseBodyHash": "e96f82f5743dccc9d190dfbaa742d67fedf079e975bd31f7908394674abac742",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.02519800000027317
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_default_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 84539,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:36:16 GMT"
+        },
+        "responseBodyHash": "7e7e72eecf6a4fb2981627eb8d15b947d394398db4e67c7ca7705749cdb2f832",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.10636499999964144
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_graphics_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7980,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:27:09 GMT"
+        },
+        "responseBodyHash": "9ad0d8bf9e4659eb773ec937a69b25c1e8869b17c43acd258f01e268f0194088",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.0585110000001805
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_ui_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 171076,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:31:05 GMT"
+        },
+        "responseBodyHash": "0867ee1df230c80dc1601a8c56c499fabe444ab3ec173ce8b901444560c8816d",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.20516899999984162
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_corechart_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1392,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:19:57 GMT"
+        },
+        "responseBodyHash": "30c48eef4e305a1f7e77d50dcac4b5f7baf250b0d55dfbab468db645bfb13c65",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.06912399999964691
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_fw_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25832,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:25:13 GMT"
+        },
+        "responseBodyHash": "23dda07bcc257665b937985a24a105e5e759cda1bd2e277a0cb43acbf6f92f7e",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.0724690000006376
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/third_party/dygraphs/dygraph-tickers-combined.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6041,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:23:17 GMT"
+        },
+        "responseBodyHash": "476d9e48b0d5a604dbce0921ef4c0a8f8e44e265ef52faad0031cca0449d066c",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.06871599999976752
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/third_party/webfontloader/webfont.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6707,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 21:09:49 GMT"
+        },
+        "responseBodyHash": "770caf20a6970edf3c4af368145962743cc58ed16d29ff235c758e9788d37b50",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.06833699999970122
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_line_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1060,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:28:53 GMT"
+        },
+        "responseBodyHash": "5a262933654f6acffd409a81ebf5505989db1082c0f956bd9e2bef955e7b92df",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.027739000000110536
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_table_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1156,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:59:45 GMT"
+        },
+        "responseBodyHash": "b95e88aa3ddbfb9eafedac06f01025f12d4751a63841e18a5a1bbacae651f899",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.04410999999981868
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_geo_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2614,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 21:11:32 GMT"
+        },
+        "responseBodyHash": "942d2f1d42ecb80ad20154c4c880839281b4e1f621854a3db03ea6ac304285a6",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.07603500000004715
+      },
+      {
+        "url": "https://www.gstatic.com/charts/51/js/jsapi_compiled_geochart_module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15261,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 20:23:56 GMT"
+        },
+        "responseBodyHash": "51d1bc719dfc930bdeab5a66c70087bf041d6e656fd662de9118b842d9e6524a",
+        "initiators": [
+          "https://www.gstatic.com/charts/51/loader.js",
+          "https://www.gstatic.com/charts/loader.js",
+          "https://www.doi.org/"
+        ],
+        "time": 0.04240800000025047
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=gcr6xms&ht=tk&f=10884.32874&a=12362348&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 172,
+        "remoteIPAddress": "23.212.62.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"67f276f6-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://use.typekit.net/gcr6xms.css"
+        ],
+        "time": 0.1776030000000901
+      },
+      {
+        "url": "https://www.doi.org/images/binary-eye@2x.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 263721,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"1b7690ca44dbf30966e0ae0e5520a146\""
+        },
+        "responseBodyHash": "0eb8393a241dc6efc3b4b20594872544d6036bbefc00a72ea8cc8de3e76058ee",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.043531000000257336
+      },
+      {
+        "url": "https://www.doi.org/images/dot-pattern.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 46642,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"f605b7ab2da8e9df68a86631a4a58e1a\""
+        },
+        "responseBodyHash": "638b2633d2d040d9236b212df3fdcd25077b86c98e789f421f9cde944f06446f",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.04807700000037585
+      },
+      {
+        "url": "https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 51773,
+        "remoteIPAddress": "23.212.62.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"22520917f01d8d34c0dcc1417c749962b8a47011\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fb5dfeaaf31734adb3a3269a190a871941364c9b2f123e0a042e4b409def916c",
+        "initiators": [
+          "https://use.typekit.net/gcr6xms.css"
+        ],
+        "time": 0.19377000000076805
+      },
+      {
+        "url": "https://use.typekit.net/af/053fc9/00000000000000003b9af1e4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 40711,
+        "remoteIPAddress": "23.212.62.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"bccc83ecab24faeba135395feebdc7112041b9e4\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fa36fd41e930c40c80867ea377b3aed02ee466ce0ceb20d6a85e83b46f8c86bb",
+        "initiators": [
+          "https://use.typekit.net/gcr6xms.css"
+        ],
+        "time": 0.2071509999996124
+      },
+      {
+        "url": "https://www.doi.org/css/fontawesome-free-6.7.2-web/webfonts/fa-solid-900.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 158807,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "etag": "\"4a6591ab5460ae5cbff1ecbd6e52193a\""
+        },
+        "responseBodyHash": "901ce5b3652c6bb2637a709b407b92c848e25fc548ed5f9dd3534444d55f451f",
+        "initiators": [
+          "https://www.doi.org/css/fontawesome-free-6.7.2-web/css/solid.min.css"
+        ],
+        "time": 0.07652500000040163
+      },
+      {
+        "url": "https://www.doi.org/css/fontawesome-free-6.7.2-web/webfonts/fa-brands-400.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 119225,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "etag": "\"cbcf42b2e9228a8f5bad42717d8a88db\""
+        },
+        "responseBodyHash": "16021e4052e5764ccf9396a55e754acaddee819fd6a71b05a57b5adfa517552b",
+        "initiators": [
+          "https://www.doi.org/css/fontawesome-free-6.7.2-web/css/brands.min.css"
+        ],
+        "time": 0.07079400000020541
+      },
+      {
+        "url": "https://doi.org/api/handles/10.1000/1000?type=DOI_RESOLUTIONS&auth",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6341,
+        "remoteIPAddress": "104.26.5.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.doi.org",
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": "2a607d0ce03360adbcb66638a5c9f42889185a76871e2179db90c0b586a2c154",
+        "initiators": [
+          "https://www.doi.org/"
+        ],
+        "time": 0.05171100000006845
+      },
+      {
+        "url": "https://www.doi.org/images/favicons/favicon-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2050,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"e584f84fa2b164996685be884b16376b\""
+        },
+        "responseBodyHash": "6b3e5f0cce37ce54f5e7d12d80aab44762a2065c9ccf4128f197aa6cda8abe3d",
+        "initiators": [],
+        "time": 0.012572999999974854
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.gstatic.com/charts/51/loader.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.gstatic.com/charts/51/js/jsapi_compiled_default_module.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.appVersion": 1
+        },
+        "https://www.gstatic.com/charts/51/third_party/webfontloader/webfont.js": {
+          "Navigator.prototype.userAgent": 1
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

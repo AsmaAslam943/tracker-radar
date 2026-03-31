@@ -1,0 +1,342 @@
+{
+  "initialUrl": "https://addtoany.com/",
+  "finalUrl": "https://www.addtoany.com/",
+  "timeout": false,
+  "testStarted": 1774989396961,
+  "testFinished": 1774989402395,
+  "data": {
+    "requests": [
+      {
+        "url": "https://addtoany.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.addtoany.com/",
+        "initiators": [],
+        "time": 0.052075999999942724
+      },
+      {
+        "url": "https://www.addtoany.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 7890,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {},
+        "responseBodyHash": "5d03c706407536a448096904c7d966afbcd2a7e051c2b9da0891a5ca8b83d4ed",
+        "redirectedFrom": "https://addtoany.com/",
+        "initiators": [],
+        "time": 0.05267400000047928
+      },
+      {
+        "url": "https://www.addtoany.com/cdn-cgi/speculation",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 323,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.addtoany.com"
+        },
+        "responseBodyHash": "11a2142988720cd49ff000e5d488493947b3d34821301c5a706b3495b8381f7d",
+        "initiators": [],
+        "time": 0.016405000000304426
+      },
+      {
+        "url": "https://www.addtoany.com/css/main.18.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000, immutable",
+          "etag": "\"4e5c-60db618f996b3\""
+        },
+        "responseBodyHash": "9271142c943165e88f8b8d06ab8d1a9218324f6f726b2037387c5a3b16a91bd7",
+        "initiators": [],
+        "time": 0.016134999999849242
+      },
+      {
+        "url": "https://www.addtoany.com/js/prefetch.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 917,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000, immutable",
+          "etag": "\"4aa-62406bcdca5fe\""
+        },
+        "responseBodyHash": "4ed36fd9507aa9826063f1bd3860c752f311d24081bb5e4fce33eeeeeffc4503",
+        "initiators": [
+          "https://www.addtoany.com/"
+        ],
+        "time": 0.021833999999216758
+      },
+      {
+        "url": "https://www.addtoany.com/js/transition.2.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 861,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000, immutable",
+          "etag": "\"599-62f7d83adaaab\""
+        },
+        "responseBodyHash": "c19bf0267547383fe29c063e4c0325ff109da48b6b7b86a4ee171d463ffd1a2e",
+        "initiators": [
+          "https://www.addtoany.com/"
+        ],
+        "time": 0.021544999999605352
+      },
+      {
+        "url": "https://static.addtoany.com/menu/page.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2224,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400, stale-while-revalidate=30, public",
+          "etag": "W/\"ba58662c7d87649cc6c58ffa655758af\""
+        },
+        "responseBodyHash": "fdc19178ffaef3c25f667e332a6b3a832a2d433196e269e62705b32635cc4535",
+        "initiators": [
+          "https://www.addtoany.com/"
+        ],
+        "time": 0.043293000000630855
+      },
+      {
+        "url": "https://static.addtoany.com/css/picons.2.svg.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 17380,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400, stale-while-revalidate=30, public",
+          "etag": "W/\"4d4781df5d323f058d0a94d4fda67085\""
+        },
+        "responseBodyHash": "09434330031211b11e04f852e389021d1863e15b5b63b47639b3af5d90ae1300",
+        "initiators": [
+          "https://www.addtoany.com/"
+        ],
+        "time": 0.019694000000527012
+      },
+      {
+        "url": "https://www.addtoany.com/images/addtoany-logo-32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3588,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000, immutable",
+          "etag": "\"d56-5e22b1b87469b\"",
+          "expires": "Fri, 28 Mar 2036 20:01:29 GMT"
+        },
+        "responseBodyHash": "47b8497ea86e961d7de343234df08d82a5e65260f0ede920b5eeb0effa4b3309",
+        "initiators": [
+          "https://www.addtoany.com/css/main.18.min.css"
+        ],
+        "time": 0.019429999998465064
+      },
+      {
+        "url": "https://static.addtoany.com/menu/sm.25.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 952,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, immutable",
+          "etag": "W/\"551efc5187c9f500b4e394155ba03720\""
+        },
+        "responseBodyHash": "274d4116239b63097bb7c16e56e27cbb5a77be20392fb8e2317c0a0235185cad",
+        "initiators": [
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 0.09586799999851792
+      },
+      {
+        "url": "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27020,
+        "remoteIPAddress": "172.66.171.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, immutable",
+          "etag": "W/\"44ad5ade899a741fb11da1dc866d3785\""
+        },
+        "responseBodyHash": "afb9825a91c5980ddb68ebfa3c7323533f4355f14a0a7db233b5de527f4c32d5",
+        "initiators": [
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 1.8025890000008076
+      },
+      {
+        "url": "https://static.addtoany.com/menu/svg/icons/facebook.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 837,
+        "remoteIPAddress": "172.66.171.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000, stale-while-revalidate=30, public",
+          "etag": "W/\"68925fa8e347041c6006837e73c518bc\""
+        },
+        "responseBodyHash": "4b475960843a5619b907af1f0a89e3136bd5e6a4a700ec78cb417f302647cf49",
+        "initiators": [
+          "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js",
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 0.01746399999865389
+      },
+      {
+        "url": "https://static.addtoany.com/menu/svg/icons/pinterest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1044,
+        "remoteIPAddress": "172.66.171.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000, stale-while-revalidate=30, public",
+          "etag": "W/\"b83511f1e536e2440b4e06f3278d8a84\""
+        },
+        "responseBodyHash": "af131f38af73817b1fbcd3381d88c95f4123b4b5a58ca4bd0872a68f29cbbf2d",
+        "initiators": [
+          "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js",
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 0.017494000001534005
+      },
+      {
+        "url": "https://static.addtoany.com/menu/svg/icons/bluesky.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 943,
+        "remoteIPAddress": "172.66.171.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000, stale-while-revalidate=30, public",
+          "etag": "W/\"fb3d0a00ee4023f3c7ff3de01b479f9d\""
+        },
+        "responseBodyHash": "59d324bffa471d915557c54ecdde15c6fd03cc1fd92192d2f87661abc62406dc",
+        "initiators": [
+          "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js",
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 0.019199000000298838
+      },
+      {
+        "url": "https://static.addtoany.com/menu/svg/icons/mastodon.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1069,
+        "remoteIPAddress": "172.66.171.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000, stale-while-revalidate=30, public",
+          "etag": "W/\"4c296e9a62eeb491a34849c89884f194\""
+        },
+        "responseBodyHash": "eddae3554508430d27bca3b7b25cb4f3086b74bac9cf4b89ef403cd321ee1ea2",
+        "initiators": [
+          "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js",
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 0.020582999999533058
+      },
+      {
+        "url": "https://static.addtoany.com/menu/svg/icons/whatsapp.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1179,
+        "remoteIPAddress": "172.66.171.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000, stale-while-revalidate=30, public",
+          "etag": "W/\"83af4df8173e43227812296bb8542dcf\""
+        },
+        "responseBodyHash": "c15e1379ca2c59f99912500bbc23a0d1d88f43198cbe1b53d87776fa351385eb",
+        "initiators": [
+          "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js",
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 0.0192349999997532
+      },
+      {
+        "url": "https://static.addtoany.com/menu/svg/icons/threads.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1262,
+        "remoteIPAddress": "172.66.171.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000, stale-while-revalidate=30, public",
+          "etag": "W/\"10ce590e56b9fec2b111c4a526cf6c94\""
+        },
+        "responseBodyHash": "fb7e26606bdef81d4333de67ad7792c0127e9c04b8c9a869e58a354e59574efe",
+        "initiators": [
+          "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js",
+          "https://static.addtoany.com/menu/page.js"
+        ],
+        "time": 0.0201519999991433
+      },
+      {
+        "url": "https://www.addtoany.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1229,
+        "remoteIPAddress": "104.20.20.192",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000, immutable",
+          "etag": "\"1536-5784d0fc7f53f\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d4a48cc47a5c46cb761a476bd611e4d2e85b2a32502820c1fe289cff867bee1d",
+        "initiators": [],
+        "time": 0.01836100000036822
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "about:blank": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://static.addtoany.com/menu/sm.25.html": {
+          "Document.cookie getter": 1
+        },
+        "https://static.addtoany.com/menu/modules/core.ydpp7jcu.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.language": 1
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

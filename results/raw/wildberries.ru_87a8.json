@@ -1,0 +1,382 @@
+{
+  "initialUrl": "https://wildberries.ru/",
+  "finalUrl": "https://www.wildberries.ru/",
+  "timeout": false,
+  "testStarted": 1774987613611,
+  "testFinished": 1774987622474,
+  "data": {
+    "requests": [
+      {
+        "url": "https://wildberries.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.wildberries.ru/",
+        "initiators": [],
+        "time": 1.1539560000001075
+      },
+      {
+        "url": "https://www.wildberries.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 498,
+        "size": 1796,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {},
+        "responseBodyHash": "f55ea712ad7cbe74080f323643f0faa51fb57d2855ff759a84eded5c722989ae",
+        "redirectedFrom": "https://wildberries.ru/",
+        "initiators": [],
+        "time": 0.41557100000045466
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23005,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 0.42989699999998265
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-BuoI5IWB.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3282,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 0.30775899999935064
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/find-frontend-settings",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 619,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js"
+        ],
+        "time": 0.2208229999996547
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/Inter-IbfurEEi.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30301,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-BuoI5IWB.css"
+        ],
+        "time": 0.38875499999994645
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/Inter.latin-Doiuy_Nz.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 73659,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-BuoI5IWB.css"
+        ],
+        "time": 0.668163999999706
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/statics/challenge_solver_v1.0.4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16772,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js"
+        ],
+        "time": 0.4783950000000914
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 498,
+        "size": 1583,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js"
+        ],
+        "time": 0.2238070000003063
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/statics/challenge_fingerprint_v1.0.23.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53411,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/statics/challenge_solver_v1.0.4.js",
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js"
+        ],
+        "time": 0.3009069999998246
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/api/v1/create-token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 842,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js"
+        ],
+        "time": 0.2278809999997975
+      },
+      {
+        "url": "https://www.wildberries.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 10551,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, private",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1272dafcdb6e6f4f62a09cb0e8b203e68cc615f8a3e0e942088b3a464772a94a",
+        "initiators": [
+          "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js"
+        ],
+        "time": 0.2270619999999326
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/f/als-hauss-vf.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 137912,
+        "remoteIPAddress": "213.184.155.47",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "be84a17c9962220c617ab66adc5cbb81408cd615b224725a3df5ed17d6f2280d",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 1.8666710000006788
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/s/desktop/style/views/spa/main-v3.a5c37ba15b6cdc80c964.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "remoteIPAddress": "213.184.155.47",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ]
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/j/app.3a2411c8ba0818f54f4e.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ]
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/j/lang/ru.07ff3391ad06294a9454.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ]
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/app/react-vendors.2a637011821237cf4fdc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54759,
+        "remoteIPAddress": "213.184.155.47",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "f94adba6a3d2561872a3a0664664d89c82fd5227f724dedc9f3fa2221a31c330",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 2.2367800000001807
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/app/react-app.7bbaaef9b3ed3a04da37.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7415,
+        "remoteIPAddress": "213.184.155.47",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "aa5da3a80b0fcd86ecaa093218f877b24b584e838d4fecf32ef6c41f005d6084",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 1.961887000000388
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/j/spa/index.c6cb0a61da198ccf70e7.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ]
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol2/site/r/route-data.14-3-5.1f4429a5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7992,
+        "remoteIPAddress": "213.184.155.47",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "21a5c14ec311a5a9d6d6d0efa966e1d8470ed576c9f0cf46fd60292f54fa9a2c",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 1.5347119999996721
+      },
+      {
+        "url": "https://static-basket-01.wbbasket.ru/vol0/data/prodversion-front-v2.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 584,
+        "remoteIPAddress": "213.184.155.47",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "e220d4d24510247af8a74e666d845504a0cef7ff7065513a9ced707723e0563e",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 1.8212699999994584
+      },
+      {
+        "url": "https://www.wildberries.ru/manifestv2.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 999,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, private",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7403b92ffd004874362a20fe8feeb3b064552a9c303591b2643ff492c646616f",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 0.6642789999996239
+      }
+    ],
+    "cookies": [
+      {
+        "name": "x_wbaas_token",
+        "domain": "www.wildberries.ru",
+        "path": "/",
+        "expires": 1776197218871,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js": {
+          "Document.cookie getter": 2,
+          "window.localStorage": 4
+        },
+        "https://www.wildberries.ru/__wbaas/challenges/antibot/statics/challenge_fingerprint_v1.0.23.js": {
+          "window.innerHeight": 1,
+          "window.outerHeight": 1,
+          "window.outerWidth": 1,
+          "window.innerWidth": 1,
+          "window.screenX": 1,
+          "window.devicePixelRatio": 1
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

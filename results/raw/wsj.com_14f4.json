@@ -1,0 +1,434 @@
+{
+  "initialUrl": "https://wsj.com/",
+  "finalUrl": "https://www.wsj.com/",
+  "timeout": false,
+  "testStarted": 1774988589440,
+  "testFinished": 1774988594764,
+  "data": {
+    "requests": [
+      {
+        "url": "https://wsj.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "108.139.10.26",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.wsj.com/",
+        "initiators": [],
+        "time": 0.08504999999968277
+      },
+      {
+        "url": "https://www.wsj.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 401,
+        "size": 1517,
+        "remoteIPAddress": "18.155.192.79",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "set-cookie": "datadome=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG; Max-Age=31536000; Domain=.wsj.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "04b9367bb43f5ac282a9e0f36ae190f2e86fbdeea404905dede20f353b1bf876",
+        "redirectedFrom": "https://wsj.com/",
+        "initiators": [],
+        "time": 0.08088499999939813
+      },
+      {
+        "url": "https://ct.captcha-delivery.com/i.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16065,
+        "remoteIPAddress": "3.169.183.115",
+        "responseHeaders": {
+          "etag": "\"14867fc17e7a0d59f653596d425b2feb\""
+        },
+        "responseBodyHash": "b2086fb19988cbf9d2caa696692c0711145ee92124319146e0d1352d8eb5797d",
+        "initiators": [
+          "https://www.wsj.com/"
+        ],
+        "time": 1.713132000000769
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 178610,
+        "remoteIPAddress": "52.52.48.41",
+        "responseHeaders": {},
+        "responseBodyHash": "d94389ea40c71b1ac612376e40aa6d7a46437fec4b26a1c7e2e185a8e5d084c1",
+        "initiators": [
+          "https://ct.captcha-delivery.com/i.js"
+        ],
+        "time": 0.17011900000034075
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/Retina/font-face.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 808,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "etag": "\"648cfe606caf0d3303be2ba5bb7c0174\""
+        },
+        "responseBodyHash": "145e6ba58cee3891e7dcdf9aa5a9f50d9c58a7d129d2ed231b8276f84ceb70b8",
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd"
+        ],
+        "time": 0.13833399999930407
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/tpl/device-check/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1402,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "etag": "W/\"0baa3b5c210de640a4fdb0b9d3e01c96\""
+        },
+        "responseBodyHash": "4306a5efb86516c2beda2fffc2864c2e8c9f41e13c8675b0ae4559735fb28cf7",
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd"
+        ],
+        "time": 0.13838700000087556
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/set/7e02d37e62c4a70b5b5237d99b3fbf286ad093b8/logo.png?update_cache=3384288046263131961",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10071,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"cccc1809ccc7e070517acaf7563297fc\""
+        },
+        "responseBodyHash": "99af8bdc4d26d97a33db6412cfe456894121e5d2fb17af7c3ddf824ee1f4588e",
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd"
+        ],
+        "time": 0.6075940000009723
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/Retina/Retina-Book.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 47654,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://geo.captcha-delivery.com",
+          "etag": "\"7033b8f58054f0180c90a32395faf73c\""
+        },
+        "responseBodyHash": "5106d67da1e4fa55ac1482f380fbbdf13330e6e8de27d0b5a522e9b9fcc0bf10",
+        "initiators": [
+          "https://static.captcha-delivery.com/common/fonts/Retina/font-face.css"
+        ],
+        "time": 0.053638999999748194
+      },
+      {
+        "url": "blob:https://geo.captcha-delivery.com/27e117cb-3f76-4552-aadc-854ef5c4afc1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "responseHeaders": {},
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd"
+        ]
+      },
+      {
+        "url": "https://www.wsj.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 13568,
+        "remoteIPAddress": "18.155.192.79",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"14a1e4ef44c0757c4381fbe3763701b0\""
+        },
+        "responseBodyHash": "5b00341146f4382df728d233fef2cddc0470711bc307003adfadf15b55bf838c",
+        "initiators": [],
+        "time": 0.03620199999932083
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/interstitial/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 831,
+        "remoteIPAddress": "52.52.48.41",
+        "responseHeaders": {},
+        "responseBodyHash": "52855f55c6bd9ae284d8ed4a4980489e2380a160f2ae36f9b8e8f3a53fc63a1c",
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd"
+        ],
+        "time": 0.015621999998984393
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 218331,
+        "remoteIPAddress": "52.52.48.41",
+        "responseHeaders": {},
+        "responseBodyHash": "17b8923b711e60f7827598600fcc576a3db6ef86e5e15d4ba465cb2130b9dc13",
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd"
+        ],
+        "time": 0.06200600000011036
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/tpl/6dc485c0c428c35b53577b146dc6f9179f55ef9ad41b327a2a179998839364bf/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1799,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "etag": "W/\"23464822977c44c55ef7876a5a849489\""
+        },
+        "responseBodyHash": "90f12503b24159799afe91146630c31cb4301ed17864f9a136d77ed265d70709",
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033"
+        ],
+        "time": 0.04525800000010349
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/Retina/font-face.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "etag": "\"648cfe606caf0d3303be2ba5bb7c0174\""
+        },
+        "responseBodyHash": "145e6ba58cee3891e7dcdf9aa5a9f50d9c58a7d129d2ed231b8276f84ceb70b8",
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033"
+        ],
+        "time": 0.00005899999996472616
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/set/7e02d37e62c4a70b5b5237d99b3fbf286ad093b8/logo.png?update_cache=5720608989759531281",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10071,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"cccc1809ccc7e070517acaf7563297fc\""
+        },
+        "responseBodyHash": "99af8bdc4d26d97a33db6412cfe456894121e5d2fb17af7c3ddf824ee1f4588e",
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033"
+        ],
+        "time": 0.459195000001273
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/Retina/Retina-Book.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://geo.captcha-delivery.com",
+          "etag": "\"7033b8f58054f0180c90a32395faf73c\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://static.captcha-delivery.com/common/fonts/Retina/font-face.css"
+        ],
+        "time": 0.00007899999945948366
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/Retina/Retina-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 48115,
+        "remoteIPAddress": "65.8.54.124",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://geo.captcha-delivery.com",
+          "etag": "\"87ae136546f1829642c68aa7d5bca0d4\""
+        },
+        "responseBodyHash": "935eb9e811050f601c4f6451a4ec8446af555a2ea0d9364dd22e7cd13623eb01",
+        "initiators": [
+          "https://static.captcha-delivery.com/common/fonts/Retina/font-face.css"
+        ],
+        "time": 0.04564799999934621
+      },
+      {
+        "url": "blob:https://geo.captcha-delivery.com/be8be380-428c-4f74-88ac-23d299a4b317",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033"
+        ]
+      }
+    ],
+    "cookies": [
+      {
+        "name": "datadome",
+        "domain": ".wsj.com",
+        "path": "/",
+        "expires": 1806524589972,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://geo.captcha-delivery.com/27e117cb-3f76-4552-aadc-854ef5c4afc1"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://ct.captcha-delivery.com/i.js": {
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Document.cookie getter": 1
+        },
+        "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd": {
+          "window.localStorage": 2,
+          "Navigator.prototype.languages": 2,
+          "window.outerHeight": 5,
+          "window.outerWidth": 4,
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.hardwareConcurrency": 6,
+          "Navigator.prototype.webdriver": 4,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 6,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.deviceMemory": 3,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Navigator.prototype.keyboard": 3,
+          "Navigator.prototype.permissions": 3,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2,
+          "Navigator.prototype.getBattery": 1,
+          "URL.createObjectURL": 1,
+          "Performance.prototype.memory": 3,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.connection": 5,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.mediaDevices": 1,
+          "Navigator.prototype.plugins": 26,
+          "window.innerWidth": 3,
+          "window.innerHeight": 4,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "window.devicePixelRatio": 1,
+          "Screen.prototype.orientation": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "speechSynthesis.__proto__.getVoices": 1,
+          "Navigator.prototype.storage": 3,
+          "Navigator.prototype.mimeTypes": 9,
+          "HTMLMediaElement.prototype.canPlayType": 19,
+          "MediaSource.isTypeSupported": 19,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie setter": 2,
+          "Document.cookie getter": 1,
+          "PerformanceTiming.prototype.navigationStart": 1
+        },
+        "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033": {
+          "Navigator.prototype.languages": 2,
+          "window.outerHeight": 2,
+          "window.outerWidth": 2,
+          "Navigator.prototype.userAgent": 6,
+          "Navigator.prototype.hardwareConcurrency": 7,
+          "Navigator.prototype.webdriver": 4,
+          "Navigator.prototype.platform": 2,
+          "Navigator.prototype.maxTouchPoints": 6,
+          "Navigator.prototype.onLine": 3,
+          "Navigator.prototype.deviceMemory": 3,
+          "Navigator.prototype.permissions": 3,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2,
+          "Navigator.prototype.keyboard": 3,
+          "URL.createObjectURL": 1,
+          "Navigator.prototype.plugins": 26,
+          "Navigator.prototype.mimeTypes": 9,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "window.devicePixelRatio": 1,
+          "Screen.prototype.orientation": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Performance.prototype.memory": 3,
+          "speechSynthesis.__proto__.getVoices": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Document.cookie setter": 2,
+          "Document.cookie getter": 1,
+          "Navigator.prototype.storage": 3,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.connection": 5,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.mediaDevices": 1,
+          "HTMLMediaElement.prototype.canPlayType": 19,
+          "MediaSource.isTypeSupported": 19,
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "window.localStorage": 2,
+          "HTMLCanvasElement.prototype.toDataURL": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=1; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q%3D%3D&hash=D428D51E28968797BC27FB9153435D&cid=thEI4xlLS30iok388KrtVm8G~_UzCpQWuf7GN3iqNZchnbEyqqVLumN32hs7hJRW8xTLHbiXVqsqJG_M6Pd4aR_hp_WdZIUPLIP5KREjFxFdBVFa5dahYRfwyRqlMFNG&referer=https%3A%2F%2Fwww.wsj.com%2F&s=47129&e=92ac38eb1348a78fdc0baf63713ced66993186d3bc2c2fce5edeb4640b86fa1695fd6292f0617edb91d9e922d57af401&b=1355033&dm=cd",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=1; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAiEO5OVMB-_4AgHhW4Q==&cid=tbsmOZgk2PJBbcCcGOzNSQbSaq8xqC0w~NOpHvH0OSl3vr6B0_3Lj576gNqhku1a7v1ra1OvMxXrbDsVS0LvXBeQ3W6TGpNsyM1jgVu8arIhlOCCqI0X9rMp0toaHiJY&referer=https%3A%2F%2Fwww.wsj.com%2F&hash=D428D51E28968797BC27FB9153435D&t=fe&s=47129&e=039ef3856b0eecc0d99f0411463c7a1c2bbbd9c784ccb28cf85e1e4aebfeab7ed900975faaf8dc6445d9fd4aede76fb6&ir=5%2C40&dm=dc_ir&b=1355033",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=None; Secure"
+          ]
+        }
+      ]
+    }
+  }
+}

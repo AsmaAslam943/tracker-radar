@@ -1,0 +1,893 @@
+{
+  "initialUrl": "https://googleblog.com/",
+  "finalUrl": "https://blog.google/",
+  "timeout": false,
+  "testStarted": 1774988302080,
+  "testFinished": 1774988310958,
+  "data": {
+    "requests": [
+      {
+        "url": "https://googleblog.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "142.250.101.132",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 20:18:22 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.blog.google/",
+        "initiators": [],
+        "time": 0.1485869999996794
+      },
+      {
+        "url": "https://www.blog.google/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "142.250.101.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://blog.google/",
+        "redirectedFrom": "https://googleblog.com/",
+        "initiators": [],
+        "time": 0.345393999999942
+      },
+      {
+        "url": "https://blog.google/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 61134,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "27505148b92f0381e9fb11d93a6edc1c5ba1c20c6bf0dfd5de9f75e92faf31c0",
+        "redirectedFrom": "https://www.blog.google/",
+        "initiators": [],
+        "time": 0.32646400000066933
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2220,
+        "remoteIPAddress": "142.250.141.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 31 Mar 2026 20:18:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b47699cb8b03db7ff68d38ffcc020afabf56e03ff7a8151fbaa1a4cc29d7b968",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.4966819999999643
+      },
+      {
+        "url": "https://blog.google/static/keyword/css/blog/index.min.css?version=pr20260319-1641",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 130687,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Tue, 30 Mar 2027 00:39:31 GMT"
+        },
+        "responseBodyHash": "42bea4027763f7d51fccd3ada07607463c49cd993a2a8c31af8ce2e08e4ec4cd",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 0.12663100000008853
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Google+Sans:400,500,600,700|Product+Sans:400&display=swap&lang=en",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3020,
+        "remoteIPAddress": "142.250.141.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 31 Mar 2026 20:18:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2941d49619b71b4ddf67113ce0a3f983fb4ab1ee0b2ce5c584354d6a494e2e20",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.4943599999996877
+      },
+      {
+        "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1724,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:18:27 GMT"
+        },
+        "responseBodyHash": "976adeac97a2f55d560dc94a959acfc799e8c4b2beefc6b1a64d74904ca7e5b7",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.469311999999263
+      },
+      {
+        "url": "https://blog.google/static/blogv2/images/icons.svg?version=pr20260319-1641",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 50363,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 19:46:20 GMT"
+        },
+        "responseBodyHash": "61503ede78d9bad29e1cf6a711d7e53203eabdbaa525b6d0b567e3329363e7dc",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 0.11163800000031188
+      },
+      {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PlayStore_Promo_Switch-To-Gemini.width-1600.format-webp.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 40991,
+        "remoteIPAddress": "142.250.101.207",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2312a03838932794cb9a6b4fe8022f5e\"",
+          "expires": "Wed, 31 Mar 2027 20:18:27 GMT"
+        },
+        "responseBodyHash": "9ab192238672bdc60bdef6074e5862735c6ba84c00be1e3011f638c17f875013",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.487463000000389
+      },
+      {
+        "url": "https://blog.google/static/blogv2/images/newsletter_toast.svg?version=pr20260319-1641",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 356,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 19:46:43 GMT"
+        },
+        "responseBodyHash": "537d853cfcebd7411e498172314bf8b034e6374adf9b0beb17957033ebe01f9e",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 0.09941000000071654
+      },
+      {
+        "url": "https://blog.google/static/blogv2/js/csp/gtm.js?version=pr20260319-1641",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2193,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 19:47:04 GMT"
+        },
+        "responseBodyHash": "19197192630abeeec463c4f658a9ac832f62b93cb647b25bc64d3c3986574ce1",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 0.0984310000003461
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 49886,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 01:38:30 GMT"
+        },
+        "responseBodyHash": "e24ef5f7a86ebaaca8675c306405310259c6f2292e3693469478bf94fb0568c7",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 0.09800199999972392
+      },
+      {
+        "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27857,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:18:27 GMT"
+        },
+        "responseBodyHash": "1c3308bdbd5b4c305676af52eda67ac0953c904f1dbf00f412d5ac3a917b0e14",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.424713000000338
+      },
+      {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Lyria-3-Pro_thumbnail.width-600.format-webp.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4715,
+        "remoteIPAddress": "142.250.101.207",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"9059ac7f06da4126d7a0ba97e7702d89\"",
+          "expires": "Wed, 31 Mar 2027 20:18:27 GMT"
+        },
+        "responseBodyHash": "ac5d3be350a682f4958169e947dbac8a7eca31e9134add8ebaf5098623db4b02",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.429036000000451
+      },
+      {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1-flash-live_blog_header.width-600.format-webp.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12377,
+        "remoteIPAddress": "142.250.101.207",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"b57fe3f5b48ba902091110d5cb14a6ed\"",
+          "expires": "Wed, 31 Mar 2027 19:51:51 GMT"
+        },
+        "responseBodyHash": "dc5759efe7f675441ee50a9b2a925890b67483f1345fd7479c73a962eb36a22d",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.3868649999994886
+      },
+      {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/veo31lite.width-600.format-webp.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21478,
+        "remoteIPAddress": "142.250.101.207",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c1a644383a2cbd56d6c21b7bc2952f54\"",
+          "expires": "Wed, 31 Mar 2027 20:12:48 GMT"
+        },
+        "responseBodyHash": "ffb9cff5db91fc1bee5fb742ca9aa066b2ac620cd1b509be9772b2c889baf2e5",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.417489999999816
+      },
+      {
+        "url": "https://i.ytimg.com/vi_webp/bF3RqqV4xzI/maxresdefault.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 27452,
+        "remoteIPAddress": "142.251.218.150",
+        "responseHeaders": {
+          "cache-control": "public, max-age=300",
+          "etag": "\"1774974378\"",
+          "expires": "Tue, 31 Mar 2026 20:23:27 GMT"
+        },
+        "responseBodyHash": "bc1ce4359f2974a10187feb4759480174f539f43fe3b3b8a63bbebb50657a66c",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.417029999999613
+      },
+      {
+        "url": "https://i.ytimg.com/vi_webp/NAmkzqCTCO8/maxresdefault.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 146121,
+        "remoteIPAddress": "142.251.218.150",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1774623624\"",
+          "expires": "Tue, 31 Mar 2026 22:18:27 GMT"
+        },
+        "responseBodyHash": "9da65175fd05d7857c9d29fe3278662149aa0c665317340898d5b8faf3530fe4",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.360421999999744
+      },
+      {
+        "url": "https://i.ytimg.com/vi_webp/gYfCm3zYajg/maxresdefault.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 143961,
+        "remoteIPAddress": "142.251.218.150",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1772050659\"",
+          "expires": "Tue, 31 Mar 2026 21:23:23 GMT"
+        },
+        "responseBodyHash": "2be7b17d844d84677888492b7a62fb7de2aafd89075d30bb425b532a397e1077",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.3296819999995932
+      },
+      {
+        "url": "https://i.ytimg.com/vi_webp/lwOP_7pSFio/maxresdefault.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 37646,
+        "remoteIPAddress": "142.251.218.150",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Tue, 31 Mar 2026 20:27:44 GMT"
+        },
+        "responseBodyHash": "1e4626981d57cd6991db2027d240390acaebec763fe02c5b1742b684e77dc9d3",
+        "initiators": [
+          "https://blog.google/"
+        ],
+        "time": 3.310946000000513
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TRV24V",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 134649,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:18:27 GMT"
+        },
+        "responseBodyHash": "81f9a0036c6020d64c0721946e1d77cd1dc6512c536b79bd48a9b85292417130",
+        "initiators": [
+          "https://blog.google/static/blogv2/js/csp/gtm.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.1376829999999245
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/57.js?v=b0d8e672133b373fc362",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4953,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 19:46:35 GMT"
+        },
+        "responseBodyHash": "796a90e1958983b27f993b8833b5bf83dca2ddc5c0490038dce32dc2fbdb6bf9",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.03989200000069104
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/6195.js?v=dabe88c51693ad922fe5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7777,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 19:33:58 GMT"
+        },
+        "responseBodyHash": "aa2f9fae05fb58e77fb22def5af9141d0e17ed745f3edb62338d10bc4223b8dd",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.033598999999412626
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/1750.js?v=1c4fd70a12404d7f0f7f",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10686,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 01:38:14 GMT"
+        },
+        "responseBodyHash": "9428213c7bee8c60604aa9b7c1223c5f01fbbd21e5b72375bf69316974afaf7e",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.03639300000031653
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/6.js?v=9421ba8f0b9a20f92892",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16420,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 19:33:58 GMT"
+        },
+        "responseBodyHash": "c04c912c6ee01fd6a9a9c1281bd2c441986a11df1b7576733eba25c2655d2dbd",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.0372269999998025
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/5842.js?v=693d5a8350663b0fd76c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6402,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 19:47:04 GMT"
+        },
+        "responseBodyHash": "6b622680d43df350841294272f32c318baf3f25e899a24928967086db4f19662",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.039504000000306405
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/5032.js?v=e0421bb18bd0970b869f",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8748,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 07:02:49 GMT"
+        },
+        "responseBodyHash": "02e2fc0d235027e88499ff90ed26849c9084cac474d7822643750a6c8f4c53a5",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.03893300000072486
+      },
+      {
+        "url": "https://blog.google/static/blogv2/images/icons.svg?version=",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 50354,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 01:37:48 GMT"
+        },
+        "responseBodyHash": "61503ede78d9bad29e1cf6a711d7e53203eabdbaa525b6d0b567e3329363e7dc",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.03600399999959336
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQoi-E.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 36176,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 04:39:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fa62069c64f5fb37bd43b627c59a8fa9d41d9ca30581f4c3f36d0406af25c81f",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Google+Sans:400,500,600,700|Product+Sans:400&display=swap&lang=en"
+        ],
+        "time": 0.048611999999593536
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvbQoi-Entw.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 21421,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 12:50:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b695c49d6d3441c6f083c96b59049efa35de1604eb47993eccdab66be24bfca2",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Google+Sans:400,500,600,700|Product+Sans:400&display=swap&lang=en"
+        ],
+        "time": 0.023205999999845517
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvbQoi-Entw.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17437,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 04:57:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d59e66cdbd490ab66b6bfa2a1f4ed12611c0f63707c7e822e1b6f56ba7e856cb",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Google+Sans:400,500,600,700|Product+Sans:400&display=swap&lang=en"
+        ],
+        "time": 0.03756799999973737
+      },
+      {
+        "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2b.json?hl=en",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 67,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:18:27 GMT"
+        },
+        "responseBodyHash": "a0a1f98fca203b8561519a06bacfdc50e4b3c4a5a71e740da5b0875bd4fc00d6",
+        "initiators": [
+          "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+          "https://blog.google/"
+        ],
+        "time": 0.10470700000041688
+      },
+      {
+        "url": "https://blog.google/api/v2/latest/?author_ids=&category=all&hero_template=heroArticleItem&image_format=webp&cursor=1&paginate=9&show_hero=true&site_id=2",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 8865,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {},
+        "responseBodyHash": "63c7f32db168b72bdf0b64846ce61b583c00138b8b65a056229c8c4415acd132",
+        "initiators": [
+          "https://blog.google/static/keyword/js/6.js?v=9421ba8f0b9a20f92892",
+          "https://blog.google/static/keyword/js/5842.js?v=693d5a8350663b0fd76c",
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.17926399999942078
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notocoloremoji/v39/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts6diysYTngZPnMC1MfLd4gw.2.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 64278,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 04:57:49 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9bd2563e5ad0a741881b6041214a755eaf703bded4e240804097b8e778eeb6ce",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap"
+        ],
+        "time": 0.09763900000052672
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/4604.js?v=0e8efb3140dc45bb314f",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1082,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 13:57:50 GMT"
+        },
+        "responseBodyHash": "93989d1728cfc0cc0858d1ed16dad5bad70649486c46cf4dac3a7c5ab2ef720e",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.08219999999982974
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/2328.js?v=e0f2a2150f34b762f29c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1176,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 23:47:53 GMT"
+        },
+        "responseBodyHash": "0311a6f431e673fa9a864447cadb34a49022f55856836547036888e03efcb055",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.08161000000018248
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/443.js?v=807add22837aed8ea6a8",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3033,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 09:53:10 GMT"
+        },
+        "responseBodyHash": "b44a01d24273c261de2a3d6aa6d1ed8f8442eb9c051856bd68f2654890f5b1cf",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.08075800000005984
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/7849.js?v=602ffcf1d98615dce3c8",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3491,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Wed, 31 Mar 2027 16:19:28 GMT"
+        },
+        "responseBodyHash": "bd9025435d06366fcb6fbe808b8159952a75317c3a4649f5b14c6e3c04fc5c1b",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.08002299999952811
+      },
+      {
+        "url": "https://blog.google/static/keyword/js/1456.js?v=808899718adf75fa1099",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2525,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 01:38:25 GMT"
+        },
+        "responseBodyHash": "266279b77ed22bb52aa0627a34d16e366b4f5b969faf3cf2a3e5647cd9845aec",
+        "initiators": [
+          "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.08048599999983708
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 145030,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:18:27 GMT"
+        },
+        "responseBodyHash": "d8a815828f52b7fa78d20b25825ef05d513b1c4d18c80483ab4cd7004e1a47ea",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-TRV24V",
+          "https://blog.google/static/blogv2/js/csp/gtm.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.08195599999999104
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TMN2946Z0E&gtm=45je63u0v871325221z872097707za20gzb72097707zd72097707&_p=1774988303776&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=43048987.1774988308&ul=en-us&sr=800x600&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EA&_s=1&tag_exp=0~115938466~115938469~116991816~118012005&dl=https%3A%2F%2Fblog.google%2F&sid=1774988307&sct=1&seg=0&dt=The%20Keyword%20%7C%20Google%20Product%20and%20Technology%20News%20and%20Stories&en=page_view&_fv=1&_nsi=1&_ss=1&ep.page_locale=en-us&ep.page_name=The%20Keyword%20%7C%20Google%20Product%20and%20Technology%20News%20and%20Stories&ep.page_type=blogv2%20%7C%20homepage&ep.special_hero=off&ep.publish_date=2018-05-16%7C16%3A32&ep.days_since_published=2876&ep.word_count=short%200-299&ep.percent_scrolled=0&ep.scroll_increment=0&ep.scroll_instance=1&tfd=4923",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.218.78",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://blog.google",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-TRV24V",
+          "https://blog.google/static/blogv2/js/csp/gtm.js?version=pr20260319-1641",
+          "https://blog.google/"
+        ],
+        "time": 0.17171400000006543
+      },
+      {
+        "url": "https://blog.google/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1914,
+        "remoteIPAddress": "216.239.34.21",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000,public, max-age=31536000",
+          "etag": "\"aW5CMg\"",
+          "expires": "Sat, 27 Mar 2027 01:37:44 GMT"
+        },
+        "responseBodyHash": "d490570d34464c384607655107a5676d6ba67ad61e50eee5287ce5d9718ef789",
+        "initiators": [],
+        "time": 0.027304999999614665
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_ga",
+        "domain": ".blog.google",
+        "path": "/",
+        "expires": 1809548307751,
+        "session": false
+      },
+      {
+        "name": "_ga_TMN2946Z0E",
+        "domain": ".blog.google",
+        "path": "/",
+        "expires": 1809548307801,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://blog.google/static/blogv2/js/csp/gtm.js?version=pr20260319-1641": {
+          "window.sessionStorage": 2
+        },
+        "https://blog.google/static/keyword/js/all/index.js?version=pr20260319-1641": {
+          "window.localStorage": 4,
+          "Navigator.prototype.userAgent": 5,
+          "Document.cookie getter": 1
+        },
+        "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js": {
+          "Navigator.prototype.userAgent": 2,
+          "window.localStorage": 1
+        },
+        "https://blog.google/static/keyword/js/5032.js?v=e0421bb18bd0970b869f": {
+          "window.localStorage": 1
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TRV24V": {
+          "Navigator.prototype.userAgent": 41,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 32,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2
+        },
+        "https://blog.google/static/keyword/js/7849.js?v=602ffcf1d98615dce3c8": {
+          "Date.prototype.getTime": 1
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 28,
+          "Date.prototype.getTime": 40,
+          "Navigator.prototype.language": 4,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Document.cookie setter": 7,
+          "window.name": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TMN2946Z0E=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 20:18:27 GMT; domain=blog.google; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TMN2946Z0E=GS2.1.s1774988307$o1$g0$t1774988307$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 20:18:27 GMT; domain=blog.google; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.43048987.1774988308; path=/; expires=Thu, 30 Mar 2028 20:18:27 GMT; domain=blog.google; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TMN2946Z0E=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 20:18:27 GMT; domain=blog.google; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TMN2946Z0E=GS2.1.s1774988307$o1$g0$t1774988307$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 20:18:27 GMT; domain=blog.google; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TMN2946Z0E=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 20:18:27 GMT; domain=blog.google; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TMN2946Z0E&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TMN2946Z0E=GS2.1.s1774988307$o1$g0$t1774988307$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 20:18:27 GMT; domain=blog.google; "
+          ]
+        }
+      ]
+    }
+  }
+}

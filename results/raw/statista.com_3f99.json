@@ -1,0 +1,947 @@
+{
+  "initialUrl": "https://statista.com/",
+  "finalUrl": "https://www.statista.com/homepage",
+  "timeout": false,
+  "testStarted": 1774989164335,
+  "testFinished": 1774989205023,
+  "data": {
+    "requests": [
+      {
+        "url": "https://statista.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.statista.com/",
+        "initiators": [],
+        "time": 0.051956999999674736
+      },
+      {
+        "url": "https://www.statista.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.statista.com/sso/iplogin?__sso_redirect=/",
+        "redirectedFrom": "https://statista.com/",
+        "initiators": [],
+        "time": 0.10834299999987707
+      },
+      {
+        "url": "https://www.statista.com/sso/iplogin?__sso_redirect=/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate, private",
+          "expires": "Tue, 31 Mar 2026 20:32:44 GMT",
+          "set-cookie": "STATSESSID=3e5ba47ee6d5886c8aa05808c86edd51; expires=Sun, 27 Sep 2026 20:32:44 GMT; Max-Age=15552000; path=/; domain=.statista.com; secure; HttpOnly\n__sso_cookie_checker=MTI4LjEyMC44Ni4xMw%3D%3D; path=/; domain=.statista.com; secure; httponly; samesite=lax\nstatistaTrackingUUID=f6b9eb5e-875c-4406-b291-b5397d6e5082; path=/; domain=..statista.com; samesite=lax"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://login.statista.com/authorize?response_type=code&client_id=xjVF0FFWFPOcG7XJO8C0XleeRPllUFfI&redirect_uri=https%3A%2F%2Fwww.statista.com%2Fsso%2Fcallback&state=zd7T8Zn3yGe5XJWhXUqQPhzaZMmEOZiepS_23jGPAOs&scope=openid+profile+offline_access&code_challenge=e8ZBt0GBSgQ1mI7QSNLEwk_Ki4xG5LKlw9hKyJDeWqM&code_challenge_method=S256&audience=statista-api&ui_locales=en&connection=ip-login&0%5Bplatform%5D=en&0%5BstatistaTrackingUUID%5D=31a26adc-006c-4af0-a844-507bb4dbd0ce&0%5BrequestIp%5D=128.120.86.13",
+        "redirectedFrom": "https://www.statista.com/",
+        "initiators": [],
+        "time": 0.16932300000007672
+      },
+      {
+        "url": "https://login.statista.com/authorize?response_type=code&client_id=xjVF0FFWFPOcG7XJO8C0XleeRPllUFfI&redirect_uri=https%3A%2F%2Fwww.statista.com%2Fsso%2Fcallback&state=zd7T8Zn3yGe5XJWhXUqQPhzaZMmEOZiepS_23jGPAOs&scope=openid+profile+offline_access&code_challenge=e8ZBt0GBSgQ1mI7QSNLEwk_Ki4xG5LKlw9hKyJDeWqM&code_challenge_method=S256&audience=statista-api&ui_locales=en&connection=ip-login&0%5Bplatform%5D=en&0%5BstatistaTrackingUUID%5D=31a26adc-006c-4af0-a844-507bb4dbd0ce&0%5BrequestIp%5D=128.120.86.13",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.18.34.171",
+        "responseHeaders": {
+          "set-cookie": "__sso=eyJvYXV0aDI6c3RhdGUiOiJ6ZDdUOFpuM3lHZTVYSldoWFVxUVBoemFaTW1FT1ppZXBTXzIzakdQQU9zIiwib2F1dGgyOmNvZGVWZXJpZmllciI6IkVwS2d6S1U5cWh3OEIwcWI2aWlENjhNeG1tOWtkMVU4eHVhb0JZV09UczgifQ%3D%3D; Domain=.statista.com; Path=/; HttpOnly; Secure; SameSite=Lax\n__sso_redirect=Ii8i; Domain=.statista.com; Path=/; HttpOnly; SameSite=Lax\n__sso_iplogin=eyJ3YXNJcExvZ2luQXR0ZW1wdGVkIjp0cnVlLCJpc0xvZ2dlZEluV2l0aElwIjpmYWxzZSwidmVyc2lvbiI6MiwiaXBVc2VkRm9yTG9naW4iOiIxMjguMTIwLjAuMCJ9; Domain=.statista.com; Path=/; SameSite=Lax\nstatistaTrackingUUID=31a26adc-006c-4af0-a844-507bb4dbd0ce; Domain=statista.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://services.sso.statista.com/ip/authorize?login_hint=&response_type=code&redirect_uri=https%3A%2F%2Flogin.statista.com%2Flogin%2Fcallback&state=YyKOHg8hIOjISNnMro5Q8jgvXNnIcALh&client_id=9a7cf70e-1be6-40a1-ba02-6e6e6654b93d",
+        "redirectedFrom": "https://www.statista.com/sso/iplogin?__sso_redirect=/",
+        "initiators": [],
+        "time": 0.6370219999989786
+      },
+      {
+        "url": "https://services.sso.statista.com/ip/authorize?login_hint=&response_type=code&redirect_uri=https%3A%2F%2Flogin.statista.com%2Flogin%2Fcallback&state=YyKOHg8hIOjISNnMro5Q8jgvXNnIcALh&client_id=9a7cf70e-1be6-40a1-ba02-6e6e6654b93d",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "18.185.159.69",
+        "responseHeaders": {
+          "cache-control": "no-store, max-age=0, no-transform",
+          "pragma": "no-cache",
+          "set-cookie": "did=s%3Av0%3A72ef123b-dc02-42e3-98aa-3e0181adb9e8.%2Bd2G3euTFSklrd087flSRq8MT1RTvTvVpziGQSX0fYg; Path=/; Expires=Thu, 01 Apr 2027 02:32:45 GMT; HttpOnly; Secure; SameSite=None\nauth0=s%3Av1.gadzZXNzaW9ug6ZoYW5kbGXEQGaBhRMwkIHX8Yplwv-8edGEFLE1euhxhPgYWzG26oF-MmUNfTrfCcFlFfsPZQPx1ZtkUNtuEPgIbZ0GGEuLaLWmY29va2llg6dleHBpcmVz1_9XQt4AadAj7a5vcmlnaW5hbE1heEFnZc4PcxQAqHNhbWVTaXRlpG5vbmWkc2JpZJHZIHg2MUV3V3hxVmY3c0JUZUs3OVpiUjZ3NnBWWUY5N1VQ.273taF6T1KKEVxLCud19eqOFcZx5ODSDb7krRnVwBR0; Path=/; Expires=Fri, 03 Apr 2026 20:32:45 GMT; HttpOnly; Secure; SameSite=None\ndid_compat=s%3Av0%3A72ef123b-dc02-42e3-98aa-3e0181adb9e8.%2Bd2G3euTFSklrd087flSRq8MT1RTvTvVpziGQSX0fYg; Path=/; Expires=Thu, 01 Apr 2027 02:32:45 GMT; HttpOnly; Secure\nauth0_compat=s%3Av1.gadzZXNzaW9ug6ZoYW5kbGXEQGaBhRMwkIHX8Yplwv-8edGEFLE1euhxhPgYWzG26oF-MmUNfTrfCcFlFfsPZQPx1ZtkUNtuEPgIbZ0GGEuLaLWmY29va2llg6dleHBpcmVz1_9XQt4AadAj7a5vcmlnaW5hbE1heEFnZc4PcxQAqHNhbWVTaXRlpG5vbmWkc2JpZJHZIHg2MUV3V3hxVmY3c0JUZUs3OVpiUjZ3NnBWWUY5N1VQ.273taF6T1KKEVxLCud19eqOFcZx5ODSDb7krRnVwBR0; Path=/; Expires=Fri, 03 Apr 2026 20:32:45 GMT; HttpOnly; Secure\n__cf_bm=wivUkpkEI7ljumN7QBmiIKU.zphIc895zbi59EZIMMo-1774989165-1.0.1.1-sVurdP2EdC0kFEdFqJm8oycUkt4mw.UY6TfMI5TjapOT5IMQ7g2ZYR.Vjcghx3_C; path=/; expires=Tue, 31-Mar-26 21:02:45 GMT; domain=.login.statista.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://login.statista.com/login/callback?state=YyKOHg8hIOjISNnMro5Q8jgvXNnIcALh&code=9a7cf70e-1be6-40a1-ba02-6e6e6654b93d%3A2185562%3A1774989165930%3A53c7d70c10055a22c414b3a641c1bacc42ea86945cbf405f00cd0b9431546bb7",
+        "redirectedFrom": "https://login.statista.com/authorize?response_type=code&client_id=xjVF0FFWFPOcG7XJO8C0XleeRPllUFfI&redirect_uri=https%3A%2F%2Fwww.statista.com%2Fsso%2Fcallback&state=zd7T8Zn3yGe5XJWhXUqQPhzaZMmEOZiepS_23jGPAOs&scope=openid+profile+offline_access&code_challenge=e8ZBt0GBSgQ1mI7QSNLEwk_Ki4xG5LKlw9hKyJDeWqM&code_challenge_method=S256&audience=statista-api&ui_locales=en&connection=ip-login&0%5Bplatform%5D=en&0%5BstatistaTrackingUUID%5D=31a26adc-006c-4af0-a844-507bb4dbd0ce&0%5BrequestIp%5D=128.120.86.13",
+        "initiators": [],
+        "time": 0.5449760000010428
+      },
+      {
+        "url": "https://login.statista.com/login/callback?state=YyKOHg8hIOjISNnMro5Q8jgvXNnIcALh&code=9a7cf70e-1be6-40a1-ba02-6e6e6654b93d%3A2185562%3A1774989165930%3A53c7d70c10055a22c414b3a641c1bacc42ea86945cbf405f00cd0b9431546bb7",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.18.34.171",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://login.statista.com/authorize/resume?state=UhKpwgkbQHR9Y8l0Zco1wWmIIwP19mpx",
+        "redirectedFrom": "https://services.sso.statista.com/ip/authorize?login_hint=&response_type=code&redirect_uri=https%3A%2F%2Flogin.statista.com%2Flogin%2Fcallback&state=YyKOHg8hIOjISNnMro5Q8jgvXNnIcALh&client_id=9a7cf70e-1be6-40a1-ba02-6e6e6654b93d",
+        "initiators": [],
+        "time": 0.35053599999992
+      },
+      {
+        "url": "https://login.statista.com/authorize/resume?state=UhKpwgkbQHR9Y8l0Zco1wWmIIwP19mpx",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.18.34.171",
+        "responseHeaders": {
+          "cache-control": "private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+          "set-cookie": "did=s%3Av0%3A72ef123b-dc02-42e3-98aa-3e0181adb9e8%3A4eebb366cc46671ed37e731d565c19f10b82850b77a73546d121b9616b4155af.s9e8zTWh%2BfjaYrOVeQnGjvVxX8QbqZz2Rk295N4CMMk; Path=/; Expires=Thu, 01 Apr 2027 02:32:46 GMT; HttpOnly; Secure; SameSite=None\nauth0=s%3A2_nePw42D7BtKz2kBxZXdJjzY5qyHt1Y.diS37nLsTU3cj5%2BV3Q6m2KYjIoWTT5%2B9C%2Bd2%2BB9zS0U; Path=/; Expires=Fri, 03 Apr 2026 20:32:46 GMT; HttpOnly; Secure; SameSite=None\ndid_compat=s%3Av0%3A72ef123b-dc02-42e3-98aa-3e0181adb9e8%3A4eebb366cc46671ed37e731d565c19f10b82850b77a73546d121b9616b4155af.s9e8zTWh%2BfjaYrOVeQnGjvVxX8QbqZz2Rk295N4CMMk; Path=/; Expires=Thu, 01 Apr 2027 02:32:46 GMT; HttpOnly; Secure\nauth0_compat=s%3A2_nePw42D7BtKz2kBxZXdJjzY5qyHt1Y.diS37nLsTU3cj5%2BV3Q6m2KYjIoWTT5%2B9C%2Bd2%2BB9zS0U; Path=/; Expires=Fri, 03 Apr 2026 20:32:46 GMT; HttpOnly; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.statista.com/sso/callback?code=0Ws_9aNGXWAkRutdWVQL3t9i7IYti48NKw0WBL_HUix7g&state=zd7T8Zn3yGe5XJWhXUqQPhzaZMmEOZiepS_23jGPAOs",
+        "redirectedFrom": "https://login.statista.com/login/callback?state=YyKOHg8hIOjISNnMro5Q8jgvXNnIcALh&code=9a7cf70e-1be6-40a1-ba02-6e6e6654b93d%3A2185562%3A1774989165930%3A53c7d70c10055a22c414b3a641c1bacc42ea86945cbf405f00cd0b9431546bb7",
+        "initiators": [],
+        "time": 0.8414990000001126
+      },
+      {
+        "url": "https://www.statista.com/sso/callback?code=0Ws_9aNGXWAkRutdWVQL3t9i7IYti48NKw0WBL_HUix7g&state=zd7T8Zn3yGe5XJWhXUqQPhzaZMmEOZiepS_23jGPAOs",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "no-store, max-age=0, no-transform",
+          "pragma": "no-cache",
+          "set-cookie": "auth0=s%3AYDp_NaOWxkh7eIjrLoJpwpxr2MbS9dSd.Ccd8QipiTdUbGh1b4tSHGclhFPUV9lZUuPu94RufTHM; Path=/; Expires=Fri, 03 Apr 2026 20:32:47 GMT; HttpOnly; Secure; SameSite=None\nauth0_compat=s%3AYDp_NaOWxkh7eIjrLoJpwpxr2MbS9dSd.Ccd8QipiTdUbGh1b4tSHGclhFPUV9lZUuPu94RufTHM; Path=/; Expires=Fri, 03 Apr 2026 20:32:47 GMT; HttpOnly; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.statista.com/",
+        "redirectedFrom": "https://login.statista.com/authorize/resume?state=UhKpwgkbQHR9Y8l0Zco1wWmIIwP19mpx",
+        "initiators": [],
+        "time": 0.31897699999899487
+      },
+      {
+        "url": "https://www.statista.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "set-cookie": "__sso_redirect=; Domain=.statista.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; SameSite=Lax\n__sso_status=dHJ1ZQ%3D%3D; Domain=.statista.com; Path=/; SameSite=Lax\n__sso_iplogin=eyJ3YXNJcExvZ2luQXR0ZW1wdGVkIjp0cnVlLCJpc0xvZ2dlZEluV2l0aElwIjp0cnVlLCJ2ZXJzaW9uIjoyLCJpcFVzZWRGb3JMb2dpbiI6IjEyOC4xMjAuMC4wIn0%3D; Domain=.statista.com; Path=/; SameSite=Lax\n__sso=eyJvYXV0aDI6c3RhdGUiOiJ6ZDdUOFpuM3lHZTVYSldoWFVxUVBoemFaTW1FT1ppZXBTXzIzakdQQU9zIiwib2F1dGgyOmNvZGVWZXJpZmllciI6IkVwS2d6S1U5cWh3OEIwcWI2aWlENjhNeG1tOWtkMVU4eHVhb0JZV09UczgiLCJpZCI6Im9hdXRoMnxpcC1sb2dpbnwyMTg1NTYyIiwiZGlzcGxheU5hbWUiOiJVbml2ZXJzaXR5IG9mIENhbGlmb3JuaWEtRGF2aXMiLCJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKU1V6STFOaUlzSW5SNWNDSTZJa3BYVkNJc0ltdHBaQ0k2SWpnNWMwWkRkREkyTldkTVpFaDNVRWRvZEZKMk9DSjkuZXlKb2RIUndjem92TDNOemJ5NXpkR0YwYVhOMFlTNWpiMjB2YkdWbllXTjVYMmxrSWpvaU1qRTROVFUyTWlJc0ltaDBkSEJ6T2k4dmMzTnZMbk4wWVhScGMzUmhMbU52YlM5dFlXbHVWWE5sY2tsa0lqb2lNakU0TlRVMk1pSXNJbWx6Y3lJNkltaDBkSEJ6T2k4dmJHOW5hVzR1YzNSaGRHbHpkR0V1WTI5dEx5SXNJbk4xWWlJNkltOWhkWFJvTW54cGNDMXNiMmRwYm53eU1UZzFOVFl5SWl3aVlYVmtJanBiSW5OMFlYUnBjM1JoTFdGd2FTSXNJbWgwZEhCek9pOHZjM1JoZEdsemRHRXVaWFV1WVhWMGFEQXVZMjl0TDNWelpYSnBibVp2SWwwc0ltbGhkQ0k2TVRjM05EazRPVEUyTnl3aVpYaHdJam94TnpjMU1EYzFOVFkzTENKelkyOXdaU0k2SW05d1pXNXBaQ0J3Y205bWFXeGxJRzltWm14cGJtVmZZV05qWlhOeklpd2lZWHB3SWpvaWVHcFdSakJHUmxkR1VFOWpSemRZU2s4NFF6QlliR1ZsVWxCc2JGVkdaa2tpTENKd1pYSnRhWE56YVc5dWN5STZXeUoyYVdWM09uTjBZWFJwYzNScFkzTWlMQ0o0Ylc4aVhYMC5UWXhzcHp0enNHVVFzQXhkdUxfUjNIUzA5M2lFRnlldGoyUk1vOFdIdHhaOHh2ZTBMQmRuZmlPaEJaYngwTUJHNjVXaExNMTl4SmgwXzhvWkNCR1dYWlp2QzAySjY3eTU1WlNmT2JHR0lIcERZT3N1UFE0T2xiLWowQ1hSNV9FR05vSnhpMjFQNUFhT2ZqUzJJMWE3eGRTdXNZdmpDTDN0VEJZVGtja3pkU0lpbmhuVk1hMzdobmhUNnpSM2QyRnF5bG1CclMybDdybGlIaDJvUXpyWE53eGZvZWlPZUFoTS1RclJHOU9odUxzSndBazJ4R081Q3d0QTRxQ1JlWXZGSFdiazJmbU5zWTI4UDRxYTA0R2w0MEdlU2lGSnlQUUtQdllybGNaTmE1NUNOMFZkYlh2UlZfbWJiRzhrc3poLTl0U3FoOW9RZmU4dHNTaEtVcXJiVFEiLCJyZWZyZXNoVG9rZW4iOiJ2MS5NU2pVMklocFFhUzl4R3pVVWN2QmNIX09UanlzQ1JuNmk5T29URHVlTDNPbnJ2TU14UkZBNW96SzNrbUN1c05Xb085TThzbDNXNHpuQ2xKdmlQMEc1TEUifQ%3D%3D; Domain=.statista.com; Path=/; HttpOnly; Secure; SameSite=Lax"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.statista.com/homepage",
+        "redirectedFrom": "https://www.statista.com/sso/callback?code=0Ws_9aNGXWAkRutdWVQL3t9i7IYti48NKw0WBL_HUix7g&state=zd7T8Zn3yGe5XJWhXUqQPhzaZMmEOZiepS_23jGPAOs",
+        "initiators": [],
+        "time": 0.11770100000103412
+      },
+      {
+        "url": "https://www.statista.com/homepage",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 29537,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {},
+        "responseBodyHash": "11fcdd0693c0e065bca94f78838fc04633bb730928af3996ddeeb6abf462e24e",
+        "redirectedFrom": "https://www.statista.com/",
+        "initiators": [],
+        "time": 0.990191999999297
+      },
+      {
+        "url": "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59358,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "private",
+          "etag": "7d0fe4d85909bf098dec3f885023acb3104f5145"
+        },
+        "responseBodyHash": "83107611f027d66e95f301e8b60abfe0dd388d718b869260d7f0cfc5c74a474c",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.2366330000004382
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/tailwind-JDBuewIU.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 12959,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "a658a59de21387f82dcef67b337f786d6fc5bae6b3a398c4032167016803351a",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.03536299999905168
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/entry.client-BEeanYZh.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 66350,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "781e7fb59510ec36070aab82336038169cf79cff7b8a327eb4db9d62c61fc86e",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.047816000000239
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/jsx-runtime-Dpr6d_KX.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44364,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "2dccd7cd09d480800eeb4cf5833e575f3718676b4e6bf1ffd5671ffb31d92e96",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.055014999999912106
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/i18n-CEpKjwOB.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15234,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "5dd5f6c8c7689b9b63395767cc804334b8139a9f5262824884ecb0b44ba18e89",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.0656780000008439
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/root-C6vQPxWn.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 69995,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "92046ad0aab19285096d208d4b4b8a48152a72de16884b69b726f0b1791f09d0",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.06175200000143377
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/icon-BvxQ3jfV.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54505,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "48015b6cb66f479d7b63f9b497ef79612ff0952b0d21223f0696f20344d447bb",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.02814300000136427
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/esm-Bqzw5Mg7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 48743,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "1c8a5a3542d29e4256f4a832a220b2d96cd070765bee24955f99ef5f1a642146",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.06462699999974575
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/replayStats-DSP0UhAB.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1471,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "dc8e676018b1adb36ed2367aa2485681c973cf461f4e176d3b9e8184f9b0f14f",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.06551799999942887
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/index-CKFFiZsJ.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9359,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "64432caa42680667b3c2f106dfd3cd17d8f161b96556926d4dcfde224baff756",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.062164999999367865
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/icon-Bncm0KlP.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 5474,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000"
+        },
+        "responseBodyHash": "234a068227734a0c813762ee51b25f0e45b52654740c4683142d9472422f5014",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.02584999999999127
+      },
+      {
+        "url": "https://www.statista.com/homepage/assets/icon-DuuGDyh3.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 166216,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000"
+        },
+        "responseBodyHash": "2d69d95ee7422289f1f4092795719118067fada23b7877c99a093514eea8caa5",
+        "initiators": [
+          "https://www.statista.com/homepage"
+        ],
+        "time": 0.04189499999847612
+      },
+      {
+        "url": "https://cdn.statcdn.com/static/css/fonts/opensans/open-sans-v15-latin-regular.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18273,
+        "remoteIPAddress": "18.155.192.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"bf2d0783515b7d75c35bde69e01b3135\"",
+          "expires": "Thu, 28 Mar 2029 10:22:36 UTC"
+        },
+        "responseBodyHash": "3ba0cca8de21914eb8ce834237b6b8e5fe8c2fb74846af27b11fa28a514682ca",
+        "initiators": [
+          "https://www.statista.com/homepage/assets/tailwind-JDBuewIU.css"
+        ],
+        "time": 0.09241900000051828
+      },
+      {
+        "url": "https://cdn.statcdn.com/static/css/fonts/opensans/open-sans-v15-latin-600.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18865,
+        "remoteIPAddress": "18.155.192.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"1cd5320f8937d337b61d5117cf9d7b28\"",
+          "expires": "Thu, 28 Mar 2029 10:22:36 UTC"
+        },
+        "responseBodyHash": "05db870b5dd58ebf11d019004804bd69f0c914e144775d8b324698655c3b2d82",
+        "initiators": [
+          "https://www.statista.com/homepage/assets/tailwind-JDBuewIU.css"
+        ],
+        "time": 0.08927699999912875
+      },
+      {
+        "url": "https://cdn.statcdn.com/static/css/fonts/opensans/open-sans-v15-latin-700.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 19045,
+        "remoteIPAddress": "18.155.192.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"623e3205570002af47fc2b88f9335d19\"",
+          "expires": "Thu, 28 Mar 2029 10:22:36 UTC"
+        },
+        "responseBodyHash": "8f24af9d0bdb66f751060ab340b275577a143aa4dd5ad983d868632bbb0aa5d1",
+        "initiators": [
+          "https://www.statista.com/homepage/assets/tailwind-JDBuewIU.css"
+        ],
+        "time": 0.06974100000115868
+      },
+      {
+        "url": "https://cdn.statcdn.com/static/css/fonts/opensans/open-sans-v15-latin-300.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18847,
+        "remoteIPAddress": "18.155.192.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"521d17bc9f3526c690e8ada6eee55bec\"",
+          "expires": "Thu, 28 Mar 2029 10:22:36 UTC"
+        },
+        "responseBodyHash": "90247a721f097c71b1bbb6c6c948101f25408e3c80c0dae1365492b17b6b4af7",
+        "initiators": [
+          "https://www.statista.com/homepage/assets/tailwind-JDBuewIU.css"
+        ],
+        "time": 0.07331199999862292
+      },
+      {
+        "url": "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8839,
+        "remoteIPAddress": "18.155.192.66",
+        "responseHeaders": {
+          "etag": "W/\"e486702d5014dd8b672acb13cb43b352\""
+        },
+        "responseBodyHash": "e866b30b9b6e5459fff05dbb0fccc7a79947f15588fcd99afda3c3cbdfee8062",
+        "initiators": [
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.015692000000854023
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10035,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE73A32A2A6AF4",
+          "expires": "Wed, 01 Apr 2026 20:32:53 GMT"
+        },
+        "responseBodyHash": "9a95b2853f8af61c44abb65dae536994fda66b552ae3b960f568aae778c83cf1",
+        "initiators": [
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 4.696160999999847
+      },
+      {
+        "url": "https://www.statista.com/user-data-proxy?limit=200&include=userCountryId,userDateRegistered,userFirstname,userGenderId,userLanguage,userLastname,userPhase,userPlatformId,userProductId,userTypeAccount,userTypeProduct,groupCompanyName,groupCountryId,subscriptionDateCancelled,subscriptionDateEnd,subscriptionDateStart,subscriptionPlatformId,subscriptionLevel,subscriptionProductId,subscriptionRightApi,subscriptionRightCdb,subscriptionRightGcs,subscriptionRightIpaccess,subscriptionRightMarkets,subscriptionRightPpt",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1276,
+        "remoteIPAddress": "18.238.192.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.statista.com"
+        },
+        "responseBodyHash": "9eaa2314bd6151681905113d86f2a4b8469228bfd133c0689aa7998a0f5f7745",
+        "initiators": [
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.5267559999992955
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/acb8c41d-343d-47fb-b0bc-ac829c6b6853.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2644,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE73A32AD223DB",
+          "expires": "Wed, 01 Apr 2026 20:32:54 GMT"
+        },
+        "responseBodyHash": "f2862c20c17c9898841dfe328c5dcc6e9df27ad41ee11465bc2db583686d471c",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.060411000000385684
+      },
+      {
+        "url": "https://cdn.statcdn.com/static/favicon.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 963,
+        "remoteIPAddress": "18.155.192.66",
+        "responseHeaders": {
+          "etag": "\"2ced59af292c93c8fa2131b936594b5f\""
+        },
+        "responseBodyHash": "5b86ca0f71262be405f65a7cf379b1c88b8dd94921088cc0c725216b1cfad104",
+        "initiators": [],
+        "time": 0.04291399999965506
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "104.18.32.137",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4da8a6638ad70698ad3d01aa0ef124aebe35c297685c0796b174822f597b1d09",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.31436199999916425
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 131591,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE7518C073F45D"
+        },
+        "responseBodyHash": "38a8c69203c812fdfef2ff1c5781e148fde568d61570660b3f70c6f7b309d8b7",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.04043900000033318
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/0197450c-5d3e-7863-a449-830bcc26a34a/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 55104,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE73A32D195EC8",
+          "expires": "Wed, 01 Apr 2026 20:32:54 GMT"
+        },
+        "responseBodyHash": "5288f710aea60baac7dd888171c5b1bdd59612e628b5e3f0a79d2e325771b173",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.054523999999219086
+      },
+      {
+        "url": "https://cdn.cookielaw.org/vendorlist/iab2V2Data.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 88251,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE8EC0D6C764A9",
+          "expires": "Wed, 01 Apr 2026 20:32:54 GMT"
+        },
+        "responseBodyHash": "8cf5d5e0830e50cac26a3731655af952e4c37bfaff0028ffcf0b39bc132c8257",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.050295000000915024
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otTCF.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18177,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE7518BFBDF3B3"
+        },
+        "responseBodyHash": "5812ece79bb9e15ad9d75fae937019c762777e30f8b6ee1d43c591d5d86dda1a",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.029650000000401633
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/otCenterRounded.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2995,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE7518BCB2BE5A"
+        },
+        "responseBodyHash": "cc0893f7642163731e6a1ac5913371303ce1fd81be6995d11012326617ba6817",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.03681499999947846
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/v2/otPcTab.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 14096,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE7518BDD7CD24"
+        },
+        "responseBodyHash": "3c26ba93fd83adfbe404d565e84d2d03bda95afb53e5e585b1407c1e5617e33a",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.0405960000007326
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4865,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "de45c59da3e4dad94aad246fc9cc415f9ddfaa039256fec0a795b65ff0cda828",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.031841999998505344
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 508,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js",
+          "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js",
+          "https://www.statista.com/mtam/init.js?mtamDev=false&mtamScenario=default"
+        ],
+        "time": 0.021493999998710933
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/bc5540ca-3348-47c8-924c-0162f07ad4bc/0194fa17-a970-7510-a2e0-83c1ce4bb20b/6a1b6c7a-eb36-4fd5-b31b-13607b120280/statista-onetrust.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3285,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DD4B6EF524EF13"
+        },
+        "responseBodyHash": "60da184bd0907beffb6eda2b030f63a14e849cf615a9a7a76bac882b35fe2cf5",
+        "initiators": [],
+        "time": 0.024326000000655768
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2335,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d",
+        "initiators": [],
+        "time": 0.022194999999555876
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__sso_cookie_checker",
+        "domain": ".statista.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "statistaTrackingUUID",
+        "domain": ".statista.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".login.statista.com",
+        "path": "/",
+        "expires": 1774990965464,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "did",
+        "domain": "login.statista.com",
+        "path": "/",
+        "expires": 1806546766363,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "did_compat",
+        "domain": "login.statista.com",
+        "path": "/",
+        "expires": 1806546766364,
+        "session": false
+      },
+      {
+        "name": "auth0",
+        "domain": "login.statista.com",
+        "path": "/",
+        "expires": 1775248367205,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "auth0_compat",
+        "domain": "login.statista.com",
+        "path": "/",
+        "expires": 1775248367205,
+        "session": false
+      },
+      {
+        "name": "__sso_status",
+        "domain": ".statista.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__sso_iplogin",
+        "domain": ".statista.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__sso",
+        "domain": ".statista.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "STATSESSID",
+        "domain": ".statista.com",
+        "path": "/",
+        "expires": 1790541167641,
+        "session": false
+      },
+      {
+        "name": "statistaContentView",
+        "domain": ".statista.com",
+        "path": "/",
+        "expires": 1809549167641,
+        "session": false
+      },
+      {
+        "name": "OptanonConsent",
+        "domain": ".statista.com",
+        "path": "/",
+        "expires": 1806525175000,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.statista.com/homepage/assets/entry.client-BEeanYZh.js": {
+          "Document.cookie getter": 1
+        },
+        "https://cdn.statcdn.com/static/martech/martechagentsmanager-2.0.3.min.js": {
+          "window.localStorage": 2,
+          "Document.cookie getter": 2,
+          "window.innerWidth": 1,
+          "window.sessionStorage": 1
+        },
+        "https://cdn.cookielaw.org/consent/acb8c41d-343d-47fb-b0bc-ac829c6b6853/otSDKStub.js": {
+          "Document.cookie getter": 8,
+          "window.sessionStorage": 4,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 55,
+          "Navigator.prototype.userAgent": 44,
+          "Date.prototype.getTime": 12,
+          "Document.cookie setter": 11,
+          "Navigator.prototype.vendor": 1,
+          "window.innerWidth": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otTCF.js": {
+          "Date.prototype.getTime": 6
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A54+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0; expires=Wed, 31 Mar 2027 20:32:54 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A54+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0; expires=Wed, 31 Mar 2027 20:32:54 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A54+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false; expires=Wed, 31 Mar 2027 20:32:54 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9&interactionCount=0; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9&interactionCount=0&isAnonUser=1; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9&interactionCount=0&isAnonUser=1&prevHadToken=0; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.statista.com%2Fhomepage; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.statista.com%2Fhomepage&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0%2CC0003%3A0%2CV2STACK42%3A0; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.statista.com%2Fhomepage&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0%2CC0003%3A0%2CV2STACK42%3A0&hosts=H27%3A1%2CH14%3A1%2CH105%3A1%2CH15%3A1%2CH9%3A1%2Crwn%3A1%2CH16%3A1%2Cwna%3A1%2CH10%3A1%2CH17%3A1%2CH18%3A1%2CH12%3A1%2CH13%3A1%2CH39%3A0%2CH21%3A0%2CH71%3A0%2CH95%3A0%2CH96%3A0%2CH55%3A0%2CH102%3A0%2CH1%3A0%2CH56%3A0%2CH86%3A0%2CH103%3A0%2CH104%3A0%2CH106%3A0%2CH22%3A0%2CH107%3A0%2CH108%3A0%2Cbsh%3A0%2CH109%3A0%2CH110%3A0%2CH111%3A0%2CH112%3A0%2CH113%3A0%2CH2%3A0%2CH114%3A0%2CH57%3A0%2CH29%3A0%2CH115%3A0%2CH101%3A0%2CH26%3A0%2CH97%3A0%2CH88%3A0%2CH3%3A0%2CH116%3A0%2CH58%3A0%2CH117%3A0%2CH59%3A0%2CH75%3A0%2CH63%3A0%2CH40%3A0%2CH4%3A0%2CH118%3A0%2CH119%3A0%2CH120%3A0%2CH121%3A0%2Ctlv%3A0%2CH98%3A0%2CH90%3A0%2CH64%3A0%2CH122%3A0%2CH123%3A0%2CH124%3A0%2CH6%3A0%2CH47%3A0%2CH52%3A0%2CH11%3A0%2CH127%3A0%2CH129%3A0%2CH67%3A0%2CH130%3A0%2CH131%3A0%2CH132%3A0%2CH68%3A0%2CH133%3A0%2CH25%3A0%2CH134%3A0%2CH99%3A0%2CH136%3A0%2CH137%3A0%2CH48%3A0%2CH92%3A0%2Chkw%3A0%2CH93%3A0%2CH139%3A0%2CH49%3A0%2CH141%3A0%2CH8%3A0%2CH94%3A0%2CH69%3A0%2CH142%3A0%2CH100%3A0%2CH70%3A0%2CH24%3A0%2CH45%3A0%2CH43%3A0%2CH44%3A0%2CH28%3A0%2CH79%3A0%2Cthl%3A0%2CH60%3A0%2CH62%3A0%2CH65%3A0%2CH7%3A0%2CH140%3A0; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A32%3A55+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&consentId=05deb23c-5d06-4415-bf42-16b934ddbbc9&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.statista.com%2Fhomepage&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0%2CC0003%3A0%2CV2STACK42%3A0&hosts=H27%3A1%2CH14%3A1%2CH105%3A1%2CH15%3A1%2CH9%3A1%2Crwn%3A1%2CH16%3A1%2Cwna%3A1%2CH10%3A1%2CH17%3A1%2CH18%3A1%2CH12%3A1%2CH13%3A1%2CH39%3A0%2CH21%3A0%2CH71%3A0%2CH95%3A0%2CH96%3A0%2CH55%3A0%2CH102%3A0%2CH1%3A0%2CH56%3A0%2CH86%3A0%2CH103%3A0%2CH104%3A0%2CH106%3A0%2CH22%3A0%2CH107%3A0%2CH108%3A0%2Cbsh%3A0%2CH109%3A0%2CH110%3A0%2CH111%3A0%2CH112%3A0%2CH113%3A0%2CH2%3A0%2CH114%3A0%2CH57%3A0%2CH29%3A0%2CH115%3A0%2CH101%3A0%2CH26%3A0%2CH97%3A0%2CH88%3A0%2CH3%3A0%2CH116%3A0%2CH58%3A0%2CH117%3A0%2CH59%3A0%2CH75%3A0%2CH63%3A0%2CH40%3A0%2CH4%3A0%2CH118%3A0%2CH119%3A0%2CH120%3A0%2CH121%3A0%2Ctlv%3A0%2CH98%3A0%2CH90%3A0%2CH64%3A0%2CH122%3A0%2CH123%3A0%2CH124%3A0%2CH6%3A0%2CH47%3A0%2CH52%3A0%2CH11%3A0%2CH127%3A0%2CH129%3A0%2CH67%3A0%2CH130%3A0%2CH131%3A0%2CH132%3A0%2CH68%3A0%2CH133%3A0%2CH25%3A0%2CH134%3A0%2CH99%3A0%2CH136%3A0%2CH137%3A0%2CH48%3A0%2CH92%3A0%2Chkw%3A0%2CH93%3A0%2CH139%3A0%2CH49%3A0%2CH141%3A0%2CH8%3A0%2CH94%3A0%2CH69%3A0%2CH142%3A0%2CH100%3A0%2CH70%3A0%2CH24%3A0%2CH45%3A0%2CH43%3A0%2CH44%3A0%2CH28%3A0%2CH79%3A0%2Cthl%3A0%2CH60%3A0%2CH62%3A0%2CH65%3A0%2CH7%3A0%2CH140%3A0&genVendors=; expires=Wed, 31 Mar 2027 20:32:55 GMT; path=/; domain=.statista.com; Samesite=None; Secure"
+          ]
+        }
+      ]
+    }
+  }
+}

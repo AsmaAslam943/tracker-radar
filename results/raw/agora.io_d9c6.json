@@ -1,0 +1,4318 @@
+{
+  "initialUrl": "https://agora.io/",
+  "finalUrl": "https://www.agora.io/en/",
+  "timeout": true,
+  "testStarted": 1774993148280,
+  "testFinished": 1774993211319,
+  "data": {
+    "requests": [
+      {
+        "url": "https://agora.io/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "52.8.151.151",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.agora.io/",
+        "initiators": [],
+        "time": 0.04278200000044308
+      },
+      {
+        "url": "https://www.agora.io/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.agora.io/en/",
+        "redirectedFrom": "https://agora.io/",
+        "initiators": [],
+        "time": 0.09760000000096625
+      },
+      {
+        "url": "https://www.agora.io/en/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 55412,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "d969705e724d01bd7e7c23df75e75690b15bc97881ae2bf65299813ce8426264",
+        "redirectedFrom": "https://www.agora.io/",
+        "initiators": [],
+        "time": 0.023933999998916988
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 109743,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"59ac1f3c4f89459528a84b3c91124517\""
+        },
+        "responseBodyHash": "1242c30cc549d91b18b9973759d1cedfd337b76a50d9548bc17a98ac08cacffe",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.24569199999859848
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6059,
+        "remoteIPAddress": "142.251.214.138",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Sun, 28 Mar 2027 01:08:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "81016ac6be850b72df5d4faa0c3cec8e2c1b0ba0045712144a6766adfad40bee",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.1214429999999993
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5523,
+        "remoteIPAddress": "104.16.175.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=43200",
+          "etag": "W/\"4816-00NTceTFOXSCfuleSHYg+tVGAkA\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "74ca6aae5468dbc924790c3b4d219a089b90a34bad53a0f7ca3a73e73b6f5ab8",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.1219070000006468
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44476,
+        "remoteIPAddress": "104.16.175.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=43200",
+          "etag": "W/\"25be5-n7vuhWVYfwo6iXqEBF16IW76OmQ\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "985f1224c0eeec99d367a9db35e58e44b21e7eb9ce45831b15b4c108e41fd97f",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.28389599999900383
+      },
+      {
+        "url": "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7109,
+        "remoteIPAddress": "98.89.172.177",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://localhost:3000",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "834c46ef9d24549fdb140bfe8ef18b29e6347fe51913208e749c3397bea04ab6",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.3358989999997
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-11492041022",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_SOCKET_NOT_CONNECTED",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.24591799999871
+      },
+      {
+        "url": "https://js.hs-scripts.com/24150284.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1151,
+        "remoteIPAddress": "104.16.140.209",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "public, max-age=90",
+          "expires": "Tue, 31 Mar 2026 21:40:50 GMT"
+        },
+        "responseBodyHash": "a5c355272334a13ea34e3ba1fe0e81134e1963b596156631975264d4e8f64285",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.463440999999875
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66163e3e811fc1edb78a07cb_Aora%20Real%20Time%20Network%20Illustration.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 380121,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "W/\"9249202395940307546cc6b59d4ac885\""
+        },
+        "responseBodyHash": "74f53df04324cf122dbfe56d6a0c46669e530ce8916bcdcc31c380785ffc9be9",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.273099000000002
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66b509a44dce0659bcf457c4_SuccessStory_Card_VIVE.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 41822,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=84600, must-revalidate",
+          "etag": "\"0014274c677484312f656a3a3517cadd\""
+        },
+        "responseBodyHash": "0ae74104b200f3ee8f2bd7e301d39db143e1ed388815bc4cbc1183377cb7da20",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.25101600000016333
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29517,
+        "remoteIPAddress": "104.16.175.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"11a16-LSb0wGBJGsmA0JymhziNNhAlbrc\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.3123470000009547
+      },
+      {
+        "url": "https://cdn.expertise.ai/genweb/ai-genweb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1068,
+        "remoteIPAddress": "65.8.180.113",
+        "responseHeaders": {
+          "etag": "W/\"0d7440a7509600e6678de5cf466850d7\""
+        },
+        "responseBodyHash": "37afe064291f2992ee6b8ff6651fcbe6eb63b9aae4da593def7ef62df2cbdd8f",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.265316000000894
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=660affa848e8af81bdd03909",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31195,
+        "remoteIPAddress": "108.138.245.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=84600, must-revalidate",
+          "etag": "W/\"dc5e7f18c8d36ac1d3d4753a87c98d0a\""
+        },
+        "responseBodyHash": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.270434000000023
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/js/agoras-website.schunk.36b8fb49256177c8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14148,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"6d1d67fe2715f25c2fd98a9011d8ea67\""
+        },
+        "responseBodyHash": "8b7d0de9f3df9103d70ed000c17b348240623ac4e4053d56fa0d5cfd8d74d79d",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.3654599999990751
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/js/agoras-website.schunk.618e68aab2145078.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 52723,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"ac9be39963e399cf62a61defa09e7ef9\""
+        },
+        "responseBodyHash": "4080067d2a3011b57bdcfa1eb208ff3b82e374327bff8f6d14a084c8b267be30",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.3836069999997562
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/js/agoras-website.fc1f7378.332b855469e430a2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1535,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"81b49d4f8c82b48b21d150ae40e09578\""
+        },
+        "responseBodyHash": "9cd2c300b15e692a937aeef153441d4db66bfe93e4b37001aff87141c835b968",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.38406100000065635
+      },
+      {
+        "url": "https://awsmfl2.s3.amazonaws.com/ga4-triggers-min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15696,
+        "remoteIPAddress": "52.216.48.177",
+        "responseHeaders": {
+          "etag": "\"57aa2bb9ae0cb6b21f4d3567feca5aff\""
+        },
+        "responseBodyHash": "8c5fd0b1d2ab40676df6f9af64f82b4311013c896e81ae144d2fa517d5f1aa50",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.362576999999874
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18386,
+        "remoteIPAddress": "104.16.175.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"a974-SJvPbZxp8PKfhx4DI1EMUZeFm/U\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.3709130000006553
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2314,
+        "remoteIPAddress": "104.16.175.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"fc6-IbEeRhh+YNf7JrhHoHYekXPCxfg\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e82f1a686ce2f7a62a7078bf101a386c58bd4e3b0b2e99f5774b7c1e54f8440f",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.37169300000095973
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700%7CInter:300,400,500,600,700",
+        "method": "GET",
+        "type": "Stylesheet",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_SOCKET_NOT_CONNECTED",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.79254100000071
+      },
+      {
+        "url": "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5682,
+        "remoteIPAddress": "18.244.214.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"5b24dbdd033e673bb8cf0f957f882433\""
+        },
+        "responseBodyHash": "4ce07af093801e2fc5d81bde98630795e70fd1db9d05eb0965409e3a33f6b2f9",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.925074999999197
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TKTWGML",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_SOCKET_NOT_CONNECTED",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.904380999998466
+      },
+      {
+        "url": "https://www.clarity.ms/tag/rwvip6pv2o",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1128,
+        "remoteIPAddress": "4.153.187.221",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "expires": "-1",
+          "set-cookie": "CLID=e87d47a82429486c90ead1f08f600b9b.20260331.20270331; expires=Wed, 31 Mar 2027 21:39:20 GMT; path=/; secure; samesite=none; httponly"
+        },
+        "responseBodyHash": "d1ca676bca60ab556e36a3a8f72e370151fe474d3d24fc269ce460ded6342480",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.998671999999715
+      },
+      {
+        "url": "https://www.agora.io/en/products/3d-spatial-audio/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 45114,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.635671000000002
+      },
+      {
+        "url": "https://www.agora.io/en/products/media-services/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 42633,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.930908000000272
+      },
+      {
+        "url": "https://www.agora.io/en/products/agora-analytics/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 44001,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.93777399999999
+      },
+      {
+        "url": "https://www.agora.io/en/products/ai-noise-suppression/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 47032,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.96669699999984
+      },
+      {
+        "url": "https://www.agora.io/en/products/speech-to-text/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 46018,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.944906000000628
+      },
+      {
+        "url": "https://www.agora.io/en/products/real-time-translation/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 50289,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.94138700000076
+      },
+      {
+        "url": "https://www.agora.io/en/products/recording/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 45538,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.933381999999256
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/67695f623f23b32b3cff8bc9_Jokker-Regular.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 48934,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"cfa74f0fcaf28c648a46c6610640f37c\""
+        },
+        "responseBodyHash": "2b7e171182432a785e717779ee2da109e3d6005190560f1648e77d8d92cf26be",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.07625499999994645
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/67695f625d1aeb80de29fc55_Jokker-Medium.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 49348,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"acd277b91890be73412297e955a28659\""
+        },
+        "responseBodyHash": "011402a9455174783e29ad2cca96b925c31476ed2bbee746fa5102170cec2fe0",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.08667000000059488
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66ab7f671fb90c022fb7f1dc_Agora%20Logo%20Crisp-p-500.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12657,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"20bbcba3b3a90f5367d9e623a5bfc784\""
+        },
+        "responseBodyHash": "e4d56e1379d040c8c4a05a338220b75a8ebaeb3171dea13e8d1ea1f42c4788d3",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.05131400000027497
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/69aa7c83c76fda296d55ae1b_CTA.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 925,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"a1b3e9627f25df260deec56b3b7f5229\""
+        },
+        "responseBodyHash": "afaea01efda0c644bbea0f9f48c4a824ab2fbd25b914eebe748b7e1fbf76ad43",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.05219700000088778
+      },
+      {
+        "url": "https://www.agora.io/en/products/conversational-ai-engine/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 45697,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.911130999998932
+      },
+      {
+        "url": "https://www.agora.io/en/products/video-call/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 52177,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.912325000001147
+      },
+      {
+        "url": "https://www.agora.io/en/products/voice-call/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 52406,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.919960999999603
+      },
+      {
+        "url": "https://www.agora.io/en/products/interactive-live-streaming/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 52503,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.91866200000004
+      },
+      {
+        "url": "https://www.agora.io/en/products/broadcast-streaming/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 52472,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.920921999999337
+      },
+      {
+        "url": "https://www.agora.io/en/products/chat/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 51100,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.927583000000595
+      },
+      {
+        "url": "https://www.agora.io/en/products/interactive-whiteboard/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 49142,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.924718000000212
+      },
+      {
+        "url": "https://www.agora.io/en/products/signaling/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 51272,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.925451999999495
+      },
+      {
+        "url": "https://www.agora.io/en/products/iot-sdk/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 50101,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 10.922559999999066
+      },
+      {
+        "url": "https://www.agora.io/en/products/real-time-speech-to-text/",
+        "method": "GET",
+        "type": "Other",
+        "status": 301,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.agora.io/en/products/speech-to-text",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.254492000000027
+      },
+      {
+        "url": "https://www.agora.io/en/success-stories/htc-vive",
+        "method": "GET",
+        "type": "Other",
+        "status": 301,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.agora.io/en/success-stories/htc-vive/",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.249713000001066
+      },
+      {
+        "url": "https://www.agora.io/en/success-stories/gabb",
+        "method": "GET",
+        "type": "Other",
+        "status": 301,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.agora.io/en/success-stories/gabb/",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.250002000000677
+      },
+      {
+        "url": "https://www.agora.io/en/success-stories/talkspace",
+        "method": "GET",
+        "type": "Other",
+        "status": 301,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.agora.io/en/success-stories/talkspace/",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.250260000000708
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/69336c1bc4c5d2c951a99150_3ef1ea859cb908ab08847ddad8588b1c5f0dca50.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1096697,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"76c1fc53b62969c7c481f41d5b635de4\""
+        },
+        "responseBodyHash": "e8ec1977e68d56f03bbc8c613b0c9ed6d3b080bc2a98051287e57f3bd79dfbf5",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.25315600000067207
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/69336dc24a5d9b9b2d94e797_34d42019e2c5d095c1dfe502e4bafab4c257bef1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1396283,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"4f816d3b9c34b2e5a65133947607399c\""
+        },
+        "responseBodyHash": "13f58df6de0dc0364106a149d1f719d09f1eb6193859f07710235e52854a3443",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.36768600000141305
+      },
+      {
+        "url": "https://assets-global.website-files.com/6458f30fed157c01444bd0b2/649186bcd08ddae77b3e894f_bloc-02.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 255773,
+        "remoteIPAddress": "104.18.34.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"576f972440d33d4dd637fa9cd4bd987f\"",
+          "expires": "Wed, 31 Mar 2027 21:39:20 GMT"
+        },
+        "responseBodyHash": "68e038bd783304afb5b1847a9525cc6b59353e0fc25e156a1d8f6064624967aa",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 11.102860999999393
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/67695f62811590e9745e4e66_Jokker-Semibold.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 50440,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"da5119c53be29fe1336124c32f347964\""
+        },
+        "responseBodyHash": "2deeb7047aeb578b76b809e8b6861996166ad184c9be709d3b286a423ed6b249",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.13354100000105973
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/67695f62eb83a9a271ccab6c_Jokker-Bold.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 50536,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"6c50b52da3d01acf91580fa291e5d4d8\""
+        },
+        "responseBodyHash": "3fbbcf69e39dbfc2ef1d2aa200ad5e74687a38b3549f370f0c6095cade3033aa",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.14920100000017555
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/67695f62ecf082b10baf9e88_Jokker-Light.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 49167,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"56adcc9a39ec38f3e8604d767b3d0308\""
+        },
+        "responseBodyHash": "98b8e79e6f4fa26e0bf2cb1dbeb723f355bbf7ca6b3a71f646a3ed397769f540",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.1732769999998709
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/67695f629ee0061b83b1d0b3_Jokker-Heavy.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 48830,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"05e8b0eee5c110933eba91bf54ee5ecf\""
+        },
+        "responseBodyHash": "99a21fa4ace8bf0e875b475ebd14e707eaa63c0b3c46585a3761c6a75e380663",
+        "initiators": [
+          "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/css/agoras-website.shared.26d8fb834.min.css"
+        ],
+        "time": 0.2031459999998333
+      },
+      {
+        "url": "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 11396,
+        "remoteIPAddress": "162.159.128.61",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Fri, 15 Dec 1985 19:30:00 GMT",
+          "set-cookie": "__cf_bm=vta9wxy25Cb3k3iImfL_wjmb6JVJ6.CXqTr8.XN72RM-1774993160.0729675-1.0.1.1-FkP95ieZCuxBOjrQnO.zdTOGOCMP2GUy4_2gNRli7H59G0BdxFuOGmbyczqZcjRbIbfI1Doxhdh7wjwWjTZLnu54frCSQ8HhBZ_JrlwEaEv6MsfRmLGrbiA2YmmrK1t1; HttpOnly; Secure; Path=/; Domain=vimeo.com; Expires=Tue, 31 Mar 2026 22:09:20 GMT\n_cfuvid=Sh8QqRltCtvJ0maar7CGuVUnm5.Gd.IwiSxm09H.4Aw-1774993160.0729675-1.0.1.1-wMdajy9BLnOP.3RgHAL36UACPL96PaoviuEYdJFgGjk; HttpOnly; SameSite=None; Secure; Path=/; Domain=vimeo.com"
+        },
+        "responseBodyHash": "482c5d5dd3d9b275e5670b3c5e413cfdb8ecc320dac1fc3f6443015e614de021",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.4790849999990314
+      },
+      {
+        "url": "https://player.vimeo.com/video/988623383?background=1",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 11399,
+        "remoteIPAddress": "162.159.128.61",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Fri, 15 Dec 1985 19:30:00 GMT",
+          "set-cookie": "__cf_bm=a_E0VJhFpJW8Jr.zef1XWrNlUVOz7hHN2vWj1I_PSZE-1774993160.0734718-1.0.1.1-xXIWztHF.4ZDyCFjqw2Irqe7IYq8FSxONa3qsviEM1D8lOUTrCwXbIFHJkM2cTDVUDBVCBGYcPfZYEbwybq85NFDOu5mJc6sMSLmpuPBBKQJ2hGDLNjTEUue6I1L8rZI; HttpOnly; Secure; Path=/; Domain=vimeo.com; Expires=Tue, 31 Mar 2026 22:09:20 GMT\n_cfuvid=m77f_UTuow_JYoDZz_blSrfhBzVKqGNbJot.D5swxj0-1774993160.0734718-1.0.1.1-ivw1sSII7rBdVTUZLB4vy2yViNEUtdvDorpWzYWzP7g; HttpOnly; SameSite=None; Secure; Path=/; Domain=vimeo.com"
+        },
+        "responseBodyHash": "ffd7ff607d7e53cfa0525a4bc44fd0ba63e037ffec9c6e6e3502bb7bca2b9c1c",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.9005600000000413
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/69338451375372fc3a53ad4e_bolt_icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1332,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"540cbe1b8ccb8dc96370b839d62c4d5e\""
+        },
+        "responseBodyHash": "fdc721ead4b9ec31f8cddb4137b5beca4a6ac48e4c0e2684682b699820b31bd2",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07474899999942863
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/693386012d4c1674fe115730_globe_icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2124,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"5567bbfc49e24427b703120a4b0d8682\""
+        },
+        "responseBodyHash": "750edbd7a109a70be1aaaaaad6c27d0297f8ae8af0151ef40323e1e7f8892c96",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07480500000019674
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/69338686aeec745126e9f3ae_circle_check_icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1719,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"b3a5fe77ca8bac941180b6ae6a5a4f96\""
+        },
+        "responseBodyHash": "541f9491851a99e5d3717c1804053acb2a66a5785da4d65b3b1f00b03ec31e28",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07488899999952991
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/671fe44a8d1a289ebfd78404_logo_whatnot_grey2.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7156,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"1e93eaaabcc71159e748beffe588cea2\""
+        },
+        "responseBodyHash": "1bdd2369fe5852f25de93a91d7b32a8ebf98cec39491fde956bd6006b1e75216",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07640200000059849
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/665ff44774b128faaee22ff2_The_Sandbox_2023.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2320,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=84600, must-revalidate",
+          "etag": "\"472bbd7ad3a8b4b1ef0ded40434796a6\""
+        },
+        "responseBodyHash": "7de56c498a027c5d8b3f40ab1f7e73c097cd75741d889c2859e001c8cfea3623",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07527800000025309
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/665ff678e2448efa282fe17f_Vector.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4016,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=84600, must-revalidate",
+          "etag": "\"6c675d600e5155730d1254e6db9dc13e\""
+        },
+        "responseBodyHash": "9de9374506e6b0ffb03736cb2b4434fa69396ed338d200751cbfa1a43b5f5b45",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.0764180000005581
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/665ff447cbf01b7af0dce8b3_Gabb-logo.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2684,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=84600, must-revalidate",
+          "etag": "\"71b9f74e032c87f0305acd29961715ee\""
+        },
+        "responseBodyHash": "acc886e530ddf9cebbd87693935c2c94732f7b74433b93891fce0bf4f18759eb",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07531099999869184
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/665ff447e62ce6612ef7889b_Vimeo-logo.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3258,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=84600, must-revalidate",
+          "etag": "\"74910ee11013ca53e2bc6656ce9f3111\""
+        },
+        "responseBodyHash": "f0ad144e331fcb80daf619f3079aeea72b7fb7cf045f995400b24bfbf67eb455",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07538299999941955
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66a9d88204b225d1e1b3228d_TalkSpace-new.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1695,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "W/\"f31e6267031ad8b57b08c0aa4ead2783\""
+        },
+        "responseBodyHash": "d18b2f41e179bd2637a3128dae690a5fb28ad2f1f1922b93800776a0997f88fb",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.0754529999994702
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66156c4f082e99231aa5c5d9_vive.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1842,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "W/\"255a528d7cc376a88ed4e913c5e5c054\""
+        },
+        "responseBodyHash": "35f37fa89f00b72062e90fa395b36c42cd3329012a64bed6e9a52c4eaaf10e5d",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07553800000096089
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66156c4f0efda7a2359dc1cc_unity_technologies.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1310,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "W/\"f667913e9b2d420a2f72f4946f4ea013\""
+        },
+        "responseBodyHash": "6ecb5632e59b3727e7ec1a51b35d4e8136f7237540b3771b704c11ed28f9c94b",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07558900000003632
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/6971ee0e20d9cbd0ce90ae48_hey-im-agent-andy-p-500.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18066,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"18e0a721fe5c4c08d67bdee24a24226a\""
+        },
+        "responseBodyHash": "2a3e7a51cfa453c0c0f3f1afa9027973947e69450b540ae649c53c4590189806",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07653600000048755
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/695f69429999735acd087347_Enterprise-illustration.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18419,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=84600, must-revalidate",
+          "etag": "\"6aa1bc90386d81f362627bd3ceab84df\""
+        },
+        "responseBodyHash": "75d8ce246ecc4a53ea8afd2541a7545d1d597c4372c677c556d6445f8dffec0c",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.07656600000154867
+      },
+      {
+        "url": "https://cdn-prod.securiti.ai/consent/cookie_banner/b373a629-85bf-440d-824a-a86fc32ae3e9/7ba04bfc-c10b-4f3a-80d5-bf9ed910b46f/config_active.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1120,
+        "remoteIPAddress": "18.244.214.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=86400",
+          "etag": "\"85c0e5d1ccf57cd856bdab75ad8331bb\""
+        },
+        "responseBodyHash": "274b0830c3a0e938793e75c5d5c6a7338e5d1fadf116b18fe9db330126f86a68",
+        "initiators": [
+          "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js",
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.041221999999834225
+      },
+      {
+        "url": "https://cdn-prod.securiti.ai/consent/cookie-consent-latest.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 11352,
+        "remoteIPAddress": "18.244.214.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"8266974778ff5fd80c90a970e592a4eb\""
+        },
+        "responseBodyHash": "80dd448ebfd1bd704b80d1642b708767ee1090f1e0e67cf2a545c89ae3b4f1f3",
+        "initiators": [
+          "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js",
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.013800999999148189
+      },
+      {
+        "url": "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-latest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 114887,
+        "remoteIPAddress": "18.244.214.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"7254f6730d6b5896405a6a21f4fa727f\""
+        },
+        "responseBodyHash": "8d94792a5fa022dd8c79aa4fb8ce75a99d0106f37785dda68c5c1f3fa5251541",
+        "initiators": [
+          "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js",
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.03217199999926379
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.59/clarity.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26800,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"0x8DE8E46171FEDDD\""
+        },
+        "responseBodyHash": "6a00b1393bd74ac062ad19c64062eee1ae9c257e24949b55813a9462a4820e54",
+        "initiators": [
+          "https://www.clarity.ms/tag/rwvip6pv2o",
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.6067579999998998
+      },
+      {
+        "url": "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1260,
+        "remoteIPAddress": "151.101.41.91",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "7048154997ea6151dede6bbfb0c30b66e0504623ac11beeb3936a09a656b6bf5",
+        "initiators": [
+          "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c"
+        ],
+        "time": 0.42944899999929476
+      },
+      {
+        "url": "https://api.github.com/repos/TEN-framework/ten-framework",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2683,
+        "remoteIPAddress": "140.82.116.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60, s-maxage=60",
+          "etag": "W/\"b7d643425c0f38422fa76b24be0ccb73adf8e0692d039feaeee013e86af29c6b\""
+        },
+        "responseBodyHash": "20b032fd922f329e6eb127cc946b77b6cb945b3209b6e1d0ad2af0a95e71332e",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.8407380000007834
+      },
+      {
+        "url": "https://api.github.com/repos/TEN-framework/ten-framework",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "140.82.116.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60, s-maxage=60",
+          "etag": "W/\"b7d643425c0f38422fa76b24be0ccb73adf8e0692d039feaeee013e86af29c6b\""
+        },
+        "responseBodyHash": "20b032fd922f329e6eb127cc946b77b6cb945b3209b6e1d0ad2af0a95e71332e",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.8422110000010434
+      },
+      {
+        "url": "https://status.agora.io/api/v1/products/current-status",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1405,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io"
+        },
+        "responseBodyHash": "a4026ceffbdc7606139cf078625d0a76e9c88d2dbcb57f85a4407b8a591ab933",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.680926000000909
+      },
+      {
+        "url": "https://cdn.expertise.ai/genweb/ai-genweb.module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 479,
+        "remoteIPAddress": "65.8.180.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"315a8692d163b216eb2e39bed2b90ff9\""
+        },
+        "responseBodyHash": "724262d8513663f4f9d2ce231e7333192f5a4ab05f30a9d44cc76dcd665660b7",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/ai-genweb.js"
+        ],
+        "time": 0.0368319999997766
+      },
+      {
+        "url": "https://cdn-prod.securiti.ai/consent/cookie_banner/b373a629-85bf-440d-824a-a86fc32ae3e9/7ba04bfc-c10b-4f3a-80d5-bf9ed910b46f/en.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 15147,
+        "remoteIPAddress": "18.244.214.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=86400",
+          "etag": "W/\"581d5382c5340036e699f38eeecc481c\""
+        },
+        "responseBodyHash": "0318acc74a5622443e348d754563972270b813f76d332f7d24d8408cbb814dbb",
+        "initiators": [
+          "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-latest.js",
+          "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js",
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.014769999999771244
+      },
+      {
+        "url": "https://app.securiti.ai/core/v1/utils/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1429,
+        "remoteIPAddress": "3.33.255.181",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "set-cookie": "_xsrf=SU13RDc4amd1bXI1enZmNHNIdkV0S2ZmRnZpc05MTXU=|1774993160859510746|e4aeae2c0b88fb242d5b455e7034c52b7c5becfa; Expires=Tue, 31 Mar 2026 22:39:20 UTC; Max-Age=3600; Path=/; Domain=app.securiti.ai; Secure; SameSite=lax"
+        },
+        "responseBodyHash": "fe4323d2b178805bfa37af7a574406cca2e246dea50a4908f0bb1461b3be4e7c",
+        "initiators": [
+          "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-latest.js",
+          "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js",
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.5819059999994352
+      },
+      {
+        "url": "https://js.hsadspixel.net/pixels.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4017,
+        "remoteIPAddress": "104.17.128.172",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "etag": "W/\"4aacd073bf3e79af7c57c102c37621d6\""
+        },
+        "responseBodyHash": "56fda67924f86d8d7c1359f9f1112b278a813f69661b5fb4923bff925a093d9f",
+        "initiators": [
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.4731080000001384
+      },
+      {
+        "url": "https://js.hscollectedforms.net/collectedforms.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26563,
+        "remoteIPAddress": "104.16.108.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=600, max-age=300",
+          "etag": "W/\"64200d42e96367db06643c85163f2801\""
+        },
+        "responseBodyHash": "95e1f71de70002a5cf0fbb68c057b09e12889b59bbdb4faa72e9aa9154c640e3",
+        "initiators": [
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.5845379999991565
+      },
+      {
+        "url": "https://js.hubspot.com/web-interactives-embed.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28817,
+        "remoteIPAddress": "104.17.92.187",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "W/\"96f49ab8d3b50f5f8d950305e5720be2\"",
+          "set-cookie": "__cf_bm=2Q3aZ13fvHomWpZ_aXDFNMbXXMl9B1Amyu.iHxiRYN4-1774993160-1.0.1.1-8SI_8ibesUqu7MqlbNWOMtqvyGuD.IH8bejOatN1I7FGTIp1ozUDOfPxZ6E.xox3SfhyyVfdRwEhzdHxAglcnrMkNkulY0Pg7oujU6I9G5o; path=/; expires=Tue, 31-Mar-26 22:09:20 GMT; domain=.hubspot.com; HttpOnly; Secure; SameSite=None\n_cfuvid=mO3HnEXIr_v2jPVFuDXRDunzA8k7a8nrZTv6sn41Jlc-1774993160865-0.0.1.1-604800000; path=/; domain=.hubspot.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "bc293116d5719c45638dce6a6abe5e777b03f3c4ea11ff68b5da8eea1a3e5228",
+        "initiators": [
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.5721329999996669
+      },
+      {
+        "url": "https://js.hs-analytics.net/analytics/1774992900000/24150284.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43293,
+        "remoteIPAddress": "104.17.175.201",
+        "responseHeaders": {
+          "cache-control": "max-age=300\npublic",
+          "etag": "W/\"73c6befc64bd48c7285411c17f4284d3\"",
+          "expires": "Tue, 31 Mar 2026 21:40:20 GMT"
+        },
+        "responseBodyHash": "6e0f9c136faa3cd1b394154e9d7cd299c05ba15e5719eb47a1c62ed3763b70b3",
+        "initiators": [
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.5678710000011051
+      },
+      {
+        "url": "https://js.hs-banner.com/v2/24150284/banner.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24684,
+        "remoteIPAddress": "172.64.147.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300\npublic",
+          "etag": "\"28cd871a8f92f34198de1ff145dd2361\"",
+          "expires": "Tue, 31 Mar 2026 21:40:20 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "81049efa39b62ed0559bbcdc6a3c3f978bedfc1c6e2318227ba8e480cf891fda",
+        "initiators": [
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.5789670000012848
+      },
+      {
+        "url": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 265359,
+        "remoteIPAddress": "65.8.180.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"550d2e72f80729fd2f746c98dace1b9d\""
+        },
+        "responseBodyHash": "d0e8b60bcaaea24947235328698d27ea2ed69bfa933a075cc94c5e56c60e0929",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/ai-genweb.module.js"
+        ],
+        "time": 0.06319999999868742
+      },
+      {
+        "url": "https://cdn.expertise.ai/genweb/react-vendor-BjmZ3Zoc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43951,
+        "remoteIPAddress": "65.8.180.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"4bdd3f5df4182a976264594e2c6d01b4\""
+        },
+        "responseBodyHash": "3f7f73baaf3dd9b098fb988a683854fa4679f129687e42b0294a9e1ed6f003a6",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/ai-genweb.module.js"
+        ],
+        "time": 0.037941000000500935
+      },
+      {
+        "url": "https://cdn.expertise.ai/genweb/locales-BIbxlWk5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23554,
+        "remoteIPAddress": "65.8.180.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"fa246a319ee62e91535e471597db0e81\""
+        },
+        "responseBodyHash": "b2b260e191795455ed497edaab206c05763333dbe2e9e7b4d85e1d86681e15c9",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js"
+        ],
+        "time": 0.017213999999512453
+      },
+      {
+        "url": "https://www.agora.io/en/success-stories/htc-vive/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 32403,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.agora.io/en/success-stories/htc-vive",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.1442879999995057
+      },
+      {
+        "url": "https://www.agora.io/en/success-stories/gabb/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 32516,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.agora.io/en/success-stories/gabb",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.14487799999915296
+      },
+      {
+        "url": "https://www.agora.io/en/success-stories/talkspace/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 31718,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.agora.io/en/success-stories/talkspace",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.14513799999986077
+      },
+      {
+        "url": "https://www.agora.io/en/products/speech-to-text",
+        "method": "GET",
+        "type": "Other",
+        "status": 301,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedTo": "https://www.agora.io/en/products/speech-to-text/",
+        "redirectedFrom": "https://www.agora.io/en/products/real-time-speech-to-text/",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 1.8097529999995459
+      },
+      {
+        "url": "https://status.agora.io/api/v1/products/current-status",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "3.169.183.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://status.agora.io/api/v1/products/current-status"
+        ],
+        "time": 0.33680199999980687
+      },
+      {
+        "url": "https://cdn.expertise.ai/genweb/sounds/agent-message.mp3",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 2186,
+        "remoteIPAddress": "65.8.180.113",
+        "responseHeaders": {
+          "etag": "\"2ed57873aefd7c90d41f9b026068b488\""
+        },
+        "responseBodyHash": "3efaae4959b4a728549c6a57d7a01a67a5bf59e562b4425a57f40ea6f89dae5e",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.031895000000076834
+      },
+      {
+        "url": "https://cdn.expertise.ai/genweb/sounds/user-message.mp3",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 9102,
+        "remoteIPAddress": "65.8.180.113",
+        "responseHeaders": {
+          "etag": "\"fcf5978b26abbb3bfb15c84f8afea365\""
+        },
+        "responseBodyHash": "0d0fd91bce4c6a1a4b2adba3dea05249755b851db206976e3b4c82d5a04d06ee",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.031068000000232132
+      },
+      {
+        "url": "https://api.expertise.ai/v0/location/us-east-1/users/user_platforms/20a92e4f-d333-4558-805b-626b98880303/get_copilot_info?is_on_website=true",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 7836,
+        "remoteIPAddress": "3.217.16.148",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "ba2f0c67de8152fbf0b5174a0b5e928de3bc586f557f89c55b95ec9d2f5e8e12",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "https://cdn.expertise.ai/genweb/react-vendor-BjmZ3Zoc.js"
+        ],
+        "time": 0.514114999999947
+      },
+      {
+        "url": "https://a.usbrowserspeed.com/cs?pid=6a9590e1e862a56eb7dc74c87ff0719c6ae754ea069fe1e0dcccfce1ce896bab&puid=8JQOBvP5Et-N8IMMVOD1jNxuytKMk78lx6yRXVWU1z",
+        "method": "GET",
+        "type": "Script",
+        "status": 204,
+        "size": 148,
+        "remoteIPAddress": "54.188.228.106",
+        "responseHeaders": {
+          "set-cookie": "tuid=bfb41021-0eaa-40bd-a641-434d3098c24a; Path=/; Domain=a.usbrowserspeed.com; Max-Age=31536000; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+          "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c"
+        ],
+        "time": 0.22967699999935576
+      },
+      {
+        "url": "https://d-code.liadm.com/did-003x.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 48600,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "etag": "W/\"c4010a97\""
+        },
+        "responseBodyHash": "0ab05048235b35dd1887966b514da5861af52b29c5e8a7d6427ccbace62b876e",
+        "initiators": [
+          "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+          "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c"
+        ],
+        "time": 0.19257800000013958
+      },
+      {
+        "url": "https://www.agora.io/en/products/speech-to-text/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 977,
+        "remoteIPAddress": "3.168.86.74",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.agora.io/en/products/speech-to-text",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.01666800000020885
+      },
+      {
+        "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=24150284",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1158,
+        "remoteIPAddress": "104.16.50.78",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "set-cookie": "__cf_bm=9FuOCMRUdSBCalqe4Lk7zuh5pTv3443yq2CrLLNnB_Y-1774993162-1.0.1.1-uJhjTWbBdW5Ah0Secg8hmT8qsVMg6oHo7MlGQXSrIgBYfuGynDkbeO.kIfyyk8xG3fB1OqfTNaiLIWVhNU2tdOI12bfga2wrhpJH2aNTKIg; path=/; expires=Tue, 31-Mar-26 22:09:22 GMT; domain=.hubapi.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "fb8f03e66349a27c880190bf49bb89808d5469ec3c75d4d14ac5d663db4ed9e7",
+        "initiators": [
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.1592240000009042
+      },
+      {
+        "url": "https://www.clarity.ms/tag/undefined?ref=npm",
+        "method": "GET",
+        "type": "Script",
+        "status": 204,
+        "size": 171,
+        "remoteIPAddress": "4.153.187.221",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "https://cdn.expertise.ai/genweb/react-vendor-BjmZ3Zoc.js"
+        ],
+        "time": 0.08789100000103645
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 207096,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600"
+        },
+        "responseBodyHash": "6c8f76b9eb5d6b35461879de4469a57e2453ba88bf028e0801fe630c425768cb",
+        "initiators": [
+          "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1"
+        ],
+        "time": 0.11939700000039011
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 95740,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600"
+        },
+        "responseBodyHash": "6ae7bfc17a59073dc24e5e5a9d7de96287153d3d0b41022818faf202a943c22a",
+        "initiators": [
+          "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1"
+        ],
+        "time": 0.09952100000009523
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.35/css/player.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 22061,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600"
+        },
+        "responseBodyHash": "52591bae21390bc7d64f172e8ad97c7ec09563127b95bb4d36da7188744e8414",
+        "initiators": [
+          "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1"
+        ],
+        "time": 0.08426200000030803
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600"
+        },
+        "responseBodyHash": "6c8f76b9eb5d6b35461879de4469a57e2453ba88bf028e0801fe630c425768cb",
+        "initiators": [
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.1146969999990688
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600"
+        },
+        "responseBodyHash": "6ae7bfc17a59073dc24e5e5a9d7de96287153d3d0b41022818faf202a943c22a",
+        "initiators": [
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.09496100000069418
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.35/css/player.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600"
+        },
+        "responseBodyHash": "52591bae21390bc7d64f172e8ad97c7ec09563127b95bb4d36da7188744e8414",
+        "initiators": [
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.08218699999997625
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/array/phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP/config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 946,
+        "remoteIPAddress": "104.20.17.167",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300"
+        },
+        "responseBodyHash": "b55a5b89536920be2d2d73279b40c290d77e24dbb5da0f44d66f03accf32a8a0",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "https://cdn.expertise.ai/genweb/react-vendor-BjmZ3Zoc.js"
+        ],
+        "time": 0.16548799999873154
+      },
+      {
+        "url": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1774993162297&ver=1.345.5&compression=base64",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 803,
+        "remoteIPAddress": "54.146.161.87",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io"
+        },
+        "responseBodyHash": "4a7abd7d5f1d4499a155abcdf558fe1c369e95dfa6ea9fb596407135e431d0b7",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "https://cdn.expertise.ai/genweb/react-vendor-BjmZ3Zoc.js"
+        ],
+        "time": 0.34000299999934214
+      },
+      {
+        "url": "https://idx.liadm.com/idex/did-003x/any?duid=6f93caf0bc92--01kn2xcg69d4qg1khs3pskpkr6&did=did-003x&cd=.agora.io&pu=https%3A%2F%2Fwww.agora.io%2F&resolve=nonId&resolve=md5&resolve=sha2",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 656,
+        "remoteIPAddress": "34.196.193.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "max-age=86399, private",
+          "expires": "Wed, 01 Apr 2026 21:39:22 GMT",
+          "set-cookie": "lidid=8217f0c5-6fe2-49c0-a980-aa967b9c36a7; Max-Age=63072000; Expires=Thu, 30 Mar 2028 21:39:22 GMT; SameSite=None; Path=/; Domain=liadm.com; Secure"
+        },
+        "responseBodyHash": "c16ca474d211fe661d772d84d22d4949751e6cf9aac83a26b5031616e836dd5e",
+        "initiators": [
+          "https://d-code.liadm.com/did-003x.min.js",
+          "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+          "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c"
+        ],
+        "time": 0.2787589999988995
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 276,
+        "remoteIPAddress": "172.171.87.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "https://www.clarity.ms/tag/rwvip6pv2o",
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.429124000000229
+      },
+      {
+        "url": "https://forms.hscollectedforms.net/collected-forms/v1/config/json?portalId=24150284&utk=",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 462,
+        "remoteIPAddress": "104.16.108.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "max-age=0"
+        },
+        "responseBodyHash": "d12458deec4476067f2242c1fca2838d62bc41a65bb3ebff859f1516fdacd307",
+        "initiators": [
+          "https://js.hscollectedforms.net/collectedforms.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.11500400000113586
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-11492041022",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 145479,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:39:22 GMT"
+        },
+        "responseBodyHash": "f00c86216932cc85786a9fb1bdc2c085b289b633e52a73ecc6ffb47b1a9e2b6c",
+        "initiators": [
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.19228099999963888
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19165,
+        "remoteIPAddress": "23.214.95.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "7e09fc2637f99d9770b0ee76309ac4c3c08e5583adf6cb5d0bbcc827bba2adc6",
+        "initiators": [
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.14290900000014517
+      },
+      {
+        "url": "https://i.vimeocdn.com/video/1917530747-5a20f983951a120277380e51f9dddcde0e6921cdf2ba8397d45b0a9ab67968b0-d?mw=800&mh=417",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22405,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"428a4a967b6f79986102bc2125a17943\""
+        },
+        "responseBodyHash": "61f4b3bbd47e988fb5e1743138df2cf90167fc2421ea12e7301092033b7f307f",
+        "initiators": [],
+        "time": 0.014209999999366119
+      },
+      {
+        "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1154,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c051b8b5eb2a0aef699780f15a449491868faa6f8b39b684b5ae8f64f345b94a",
+        "initiators": [
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.00940199999968172
+      },
+      {
+        "url": "https://i.vimeocdn.com/video/1916614245-399249d52adb3b201399d366c81b99d157cb8d4c676a6c5b3a327feb8f0b570c-d?mw=1200&mh=675",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 40083,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"715e44d8ea52469ae9ff4274141bbdfa\""
+        },
+        "responseBodyHash": "8383b5b39e77133183127b4d31d63d466aff623638f60cc25dd3e717eed4690d",
+        "initiators": [],
+        "time": 0.01421200000004319
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 142,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.16067699999985052
+      },
+      {
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=96204&time=1774993163002&url=https%3A%2F%2Fwww.agora.io%2Fen%2F",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 786,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ar_debug=1; Max-Age=2629746; Expires=Fri, 01 May 2026 08:08:29 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nbcookie=\"v=2&30ae3269-ca8e-4bb3-8a57-c5a45b8068fd\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 21:39:23 GMT; SameSite=None\nlidc=\"b=OGST02:s=O:r=O:a=O:p=O:g=3769:u=1:x=1:i=1774993163:t=1775079563:v=2:sig=AQEas6ycUrNnuLr2TKNocECrWN3xG-59\"; Expires=Wed, 01 Apr 2026 21:39:23 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.21856400000069698
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=96204&time=1774993163002&li_adsId=83832948-52a4-4b54-ab01-c336209a09b4&url=https%3A%2F%2Fwww.agora.io%2Fen%2F",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "set-cookie": "li_sugr=b6c823b6-1db9-4a3c-8651-03ad1aa7a55d; Max-Age=7776000; Expires=Mon, 29 Jun 2026 21:39:23 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&3835d9ee-0b3c-4eba-8241-f16af5fafa85\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 21:39:23 GMT; SameSite=None\nlidc=\"b=TGST02:s=T:r=T:a=T:p=T:g=3726:u=1:x=1:i=1774993163:t=1775079563:v=2:sig=AQGcsr31uIxtBJSQYRK0vuUjoLnatj23\"; Expires=Wed, 01 Apr 2026 21:39:23 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=96204&time=1774993163002&li_adsId=83832948-52a4-4b54-ab01-c336209a09b4&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&cookiesTest=true",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.2965990000011516
+      },
+      {
+        "url": "https://fe.sitedataprocessing.com/fewv1/ProcessLEvent.aspx?account_id=8JQOBvP5Et&cur_sess_id=N8IMMVOD1jNxuytKMk78lx6yRXVWU1zRKe0Xr7OO342lmo&cur_visitor_id=N8IMMVOD1jNxuytKMk78lx6yRXVWU1z&chkid=07a3c25e75fbab266afcf5bbdbd23e36c7c91eb1036c3bed00541e5021793c57&date=1774993163019",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 196,
+        "remoteIPAddress": "151.101.41.91",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "ASP.NET_SessionId=ysbe3aonx4xjptkxfuej43pt; path=/; HttpOnly; SameSite=Lax"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+          "https://d-code.liadm.com/did-003x.min.js",
+          "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c"
+        ],
+        "time": 0.14959799999996903
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/surveys.js?v=1.345.5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32710,
+        "remoteIPAddress": "104.20.17.167",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300"
+        },
+        "responseBodyHash": "387eaa2aaf5ce6719bd5c3e3983d8474a00e86bf2437ed38c880674afe3931e5",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "https://cdn.expertise.ai/genweb/react-vendor-BjmZ3Zoc.js"
+        ],
+        "time": 0.16069799999968382
+      },
+      {
+        "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=24150284&currentUrl=https%3A%2F%2Fwww.agora.io%2Fen%2F",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1084,
+        "remoteIPAddress": "104.17.92.187",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "set-cookie": "__cf_bm=fgij.lCDN1nK.vFHK7yyYbIy_eugvF4Ew8evUZOqqZI-1774993163-1.0.1.1-olhi73N2TWM7m8Zu_JfkFBfpx8AGaMPP0HAgggULII09lWaWbHZ6BcRg8Vqxiqnwn6TXaVcFJzVuWXxJeFlEGlAIjRsHZJCGfz8KD31rOlE; path=/; expires=Tue, 31-Mar-26 22:09:23 GMT; domain=.hubspot.com; HttpOnly; Secure; SameSite=None\n_cfuvid=Me0_UeIUqTrKjMLVnh4jk1QTRr61DtWcA.fuDUMCqyM-1774993163272-0.0.1.1-604800000; path=/; domain=.hubspot.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "027f9fef93a2d620715de7311a5bf674cb3df18a352d2a0a7266c147c157333f",
+        "initiators": [
+          "https://js.hubspot.com/web-interactives-embed.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.16113299999960873
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11492041022/?random=1774993163128&cv=11&fst=1774993163128&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0v9215330200za200zd9215330200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938465~115938468~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&frm=0&tiba=Agora%20Real-Time%20Voice%20and%20Video%20Engagement&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=733141042.1774993163&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2114,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 21:54:23 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2e9947a588adde28256390150d3f58e913c1b4202d9f33332632a9cdbaff01da",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-11492041022",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.07945800000015879
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/11492041022/?random=1774993163128&cv=11&fst=1774993163128&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0v9215330200za200zd9215330200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938465~115938468~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&frm=0&tiba=Agora%20Real-Time%20Voice%20and%20Video%20Engagement&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=733141042.1774993163&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dgtag.config&gcp=5",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-11492041022",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.14686500000061642
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.agora.io%2Fen%2F&scrsrc=www.googletagmanager.com&rnd=836036257.1774993163&dt=Agora%20Real-Time%20Voice%20and%20Video%20Engagement&auid=733141042.1774993163&navt=n&npa=0&gtm=45be63u0v9215330200za200zd9215330200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938465~115938468~116991816&apve=1&apvf=f&apvc=1&tids=AW-11492041022&tid=AW-11492041022&tft=1774993163199&tfd=14616",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-11492041022",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.14327100000082282
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=96204&time=1774993163002&li_adsId=83832948-52a4-4b54-ab01-c336209a09b4&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&cookiesTest=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "set-cookie": "li_sugr=b6c823b6-1db9-4a3c-8651-03ad1aa7a55d; Max-Age=7776000; Expires=Mon, 29 Jun 2026 21:39:23 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nUserMatchHistory=AQKq24ml8i7MAQAAAZ1F1kRhl6xm82GqHZwl4Rcwvl5EFRbHUa5bbC2F0RaO53bnTb_rX5iG8SUCSg; Max-Age=2592000; Expires=Thu, 30 Apr 2026 21:39:23 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nAnalyticsSyncHistory=AQJ9cSxj1EgBLQAAAZ1F1kRh6wMLipAuhBXU0lkAZceuFXzymhNPluVm_FlW4_PQElHv_Vst-E0Kb0KfR8hqjw; Max-Age=2592000; Expires=Thu, 30 Apr 2026 21:39:23 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&3835d9ee-0b3c-4eba-8241-f16af5fafa85\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 21:39:23 GMT; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D96204%26time%3D1774993163002%26li_adsId%3D83832948-52a4-4b54-ab01-c336209a09b4%26url%3Dhttps%253A%252F%252Fwww.agora.io%252Fen%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=96204&time=1774993163002&li_adsId=83832948-52a4-4b54-ab01-c336209a09b4&url=https%3A%2F%2Fwww.agora.io%2Fen%2F",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.13479499999994005
+      },
+      {
+        "url": "https://i.liadm.com/sync-container?duid=6f93caf0bc92--01kn2xcg69d4qg1khs3pskpkr6&ds=did-003x&euns=1&s=&version=v3.14.0&cd=.agora.io&pv=079a576d-c297-472a-8534-1d6e0ceb2c96",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 569,
+        "remoteIPAddress": "34.198.80.148",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, max-age=0",
+          "set-cookie": "_li_ss=CgA; Max-Age=2592000; Expires=Thu, 30 Apr 2026 21:39:23 GMT; SameSite=None; Path=/s; Secure"
+        },
+        "responseBodyHash": "40092961c1ff1439f1e452cfd24fd924c4caa6f12323895a159e43f6158cdef0",
+        "initiators": [
+          "https://d-code.liadm.com/did-003x.min.js"
+        ],
+        "time": 0.3400820000006206
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/11492041022/?random=1774993163128&cv=11&fst=1774990800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0v9215330200za200zd9215330200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938465~115938468~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&frm=0&tiba=Agora%20Real-Time%20Voice%20and%20Video%20Engagement&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=733141042.1774993163&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsAEABaugfdOkrMJfrsQeWIAVLB5nlo0IDCRogvyruwneIiqwpaJkfiJmI59RGE9calm-xS_bDZbP3_TX41v595W5n-1ccXAPt6z1Nky4-Lke7t17wt_xTXBg5nP2wsEsSf10HVZssBbiTzUQg0UwOj67sIYKD16bUBeJ5H0h5j9ZGUzcz4-BQXFs_3mM60nflgTlbQ7rHKRreqfx5Mp_skKUxXvbNVhiGHolgqjXcYwwpQ&random=1971770461&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11492041022/?random=1774993163128&cv=11&fst=1774993163128&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0v9215330200za200zd9215330200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938465~115938468~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&frm=0&tiba=Agora%20Real-Time%20Voice%20and%20Video%20Engagement&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=733141042.1774993163&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+          "https://www.googletagmanager.com/gtag/js?id=AW-11492041022",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.0480489999990823
+      },
+      {
+        "url": "https://perf-na1.hsforms.com/embed/v3/counters.gif?key=config-loaded-success&value=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 557,
+        "remoteIPAddress": "104.19.175.188",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "set-cookie": "_cfuvid=VPHY3NaBu5HISkaHWk1s8luMNRhQwbgzzYpspNWerXE-1774993163509-0.0.1.1-604800000; path=/; domain=.hsforms.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://www.agora.io/en/"
+        ],
+        "time": 0.1446929999983695
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D96204%26time%3D1774993163002%26li_adsId%3D83832948-52a4-4b54-ab01-c336209a09b4%26url%3Dhttps%253A%252F%252Fwww.agora.io%252Fen%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "172.64.146.215",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, no-transform",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "bscookie=\"v=1&20260331213923346a53fa-800c-4c4b-8107-99866a0afd91AQECoWTjKPXPZ13Asg6VPBcSJXzCgBF2\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 21:39:23 GMT; HttpOnly; SameSite=None\n__cf_bm=AIHYCZUVRiS4z6rYUhpPJynVw7XgWUOt7_.c.vPSWuE-1774993163-1.0.1.1-gAAXmliFI3X9xMb5ly19r_f1RHpHAM3EpxXRaIOiy5LDwK0yzQ.n_PoPIIwHwbdXHK3JhzsPSudZbcm5FH8URsVypY1iHtn_PglFTR5R_7I; path=/; expires=Tue, 31-Mar-26 22:09:23 GMT; domain=.linkedin.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=96204&time=1774993163002&li_adsId=83832948-52a4-4b54-ab01-c336209a09b4&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&cookiesTest=true&liSync=true",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=96204&time=1774993163002&li_adsId=83832948-52a4-4b54-ab01-c336209a09b4&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&cookiesTest=true",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.35849400000006426
+      },
+      {
+        "url": "https://rp.liadm.com/j?dtstmp=1774993163452&did=did-003x&se=e30&duid=6f93caf0bc92--01kn2xcg69d4qg1khs3pskpkr6&tv=v3.14.0&pu=https%3A%2F%2Fwww.agora.io%2Fen%2F&wpn=lc-bundle&wpv=v3.14.0&cd=.agora.io&pv=079a576d-c297-472a-8534-1d6e0ceb2c96",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 351,
+        "remoteIPAddress": "18.233.47.36",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "set-cookie": "lidid=8217f0c5-6fe2-49c0-a980-aa967b9c36a7; Domain=.liadm.com; Path=/; Max-Age=63072000; Secure; SameSite=None"
+        },
+        "responseBodyHash": "efabba3678b85fcab831b778ea2ddaad1e2a1e952584d3566bc39b7ccb3429d9",
+        "initiators": [
+          "https://d-code.liadm.com/did-003x.min.js",
+          "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+          "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c"
+        ],
+        "time": 0.312394000000495
+      },
+      {
+        "url": "https://api.expertise.ai/v0/location/us-east-1/analytics/track_pageviews",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "3.217.16.148",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "https://cdn.expertise.ai/genweb/react-vendor-BjmZ3Zoc.js"
+        ],
+        "time": 45.32098399999995
+      },
+      {
+        "url": "https://api.expertise.ai/v0/location/us-east-1/analytics/track_pageviews",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.217.16.148",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.expertise.ai/v0/location/us-east-1/analytics/track_pageviews"
+        ],
+        "time": 0.070465000000695
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=96204&time=1774993163002&li_adsId=83832948-52a4-4b54-ab01-c336209a09b4&url=https%3A%2F%2Fwww.agora.io%2Fen%2F&cookiesTest=true&liSync=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 41,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "set-cookie": "li_sugr=b6c823b6-1db9-4a3c-8651-03ad1aa7a55d; Max-Age=7776000; Expires=Mon, 29 Jun 2026 21:39:23 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&3835d9ee-0b3c-4eba-8241-f16af5fafa85\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 21:39:23 GMT; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D96204%26time%3D1774993163002%26li_adsId%3D83832948-52a4-4b54-ab01-c336209a09b4%26url%3Dhttps%253A%252F%252Fwww.agora.io%252Fen%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-banner.com/v2/24150284/banner.js",
+          "https://js.hs-scripts.com/24150284.js"
+        ],
+        "time": 0.08778799999890907
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "13.107.226.69",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=T; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=0A73BB2923EF631C3A31AC0427EF6DA6; domain=.clarity.ms; expires=Sun, 25-Apr-2027 21:39:23 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=18F619212BCC4F17B1926FE5E80FDD3C&RedC=c.clarity.ms&MXFR=0A73BB2923EF631C3A31AC0427EF6DA6",
+        "initiators": [
+          "https://www.clarity.ms/tag/rwvip6pv2o"
+        ],
+        "time": 0.20144499999878462
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 97233,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a012e5f077ce8982540a35b883d561f347219809aab0d30d0d4228635359ee03",
+        "initiators": [
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-analytics.net/analytics/1774992900000/24150284.js"
+        ],
+        "time": 0.05624499999976251
+      },
+      {
+        "url": "https://track.hubspot.com/__ptq.gif?k=1&sd=800x600&cd=24-bit&cs=UTF-8&ln=en-us&bfp=d45f0e8aff5af064ced7525bf68519a8&v=1.1&a=24150284&rcu=https%3A%2F%2Fwww.agora.io%2Fen%2F&pu=https%3A%2F%2Fwww.agora.io%2Fen%2F&t=Agora+Real-Time+Voice+and+Video+Engagement&cts=1774993163927&vi=ec42ea588c0224e6f26b969bc6d5aeb4&nc=true&u=87278919.ec42ea588c0224e6f26b969bc6d5aeb4.1774993163915.1774993163916.1774993163916.1&b=87278919.1.1774993163917&cc=15",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1067,
+        "remoteIPAddress": "104.17.92.187",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, no-transform",
+          "p3p": "CP=\"NOI CUR ADM OUR NOR STA NID\"",
+          "set-cookie": "__cf_bm=eZbB3YZXCXjnY5rTQBlqyq3UvpI8gAks6LNwDa8FXpk-1774993164-1.0.1.1-9ueHk5ZwG.HLetUC17mH2IP7pxPg_JOI8uhDPcDKNY0X4vdPujs0iNUEg9isrXeHr1tQo1uEXdkrX40lT5KngJJ9cWPWrKzX5q0.O55eyxk; path=/; expires=Tue, 31-Mar-26 22:09:24 GMT; domain=.hubspot.com; HttpOnly; Secure; SameSite=None\n_cfuvid=thc0yr1P1v9vhjTRWPx63tPt1UNSM0U0BNnkUxDCpAE-1774993164096-0.0.1.1-604800000; path=/; domain=.hubspot.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "0a69df186e87eefe39139e5cb6d26c2883c6561771cb4d1cb1abcf661a5b2840",
+        "initiators": [
+          "https://js.hs-analytics.net/analytics/1774992900000/24150284.js"
+        ],
+        "time": 0.16667799999959243
+      },
+      {
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.20817300000089745
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66b3cd94a81a4b1b39300602_favicon-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1108,
+        "remoteIPAddress": "104.18.160.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, must-revalidate",
+          "etag": "\"1eaaf49915fb7e9118c38969e1c31150\""
+        },
+        "responseBodyHash": "0eaa8f322e4ec1b2447750894c0fc98f7333fd69d75274bc65c16907c1338663",
+        "initiators": [],
+        "time": 0.023247000000992557
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/374620003423574?v=2.9.288&r=stable&domain=www.agora.io&hme=c676e0b4e1b62cc7b9a55179c96fc72f4b50ddb02e06525868e7052c2bcfa5eb&ex_m=102%2C198%2C147%2C22%2C70%2C71%2C139%2C66%2C65%2C11%2C155%2C88%2C16%2C132%2C124%2C37%2C73%2C76%2C130%2C152%2C157%2C8%2C4%2C5%2C7%2C6%2C3%2C89%2C99%2C158%2C163%2C212%2C60%2C179%2C180%2C53%2C267%2C30%2C72%2C224%2C223%2C222%2C23%2C32%2C101%2C59%2C10%2C61%2C95%2C96%2C97%2C103%2C127%2C31%2C29%2C129%2C126%2C125%2C148%2C74%2C151%2C149%2C150%2C48%2C58%2C120%2C15%2C154%2C43%2C254%2C255%2C253%2C26%2C27%2C28%2C46%2C140%2C75%2C110%2C18%2C20%2C42%2C38%2C40%2C39%2C81%2C90%2C94%2C108%2C138%2C141%2C44%2C109%2C24%2C21%2C116%2C67%2C35%2C143%2C142%2C144%2C135%2C133%2C25%2C34%2C57%2C107%2C153%2C68%2C17%2C145%2C112%2C79%2C64%2C19%2C83%2C84%2C113%2C82%2C33%2C283%2C205%2C194%2C195%2C193%2C286%2C278%2C50%2C206%2C105%2C128%2C78%2C118%2C52%2C45%2C47%2C111%2C117%2C123%2C56%2C62%2C51%2C54%2C98%2C156%2C1%2C121%2C14%2C119%2C12%2C2%2C55%2C91%2C63%2C115%2C87%2C86%2C159%2C160%2C92%2C93%2C9%2C122%2C100%2C49%2C136%2C85%2C77%2C69%2C114%2C104%2C41%2C137%2C0%2C80%2C131%2C134%2C146%2C36%2C106%2C13%2C161",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38037,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "597baf18d957d8c34d7a54400c10dcf566fcc7770dfab8ea38bbfa5abad51318",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-analytics.net/analytics/1774992900000/24150284.js"
+        ],
+        "time": 0.16246400000090944
+      },
+      {
+        "url": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=18F619212BCC4F17B1926FE5E80FDD3C&RedC=c.clarity.ms&MXFR=0A73BB2923EF631C3A31AC0427EF6DA6",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "150.171.28.10",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "MUID=269A7F57E053688135B3687AE194697A; domain=.bing.com; expires=Sun, 25-Apr-2027 21:39:24 GMT; path=/; SameSite=None; Secure; Priority=High;\nMR=0; domain=c.bing.com; expires=Tue, 07-Apr-2026 21:39:24 GMT; path=/; SameSite=None; Secure;\nSRM_B=269A7F57E053688135B3687AE194697A; domain=c.bing.com; expires=Sun, 25-Apr-2027 21:39:24 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=18F619212BCC4F17B1926FE5E80FDD3C&MUID=269A7F57E053688135B3687AE194697A",
+        "redirectedFrom": "https://c.clarity.ms/c.gif",
+        "initiators": [
+          "https://www.clarity.ms/tag/rwvip6pv2o"
+        ],
+        "time": 0.24237800000082643
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/playlist/av/primary/prot/cXNyPTE/playlist.json?omit=av1-hevc&pathsig=8c953e4f~IDfYCZSYExBrxv9PXfVj-9OMDWhr3-tuaVLGgR4IBLE&qsr=1&r=dXM%3D&rh=4ivetO",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5899,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e930458efd4b02939352c071945bba3b8084512acabb82df9f17e7d111aaeb2",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1"
+        ],
+        "time": 0.15602799999942363
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=374620003423574&ev=PageView&dl=https%3A%2F%2Fwww.agora.io%2Fen%2F&rl=&if=false&ts=1774993164268&sw=800&sh=600&cud[external_id]=**%23%23**%23%23%23*%23%23%23%23*%23*%23%23*%23%23%23**%23*%23***%23&ncud[external_id]=**%23%23**%23%23%23*%23%23%23%23*%23*%23%23*%23%23%23**%23*%23***%23&ud[external_id]=ec42ea588c0224e6f26b969bc6d5aeb4&aud[external_id]=ec42ea588c0224e6f26b969bc6d5aeb4&v=2.9.288&r=stable&a=hubspot&ec=0&o=12318&fbp=fb.1.1774993164255.414375233239639747&ler=empty&cdl=API_unavailable&pmd[title]=Agora%20Real-Time%20Voice%20and%20Video%20Engagement&pmd[locale]=en&pmd[description]=The%20Real-Time%20Engagement%20Platform%20for%20meaningful%20human%20connections.%20People%20engage%20longer%20when%20they%20see%2C%20hear%2C%20and%20interact%20with%20each%20other.%20With%20Agora%2C%20you%20can%20embed%20vivid%20voice%20and%20video%20in%20any%20application%2C%20on%20any%20device%2C%20anywhere.&plt=11648.400000000373&it=1774993164052&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im1&expv2[6]=hf1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": ""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/374620003423574?v=2.9.288&r=stable&domain=www.agora.io&hme=c676e0b4e1b62cc7b9a55179c96fc72f4b50ddb02e06525868e7052c2bcfa5eb&ex_m=102%2C198%2C147%2C22%2C70%2C71%2C139%2C66%2C65%2C11%2C155%2C88%2C16%2C132%2C124%2C37%2C73%2C76%2C130%2C152%2C157%2C8%2C4%2C5%2C7%2C6%2C3%2C89%2C99%2C158%2C163%2C212%2C60%2C179%2C180%2C53%2C267%2C30%2C72%2C224%2C223%2C222%2C23%2C32%2C101%2C59%2C10%2C61%2C95%2C96%2C97%2C103%2C127%2C31%2C29%2C129%2C126%2C125%2C148%2C74%2C151%2C149%2C150%2C48%2C58%2C120%2C15%2C154%2C43%2C254%2C255%2C253%2C26%2C27%2C28%2C46%2C140%2C75%2C110%2C18%2C20%2C42%2C38%2C40%2C39%2C81%2C90%2C94%2C108%2C138%2C141%2C44%2C109%2C24%2C21%2C116%2C67%2C35%2C143%2C142%2C144%2C135%2C133%2C25%2C34%2C57%2C107%2C153%2C68%2C17%2C145%2C112%2C79%2C64%2C19%2C83%2C84%2C113%2C82%2C33%2C283%2C205%2C194%2C195%2C193%2C286%2C278%2C50%2C206%2C105%2C128%2C78%2C118%2C52%2C45%2C47%2C111%2C117%2C123%2C56%2C62%2C51%2C54%2C98%2C156%2C1%2C121%2C14%2C119%2C12%2C2%2C55%2C91%2C63%2C115%2C87%2C86%2C159%2C160%2C92%2C93%2C9%2C122%2C100%2C49%2C136%2C85%2C77%2C69%2C114%2C104%2C41%2C137%2C0%2C80%2C131%2C134%2C146%2C36%2C106%2C13%2C161",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-analytics.net/analytics/1774992900000/24150284.js"
+        ],
+        "time": 0.03333800000109477
+      },
+      {
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=374620003423574&ev=PageView&dl=https%3A%2F%2Fwww.agora.io%2Fen%2F&rl=&if=false&ts=1774993164268&sw=800&sh=600&cud[external_id]=**%23%23**%23%23%23*%23%23%23%23*%23*%23%23*%23%23%23**%23*%23***%23&ncud[external_id]=**%23%23**%23%23%23*%23%23%23%23*%23*%23%23*%23%23%23**%23*%23***%23&ud[external_id]=ec42ea588c0224e6f26b969bc6d5aeb4&aud[external_id]=ec42ea588c0224e6f26b969bc6d5aeb4&v=2.9.288&r=stable&a=hubspot&ec=0&o=12318&fbp=fb.1.1774993164255.414375233239639747&ler=empty&cdl=API_unavailable&pmd[title]=Agora%20Real-Time%20Voice%20and%20Video%20Engagement&pmd[locale]=en&pmd[description]=The%20Real-Time%20Engagement%20Platform%20for%20meaningful%20human%20connections.%20People%20engage%20longer%20when%20they%20see%2C%20hear%2C%20and%20interact%20with%20each%20other.%20With%20Agora%2C%20you%20can%20embed%20vivid%20voice%20and%20video%20in%20any%20application%2C%20on%20any%20device%2C%20anywhere.&plt=11648.400000000373&it=1774993164052&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im1&expv2[6]=hf1&rqm=FGET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 197,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "cache-control": "private, no-store, no-cache, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "886d7044dc32b617079285a76550c0941cd6e184b1b66be91e7a1ebaed373143",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/374620003423574?v=2.9.288&r=stable&domain=www.agora.io&hme=c676e0b4e1b62cc7b9a55179c96fc72f4b50ddb02e06525868e7052c2bcfa5eb&ex_m=102%2C198%2C147%2C22%2C70%2C71%2C139%2C66%2C65%2C11%2C155%2C88%2C16%2C132%2C124%2C37%2C73%2C76%2C130%2C152%2C157%2C8%2C4%2C5%2C7%2C6%2C3%2C89%2C99%2C158%2C163%2C212%2C60%2C179%2C180%2C53%2C267%2C30%2C72%2C224%2C223%2C222%2C23%2C32%2C101%2C59%2C10%2C61%2C95%2C96%2C97%2C103%2C127%2C31%2C29%2C129%2C126%2C125%2C148%2C74%2C151%2C149%2C150%2C48%2C58%2C120%2C15%2C154%2C43%2C254%2C255%2C253%2C26%2C27%2C28%2C46%2C140%2C75%2C110%2C18%2C20%2C42%2C38%2C40%2C39%2C81%2C90%2C94%2C108%2C138%2C141%2C44%2C109%2C24%2C21%2C116%2C67%2C35%2C143%2C142%2C144%2C135%2C133%2C25%2C34%2C57%2C107%2C153%2C68%2C17%2C145%2C112%2C79%2C64%2C19%2C83%2C84%2C113%2C82%2C33%2C283%2C205%2C194%2C195%2C193%2C286%2C278%2C50%2C206%2C105%2C128%2C78%2C118%2C52%2C45%2C47%2C111%2C117%2C123%2C56%2C62%2C51%2C54%2C98%2C156%2C1%2C121%2C14%2C119%2C12%2C2%2C55%2C91%2C63%2C115%2C87%2C86%2C159%2C160%2C92%2C93%2C9%2C122%2C100%2C49%2C136%2C85%2C77%2C69%2C114%2C104%2C41%2C137%2C0%2C80%2C131%2C134%2C146%2C36%2C106%2C13%2C161",
+          "https://js.hsadspixel.net/pixels.js",
+          "https://js.hs-analytics.net/analytics/1774992900000/24150284.js"
+        ],
+        "time": 0.10324200000104611
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=18F619212BCC4F17B1926FE5E80FDD3C&MUID=269A7F57E053688135B3687AE194697A",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 719,
+        "remoteIPAddress": "13.107.226.69",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "etag": "\"b092be662fc1dc1:0\"",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=C; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=269A7F57E053688135B3687AE194697A; domain=.clarity.ms; expires=Sun, 25-Apr-2027 21:39:24 GMT; path=/; SameSite=None; Secure; Priority=High;\nMR=0; domain=c.clarity.ms; expires=Tue, 07-Apr-2026 21:39:24 GMT; path=/; SameSite=None; Secure;\nANONCHK=0; domain=c.clarity.ms; expires=Tue, 31-Mar-2026 21:49:24 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e",
+        "redirectedFrom": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=18F619212BCC4F17B1926FE5E80FDD3C&RedC=c.clarity.ms&MXFR=0A73BB2923EF631C3A31AC0427EF6DA6",
+        "initiators": [
+          "https://www.clarity.ms/tag/rwvip6pv2o"
+        ],
+        "time": 0.044988999999986845
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 40,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.08132800000021234
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2F0c93df08-2743-41a9-bcdc-9d96e5f06bfe%2Fpsid%3Db3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db%2F%2A~hmac=ef446503922f335707d7b144fc8dc725ec7a7fdc1fa16723b7bc681a89a521f5/0c93df08-2743-41a9-bcdc-9d96e5f06bfe/psid=b3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db/v2/playlist/av/primary/prot/cXNyPTE/playlist.json?omit=av1-hevc&pathsig=8c953e4f~O3Rl9NHmOUiQxBKljhMMKau_8mAce8xG5KLcxYkFW0g&qsr=1&r=dXM%3D&rh=PQmrj",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4554,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b7565461c436c27432a0112e9840eaa3d92c3307c65d6b82461e23cee0144133",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.02491599999848404
+      },
+      {
+        "url": "https://i.vimeocdn.com/video/1917530747-5a20f983951a120277380e51f9dddcde0e6921cdf2ba8397d45b0a9ab67968b0-d?mw=80&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1400,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"63065c433fa95290031897398937b16d\""
+        },
+        "responseBodyHash": "26e70252b4854f78e4f97190801c0cff9e333ac9dfd8842e1a3e6ebc0c8df39f",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1"
+        ],
+        "time": 0.011334999999235151
+      },
+      {
+        "url": "https://i.vimeocdn.com/video/1916614245-399249d52adb3b201399d366c81b99d157cb8d4c676a6c5b3a327feb8f0b570c-d?mw=80&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1336,
+        "remoteIPAddress": "151.101.40.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"b96be94e57e58a87346113b2a804e5aa\""
+        },
+        "responseBodyHash": "5ea0f962f9f32215aa90bdae141ba810b5a29b81c7e61adf9abc6ae00e5d0160",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.07422699999915494
+      },
+      {
+        "url": "https://vimeo.com/ablincoln/vuid?pid=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 8008,
+        "remoteIPAddress": "162.159.138.60",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Tue, 31 Mar 2026 09:39:24 GMT",
+          "set-cookie": "__cf_bm=aFE7SAaqMWUfmmMs8wzSL49P5HIQ1A521tNjCfzyKQk-1774993164.7811184-1.0.1.1-C3.XrnGGRfFD0U1HZFByVWyq51HNaTutdChCIJowWEZVyHmVSGm35Gj_Fl29vsBSEp2N5M2is_UbMxgvWs_yBevqQp3I0ZMPfYZlLFvCE0JR5tnADh_ZLgovWmATRU4K; HttpOnly; Secure; Path=/; Domain=vimeo.com; Expires=Tue, 31 Mar 2026 22:09:24 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.20008700000107638
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.11302900000009686
+      },
+      {
+        "url": "https://orion.bendingspoons.com/v3/identity/settings",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 227,
+        "remoteIPAddress": "34.111.31.13",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "be39cae3c6ac20cb925398ea0af74719cf3532a9b35ee39eb68479db76f84d2b",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.23907400000098278
+      },
+      {
+        "url": "https://orion.bendingspoons.com/v3/identity/settings",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.111.31.13",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://orion.bendingspoons.com/v3/identity/settings"
+        ],
+        "time": 0.15963300000112213
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 276,
+        "remoteIPAddress": "172.171.87.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.agora.io"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://scripts.clarity.ms/0.8.59/clarity.js"
+        ],
+        "time": 0.3048049999997602
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9NzcwLTU0MTk/avf/7bdcc3d8-132a-4c94-bf5d-5cf7b3e27b40.mp4?pathsig=8c953e4f~KNY3L-brjMQnt7Qtpo-nCybyvDNiKfZKGslq62tUqiM&r=dXM%3D&range=770-5419",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5161,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ccfe09e64f642be4ef8e675c7dcd5f60d7644e9651d0831c8451e0b1da835ae0",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1"
+        ],
+        "time": 0.03448500000013155
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2F0c93df08-2743-41a9-bcdc-9d96e5f06bfe%2Fpsid%3Db3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db%2F%2A~hmac=ef446503922f335707d7b144fc8dc725ec7a7fdc1fa16723b7bc681a89a521f5/0c93df08-2743-41a9-bcdc-9d96e5f06bfe/psid=b3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db/v2/range/prot/cmFuZ2U9NzQ2LTUzOTU/avf/f926ab5b-412d-40fc-b5d9-61d1738279e6.mp4?pathsig=8c953e4f~Q2ZuMim4CDuA6-z1A3_7c5RJagQ9xMPGwKImhuaAUkY&r=dXM%3D&range=746-5395",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5180,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ccfe09e64f642be4ef8e675c7dcd5f60d7644e9651d0831c8451e0b1da835ae0",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.03071799999997893
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9ODg1LTMwMzk5ODU/avf/b72bf689-42f3-488b-8a57-431ea5b7173f.mp4?pathsig=8c953e4f~f4YthMWT5gEJ61QXVEq4Sqw_fpEwRyACKJzxnEk8VX0&r=dXMtZWFzdDE%3D&range=885-3039985",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3041386,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "12a6951e5971695f1870093d12f5adc743d4dff717bb706e944b0cbb3c99f2f8",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/1000447406?background=1&autoplay=1&muted=1&loop=1&dnt=1"
+        ],
+        "time": 0.26737800000046263
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2F0c93df08-2743-41a9-bcdc-9d96e5f06bfe%2Fpsid%3Db3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db%2F%2A~hmac=ef446503922f335707d7b144fc8dc725ec7a7fdc1fa16723b7bc681a89a521f5/0c93df08-2743-41a9-bcdc-9d96e5f06bfe/psid=b3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db/v2/range/prot/cmFuZ2U9ODYxLTI5NTUzOTE/avf/6fa22e06-768b-4ceb-ad89-cb393ddbf786.mp4?pathsig=8c953e4f~w3n6vbl13u608yYU44xsXiFcMRRumWYcN0-WDTu7HTk&r=dXMtZWFzdDE%3D&range=861-2955391",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2956761,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6951a622890ed2a164ede7e2c91ab1739c0f16c11fd429853d7559a5ddf0ad7c",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.4095130000005156
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.play_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.11704599999939092
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.08062000000063563
+      },
+      {
+        "url": "https://vimeo.com/flarepoint/SHH3lj7R",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1122,
+        "remoteIPAddress": "162.159.138.60",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "__cf_bm=qyjdHCXlfmjScTM.9PdRZQSyhZ.v8kcp8lx6LGsB1lM-1774993166.0938785-1.0.1.1-7V9mssWJT0iGdIpFd3QKVGdS.Jd17GqetOlt4CsEX2gtjqrP_33yYW.3Ib..UH8LbNHY2fEmfmitf1UEUTy5mw541L2YYzdfNGindt2C5LADaOklsU1cjdKk9dAdWVsN; HttpOnly; Secure; Path=/; Domain=vimeo.com; Expires=Tue, 31 Mar 2026 22:09:26 GMT\n_cfuvid=7ssK9iKuZc3zAw1rH9toUm9Cf8XcIqG5yqVuxiqs0kM-1774993166.0938785-1.0.1.1-E3CmSeYLz15dwqc6ScDtu0Arfl_ejlMPyzeWXY3n3D0; HttpOnly; SameSite=None; Secure; Path=/; Domain=vimeo.com"
+        },
+        "responseBodyHash": "abd3b36ef18723a2f2f280ff6371bc4f924b029b4a6a14ff93f958343804298a",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.2176080000008369
+      },
+      {
+        "url": "https://vimeo.com/flarepoint/SHH3lj7R",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "162.159.138.60",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com",
+          "set-cookie": "__cf_bm=2by6ljCMrcT3_YTSqIkILiEpRM_X_Dd.TwAUkA_0Hiw-1774993166.0035665-1.0.1.1-lr3i281DGv3lsV5VuNx1WMOuVSYIgN5cPAzcB6IIVSw08hg8EVd3zPA9qiQooq.njwrMIKjq1tz9AbId.QBOXG0Omdb07tOKP7_i.phCuSv0B4f5IwOpDWWz3zPYMQ2C; HttpOnly; Secure; Path=/; Domain=vimeo.com; Expires=Tue, 31 Mar 2026 22:09:26 GMT\n_cfuvid=8_0qgvnNvfgKJzM1Z7uTprHy6563GjV2N_a6A3bMrHY-1774993166.0035665-1.0.1.1-KPT8ICSg2OQMqAmDNUEjFH1lq8Ab0_nDiiFe3FiYwEg; HttpOnly; SameSite=None; Secure; Path=/; Domain=vimeo.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://vimeo.com/flarepoint/SHH3lj7R"
+        ],
+        "time": 0.11460000000079162
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.1646180000007007
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9NTQyMC0xMDA2OQ/avf/7bdcc3d8-132a-4c94-bf5d-5cf7b3e27b40.mp4?pathsig=8c953e4f~IMfaK7nfKmwYvB7A7mo_gBokVSoi6D_eL8Bw2qkal2M&r=dXM%3D&range=5420-10069",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5162,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2cf7a68b052d92ff1a588df1a5c05f698f5ffbbe0b3f92e098749bcc11c51cbf",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.10756399999991118
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9MTA5ODc3NS0yNTQyNzg0/avf/35de54a0-ada4-4fbf-ad93-b1cd99909db0.mp4?pathsig=8c953e4f~J0TLx2E1RLkRo7-G83GkTKyJ6Nq7H5-v13-89IlmiSU&r=dXMtd2VzdDE%3D&range=1098775-2542784",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1445360,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "464f47c266cb49c52425b717f73b19c37043ded27704f7935aa8f3c3a9007689",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.2028840000002674
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2F0c93df08-2743-41a9-bcdc-9d96e5f06bfe%2Fpsid%3Db3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db%2F%2A~hmac=ef446503922f335707d7b144fc8dc725ec7a7fdc1fa16723b7bc681a89a521f5/0c93df08-2743-41a9-bcdc-9d96e5f06bfe/psid=b3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db/v2/range/prot/cmFuZ2U9NTM5Ni04NTMw/avf/f926ab5b-412d-40fc-b5d9-61d1738279e6.mp4?pathsig=8c953e4f~oGWPDbR-nMsD4dZS4IVrJq3gc-XjxCJBU5Ip-3fUcuE&r=dXM%3D&range=5396-8530",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3647,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3b36ff57fc20f1c6b8dfc79be4c3cab541f4702032437755c7e1a47c552f8135",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.11865700000089419
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2F0c93df08-2743-41a9-bcdc-9d96e5f06bfe%2Fpsid%3Db3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db%2F%2A~hmac=ef446503922f335707d7b144fc8dc725ec7a7fdc1fa16723b7bc681a89a521f5/0c93df08-2743-41a9-bcdc-9d96e5f06bfe/psid=b3bdd5f4cd28871f7a16bb8b05b2600101a2175bcac8d00caf4d70f3369ed8db/v2/range/prot/cmFuZ2U9MTAyNzUzMS0xNzM0NDM2/avf/8af293d0-d446-4a01-9a86-0d99cfdb9c4c.mp4?pathsig=8c953e4f~EAHgEGK3Y5R-8u15tLJdC-yMiv9uabnGOm4ybwbIX08&r=dXMtd2VzdDE%3D&range=1027531-1734436",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 707825,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "03d24e23255576c019d05c9f0c64f990c78218069872def02785ac73fefc4cee",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.1309980000005453
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9MTAwNzAtMTQ3MTk/avf/7bdcc3d8-132a-4c94-bf5d-5cf7b3e27b40.mp4?pathsig=8c953e4f~XRKqyuCkR1r00ZYB8dsAB6RFb2SDfqw1JNXeZ8aa5B8&r=dXM%3D&range=10070-14719",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5163,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e999c14f672d4702b10f4ff88268edf18c472cfe1020605cea08b95910455cdb",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.07868699999926321
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9MjU0Mjc4NS00MjgxOTQz/avf/35de54a0-ada4-4fbf-ad93-b1cd99909db0.mp4?pathsig=8c953e4f~asHaVVIkG9HZMyrQS-6ccVH3xdsHT-geLxfeP5l7LG0&r=dXMtd2VzdDE%3D&range=2542785-4281943",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1740655,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "df55ed7d12cc128af423caecf4dbf79213c00bb9be11c829dcc25a27c5c19256",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.7581809999992402
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.07535199999983888
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.watch_video_heartbeat",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.16473300000143354
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9MTQ3MjAtMTg2NDk/avf/7bdcc3d8-132a-4c94-bf5d-5cf7b3e27b40.mp4?pathsig=8c953e4f~xXqoMOUYXDesyN3u4KENw1bi23O7R66T0x3L4u74blY&r=dXM%3D&range=14720-18649",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4443,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f65d53beb771e72e4744e3af6fde149aaab6a722871f2945cac99d9b03fce4c5",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.03645199999846227
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1774996760~acl=%2Fb0d60e49-0e5f-419e-a323-05183e60de72%2Fpsid%3Dba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb%2F%2A~hmac=e809404ab377b67acb9522fd759096f899f5bd299210b76b80fb8dd6884a4847/b0d60e49-0e5f-419e-a323-05183e60de72/psid=ba17a47909b3a2fe6a8c13cf2afc23e9cafd3d0557c6406e281449e3234f18cb/v2/range/prot/cmFuZ2U9NDI4MTk0NC02MDIwMDc3/avf/35de54a0-ada4-4fbf-ad93-b1cd99909db0.mp4?pathsig=8c953e4f~OgmWSgax_vCf145IJnk_Vg2ZtYxA-Q_8plbaLLbLyJk&r=dXMtd2VzdDE%3D&range=4281944-6020077",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1739637,
+        "remoteIPAddress": "23.67.33.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1275ecf03d835316838d1a78d261ed2ac36d587c142ca250e1cab190b2200152",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.28700600000047416
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.watch_video_heartbeat",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.07756800000061048
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.watch_video_heartbeat",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.07733900000130234
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.finish_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.07645600000068953
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.play_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.07802799999990384
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.0768339999995078
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js",
+          "https://player.vimeo.com/video/988623383?background=1"
+        ],
+        "time": 0.08162000000083935
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.watch_video_heartbeat",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.0798159999994823
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.finish_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.07997299999988172
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.play_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.10075700000015786
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.09400499999901513
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.watch_video_heartbeat",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.08066099999996368
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.finish_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.08045700000002398
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.play_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.08805899999970279
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.07871100000011211
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.watch_video_heartbeat",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.1255220000002737
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.finish_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.12237400000049092
+      },
+      {
+        "url": "https://lensflare.vimeo.com/add/vimeo.play_video",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.120.15.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.10410600000068371
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=932f0b4e475a6d93f8c463084a54c2e82a5be0ac1774993160",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 11,
+        "remoteIPAddress": "34.120.202.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://player.vimeo.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.vimeocdn.com/p/4.46.35/js/player.module.js"
+        ],
+        "time": 0.09580900000037218
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_li_ss",
+        "domain": "i.liadm.com",
+        "path": "/s",
+        "expires": 1777585163702,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "CLID",
+        "domain": "www.clarity.ms",
+        "path": "/",
+        "expires": 1806529160104,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "vv_session_id",
+        "domain": "www.agora.io",
+        "path": "/",
+        "expires": 1774994960000,
+        "session": false
+      },
+      {
+        "name": "vv_visitor_id",
+        "domain": "www.agora.io",
+        "path": "/",
+        "expires": 1809553160702,
+        "session": false
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".vimeo.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_clck",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1806529160000,
+        "session": false
+      },
+      {
+        "name": "tuid",
+        "domain": ".a.usbrowserspeed.com",
+        "path": "/",
+        "expires": 1806529160932,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1806529163000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_li_dcdm_c",
+        "domain": ".agora.io",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_lc2_fpi",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1809553162442,
+        "session": false
+      },
+      {
+        "name": "_lc2_fpi_js",
+        "domain": ".agora.io",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_csid",
+        "domain": "www.agora.io",
+        "path": "/",
+        "expires": 1806529162510,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "lidid",
+        "domain": ".liadm.com",
+        "path": "/",
+        "expires": 1809553163766,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_clsk",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1775079563000,
+        "session": false
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1782769163000,
+        "session": false
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1774994063274,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "li_sugr",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1782769163882,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "bcookie",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1806529163882,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "lidc",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1775079563294,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "UserMatchHistory",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1777585163391,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1777585163391,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".hsforms.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "bscookie",
+        "domain": ".www.linkedin.com",
+        "path": "/",
+        "expires": 1806529163560,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1774994963560,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_li_ss",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1809553163801,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__hstc",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1790545163000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "hubspotutk",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1790545163000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__hssrc",
+        "domain": ".agora.io",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__hssc",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1774994963000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".hubspot.com",
+        "path": "/",
+        "expires": 1774994964098,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".hubspot.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_fbp",
+        "domain": ".agora.io",
+        "path": "/",
+        "expires": 1782769164000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "MUID",
+        "domain": ".bing.com",
+        "path": "/",
+        "expires": 1808689164349,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MR",
+        "domain": ".c.bing.com",
+        "path": "/",
+        "expires": 1775597964349,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "SRM_B",
+        "domain": ".c.bing.com",
+        "path": "/",
+        "expires": 1808689164349,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "SM",
+        "domain": ".c.clarity.ms",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "MUID",
+        "domain": ".clarity.ms",
+        "path": "/",
+        "expires": 1808689164394,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MR",
+        "domain": ".c.clarity.ms",
+        "path": "/",
+        "expires": 1775597964394,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "path": "/",
+        "expires": 1774993764394,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "vuid",
+        "domain": ".vimeo.com",
+        "path": "/",
+        "expires": 1809553164682,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/js/agoras-website.schunk.618e68aab2145078.js": {
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.vendor": 1,
+          "window.innerWidth": 5,
+          "window.localStorage": 3,
+          "window.innerHeight": 4
+        },
+        "https://www.agora.io/en/": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js": {
+          "Navigator.prototype.maxTouchPoints": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1
+        },
+        "https://script.superagi.com/public/script?id=8JQOBvP5Et-62def19c": {
+          "Document.cookie getter": 7,
+          "Navigator.prototype.userAgent": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        },
+        "https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-latest.js": {
+          "Navigator.prototype.userAgent": 11,
+          "Document.cookie getter": 13,
+          "Navigator.prototype.cookieEnabled": 1
+        },
+        "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js": {
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 9,
+          "Date.prototype.getTime": 19,
+          "Document.cookie getter": 9,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.language": 1,
+          "window.localStorage": 224,
+          "window.innerHeight": 15,
+          "window.sessionStorage": 55,
+          "Document.cookie setter": 31,
+          "Navigator.prototype.onLine": 2,
+          "window.innerWidth": 8,
+          "BroadcastChannel.prototype.constructor": 1,
+          "NavigatorUAData.prototype.brands": 2,
+          "Navigator.prototype.webdriver": 1
+        },
+        "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=": {
+          "Document.cookie setter": 2,
+          "Date.prototype.getTime": 1
+        },
+        "https://scripts.clarity.ms/0.8.59/clarity.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie getter": 12,
+          "window.sessionStorage": 3,
+          "window.devicePixelRatio": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Document.cookie setter": 2,
+          "Navigator.prototype.webdriver": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Navigator.prototype.connection": 2
+        },
+        "https://js.hs-banner.com/v2/24150284/banner.js": {
+          "Document.cookie getter": 2
+        },
+        "https://js.hscollectedforms.net/collectedforms.js": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "Navigator.prototype.product": 9,
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie getter": 1,
+          "window.localStorage": 6
+        },
+        "https://js.hubspot.com/web-interactives-embed.js": {
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie getter": 3,
+          "Date.prototype.getTime": 1,
+          "window.indexedDB": 1
+        },
+        "https://d-code.liadm.com/did-003x.min.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie setter": 5,
+          "Document.cookie getter": 54,
+          "window.localStorage": 28,
+          "Date.prototype.getTime": 6
+        },
+        "https://js.hs-analytics.net/analytics/1774992900000/24150284.js": {
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 3,
+          "Navigator.prototype.vendor": 17,
+          "Navigator.prototype.connection": 6,
+          "window.devicePixelRatio": 1,
+          "OfflineAudioContext.prototype.constructor": 1,
+          "Screen.prototype.availTop": 42,
+          "Screen.prototype.width": 23,
+          "Screen.prototype.availWidth": 21,
+          "Screen.prototype.availLeft": 42,
+          "Screen.prototype.height": 23,
+          "Screen.prototype.availHeight": 21,
+          "AudioBuffer.prototype.getChannelData": 1,
+          "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+          "HTMLCanvasElement.prototype.toDataURL": 3,
+          "Navigator.prototype.language": 3,
+          "Navigator.prototype.languages": 1,
+          "Screen.prototype.colorDepth": 2,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+          "window.sessionStorage": 1,
+          "window.localStorage": 4,
+          "window.indexedDB": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Document.cookie setter": 6,
+          "Document.cookie getter": 17,
+          "WebGLRenderingContext.prototype.getExtension": 39,
+          "WebGLRenderingContext.prototype.getParameter": 96,
+          "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+          "WebGLRenderingContext.prototype.getContextAttributes": 1,
+          "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 12,
+          "Date.prototype.getTime": 10,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js": {
+          "window.localStorage": 17,
+          "Document.cookie getter": 3,
+          "Date.prototype.getTime": 1,
+          "Navigator.prototype.userAgent": 6
+        },
+        "https://www.googletagmanager.com/gtag/js?id=AW-11492041022": {
+          "Navigator.prototype.userAgent": 44,
+          "Document.cookie getter": 42,
+          "Date.prototype.getTime": 41,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "Document.cookie setter": 1,
+          "window.localStorage": 23,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2
+        },
+        "https://us-assets.i.posthog.com/static/surveys.js?v=1.345.5": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://f.vimeocdn.com/p/4.46.35/js/player.module.js": {
+          "window.devicePixelRatio": 6082,
+          "Document.cookie getter": 26,
+          "Navigator.prototype.userAgent": 2800,
+          "Navigator.prototype.mediaCapabilities": 14,
+          "MediaSource.isTypeSupported": 4,
+          "URL.createObjectURL": 2,
+          "window.localStorage": 6,
+          "Date.prototype.getTime": 2,
+          "window.sessionStorage": 8,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+          "Navigator.prototype.language": 4,
+          "Date.prototype.getTimezoneOffset": 8,
+          "Screen.prototype.pixelDepth": 2,
+          "Screen.prototype.height": 4,
+          "Screen.prototype.width": 4
+        },
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=660affa848e8af81bdd03909": {
+          "Event.prototype.timeStamp": 1
+        },
+        "https://connect.facebook.net/en_US/fbevents.js": {
+          "Navigator.prototype.userAgent": 17,
+          "Navigator.prototype.vendor": 6,
+          "window.sessionStorage": 2,
+          "NavigatorUAData.prototype.brands": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "Document.cookie getter": 9,
+          "Document.cookie setter": 2,
+          "Screen.prototype.width": 3,
+          "Screen.prototype.height": 3
+        },
+        "https://connect.facebook.net/signals/config/374620003423574?v=2.9.288&r=stable&domain=www.agora.io&hme=c676e0b4e1b62cc7b9a55179c96fc72f4b50ddb02e06525868e7052c2bcfa5eb&ex_m=102%2C198%2C147%2C22%2C70%2C71%2C139%2C66%2C65%2C11%2C155%2C88%2C16%2C132%2C124%2C37%2C73%2C76%2C130%2C152%2C157%2C8%2C4%2C5%2C7%2C6%2C3%2C89%2C99%2C158%2C163%2C212%2C60%2C179%2C180%2C53%2C267%2C30%2C72%2C224%2C223%2C222%2C23%2C32%2C101%2C59%2C10%2C61%2C95%2C96%2C97%2C103%2C127%2C31%2C29%2C129%2C126%2C125%2C148%2C74%2C151%2C149%2C150%2C48%2C58%2C120%2C15%2C154%2C43%2C254%2C255%2C253%2C26%2C27%2C28%2C46%2C140%2C75%2C110%2C18%2C20%2C42%2C38%2C40%2C39%2C81%2C90%2C94%2C108%2C138%2C141%2C44%2C109%2C24%2C21%2C116%2C67%2C35%2C143%2C142%2C144%2C135%2C133%2C25%2C34%2C57%2C107%2C153%2C68%2C17%2C145%2C112%2C79%2C64%2C19%2C83%2C84%2C113%2C82%2C33%2C283%2C205%2C194%2C195%2C193%2C286%2C278%2C50%2C206%2C105%2C128%2C78%2C118%2C52%2C45%2C47%2C111%2C117%2C123%2C56%2C62%2C51%2C54%2C98%2C156%2C1%2C121%2C14%2C119%2C12%2C2%2C55%2C91%2C63%2C115%2C87%2C86%2C159%2C160%2C92%2C93%2C9%2C122%2C100%2C49%2C136%2C85%2C77%2C69%2C114%2C104%2C41%2C137%2C0%2C80%2C131%2C134%2C146%2C36%2C106%2C13%2C161": {
+          "Navigator.prototype.userAgent": 11,
+          "window.localStorage": 5,
+          "Date.prototype.getTime": 1
+        },
+        "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js": {
+          "Document.cookie getter": 4,
+          "Date.prototype.getTime": 2,
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie setter": 2
+        },
+        "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js": {
+          "Navigator.prototype.connection": 8,
+          "BroadcastChannel.prototype.constructor": 6,
+          "Document.cookie getter": 4,
+          "Document.cookie setter": 2,
+          "Navigator.prototype.userAgent": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "vv_session_id=N8IMMVOD1jNxuytKMk78lx6yRXVWU1zRKe0Xr7OO342lmo; expires=Tue, 31 Mar 2026 22:09:20 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://fe.sitedataprocessing.com/fewv1/ProcessStats.aspx?host=https%3A//www.agora.io&host_name=www.agora.io&page=/en/&query_string=&anchor=&title=Agora%2520RealTime%2520Voice%2520and%2520Video%2520Engagement&cur_sess_id=&cur_visitor_id=&h=14&m=39&s=20&account_id=8JQOBvP5Et&dgmt=Tue,%2031%20Mar%202026%2021:39:20%20GMT&vresol=800x600&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "vv_visitor_id=N8IMMVOD1jNxuytKMk78lx6yRXVWU1z; expires=Sat, 31 Mar 2029 21:39:20 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_clck=uli9bl%5E2%5Eg4t%5E0%5E2281;expires=Wed, 31 Mar 2027 21:39:20 GMT;path=/;domain=.agora.io"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%22%22; expires=Mon, 30 Mar 2026 21:39:22 GMT; SameSite=Lax; path=/"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dmn_chk_019d45d6-4027-754d-ba33-a70197d49e37=1;domain=.io;path=/;max-age=3"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dmn_chk_019d45d6-4027-754d-ba33-a70197d49e37=1;domain=.agora.io;path=/;max-age=3"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dmn_chk_019d45d6-4027-754d-ba33-a70197d49e37=1;domain=.agora.io;path=/;max-age=0"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%22%22; expires=Mon, 30 Mar 2026 21:39:22 GMT; SameSite=Lax; path=/; domain=.agora.io"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%22%22; expires=Mon, 30 Mar 2026 21:39:22 GMT; SameSite=Lax; path=/"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%22%22; expires=Mon, 30 Mar 2026 21:39:22 GMT; SameSite=Lax; path=/; domain=.agora.io"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:22 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:22 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://d-code.liadm.com/did-003x.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_li_dcdm_c=.io; path=/; sameSite=lax; domain=.io"
+          ]
+        },
+        {
+          "source": "https://d-code.liadm.com/did-003x.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_li_dcdm_c=.agora.io; path=/; sameSite=lax; domain=.agora.io"
+          ]
+        },
+        {
+          "source": "https://d-code.liadm.com/did-003x.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_lc2_fpi=6f93caf0bc92--01kn2xcg69d4qg1khs3pskpkr6; path=/; domain=.agora.io; expires=Thu, 30 Mar 2028 21:39:22 GMT"
+          ]
+        },
+        {
+          "source": "https://d-code.liadm.com/did-003x.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_lc2_fpi_js=6f93caf0bc92--01kn2xcg69d4qg1khs3pskpkr6; path=/; domain=.agora.io"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_csid=20a92e4f-d333-4558-805b-626b98880303-0893a068-9e0f-44b2-87d4-0e851350f680;path=/;max-age=31536000;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_clsk=g3ybw2%5E1774993163017%5E1%5E1%5Ey.clarity.ms%2Fcollect;expires=Wed, 01 Apr 2026 21:39:23 GMT;path=/;domain=.agora.io"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.expertise.ai/genweb/widget-BUFCf0gT.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ph_phc_QqhMNZlOefFYSSS7FUxHjjxeqGl8E6lzh2Vrbte58GP_posthog=%7B%22%24device_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%2C%22distinct_id%22%3A%22019d45d6-4035-7f51-b5e2-c5b68ffebb57%22%7D; expires=Wed, 31 Mar 2027 21:39:23 GMT; SameSite=Lax; path=/; domain=.agora.io; secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=AW-11492041022",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.733141042.1774993163; path=/; expires=Mon, 29 Jun 2026 21:39:23 GMT; domain=agora.io"
+          ]
+        },
+        {
+          "source": "https://js.hs-analytics.net/analytics/1774992900000/24150284.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Strict;"
+          ]
+        },
+        {
+          "source": "https://js.hs-analytics.net/analytics/1774992900000/24150284.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Strict; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://d-code.liadm.com/did-003x.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_li_ss=CgA; path=/; expires=Thu, 30 Mar 2028 21:39:23 GMT; sameSite=lax; domain=.agora.io"
+          ]
+        },
+        {
+          "source": "https://js.hs-analytics.net/analytics/1774992900000/24150284.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__hstc=87278919.ec42ea588c0224e6f26b969bc6d5aeb4.1774993163915.1774993163916.1774993163916.1;expires=Sun, 27 Sep 2026 21:39:23 GMT;path=/;domain=.agora.io;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://js.hs-analytics.net/analytics/1774992900000/24150284.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "hubspotutk=ec42ea588c0224e6f26b969bc6d5aeb4;expires=Sun, 27 Sep 2026 21:39:23 GMT;path=/;domain=.agora.io;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://js.hs-analytics.net/analytics/1774992900000/24150284.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__hssrc=1;path=/;domain=.agora.io;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://js.hs-analytics.net/analytics/1774992900000/24150284.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__hssc=87278919.1.1774993163917;expires=Tue, 31 Mar 2026 22:09:23 GMT;path=/;domain=.agora.io;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.0.1774993164255.414375233239639747;expires=Mon, 29 Jun 2026 21:39:24 GMT;domain=.io;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.1.1774993164255.414375233239639747;expires=Mon, 29 Jun 2026 21:39:24 GMT;domain=.agora.io;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "vuid=pl200010140.441896517; expires=Thu, 30 Mar 2028 21:39:24 GMT; path=/; domain=.vimeo.com; secure; samesite=None"
+          ]
+        },
+        {
+          "source": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "vuid=pl200010140.441896517; expires=Thu, 30 Mar 2028 21:39:24 GMT; path=/; domain=.vimeo.com; secure; samesite=None"
+          ]
+        },
+        {
+          "source": "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "COOKIE_ID_PICOX_ID=b747acf8-f42f-40d4-af75-3e3a8513f101; path=/; expires=Wed, 31 Mar 2027 21:39:24 GMT; domain=.vimeo.com"
+          ]
+        },
+        {
+          "source": "https://f.vimeocdn.com/p/4.46.35/js/vendor.module.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "COOKIE_ID_PICOX_ID=b747acf8-f42f-40d4-af75-3e3a8513f101; path=/; expires=Wed, 31 Mar 2027 21:39:24 GMT; domain=.vimeo.com"
+          ]
+        }
+      ]
+    }
+  }
+}

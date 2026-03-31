@@ -1,0 +1,1832 @@
+{
+  "initialUrl": "https://stackoverflow.com/",
+  "finalUrl": "https://stackoverflow.com/questions",
+  "timeout": false,
+  "testStarted": 1774989752185,
+  "testFinished": 1774989761432,
+  "data": {
+    "requests": [
+      {
+        "url": "https://stackoverflow.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "prov=389c4f5a-353b-4bb5-95f7-4b5d149b7a43; expires=Wed, 31 Mar 2027 20:42:33 GMT; domain=.stackoverflow.com; path=/; secure; samesite=none; httponly\n__cflb=02DiuFA7zZL3enAQJD3AX8ZzvyzLcaG7vNur61wVNaFW4; SameSite=Lax; path=/; expires=Wed, 01-Apr-26 19:42:33 GMT; HttpOnly\nprov=389c4f5a-353b-4bb5-95f7-4b5d149b7a43; Path=/; HttpOnly; Domain=stackoverflow.com\n__cf_bm=SqmhBao838DJ8DtcoyvP61Pq35o7UPIlVb9BDYV3p1A-1774989752.9855914-1.0.1.1-4EBntZ5hHMNFaRPzbHIlZNQmifPSNKtNlaAyFN.Anwsl.0TSCNiNGJWryNJBxZquZz1A8Jz7wc0MorI2IU094ufXHk90Mc3t5US6_g1xM7.fTbrm4mXZ.6dYo5h5W1WE; HttpOnly; Secure; Path=/; Domain=stackoverflow.com; Expires=Tue, 31 Mar 2026 21:12:33 GMT\n_cfuvid=T.PN3SDuRaNWhDYqEM6wdiJn2It0X_kKnZDmTEuTOTU-1774989752.9855914-1.0.1.1-AyNmuPwMzfIUxT5cxTjOi8C_uQ1g5K8svZEEd9PdRhA; HttpOnly; SameSite=None; Secure; Path=/; Domain=stackoverflow.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://stackoverflow.com/questions",
+        "initiators": [],
+        "time": 0.12900200000149198
+      },
+      {
+        "url": "https://stackoverflow.com/questions",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 48904,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "prov=389c4f5a-353b-4bb5-95f7-4b5d149b7a43; expires=Wed, 31 Mar 2027 20:42:33 GMT; domain=.stackoverflow.com; path=/; secure; samesite=none; httponly"
+        },
+        "responseBodyHash": "2366694605e781ef26cdad5f28542ede56369625acd32934b3235ca8cd21a410",
+        "redirectedFrom": "https://stackoverflow.com/",
+        "initiators": [],
+        "time": 0.20753100000001723
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/gpp.stub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2194,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "02b4d23616873f9c18ae4a82333d9bba7a9a728a6bdc3859b743a89b420f9714",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.4182249999994383
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9009,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE8ED5319CAE71"
+        },
+        "responseBodyHash": "15a5a919d4b2c63b74bac3c0752f7faa08675d5ecaab478032a0232013a2ba6a",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.4215800000001764
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/google-analytics.en.js?v=48615a9a9bc4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2434,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:33 GMT"
+        },
+        "responseBodyHash": "ca6a9e777bdb8a1689d3424700d5f4700ba53a24b3177f776a025e7790b03b56",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.14341700000113633
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31094,
+        "remoteIPAddress": "142.250.141.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Sat, 27 Mar 2027 16:58:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.4436009999990347
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=c7bcc7a1b4fd",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31240,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "8b30e41bc34c7e8d94d0c6ae30c6ad1eb12a1a1e277c30b4218eb1eb13f7c842",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.614348000000973
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/stub.en.js?v=e307fb81e738",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18524,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:33 GMT"
+        },
+        "responseBodyHash": "a7430561fc374b635df2b5a9ca511320649068cac47766a3ab5c80dfe1cf6a63",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.1084370000007766
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Shared/stacks.css?v=b2264ccf0463",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 112880,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:33 GMT"
+        },
+        "responseBodyHash": "9cad65f8e18428b759968166f434d48686e0e77050e71b74c5a90dd7730f456a",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.14301499999965017
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=880dfade9e7f",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 76100,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:33 GMT"
+        },
+        "responseBodyHash": "babf48dc64d1fd05769370d6d08fbe224b05ce118c188c7e388f4dce517dbda8",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.14306700000088313
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/5102.en.js?v=77170ebd8b1b",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 728,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "9e329384e5276fd2819073269e0d41978831839815b64a0fdcb9d2dbce90b72b",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6147410000012314
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/questions/list.en.js?v=2175cf260ad4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13077,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "51f5e538bf2bf70b93dfc99994e445a4c27604197c0108a55ccd1d002ab5047c",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.735381000000416
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Shared/Channels/channels.css?v=d431b1be5a03",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4765,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:33 GMT"
+        },
+        "responseBodyHash": "27c3b70df5a72f4684c71a80ca8ed3168a0d54b90e86edf61a8d1d69925cf929",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.11135800000010931
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/sprinkles/cookie-consent.en.js?v=7ee6963139c5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1011,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "cc27a0cd04775814ff7e219e849b667e9756ba8a3c4680a60a395a414b32d820",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.7313059999996767
+      },
+      {
+        "url": "https://stackoverflow.com/px.js?ch=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 525,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 01 Apr 2026 00:42:33 GMT",
+          "set-cookie": "prov=389c4f5a-353b-4bb5-95f7-4b5d149b7a43; expires=Wed, 31 Mar 2027 20:42:33 GMT; domain=.stackoverflow.com; path=/; secure; samesite=none; httponly"
+        },
+        "responseBodyHash": "12cf052ebd6d48d07aa532820b1a40aac19b32c3fcbf87f228f04c8f8dbe0c9c",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.156474999999773
+      },
+      {
+        "url": "https://stackoverflow.com/px.js?ch=2",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 392,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 01 Apr 2026 00:42:33 GMT",
+          "set-cookie": "prov=389c4f5a-353b-4bb5-95f7-4b5d149b7a43; expires=Wed, 31 Mar 2027 20:42:33 GMT; domain=.stackoverflow.com; path=/; secure; samesite=none; httponly"
+        },
+        "responseBodyHash": "12cf052ebd6d48d07aa532820b1a40aac19b32c3fcbf87f228f04c8f8dbe0c9c",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.15667799999937415
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/svelte.en.js?v=f773033c4e0b",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32861,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "2497c1bf4f340c753efc792e699aa0a075a645e0fd40980771a34be9f683574d",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.7420899999997346
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/stacks-svelte.en.js?v=297d3b9a88f6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13155,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "586a0c35a064b4818f1e66e2056c38d85d8c9a7dbcb2e80d1407d95b679f35d7",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.7306700000008277
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/9366.en.js?v=c8d4e4e64bf3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8663,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "092a8f5ec776b7733a61ca4422b2d796c5b32a64466490a5a31907133f27d274",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.7356369999997696
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/islands/signup-modal.en.js?v=f64ec881ea96",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8644,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "e79faf1c309a02246d154130183250a99019849e70bf80f5e3c7f321adda1f4d",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.735964999999851
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/islands/one-tap.en.js?v=102f0378a2cf",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1753,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "a04de296d420442e8cb53e3d2899b5b540e942e3fe506976840e9995868bc2f2",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.7362360000006447
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/topbar/top-bar-events.en.js?v=9f5a4d15c5cd",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4902,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "505fadbd8a65b889c1b87ec63cfcfc2d6da88c751e9347ce9d7e9ab4acf0688c",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.739279000001261
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/sprinkles/left-nav-events.en.js?v=2ac13fd60bf6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1142,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "695caf608e0ec49ddb9c38c509543722b972a6590a14b9ccf33dc89e811dab52",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.640884999998889
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/stacks-svelte-labs.en.js?v=b9cf031e2bdd",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7938,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "b05322926d0a234a1530e7ea63333b92bcbfc520ce4d386bad2df4c36199c391",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6435789999995905
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/8339.en.js?v=4cb8dd34a7f9",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5045,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "654fffa1112e7fdfea237ddacd534c958fa40ac2b214b32630412fc8626cc45e",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.646244999999908
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/7663.en.js?v=c67f16729ba4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7539,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "a4d142302c49a291de77ff888dc1704e30e464522a44b05e2e69afac8f8053f2",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.642868000000817
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/3696.en.js?v=7ef09fb6562b",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2186,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "a11bfdc79df489dea5ef11747ceb09a3b5d80659377e202e51dbe92874312a7f",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6403920000011567
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/2458.en.js?v=33cc3da05f78",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 818,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "ba3a1232d70893f5dec10226e8ea24b4a87d20cd0a73899d268b7b3a09dae504",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.643753000000288
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/620.en.js?v=a432091814d8",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1611,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "6e3ec46659f4a1721b8458bc6a3b0bdf8047b5eef378d39c21917301fe8fac3b",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6440349999993487
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/webpack-chunks/9001.en.js?v=3a153d433746",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5306,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "92f798c752f91881f921db3b7a0730eb9aa45d4772f896b36ff335ca04ecb3ae",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.644270000000688
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/islands/homepage-wizard.en.js?v=a74b3480697c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16544,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "ff107c45f7f315351038e2103a7a676a85e45b0bda123de70f0932e4c7e1bf1c",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6450039999999717
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/questions/userQuestionList.en.js?v=8b4317437ce2",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16938,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "9494a86e0f225a4fdf0b284150c7d3de715ac0fcdcf549f7742a4276a5235582",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.644538000000466
+      },
+      {
+        "url": "https://lh6.googleusercontent.com/-eCmRxitwYJM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnSRisFVILy5JjUbnAn_0O2XslwrA/s96-c/s32-rj/photo.jpg",
+        "method": "GET",
+        "type": "Image",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.7261920000000828
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/a/AEdFTp4IUTDMKfdAzOQ9dOTJFbnjKgC1VSAG2DGz1hu8=k-s32",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 763,
+        "remoteIPAddress": "142.251.218.161",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400, no-transform",
+          "etag": "\"v6cf4\"",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        "responseBodyHash": "999411fb3998117e8dd6e30e703ad311117bceb762f3a441b2bd567444cfd13b",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.936337999999523
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/2172927439b2c58a6522f8457b46b3b8?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1140,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "a880c4fb6c9505eaba1ca442e66e2a376181388f494e6f599eef0bf7c89851a5",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.670376000000033
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/77aee707e223e42fbe651568ad822014?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 955,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "5c0a9d16957fe8b12bd9842407a53761d1f35893dc26731635bb4c0864d63f71",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6785999999992782
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/21bbfcdb48036eaeddcf645bb9e99df9?s=32&d=identicon&r=PG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1550,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "037d045b0af30704179ed133fbce33e40829ce6d46ffac2e570fe42b8eaaa985",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.671474999999191
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/068517711735b7ed7bd5287d287a7767?s=32&d=identicon&r=PG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1676,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "4d73a7a2e81ff5f273b3367361a8f4538bde732d341b4c928713551ac7a2f691",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6781320000009146
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/632a4f547de4453e5b04851df4bd2fae?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1206,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "8248fabca7fc4b5e61b52af017b224a1db4ccaca07963541c3f1a84bc28123d8",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.678792999999132
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/08031dc2b56609d5f6e836044491dc89?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1312,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "b402ec7c47c69ecc5df90839bb884ae1e2872d0c18a0744b6e9af307a421948c",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6790209999999206
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/3ae2577bd27266d7c1a0b054cb692fd2?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1695,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "7376317d4220af69e32eec6be50687bf0e6e1b1991a8bd55b2f07350f0995de2",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6838930000012624
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/8fe3cc5e3d28f1581964623e8c508722?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1739,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "06d3aa17006434c3bf28a6e0c591592565387d559f9f8541e7a5c57db0aacd33",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.684229000000414
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/daf702f959a453e46f93f1e76526bd45?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1487,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "eeef742bebdbd85c01f011d2ff868a8dbfe1dd665a6c3dc7ccd00691e350784d",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6835769999997865
+      },
+      {
+        "url": "https://lh4.googleusercontent.com/-6Cl2CuClKoI/AAAAAAAAAAI/AAAAAAAAAnc/D1DzEFx5VO0/s32-rj/photo.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1613,
+        "remoteIPAddress": "142.251.218.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, no-transform",
+          "etag": "\"v3ae\"",
+          "expires": "Wed, 01 Apr 2026 18:08:50 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3d0bb940c14047a669dd59cc4d093f3c37aee98e885770744be371af8c4432d8",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6884959999988496
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/3eed6c7c025dc5d3dd15665a906be2a7?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1264,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "d27f3c5b76eceb76ea8646465ca082df9ac93e17ae154b96143e8e9ea082709f",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.684422000000268
+      },
+      {
+        "url": "https://www.gravatar.com/avatar/96a63362651a864521864cb591ec8640?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1065,
+        "remoteIPAddress": "192.0.73.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:47:35 GMT"
+        },
+        "responseBodyHash": "05c1deb088b7d0787b95ef0f895f0d86e3ca5ad16f75178160cfb48810200276",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.684773999999379
+      },
+      {
+        "url": "https://lh6.googleusercontent.com/-XCPaMN6qzA0/AAAAAAAAAAI/AAAAAAAAADs/o9igiVGFyK0/s32-rj/photo.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1550,
+        "remoteIPAddress": "172.217.12.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, no-transform",
+          "etag": "\"v3b\"",
+          "expires": "Wed, 01 Apr 2026 17:15:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3fce7abe8ec380f842bbf9ddc1cc7796692372fed41e9ce0974f6f206949e324",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.6874540000007983
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 155826,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:42:36 GMT"
+        },
+        "responseBodyHash": "4d688c8a959117793bb46994566308a7e360bffdb18f31ae4b19eae3c556a310",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 3.0330009999997856
+      },
+      {
+        "url": "https://lngtd.com/stackoverflow.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1191,
+        "remoteIPAddress": "18.173.121.93",
+        "responseHeaders": {
+          "cache-control": "max-age=900",
+          "etag": "\"2c6d32ac22c16dbf8e5af51209424db4\""
+        },
+        "responseBodyHash": "afbabc34983ad0b7e536aa9bf359ff3f54d5a5d50271f7d98fd7dbfd29bf9a4c",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 2.3004199999995762
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/c3d9f1e3-55f3-4eba-b268-46cee4c6789c/c3d9f1e3-55f3-4eba-b268-46cee4c6789c.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2677,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE7F915C88B656",
+          "expires": "Wed, 01 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "082819a8c4ab255c94a69580b19162bebf9bee424f18deb15f4a0ae73e7ca165",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.14811399999962305
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/subcommunities/r-language.svg?v=f7471db25da6",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 983,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "edfb37d29b91b4c81afec7e98ab14cf35b8b418dc5e7e2e41456dcdb55aa0cde",
+        "initiators": [
+          "https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=880dfade9e7f"
+        ],
+        "time": 0.022463999999672524
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/subcommunities/php.svg?v=7cfced16955c",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1028,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "b10f4a46c98b55c7406648b144790aab9c865735cd7431c0d2ae72fa1fa9fd3d",
+        "initiators": [
+          "https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=880dfade9e7f"
+        ],
+        "time": 0.019390999999814085
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Img/favicons-sprite16.png?v=7c49858b1c47",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 89709,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "5e94bdcd28409c3d24547db0d9556805cd4b5ebc1e078e538576906366231e57",
+        "initiators": [
+          "https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=880dfade9e7f"
+        ],
+        "time": 0.03205499999967287
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/subcommunities/aws.svg?v=46d86cbff922",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2206,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "f8fbfa48a671fab23fee87c5c12618456d660f6251194a09d1e60bf31d7e313d",
+        "initiators": [
+          "https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=880dfade9e7f"
+        ],
+        "time": 0.03144099999917671
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/subcommunities/mobile-dev.svg?v=f6e72ddb4e44",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 696,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "0bf3aa2c6836a72f26abd11d0667978ed89b220f19920115551e2e7b670a5819",
+        "initiators": [
+          "https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=880dfade9e7f"
+        ],
+        "time": 0.030528000001140754
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/subcommunities/nlp.svg?v=81a839cdb445",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 725,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:35 GMT"
+        },
+        "responseBodyHash": "52b2e5c1de3d3a9cf4a361f341ade0011ce3c12ae1e6fc9b94aa6015cbfef4e5",
+        "initiators": [
+          "https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=880dfade9e7f"
+        ],
+        "time": 0.030335999999806518
+      },
+      {
+        "url": "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 73042,
+        "remoteIPAddress": "156.146.53.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"3878883f187194667b72b1a9a359d1c5\""
+        },
+        "responseBodyHash": "a1f9ab38dd80bdabee8f5d599d4dd7cd456839b9aa750a2e3505d1057c99cf9b",
+        "initiators": [
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.26847100000122737
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "172.64.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4da8a6638ad70698ad3d01aa0ef124aebe35c297685c0796b174822f597b1d09",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.18195699999887438
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/icon-48.png?v=6452e6a98212",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 499,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:36 GMT"
+        },
+        "responseBodyHash": "ebd22da58fb63d6413d11ca9f0e180cdc828674ca600352aca434496312db1e5",
+        "initiators": [
+          "https://stackoverflow.com/Content/Js/webpack-chunks/svelte.en.js?v=f773033c4e0b",
+          "https://stackoverflow.com/Content/Js/webpack-chunks/stacks-svelte.en.js?v=297d3b9a88f6",
+          "https://stackoverflow.com/Content/Js/islands/signup-modal.en.js?v=f64ec881ea96"
+        ],
+        "time": 0.02086599999893224
+      },
+      {
+        "url": "https://accounts.google.com/gsi/client",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 94783,
+        "remoteIPAddress": "142.251.2.84",
+        "responseHeaders": {
+          "cache-control": "private, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:42:36 GMT"
+        },
+        "responseBodyHash": "fabeef7a1ca962b769e92698a1ca36370fda1b82c70027ce1e0476a87a95bd34",
+        "initiators": [
+          "https://stackoverflow.com/Content/Js/webpack-chunks/svelte.en.js?v=f773033c4e0b",
+          "https://stackoverflow.com/Content/Js/islands/one-tap.en.js?v=102f0378a2cf"
+        ],
+        "time": 0.18221399999856658
+      },
+      {
+        "url": "https://stackoverflow.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300, stale-if-error=10800, stale-while-revalidate=10800, public",
+          "set-cookie": "__cf_bm=KjGLBr4xniNzcTxWnqbAN9znTYrHn2wsqRAjmfqVbn8-1774989756.2381394-1.0.1.1-bWccjkVDF6qgJh3PC8VZW3BzUOa6DWnXC7692XFkjc1bAEdiv9phTFjItUY.tz83rM.rJJ1e3Z8IDJnnUPYm7GxlIJNeAbJZh4ihBKpH._YuGryBoBANyxgi0ZxXbpJm; HttpOnly; Secure; Path=/; Domain=stackoverflow.com; Expires=Tue, 31 Mar 2026 21:12:36 GMT"
+        },
+        "responseBodyHash": "325bfed017d46e0fa613cfc4a7c1e1118b425e610c02ec1bf7030b9dc3d473ac",
+        "redirectedTo": "https://stackoverflow.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/ea2d291c0fdc/main.js?",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.06830000000081782
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 131455,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE7518C073F45D"
+        },
+        "responseBodyHash": "38a8c69203c812fdfef2ff1c5781e148fde568d61570660b3f70c6f7b309d8b7",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.0579859999998007
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Js/full-anon.en.js?v=037e97b07fca",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 131906,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:36 GMT"
+        },
+        "responseBodyHash": "7fcb9b836dc940b5f2d36b3a6994232c6cfef139f947a60803ccdffc1a04cacf",
+        "initiators": [
+          "https://stackoverflow.com/Content/Js/stub.en.js?v=e307fb81e738",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        ],
+        "time": 0.028893999999127118
+      },
+      {
+        "url": "https://stackoverflow.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/ea2d291c0fdc/main.js?",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12770,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "max-age=14400, stale-if-error=10800, stale-while-revalidate=10800, public",
+          "set-cookie": "__cf_bm=.5sdUuBU_OaRF4.37jMRqRZdVIZMsT6PUy7lWd4rm_I-1774989756.2978601-1.0.1.1-rZGueZTAoPX6RBZpO9K6QQ8hays3biM9O_ec.LJN2P2oRP0sUNOuGZ__dCLIpCPzTUpRBGze_yQ8d1.xzMoLHhtJW2xBp7JtlhjfOGIWyJlrDbN_bFO_3CJzUvUBH67d; HttpOnly; Secure; Path=/; Domain=stackoverflow.com; Expires=Tue, 31 Mar 2026 21:12:36 GMT"
+        },
+        "responseBodyHash": "325bfed017d46e0fa613cfc4a7c1e1118b425e610c02ec1bf7030b9dc3d473ac",
+        "redirectedFrom": "https://stackoverflow.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.10984099999950558
+      },
+      {
+        "url": "https://bd.lngtd.com/id.txt",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "13.249.74.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d41d8cd98f00b204e9800998ecf8427e\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.6186020000004646
+      },
+      {
+        "url": "https://floors.lngtd.com/?account=stackoverflow&section=default",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1521,
+        "remoteIPAddress": "3.168.86.76",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800"
+        },
+        "responseBodyHash": "6ad715a097c0754d522836a503b5d6f157d2814a96cb2c2758eb7e55d8260b96",
+        "initiators": [
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.15841600000021572
+      },
+      {
+        "url": "https://standout-cdn.kargo.com/js/rh.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 83603,
+        "remoteIPAddress": "108.139.10.25",
+        "responseHeaders": {
+          "etag": "W/\"3b64c7bb6d74f8f561f8c01eba3af558\""
+        },
+        "responseBodyHash": "c797a81322b8807e14e1240db2edb0dc3830275b51b7a8efedef654277945f33",
+        "initiators": [
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.15114100000027975
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34841,
+        "remoteIPAddress": "142.251.46.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "997 / 20543 / m202603240101 / config-hash: 15401705038150461854",
+          "expires": "Tue, 31 Mar 2026 20:42:36 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "011d82df63a65fd26d34c5ce055a5aec57fcdc1fc089d4a2effa55ce5e1e54a7",
+        "initiators": [
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.17630499999904714
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/c3d9f1e3-55f3-4eba-b268-46cee4c6789c/019cdde0-bd90-7b52-9425-1c7a9395b562/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 43550,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE7F915E5C549F",
+          "expires": "Wed, 01 Apr 2026 20:42:36 GMT"
+        },
+        "responseBodyHash": "d82c242b53e9eb321fbb034bacdd1112690eb50eede7ac04a9f55b4e23e0af23",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.11589399999866146
+      },
+      {
+        "url": "https://stackoverflow.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.36707159097325237:1774424211:9_pSV23kWGmNtldQToc5YDBzJFUfKD8QS_h75YB-Zx0/9e522e649ba2ae99",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 921,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "set-cookie": "cf_clearance=QZf4jjiMC93cDtkGKH5BWlTNk8MwkgJsLhjujAFK.xQ-1774989756-1.2.1.1-J9BxLlE89SZg16l18QCpdH7aNQ_JNeuhviT6nZdYQEyY9LnRs0VlNAk9DZXBst9O5JwTexg7Pt6JPKhDvoAKH1VYxWfFmZ81FwRa5K.GIR_uruOdNebjHKwf6cAxNfnhdwhgGK4bvzsvGOTfuVHvRyZhJNCTN4gvPIPKPIis9eVYYSYkVr4JG0DR3rbuyb5FD6HfkwDewZ5mo3WIXCBpsfyi3OaVwIpIk.NawgEH6As; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=stackoverflow.com; Expires=Wed, 31 Mar 2027 20:42:36 GMT\n__cf_bm=rHm.jWrEfXczDwXfXl1fvV_eGyyMXe3M2PQ_oq93FaE-1774989756.7587538-1.0.1.1-8Hk.Recnf7v7WNyx3bxCvjTmsEsHzwfET8lgm46oeD0a8PSUPF15Af1Q0nYwFY9xejNmqWMgcAXTYQR2TZkA32rhqbufdp_owL5psf8jiRIhO6LGP2gJ_k9XRbNl_6l9; HttpOnly; Secure; Path=/; Domain=stackoverflow.com; Expires=Tue, 31 Mar 2026 21:12:36 GMT",
+          "timing-allow-origin": "https://stackoverflow.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://stackoverflow.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.2624279999999999
+      },
+      {
+        "url": "https://socialcanvas-api.kargo.com/v2/request",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "3.132.47.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://socialcanvas-api.kargo.com/v2/request"
+        ],
+        "time": 0.6579889999993611
+      },
+      {
+        "url": "https://socialcanvas-api.kargo.com/v2/request",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1055,
+        "remoteIPAddress": "3.132.47.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"2ad-RE80Bn9PcBnQBPRhyxh6fz4fLdg\""
+        },
+        "responseBodyHash": "f4c382e2121a9f90ea0c7ed6b3754923e0c3409e7a5914c701bdf111a8b73646",
+        "initiators": [
+          "https://socialcanvas-api.kargo.com/v2/request"
+        ],
+        "time": 0.7434229999998934
+      },
+      {
+        "url": "https://standout-cdn.kargo.com/js/spotlight/latest/spotlight.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32572,
+        "remoteIPAddress": "108.139.10.25",
+        "responseHeaders": {
+          "etag": "W/\"a0412c294c34af87bbcc08c892d78ed4\""
+        },
+        "responseBodyHash": "636c7fce7cd6b69ac7fe76a5f0bd075394b1fd6f86192db611652f01573ed28b",
+        "initiators": [
+          "https://standout-cdn.kargo.com/js/rh.min.js",
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.025007000000186963
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 186307,
+        "remoteIPAddress": "142.251.46.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=31536000",
+          "etag": "5499532569289001589",
+          "expires": "Wed, 31 Mar 2027 05:36:33 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e4de8744b151398d9ab17e65aeed7850e84ffabe31a71a465044ddb6fcf69ba",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/tag/js/gpt.js",
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.18514299999878858
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WCZ03SZFCQ&gtm=45je63u0v891602898za200zd891602898&_p=1774989756207&gcs=G100&gcd=13q3q3q3q5l1&npa=1&dma_cps=-&dma=0&cid=1974177675.1774989757&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=denied&_eu=AAAAAGA&_s=1&tag_exp=0~115938466~115938469~116133313~116991816&sid=1774989757&sct=1&seg=0&dl=https%3A%2F%2Fstackoverflow.com%2Fquestions&dt=Newest%20Questions%20-%20Stack%20Overflow&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.requestid=8ac401f6-a64f-45c9-be77-53eee92f55b1&ep.routename=Questions%2FList&ep.ads_blocked=false&tfd=4204",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.219.46",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://stackoverflow.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ"
+        ],
+        "time": 0.38209099999949103
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otGPP.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22736,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "fe740bc7fa6bb34ca8821e99e643ca68c05caee080c2b3f6b80706a6e567c407",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.05153499999869382
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/dict/m202603310101/gpt",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 23650,
+        "remoteIPAddress": "142.251.46.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=604800, stale-while-revalidate=7200",
+          "etag": "562959975875977607",
+          "expires": "Tue, 07 Apr 2026 15:02:02 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "606dfeebc6423cbaba3c047b35b1837816b81ebcd40b3cf0a730baca25512741",
+        "initiators": [
+          "https://stackoverflow.com/questions"
+        ],
+        "time": 0.05344399999921734
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/otFloatingRoundedCorner.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3009,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE7518BD413F1D"
+        },
+        "responseBodyHash": "e2b3140f85c465ec1cbb2ff76cdb5a1a6ebc1a1fd7e72930e580768b920e4efc",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.03374600000097416
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4866,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "de45c59da3e4dad94aad246fc9cc415f9ddfaa039256fec0a795b65ff0cda828",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.030452000000877888
+      },
+      {
+        "url": "https://accounts.google.com/gsi/style",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 385,
+        "remoteIPAddress": "142.251.2.84",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "expires": "Tue, 31 Mar 2026 20:42:37 GMT"
+        },
+        "responseBodyHash": "d49e8f04be7ccbb69e87ae474ee50f6903b780451989e66d35ffc247a80510fe",
+        "initiators": [
+          "https://accounts.google.com/gsi/client",
+          "https://stackoverflow.com/Content/Js/islands/one-tap.en.js?v=102f0378a2cf"
+        ],
+        "time": 0.05808400000023539
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_close.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 495,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "901bb0e03b8c3c0a1cf4c487a177417328bb7d8c94106ecefceedd7d7f6c4ddc",
+        "initiators": [],
+        "time": 0.02594600000156788
+      },
+      {
+        "url": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/favicon.svg?v=916c1b91e14c",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 904,
+        "remoteIPAddress": "198.252.206.1",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:42:37 GMT"
+        },
+        "responseBodyHash": "9c6d89774c792309c4d83fbd849cdafe300cba114c110049695e3c8eb05c41a0",
+        "initiators": [],
+        "time": 0.029314999999769498
+      },
+      {
+        "url": "https://socialcanvas-cdn.kargo.com/js/ksopb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 134125,
+        "remoteIPAddress": "108.139.10.25",
+        "responseHeaders": {
+          "etag": "W/\"243d1c0f7e8ad2b54bc78104a3e3caa7\""
+        },
+        "responseBodyHash": "ba491b70696b4b782a051433a9f6d240b38335580ce5a69d364a5a85272ca9aa",
+        "initiators": [
+          "https://standout-cdn.kargo.com/js/rh.min.js",
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.036339000000225496
+      },
+      {
+        "url": "https://socialcanvas-cdn.kargo.com/img/close-btn-desktop.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1534,
+        "remoteIPAddress": "108.139.10.25",
+        "responseHeaders": {
+          "etag": "W/\"fba2d81eeab0695aafb775a29ce3d49c\""
+        },
+        "responseBodyHash": "85f708d78d1a2f869e8a8f43764a5b74bb376980aaeff9e56a54335b199df048",
+        "initiators": [
+          "https://standout-cdn.kargo.com/js/spotlight/latest/spotlight.js",
+          "https://standout-cdn.kargo.com/js/rh.min.js",
+          "https://s.lngtdv.com/stackoverflow/default.1774979186.js",
+          "https://lngtd.com/stackoverflow.js"
+        ],
+        "time": 0.03421300000081828
+      }
+    ],
+    "cookies": [
+      {
+        "name": "prov",
+        "domain": ".stackoverflow.com",
+        "path": "/",
+        "expires": 1806525757635,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cflb",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": 1775072553040,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "cf_clearance",
+        "domain": ".stackoverflow.com",
+        "path": "/",
+        "expires": 1806525756998,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".stackoverflow.com",
+        "path": "/",
+        "expires": 1774991556998,
+        "session": false
+      },
+      {
+        "name": "OTGPPConsent",
+        "domain": ".stackoverflow.com",
+        "path": "/",
+        "expires": 1806525757000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "g_state",
+        "domain": "stackoverflow.com",
+        "path": "/",
+        "expires": 1790541757000,
+        "session": false
+      },
+      {
+        "name": "OptanonConsent",
+        "domain": ".stackoverflow.com",
+        "path": "/",
+        "expires": 1806525757000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".stackoverflow.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": {
+          "Document.cookie getter": 8,
+          "window.sessionStorage": 4
+        },
+        "https://stackoverflow.com/questions": {
+          "Date.prototype.getTime": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "window.localStorage": 1
+        },
+        "https://stackoverflow.com/Content/Js/stub.en.js?v=e307fb81e738": {
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.userAgent": 1,
+          "window.localStorage": 2,
+          "Document.cookie getter": 3
+        },
+        "https://cdn.cookielaw.org/scripttemplates/gpp.stub.js": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://stackoverflow.com/Content/Js/webpack-chunks/svelte.en.js?v=f773033c4e0b": {
+          "Navigator.prototype.userAgent": 3
+        },
+        "https://stackoverflow.com/Content/Js/webpack-chunks/7663.en.js?v=c67f16729ba4": {
+          "Element.prototype.getClientRects": 5
+        },
+        "https://s.lngtdv.com/stackoverflow/default.1774979186.js": {
+          "Navigator.prototype.userAgent": 3,
+          "window.sessionStorage": 9,
+          "Document.cookie getter": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        },
+        "https://accounts.google.com/gsi/client": {
+          "Navigator.prototype.userAgent": 79,
+          "window.sessionStorage": 1,
+          "Document.cookie getter": 17,
+          "Document.cookie setter": 2
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 49,
+          "Date.prototype.getTime": 18,
+          "Document.cookie setter": 17,
+          "Navigator.prototype.userAgent": 10,
+          "window.innerHeight": 3
+        },
+        "https://stackoverflow.com/Content/Js/full-anon.en.js?v=037e97b07fca": {
+          "window.devicePixelRatio": 1,
+          "window.name": 8,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js": {
+          "Element.prototype.getClientRects": 3,
+          "Event.prototype.timeStamp": 1
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 4,
+          "Date.prototype.getTime": 52,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "Navigator.prototype.language": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2
+        },
+        "https://stackoverflow.com/cdn-cgi/challenge-platform/scripts/jsd/main.js": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 2,
+          "window.name": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "window.screenX": 1,
+          "window.screenY": 1,
+          "window.outerWidth": 1,
+          "window.outerHeight": 1,
+          "window.devicePixelRatio": 1,
+          "window.screenLeft": 1,
+          "window.screenTop": 1,
+          "window.indexedDB": 1,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.vendorSub": 1,
+          "Navigator.prototype.productSub": 1,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.webkitTemporaryStorage": 1,
+          "Navigator.prototype.webkitPersistentStorage": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.appCodeName": 1,
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.onLine": 1,
+          "Navigator.prototype.mimeTypes": 1,
+          "Navigator.prototype.connection": 1
+        },
+        "https://standout-cdn.kargo.com/js/rh.min.js": {
+          "Date.prototype.getTime": 9,
+          "window.sessionStorage": 3,
+          "Navigator.prototype.userAgent": 3,
+          "Notification.permission": 3,
+          "Navigator.prototype.permissions": 6,
+          "Navigator.prototype.plugins": 1,
+          "Document.cookie getter": 1
+        },
+        "https://pagead2.googlesyndication.com/tag/js/gpt.js": {
+          "Document.cookie getter": 3,
+          "Navigator.prototype.userAgent": 12
+        },
+        "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js": {
+          "Navigator.prototype.userAgent": 65,
+          "PerformanceTiming.prototype.navigationStart": 3,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerHeight": 10,
+          "window.innerWidth": 11
+        },
+        "https://socialcanvas-cdn.kargo.com/js/ksopb.js": {
+          "NavigatorUAData.prototype.brands": 3,
+          "NavigatorUAData.prototype.platform": 1,
+          "window.sessionStorage": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions&GPPCookiesCount=1; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions&GPPCookiesCount=1&gppSid=7; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OTGPPConsent=DBABLA~BVQqAAAAAACA.QA; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions&GPPCookiesCount=1&gppSid=7; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions&GPPCookiesCount=1&gppSid=7; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OTGPPConsent=DBABLA~BVQqAAAAAACA.QA; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://accounts.google.com/gsi/client",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "g_state={\"i_l\":0,\"i_ll\":1774989757439,\"i_b\":\"a7IeD5b2Bt7ahpvTLDchapx9FC+Ui3v4cYG99xXO/JE\",\"i_e\":{\"enable_itp_optimization\":0}};path=/;expires=Sun, 27 Sep 2026 20:42:37 GMT"
+          ]
+        },
+        {
+          "source": "https://accounts.google.com/gsi/client",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "g_state={\"i_l\":0,\"i_ll\":1774989757445,\"i_b\":\"a7IeD5b2Bt7ahpvTLDchapx9FC+Ui3v4cYG99xXO/JE\",\"i_e\":{\"enable_itp_optimization\":0}};path=/;expires=Sun, 27 Sep 2026 20:42:37 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions&GPPCookiesCount=1&gppSid=7&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A42%3A37+GMT-0700+(Pacific+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a5c79827-247e-4cb1-b9c6-da7f9e0bfa27&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fstackoverflow.com%2Fquestions&GPPCookiesCount=1&gppSid=7&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1; expires=Wed, 31 Mar 2027 20:42:37 GMT; path=/; domain=.stackoverflow.com; Samesite=Lax"
+          ]
+        }
+      ]
+    }
+  }
+}

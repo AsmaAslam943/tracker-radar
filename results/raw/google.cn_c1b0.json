@@ -1,0 +1,96 @@
+{
+  "initialUrl": "https://google.cn/",
+  "finalUrl": "https://www.google.cn/",
+  "timeout": false,
+  "testStarted": 1774991954081,
+  "testFinished": 1774991960719,
+  "data": {
+    "requests": [
+      {
+        "url": "https://google.cn/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "142.250.101.94",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "http://www.google.cn/",
+        "initiators": [],
+        "time": 0.10865900000135298
+      },
+      {
+        "url": "http://www.google.cn/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.cn/",
+        "redirectedFrom": "https://google.cn/",
+        "initiators": [],
+        "time": 0.002007999999477761
+      },
+      {
+        "url": "https://www.google.cn/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 550,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:19:14 GMT"
+        },
+        "responseBodyHash": "fd40db7de185e7d6d2e92a0b44bc7f16f9a467b7707d063ea46c48de353eda66",
+        "redirectedFrom": "http://www.google.cn/",
+        "initiators": [],
+        "time": 0.058469999999942956
+      },
+      {
+        "url": "https://www.google.cn/intl/zh-CN_cn/landing/cnexp/google-search.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23736,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {
+          "cache-control": "private, max-age=31536000",
+          "expires": "Tue, 31 Mar 2026 21:19:14 GMT"
+        },
+        "responseBodyHash": "1c3124707b905d01cc45c8e3b16c269190188667fe9b17cfb5ee3b7640404148",
+        "initiators": [
+          "https://www.google.cn/"
+        ],
+        "time": 0.02918899999895075
+      },
+      {
+        "url": "https://www.google.cn/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 404,
+        "size": 1585,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {},
+        "responseBodyHash": "7f25fd0260c4ef8c26a87a5a126634e846ba539c75e5d508103f4d98831654a5",
+        "initiators": [],
+        "time": 0.1462119999996503
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

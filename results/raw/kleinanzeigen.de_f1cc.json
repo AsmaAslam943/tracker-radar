@@ -1,0 +1,2839 @@
+{
+  "initialUrl": "https://kleinanzeigen.de/",
+  "finalUrl": "https://www.kleinanzeigen.de/",
+  "timeout": true,
+  "testStarted": 1774993308747,
+  "testFinished": 1774993372839,
+  "data": {
+    "requests": [
+      {
+        "url": "https://kleinanzeigen.de/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "3.77.159.230",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.kleinanzeigen.de/",
+        "initiators": [],
+        "time": 0.5125439999992523
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 37265,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "set-cookie": "kameleoonVisitorCode=aw4tc12juubigt5; Path=/; SameSite=Lax; Max-Age=31536000; Secure; Domain=.kleinanzeigen.de\nlnFeMonitoring=79; Path=/; HttpOnly; Secure; SameSite=Strict\nup=%7B%22lln%22%3A%228b60cdd8-1450-4f41-85f4-375b27304341%22%7D; Max-Age=31104000; Path=/; HttpOnly; Secure\n_abck=B0C10B0A1D3F93302C72FF8225F8BC01~-1~YAAQBE5DF+nwWyWdAQAAgYLYRQ+vVuSuL/T/Ch0mJ2u3arpdwshNYyybMVx8V/jOtSijdR4wZ6wkWE+NSkNBo6zCcjKmuXhI0FjL8Awu1MpATAPUzl/s+Zzi3m6ousuF2VfO3jgS85ET/WV+200nRz1fpZcsxjG3QF0V5AN1dVjx3p1UM+tye8uNQIDlUTyvyDgaTHNgRcHMiXAJhr544JL28NnAyQq3alsXqL0gowjP1T5KZP0xBwcygljnCRH/zVIyLZPOx7+CHHvNHjG1amy+8OdID0/q7PBks8FRCePze0DwSNFaU9iAMLZ/q8lUCbIt6Z/XiKkXwFNJPNFhr9TP0Gm74F9UZfJvOlI9wFOrbEU3Yh9OW/e5SeZt8wUfQQTXNJblrnh74lULdKk6wukvRlD9/uRRhjfRuRPgF3PCQs/5gNPKP7ee2dHbqwhYMrLgxi6n6LrN5Tg4lpI=~-1~-1~-1~-1~-1; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 31 Mar 2027 21:41:50 GMT; Max-Age=31536000; Secure\nak_bmsc=AA16CD9725EB03FF64ECFEE81180B8F7~000000000000000000000000000000~YAAQBE5DF+rwWyWdAQAAgYLYRR+BFld/9gJJl5ZU9S0SEMIMNmqQMdrdlY4HuuT7kXucf3+CAQreFT9ITAwYZyobAHHettOTrAgBceEVlIQ9OKTuO/ZNrru5KsOAcS32uzp90554DmbtgLBXvKf7wd3d2nlJ7ri8zRvWpRZodqkWE2/JlMLr0xrDRlwTXKP3UYa/ZPq5Pv05AFbLl91gq8gjeNWyzb25p8Fda6eAm9+xe5ecJ9eI99GpeCfYmEeYbnd2GSUNOxpTV9omR6UYILcnu6KtgB833MSHBy76bpb9Z3hiMVG6BSb9K7CDvC0rIbgVcySXbptWce0YNJ4Zh9LjFjcNgcLWGczuIq+AQ9o8Ufmk4Kcc5SSGh6n/Rd/XAhZXkjRsjPWJULI2yZjfgho=; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7199; HttpOnly\nbm_mi=5B91294DDEEE81D279909FF54C85EFD1~YAAQBE5DF+vwWyWdAQAAgYLYRR+ccDaF3MDGpov22eEKW05Akfuc/NnWuxB6E4VVQftxCxtyl4yc1n9cvvPc30WsbloWAtp3zC5Fqd3G8ol2hhnVCm7WP6AXnps/FQPISKIy3scNPHCfyGNArK/CfoAxjP5Gfmfe+4oFEqdquydK6SkPHv+Pw5xD8TkMaD/GIT4RJkvV5Lucmcp3wVdO88p1zKcjfaG3EQH/kuMTeRXdNfntgphRvGIg48VUGzK9O054+ZwzXks1M+AO/YBk7dPmML4zK5aBU6XzOPefdN4fUZaDgKZWoWtZp6dnmXq+c57T~1; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 21:41:50 GMT; Max-Age=0; Secure\nbm_sz=C9F8C633877C58BE8E0D939E0AF34B83~YAAQBE5DF+zwWyWdAQAAgYLYRR+n0lCUS5JG6AAyiQYIOt8PZ1UQEKkF5AJBJPN63/f8/9gf8UY+vIHx08yDfPYrdMJBqKBZLhxtYCNTZ1CCG3ZIphz7mGXCtCuL25kpCmf4ylgADQs7N/sJN+SCsyY2rP3PXslYECxfkDCI1TqBUiEs/bCothI1/FRD13BqqMg0lhT2r6cjiL4LkFpXI4tYHW5fFEI2u1OsptuQxtHmkyy4OXx6G2rvVb5BP5NyQwa93AHZLph1EQHD112fFRxFoDiXPJ7VCyQ3eX4VX8GXrmSbYIgI4icSuB6OBcL7SYfp3SaG8P2udK6YLLN1O9ZBygmWQDh5qOPLNmRl2qILZ9274D9OPqFJSGR/YKWPqjnOCGOOef8KCnfWSzA4dhndpA==~4600888~3355969; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:49 GMT; Max-Age=14399"
+        },
+        "responseBodyHash": "acfda5d17a58a3a831e44e32f20832c1627bcfe206c1a5a0b4d2ac09fd43a46e",
+        "redirectedFrom": "https://kleinanzeigen.de/",
+        "initiators": [],
+        "time": 0.4675680000000284
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/AstroSharedData.astro_astro_type_script_index_0_lang.CiDIR-9m.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 529,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"133-19d2a432628\""
+        },
+        "responseBodyHash": "94e6b9f8d741df71e74351ccaf91a2332e92907939ffc510104d097322e5e342",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.20708200000080978
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/bffstatic/ka-kameleoon/ka-kml-experimentation-bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41534,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "etag": "\"fbf5c05f520c9c86f1571c6b27a5e5ac\""
+        },
+        "responseBodyHash": "b06d4e2f57aa09b9c3ae485cdc822cc384ab2aeed344193d6d1bfc67d28f258a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.3606930000005377
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/kml/js/engine/n1ux7flhug",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64619,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "max-age=1800, s-maxage=5400",
+          "etag": "W/\"69cc2c59-3e05d\""
+        },
+        "responseBodyHash": "e7a13bcdc27de1a1512b805a86a418ee407e8e3aad9f33600c0ab422b989dcf3",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.2510760000004666
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/GoogleAnalyticsTags.astro_astro_type_script_index_0_lang.Cw5V01XM.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20704,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"f0eb-19d2a432628\""
+        },
+        "responseBodyHash": "4a53e41d115f8d1c0ce7f87d96a38aa55be5265bc1bf2a6823e8ffa9550212a8",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.2545109999991837
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.Bs4aNDg_.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 14780,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"10c60-19d2a431688\""
+        },
+        "responseBodyHash": "af6fcc0676f33caf28931a4f810c1ea9de58eca39ee22bf709016c7c51db95ed",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.23699299999861978
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/akam/13/2f5f0d91",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9491,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"baacd6958ca1916a730c2b74d40b10c1176cedfbf0a648340fe3d1f9972a3cf8\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DFxfxWyWdAQAAcoTYRR8EImrAu/SA/814u9a1oTCFpX+YNIUyv0Et40PLZSELAHk5KsQJIc0H4fWA+SqLxTal0MvOHDwqO7SgmHB2+YCFh94HhuqeBTi1TA5VNRtsdTlbBfgUppcvUyhqD6HbLKA/sxWqfCyaSFlhX1V3iboTgTXcJ1BeCgcnMBEZnu1TyyrjAy+/Y2e364Rw2k9IwGyLR+2CL0KXUrViuYnPVL8KVHPktQnQaOxoLNdUW9vUTtIgH3pc1FVglAWOTxo5TdbbVsu6ZiSitjkVQ87SSIoWUUj99NENlMne/vHgaw7bUC338ZCiGWCb1F95VcFC2ddQGLKFqHdDjltCSGy+jKiCZIoCfYoSdS2lAqUilcEPxc+5w5J+x/0vxdY+ru/Twu9zXkj7uPjm/nOyDRSKspAcIXEv3bmLT08=; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7199; HttpOnly"
+        },
+        "responseBodyHash": "1288a486adab37e48c43ef146745e823218e9f54dd674c11da914125b8969b56",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.5273610000003828
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiStub.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1367,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"7af18b980eb1a57cf9a3ae40ad9bbbae\""
+        },
+        "responseBodyHash": "dbe52b0c6246a22f5d7d2695e5c4b1bc79048054d1d31413cf8e73a6244d74c5",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.2664459999996325
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.astro_astro_type_script_index_0_lang.DdpgrCur.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 487,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"c7-19d2a432628\""
+        },
+        "responseBodyHash": "37095fa641c8b6c24793a993632a793747f45524abb968228d5c7b6f3b948894",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.2587009999988368
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/GATrackingDispatcher.astro_astro_type_script_index_0_lang.Ci_hKvl1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 535,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"127-19d2a432628\""
+        },
+        "responseBodyHash": "8c3351323b0b9953cab537a2ceac7b18bf357a5e8eaeabcfb8f57bcad6c9e3cf",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.2669389999991836
+      },
+      {
+        "url": "https://static.kleinanzeigen.de/static/img/common/logo/logo-kleinanzeigen-horizontal.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5078,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"084c26a7726e4b5d7387b435a22e8ade\""
+        },
+        "responseBodyHash": "9264b3724cab36719053345d6b9fc1c37208c5ee22759671aef9d78c180e0f4a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.3606529999997292
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/static/illustrations/connection-issue.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14830,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"38f5-19d2a432240\""
+        },
+        "responseBodyHash": "d5060b61a7f91f5503467965084911e62c83a100874ad96f3f9115e2f77e2e74",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.6976730000005773
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/PromotionScript.astro_astro_type_script_index_0_lang.xri1vRDo.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 701,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"2c8-19d2a432628\""
+        },
+        "responseBodyHash": "79cee4b079cc5d526f083347c2384d69cdd55f4b21fc23701e47b00857726f7a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.35960999999952037
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20423,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"ee01-19d2a432628\""
+        },
+        "responseBodyHash": "7654f0f067200f27d534671de5fb0aea74dc0abcdeb928e9305ec5d67182504e",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.343563999998878
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/liberty/liberty-js-cp/prebid/prebid.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 132553,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"79edf149d52805d77c487fd1cff0efa1\""
+        },
+        "responseBodyHash": "85f51d67ae7f802f1e57960b6205689e868922253afb53cf92d62c983b7e5c4d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.7099130000005971
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/static/advertising/adblock-detection/ads.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 366,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"4e-19d2a432240\""
+        },
+        "responseBodyHash": "961bd50bb222a8ef52a56f05e5603658de75093b6f5b970aa6a9b765f7dc2fc2",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.35097700000005716
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/static/advertising/adblock-detection/advertising.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 366,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"4e-19d2a432240\""
+        },
+        "responseBodyHash": "961bd50bb222a8ef52a56f05e5603658de75093b6f5b970aa6a9b765f7dc2fc2",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.5832190000000992
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/static/advertising/adblock-detection/advertising-detection.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 366,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"4e-19d2a432240\""
+        },
+        "responseBodyHash": "961bd50bb222a8ef52a56f05e5603658de75093b6f5b970aa6a9b765f7dc2fc2",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.6206999999994878
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/static/advertising/adblock-detection/prebid.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 366,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"4e-19d2a432240\""
+        },
+        "responseBodyHash": "961bd50bb222a8ef52a56f05e5603658de75093b6f5b970aa6a9b765f7dc2fc2",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.621382999999696
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1906,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"69e1fd25205e7ee5c62c446a83a0d4de\""
+        },
+        "responseBodyHash": "8df68904edb8aeac294e4754556e1af4051e51968e0bf304a8f77397d97a3310",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.6207700000013574
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 52201,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"4eb092de0a37417051104c6e90964bac\""
+        },
+        "responseBodyHash": "a81444a8b6e471f721b62222ecfab8e0eccd92e9f650d2cf58c8a2ac66026201",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.6210929999997461
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/DevelopmentTags.astro_astro_type_script_index_0_lang.6rxZTIME.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 575,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"190-19d2a432628\""
+        },
+        "responseBodyHash": "70d1b3aa13c6f51d3225d9ef12fa181edb92d087d017cd1b5e5aa5dca18dc479",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.35045499999978347
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 180238,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"d983271d83a4c750a6d90421670a39794441b20f25fa791a909b892f05b3ec14\"",
+          "set-cookie": "_abck=B0C10B0A1D3F93302C72FF8225F8BC01~-1~YAAQBE5DFxnxWyWdAQAAfITYRQ9wf84FJerkDitPNFUwejF9Jr5lkE/LOomBN38TbfJzWKkns6oNeccRtFSi1xgMSsHvsd7nXh5y6yPfKhsUQQKzH0u95SgWP5IavihGMJIqB43dLsdaICTRta03eGPAoP/L8SXCJnBf8zrR45Ckz+TPeYZQ2XHyLU2Fla32lwO9vUQ6qLzxWqEZD9cEQUcc1myB3QF12KYCrSNuJVlxVrDjvfYiWEuaVEoLVUAPpjwx1uN+jq9rfJhBxcmJSGuIl9m7WXUpSFIVN5+3DXy4o8ytnYe7TyUye93kkf02JeEINKF4UTWPnBo3zXqYiG4vBgkGIsAFKRP1WkH3Ze/nHuG4l9RGgkXEWzTuk5IWOgO+7ZQi6Z12AhKyUNuFcFXVVAC6RBjgr9xhb2rTGycesaXjm2G8NjR9cEUwBsbvVSvBNcBfdtHxL52m2s0nWd+oX8kNNe2N0nKAyQhOrYTy9fzfKbM8ES/ir3HrCCMSMjdo/DSdql00zd5u2r0cCqpuMRAxqiyUYvrFW1MVku67GCitAkMl~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f%2fDtA4aUsmDN81n8ejN9lBZ%2fGamnD66px9vRcVy9i8YjY2HSUiP4nfvUtnuyUXWw5QnFTmm5Hu83D9rekBdvXyXBPXF5SFaOqsc5~-1; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 31 Mar 2027 21:41:50 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "5296910ea647ceea15b8d8bd3c6df7049cbe2b9f41879952e889ce1255540f3a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.5803040000009787
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/manifest.webmanifest",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 920,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"f4fadb53f2b25f37272e59a84039f3a5\"",
+          "set-cookie": "bm_sz=07B60C5E6D06E1D1BE64B820068F72D3~YAAQE05DF6++1QGdAQAA64rYRR9uv/Li/8cdi/gddM1sRucHbfHcEAn/cklhPby5qifSmlcrvFatK8P2zwmMlboiJRULAcOkuj6cGsSR63xTj66irWDJIMsmdoZE9Zjhi5nze8TJ6CFnPUkyZI0v2XCmzAxiv96NQypnNZjeBfmFdMsGeMcfGR3we9Xkjn/iSbIr53vKDknW2yMXs+FZDuMsTRxG1LkacJq9iMExtu1wEgNHZWdzQN+ElHm9/m7OQp+oHEj/nUrFrQtRQh/1L1nrMXeKDfsa9JWs3muE/yxwUt/pAhV8Tn0gMOb0nzwZamAzrlb7vfR+e2/gVMhUGVo3JvROA8U/5xJ5IIShNHNCxqx9w2Xi+Q+c2Zc=~3622193~3753525; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:52 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": "b05d0a803f7af0c8967ab3da4806713f65e28b2c09a356212c6c15e88b2cee48",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 2.125659999999698
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.B8v4Z6sG.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 436,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"93-19d2a432628\""
+        },
+        "responseBodyHash": "4d4d57e94cba88e2acae61350f615268693ceb22c9268963a271a2cdeabc530f",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/AstroSharedData.astro_astro_type_script_index_0_lang.CiDIR-9m.js"
+        ],
+        "time": 0.2265690000003815
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.D8u1G3xY.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 643,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"229-19d2a432628\""
+        },
+        "responseBodyHash": "a3d2cb62fd9d624fbe478196fd56d6a009d3ce66f68171875c6fd4cb2fdca0d7",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/AstroSharedData.astro_astro_type_script_index_0_lang.CiDIR-9m.js"
+        ],
+        "time": 0.28052500000012515
+      },
+      {
+        "url": "https://sdk-config.kameleoon.eu/v3/n1ux7flhug",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 5240,
+        "remoteIPAddress": "104.18.28.63",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=120, s-maxage=3600, stale-if-error=604800, stale-while-revalidate=604800, no-store"
+        },
+        "responseBodyHash": "ac61eb5479f5ffbb7294bcccdc35b3b90898129e660504d420b9af818630ce0f",
+        "initiators": [
+          "https://www.kleinanzeigen.de/bffstatic/ka-kameleoon/ka-kml-experimentation-bundle.js"
+        ],
+        "time": 1.796825000001263
+      },
+      {
+        "url": "https://server.sgtm-legacy.kleinanzeigen.de/gtm.js?id=GTM-WHRTL83",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 171136,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:56:42 GMT"
+        },
+        "responseBodyHash": "901c6f4c73644a45c8e82c30fc286dc09669380f1c8befa607f615110050b44d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.0332910000015545
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/UserHeaderBadge.D0_hWQe2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24640,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"113d3-19d2a432628\""
+        },
+        "responseBodyHash": "da87de05d2b59e076afcbdfadd784460bdca2675369cf3b7c7a08c7cd691df0e",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.28961099999833095
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/client.CxyfuRFn.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1266,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"778-19d2a432628\""
+        },
+        "responseBodyHash": "8863e8cfef35ed0f5248eb056e4c20b5a1ebb929b5df471f1c6264c9373e82ac",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.25695599999926344
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LoginOverlay.BweLTreP.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1934,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"c7c-19d2a432628\""
+        },
+        "responseBodyHash": "aed99be8d8ae87f687507493fa696301b653be6e883dcf987f8190a6eafa2c23",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.26785600000039267
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/SearchForm.Aw210Nsw.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27211,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"1fdf3-19d2a432628\""
+        },
+        "responseBodyHash": "e2101646d74ecd6004030a0d63cf5714950feb1827666fcd60440ae214998494",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.3148939999991853
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/NavMenu.Bvio-ne9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4406,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"29b4-19d2a432628\""
+        },
+        "responseBodyHash": "04dec009bfa99af997b1a72896201f5ef387f4bef3ec425978f3cc51d7fbd474",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.2887929999997141
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5776,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"3606-19d2a432628\""
+        },
+        "responseBodyHash": "2078fa103b8eccb03749e0e34f8d31a58553871592aaf1489424a309f447ff67",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.7420590000001539
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/df9299be-b832-4ec4-b73e-4f5268a83bfc?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6474,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"0b15c8d2bbf5158b388e60fa5bfe35314c13ba3229efe9abd7efc0f737fa7cbc\""
+        },
+        "responseBodyHash": "9b500d42d7b7240a40525ba82ab17b2c5c6caaa992d6880668be52084a57a792",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7218870000015158
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-static/images/placeholder/nachbarschaftshilfe?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2080,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"05ae1315de00525c2764726ae2c76f1cb7e52d7177b2e9c395dfaac775787e38\""
+        },
+        "responseBodyHash": "8b17d4d0139084b28898a9a3bf9ce848761c19e4aea4465b69f52686b648392b",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.5423979999995936
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/44/44a11f30-49f2-48af-8c7a-2a210179dc67?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9663,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"644e9c685c1562ec59039d84723e53381c04ff202f83ede01d085f454d8c97a2\""
+        },
+        "responseBodyHash": "b5a7bfad619342cf65bad8cfa98956e54ab4555ee369ddc951f2853ea5f56cd4",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7046680000003107
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/73/736ab6cf-a50b-4571-82f1-f380c6b4136f?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12241,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"bde7094bf1ce5ae1d9b4c3d1649338a3e835c48e51acca48caa5b84616b8832a\""
+        },
+        "responseBodyHash": "d86a412e5f5f4b70a2c3be1bfbc1a1b78f9432f9f37f359b308f3dd61b4aee82",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7026910000004136
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/26/268da3ee-4143-43a6-927a-45c0c6279980?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7884,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"bfeb45352b4bc9ac931926ef58ae906133dabeb63a06020cc2933314915689f3\""
+        },
+        "responseBodyHash": "cd1f620451bfce59de61cec21da30f7f6e11369f33ec1ba7b61347cf37409f67",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.5420580000009068
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b7/b7b13e7a-2136-48d4-8c38-cace444af01b?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7756,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"fc88f988194afb413fb7e41ca570bd5ec6fc6c8357d8bf0a468d139ada052a56\""
+        },
+        "responseBodyHash": "c52ef6b6d6867e3a9d4210fcb50a41b67bbc8971af53ba0ec0c9cb97f066a172",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7063170000001264
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9d/9ded73b5-161a-42cc-bfa2-635f93803fdb?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8150,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"664ba5db6d74ead970e59039cc087e3b20bb240576749c291c84b64b6c8a0fdd\""
+        },
+        "responseBodyHash": "af02f04f92ddb90f194a3a85e7b63f46e9d1201e32c178a59475dfb5eb10bf29",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.726318999999421
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed71311b-2d1d-4b37-93a8-0b9f15e5e8ad?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7263,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"e5b29fc2c46ef3d0273f8f9254aadf795cc13fba56a99bfd6c80200833521656\""
+        },
+        "responseBodyHash": "f125f124901334e6e8750964c47bb795f961c7226ca1e929373db1d388058a9a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7812450000001263
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5aa43eea-248a-4edd-bbca-c1cbb3c513e2?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11031,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"806f8cc4e43bad16ced64f356d3e5c5e62ba0b7f6d98da98d28fc877b15b7b05\""
+        },
+        "responseBodyHash": "69e4a9d791deba4975e3d609ef2beae67840b57d6776b35f0d1f11d6cc31664d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7258189999993192
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/38/3872ce39-6083-42c5-afa6-0fedcaf2bdea?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4258,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"7566fef002a8c3cdfde73a6f9dfbb6699bbb49d027e1714f43c47cd97b5805d5\""
+        },
+        "responseBodyHash": "3e2c17a3489cddafc63851b1fee3ec47090d7f38cecede14a928b8b2b5fb1e24",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7507779999996274
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/09fc37dd-9b33-43f6-8c00-21569c82cd65?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3598,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"083c68b4fbe9a90f638b7109f92fe250d8993415f2cceb5c26ff4bcc4c6f31db\""
+        },
+        "responseBodyHash": "0a691b050f73ca9baea348a754d2603415edc485630af21da067b44c183554d9",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7638710000010178
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/ef0d291b-3187-45d2-b45b-b93e53084b15?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10574,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"600b059ea56a2561a8c236077f3a025a534137d8dbf5c147536d1445a8fae18b\""
+        },
+        "responseBodyHash": "be0a1d4bfe9a66378abc3109cde208cfc312c316cc5559bee074d046ba2d204d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7330010000005132
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e7a1660-712c-4573-aad8-349c31976aea?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7385,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"4124856b49da7e2d6b130ee7c28af94168d98e6c7a107cf319e8bf7e2a639ee1\""
+        },
+        "responseBodyHash": "84fde8aa52e56389b90da8179113e5b646dfc41dc706e0494806dfd7a7959434",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7295300000005227
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/060b5867-e529-4212-aac8-7b134995244d?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20227,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"99ca22ca0d1ea7e3f5f80122bd30a38d2f2b1ef24c7cb148f3016b7d92912218\""
+        },
+        "responseBodyHash": "ac6516bdb961a5dccaa28687c09a33c8d90049f6abd4b06df0d309ce89929e06",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.75032900000042
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c2/c20bb731-5aea-4913-b4f7-8f56969393c8?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13873,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"3f6e4018af5a6b476a58f6880f7d49c7948628bb9d386d075db24f2d8f155550\""
+        },
+        "responseBodyHash": "81f88e0955d9002ec82aab67fad5477c482ca7d57cba89dacf9e86383d186df9",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.7234250000001339
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/_commonjsHelpers-CqEciG1_.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 768,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"59baabf7dc52aad7bc96cc99428f5513\""
+        },
+        "responseBodyHash": "18f904a519243bcbd33fce40ec0a11daff269b505288d6f077fbd6f2b26ff75e",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiStub.min.js"
+        ],
+        "time": 0.19910999999956402
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/tracking.BGXKYeNh.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21678,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"fe76-19d2a432628\""
+        },
+        "responseBodyHash": "bb981bda4d60ed3d472507d25d212e6b46b0990df57b8fb1c57e5f3f7b025b9d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/GATrackingDispatcher.astro_astro_type_script_index_0_lang.Ci_hKvl1.js"
+        ],
+        "time": 0.24664599999960046
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/snackbar.DnRKPBC9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 508,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"15a-19d2a432628\""
+        },
+        "responseBodyHash": "21efd81b0ea6306f9c9d96e09bcca8a3ff71aad332cacc7d3c11322cb076abff",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.24529100000108883
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/FeedItemTileNewCard.D0X0CMH1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 67117,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"3921c-19d2a432628\""
+        },
+        "responseBodyHash": "b0cace93ede670e2e354cd16f2b58fd3af815e424e32274904ffdb540539e86e",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.8162350000002334
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1ec1bb60-d52b-44dc-89fb-7523758f545b?rule=$_35.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5872,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"b0b087a0f123fcd122b440b319e3f3f9b681fae86d7dceaf7232c78fca3bcbbc\""
+        },
+        "responseBodyHash": "4d019609b0fc04720db4bc4059ff9f2778be7bf0e17cbef8fd59edfa98874620",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 1.6656849999999395
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/clientLogger.srFzgbvk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 515,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"127-19d2a432628\""
+        },
+        "responseBodyHash": "39c344cc1372ff26a2ca4a279448e2db6b8ccd30cf7030433daf7d97a11cfe76",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 0.6648089999998774
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/ScrollToTop.D3Nb_dB9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1167,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"5d4-19d2a432628\""
+        },
+        "responseBodyHash": "37f282c32743afa121d6e601960c80e7cdcded924248f0a30362a66ad55921b3",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.6644230000001698
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.BEIuBV0D.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3826,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"1be4-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DFznxWyWdAQAA44XYRR+tH06Zztp5v6CY++uzcr/lS+uF9f/i585Ojgv3r/1IQIVco6cbAmLeyTHwL6wWnT7RG+RfOC1sh58HcOlngVcY0dwlVpSrAyzr7cK2vl2a4jqYhcwoce9pXApJU/33gAtbJqLdzDBMibiyKwKfnrZpQ7EiYPVLL/LNVitxXC2NFqm1Dm7lNfx6BVE9A+gDUojGuUuVFzTcr0pSgbgI4kqVgJjwe6PHbAp38ion7QSavW5iEu/ZF735iu7mbxAZHVW/WjHmOpBz+4zc1JqWl2b1eh5d0MZ3pE1Ihk8/YAdE9mSxSIZHauIGQTrkUpPN89Y+6ZUk0RLeMXro3yd1aYkTu4XclYg5TdsxYEPuaJZCkcWBhvvUvq25ncLVKkeyR44lV/OS7T4m36Ta5x4S4FS92u+AbU87Id+ORx1fz7aX8crrCw==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "f083855ed3c0a6a1267c9833bfda56e4bc0c5e78ae04ddbec9f58510db7b1851",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/client.CxyfuRFn.js"
+        ],
+        "time": 0.24339900000086345
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.DbbzNWlM.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51421,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"20be3-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF1XxWyWdAQAAkYbYRR8+HfAob7JFXkq1qFH6XtVj6oMlivV9kuImx+4L2vVz2F4w1367mOr264PfMOZvd+ljak9V9/2ResYJrwi6Hj3mubpqbpwBA+7s+nAQiXa6UDArOCJMelIEJivsP16uM2/ERwiw2PpxpoxAeApWoYPkrpda8gVwhtlTQ7NIOyNqI6Y/hn2h/iQy0qSKcHLVQc77i6jfYRJtSEeDFQ5umWwRFK3dooZy2+FjPYydCGDxx/jSuhLfZ1RwWQB8NCK1aMB1xEmGYnJJnd48VCv+FOymXm6mYBeWUhxsTlCggYhx98F6W4zHt8xGxf+Lv8aivdcbtuyIwxkt3Z4E2mn2SVUFCQzRQzblkkSwzvP03v2gY1ewoQY//djtXbL7w+RcQrN/HDuDn70komhXoVX/rn2XvbJsc7TTQr08UoacTARgSQtHog==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "9930863b4d6a6d203bb0f92f37f739c7794669373900d87d344dcf043f3738fd",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/client.CxyfuRFn.js"
+        ],
+        "time": 0.40112299999964307
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/liberty/liberty-js/placeholder-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3434,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"8c627d6ea863d5be060e274d5f5fbff8\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0HxWyWdAQAAGIbYRR8MXUMKCpVsRfmZsuQFMNf00Ov3tghhDq9aiD2OlpGhf8KOQs9w18MNrcA/7gdlAGk4AidY6toJ82a1MVhAAOH8i+oBSidYygmr0N+/IgipCqwP3DAKCxaRvWuIzYUQGCHk/g7mGeXfnOnZRYgrVUJxHmAlI55XOiDwMyYL/1uWWFsHKAIqRoAseDPq8SskxgsPwBnlIFlm1lglkyMus+00SUT2y53VNF58PGcKG/RagQkkoUDYkasLiw1r3yyueOMmKbz9VA2bsJmbAZPlQQCcyIMcS2E5rBsxJKGa8dAn/D41aKosJ2byMQSK3vxwoSbGqVfElOPnWOO7+ICS1OYBk8hkTV6BDBfrY93hEPOfSh0S1Mrat+/9C6VAI9ryE690K1/VdOuiDEbdCR5O/bESSlDo6wXZvTGw5eYF5jnQXyonNQ==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "f1730335c703817082096a6c5f04a59e50b1e4ba61ed98eb26e580f566572f5a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.css"
+        ],
+        "time": 0.25166100000024016
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/FooterTabs.BUMzz-s2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1862,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"89c-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DFz7xWyWdAQAADobYRR+yBa3MXqnaXdHOJTWfv+FvCxNvGv/tPcYRy1LpHiPh2aAEDMA3UrJdikyCzJDqytYuxFnY8UxtNidS0ggIm0yjHsS+vegUGRt1uP4SYvuH9pboOgW4JAC+QYGLx0eOygN8rZ5WnBiiOrwhsOWtov4/qWb1vNsQiPFQ2yZqdJFpu8p/jDJXbA0HkrImZkmZrrbXdLX6fTPCTavI3IvAQNWGw11nMHdaqn4QXdEOPavMRzuS0IfiEfHKnPgO/aSm7NUu/USaW3KTUbLKR0zU9Yy5DoQMGuarkpy0zpcoL9VsQuZvndq/a0o81/qOCKzDiEg708d3VgG3QHCiDu7JQICgnBVj7Ld/G+Id1KxKPPpeAWk/g7gBFum4RZ/13oNTIuis1QwUcZr28laVJF7keDMyyESo/u6dr6oo72lkRErXfVoFGw==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "7de234625b9713e0557a8c3517d37bfbbec0a8426bba8ac97d9fcbd3ddc5243d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.23759900000004563
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB",
+        "method": "POST",
+        "type": "XHR",
+        "status": 201,
+        "size": 959,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "set-cookie": "_abck=B0C10B0A1D3F93302C72FF8225F8BC01~-1~YAAQBE5DF1fxWyWdAQAApYbYRQ/R88hYVnDl7yGUoMyFXYFtAyRWjJW0QIRIchy/K7KVBpxDAYpGps3GUL9qzNZmB+hmPsoXdxEUqz55V32CFfrcQHZkdR6J8xjl4lUohdANfd9wSQwmste18/l/n76W5kjJxjwQ08MGOhkz4CJgd4YcfH0mn88QX64ZcmQ7HdJi6h/I5u8MANnhnjqQ5iOS+O7CQeaMLwAseMrNytXiP+8lKyUYHHIv+tBEAtoDrarZq++mtQ8FrUHDaM60CG9xC2LFEXZ14Fav3g+Zwv/FZoQdQPo3MWsuhvH/qndUEkIn/MbtcpkUMgRrOUiUNGtvvLAVBSf+axxqS3Is2qAegtFNsP8nWA/N7uAIEpDnYwl0dvRsufhfnqx2xJyjnNfKMHmca2PjF10LXgJ4CxLF6ZIuZ8cBbWgkkV/70avQ5Vnjtb9T07/erfCOXOKiBCPIlXMymqQrlDcfViMuRi8Il/ANss1MPrWa8OAz8dhUqvXqWOhDDbaM26KaiCSMeBG95iFzV6Pd3DFfMecyOZFEPJnSAu4+eaM1C4KD7wnyJmB8aMzqmdZkPwBGlp9SQI1WBpfrKAPHBIOv~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f%2fDtA4aUsmDN81n8ejN9lBZ%2fGamnD66px9vRcVy9i8YjY2HSUiP4nfvUtnuyUXWw5QnFTmm5Hu83D9rekBdvXyXBPXF5SFaOqsc5~-1; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 31 Mar 2027 21:41:51 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB"
+        ],
+        "time": 0.4130119999990711
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/clsx.OH3aeX6j.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1462,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"48e-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF03xWyWdAQAAcYbYRR+kdeq8s0t5q7OUOa9+tMVxBirsIP2WGOnnd9Rg6fyY1SYuk9/v2NLKkbyj7J0nw5ENG509o5TYreWRpV/8ujrr1rNf89CtxpRGbM23dwa4ri7IjmLPlAdD4J5zB/Sre+K1pAUXgO2rEAw1X8ADWMCeMntJJRJfjIJaD6gKOwJRoqrNBUzE+RshuP2qDWLoINW0efa69ig/PzElHYlANzalwkLaX4O8YbgZ0Eqiy5OVjv1bgo8hhu5vPjEViFW2AeKePG0dFbX9edxcljXaoj+CofQrDYAY7dWDhutsoAcovHCkr75yxRv+TefW3rX4zFlxzFjMMBr1aZOGgRLy6GjoPbPCSc0WCTSlhpkxIhMIABL/1YoMDjh0ga8y+CnODOde0UnvH6EA4+Vc+aFJO5UN3ziQ1Glidc8/gVyE5s34sMLjpA==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "97c3e44adea8b728e552039999250b0f9845edefeaaec3dcb2b0439a04790974",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LoginOverlay.BweLTreP.js"
+        ],
+        "time": 0.28902600000037637
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/ButtonLink.Drm2H7hb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3173,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"1cfa-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0TxWyWdAQAARIbYRR+yMrpJVnlbhL7ne6wV18EwWsWqCyTrsfiOpUcmi/SIE3ZDc7M760u66fDRofAe+ymhA3HpVy7OcPOZ5R4hGEkKS79vJ0sAD0x/RTAM6JQrBpg1JrR8AerBxk7LH7ATtfONkfAOBxJMXJNNO6JUmNflTVjlN86i/SZ1MCSbYOyqZUF+cjrdmp8rlXwcTMzPpyCie0ZeryDtp+/lHgAm3JpqeoXJcS9mCztZ1R1KKyB6+bKrKFfR0mSkzpxo3F/jlGKoegInCuA9yLR4W6KXblLBMXKxS/pn6aIZ/UVWfRE1dAI/pfM38gn7lFFC4KpceIKguk27vG3XZIFkJqzUr36YNvO2EgJ/cS77YpkakOfBlSn5rz3WjFgINtyd72wAacaQj6bmic0i4ln6efLJzFhmMZ27YNwLM2cZZBa2rrPgo76mNQ==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "f9825096eef2cfe513f528218a9ac4f41d2d4b6ea94955812344c3f1e49a5e97",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LoginOverlay.BweLTreP.js"
+        ],
+        "time": 0.23128199999882781
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/SvgIcon.styles.Xzqb8zGc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1039,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"16d-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0nxWyWdAQAAUYbYRR8slKg4SJlBiA5HoGZDUdixITQW06hqEtDKcNxTH8pVVhNnAn/mQxbJH8CADR4NEjGXRiQpFEUzjRDOzWCnCBAf5+h3YTFiTuOZlbXOoSBRdgut0HPeUSi3FDU4o/FCMEy0V1x/4K2zOH5QipeOXKZah/47oMsRyjG3Us5iKecDbipKuBQheXM10Ok5Ysgy7skeF3coMxCacHKV3Y8G5kUpzV+FKJyaKRdocqWTxtWmH8WEpLDQBjVDXqU/uyX6wDWD+KCFbPOW+uKT0rB3DC80KMS6xdalGV08xDbGglBztA2TayvRt6/dQvQX6pZWPdA+eb9I6SHqp/+How8g4WHhzLEkisauTPpIiwIkhNfYOrMkGcpHtWFLLB0/fXQtdkaCbB5iQvGoZws3SVHCxd9HDXaZ6hdENdwijeXLaKmvftJgRA==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "c6ea50ca1a0c9d973c492cdf6ab7a47567c522b0f697560916394802c1e543f9",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LoginOverlay.BweLTreP.js"
+        ],
+        "time": 0.2315340000004653
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.CT25kfhp.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1254,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"2e5-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0rxWyWdAQAAUobYRR/2t+00QsQOwyweQ/vlf9v0lPDVEogkZi5IqR4L0OlK/LYExXEt6icbD9S1kVp6rycvZOnnuFfBWptSiBKjAmLKDI1xn5SvPp1aqup6BdjgxunojSciDFvS+PeHr197oqUMBOc0T1lWogZPqB6osmIUlgHP8rbg6TTF/Uqt6WsiYjKxUBIWYwJIGAkrl7Ph3zRUmj/AvuH8ibVkw0UlQHbHD0IGbc1WeDZX35OkMh9mxIP7eA/bhTREIMua/hWvXit1mtRqeU2JyOfWWEqkbBD3fiCurQ1FAOynifa9JGMDmNUhW8uobm2mQOkrc0+9Cy8zxuNYLlk2coMjAjB2qCi2gP+8SfZBXgiXZ3qtWWX7kb+tpUY1Ct6ApTVv3oqGXpP1tFesMJyMtpzL31cYPWZPKDXM0yiiCKzDb7WWmdx8CoIrOw==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "b95d3d7870e17b8d9def4f1d9dbd8ba62c0c6c429e5088df2027f61ca69f1003",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LoginOverlay.BweLTreP.js"
+        ],
+        "time": 0.2317189999994298
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/MeinsOutlineIcon.BSi1kV6X.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1447,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"47c-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF1PxWyWdAQAAjobYRR/TP2RPwem6uts3M3yg0Kuvhj5QEzQ8KKkQ+EFOD8KNsro1kwzs78E/gNHQC2MTHvXtHQ6MA0bt1bkhdW4nzNSEt3lzvsY/gG6QXRprPrydqdmQQGCFZWNEejB+XXa2dlwdElzkEu1rSY3ZCqakuVflFXWyBkOYJ1aXmN02asOztZnFZilC8AcsqJkaYBczrsxjjeYjOmICQvvdshGTJuw1xm07bHQjWyMB6bHG0lqCi0ntxbkANEB01KLpOlpr1eIhJtBBDSgh01Znvqi7jvPMm2zgHU43XQeALE1lhqpPkxbhO4XvcZl/lDiT9lUqh1TdUWDF1dX8mYSVcqkp/sbdznI3IW8DhHorP34NHp4sCf05ek+eOuOBwBA9FpJ7mxCVZWb2icd32hrwp0AypjbsYCbQwv6RkafR48vMn6WNNwaCRw==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "10546d1ba12e0e0e1bde4ae7df9b390de010624c559a45b8ee6a83f7f877b29d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/NavMenu.Bvio-ne9.js"
+        ],
+        "time": 0.2845480000014504
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/floating-ui.react.uwMYgw8l.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16553,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"9808-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0fxWyWdAQAAT4bYRR9UKDNsva1XvEJTWW2cSLlFDcFVgqk5FWzqZPmsyKXqhroxCauV55FWlUhzWOinBwH9wLe/SOm005S2w21hQSD7pAQ7ciUHBq81X6B7d/fspHg/w+TjuLVrHrhrgLIGcfJ6ZU72pOvYC1b5GhdytnHpOjJG4aW+W3z+YE28cLYBmkXeBsJoYsLthTfSFtZ3955aJFeHC13eG8iU7iGCviToHFrsOmJauVE6vmMxUqKXYHaQR7shPbm+UOD2OIpJjlixHPVzDw7Y+JhFMcFVMEW/tBHX+48nkihp6CXzFqjDaP/CoOJgjvGc5BYoVuqyl6ggPItTc5luZHVnR057vLbdL9RunFIyOXcir1qw4fLxL2oUQzI1O535H8mg6ECmhjtUubhEadSeL3d8mOnK1vEGUOpDOmOQgwICEcJ0+B6tFik0pg==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "a8592231e95fb119a8681e3031cae0fe3298b4985d0a4cc8673fff647ed9e530",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/UserHeaderBadge.D0_hWQe2.js"
+        ],
+        "time": 0.22721699999965494
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.By4A1jRE.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 895,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"68-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0jxWyWdAQAAUYbYRR9Lw0AgY2XWsEwYaaCqYAH7gUgKwXk9t+VKp/2Zj3s3vIav0aEYLbt604Eyhh2wUBI2rzeCERncmtqOnb/bnpJozcRSvLsCTG01n/c+n6r7OowSekpXIRdOxR5Np4b+SO1XAFNzx/7jE7f8uto7hrtSmKB5BDiqdvfYKFpZNZUPI8NDMxuIFe5OXH/RrJbZcUfLPCo1BQ+zajTwNfgmfDc6NOtBh922T2PjK4PvxpaKAWBWKo2RgbsTeH5jnaCMqXD5x8dL0eeqntGkD/wO4f7zvIvLpC3LHb+YKXu3FEToMszQGwG8pVq/xyIDoCWz6x54GTY62xxwu7vqPs0QkOvlfZWpQtfAy2Bh7Em1R/L0jK9ZtqdQZMXu7vCDB3+Rs0T77XguftsBLvpfW58TAlBNa5ydxEKzWWwN3jOSCt3L1NRtDQ==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "eb475a47368a4ab723fa1c10eef6c5dd0033f89fe4600d97a50aeb32f4d96432",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/UserHeaderBadge.D0_hWQe2.js"
+        ],
+        "time": 0.2273960000002262
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/snackbar.DBFH2WhN.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4172,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"1f3e-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF1DxWyWdAQAAgYbYRR/Wd2z3WWw4tasXmNyLVnVVTElrik4Yypk5UcYe4tlo1vQAqWilwQseEiaK9qw5QPtr+iLoEwcvlbhDHfIWBpVshxc+UZUQV8K3CktJa/43IUXYgW5hGZ4QW3961EdSsyPM72hN+bcND+kFJW9s/D7IgFL+UyM5aEhNLlciWAiw7jq4DUm/EdgmqHe7t6yPKIW1L0hs+CPStFlbRPRUfRX+jAir2hr7wc1VPZa+cxUenhhcGEV/CMnrsD+Fc3r8uJ061nQNwjHq+gB3tJn5E6p853AR3JDq1E9iYt8qnhvP3U44RS/WeVhYna+nbtqyjCc1hlcQIWjLSfpdpMnpPqVm58VQnIoEy39blDp/u0KzM/tX7m1rcC/hC8j+W0IbGJJXN23tZZW+7vh/kJ7ba7ahBQC/Xj7EUnSelh2x2uqyBsMR7w==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "2e3270ca0356851c9549f5ea79973f8b19869a5665018dc1b79f120dea94053d",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/snackbar.DnRKPBC9.js"
+        ],
+        "time": 0.2849260000002687
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Button.PccUlzeC.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2697,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"17fd-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0bxWyWdAQAATIbYRR9BS9cUjFczbopdsbV0qFt+kHOB1L4CmpmMCJrMsYPDzZjYYMcacR4StUOoAF0omR7qy1P2eI8lx09O+bMcrkqYEP4DfJtobLZ388w1DGAJ9oEGtb0Ts+xh6reaiDSzjR+nhvTbQyJPs3EUnldaRcJuL61YsT5BT1hn7fM3SvRJfNElAGca42k6QPixpEqm6ZJfkfuSHhO4DCGMWtGtj/LGQ/W/lBxPzgxG1ILnqjbWwnEBG5T4+9E3FCdm/RTOQ2iDopYcPm3Wn5LV2TRJ1MSbQi8cB5uKcj3egAiVaP5MKRtCSte6zk4AoWHeAGxipOQm6QvTdqZCMeE3PDs953zn9yqbJQ76ELdDwbY/GGjB9WQFhwyoTo91148tIFes6rCqbUG5bzclSFJc0jO7tRp/+zzdlln4SVt8jnTJGTCRlXndgA==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "8e2c00742138fafc78f36a84b66dcf35ea99a7d10164218c6b06bc96df995682",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/snackbar.DnRKPBC9.js"
+        ],
+        "time": 0.22757000000092376
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/IconButton.Nbs0syVp.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2091,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"b41-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0XxWyWdAQAAR4bYRR8F+CU1kjw7Lj2OgaCho5r6z5GyUvsjIL5hbez6MJhQF5LkKqpQdJM9/mOEQApW6VkD86VxWOTeqgSb7fdBPIVvvMQbxk2gXLqZ8gHa4yuz81miVYhv9i7rGqShjWARgp6RdTYEDx1nu8XDc9N4S/wwOn/k8nVV8xqSbEgyTtEn+E8DEQsDxhI4ozfV+DD99yG6GyOoEWF6pQR076D5+qwqfS3/49NlT2vidBd+9dg6qTlYz7SlXQdkd1JJUwYExpmml73v87ZfaQcsJdiHGPKihD1M3ayotcfRwuXnhQ3kU/JAbfxEz4oVozAuVX6iR9N8dWNsM/YL0ZXRvjoSMldc44tukB76OHOAR/bpA7pJfegtawN/iw8h6WqPss4MBZvQf6y1z5nAbibGjjieZXA/osNJfA0ZDgfBbEaNLUUBiXgcIA==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "eef85ae278ab0b52e4b81d28e6ae277abb12b6427fd028fadc6feaa4bc0a019b",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/snackbar.DnRKPBC9.js"
+        ],
+        "time": 0.22766299999966577
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/FocusScope.gTGS_AEQ.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12647,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"824c-19d2a432628\"",
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DF0vxWyWdAQAAWobYRR+iMAB+d8WJwzJUsGNXfEDyRfXcIYKS9tWzH0n3Ct3s+gADpUOrXVbQITVSKGys7yrANyAu+/fpV7DxIZW5aPEzGUrfIKBnQB1R9qBFBlENZX4fRseNz3jpuq7acTKdpFMRUNBPRRFpy1CWEmtNIvevYKqf6FtIB42pl1b5NNfTeB16q14jX1mIs9YWWQw53qt8aQ+IhidWrt2Seo9RDX5lnKHRBU8HcsOdjEHgX2yerW7vO9t3VLIBONmIWMg/mB99ZNppJeirHHCinQYKzY68NV4SFlzcAVTwi6N97rZqwLOixvw9qwL5xhQIuPvr99NHOP+3osLGGVbAYAeJpgdMY42SxPlPCQSIpt77LdtPwyrr6u1lZQGNGvnhrUW9rY1y0kSIUReASkiWboOR4I/ArYYE0ft87erJnL7478VPmDAf3Q==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "a5a62cd38586e7060b70936374a85ad7992079042575fe9766d33d711393d9a9",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/snackbar.DnRKPBC9.js"
+        ],
+        "time": 0.23696000000018103
+      },
+      {
+        "url": "https://sdk-config.kameleoon.eu/v3/n1ux7flhug",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "104.18.28.63",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://sdk-config.kameleoon.eu/v3/n1ux7flhug"
+        ],
+        "time": 0.25197900000057416
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiBanner.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4480,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"f9e9b0276ebc615cdee5438bc6c7d4ae\""
+        },
+        "responseBodyHash": "ebb9c721524f7853ff255a5b6f57f35e23539eaace6c2bb1986a894932c5923a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.227350999999544
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/bffstatic/promotion-frontend/promotion-frontend-bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 49062,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=600",
+          "etag": "\"048bfd035883e309ed98e5b3bad593e3\""
+        },
+        "responseBodyHash": "4298ccf50bdfd6780f8fbd0e4ce32ac298ed82e5cd8fb04a28b89985c18b66cc",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/PromotionScript.astro_astro_type_script_index_0_lang.xri1vRDo.js"
+        ],
+        "time": 0.08186000000023341
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/akam/13/pixel_2f5f0d91",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 576,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "set-cookie": "ak_bmsc=810638851D72F383BA7411CF516FD917~000000000000000000000000000000~YAAQBE5DFzzyWyWdAQAAzI3YRR+YEFVsYIqdjXle13AiCebY7tFDp/CY4W8AzWFrsJFTD4jcZ0p8/eUboeHnmTfZg0vaIoLlTysITsQTFV4z9N7fqP9b47zUUdG6e4xvCWkTjDK/9FJhqzZBuLJJtsRVZ7tANbiEAowxD7anbUdP64t7QlfYSYYmr5iPz5AcOUjMMYa5kaLHpXTxec45GZK0c1uoqkkXHuD/ALkRRMcZp2HyJQq/bwDJF/QhB6zElgNSxZjLB1PfRaxg6zMR30zs+VnVUV+Nv+zws09CjhzFSDzInJvksLYhimkGn65lfX2eirh771eGcRP+PK8oqGEWc4+qjzYIXYnH7BdseEYAgyrURrlvIJ7a3YStGV2zn2uTLe2MkttqyzdoJ/mGIkNnnelTtraEpAj4yG2deT/NRjOSbDOe8VEo87Q2qAnQMtVyvCpwlK+vp3BDr1WgKqpcTw==; Domain=.kleinanzeigen.de; Path=/; Expires=Tue, 31 Mar 2026 23:41:49 GMT; Max-Age=7196; HttpOnly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.kleinanzeigen.de/akam/13/2f5f0d91"
+        ],
+        "time": 0.05879399999867019
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 105008,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=300",
+          "etag": "\"df1f23460b233335188ac7743907876e\""
+        },
+        "responseBodyHash": "1e2ac975d5e8848eed7f629e3d09db8bafdb4b1f58e4a8d7725aa191872140a1",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 0.21584699999948498
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/virtual.DtPxpe2a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3439,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"1a18-19d2a432628\""
+        },
+        "responseBodyHash": "df54ef9adc19bbef26c93f63ed0b8277fef0b9b84c915983d2f3861b04599ef4",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js"
+        ],
+        "time": 0.3187969999999041
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/trackRenderedListItems.CC1fGwX7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 772,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"2f2-19d2a432628\""
+        },
+        "responseBodyHash": "cb791259a00c11386f4d0ee1795a83e9157c7c8bdfd4059d3fb4f59e9fd645b6",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js"
+        ],
+        "time": 0.326415999999881
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/ButtonLink.CoRSnm6T.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 809,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"36f-19d2a432628\""
+        },
+        "responseBodyHash": "49fb101dce72298234564c4e39b3a2fc4b99e2fe4448bddcd46d3a46c34f03e1",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js"
+        ],
+        "time": 0.32082199999968
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/utils.DI994wIV.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15675,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"7cf7-19d2a432628\""
+        },
+        "responseBodyHash": "caca21222e0430378e243ddff0d726addea2d078ee9bcaecdb2607570c9c08fc",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/FeedItemTileNewCard.D0X0CMH1.js"
+        ],
+        "time": 0.321804000001066
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WHRTL83&gtg_health=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 392,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:41:53 GMT"
+        },
+        "responseBodyHash": "c24c8a68f1ffcf9b37963dfdf26c4874c307feceac1245180f85db1da436416a",
+        "initiators": [
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtm.js?id=GTM-WHRTL83",
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.1082459999997809
+      },
+      {
+        "url": "https://server.sgtm-legacy.kleinanzeigen.de/gtag/js?id=G-6V6MWRHVN8&cx=c&gtm=4e63u0&sign=95206f277de44c4ac023a0a7d516e42021e33271fe6d19ed6b09972de03ad9e7_20260331",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 175574,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:56:27 GMT"
+        },
+        "responseBodyHash": "fbc5462bc817347cf58a13f14e8a4eec043aa4e6d346f99ed968fca848fd7fad",
+        "initiators": [
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtm.js?id=GTM-WHRTL83",
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.4293890000008105
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/main-Ca5evQ4p.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 45070,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"2011980963d6e0c7fcc6ac4774537218\""
+        },
+        "responseBodyHash": "3dac60101b724f4c1619ae04f06d6b568ceabd14ce4efcbd68add75219fb4865",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiBanner.min.js"
+        ],
+        "time": 0.19041499999912048
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/ConsentService-CIh_vvol.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25827,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"5534b4a4ef7bd4628e03d30004334284\""
+        },
+        "responseBodyHash": "2ee481c4d4d52acfa6452f7f23c9b6dc48d0e6bbd77bfc9a60cbecb298421860",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiBanner.min.js"
+        ],
+        "time": 0.19595699999990757
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/gdprVendorGoogle.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5969,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"b83e964caf9407fdfa93f1d8bb4f7086\""
+        },
+        "responseBodyHash": "d935f18ba2c4a416f74298942a9ce67f314269f9ca9bda8904d2b829cd3930ed",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiBanner.min.js"
+        ],
+        "time": 0.19062599999961094
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/v5/search",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/v5/search"
+        ],
+        "time": 0.28066000000035274
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/v5/search",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 38356,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "set-cookie": "_abck=B0C10B0A1D3F93302C72FF8225F8BC01~-1~YAAQKk5DF5LTsQKdAQAADZPYRQ+RWxBOdI6yTtnxZ3mqkKKOb1aysXMfPyqJ8qqT4KpktsGdyxObyP0zC4TNvXhTg+m+q67fYrr6SQXLDm3coXl3n2xHRs4BFqKbkklz1YiPuna4mXRzQGSdfiG4uVH449+So44bsEz5LMcmK00fClilkJ8jnIIKugjqcNwXtSbfn/+p0bWRojJX9VQ/PZufLlUV6hBZA7nZncXzP9d+1j9qMI2sp4PaUBoS01bK0GNpaB+vYwXIMvsc2huUdo7H4fV9ba3/kf4n7i4zvfRxgdaZFR4hIIbkpO3Jgf6XleSAdLBaCHPZrZrZoI/9/YpJDYHH6rNMh0QVjQl1CRcb75XPWxvgofU7qrLcvX+SMh/xabFAlkFTTfl30vBYCnfHNpUFvBVZkVcvK0z+doqT8FsdoDSpO5LSt/LuKbwyjb6uXltZuTn+u8FXJR35rlnXa1zW+haPZREW6G7LJuuALXMIh6pIge2EqxOJiXo0YuE2SFdHhYNFTG3cvWVQCKxq7bkKu/f7nnrys9+3mV8g2acXn7Mko8HFUUH9tgiHY0fcjxXvPrgGw5liw8i5l5H4qJavZcMQznMsEXB9zSDr59sjtKGlXbNjzBOBuXevTz8CGljJv+K/5QfrDkeChLIWMSS1dHbYIc6vWNRX4BezbbAT6wHrhe6HHmaAD35kwu5AjOdAQm2TyrzZgeMBwQdK1WWlfqwBt8bl+WwiN7Qcpb3B1bL3Jaje43otNZv9E8QmRjtUgsPTNK6sDsWpAfGxkq8s1ROxNhqKPD/JsS1cuOcE8nGfWrATPS5AV+8n5LD3SqRzvwzxUsvMojHN7i3syGsD9ygdDMfrhLg29rGayD/KgwUh6ICfzPqT08EC1Cv2IA75Mw==~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f%2fDtA4aUsmDN81n8ejN9lBZ%2fGamnD66px9vRcVy9i8YjY2HSUiP4nfvUtnuyUXWw5QnFTmm5Hu83D9rekBdvXyXBPXF5SFaOqsc5~-1; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 31 Mar 2027 21:41:54 GMT; Max-Age=31536000; Secure\nbm_sz=C9F8C633877C58BE8E0D939E0AF34B83~YAAQKk5DF5PTsQKdAQAADZPYRR8EHLeVtgiy+nelK/u0/QQ9gpENRp7tqqKK1xDKHh0o2AKnZglUwWa2HTeMqIGM1rKP3GiIAylRDRWNrZCNNDXVeGZ0lRrCQeDiODzdg7liS1nh3enhswhtXmZba37Ybe0WKSOvnptRbQDbIU35VFPMDFcUuYWAsDQ0M1ukuj3DFu4y4GpdS6Fr/8Vu8mHvkQoHpShzQ8ZS0k4MHDBQG63SULAjcFiR/ZX7wkiJADHyFPv9J9eBbcXBB49yDP4iKd+hGTF07oQcb2Jb2HyfVvlLTWvK5Nf4bTdxhIo/mfy8Jk4B6aqjpjoPOx5YG+1nTXAoUxwlJOILk+iM/7EO4PmZ3xgw9rMnyACwW/liNBBwu/wRpfJ+McKfSzCQfyAZVUJa0SmN~4600888~3355969; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:49 GMT; Max-Age=14395"
+        },
+        "responseBodyHash": "c405308b30bdd39404fd1e6233268a96b5451a9572c6c972d332fcde64c77789",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 0.9314930000000459
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/_actions/homepageWeb.gallery.getGallery/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2469,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {},
+        "responseBodyHash": "cc5c053c96c88901d6b23dad285908f84d5ddb5098dbe81be59fc891998658e7",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/virtual.DtPxpe2a.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.DbbzNWlM.js"
+        ],
+        "time": 0.237503000000288
+      },
+      {
+        "url": "blob:https://www.kleinanzeigen.de/578ae3bb-6c76-4895-bf8f-33d083a22c1b",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f1476ea96cb762de4e62c4784bb9cb5e6614c172c48d3d9ade7303dbf3cadb59",
+        "initiators": [
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.05268900000010035
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/gdpr/api/consent-v2/defaultString/v2",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1098,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de"
+        },
+        "responseBodyHash": "ecd74e0387a779e1316466c3c162f117bbad1c584d6e7654d397d9bb22e4d8d1",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/ConsentService-CIh_vvol.min.js",
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiBanner.min.js",
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/main-Ca5evQ4p.min.js"
+        ],
+        "time": 0.5715829999990092
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/gdpr/api/consent-v2/defaultString/v2",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://gateway.kleinanzeigen.de/gdpr/api/consent-v2/defaultString/v2"
+        ],
+        "time": 0.2883570000012696
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB",
+        "method": "POST",
+        "type": "XHR",
+        "status": 201,
+        "size": 1008,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "set-cookie": "_abck=B0C10B0A1D3F93302C72FF8225F8BC01~-1~YAAQBE5DF7DyWyWdAQAAVpHYRQ9YzzvnLXTfIBh01Zy+541Y6raH+62uSG25LDSEiRyaX3Fute5AKZSTPZchfeixWvGiJ6RkzVQuVzbxmQef6sqjqfDp6AQVKeeDxNRfseWr3rIj5J9XicCLlvzx6BMUzgg7H/rhypDhyCVQtB69HWhPpwWiKo685i0VFMBDTQKzymQWQSyC0gWpJCdqkFMaA8H6ewy5Kv2M3pOdj6b20VqoZrmkPvR5sAFfsUzJEddPvVbiU8wZAFvMhS9nLRyOv+x2Qgj0ucSL1jBVuiAEXhhwSv58W8SQlMAtYmkzIl6FWQX0B/vvY2qL25QUbPnAGtjWYFmDcqDjKve2dvdL7gcn3PBohsyBITTsSycSUbqrM16mfQhmgVIq8UyprJmMBKZqlgbWru8wamKGz3RC1Oz1hfu1YP5RplhBsHWlITPWuDkeOCnOoGOM/P/keEZWyLFxWwKNBV2x7GXqKED2NYOw1+CxftPMRCvgFfOHDvstUEEM9rhTIyI790lNQKDEzW49AhJ+QyKmnP3jZb7v8LyzORfTwrV1CTprqLZx1H7OIr6fNr1gXJY+gYY/DwPk6fyDsUOJEqlx5Dor2OvX1fdQvWDrVFVBlRffRIeVn+eqIM7SSIDTxAS2tCQRMkEOew==~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f%2fDtA4aUsmDN81n8ejN9lBZ%2fGamnD66px9vRcVy9i8YjY2HSUiP4nfvUtnuyUXWw5QnFTmm5Hu83D9rekBdvXyXBPXF5SFaOqsc5~-1; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 31 Mar 2027 21:41:54 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB"
+        ],
+        "time": 0.28330300000015995
+      },
+      {
+        "url": "https://server.sgtm-legacy.kleinanzeigen.de/g/collect?v=2&tid=G-6V6MWRHVN8&gtm=45he63u0v9178804935z8848752430za20kzb848752430zd848752430&_p=1774993310719&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=1000h&cid=1093670146.1774993314&ecid=1267528393&ul=en-us&sr=800x600&_fplc=0&ir=1&ur=&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=denied&_eu=EAAAAGA&sst.rnd=182631647.1774993314&sst.tft=1774993310719&sst.lpc=101969243&sst.navt=n&sst.ude=0&_s=1&tag_exp=0~115938465~115938469~116133313~116991817~117266401&sid=1774993313&sct=1&seg=0&dl=https%3A%2F%2Fwww.kleinanzeigen.de%2F&dt=Kleinanzeigen%20%E2%80%93%20fr%C3%BCher%20eBay%20Kleinanzeigen.%20Anzeigen%20gratis%20inserieren%20mit%20Kleinanzeigen&_tu=DA&en=page_view&_fv=1&_nsi=1&_ss=2&gap.gtb=2&ep.hit_source=gtm_web&ep.consent_string=&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F135.0.0.0%20Safari%2F537.36&ep.u_li=false&ep.platform_version=2&ep.platform=Desktop&ep.p_t=Homepage&ep.gtm_container=GTM-WHRTL83_253&ep.event_id=1774994010796_17749936811205&ep.adv_tg=Lib_E&epn.gads_dynamic_price=0&ep.d_ck=a_&ep.listing_page_ad_ids=&ep.fee_per_trx_flow=&ep.u_kamvc=aw4tc12juubigt5&ep.adv_experiment_tags=desktop_11_b%7Cdesktop_1_c%7Cdesktop_10_default%7Cdesktop_15_default&tfd=4658&richsstsse",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 272,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+        "initiators": [
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtag/js?id=G-6V6MWRHVN8&cx=c&gtm=4e63u0&sign=95206f277de44c4ac023a0a7d516e42021e33271fe6d19ed6b09972de03ad9e7_20260331",
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtm.js?id=GTM-WHRTL83",
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.22041399999943678
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.kleinanzeigen.de%2F&scrsrc=server.sgtm-legacy.kleinanzeigen.de&rnd=182631647.1774993314&navt=n&npa=1&ep.hit_source=gtm_web&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F135.0.0.0%20Safari%2F537.36&ep.u_li=false&ep.platform_version=2&ep.platform=Desktop&ep.p_t=Homepage&ep.gtm_container=GTM-WHRTL83_253&ep.event_id=1774994010796_17749936811205&ep.adv_tg=Lib_E&epn.gads_dynamic_price=0&ep.d_ck=a_&ep.listing_page_ad_ids=&ep.u_kamvc=aw4tc12juubigt5&ep.adv_experiment_tags=desktop_11_b%7Cdesktop_1_c%7Cdesktop_10_default%7Cdesktop_15_default&_tu=DA&gtm=45he63u0v9178804935z8848752430za20kzb848752430zd848752430xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tcfd=1000h&tag_exp=0~115938465~115938469~116133313~116991817~117266401&apve=1&apvf=f&gap.gtb=2&apvc=1&tids=AW-1019393085~AW-16666796512~AW-1059859265~AW-754567283~AW-982343325~AW-17040958426~AW-1000548506&tid=AW-1019393085&tft=1774993314030&tfd=4671",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtag/js?id=G-6V6MWRHVN8&cx=c&gtm=4e63u0&sign=95206f277de44c4ac023a0a7d516e42021e33271fe6d19ed6b09972de03ad9e7_20260331",
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtm.js?id=GTM-WHRTL83",
+          "https://www.kleinanzeigen.de/"
+        ],
+        "time": 0.06210399999872607
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/_actions/homepageWeb.gallery.getGallery/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2172,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {},
+        "responseBodyHash": "b53770a7535c530233a92afc7d0d2db7a573d62dacff47e0bb0c4b399e52252f",
+        "initiators": [
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/virtual.DtPxpe2a.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.DbbzNWlM.js"
+        ],
+        "time": 0.3374409999996715
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/favicon.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1543,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c34946c082fa251f5b6d46b9c5a5b947\""
+        },
+        "responseBodyHash": "8b14054026792419b73a2bf040f006b1162accf13dfa281e9750a0a074aeac88",
+        "initiators": [],
+        "time": 0.3167589999993652
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/gdpr/api/frontend-metrics/init",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://gateway.kleinanzeigen.de/gdpr/api/frontend-metrics/init"
+        ],
+        "time": 0.2039810000005673
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/gdpr/api/frontend-metrics/init",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "set-cookie": "bm_sz=DE5B42E192BD22ED04555AB3A2F62A35~YAAQKk5DF7DTsQKdAQAA4ZPYRR8KVIpxFkYcxpumQSzACvj8+LAy8aB1MTmA04iH77TR+RO1wci6XkKOpP9ynpF1aHy3NJzPXlzGfKoQrwEHhUzbtjdoI/ogrznVHqGdQ0MqvijOQ+i2RT0vN9R73m3A9kywsXh0p7i5KRcidON/tzrzV/PNbPuuu0e2zgKL4ODp/vcV1ODIpHD+xAZajrVBDagnjUlOVC0ES5d04ExmH6/8eqCtZoCj7PqnozvMJMi1iRRRTsIp5MgkVd3A++2afqz/SAVEH2Hu2inw4a96B2fBid88V8GmPo91m80bGQTcAzF2jUxdjTV57V/FR7uppLiN+eY/Yrbi61NN/I6ab+VKVsziEu0GvwQ=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/main-Ca5evQ4p.min.js",
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiBanner.min.js"
+        ],
+        "time": 0.4207620000015595
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/PurBanner-BWcuMjLS.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4820,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"182a260ef941a071a4572dc8f819e81d\""
+        },
+        "responseBodyHash": "8d1aee565f170242eae87e57538bac70d2c787bd018ea62857373c53355c99b5",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/tcfApiBanner.min.js",
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/main-Ca5evQ4p.min.js"
+        ],
+        "time": 0.1865140000008978
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/favicon.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c34946c082fa251f5b6d46b9c5a5b947\""
+        },
+        "responseBodyHash": "8b14054026792419b73a2bf040f006b1162accf13dfa281e9750a0a074aeac88",
+        "initiators": [],
+        "time": 0.0005940000010014046
+      },
+      {
+        "url": "https://server.sgtm-legacy.kleinanzeigen.de/g/collect?v=2&tid=G-6V6MWRHVN8&gtm=45he63u0v9178804935z8848752430za20kzb848752430zd848752430&_p=1774993310719&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=1000h&cid=1093670146.1774993314&ecid=1267528393&ul=en-us&sr=800x600&_fplc=0&ir=1&ur=&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=denied&_eu=EAAAAGA&sst.rnd=182631647.1774993314&sst.tft=1774993310719&sst.lpc=101969243&sst.navt=n&sst.ude=0&tag_exp=0~115938465~115938469~116133313~116991817~117266401&sid=1774993313&sct=1&seg=0&dl=https%3A%2F%2Fwww.kleinanzeigen.de%2F&dt=Kleinanzeigen%20%E2%80%93%20fr%C3%BCher%20eBay%20Kleinanzeigen.%20Anzeigen%20gratis%20inserieren%20mit%20Kleinanzeigen&_tu=DA&_s=2&tfd=5062&richsstsse",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 272,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+        "initiators": [
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtag/js?id=G-6V6MWRHVN8&cx=c&gtm=4e63u0&sign=95206f277de44c4ac023a0a7d516e42021e33271fe6d19ed6b09972de03ad9e7_20260331",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/trackRenderedListItems.CC1fGwX7.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.DbbzNWlM.js"
+        ],
+        "time": 0.21616499999981897
+      },
+      {
+        "url": "https://server.sgtm-legacy.kleinanzeigen.de/g/collect?v=2&tid=G-6V6MWRHVN8&gtm=45he63u0v9178804935z8848752430za20kzb848752430zd848752430&_p=1774993310719&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=1000h&cid=1093670146.1774993314&ecid=1267528393&ul=en-us&sr=800x600&_fplc=0&ir=1&ur=&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=denied&_eu=EAAAAGA&sst.rnd=182631647.1774993314&sst.tft=1774993310719&sst.lpc=101969243&sst.navt=n&sst.ude=0&_s=3&tag_exp=0~115938465~115938469~116133313~116991817~117266401&cu=EUR&sid=1774993313&sct=1&seg=0&dl=https%3A%2F%2Fwww.kleinanzeigen.de%2F&dt=Kleinanzeigen%20%E2%80%93%20fr%C3%BCher%20eBay%20Kleinanzeigen.%20Anzeigen%20gratis%20inserieren%20mit%20Kleinanzeigen&_tu=DA&tfd=5063&richsstsse",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 272,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+        "initiators": [
+          "https://server.sgtm-legacy.kleinanzeigen.de/gtag/js?id=G-6V6MWRHVN8&cx=c&gtm=4e63u0&sign=95206f277de44c4ac023a0a7d516e42021e33271fe6d19ed6b09972de03ad9e7_20260331",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/trackRenderedListItems.CC1fGwX7.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/Gallery.B4kC3Obe.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/index.DbbzNWlM.js"
+        ],
+        "time": 0.23203499999908672
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/41e301b5-9e99-4d52-b8cc-5e238977a586?rule=$_2.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8154,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"314ab7155cc1f3ebbea9994305dd83cc9bed19c665ec27ac608f8bc0254e995a\""
+        },
+        "responseBodyHash": "e25c55c084b28931492ddfcae035b502eb48d09c61de6d1cfc85043e99f39776",
+        "initiators": [],
+        "time": 0.036221000000296044
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed782efd-5b59-4fa8-a4d4-1ba3695d171f?rule=$_2.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7698,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"544bde3c26571e04545b87641edf5596e7b6f534ce878e14c7e709e6b802a439\""
+        },
+        "responseBodyHash": "a6d1d6883c7ec46cf4daaceefda50b2cc6e14c0f0ae21f39688e05ecc32cb17a",
+        "initiators": [],
+        "time": 0.08133699999962118
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a1/a13eeef0-7820-4ff5-ae40-1122f537c081?rule=$_2.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5157,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"ef63ffff9438a4d128bb4d4be610ebdce522b59a7da19d8f2099c2384847b52d\""
+        },
+        "responseBodyHash": "a2fb12ea1089470fb06791c194f16f4ba33e518c0ed9c17a89b76f1832268cc2",
+        "initiators": [],
+        "time": 0.2547520000007353
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6a/6a584a66-c909-4eb5-8e44-14a43650b879?rule=$_2.AUTO",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4306,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"9cd308cb8f27bdaf981a5a57bf40887d38f2e3680a59439803d8c5a311d108c1\""
+        },
+        "responseBodyHash": "f42737d9c2d8840698095b6e97b79e4ff4808a35df8c6cb7ddfb710b7df55d40",
+        "initiators": [],
+        "time": 0.03635200000098848
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/Button-D6jV5DlM.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2862,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"f099c5eb55ca2350a0a9c58b00e29e5f\""
+        },
+        "responseBodyHash": "e637648b96254b1b0de1b1901b6c1e8e912681bc650223614206a2df2d4f9787",
+        "initiators": [
+          "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/PurBanner-BWcuMjLS.min.js"
+        ],
+        "time": 0.18523999999888474
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/advertiserlogos/2c/2c62c95f-e9ae-4db3-a2d1-c3e187c18f89?rule=$_8.PNG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15154,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"1da616b9e508fbae1b33b5004cc4e4d7d9ae9bbaba5cd68840c0ca530aaa7f69\""
+        },
+        "responseBodyHash": "de9732f89f0f8b0fdd0b822ee9c534b7750ed41f28fa3ce64026470ffa92c8be",
+        "initiators": [],
+        "time": 0.01508300000023155
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiN2YyNWQ4ZGQ1NGYyNjgyMDE1NTZmYzdhNmUwOGJiM2IxYTRkY2JiNWRiMDBjNTNhZGQ4MDFhMjQ2MjhmMzAxNiIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA5MjA3LzgvMjA5MjA3ODI4L3MxX3Byb2R1a3RiaWxkX21heC90dWx1cC0wMTAyMjAyODAwMzAwMDAwMTIzOTEuanBnIn0.A7we6FxbZT0wDMcHlMdml5CCPY3_4KUrG1wrBbfUu9I",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/ed/ed52f83b0a1ce2435e8c7964b75a1211?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.29871300000013434
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNzBlNzg0ZjZjNDkxNzZiNjZhYzAwYzIzZjYzNDM0ZmFkYTczMWYwYjkyZDM2ZWYwMTIzMjBmYmFiYjFkMGRlOCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA3MDkxLzQvMjA3MDkxNDcwL3MxX3Byb2R1a3RiaWxkX21heC91a29uaWMtbWluaS1rdWVobHNjaHJhbmstbGlsby1zdGl0Y2gtNGwuanBnIn0.qsjhXk8PxY3Ah8_OkCwWgdngAlz3OhN3vM_IJK0mWKc",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/f0/f09ae6a06805d5415b5955a7487c6102?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.3019659999990836
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNzNkMDNmMjFiZTRiOWVkNjg2MDEzODAzNjQwMjhjZDM5Y2IyNWJhNWQ4NmZmOTZlMjBkZDk1ZjJiNjcwYmUzNyIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA2MzE2LzcvMjA2MzE2Nzk1L3MxX3Byb2R1a3RiaWxkX21heC9mbGFtaW5ndWVvLW1pbmkta3VlaGxzY2hyYW5rLWtsZWluLTYtNWwtMTJ2LTIyMHYtdGUtNDYuanBnIn0.DE6jEyzKk0neuK37mqbstzHaC4CVyU8YGsUpIXtc9KM",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/a5/a5f9459c9822d27d3bc77f6e8fc25eed?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.29450900000119873
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiMTIxNWEyOTM1NzIzYzgzNzg1M2JmZWY4ZDhkNjBlMDMyZWMwMTdlN2RjMGUxNWVhZjUyMzdkYzcwMDYwNjhiOCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjAxMjE1LzcvMjAxMjE1Nzg1L3MxX3Byb2R1a3RiaWxkX21heC9zdGVuZ2VsLW1wZ3NtLTE1MC1wdWx2ZXJiZXNjaGljaHQtZ2xhbnotd2Vpc3Mta3VlaGxzY2hyYW5rLW9obmUta29jaGZlbGQtc3B1ZWxlLWxpbmtzLmpwZyJ9.C73ThxeOVbQE4vKSjDp5DVBximhR1t2NCoYw4UkXe8I",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/19/198bbe9931bf7e0d059b298e6b7a0144?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.29481099999975413
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNjEzODZjZjMzMWM5YjhkMDEyMmIwZWE5MzJkOTlhZGU3ZjAwYThjMTYzOTBmZWU1NDNkYjMwZTk4YTFiNDNiZCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA5MDA1LzUvMjA5MDA1NTQyL3MxX3Byb2R1a3RiaWxkX21heC9zaWVtZW5zLWt1ZWhsc2NocmFuay1ib3NjaC1rdWVobHNjaHJhbmsuanBnIn0.bqfau8t63JNGjvCu5eafghyFB1Poo-PvS_veyqRHOIo",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/3f/3f45ed349ff5c16ab95b68499534ceb8?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.2947329999988142
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiOWM3Yjk5ZDFjYmZmYTcxOWE2ZDA0ZmI0YzBmYzEwYWUwODg0ZTgzZDUyOWE1YzMyZmRmNzE3NmY5ZTkzOTMxMyIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA3NDg0LzAvMjA3NDg0MDI4L3MxX3Byb2R1a3RiaWxkX21heC9saWViaGVyci05ODgyNjQ2MDAtZmxhc2NoZW5nZXN0ZWxsLWxpZWJoZXJyLWt1ZWhsc2NocmFuay1lZGVsc3RhaGwuanBnIn0.ISZWqntpQGCEo0E_EBjM7Lk6emmgdgkjt8MhAmPvI1U",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/c1/c14564443861f363b2a70c7ebbdf007e?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.2945830000007845
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiYzc5M2Y2YWMzMDZlMmIwNDU5NjM5ODFmNDhkOTI5M2M1NGI2ZGJlYjVmMmZiMGUzYmNhNTdmNzNhMTY2YTE5OSIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvNjkyMy85LzY5MjM5ODcvczFfcHJvZHVrdGJpbGRfbWF4L2tsYXJzdGVpbi1kZWxhd2FyZS1rdWVobHNjaHJhbmstc2lsYmVyLmpwZyJ9.llISPazeNXdoo3QF8yTMkGxOTiFqMO9hHgrM1iEVbQA",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/9a/9af1ba74138bfb999de6fc1cdd11d011?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.29460999999901105
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiYWNkOTljYzNkNmNiZjkyNTBjNjA3ZjVlNWQ5NTdjM2FhODM4YWU3YmQ3ODc0MGI2NDg2ZTI4NTA3NDU4ZjUwOCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA3MDM0LzgvMjA3MDM0ODg2L3MxX3Byb2R1a3RiaWxkX21heC9ldWhvbXkta3VlaGxzY2hyYW5rLTQ2bC1iYzQ2LXNjaHdhcnouanBnIn0.yz3XhXsmK-lFdJtCvPmt8bPAunG2Y22phe0NFQqW0Vs",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/4e/4e1ec7ff4fe78b108bd0c288e387c13c?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.29446199999983946
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNzU1ZmY2Y2QxNDA0MmRiM2I2MTNmYWU2Y2Y2NmJkYWE0NTQ2OGQ1NzJjYzZkOWRlNDg5YWQxN2U4NzFhZjRmMSIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA1MDk3LzIvMjA1MDk3Mjk3L3MxX3Byb2R1a3RiaWxkX21heC9tYWlsZWctbWluaWF0dXIta3VlaGxzY2hyYW5rLW1pbnplLmpwZyJ9.49sHl-u8hVrt43qV1zFNESHYVCGx9hT30pzFBnSOuyU",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/b9/b9d53c57c6cbfa19094c41a1ca17d30d?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.29437200000029407
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiMjZlNjAzZGQ2MTdlZGNlN2Y4MGU2NTkyZDQ2MmNkMGUxZTNjMWFkOTdjOTRmY2U5N2ZmYzMwNzljNmM1OWRjZCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA1MDk3LzMvMjA1MDk3MzExL3MxX3Byb2R1a3RiaWxkX21heC9tYWlsZWctbWluaWF0dXIta3VlaGxzY2hyYW5rLXdlaXNzLmpwZyJ9.VwKNjB2Dd5DkPbDitwcUbg6EspFz8hZ45WGj3vcNUiQ",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/f9/f924e0b91505a43fa2cf8c57775ae9c1?rule=$_35.JPG",
+        "initiators": [],
+        "time": 0.2941519999985758
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT247iOBD9m3laup0LNIyEVjRJp8O2HRECaeclSmIDzpXJZULy9VOOtI12tQ_7stoHRLlcPqfqnMq1bW_N9-dnPlOUF6Q8RWzkdfZU8vaZP13E-Xe-5sNOtdNK4IN-J1u7sYs3eVaxYauOcRw-trsr29oL7NERYjHF215QFQknpYpj7HViZCMZZO4icwhyCGrTaLAXXEOASQbA1B0Dz8l4lNiQc28Tr-Ve8fiWOZ6bUz-4EuuoUH-XOtZewd61oKrd03QzEn8vADOLhL1wDr2I_Ew4YlfgwhWO9XYNUjrAGxRYu8IBHMc3NVqYd-Lt7_BWx8PE2QKnnKOgg5xpA_0f746XDBIzKHro_6LCrHPHwxqGmaLPDfDY40dqDkToirPV585BYrWa7D9aOsvIuo9UvQ7Un9e26EVcJoAD3OPmDlz9xLXVewwcsQZ46abDhgkYSg8Y_Uc61eVTnexj0nYD9ye4v3XMvzcSJ4HZcQr6eab0ZZi8gB6TEks-DQN3opqyX43IeUsiph4PqA-s_UDHowZ6oMDAOi3sHm5ljewBOd4FvMHyjOB8x2k2J4Yp-1Kkj3Z5yvEBIWwEV-yxnHokx5YJWAlo-JoTLyhoyuD3Jsi4VwKpUXnrpN54TBQ8wrylO0psMibAl0HeRMSgcpY-htnkTjCh9LFlSq9LqUdQvDWJegQtmAFaFNS_j8GkEfhfugPzpzuJK-Ji1U28hZtKHsBAXOJmJyUpVn1wWG2Dz10T-bqY9CzBi7IRyfvuZ_B-SpmZZ5Nen24e-7BXYvkTtNbAK_jH6GNkBU5PmWO5GfFciKmOwTviHdWgwBr1ghwbV0FTIrAP2lgE4lMG-9uD9iP13cwxNnfq2Yikth6kuIddE2eYJ7H-H-7p-7b0SYfoYC98DfSAvbLT_4xP7pc4qm9tcHodYtVVqLYX55Oymr5L7TX9i8-fe_lN9vgdfWvW4tNp9oedc9ijyw_D_aMO6q356hwve_3bra5uvG6H7xELa_6j400bCrbWULSccy2arc7zxUxHZzZb6nw1WyRIe1msWMwS9fF2qMKex2vGm6ytbiEPr1XBQ_TbV-LvpWFTdXXC_9WLPIqbsIW-vqq1sCtrnlSXUoycfb1RlDB-HMLkEaOQ8XPU5e0jNf8z9SC65VEryq6YyMJLXXW3Zh1HScZLFp4fdRd2q8OkKhtetmviEPNxlUUhxKxLJhHV-Vlf6kifrZQknunzl-VslSgvM4UpbBFrC47my5mKVip6WarLB0pctWGTVDUHGx7Z8-2fmgHbznnVr2t-6fKo_gWU2C7zvAYAAA/eQ6Q0pwHrKGTVQWm",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=1EAA5E35555928559C85CB6C2E29F208~YAAQKk5DF8XTsQKdAQAAbpTYRR9Lgjz6VSKh4gYoa71gRTYVfK8d7Sy/RtIvUyeUUj+JIvQiXEXrkfvLM+wC8gi+f1C0QlxjKXw6d1nkxtSNsXzK10I0JzOHNI3lwAM8miXXjynJEvkyA3Z0Xf99ymLKK+jYV50wz4dlCLR1HHZrtBoZ0jKQb6U1hm0UomTEn95k1qERc1A0t721S8yRH4qpacwHMG9h5DYCs5r3E9XKt7zanoB52jXK38sbqiqEb3brgMOj2k4qVrxRq8j43eySFNPm6Iby708Ab3OOvqsrgTgZkfZIFAbvi4ptqtlbvNyRzfY6s+xkQ3rMIJI8yZJbLrwWC7zhDATsGTd1GA9s3Jz1n6q+fp88NK0=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72905399999945
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VTy46rRhD9m7uK53bz8ONKVmQbzGBNg7CxGdggaNo2b2LgYvrrU02UsRJlkU2UBaK6qvqcqlPV965r2h_fv7MZxguE36KEs0f-VrHuO3u7pddf2ZqNB8nM6pSclKe1M1uz3IuzRDRTsrXz-LE73JOdOSeuz8FOJ3s3pL6EUjvzsa05iqXl3BqF7yZ8CHwIcrNoNOdMRoBpjYCp2K6Dbff8tDIHfMdm4jWOd8L3ue0eC98L7pZxxr53yGzDwcS9l75kDn624ZbnpICZR6k5t4E_8vLUTk2JZDeI7SEvyIhnIt-7FDZg-tmxJJk5WkZwJ6Wj-CfR27EDTtFH6Y-ip41ku-aTaI5knYY0KAeo_yZBr6rtEln4os-N4OEfmT5aqYLtnaLaE1Yni_qjpb2MjCf3pfvoe-rDTIc0rijg6E-Lb57ANUxcO2UggBfLgJdteqLpgIEHwBg-simvmPJEHZO2G4hfIN70ifdsBQ6F3kl2hvp0MZdxmgXoTisi-GQC3FTSRb0yKN6alZVONZ7QEBjO6POzbLkOCjSi-KU5QFTkiBqQ7d5UixNxRnB-kixXLU0XdWExR7O6FOSEENFATzcpfNcqiKEDFoUd2BaWG5R-lsC3Ty3u4EBoVDW90JtwigmHfqsjF9gWp8CXg19HluaLXoYYehM7kaR4iA1dzLoSegTlvqXSGbRINNCi9L0nDyaNYP7VcUy8KSZw07hc9cEfc84ED2AgJnDzC6blaghOq13weWgjT0knPSuYRdWm9P3wM3i_ZIle5JNen8ci9o6g4_InaC3DrOBP0AenQ-BSxTJ8yeeOSlwq-RnYHhmIQUYi-RLhDhc7Fxhwj-9LYpgq7B-3yksJOCPh5hCUhzvo_wy0bR648A6hH2r8P9zT-zaUSYfoZM49GfSAvTKz_4xP7Fd6lvZdcNmOsXTEvuyk1wteTe9S3mZ_mfOnI97kQN7Rt3bd1BwT09id5HGrruT3ZGvr43KZJ-_Dt-ZRN-zRjT-iJHyw33rWdmGarGUULVUmR7PVVZ3PFHRNZkuFrWZziuTFfJXECZVed8c6HFi8Tlibd3UTsvBelyxEv3w5_p4atnX_oOxf3SiiuA07qOsrWw776sFofatSzpKvOxiH8esQ0peNwoRdo77oXi71T9eLqCmiLq36ciILb4-6b9p1HNGcVUl4feXdkuYR0rpqWdWtLdvSX6E8CsFOejqJKKlXZakgZbbCNJ4p6mI5W1G8mOEEJ_NYnjOkLmcSWqAVVhbohRLXXdjS-sFgDC_vtfmnYmBs16Ie1g9264vo8Tsd-nAWvAYAAA/Yfgch1pK7mVRvHNd",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=CCA416FF8AF3B36E5F6C3EEDE693180C~YAAQKk5DF7bTsQKdAQAAN5TYRR+5dYhnqFhuipoxjTqzJxfkGMAzc5pVwR87O1306U+IGaORnS5F4SFo0+zkHwuRCC0gRpSrJpbUWL/FeVGzw8K61ZIbBbxLp/mLbJJHRNCj4YMXyQmg2WeYICGMtTyhR3FmBawYPcG73rqlh8mn6dnimGYubYQ1kjArIq10//PkZJkky+JoPzqphfTWaB3lnj/06NVU93sV1FBq3KNenNFoeavgkjASxbBP7Df/ydEPuXyUWyRH14zokxdNdM2bi97n8bSs43AXJxgLzxmeTars8wK0hy9ks5NIgHo3QEmi5hNTjJOxDtP3m80bInWxoHwZWX87jfbUszlio+9L12s79IqfgDzDG/U=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72939300000144
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VUyY7jNhD9mznF3dTmtgcwAo8lq2U0KXhVUxdBC22TWuxoGVn8-hQVpI0EOeQS5GCYrCq-V_UeqWvb3pvvr69somlvSHuJM8nq_KVi7St7ufDzr2zBho3uiRvHe_NBVl7jlWu117Ht6b59HD5Wm2u28qb4QCWs-bhe9ZzqiPuCar69NYmdSzKo2EXFEMQQ1Ip48KbMQIBJBsA0_QPVsLxoxMYQ291HXnd3xXKd-4ddQYPwStyjRoON8N2thg_XkupeT8VSkmDLATOPuTdVXHGQc59vBBWp4bubnIgLouURYf1o-YdTEYprjl3n4bsOwm4o_pht1wKnmqOkg5ppacBcPZGOxLznYdlD_xcdYoCBDax4PpfA48kP4QyEm5q_Mi1_r7BaQ_Ufz_xZ7D4k1a8DDazaA5ykSgHHeRC5fABXP3KtzB7vIWcAnlh22HYAQ-sBo_8QY10x1kFNOGq7hPwJ8vcuCx6NwklhdiyO0J-jfBlGL6DHtMKKzyDgS6o7ql8DFG-8ivCxxz3qQ3c7UHk0yGGLQhubtPR6yKoa1QPyDxeLSKz2CPYPLHKL2I7qS1M-etWpwHuEsB1e8SEr6IEUoC9gpXAHfhTkEJZUZPBbcyK3Wqg0qu6d0hvLFHyHeaudVNhEpsCXQ9xBxKajRgnMpu5ExrU-cR3ldaX0CMt1k-pH0CKzQYuSBg8ZjhqB_9VuyIIxp3B5Us67kbfcCcUDGIgp3PykpeW8D_fzVfi5aeLA5KOeFXhRNTx93_wM308ic4p81OtzVyTBDnSc_QStDfAK_jH6kKkM7aUMhfdQd42KoghtahLwD-51jyUFfTyT6lvpB4RjceL0cMp9OyxDkevhwVM-WCSgAxXUwO6mAG34GeZJ3f-He3zfrjnqEO-9aWCAHnCvPPGf8an7xY_6ug1PP4ZE32nU2PLzSZuP79L4If7i8-dWvckev6NvzaLZlmupZ_DJeJ-g5ax91-oPvzfu1Zl-u9e3O6vb4XucRTX7rWNNG_FsYaB4ZjEjnszP1nRionM2mZlsPpmmyHibzrMkS_Xn2eEW9SxZZKzJ29s9YtH1VrII_fIV-Htp1Ny6OmX_6kQRJ03UQl9f1UbUVTVLb5eKS5Z9ndG0KHluovS5RlHGznFXtM-Q9WfoSXQv4pZXXTmSRZf61t2bRRKnOauy6Pysu2T3OkpvVcOqdkF84jxTeRzBOuvSUUTdOpszE5mTuZYmE9N6m03mqfY20TItmybGlCFrNtHR1NCmb3PriZLc2qhJbzUDG57R8_2fmgHbzsWtX9Ts0hVx_Tt9mOsOvAYAAA/KLcrvc_8LbewcDhr",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=EE07474051133C8D36B7CDDC9B222EC5~YAAQKk5DF7XTsQKdAQAANpTYRR+8f2b6S6HjIjOLOyHyNdCggx/bVhOCq1gL1hrCXcAezpk2dnZbET7sbYf4AVXcegrwktazCPMM3ZjSE0hDPoNptnVhbja2Mkx1XzAflpckCQ1ZMSTAnDLw7YIZq5rxX453nZQ2pOet1u+drmjXZVEn6ZEtnBEsU0VjEZN86Dz1LoTHFN5T6SHsaJRhl/T5UjW71u1PLO8YJNS9jQaV3b3hluE3uB2jfZpUSopDJZRL1U+5woNG+cvja1SMEp7pyBsRT3vWSbNv3gSxlWOvksLM8wy10GrNg2GB7PT6avUcPzFM42uMQS99i6evDq6zzWgDYdFNrYqpGSssi360LUYxboPUy2TP/Hs=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.729105000000345
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT246jOBD9m3nadGMu6WSkaJUOhKbVBiUhoc0LAmMSc18uQ-Drp8xoO9rVPuzLap8wVeVTp84p37qubr8_P7MFQi8SegrjiTXZU8m6Z_Z05cnvbMPGd9lKK45P6t3eWa1V7MW_jHVLdvTz-LF7v8U7a4ldMsGZz-fdwIkscSclyNEPqq1nkz2K2FXEJIhJUJuGo7VkigSY9giYqqNjxXEPoz0dIHas577m8Yanfea4x5x4_s02z4h476ljHhB2bwWRrYGk28n2Dhwws5BbS5sPPPQy7nBLstPbDZtEARyOdSr5elyQYp87rnEnBZZ9zxpxui-ck5jt2EFPMUdBRjHTFvjjCfgOzmngfjEA_6sMs2qOi2URCz-3os_0kRqjzVXk7FTtF1anCP7hylmF5n0i8m0kntZYwC0qKeAYd3va3qHXMPfaqQMGvEgBvHTbY90ADDQAxvCRznX5XCd4zNpuIX-BfN3H3r0VOBRmx-kZ-BnCl3H2AnSnJRb9FOEBlQ3BF87AsbT5zPEkDb55GMl0Vmz3ABphlRTWAFlRIzhIjnvV7AmLfwn-7zjNNFs3BC8kfLTKS45PkoR1_4bdOCeunWPTACwKGr7mtusXJAXt0z0Hf5EvNCrrXuiNJ4rwBPOWx0lg2xOFfhnEDcnWyaxRBLOJnYg5GiLTEF6XQg-_2LdUPoMWsQ5aFMS7T_6sEfhfHsfYm3MCl0fFuvd_-ZyKPoAhMYGbXRAt1oN_Wu_8z_c29FQ-61mCF2XL6dv7D__tksZGns16fR7zyDuCjqsfoLUCXsEXSx-TMWL3cgNtJtulI5axCrOptmvD7lwK2FnV18ngu9sJF5cU7im-G2dkes3hHuw3QTjFim9iwNzCGyMqSeEdwjzU_H96z-_bVGcdwpO19BTQA_bKSv-zfmK_-Fned_7ldYzkIyLKgScXtJ7fpfKa_sXnz4N4kwN-k761m-noJHpi1nw9vMok2aNPN1peul3X0291U9Ws6cbvYRw07I-etV3A440ihSuNKeFinWjLhSol8WKlsvViSSXlZbmOo5jKj7tjFQws2sSszbqqDlhwqwoWSL99Bf5eGrRV31D2r27kYdQGHfD6qlaCvmwYra4ln1j8dQehIHr8BPRxloKYJWGfd4-Q9mfo0ajOw46XfTE3C65N1dftJgppxso4SB5117huAlqVLSu7je3YxiOVhQGc457OIspaoq5USV2sEY0WqvayWqwpelmgGMXLSFkySVstZAnJCFLaAyWquqClVcPAhkc0qf-JDNiW5NWwadi1z8PmJ2f3FZ-8BgAA/OBkQ6rAAnui7wl1E",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=423C27E9A0A6010B6EA55C515D862617~YAAQKk5DF8TTsQKdAQAAbZTYRR8yOgZZLXVMkqyN5K2XwBBkFk6hihgSIykCgaaJweR0c3gxVU4Ycy72polwAbTQNjN6PvimNbyACw5BlEDrz1fWnwxhf7mOxi1w4cUMKADmg3mHdk0CC9T8yvhjipaf0bj7UhzoxYPV9sMFwZHSlJMa1KKnAmJHo0OQyK4YCWU/Ew6bjtb3JHzO0H94m3STQE3cNST967QRxmiAWctkzBijRrKfcjorHyXyiDPwTqR/khGd02DZkei3YOB/eVEbFhBBdQUZIvxG8QiujiYZrsVYxqxW5jzYfhQeuBY7ygWzRe1WGJvlnUmRg+gFZSWYRbiKVV8MosBt/4MzsdLnjuAtCb/w4rfSd4o=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72875500000009
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT247iOBD9m3lapp0bDSOhFU1COqjtCAiknZcoFwPOlcllQvz1U460w-5qH_ZltQ8Iu1x1zqlTlVvX3dtvLy9spiivSPkapYI1-deKdS_s65VffmcrNu5UJ6s5PuoPsnFap9zKu4pNR3XN0_ix2d3SjTPHHhVw5tN5M3CqIu5mVHHNvU7MXJBRxq4yhiCGIDeLRmfONASYZARMHeKD61kq8a4QO9wnXvtww2Kbu96hoH5wI_ZJof4uc-29gr1bSVVnoNlaEH_PATOPuDMnx4FHfs5d7jyw9wZ1e8O1seGaaxT4e0F9UhDvNOJsV1LfGTDoDLjs7dABp-yjpKPsaQ36qSBeomPQH5QD6L-q0KvhelgjHHg-15JHfGTWSLiuuBvdcI8Sq9Ok_mjhLiL7Iah6G6lvNA7UxFUCONaDiPUDuIaJa6MPGHTHGuBl6x6bFmAoA2AMH9mUV0x5kBNM3q7h_Qzv9z71H63ESaB3nJ1AnyXnMk6zAN1JhSWf5kJtolpSrwaOt05F-KTxiIbA3o9UnDTi7VFgYp2WzkD4lCM1INe7GkRgeUdwf-AsN4hpSV2KnKNTnQt8RAibwQ17aUE9UmDbAqwEPHwDv4OSZin8tpyIvRJIj6p7L_3GIlGwgH6rg5DYRCTAl0PcQsSkk0cx9CZ3IuXKENuWnHUl_QjKbZuoJ_AiNcELmOdDBJNHMP_qMKb-9CZxeVwu-4m3PGSSBzAQk7j5WUnK5RAcl5vgc9dGvs4nPyuYRdXy5H33I3g_Z6lV5JNfn4ci9g_g4-IHeK3BrOAfow9BH1hcVapS0L7NXN_RA3MNXu1gj8832JkxMHOD-oeCqHQAf3QqLBWLfAjKM3i0F4HtCGyfYF-tB81gV8s9v8i52f8P9_R92_rkQ3R05r4GfsBeOdl_xif3i5_UbRec38ZYPShUAw_OynL6LrW37C9z_tzLb3LA7-hLu9K4bh-3j_D1PpSzekG-9wcLvTb-R4W_3Jv6zppu_BalYcO-96ztQp6uNBQtDKZFs-XFmM90dElnC50tZ_MEaa_zZRqnifqsHetwYPEqZW3e1feQhbe6ZCH67Vfg76lhW_dNwv5VRRHFbdiBrl_ZWthXDUvqa8UFS3_VKEoYPy9h8jyjMGWXqC-6Z8j4I_QkuhdRx6u-nMjCa1P393YVR0nOqjS8PPOu6b0Jk7pqWdWtiEus51MehXBO-2QyUTUu-kJH-mypJPFMN14Xs2WivM6UVEnnsTZnyFjMVLREyDD0P9kZ113YJnXDYAzP6OX-T2JgbJeiHlYNu_ZF1PwEe8bYGrwGAAA/sEd-W_bcYpiW-EcB",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=59D60F1AD3241E4B5E57EF593F707EC6~YAAQKk5DF8bTsQKdAQAAc5TYRR9pcRU6Bjj7gVJoi6mm9BnsiJG25nLH9pCWH4qMs34GlwRQhuh9J2+MJA71WQBs0VaAxM2TgVmrp7ZinfuVOEFIMVqh1y6T1QgpcRV4Ct4LKhfRibUWWa5re8dGa3PoylP1xjcMB/QaAGUB2lfFMF8iza0A0n5AIzISM5aPfwGvhacMeJc+6o8BthRsjDu7kXfCAN/62ESSaiNyoF7PIb1S5U+nij4n3yuaO9LN2/AuVAnc1WShQ7dANrwkYJ2Qq1q+IdiXU8CgpPQ2PdYr36TLu0eJvrLRdLgEEub6fCUCp1Q8QukjPuXCjAnSPu3xvVz0BQU73odT+FtVIHZ/32eQ8uOq1JMjZNQ=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72913499999959
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VTXY_qNhD9N_ep7DpfLFwJVSwJuUFrR0AgG79EiWPA-aT5uCH59R2n6qJWfehL1QeEPTM-58yZya1t783311c-U5Q3pLxEycjr7KXk7St_uYrLr3zFh53qpJXAR_1BNk7jFFt5V7HpqK55Gj42u1uycebYC0Y4i-m86UWgIuGmgeKae52Y2UgGGbvKGIIYgto0Gpw51xBgkgEwddfbK2Q8DcSzIHa4T7z24YbHbeZ6hzzw6Y3YJyXwd6lr7xXs3YpAdfogXY_E3wvAzCLhzAnwR34mXLHLqJff4G3m2ueMpFcUeJkWeGwk5lV3bVIQkyGcvmfBUfZ2aIFT9lEEg-xprbqeZWDoAYN-WvSg_6pCr4brYW3i-VwDjzN-pNZAhK64G91wJ6xWk_qjhbuI7McYqLch8I3aEb2ISwY41oOM6wdw9RPXRu_xEXIa4KXrDpvSA6UHjP4jneryqQ5q6OTtGvJnyN-7xH80EodB7zg9gT5LzmWYZgG6WYkln-GCXqZaUq8GjjdOScSk8Yh6au-HYDxpxNsjamI9KJwesrJGakCudzXIiOUdwf2B08wgpiV1KXKOTnnO8REhbNIb9pI88EiObQuwGOzAe048WgRpAr-tIONeodKj8t5Jv_HIFDxCv-VhlNhkZMCXQdxCxAx62VsMvcmdSITSx7YlZ11KP2ixbZh6Ai8SE7woAv8x0skjmH95GBJ_yklcERfLjv4x51TyAAbiEjc7K6xY9vS43NDPXRP5upj8LGEWZSPYj91P-uOcJlaeTX59HvLYP4CPi5_gtQazgn-MPsY8JapjuP7-Eai7ghaQg_0jxb4nNhXExj0t8APb2xzD_sEu61iFPU6hxscjLmhGUwb908L1TwYewQMPiwv0w-z_h3v6vm198iE6OnNfAz9gr5z0P-OT-yVO6ral5_chVg9KoO3F5awsp-9Se0__MufPvfwme_wDfWtWnDZ5kDhiEbnbdBk5b43PPGNnpX327V5Xd163w_coCWv-W8ebNhTJSkPRwuBaNFtejPlMR5dkttD5cjZnSHubL5M4Yerz7VCFPY9XCW-ytrqHPLxVBQ_RL1-Bv5eGTdXVjP-rF3kUN2ELur6qtbAra86qaylGnny9UZQwfl5C9jyjMOGXqMvbZ8j4M_QkuudRK8qumMjCa11192YVRyzjZRJennXX5F6HrCobXrYr4hLrmcqiEM5JxyYTVeOiL3Skz5YKi2e68baYLZnyNlMSJZnH2pwjYzFT0ZssUhdPlLhqw4ZVNYcxPKOX-z-JgbFd8qpf1fza5VH9Oz83VpK8BgAA/NZqgTqiJCU9UcuBj",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=ED885A777B31E2D42A8F5FF3994E2711~YAAQKk5DF7rTsQKdAQAAQpTYRR/wNDEabAKp1CPMIgUcLIdfJv/ggBrBzKj//jKlhnyuUsLE0eAJ1bGE+X2Ij+MzdcG5YhR5H+bDYAen6+GFgae9qx22tlJTedHMOO0UCVU5Uz0ktGrmuqZ7063g6choE1ROa8o4+j9jlEPzRVRSgzLLpcH092Hu6nrTvgVarZf9Ttefqufe3MzvwTWXInJMRzx7jDSx3MR9U5/eDKoJu6sNzfBNAB3Tkxm2GeCvMY0bUE8Pih+rf2GpdayADbIQDj7HttW42kc8QQpzGwIacZvygpZoSqKvw7Mv1pKixnkRtBySHvUgj7OfugVy5PRgfGP7PxxYqHF8TKqZW4/QCz098/VLQnFdzQU=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.728885999998965
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VTTa-rNhT8N2_V3IuBfD0pqpJAeETXRiEkXLxBgJ3EfKYBHoFf32Oq3qhVF91UXSDM8WFmzox9a5p7_f39nU8QmivoLWIDf2RvJW_e-dtVXH7lK97vVTutBD7qT7K1a7vYyW8VG7bqGKf-Y7u_sa09w14wwFqM620nAlURThogxzjoxMgG0svaVdYUqCnQm0a9PeOaApikB0zdMbDmGEGPBww19z7yWu4ND7vM8dw88OmNWCcU-PvUsQ4Ie7ciUO0uSNcD8Q8CMLNIAD9wRX4mHLFP8XAYqMFSXAQ6tkyFWG7mWG7uWOYTF_A2rgopMAqOcja3AU45RxH0cqY16Ac1BlYdmIkWHei_qjDr1PGgdgSezzXw2MNHavZE6MjZ6lNnxGo0qT9aOIvIeg6BeusDf_qwRSfiMgEc80mG9RO4upFrq3cY8GIN8NJ1iw0TMFAHGN1HOvblYx_00NHbNeyfYf_eMv9ZS5xEzp6eQJ8pc-nHLMCLpMTQb3dSb6KaUq8Gjtd2ScSo8ah01Dr0wXDSiHdQqIH1oLA72JU9UoPieNcpkbmURIHvJ06zKTFMqQvJHO3ynOOjomCD3rDH8sAjufSbGgl4uMmJR4sgZfDsBBkOiEqPynsr_cZDgvAA85buILHJkABfBnXIywg6OVsMs8kzwQTqYsuUWZfSD1rs6kQ9gRfMAC-KwH8OdPQI8i_dnvnjnsQVcbFs6R85p5IHMBQucbMzSoplR4_LLf3c15Gvi9HPErIoa5H82P-kP84pM_Ns9OvTzWPfBR8XP8FrDbKCN1Y-VDi_HilIsYNzt1aptxfYOCAH7gb496TpQadG1kNPSjxXkMIV1LcRTeG8pZscq_s08E4aTZMh8EyVFOYTfBAXmZv1_3CP99vSRx-ioz3zNfBjK7P4z_jk-RInddfQ86aPVRcF2kFczmg53kttk_4l58-DvJMd_qF8q1f9Nc43p57q7LLTnEm8m9efG6aFpl19uz-qO380_feIhQ_-W8vrJhRspSnRYsq1aLK8TGcTXbmwyULny8ksUbT5bMlilqivf_sq7Hi8YrzOmuoe8vBWFTxUfvkq_L01rKv2kfB_9UcexXXYgK6vbi1sywdPqmspBs6-_kEojF8fYfJaKyHjl6jNm1dp-mfpRXTPo0aUbTGShddH1d7rVRwlGS9ZeHn1Xdn9ESZVWfOyWRGHmK-tLAphzdpkNFGdXvSFruiTJUriiT6dLybLBM0niCE2i7UZV6aLyWypasvF_IURV01YJ9WDQwiv6uX-T1IgtEtedasHv7Z59PgdjFKNN7oGAAA/XH-g7tonlqPtuHe_",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=047A2932CF1554446722064DC360E897~YAAQKk5DF8DTsQKdAQAAZ5TYRR83qGrkkfeN6NGJ6L0nCMHnXFwOs5CkFaZ90FXkqnI964WlZPR+MDIpFloanMajw31DewV8oYctcSnsDEvy4knxaskDxZtGgBuL5QP7WZUT5xiy+NFR/D2IBF7q6MJ+s8u/zxlobOreQPq+eM9L+TmkjbQpWP3yJ4A/qBp7aWoH/IIUe0S27xJmVxEhnZ+xdS0BZeoAiuahLCnBp2f6AyGUTmrXhPWYv5PYuHV9W0IbLZCAOZsHc3iOXW7ibArTPmEggKlk9LOr3nJiyAeoenbGadspP3jXEwZ39NtwGfcGrCM1AdZ9sc4n/MqtULKfCOqnBtcC8Wd46M+6qaflpcQtkgN0EgOgXgU=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72860700000092
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VTW4_qNhD-N-ep7Nq5sHAkVLEksKFrR0Ag67xEuRhwbtBcToh_fceRelCrPvSl6gPCHk--b-b7Zq5te2--v77yCcZvCL9EqeR1_lLx9pW_XMT5V77gw1ZzspsgB-NBV07jlGt114jlaK51HD5X22u6cqbEYxLOYjyvesE0JNyMYdfaGdTKJR1U7KJiCGIIcrNocKZcR4BJB8A0XI8ZrpUjmh0htr-PvJv9lch17nr7gvnBlW6OmPnbzN3sMPGuJdOcnmVLSf2dAMw8EsAvehH5uXCFg5i0e9enhWslOMgIoj55uNYpJxt7INk6Zz7rmdzpRKje9i1wqj5KNqieljqBein0qXoKyh7qv2jQq-l6RKcQi76Wikd-ZvZAhYHdlWG6B4XV6qr-aObOos1DMu06MN-sHagtrhLAsR9ULh_A1Y9cK6MnB3jTAS9bdsSyAQP3gNF_ZmNeMeZBTjBqu4T3E7zfu9R_NAonUb1nR6jPVr4Moxege1IRyHcwBe5Es1W9OijeOBUVY40H1Aeb3cDkUafeDgUWMVjp9FSMOaoG5HoXk0qi7gjuD5LlJrVsVRdWPjrVqSAHhIgVXImXFsyjBWgMWAnMwHtBvaBkWQq_taByhwOlUXXvlN5EJphI6LfaS4VNZQJ8OcRtpb2peouhNzUTqcB9vLGV15XSIyjXTaKpeUkt0KJk_kMGo0bgf7UfUn98U7giLufdyFvuM8UDGIgr3PyEk3LeB4f5KvjaNpFviFHPCryoGpF8bH8EH6cstYt81OtrX8T-HnSc_QCtdfAK_gn61NZZYOUm04gMrCBjJTPBD5gv1lON4cA7wRwfdSbplXkX6W7WBdW2OZUXnVrvgmawK-VxgL3qlUbuhmFiwR5CP8nm_-Ee93tjjDpEB2fq66DHSnnxn_Gp-RJHbd0Gp_ch1vaY6TtxPuH5uJf6e_YXn792aid78oG-NQu_-yi887aWNbG1H1_EPC1Xvx3ds7m9fLvXtzuv2-F7lIY1_73jTRuKdKGjaGZyPZrMz-Z0YqBzOpkZfD6ZJkh_m87TOE2057fDLex5vEh5k7e3e8jD663kIfrlZ-DvqWFz6-qE_6sviihuwhbq-pmth11V8-R2qYTk6c9vMA7j5yVMnmcUpvwcdUX7DJl_hp5E9yJqRdWVI1l4qW_dvVnEUZLzKg3Pz7xLeq_D5FY1vGoX1KX28ymPQjinXTKKqJlnY2YgYzLHSTwxzLfZZJ7gtwlOcTqN9SlH5myioTekG7PZ9IkS39qwSW41Bxue0fP9n4oB287FrV_U_NIVUf0Ht4gnbLwGAAA/BDN5q8XMURmuY0Jn",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=77B293FF3A58CC6732CBD9DD78085039~YAAQKk5DF7TTsQKdAQAANpTYRR+a4rIpz//EqboDcEQUWQnisp89scNOwsEnRabpW5pF0gH6gDa6hwUyinVGMigS6Y16q2roGJD/1wt5LJvsR7nTzu5a0x7ldwNCfe1QU0oNL/Ti0AXzl6rZTnKg4k4lIKsOCY6jRIoqjGuCjeX5TxCxURyE3F/yTnBMc7t7FiWjdf57rAXihZ9GIdHJowqLDm/3QwmdDjyUo/pAGsFPt00OyaFxGxp8wpUyzl8E5ijFeQglo2tNeJg47ZwFF9nDp58UgAjcWh0zKhv3b7ezN1OKzQVAyHFNscdUPFvSrpz5og7L3B6FzNQOBioVukcet70fksmw9lImczjXjXUjkqDo8AvNWknQTEo=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72796799999924
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT246rNhT9m_NUZswtkxwpqjKB5BCNjZKQMPCCAJtgrimXQ-Dru03ViVr1oS9VH6J4X7zW2mubtOvu7ffXVybJ8huSX0I6sSZ_qVj3yl5uPPmVrdl4UKys5visPcjWaq1yJ2IFOzeNZJvpY3tI6dZaYMcTZz6ftwP3FMTtzJNt4zLZxlH7I3cTOQQxgt4sHK0FUxFgkhEwNdvACE9HFf4hd7rPvPtTiqddbjunwnP9lOwvsuceMnt_lLGTlp5iDR7oIO6RA2YecuA_Dzx0c25zS8alOUFdsY2N7hsxEmfPPaUEMIhDU5IdODagZxSznTrgFHOUEMNMG5lMuUqmWMN84H45gP4bzO7pJMsfM8_nRvBMH5k5Eq7J9lbT7bPA6lShP1zay3D_mDwlHT1XbyzAiaoYcMwHmTYP4Bpmrq02CLxIBbxs04MmwJAHwBg-srmvmPugx5-93UD9CvV7T91HK3BiMXt2AX3mCPE472IceFxh6LdUcTdWTKFXJWLeivBZ4xkN_v44etNFJc4R-QbWvNIaoCp6hAZkOzedTFjECOIHznKdGKbQJYs9WtW1wGeEsOGn2KGF55AC703AiuENvBfE8Usvo_DbcTIdZV94VN174TeeYhlPMG91mgQ2-A18OeRNRIyLJmaLYDbxJiiXh2hvil1Xwg-_3LWxcgEvqAFelJ77mPzZI9h_dRqpO9cELo_KVT_zlqdM8AAGYgI3v8pxuRr882rrfx7a0NX47GcFu6haHv84_PR_XDNqFvns1-epiNwT-Lj8CV6rsCv4x-gD5iCuX5KS5Ng5DsQ45F5GOMnMCXQWRFQyn_v7XQpzIZKlOXHi0VOw4htF7jtHzXZ3ufDPNuKH53rIz0yeiL3t_x_u-fvea7MP4dlauCr4Ae_Kyv4zPvG--EXZdf71fYyUk-ypR55c5dX8Xarv2V_2_HkU3-SAf6Bv7br3tKXO35uDtJGcfXd-j2pUpqoxoOHbvanvrOnG7yENGvZbz9ou4HStonCpMzWUVom-kDSUUGmpsZW0iJH6tljRiMbK8-5YBwOL1pS1eVffAxakdckC9MtX4u-tQVv3Tcz-1Y0ijNqgA11f3WrQVw2L61vFJ0a_7shyED2DIH6eUUBZEvZF90zpf6aeRPci7HjVlzNZcGvq_t6uozDOWUWD5Nl3o_cmiOuqZVW3JjYxn6U8DOBM-3g2caEmTElQKIXxWyhpmsaklZ4widEFlaOlricKkhSko9Wbsnp7okR1F7Rx3TBYwzOb3P9JDKwtKeph3bBbX4TN7wZmXo68BgAA/62bUfAkvwpEQBvBe",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=BC8CFBC61F7CD9E6A4FE0FFD0300A908~YAAQKk5DF7vTsQKdAQAATJTYRR8o7zyXE/eM0t0QId/s49q1ADoiQLSIRIQeJxwAM5lORndQyFiIf5PxDJTBeVYDnnzSjZ7PGjPh+fYPEZc4mHQqi1OdNh2EcAEUTaTCKPnOO37EKDL2D9vs9cU/uWWEO5ObyfNoBjeV4/fJ/vJvovmZ7rG3oMdcaYUO67zyjfL8hbMW4AzwEZIlEQG96qum+AqDhSA/ANBt5NZtYeeiZP0qgUWLJT7pRzBs9tPiQNqWRdEJae6TsKm14Be1wZc5ZHX/pbjt8COYTUSyhWALPHcmugKZwMpqpOgcbKtXxAVdOZfyR0lioCfiPFw2AWW8NMvbia9H87VOuGlDr3zBGa1gYweEUZlWhJQ=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72842899999887
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT247iOBD9m3laup0b3YyEVgwJdFDbERBI2y9RLgacG1mSdIi_fsoZbaNd7cO-rPYhiqtcOefUqcqlbevm-_Mzn2jaC9KeolTyW_5U8faZP53F6Xc-58NGd7OrwHvzTpZu45YrFevYP5skW8j35eaSLt0p9qk6i_G87AXVkfAyqnn2QXr21vyVO6scghhBbRYN7pQbCDDJAJimZ2NEMseAN-R29ci73l2wXOWevytowC5kfdBosMm89VbD_qWkuttT0EGCrQDMPBK_-KMgF55we2KvBJHswmyWE_-MiO7caeBIbLsWy1yT2fRO5UXgQfW2a4FT9VHSQfW0AP0LwEhMLHrByh70n6F3apEsv-MBeD4Wike-Z85AhKl5S9Py9gqrNZT-6NV7jdZ3SfXLQAPr5gJOXCWA49yJXNyBqx-5lmaP93BnAF626LDtAIbWA0b_no11xVgHNWz0dgH3R7ivuzS4NwonUb1nB9DnDBAP4yxAY1JhqMeSqLPuKL0GUf1WRIwa96hn6-1A5cEg_hYxG5u0BO_EWKM0IM8_W0RiFSOI7zjLLWI7Spem5uhWxwLvEcI2u2A_LahPCrx2ACsBD38UxGclzVJ41Dy2GlMeVXWn_MYy0bCEfqudVNhEJsCXQ95BxD6YqrcYelM7kQqtj9eOmnWl_GDlqkn0A3iR2uBFSYO7ZKNHMP9qN6TBeKdwRVzOupG33GWKBzAQV7j5UUvKWc_2syX72DRRYIrRzwpmUTUiedt8srdjljpFPvr1sSviYAc-vn6C1wbMCt4YvUtXZz7tsb7L1R6zYJcxPy3H_rODhcst7PcmYxDj4CCpXMFe5gaVOWIlKTyoZSWG3UwsKllG_CKn-lacoJ9k_f9wj__32hx9iPbuNDDAD9grN_vP-NR-iYO-atnxxxDrO40a4MFRm43_pfEj-8ucP7bqn-zxG_rWzJ2tdVx2USwjR3urNfuzZtOmQp3zQb_Vt2vNb-3wPUrDG_-j400binRuoOjV4kY0mZ2s6cREp3TyavLZZJog42U6S-M00R_fDtew5_E85U3eXuuQh5dryUP021fi76Vhc-1uCf9XXxRR3IQt6PqqNsKuuvHkeq6E5OnXN5oWxo8gTB5nFKb8FHVF-0hZf6YeRHURtaLqypEsPN-uXd3M4yjJeZWGp0fdOa1vYXKtGl61c-IR53GVRyGc0y4ZTZwaJ66fUDSJkpdoYpomn8ysE5_wdJpq8atlnXQ00ZGFZi-Gpj1Q4msbNsn1xmEMj-yp_icxMLZTce3nN37uiuj2E9UiI7S8BgAA/hvKgLIJuzEShSuVh",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=ABB64713C60AE5171F5588D7EE7ADFC6~YAAQKk5DF7jTsQKdAQAAP5TYRR+RgFZUy+p2CA3EOmmqyZXRhaMWWExQU73/8cXyXuYfvnBH0wwk38ES5i2weNAJP1wlCGcaiyM6zmKc1SwvnnrSBJ3l23/+cP4j1Wsr2Ep55YwEDdy+b7TorjZkyh7LRl/Vs2+LtKG3QU6E5zzsqGkBTIUhiB3+idKM2+P53Z6RWfWqCI9Y+L7hWSZV6tiFDcnxgKwo4F4tH+mcHXwdyCbnWJXjjJlSCmz//jqMn8bM0WTx+aNaO+oPxoy6cFbJlVC3x3kBHMbq4leARjID/VJa7/XqDh4gBW6fiE86YM1WUv9LGpM52V4SXtvm+ln00L71P6Ov6UTx6dvG0/A5CL6UkCP7GE9i/ho=~4604469~3556401; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:54 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js",
+          "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js",
+          "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js"
+        ],
+        "time": 55.72781800000121
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/f9/f924e0b91505a43fa2cf8c57775ae9c1?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4989,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"95dbeb83b82e72b341e7adcc58e4a17701e76fae9788b59c7b5eea7fd2329669\""
+        },
+        "responseBodyHash": "db8014ec564a1985e40b4208d0b7379f38194b6bfa7366dc5a937061b35f3347",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiMjZlNjAzZGQ2MTdlZGNlN2Y4MGU2NTkyZDQ2MmNkMGUxZTNjMWFkOTdjOTRmY2U5N2ZmYzMwNzljNmM1OWRjZCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA1MDk3LzMvMjA1MDk3MzExL3MxX3Byb2R1a3RiaWxkX21heC9tYWlsZWctbWluaWF0dXIta3VlaGxzY2hyYW5rLXdlaXNzLmpwZyJ9.VwKNjB2Dd5DkPbDitwcUbg6EspFz8hZ45WGj3vcNUiQ",
+        "initiators": [],
+        "time": 0.0181510000002163
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/a5/a5f9459c9822d27d3bc77f6e8fc25eed?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6562,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"bd4b82cadd0f573a93354acb7c217efee1d2054e34fa1c64d20a62702b72ad31\""
+        },
+        "responseBodyHash": "96dd4862e1c7f0bbbcbf7a0ac50bd7f63754a0faad27e6bcc1ccfb1306211e7c",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNzNkMDNmMjFiZTRiOWVkNjg2MDEzODAzNjQwMjhjZDM5Y2IyNWJhNWQ4NmZmOTZlMjBkZDk1ZjJiNjcwYmUzNyIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA2MzE2LzcvMjA2MzE2Nzk1L3MxX3Byb2R1a3RiaWxkX21heC9mbGFtaW5ndWVvLW1pbmkta3VlaGxzY2hyYW5rLWtsZWluLTYtNWwtMTJ2LTIyMHYtdGUtNDYuanBnIn0.DE6jEyzKk0neuK37mqbstzHaC4CVyU8YGsUpIXtc9KM",
+        "initiators": [],
+        "time": 0.036043999998582876
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/b9/b9d53c57c6cbfa19094c41a1ca17d30d?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5000,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"fcdbf4efda6df467bbdbd37c8f3668c5ad4a5306b52f1669447a86a3504c529b\""
+        },
+        "responseBodyHash": "fe6783caff5c07f7ef3b219fe0e4cf37bb1bd0418769e36325e3a981a8f2ba89",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNzU1ZmY2Y2QxNDA0MmRiM2I2MTNmYWU2Y2Y2NmJkYWE0NTQ2OGQ1NzJjYzZkOWRlNDg5YWQxN2U4NzFhZjRmMSIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA1MDk3LzIvMjA1MDk3Mjk3L3MxX3Byb2R1a3RiaWxkX21heC9tYWlsZWctbWluaWF0dXIta3VlaGxzY2hyYW5rLW1pbnplLmpwZyJ9.49sHl-u8hVrt43qV1zFNESHYVCGx9hT30pzFBnSOuyU",
+        "initiators": [],
+        "time": 0.0362249999998312
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/4e/4e1ec7ff4fe78b108bd0c288e387c13c?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11935,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"03c355416007ab94edd4952913baa91770e8b067c7dc078c74ae93039566fbba\""
+        },
+        "responseBodyHash": "6b909e2514c3a1c3ade3f9cddacbd75bdd3b10465c6e40661dda569d12e3d80f",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiYWNkOTljYzNkNmNiZjkyNTBjNjA3ZjVlNWQ5NTdjM2FhODM4YWU3YmQ3ODc0MGI2NDg2ZTI4NTA3NDU4ZjUwOCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA3MDM0LzgvMjA3MDM0ODg2L3MxX3Byb2R1a3RiaWxkX21heC9ldWhvbXkta3VlaGxzY2hyYW5rLTQ2bC1iYzQ2LXNjaHdhcnouanBnIn0.yz3XhXsmK-lFdJtCvPmt8bPAunG2Y22phe0NFQqW0Vs",
+        "initiators": [],
+        "time": 0.2585479999997915
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/c1/c14564443861f363b2a70c7ebbdf007e?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16804,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"4fc38b307a2d8beeb16e1299ca774ca3075ce2925af305d03bc24cb3b62dee94\""
+        },
+        "responseBodyHash": "79ca4a3ea9642c4281e174ac32e6ab84e870d9fc9db19924dc4f97c624bfcb9d",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiOWM3Yjk5ZDFjYmZmYTcxOWE2ZDA0ZmI0YzBmYzEwYWUwODg0ZTgzZDUyOWE1YzMyZmRmNzE3NmY5ZTkzOTMxMyIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA3NDg0LzAvMjA3NDg0MDI4L3MxX3Byb2R1a3RiaWxkX21heC9saWViaGVyci05ODgyNjQ2MDAtZmxhc2NoZW5nZXN0ZWxsLWxpZWJoZXJyLWt1ZWhsc2NocmFuay1lZGVsc3RhaGwuanBnIn0.ISZWqntpQGCEo0E_EBjM7Lk6emmgdgkjt8MhAmPvI1U",
+        "initiators": [],
+        "time": 0.02006999999866821
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/9a/9af1ba74138bfb999de6fc1cdd11d011?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8518,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"b3d92d4851955b531f8b1939c0305ed93d2fcddeb18bb7f9446da708637aa50a\""
+        },
+        "responseBodyHash": "60437744949e5f9f56f720565b26e6641462d1f6f744293ebb55f6b96ff82661",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiYzc5M2Y2YWMzMDZlMmIwNDU5NjM5ODFmNDhkOTI5M2M1NGI2ZGJlYjVmMmZiMGUzYmNhNTdmNzNhMTY2YTE5OSIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvNjkyMy85LzY5MjM5ODcvczFfcHJvZHVrdGJpbGRfbWF4L2tsYXJzdGVpbi1kZWxhd2FyZS1rdWVobHNjaHJhbmstc2lsYmVyLmpwZyJ9.llISPazeNXdoo3QF8yTMkGxOTiFqMO9hHgrM1iEVbQA",
+        "initiators": [],
+        "time": 0.20698100000117847
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/3f/3f45ed349ff5c16ab95b68499534ceb8?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4689,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"61004f7c1bc7492771a628249c66449ef19a5909f4e20d96215674fcbaa17de5\""
+        },
+        "responseBodyHash": "b9b429841163615b75bf2692ade851d52e2cd60713bc8c3f199164b01dfcf99a",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNjEzODZjZjMzMWM5YjhkMDEyMmIwZWE5MzJkOTlhZGU3ZjAwYThjMTYzOTBmZWU1NDNkYjMwZTk4YTFiNDNiZCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA5MDA1LzUvMjA5MDA1NTQyL3MxX3Byb2R1a3RiaWxkX21heC9zaWVtZW5zLWt1ZWhsc2NocmFuay1ib3NjaC1rdWVobHNjaHJhbmsuanBnIn0.bqfau8t63JNGjvCu5eafghyFB1Poo-PvS_veyqRHOIo",
+        "initiators": [],
+        "time": 0.1802220000008674
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/19/198bbe9931bf7e0d059b298e6b7a0144?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9344,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"d861f0b08439917a6cc4c1afceaee5d776ff697b9af4187e01225927c13d5ca7\""
+        },
+        "responseBodyHash": "4f3b68e4733e7133762ed3f6b64d4d2a4b94c0c0db55f152fb48d1b78f0fcf41",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiMTIxNWEyOTM1NzIzYzgzNzg1M2JmZWY4ZDhkNjBlMDMyZWMwMTdlN2RjMGUxNWVhZjUyMzdkYzcwMDYwNjhiOCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjAxMjE1LzcvMjAxMjE1Nzg1L3MxX3Byb2R1a3RiaWxkX21heC9zdGVuZ2VsLW1wZ3NtLTE1MC1wdWx2ZXJiZXNjaGljaHQtZ2xhbnotd2Vpc3Mta3VlaGxzY2hyYW5rLW9obmUta29jaGZlbGQtc3B1ZWxlLWxpbmtzLmpwZyJ9.C73ThxeOVbQE4vKSjDp5DVBximhR1t2NCoYw4UkXe8I",
+        "initiators": [],
+        "time": 0.03905300000042189
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/ed/ed52f83b0a1ce2435e8c7964b75a1211?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10521,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"cb1efab775a97b3e41a49eadafd0a11f9507069d3a1e3888070ac67890bca848\""
+        },
+        "responseBodyHash": "3a57bffab985bd86f8c6713f71b041057fd83172c6001bf718a361288f6e9cbe",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiN2YyNWQ4ZGQ1NGYyNjgyMDE1NTZmYzdhNmUwOGJiM2IxYTRkY2JiNWRiMDBjNTNhZGQ4MDFhMjQ2MjhmMzAxNiIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA5MjA3LzgvMjA5MjA3ODI4L3MxX3Byb2R1a3RiaWxkX21heC90dWx1cC0wMTAyMjAyODAwMzAwMDAwMTIzOTEuanBnIn0.A7we6FxbZT0wDMcHlMdml5CCPY3_4KUrG1wrBbfUu9I",
+        "initiators": [],
+        "time": 0.19982100000015635
+      },
+      {
+        "url": "https://img.kleinanzeigen.de/api/v1/prod-platinum/images/ads/f0/f09ae6a06805d5415b5955a7487c6102?rule=$_35.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13441,
+        "remoteIPAddress": "18.244.214.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2678400",
+          "etag": "\"3d00ccdd1d3342d258f7e539360546db6392e250db5b9cf94cc78ace8883e804\""
+        },
+        "responseBodyHash": "e2f634c5bb0b51f4e97384208f7e37b1f0cbca88222f286f6070b5856925a6b6",
+        "redirectedFrom": "https://gateway.kleinanzeigen.de/fp-pla-kaos/v3/image/eyJhZElkIjoiNzBlNzg0ZjZjNDkxNzZiNjZhYzAwYzIzZjYzNDM0ZmFkYTczMWYwYjkyZDM2ZWYwMTIzMjBmYmFiYjFkMGRlOCIsInVybCI6Imh0dHBzOi8vY2RuLmlkZWFsby5jb20vZm9sZGVyL1Byb2R1Y3QvMjA3MDkxLzQvMjA3MDkxNDcwL3MxX3Byb2R1a3RiaWxkX21heC91a29uaWMtbWluaS1rdWVobHNjaHJhbmstbGlsby1zdGl0Y2gtNGwuanBnIn0.qsjhXk8PxY3Ah8_OkCwWgdngAlz3OhN3vM_IJK0mWKc",
+        "initiators": [],
+        "time": 0.19875300000057905
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VTy27rNhD9m7uqE-rl2BcwCsdSFBkhBfmlUBtBD9om9XItObL49R2qaIwWXXRTdGGYnBmeM3PO6Nx1l_bn8zObaNoL0p6SXLJr8VSz7pk9nfjxV7Zgw1r3RMPx1ryTldd61Zu669j2dN_eDx-r9TlfeVO8oxLOfDyvek51xH1BNd8OTGIXkgwqdlIxBDEEtSIZvCkzEGCSATBNf0c1LE8asTHENpeR192csXwr_N2mpGF0Ju5eo-Fa-G6g4d25orrXU7GUJAw4YBYJ96aKKwkL7vO1oCIzfHddEHFCtNojrO8tf3coI3EusOvcfddB2I3EH7NtOuBUc1R0UDMtDZirJ9KRmPc8qnro_6RDDDCwgRXP5xJ4PPkhnIFwU_NXpuVvFVZnqP6TmT9L3Luk-nmgoXX1ACetM8Bx7kQu78DVj1wrs8dbyBmAJ5Y3bDuAofWA0X-Isa4c66AmGrVdQv4A-cstD--twslgdiz20J-jfBlGL6DHrMaKzyDgS6Y7ql8DFG-9mvCxxy3qIzcYqNwbZBegyMYmrbwesqpG9YD83ckiEqs7gvsdi8IitqP60pSPXn0o8RYhbEdnvMtLuiMl6AtYGezAa0l2UUVFDr83TmSgRUqj-nJTemOZge8wb72RCpvIDPgKiDuI2HTUKIXZ1E7kXOtT11Fe10qPqHprM30PWuQ2aFHR8C6jUSPwv94MeTjmFC5Pq_lt5K02QvEABmIKtzhoWTXvo-18FX2u2yQ0-ahnDV7ULc_e11_R-0HkTlmMen1uyjTcgI6zL9DaAK_gH6MPmcnIXspIeHe1a1SUZWRTk4B_sNc9lhT08UyqB9IPCcfiwOnuUPh2VEWi0KOdp3ywSEgHKqiB3XUJ2vAjzJO5_w_3-H275qhDsvWmoQF6wF554j_jU_vF9_pbFx1eh1TfaNQI-PGgzcfv0ngVf_H5M4DdDvpj8KNdSKxPiaHrL0XLsvemPm2CgJ---vK4_3G5Nhd27YafSR5f2W831nYxzxcGSmYWM5LJ_GhNJyY65pOZyeaTaYaMl-k8T_NMf7wdmrhn6SJnbdE1l5jF56ZiMfrlO_D30rhtbteM_asXZZK2cQd9fVcb8a2-sqw51Vyy_PuNpsXp4xJnjzOKc3ZMbmX3CFl_hh5ElzLpeH2rRrL4dG1ul3aRJlnB6jw-PupO-eUaZ03dsrpbEJ84j1SRxHDOb9koom4dzZmJzMlcy9KJab3MJvNMe5louZZPU2PKkDWb6GhqaNOXufVASZsubrPmysCGR_R4-admwLZj2fSLKzvdyuT6O5ozyjW7BgAA/Z-JgwKGJr3uyRNEj",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=9C7CDB15BA6B30971A5B1E6540A2CF90~YAAQKk5DFzzUsQKdAQAA95fYRR9yJ8aZ2tGSRLNn9FOQ5zbnw2pZp3zRlQWuandNU64AtaK6mT829M48NiZQnKVK3Mk7DJWhamAlOGeP46StAfTv/EpLZpwNjBlPAoSXA36sSvM3ODTsS427/0+FoYLWcE+xbmskTDGZJhH9jtjWKRnKS8mEM+vxrVZ7mxXbfCEY3x1xKUgwVGdYwJRRP94svGJ7ip573G1OedRXCie9qVCaGuIazqlHY9VNgo5yBZ+/GaoVEipr46rOLdGIpHz5K40BzGj1hvR8s+a34LUoqJWDg6gXrKOFuMbLmz51ZEiHBFZ5wLuuBmDMc0pQP939dOaTRuS8gOTrYXIVpnA2nbD1GeRcvU22HoU=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.72295599999961
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT246jOBD9m3nadJtL0slI0SodCEPUNoKQ0OYFcXESc18uQ-Drp4y0He1qH_ZltQ9RyuXyOVXnFPeuq9vvr69sIUlvSHoJk4k12UvJulf2cuPX39mWjUfZTCuOT-qD7M3WLA7iLGPNlC3tPH7sj_dkb66wSyeI-RzvB05lxK2USpZmq0TLJjKK3E3kEOQQ1KbhaK6YggCTjICpWhpekukssCHn1DOv4dzxdMgs18mp59-JcZaod0wtw5awey-obA403U3EszlgZiE3V9Zp4KGXcYsfC1w43DIOdz-lI7xBvnEsLMCxPF2hhf4grv2AtyoeZ84OOMUcBR3FTDvo__yw3HgUmH4xQP83GWZdWi5WMMwUfu6Ax5w-Un0kXJWsvbq0TgKrU0T_4dpah8ZjovJ9pN6yMfnAozIGHOCedg_gGmauvTpg4IgUwEt3PdZ0wJAGwBg-0rkun-tEH7O2O7i_wH3dJ96jFTgxzI5T0M_VhS_j7AX0GJdY8CkYuGNZF_0qRMxbEj73eEKDb9gjnc4K6IF8Dau0MAe4FTWiB2S5N_AGizOC8wOn2ZJouuhLEj6a5SXHJ4Sw5t-xm-TUJTk2dMCKQcP3nLh-QdMEfgdOJlvyhUZl3Qu98RRLeIJ5S2cS2GSKgS-DvI6IRsUsQwSziZ1IuDREhi68LoUefnFoY_kMWiQaaFFQ7zH5s0bgf-mMiTffCVweFZt-5i2cVPAABmICN7tIcbEZ_NNm738e29BT-axnCV6ULY9_HH_6Py5poufZrNenk0ce7BVf_wStFfAK_jH6mJICp5fMMpyMuA7EVMXgHXHPsl9ghbp-jrU7pynh2ANtDALxJYP9HUD7iXpOZmm7B3VNRFJT9VM8wK7xK8wTG_8P9_x9G-qsQ3gyV54CesBemel_xif2i5_lQ-df3sdIdiSq2Px6kTbzd6m8p3_x-dOG3baHq_2t3doLkqfpiLxDolz6OvJO2ZuGWNfE9re6qWrWdOP3MAka9kfP2i7gyVZB4XrJlHCxuS5XCxVdk8VaZZvFKkbK22qTREksP9-OVTCwaJuwNuuqOmDBvSpYgH77Svy9NGirvonZv3qRh1EbdNDXV7US9GXD4upW8oklX28kKYiehyB-xihI2DXs8-6ZWv6ZehLVedjxsi9msuDWVH3dbqMwzliZBNdn3S2pmyCuypaV3ZZYRH9eZWEAcdLHs4jy8qquVaQuNlIcLdTl23qxiaW3hZRIySpSVgwt1wsZbWT0tpbXT5So6oI2rhoGNjyz1_qfmgHbrnk1bBt26_Ow-QUR1YeWuwYAAA/o7MdeWEW5Hl6sjmy",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=0E9AD4B6C77F7E41493308A57C150032~YAAQKk5DFz7UsQKdAQAA+JfYRR8/6xnAXZH3p1RfSUgRJ9+LLdmQWSirlTJkrrMsQhnzdDdsrth3gz26zBm8D8ReIS9FCeRpIVxUeHxW56yq68uVhUmXf/nmwjCgBc7blxyuD6Eh8F09Fmy5gPZgYfCFQrzCxAFdzo5zaDJcclsSKwK+yOJRB0Fbd21g+s7V1e3EyW5iQOPpB/w8Fwuiso3dTMVUGR+OdDTfWhUPvsbrRChE6+t28RnmrgJjrVQXQoGZM9+R2wld/M2q6pHTg/yk6EL3J08+VIApNOO+PFN1ETnCtFpXnCqYlzfPlmsqyz5LM4pqJ+An0ik5fAyjVbAGEBY+pBDtBOv7Lu58EZVjt1IbkbQsnuwFGXM=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.72310800000014
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT246jOBD9m3nadGMu6WSkaJUOhCEbG0FIaHhBXJzE3JfLEPj6KbOajma1D_uy2geEXS6fU3VO-d51dfv19ZUuEHoT0EuYTLTJXkravdKXG7v-Tjd0PIhGWjF8kh9kZ7RGsed7EauGaKrn8bg73JOdscSON8GazevdwDxRYGbqIVO1ZKJmExl57MZjAsQEyE3D0VhSSQBMMgKmbKpYMlVvxBOGmF3PvLp9x9M-Mx0791z_TvQz8txDauoWws698ERj8NLtRFyLAWYWMuAHrtDNmMkOKZ6syVeTFBeejHVNILqdmbqdm7r2wAX81ZtACoy8E-_N7oCT91F4I-9pC_VDNSoWTejJLwao_yZCr4rpQOwEPB9b4DGmY6qNhMnI3MmKOWN1Eq8_XJmrUH9MnngfPVdpDDawqIwBR3uQafsArmHm2skDBrxIArx022NVAww0AMZwTOe8fM6DHH_WdgvnFziv-8R9tBwn5r2nZ6hP476MsxegRVxiyDcGXm8sarxeCRRvjZKwucaTMPi6NXrTWSKOJfgqlr3CGOCU5_AaBNO5KYT7UhIB9g-cZgpRNV4X4j4a5SXHJ0HAqn_HTpJ7Dsm53r4ag4bvOXH8wksT-PaMTBbyuUZl3XO98RQjPEG_pT1xbDLFwJdBHPxSvYH3FkFvfCYShoZI17jXJdfDL_ZtLJ5Bi0QFLQrPfUz-rBH4X9pj4s5nHJdFxbr3__I55TyAIVCOm11QXKwH_7Te-R-HNnRlNutZghdly-Jvh-_-t0uaaHk26_Vh55Frg46r76C1BF7BHwtHEebXIQUp9jB3W9F3DgyrFjLhbYB-Dz-1ZF_NRshJiWMzUtjMdw3kpzBv6XuOxUPqOWfJT-PJczSRFNoDdGBX7pv-_3DP71uXZx3Ck7F0JdBjx734z_j4fLGzuO_8y_sYiTbyJItdL2g9v0vpPf3F5w8LZtsartaXdrPQ2NlZXi7Hi2YcPvar45JpWv2HKSm3L3VT1bTpxq9hEjT0z562XcCSjSSEK4VK4WJ9VZYLWbgmi5VM14tlLEhvy3USJbH4vDtWwUCjTULbrKvqgAb3qqCB8Ntn4O-pQVv1TUz_1Y08jNqgg7o-s6WgLxsaV7eSTTT5vINQED03QfxcC0FCr2Gfd8-Q8jP0JKrzsGNlX8xkwa2p-rrdRGGc0TIJrs-8W1I3QVyVLS27DTGJ9jzKwgDWSR_PIorKVV7JgrxYozhayMrbarGO0dsCJShZRtKSCspqsVyL0nr19sSIqi5o46qhYMIzeq3_qRQw7ZpXw6ahtz4Pmx9iBg7suQYAAA/LOyBgKkF5V7dYxG_",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=F58555F6DC74C8D304DF215492312342~YAAQKk5DF0fUsQKdAQAAMJjYRR/R68L/QvorhRAQ3Sds13+gAAE5wgWnEGqIEQ5w5EtklhCpY6E5Sa+D9gM44LOmY3YWBL+fnuLihLNGh6P/liO2sd25FSSfjKBbz92OdflfY+Bag9tUrrWIyZLB6fsfS5A0PEQcW4m3MVo+b2VhdOG049pXGx+oKWZivK26cj5AuQz5F8loXgDpfkvRxHx45nu4PUOCWcGTGLaGdFwYQK+Fo/tdL70gYl7dXfo9ImZAuMTg+llbCunW2kil2diwxa9pkt9yy0qENRBfLkZtDuRdqj1BTTah4W5bN3KtxANyFrxJXKmgh8iwXoJeJH9n5uNIRQ2MS6K7Kr8zol1sifbSweM4wmULLMY=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.72267699999975
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT25KjNhD9m32KZ8TNY2-VK-UxDIszEouNzcALBULG4maWy2L4-rRIZVxJ5SEvqTy4LHW3zjl9url2Xd1-fX5mC0l6QdJTlEysyZ8q1j2zp5RffmUbNu5lK7txfFTvZGe1Vvkm7jLWLdnWT-P7bn9NdtYSu_4EZz6fdwP3ZcTtzJds3VGJnk9kFLFUxBDEENRm0WgtmYIAk4yAqdquI5HpNBLXgNihnnnNwxVPb7ntHgrfC67EPEm-t89s05Gwey192Rr8bDsRz-GAmUfcWhLgj7yc23yfB25xhbe5bZ5zkqXId3PFd-lE9FS1TVISnSKcveb-UfR26IBT9FH6o-hpK9uuoWHoAYP-oBxAfypDr5rtYmXm-dgCjzW9Z8ZIuCrZO1WzZ6xOEfqjlb2KzPvky9fR97TG4gOPKwo4xp1M2ztwDTPXTh3wEXIK4GXbHuvCA2kAjOE9m-uKuQ5qgtnbLeTPkK_7xLu3AodC7zg7gT5DzGWcZwG6aYUFn2aDXiobQq8CjrdWRfis8YiGwHRGfzopxHVQoGPVL60BsqJGaEC2m2pkwuKO4H7HWa4R3RC6JDFHqzoX-IgQ1oMrdpPCd0mBTQOwKOzAa0HcoPSzBH5vnEyOFAiPqroXfuOJSniCfqvDJLDJRIEvh7iBiO4PorcYehM7kXBpiE1DzLoSfgTlW0vlE3iR6OBF6Xv3KZg9gvlXhzHx5pzA5XG57oM_5pwJHsBATODmZ4mW6yE4rnfBx76NPJXPflYwi6rl9Nv-Z_DtnCVGkc9-fRyK2DuAj6uf4LUCs4J_jN6nIiOypdmec_flfRmUkIP9I6UzEDPgxMRDUOI7Nt8KDPsHu6xiGfY4gxoPT7gM8iCj0H9Q2t5JwxN44GJ-gX6o-f9wz9-3qc4-REdr6SngB-yVlf1nfGK_-El-64Lz6xjLB8lXHH45S-v5u1Res7_M-cOB3XaGi_Ol3fj3_eFH_Z2nTZbS09B6k_rb8tqe_RB9qZtbzZpu_BolYcN-9KztQp5sFBStNKZEi_VFWy5UdEkWK5WtF0uKlJflOokTKj_ejrdwYPEmYW3e3eqQhddbyUL0y2fg76Vhe-sbyv7ViyKK27ADXZ_VSthXDaO3tOITSz7fSFIYPy4hfZxRmLBL1BfdI6T9GXoQ1UXU8aovZ7IwbW593W7iiOasSsLLoy5N6iakt6plVbchNjEeqTwK4Zz0dDZR1i7qSkXqYi3ReKFqL6vFmkovCymRkmWsLBnSVgsZvYgiefVAiW9d2NJbw2AMj-il_icxMLZLcRs2DUv7Imp-B70yTfW7BgAA/BdpewYRi0RVEzawg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=4C4A82F84F38AF748582F0925089BB1B~YAAQKk5DFzrUsQKdAQAA9ZfYRR/h0OwfTOgqWGAEaDoHON6lpPBd50G+X13ltGZSJODS2Cmzxnj6Rt4q/OKEoIuWqoV1cPhLo36cgA8oi1agDfOfSpQG+8UhXXw3588tXrGuHBxEGbWmklySaFGlCgKPyOvFK9aANFt/jO/cipuAo6OEFcEs8FaiGAvZqSHmp34g5M30oMTDNQCSRJH1sku+VeAZqwkMclqjISgDtyV5Npg3uJ4OSiK0NgOBY7q0XmkRRlheq3BTo9ZLaPCV/PIeqRk9nENIYJirGIyG82Q5kH8IVb+wNefBNviD/bp+Js6j4aaXYndbJUAa/HoTIJrNfMu5nQ0kXHIMALG8BLPN4xI89hDRJn+47bA=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.7213840000004
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT246jOBD9m3na9Nhc0slI0SodCEPUNkNCQpsXxMUh5pZMgCHw9VtG2o52tQ_7stoHhF0un1N1TvnStrfm29evfIbxK8IvUTrye_FS8_Yrf8nE-Xe-4sNOsfOrIAftQTd2Y1dbuVeIYSuOcRzeN7tLurHnxGMjrMW03vSCKUg4OcOO4WrUKEY6yFgmYwhiCHLzaLDnXEWASQfA1ByPaY5RIJofIba_TbzW_kLGbeF4-5L5wYVaR8z8Xe5YLibepWKK3bN8PVLfFYBZRAL4RS8ivxCOsBEbzd7xaekYCQ5ygqhPHo5xKohlDiTfFsxnPRtdlQjZ274FTtlHxQbZ01olUC-FPmVPQdVD_ZkCveqOR1QKsehjLXnG99wcqNCws9F05yCxWlXWHy2cRWQ9RqZcBubrdxtqi-sEcMwHHdcP4Oonro3WkwOcqYCXrztimICBe8Do3_Mpr5zyICeYtF3D-QnOb13qPxqJk8je8yPUZ0pfhskL0D2pCeTbmAJ3opiyXhUUb-yaiqnGA-oDyx3YeFSp56LAIBqr7J6KKUfWgBwv0-lI5B7B_kHyQqeGKevC0ke7PpXkgBAxggvx0pJ5tASNASuBGXgrqRdULE_h2wo6ujiQGtW3TupNxgSTEfqt96PEpmMCfAXETam9LnuLoTc5E6nAfWyZ0uta6hFU2yZR5LykBmhRMf8xBpNG4H-9H1J_OpO4Iq6W3cRb7XPJAxiIS9zihJNq2QeH5Sb42DWRr4lJzxq8qBuRfN_9Cr6f8tQsi0mvj30Z-3vQcfELtFbBK_gT9K5s88AodKaQMTCCnFVMBz9gvlhPFYYD7wRzfFTZSC_My0bH2pZU2RV0zFRqvAmaw1upjgO8q15q5FgMEwPeIfSTWP8P9_S-LW3SITrYc18FPTbSi_-MT86XOCrbNji9DbGyx0x1xfmEl9O7VN_yv_j84cJsu_3Z_dKs5oWfrWtLGz5cEgfkZ9taZvZjuVHS_svtfr3xezt8i9Lwzn92vGlDka5UFC10rkaz5VmfzzR0TmcLjS9n8wSpr_NlGqeJ8rw7XMOex6uUN0V7vYU8vFwrHqLfPgN_Tw2ba3dP-L-6UUZxE7ZQ12e2Gnb1nSfXrBYjTz_vYBzGz02YPNcoTPk56sr2GdL_DD2JbmXUirqrJrIwu1-7W7OKo6TgdRqen3lZeruHybVueN2uqEPN51ERhbBOu2QSUdHP2kJD2myJk3im6a-L2TLBrzOc4nQeq3OO9MVMQa9I1RaL-RMlvrZhk1zvHGx4Rs-3fyoGbDuX135151lXRvc_AGb47eK7BgAA/hTvlqwKq_kVgS76w",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=BE49181EEB00DD5BDAA4316B7219B0CC~YAAQKk5DFznUsQKdAQAA9ZfYRR96cKwtNJdHrFfnZqlrnEcWr3ONm5JpFKrl0kmR50rVIuHNHW2imO18QXZIhi9Z3qQwJA9cc5U73CDnfoXh4CcS/vle8dUgP92qjkYgomiwMM2n6C/l7T9mRF68v/levOGQ25nNFirmfvAfVv8CTStxzNWuZrbsPa5TfJCM69lD3d1B3eQRTKsbpMs0/dQWJ3xT0cBpKZgBw+UN826oLct7+JPyNi2hzMV/GswPB4NzoxMIR2ZPra//Smjdq1YSuPpCUptyGrlGhNKel73JcVIARuo5TlneOK9VqQyJv5KtGeRvfhekV1hyfIYfqWpZu+WUVK056XNY1Dfm3NiyhU+AeaUm4ySLKPQ=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.720642000000225
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VTy46rRhD9m7uK5zYvP65kRR5jcxlNN8LGZmCDoGls3oTHYPrrU02UsRJlkU2UheXuqupzqs4p7n3fdD--f2cLSVoh6SWMOWvzl4r139nLLU1-ZVs2vclmVqf4rD7I3uzM8ijuMtZN2dIv0_v-7R7vzSV2PA7ndD7vx9STUWplnmTptkr0nJNJxG4ihiCGoDYLJ3PJFASYZAJM1XJsyXIuD5LZEDs1M69xumN-zC3nVHiufyfGRfLct8wybAk799KTzdHLdpy4dgqYeZiaSwv4QzdPrdSUcXaD3BHq_Ay7JvLca2EBppedSpyZEzH8Oy5t1TuL2U49cIo5Sm8SM-1kyzEfWLdlch5Tvxyh_5sMs2qWgxURCz92goe_Z4eJpKpk7VXNmrF6RfQfrq11aDy4J98nz9VaMx3TqKKAc3gQvnsA1zhz7dURA16kAF62G7B-AAxpBIzxPZvrirlO9DFru4P8FfLNELuPTuBQmB1nF-jvIHyZZi9Ad1phwadg4KbyQfSrgOKdWZF07vGMRt-wJ49fFOLYyNex6pXmCFlRI3pAlnPTCMfijuD-wFmuEf0g-pKEj2Z1LfAZIayDnk5ceA4psHEALAo78FoQxy-9LIbfMSXclnyhUdUMQm_MqYQ5zFuduMAmnAJfDvEDIronZhkjmE3sRJxKY2QchNeV0MMvjx2VL6BFrIMWpec-uD9rBP5Xpyl255zATaNyM_h_-JwJHsBATODmV4mWm9E_b_b-x1sXumo661mBF1WX0p9vn_7PaxYfinzW6-NURO4JdFx_gtYKeAX_GL1zOvoOVYnhyR63NexQ2cvg7OIRG3jCsidjbnOxc74B7_ixxIapwf5xUl5LwJkwN0e_fLuD_g9ff819B75DmIca_w_3_H0b6qxDeDaXrgJ6wF6Z2X_GJ_YrvcjH3r--TpF8kjzFTpOrtJm_S-U1-4vPHzbstj0m9rdue6-7ZMoDVavle5OMWYTzS_65i_d6961p64a1_fQjjIOW_Tawrg_SeKugcK0xJVxsEm25UFESL9Yq2yyWFCmr5SaOYio_3051MLJoG7Mu7-smYMG9LlmAfvkK_L006OqhpexfvSjCqAt66OurWgmGqmW0vlUpZ_HXG0kKoucloM8zCmKWhEPRP0Pan6EnUVOEfVoN5UwW3Np6aLptFNKcVXGQPOtucdMGtK46VvVbYpHDM5WHAZzjgc4iylqirlWkLjYSjRaqtlovNlRaLaRYipeRsmRIWy9ktEIbSV2hJ0pU90FH65aBDc9o0vxTM2BbUtTjtmW3oQjb3wEtaevxuwYAAA/0bHgdZ-ko8codIQt",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=F6536C3BFE4118CD27956E9480EE04CA~YAAQKk5DFz3UsQKdAQAA95fYRR8VaJdAqZ+tqba1ZOQSgXrWnZMeDPIVuDBuMrcZFDbKO6wAFkxkZNNqw7jrHfLhORjFc67Wg3kA+7yEs95pr/WSIRgjuy9XjR7KhYijQvPsPrOy4sXaKRTXO06pVMx69OhFdmOBCwkuPlgmOicOCLjLRbRJeQMcygu67taw2wGTIkDkar4s/1jVmruv1uxip6hLK6wXwReauSEEeNZl0yOvMKhn9tqXauCfjNPp0XBtB5eVyJA1ntMqOmSqyYXZ4MLEzQWJN0Gu5Rk07+OiQs7CzWZ8r8uL+SU7ir92bsec83LZUdJxEy6z/Kb6uShwEnDn0APWyyOS4LqrRYB+er0UJgV3ZbJrwr8=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.720314000000144
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT25LiNhD9m30Ks_KNga2iUgw2XrMjuQwGj_zi8kWAfCW2WWN9fVquypCk8pCXVB4opFb3OadPt699f-u-ff3KZoryipSXOBOsLV5q1n9lLxd-_pWt2LhTnbzh-KA_yMbpnGor7yo2HdU1j-P7ZnfNNs4c-1TAmU_nzcCpiribU8U1PZ2YhSCjjF1kDEEMQW4ej86caQgwyQiYOsQH17dU4l8gtr9NvPb-isW2cP19SYPwSuyjQoNd7tqegv1rRVVnoPlakMDjgFnE3JmTw8DjoOAudx7Yf4M6z3BtbLjmGoWBJ2hASuIfR5zvKho4AwadIZe97XvglH1UdJQ9rUE_FcRPdQz6w2oA_RcVejVcH2uEA8_HWvKI99waCdcVd6Mb7kFi9ZrUHy_cRWw_BFWvIw2M1oGapE4Bx3oQsX4A1zBxbfQBg-5EA7x8fcemBRjKABjDez7llVMe5ISTt2t4P8H77Z4Fj07ipNA7zo-gz5JzGadZgO60xpJPc6E2VS2pVwPHO6cmfNJ4QENoeyMVR434HgpNrNPKGQifcqQG5PoXgwgs7wjuD5wXBjEtqUuRc3TqU4kPCGEzvGI_K6lPSmxbgJWCh2_gd1jRPIPflhPhKaH0qL7dpd9YpAoW0G-9FxKbiBT4CohbiJh08iiB3uROZFwZEtuSs66lH2G17VL1CF5kJngB83yIcPII5l_vxyyY3iQuT6rlfeKt9rnkAQzEJG5xUtJqOYSH5Sb82HVxoPPJzxpmUXc8_b77GX4_5ZlVFpNfH_syCfbg4-IneK3BrOAfo3dBH1hcVKpS0L7N3cDRQ3MNXu1gj09X2JkxNAuDBvuSqHQAf3QqLBWLYgirE3jkidB2BLaPsK_Wg-awq5XHz3Ju9v_DPX3ftj75EB-ceaCBH7BXTv6f8cn94kd124entzFR9wrVwIOTspy-S-0t_8ucPzzYbW84e1-6VRCl-y5rZqh6Dz295kf9Mv64Mv_H-_HLrW1urO3Hb3EWtey3O-v6iGcrDcULg2nxbHk25jMdnbPZQmfL2TxF2ut8mSVZqj5rxyYaWLLKWFf0zS1i0bWpWIR--Qz8PTXqmnubsn9VUcZJF_Wg6zNbi-51y9LmUnPBss8aRYmS5yVKn2cUZewc38v-GTL-CD2JbmXc8_peTWTRpW3ut26VxGnB6iw6P_Mu2a2N0qbuWN2viEus51MRR3DO7ulkomqc9YWO9NlSSZOZbrwuZstUeZ0pmZLNE23OkLGYqWiJkGHof7IzafqoS5uWwRie0fPtn8TA2M5lM6xadrmXcfs76PfWTbsGAAA/pA8qEqL6WJ1w19KS",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=935D18F3D71B57245D702F15FB44C4C8~YAAQKk5DF1bUsQKdAQAAipjYRR8Jkib4Kf5aCGv/HzekkFs6y+yQsaUcbg8VTXVDVrYmsdXZ64ws4iKVe23S+4Yz3YCenk+C1Zd+Is3giw4wPzpld2wrFDrcpDhoMVkDLKJcXcI6w+oeQWq+ygCkgWc+mfL3DDmrXk3OnDSIZWxbQqfEfDJpb5kqDzBepi+dtljhSAfsduCee6PBb+FavloA+6ye1d9Ab7/jKGLRh9ynmBD3fmQjtVbKeqXaH8v6qlOJaWE23HQ4ND840DFBfOL1/HdFN1Zn/7y8uvUAFs4+jP+/AaoDKPUafVIUg8l9IQ8aHhBzyFTcYpPwpQogp+ZwPY0IILLMyVn2N8cZKIEA/9iKtd4Qf9XUAEQ=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.720172000001185
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VTy46jRhT9m1nFPcXLbUayIrfBHjxdhbCxadggoApTPB0Dg-Hrc4sobSXKIpsoC8t1H3XOuecWWdfd2m9fv7KFJL0i6SWiE7sXLzXrvrKXK09_ZWs2HmQrbzg-qQ-ytVqr2olYxu5VJflmet8eMrq1ltj1xZnP5-3AfRlxO_cl2zhPtuGof-SuIocgRtCbR6O1ZAoCTDICpmobGOHJUeAfcsfbzLs_ZnjaFbZ7LH0vyMj-LPneIbf3joTdrPJla_BBB_EcDphFxIH_NPDIK7jNLQlX5gR12TY2WmAkSJx975gRwCAuzUh-4NiAnlHMduyAU8xRQQwzbSQyFQqZEhXzgQfVAPqvMLuvkbx4zDwfG8EzvefmSLgq2VtVs08Cq1OE_mhlr6L9Y_LlbPQ97W4BTlwngGM-yLR5ANcwc23VQeDFCuDlmx40AYY0AMbwns995dwHPcHs7QbqF6jfeuo9WoGTiNnzM-gzR4jHeRfjwJMaQ7-liLuJbAq9ChHz1oTPGk9oCPbO6E9nhbgOCgys-pU1QFX0CA3Idq8ambCIEcQPnBcaMUyhSxJ7tOpLiU8IYSPIsEtL3yUl3puAlcAbeCuJG1R-TuG342RypEB4VN964TeeEglPMG99nAQ2-A18BeRNRIyzKmaLYTbxJiiXhnhvil3Xwo-g2rWJfAYvqAFeVL73mILZI9h_fRypN9cELo8rvZ95q2MueAADMYFbXKSk0ofgpG-Dj0MbeSqf_axhF3XLk--Hn8H3S07Nspj9-jiWsXcEH1c_wWsFdgX_GL3DHMQLKlKRArvOQIxD4eeEk9ycQGdJRCUPeLDfZTAXInlWEDcZfRnLgVEWgeuotrcrhH-2kTx8z0dBbvJU7G3__3DP3_denX2ITtbSU8APeFdW_p_xiffFz_KuCy5vYywfJV9xeHqR9Pm7VN7yv-z5w4G37Qyp86Vd_7joD3VBfuS2Er4ZElZ1v41ocNm1qy-3e3Nj9278FtHwzn7rWduFnK4VFK00pkQLPdWWCxWldLFSmb5YJkh5Xeo0pon8vDs24cDiNWVt0TW3kIVZU7EQ_fKZ-Htr2Db9PWH_6kYZxW3Yga7PbiXs6ztLmmvNJ0Y_70hSGD-DMHmeUUhZGvVl90xpf6aeRLcy6njdVzNZeL03_a1dx1FSsJqG6bPvSm_3MGnqltXdmtjEfJaKKIQz7ZPZxKWSMjlF0SJKXqOFqqpsoWspWzC6pFK80rRURgsZaUh_lfXXJ0rcdGGbNHcGa3hm09s_iYG1pWUzrO_s2pfR_XdZ1rUxuwYAAA/naJd4EzzaK5k5ukp",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=2EDD4105F76B1BD1A703D4559263CCD0~YAAQKk5DF0vUsQKdAQAAT5jYRR+jZuptdIUP29ToOil/DYwSYdujtXWv4cjeaEZ7AyPRJucLjysySZrvYBJxKDuaX66+JRBwl/xAdluZ3PuuVsBud+S8QhRd66YcIwH4rdKH9qlrvN3wBQFGh2bZ+lMMiQxCzIolxu1lXc6VsCkLoFaL6iQtIjdkUGCaol+UdYsLdsyhsLm053+vnITwTkNxvnZNH9UEIY984WOIOcTAuddppOotzuw2E0qKSeljwdgokGYlN1DIEOjM0OK0AlENIVdOQgboJXnoHdJk7i0HYRT7dS26e+w4X2Mwht8K4vt+FBaSkbiL46aPOao/YyQuCWZT6ira6Ud7E+5lBEku/eq1lQkZzLwPs5Y=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.719490999999834
+      },
+      {
+        "url": "https://gateway.kleinanzeigen.de/fp-pla-kaos/ad-search/ad-impression/H4sIAAAAAAAA_8VT25KjNhD9m32KZxEXj71VrpTHYC-zI1HY2Ix4oUDItrg6XAbD12-LrYwrqTzkJZUnRHfr9OlzWte2vTXfvn7lM4SeFfQUJSOvs6eSt1_500Wcf-crPryqdloJfNDvZGM3drGV_yo2bdUxj8Pb5vWabOw59ugIZzGdN72gqiKclCLHdHViZiMZZOwiYwrEFKhNo8Gec00BTDIApu6YWHM8dyCjC7H9beq721_xuM0cb59TP7iS3RFR_zV1di7C3rWgqt3TdD0S3xWAmUXCnhPRi8jPhCNshaTXK95RDXAENpkSmElBi23ueNadFlgNfHvA6bZwDnK2fQs95RwFHeRMa-CPR-DbO4deBEUP_C8qzGo4HlZlLHpfyz7jW2oNROjI2ejGL6xWk_yjhbOIdveRqteB-kZtA7e4ZIBj3cm4vkOvfuq10XsMeLEGeOm6w6YFGKgHjP4tneryqU7ymLRdQ_4E-VuX-PdG4jCYHadH4GdJX4bJC9CdlVj206QHTLUkXzgDx5KIieNB6YOdO9DxqBHPBY2wTgu7h6yskRwUx7sYZMTyX4H_O04zg5iW5IWkj3Z5yvFBUbAZXLGX5NQjOd5ZgMVAw5eceEFBU9A-3QrwFwVSo_LWSb3xyBAeYd5yP0psMjLol0HcUohJJ41imE3uRCJQH-8s6XUp9QiKbcPUI2iRmKBFQf37GEwagf_lfkj8KSdxRVwsu-CXz6nsAxgKl7jZCbFi2QeH5SZ4f20iXxeTniV4UTaCfX_9CL6f0sTKs0mv930e-3vQcfEBWmvgFXyx8jZaA_ZOV9BmJB4bsIp1mE0nHoHdORWws3pg0j7w1iMuTinc0wIvyej4ksM92G-KcIq1YIcBcw1vjOo0hXcI87Dd_9N7et87fdIhOthzXwM9YK_s9D_rJ_dLHNVtG5xehljdI6q54nxCy-ldai_pX3x-d2G33f7sfmlWh-JHs_zAKL-vHWd0uurwnH9s4x-Zevlyq6sbr9vhW5SENf-j400bimSlKdHC4Fo0W56N-UxXzslsofPlbM4U7Xm-TOKEqY-7QxX2PF4lvMna6hby8FoVPFR--wz8vTRsqq5m_F_dyKO4CVvg9VmthV1Zc1ZdSjHy5PMOQmH8-AnZ46yECT9HXd4-QsafoUejWx61ouyKqVl4qavu1qziiGW8TMLzo-6S3OqQVWXDy3ZFHGI9UlkUwjnp2CSiapz1ha7osyVi8Uw3nhezJUPPM5SgZB5rc64Yi5mqIBVBynigxFUbNqyqOdjwiJ5v_0QGbDvnVb-q-aXLo_onM0dQLrsGAAA/SWb8I8w1J9b_3x4R",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "23.67.33.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.kleinanzeigen.de",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "bm_sz=DE4EE4CEC95F3729A3FAF1FA57DB8A64~YAAQKk5DFzvUsQKdAQAA9pfYRR+TCipNV0lf9dbDUzfZAcI8LV1DktCF1XDPznP6rwj1RM/sdFDgQq+8NAdi6i8nSofn0x9hO1r2jITlN1Dq8nM5ZU47VMeCUchQN5YXz7YWPcBZDvAK/WmRY+23OGzCIurTeAdxrQWVK5WdemdsYdC2KX035hMZTgSSewmL9NUU762BmzBXnLMDlD6zzgTYi2e92e0IBJevpb2XdKt04f9IJB+pvkRYk28yk175VgX/4v+Vwj7c2JPM7ePxXzSpUhYXEX0wJTfVDrSkwCy+dbtxeDY1PQGUNr4XLtUikVypWPKZqfPpBp7VytZUlrdWJP4cekG8AjUzWZOjtgjl3mTif2qJWpn1MFc=~4338736~4601396; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 01 Apr 2026 01:41:55 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js"
+        ],
+        "time": 54.719028999999864
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/bffstatic/ka-kameleoon/ka-kameleoon-iframe.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 2791,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "etag": "\"44f5cb81ffc0cfed64e514f5a4ba1767\""
+        },
+        "responseBodyHash": "b2eeb21ce7ba36e86be6636341bbd16a957ba2cf433c2f23d080c3a741fc209a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/kml/js/engine/n1ux7flhug"
+        ],
+        "time": 0.3048479999997653
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 180496,
+        "remoteIPAddress": "23.67.33.4",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"d983271d83a4c750a6d90421670a39794441b20f25fa791a909b892f05b3ec14\"",
+          "set-cookie": "_abck=B0C10B0A1D3F93302C72FF8225F8BC01~-1~YAAQBE5DF6z0WyWdAQAADaTYRQ+5Bb7ilF5pg/fU5orMvwr+lv3Bo0yF1GLYWhhpOLWemiO48kKTrZB9faKFXqxz7ZxByPnjMTMQEARczj9ViLSbdrFzQeJwS1JE4ICTpXBDvcu7d1hqWzL+1yZRIjFFh5S9GJWUiJj1Zpuf7guROFK+xDp7jxeI/KL57D8zazTilI1AEqEM/wcfsgHrQviTfGRvaHA/nuzGxz7Xign2pzYJeFuN0JJlBVoiKfjYrxhnRvD7v6LJtkwfk+jTXe36JnrIQJoL0KXNrwR9nxUCCLqt/UmUracFQOnM8hburBW4Ukk42kU6W33ajhIC5vMj/Cf3Eks3ejJahd76Uvy7jv8Ep0LBwgMjEOp9QF8iJTuFS7I57gE80ySCvPFX/Z7Dkz4UxBnTljiONteJ5RRg7cATVCRBI8Iwo6B7505u0Wg2dMCZc0Game6oDwCUZQ2HqZIlPtYm3wQv0H/Naqrzt8jH5fI0sjktQ5BCKxJT+35d3sYC1vtgOx5+JjHnmdlWqaqZRnEaJ2C+SDY9aIPaW6N1qvviZjQ6NNgFY9ToQbsnR5HUB3Wt72qjHWvHGGb2yE9d+u6JUwVtfR6FNLg6wu6Rqrg/dJw6MVAdriYve7RAlLK/Jfc/8F+xpcNO4Z8gkBRFYdqcKlCMIKUvjKhUOrAib9F6oUXKQzDV/Fz0gISuEkGMddJK/xVOMBaaKemlQK7WvHyvURZDmTNKX6QYI0bHwuEbsI52SAZlLUdSXm72InOCRHsCi4jf7D3IVvjAwMUdXOa43h6N+E/rPVqRZxe/LvGqqd9Q/bw5jVDQYqyvHsLWUV+JF3+mnrru/EM4/4GjrZFEAqHZyCIeafy3zir+330zulYcnyKOH690mEqbHTc/Fg==~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2fy8Ak0Y8Epr92i1b5ZndcmspX%2f6fYaTaRMoOgxLGzwNkm3i5TIvlzNaqnnRkGZvXsN3Dr0+zl9aiRU4D+ctUFSJ8kVQzgnPvsLh5~-1; Domain=.kleinanzeigen.de; Path=/; Expires=Wed, 31 Mar 2027 21:41:58 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "5296910ea647ceea15b8d8bd3c6df7049cbe2b9f41879952e889ce1255540f3a",
+        "initiators": [
+          "https://www.kleinanzeigen.de/bffstatic/ka-kameleoon/ka-kameleoon-iframe.html"
+        ],
+        "time": 0.04205700000056822
+      },
+      {
+        "url": "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB",
+        "method": "POST",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB"
+        ],
+        "time": 0.003276999999798136
+      }
+    ],
+    "cookies": [
+      {
+        "name": "kameleoonVisitorCode",
+        "domain": ".kleinanzeigen.de",
+        "path": "/",
+        "expires": 1806529310331,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "lnFeMonitoring",
+        "domain": "www.kleinanzeigen.de",
+        "path": "/",
+        "session": true,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "up",
+        "domain": "www.kleinanzeigen.de",
+        "path": "/",
+        "expires": 1806097310331,
+        "session": false
+      },
+      {
+        "name": "kameleoonVisitorCode",
+        "domain": "www.kleinanzeigen.de",
+        "path": "/",
+        "expires": 1806529313227,
+        "session": false
+      },
+      {
+        "name": "ak_bmsc",
+        "domain": ".kleinanzeigen.de",
+        "path": "/",
+        "expires": 1775000509218,
+        "session": false
+      },
+      {
+        "name": "bm_sz",
+        "domain": ".kleinanzeigen.de",
+        "path": "/",
+        "expires": 1775007709568,
+        "session": false
+      },
+      {
+        "name": "_abck",
+        "domain": ".kleinanzeigen.de",
+        "path": "/",
+        "expires": 1806529318919,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "shared_worker",
+        "url": "blob:https://www.kleinanzeigen.de/578ae3bb-6c76-4895-bf8f-33d083a22c1b"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.kleinanzeigen.de/bffstatic/ka-kameleoon/ka-kml-experimentation-bundle.js": {
+          "console.memory": 1,
+          "Document.cookie getter": 7,
+          "window.localStorage": 203,
+          "Document.cookie setter": 1,
+          "Date.prototype.getTime": 1
+        },
+        "https://www.kleinanzeigen.de/kml/js/engine/n1ux7flhug": {
+          "window.sessionStorage": 13,
+          "window.localStorage": 204,
+          "Document.cookie getter": 5,
+          "Date.prototype.getTime": 4,
+          "Navigator.prototype.language": 8
+        },
+        "https://www.kleinanzeigen.de/": {
+          "window.innerWidth": 1
+        },
+        "https://www.kleinanzeigen.de/xFZUj/mU/xhZ/6Y/NFg9Wxjw/DEc7mwcwhmwmLG3O/Clx4AQ/EGYYFjg/NG1UB": {
+          "window.localStorage": 12,
+          "Document.cookie getter": 22,
+          "window.sessionStorage": 8,
+          "window.indexedDB": 2,
+          "window.innerHeight": 3,
+          "window.innerWidth": 6,
+          "window.outerWidth": 9,
+          "Navigator.prototype.userAgent": 8,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 5,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 59,
+          "Navigator.prototype.hardwareConcurrency": 5,
+          "Navigator.prototype.deviceMemory": 3,
+          "WebGLRenderingContext.prototype.getExtension": 2,
+          "WebGLRenderingContext.prototype.getParameter": 4,
+          "Navigator.prototype.connection": 4,
+          "Performance.prototype.memory": 2,
+          "Navigator.prototype.storage": 4,
+          "DeviceMotionEvent.prototype.acceleration": 4,
+          "DeviceMotionEvent.prototype.accelerationIncludingGravity": 4,
+          "DeviceMotionEvent.prototype.rotationRate": 4,
+          "DeviceOrientationEvent.prototype.alpha": 1,
+          "DeviceOrientationEvent.prototype.beta": 1,
+          "DeviceOrientationEvent.prototype.gamma": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "WebGL2RenderingContext.prototype.getExtension": 1,
+          "WebGL2RenderingContext.prototype.getParameter": 2,
+          "URL.createObjectURL": 1,
+          "SharedWorker.prototype.constructor": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Navigator.prototype.language": 5,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.mediaDevices": 2,
+          "Navigator.prototype.permissions": 12,
+          "Navigator.prototype.webkitTemporaryStorage": 2,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Navigator.prototype.productSub": 4,
+          "Navigator.prototype.product": 4,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.webdriver": 2,
+          "window.devicePixelRatio": 2,
+          "Screen.prototype.colorDepth": 2,
+          "Screen.prototype.pixelDepth": 2,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Navigator.prototype.javaEnabled": 1,
+          "Navigator.prototype.doNotTrack": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "speechSynthesis.__proto__.getVoices": 1
+        },
+        "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/GoogleAnalyticsTags.astro_astro_type_script_index_0_lang.Cw5V01XM.js": {
+          "window.sessionStorage": 6,
+          "window.localStorage": 3,
+          "Document.cookie getter": 1
+        },
+        "https://www.kleinanzeigen.de/akam/13/2f5f0d91": {
+          "window.innerWidth": 1,
+          "window.outerWidth": 1,
+          "window.screenX": 1,
+          "window.innerHeight": 1,
+          "window.outerHeight": 1,
+          "window.screenY": 1,
+          "window.indexedDB": 2,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.appName": 2
+        },
+        "https://www.kleinanzeigen.de/liberty/liberty-js-cp/prebid/prebid.js": {
+          "window.sessionStorage": 1,
+          "Navigator.prototype.appName": 2
+        },
+        "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/UserHeaderBadge.D0_hWQe2.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/FocusScope.gTGS_AEQ.js": {
+          "Navigator.prototype.language": 1
+        },
+        "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LibertyTagLoader.astro_astro_type_script_index_0_lang.UlmU3KSF.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.kleinanzeigen.de/liberty/liberty-js-cp/liberty.min.js": {
+          "window.sessionStorage": 1,
+          "window.localStorage": 2,
+          "Date.prototype.getTime": 2
+        },
+        "https://server.sgtm-legacy.kleinanzeigen.de/gtm.js?id=GTM-WHRTL83": {
+          "Navigator.prototype.userAgent": 37,
+          "Document.cookie getter": 15,
+          "Date.prototype.getTime": 35,
+          "window.localStorage": 6,
+          "window.name": 2
+        },
+        "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/LoginOverlay.BweLTreP.js": {
+          "window.localStorage": 2,
+          "Document.cookie getter": 1
+        },
+        "https://www.kleinanzeigen.de/bffstatic/promotion-frontend/promotion-frontend-bundle.js": {
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 1,
+          "window.localStorage": 1
+        },
+        "https://www.kleinanzeigen.de/liberty/advertising-web-renderer/umd/advertisingWebRenderer.min.js": {
+          "Navigator.prototype.language": 1,
+          "window.localStorage": 2,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.kleinanzeigen.de/frontend-web/_homepage-web/assets/FeedItemTileNewCard.D0X0CMH1.js": {
+          "Navigator.prototype.userAgent": 6,
+          "Document.cookie getter": 4
+        },
+        "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/main-Ca5evQ4p.min.js": {
+          "Navigator.prototype.userAgent": 1,
+          "window.sessionStorage": 6,
+          "window.localStorage": 3,
+          "Document.cookie getter": 1
+        },
+        "https://www.kleinanzeigen.de/gdpr/gdpr-consent-management-platform/es/ConsentService-CIh_vvol.min.js": {
+          "Document.cookie getter": 24
+        },
+        "https://server.sgtm-legacy.kleinanzeigen.de/gtag/js?id=G-6V6MWRHVN8&cx=c&gtm=4e63u0&sign=95206f277de44c4ac023a0a7d516e42021e33271fe6d19ed6b09972de03ad9e7_20260331": {
+          "Navigator.prototype.userAgent": 140,
+          "Document.cookie getter": 20,
+          "Date.prototype.getTime": 214,
+          "window.name": 2,
+          "Screen.prototype.width": 11,
+          "Screen.prototype.height": 11,
+          "Navigator.prototype.language": 4
+        },
+        "about:blank": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://www.kleinanzeigen.de/bffstatic/ka-kameleoon/ka-kameleoon-iframe.html": {
+          "window.localStorage": 22,
+          "Date.prototype.getTime": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.kleinanzeigen.de/bffstatic/ka-kameleoon/ka-kml-experimentation-bundle.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kameleoonVisitorCode=aw4tc12juubigt5; Max-Age=31536000; Path=/"
+          ]
+        }
+      ]
+    }
+  }
+}

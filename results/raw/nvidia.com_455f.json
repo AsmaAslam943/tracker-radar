@@ -1,0 +1,3058 @@
+{
+  "initialUrl": "https://nvidia.com/",
+  "finalUrl": "https://www.nvidia.com/en-us/",
+  "timeout": false,
+  "testStarted": 1774988784161,
+  "testFinished": 1774988793396,
+  "data": {
+    "requests": [
+      {
+        "url": "https://nvidia.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "34.194.97.138",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nvidia.com/",
+        "initiators": [],
+        "time": 0.5477960000007442
+      },
+      {
+        "url": "https://www.nvidia.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nvidia.com/en-us/",
+        "redirectedFrom": "https://nvidia.com/",
+        "initiators": [],
+        "time": 0.33505499999955646
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 87808,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"b19f4-64e533fe9ea15\"",
+          "set-cookie": "c_code=US; Domain=nvidia.com; Path=/; Secure\nak_bmsc=27C5FA8B320313679F3E4F652987E20A~000000000000000000000000000000~YAAQTGDQF1rmXSydAQAAvHaTRR+eyxt7rRuDAGOb2VF1bSLkijhxNQAgQekOzL1+4TPmGLQd+NkNnWFOIqW+8yU0VrxFg+b3MIEmdXCGyCXbNF+PgPGmwwwCDGtN9HIVlnAJgOKRtxJgxc0JBeU5wzDm3c+y5XzkY4AmS3Gsti6OyZrYBqEqcTjwXifdHI4laX4gfCsNZWwGTEhjiKacvFW0b0UHMkHHa5452hCje0Pk9GhS8pWjWYsyXt4Ib32CGOfzhIOOCN16VQLcrwkDeQivlgxbXddCvdaLyOGf9ShLY0bk9LK/nUIZRCKBTI3WZehK/sdaFRT9AJdgDJIdia0KT3WCY7Z35XgBHDK1vpLQTxsYmMmPrO50xU47pAf6xuVsEG66mLWH/Q1sQQ==; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7200; HttpOnly\nbm_mi=13D21B95D1EE1A158979F78C0761B643~YAAQTGDQF1vmXSydAQAAvHaTRR9+aHLEHMQvbETIYNvCtvVGyyfANozRVTCthscOt3V7ysXKLv3lnRSfw9qPlVoL0LW71DS+NLao+jKHPAVTPorg4pp++UG4aTDSenCXzk9WS/gOSnk5cWfXf+kLv524JSfQSfjyFKlYEbFdJabTT0z7IoJvBmQMXCk3GM1624Qe4JZ2HbfXeesusdaHMG+3aaazPZ084YJ4PQeggGB11Wt/48eByuNY0qH6B0LZvLCRVle2fbE35sEarFthiwFcvZ3LzOkgJZkyQFMNSJEsD2YKcDGuxPEpdQ1+bkc3B80L~1; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 20:26:25 GMT; Max-Age=0; Secure"
+        },
+        "responseBodyHash": "76d94141dd7a22e294ee59edafcad6ca566d6f0e1650c782e0753a4a8ab58e05",
+        "redirectedFrom": "https://www.nvidia.com/",
+        "initiators": [],
+        "time": 0.35523600000124134
+      },
+      {
+        "url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 19445,
+        "remoteIPAddress": "23.212.62.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"e7404bfe7d068d1b2fdc7477f2710a7f:1731776301.835081\""
+        },
+        "responseBodyHash": "1b727d59f2dd2adf625e642c585b9a25aa55ebf188df3533c8f4f7d5eae8a798",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 2.7990630000003875
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36540,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"18929-5eea3ad3ba340\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "d8a75d918ddd574026d721058790dd07fc7424ad500e3d9f5be856e921be08f1",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.11311799999930372
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/clientlibs/granite/utils.min.4a192b590a2c2926fb000264370c0588.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4331,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1fb6-5eea3ad3ba340\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "06bff916cefa0e2d5595ee421e0e8652f349e85c0a14a6e6921f4368200a9629",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.11353500000041095
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/foundation/clientlibs/shared.min.e9d9a3990d7779c2e8e3361187f3d36b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8247,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"6985-59c1fcd30cd00\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "786e429789593e3a89d19e4869805c23a417449163acb5f3388d6c3ea3901d30",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.243811000000278
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 139912,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"6e00d-647f61b4fb780\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "13316d088c500b08d64559e1aeebc003f553f8071c31931a777b56f2989bf166",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.13176599999860628
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9281,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE8ED5319CAE71"
+        },
+        "responseBodyHash": "15a5a919d4b2c63b74bac3c0752f7faa08675d5ecaab478032a0232013a2ba6a",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 2.801988999999594
+      },
+      {
+        "url": "https://images.nvidia.com/aem-dam/Solutions/ot-js/ot-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11280,
+        "remoteIPAddress": "23.212.62.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"b8641f7b8f90ef2117514d3fa1b5f696:1761753450.977601\""
+        },
+        "responseBodyHash": "f573a8a2f58b15c05e6e68d8afc7bda1ae86fc692236d6a6e6dec61370125e9d",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 2.798889000001509
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 297385,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"380ee34df7bde5d224d5036261785e5a:1774944522.435031\"",
+          "expires": "Tue, 31 Mar 2026 21:26:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "967227e3a06683dce19382de89e8b9851d60db056aa1734dbd10743007234254",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 2.835522999999739
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.ba5808a3800cd92a32c5b087ee621aaa.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 128394,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"11cac5-64c4943cb8980\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "398653af01c4caa2e3925ca3626d75c7cd6c24ee65de9e90077e21edda1b3014",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.1048979999995936
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 20759,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"33aa8-61363a0ef6ec0\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "ee9f5b638b8c8d754d63bd0d46535410aa3837c994de37c0eaaaa3adf3900f9d",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.10799300000144285
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-nvgdccart.min.d41d8cd98f00b204e9800998ecf8427e.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 998,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"0-5f63ebc0e1cc0\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.10837600000013481
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3131,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1565-64a65e73dc000\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "669ddd2788a01a25309f8f6ffad5fe762fef8f6509109f313fc4f1ead2a941fe",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.13211799999953655
+      },
+      {
+        "url": "https://www.nvidia.com/akam/13/138e8e88",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9627,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"2e3900ce0173a699a4f73ffb083061e2a19e67b55644d6191799a50794e53318\"",
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQFwrxXSydAQAAE4OTRR+1RaI700nTk2Uxejbi0C87lzJ97G2QsqfsAjsOPw/e3k0wETeprtr7OEGKCtoveIprE4Jt4pkZyMNgbHZPBEEIijGWO0oxcsItAvOFvjiUq65N9ohbkFKgV1jeQ26Lz174xf3b9j05P3jzCRIvQx+bG1iUK01aQsDByrV5q7Fh35YJCLzEg8OGPzPqBWtMIIs3YlFyr/IKV9SxbUdXPTwWbZ5XF01o1f1iJMk3D9XMbNI/0ph3+eGsaw/8EKSn/o48j9kHydtPMFhBWuVdHryIV6762YGg/VSn2Vwf7OwjC0eBbLSV7UGj8AKcr4H8mknjJZhADpYbIz4lnAGaWWJ/nrwQ2SWkz63Ee9noQ+OR+cD6C+4yuYuFOy2aAijQQZuU6tpATrMRR5zgx3P4MeyyZ1tscQ==; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "150bc54da53a401c502169a83195060f836ac0e5930f86d82e48d5d9c715cffb",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 3.111248000001069
+      },
+      {
+        "url": "https://www.nvidia.com/assets/account-wrapper/starfleet.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14457,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"1635a0ec2af52f81883d73a648f4ff67\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "87cf98eef91980ffdaaf23d841e1aaf84d730e03a81f7c6c8d435893a1829c38",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.10549499999979162
+      },
+      {
+        "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 118740,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"5f014-64cf3a27b08c0\""
+        },
+        "responseBodyHash": "897c3303ae33f8add7166556f02937c1f18e2312c6da6f6f26324a4d89afd458",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 2.965621999999712
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61069,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"43776-64c4943cb8980\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "f92bd4e47e6e14f48f1e1c6a8d230a3c299c26a8c649c65628b9020f189a2abc",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.05760000000009313
+      },
+      {
+        "url": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.c615b422b69815dda8c5379a2b245500.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22502,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"17581-64c4943cb8980\"",
+          "expires": "Wed, 31 Mar 2027 20:26:25 GMT"
+        },
+        "responseBodyHash": "1b5b0155e80582fb09ec293d154d1768d3a775891e8c7355ad40f0fd2f16ffff",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.07272800000100688
+      },
+      {
+        "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4120,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"4723-64958d0b90500\""
+        },
+        "responseBodyHash": "4f0293bf9257c837f9c79c571908d036a65115c2d4c72040a96b6958b8a27ade",
+        "initiators": [
+          "https://www.nvidia.com/en-us/"
+        ],
+        "time": 0.027557000001252163
+      },
+      {
+        "url": "https://www.nvidia.com/libs/granite/csrf/token.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1157,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "set-cookie": "bm_sv=EAA281B72FF44000AF752697B8536B88~YAAQTGDQF3vnXSydAQAAIHiTRR9SuyjR8ii4YKXGV8BTh3Gou71h8K2IuPL2IZk46lMKaz/9rJbf6x3ZrJy/Vyon+P1j6VzZNYhGkzZakndPRVPamuffJxzyy03wcTNBSy1vxJX0DECWFuXdFAintjYqmltboblSWM7XoRaUHZpdS84I8L5Dd8v6yrtZxBPBRD/+UUxLe+sqImtMhzZSUDjtn1M8pxnMb0Z+r6y9lcESldozHwIlCuo4qdo+o2rb~1; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7200; Secure"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js"
+        ],
+        "time": 0.053179000000454835
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/3e2b62ff-7ae7-4ac5-87c8-d5949ecafff5/3e2b62ff-7ae7-4ac5-87c8-d5949ecafff5.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2806,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE8EF8F02E73DB",
+          "expires": "Wed, 01 Apr 2026 20:26:28 GMT"
+        },
+        "responseBodyHash": "e6294793156f9cda1d3c64e66b833cffa1acf8a5959a87a972c00815aec66d41",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.0546730000005482
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/EXea8a172518894e9e9d3a538770eec1ef-libraryCode_source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19920,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "399793193213a995ee9873b135f20405e56f4864cc61ecdf318901ebae03f490",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.046217999999498716
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 318,
+        "remoteIPAddress": "104.18.32.137",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4da8a6638ad70698ad3d01aa0ef124aebe35c297685c0796b174822f597b1d09",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.06544399999984307
+      },
+      {
+        "url": "https://www.nvidia.com/assets/account-wrapper/v1.9.5-264.0120759559a0955e1bc7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3800,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"616ca17c91c1f617b07c11dce5aa3907\"",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQF6nxXSydAQAAuYOTRR92p7oWokbWfkPBhM4dglZSE1vlZddi2UUwGuyb2O5Mjeb4Di/PvytnqcvKxvZ9qPUEakKE4mhmqA2hpVMGDZWAPdf0zslgDPS9mjsvti01oWW0O7xViz3DGpWTPPR6hRR5qSRP7cIpIi3PR1evHZY82yqVJejqGwYc0sALWbhP6enPZV5Jr2+8cKx2c/VCIfyTaOOzZ9/njsNPoztsWc8CQN2iSX2IFLdyjveBk88rjocyV1TvUoDAPO4PAYlDbNUPRFapMLyc4UvIGSr7UWzO5tM8GuZNF3pZe7Qc/h0SVmazpelFk4pOD+SpyzKfX4m1Xn4WR4TDZMi5PYtHDjHPMM0Q2EX+2QKLUlKu6RyvnlYBnqD5tJsR6eEEawk6COzdCUZwRow1Wn5cNN1q39xH5pqpA379n3LNPb5FH1o5UX4+lpg=; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "bea41e7fcd757ac4a2730e9ba1fffbece4ad9f62e5d44eed116870ef219a5d61",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/assets/account-wrapper/starfleet.js"
+        ],
+        "time": 0.0680080000001908
+      },
+      {
+        "url": "https://www.nvidia.com/assets/account-wrapper/v1.9.5-184.39b2c41e587728fbe48b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5944,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"f92dca8e4dbd750e0217c1b06c1ab1a8\"",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQF6rxXSydAQAAuYOTRR/w+HIU9jbNLL+s2+bOT+SOU4RTTaX7KfUSzzgWO1X5/TPfRZrHKFvcgy3jGs5/pkfmQkD0b6y/bLae1iSC1KwWrwPJLkOlOEaUljnvTswJWfpyr4hzFhlxyamettMnCPmEX2fQ12cHdkuEZGJGiPR0tkG0143nelc+DpfFZHf4JHc1R0n6wIGmwV3Ax6rahfZEyPQpMMa9TBOXv4jOBGpYNYkDFlEQmnKrQTPBF0bJuFhCK7mpbFwrpW2btnr8pSbPs0zg+nVQ9v3KRq8vyQSRRFY6fxWQPywziX5vYCPb13ylq2CbaLH6ZjaIJkF58qTp7Df+FkGDoCXTF66RH7+gQXc2hbime2+pmKn99+roCPQSz64cE5tYoFTHDpzvnN2X7mp8jJtpAAzDYuX9Zex9pJsTupzaIzPZENzZQty7npMW9FA=; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "f090960b8700f9d83a5827c633f4a0147235d5367952e992f84fcb3782f2ce32",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/assets/account-wrapper/starfleet.js"
+        ],
+        "time": 0.06814200000007986
+      },
+      {
+        "url": "https://www.nvidia.com/assets/account-wrapper/v1.9.5-341.a4bcf92cd15a922e198f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7570,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"75aa87f11a52c7129bed2a187f145292\"",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQF4nxXSydAQAApoOTRR+1ydPDfcksX2XllKDBauPFIxo8nTVa2vJ/Lj1gY68OkLL+4B1oaA7xDypjliMNxwGkOA9Uc5JNE8V1zQ01I3/OpE0OEUFpVbLGG2npNom7GGMCGV94X8rHPQvaNfjD7Ay+L5whoAbRc7ETgJnSgmBqxezZd9xtKjv2ZqMPHg1W3tghqU9fAGvH5lfqaQR6bYpfhmzwk+ffbsBhkPiB+yOBs7JXPyj1NT8QsA+cS0+DhyCYAhUbdhP9EbQ5H28aOvBVLerDdJ9kcNrV18ZkuAi5iEQCTmPOsb/OsZ798iDYHtYcPXfRNKhAKHI4MW8/Z2CL5Ber2b7p4yU5PslaWnUx9kyvfgFQdrcUnj0dAZeJFhSs6p7EHlmB2OgyXeJU29tjvUvGGxdBGcEp51jdzQj2tEzSrjGR5otL90qJzg03ITVaI5g=; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "39902b463a7011738cb43d231cf1a275af492218aa3db92613d0b9399d347ec5",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/assets/account-wrapper/starfleet.js"
+        ],
+        "time": 0.038316000000122585
+      },
+      {
+        "url": "https://www.nvidia.com/assets/account-wrapper/v1.9.5-669.70a5d4359a7ae1e851a5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7682,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"7c0f233975d90080e7010c0656be8afc\"",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQF5DxXSydAQAAp4OTRR8RnBN9pUYTma+1EDiCfdCQd9cFguUbrYjdVmvI+rfGfPKK8WqQVXcv0lQoxTciBFhmfwQcHpKvqHetai/j/Fy/Zg9ovACxzPaGK5lp/W9qcDOqcycRZN60tCinsNcQrpUxTOOjrnmycqjZgG9CEpVGguXSGqc95qj6h9LvmKpNEz13dFjdFBRPHiUFfIALJBNNnjRHPNIBHVaEuosPPt3Ki24xYTiAxiq9V2sqV4oisgmtQeL2X8k6oNrjuqjF2b7hxXkLw35N7c4sY+0h3ay2DKXxUyGRsAYghUWSeHRTnsCndBC9NaEwj2yXSPk5wiKX+5+2JHxFsc0S63yRmmSv9oZOLIyKSr1is2eDlDvMZGfTzOfS+UjqF4Ihaaql8n071/bWCvXv45skUw+2UsC7N0RLIUkigpePOYShm1zNlDWc6L0=; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "63d156b1cd94028b31947ac996cec5c95ffcafb64335248e93ab25b76189ba4f",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/assets/account-wrapper/starfleet.js"
+        ],
+        "time": 0.038183000000572065
+      },
+      {
+        "url": "https://www.nvidia.com/assets/account-wrapper/v1.9.5-88.21afadbff1ec70c711bd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4367,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"67f6c68aa00fee255015f20f640f923a\"",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQF53xXSydAQAAr4OTRR/++kBOEw+8CG/9o40kzXpnyPswGOhKAnOrSQJhHtNGOSAgZ+xvfeYW/OAIZhgzjiD6AirLurI/DDbtnsiUviHVQTG8bf6XqZpEYH8kUeeZ6WwqhLlJYdzpWJwxZKEgsjN3ngBJh09lrpuyqIZWAzy1g6TWd3o9FMqk6S73bJwedCcSa6IerXdCr/b39RSrm39Ca9oXpiTRY5NwmM/dazzENclWubNFHJvRrIzjXfPwC8HBRrodJjUl6evFL8fZvUs8ceTh1r2s2luPeSbgQnZDpnKUMspyEJye2LrbkB3gzui1dVS8for2LyGNU3YahbJzWNPgV6JLIf8hnqNFO0uOmHsmNS+Ycz8LunRy9gNRNa9BRxsdDilLIJvKBLp2tV5LwUeiuRW8WLEbpPNdAzoj7wagnLClBQBjbCLrdJtNy8z/30w=; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "a40f953be7510af8da5f00b08c71af095af77e3de5f644714f207416de336673",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/assets/account-wrapper/starfleet.js"
+        ],
+        "time": 0.04582500000105938
+      },
+      {
+        "url": "https://www.nvidia.com/assets/account-wrapper/v1.9.5-605.cae800f9a24e6442d52a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1645,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"9a5f888f3b7369f15eaa1e1621ef9fc1\"",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQF5TxXSydAQAAqIOTRR+ecgffp2dI/rHXwfPPXN+e4Hqd1I4njYhSyPC8H3upZyFaCDdnBes+qwMcSkGUDDXO1ZAgm0ndwOasydScSisTz+jU7UHjuecuJFqbt45GYtk7UsKN7rZy01rvgVE6sbnxZvyPPw5cJ3RErpjprxaK2mW4hnbHku5WFC3wPGbGmBNhauPVDZ6BmN/W1haUq0CtLZlFZhc7AE5L409f8/ymFtDXgJf0hzeaqK+bvw1Je5oVrzULeeoa5UYfGKFeD4tytto1L412tZcKFeCHSEceapZ2vgUN1lS6Sj225FAMSmb0iwFU4VaCPo8z16ogED3K9K+NQimWr+hhAQXAG0XgLifmG9pioXX80TuJ8f8arzaMUChPi6dV7omebDrhYJH48fM45nn4koNAuXtMoLQT2IzgujZGvLs3YJWPt2XRzPXsmtg=; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "16c934178d9df0492adce7326af586ba87a26a55adfaaea802590b42c1b4a8d5",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/assets/account-wrapper/starfleet.js"
+        ],
+        "time": 0.038114999999379506
+      },
+      {
+        "url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/font-awesome-6/fa-solid-900.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 328212,
+        "remoteIPAddress": "23.212.62.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"e0f1f10202002bf91422fd3768c2d744:1731776338.43008\""
+        },
+        "responseBodyHash": "91fdddfd34ba42ff2d9b06bdd3f85bbc21a826a2e2768bb6c5d129300c439b85",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.ba5808a3800cd92a32c5b087ee621aaa.css"
+        ],
+        "time": 0.06304900000031921
+      },
+      {
+        "url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/font-awesome-6/fa-sharp-light-300.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 363243,
+        "remoteIPAddress": "23.212.62.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"2315e17dd35201f4b19fcd4a41937e67:1731776337.214817\""
+        },
+        "responseBodyHash": "cf651ea49af3e08f215a6b96417cb9594f51fa717b1d46ac75d142f5c6a30158",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.ba5808a3800cd92a32c5b087ee621aaa.css"
+        ],
+        "time": 0.08591999999953259
+      },
+      {
+        "url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/font-awesome-6/fa-sharp-regular-400.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 328302,
+        "remoteIPAddress": "23.212.62.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"9e643129e2db398eab0f8d326b12d355:1731776337.590618\""
+        },
+        "responseBodyHash": "1cf84e189abc8e74e53ea8f92747d0f2f99e30a3a02bbd0515e80961538cb1a1",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.ba5808a3800cd92a32c5b087ee621aaa.css"
+        ],
+        "time": 0.10458699999981036
+      },
+      {
+        "url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_Wght_NALA_W_Italic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 20674,
+        "remoteIPAddress": "23.212.62.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"8d48f736be6f5fd0344aac633b6bcc80:1731776302.027163\""
+        },
+        "responseBodyHash": "970e740fd0e615a0e2d2724e48f27914d06f35e21ae09010fada137cf4650888",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.ba5808a3800cd92a32c5b087ee621aaa.css"
+        ],
+        "time": 0.0885839999991731
+      },
+      {
+        "url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/font-awesome-6/fa-brands-400.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 111195,
+        "remoteIPAddress": "23.212.62.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"f022fca674f561d3f3f9f187a7fa3222:1731776335.398192\""
+        },
+        "responseBodyHash": "0ff2d372d39816132c3eeca340472baeb180d3c84e32df39569f9dae3357a39d",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.ba5808a3800cd92a32c5b087ee621aaa.css"
+        ],
+        "time": 0.09200199999941105
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 130067,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE5F326B422BE9"
+        },
+        "responseBodyHash": "a1fca1cd23046508ff002e08280009b0faf69de48be01a36a991ffd8216f81b2",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.042714999999589054
+      },
+      {
+        "url": "https://www.nvidia.com/libs/cq/i18n/dict.en-us.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 58599,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"5645e-64d12db028bfd\"",
+          "set-cookie": "bm_sv=EAA281B72FF44000AF752697B8536B88~YAAQTGDQF4XyXSydAQAAvYSTRR9cyfLeW2VplbPtJCohJn1GeeJIwNRAjSED8LPmmf9wZ4EIes3bLqHz3YDLLipg6agEB908n2feK2VT2oDJMP6WLsMtm3miH56ruOm9m7aFHjSSdjJdWZCJr+hcYXZbJlmMRde6V2tnz2w6Queo4Z50Cgsp3bHf1bF85zjmHgYNQRV9rKCchXIW/nBZd3QAZ0gHDvYUit9GK2iSzj8lLYETUymFDtfdB4UjtVZt~1; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7197; Secure"
+        },
+        "responseBodyHash": "0fc4f74c18f88e22f74748092525eccf332d5e522de38186c6590f0fbe85318a",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/etc.clientlibs/clientlibs/granite/utils.min.4a192b590a2c2926fb000264370c0588.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.061358999999356456
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1669196241041.coreimg.100.410.jpeg/1774936499528/edge-ai-agents-ai-ran-sfg.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 111427,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"1ad69-64e4b9b8592c0\""
+        },
+        "responseBodyHash": "6c4c45340178d08307ad01f331d6c5167623c4713222cb2ce1b596489dc8ef9a",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.061956999999893014
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1669196231595.coreimg.100.410.jpeg/1774936499648/new-nemoclaw-sfg.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 76402,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"124a9-64e4b9b8592c0\""
+        },
+        "responseBodyHash": "314fb60f4bb3e756c0c98ae88ae76cafed4e144a37eee5468cc763c74dfe06ba",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.06515300000137358
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1669196231595_c_431732407.coreimg.100.410.jpeg/1774936499768/nemotron-coalition-sfg.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 97295,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"1760a-64e4b9b8592c0\""
+        },
+        "responseBodyHash": "ec21183af770e6187411d35584f8d719501e6ec4533413418c016fe50bee162c",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.07611399999950663
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1711342352043.coreimg.100.410.jpeg/1774936499887/nvidia-dynamo-sfg.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 54759,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d029-64e4b9b8592c0\""
+        },
+        "responseBodyHash": "442eae29109bfcdbe6f0f554d5c62b33aa25ea6fdec3a25ddc72730303bb94d5",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.08070599999882688
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1722277565106_c.coreimg.100.410.jpeg/1774936499972/gtc26-physical-ai-blueprint-sfg-multi-image.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 93261,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"16674-64e4b9b8592c0\""
+        },
+        "responseBodyHash": "e28d45996be57948aca5825abf53022592ea63ac7e1a75fe9d2bab26b16c2f22",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.08269399999880989
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1760642695091.coreimg.100.410.jpeg/1774936500014/nvidia-alchemi-loreal-ari.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36987,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"8ac6-64e4b9b94d500\""
+        },
+        "responseBodyHash": "d1b99642ac3bec4e80e08020386230d7bdbf5e4bcc2d70167ca7275ca35d2be0",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.08387200000106532
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1691512647007.coreimg.100.410.jpeg/1774936500056/agentic-nemoclaw-sfg.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 96169,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"171d8-64e4b9b94d500\""
+        },
+        "responseBodyHash": "86593bd774217fe08d63c66314ef333b91cf14f35bc82e7d8415c17a1629160e",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.10260699999889766
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1722277565106.coreimg.100.410.jpeg/1774936500098/dgx-station-spark-1920x1080.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 47226,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"b2c5-64e4b9b94d500\""
+        },
+        "responseBodyHash": "e4d767414c585a0918fa8058eae3b6cc308476c2cb09850216d772c727052a24",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.10417500000039581
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1670311956184.coreimg.100.410.jpeg/1774936500182/gtc26-dynamo-ga-sfg-multi-image.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 83255,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"13f6f-64e4b9b94d500\""
+        },
+        "responseBodyHash": "260dc5faf8201e5a27aca27adbb3823d4b3691dff63013591fd8ac601a849015",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.10654199999953562
+      },
+      {
+        "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1722277565106_c_1801676144.coreimg.100.410.jpeg/1774936500224/creating-new-nv-sfg-2560x1440.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 77872,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"12a33-64e4b9b94d500\""
+        },
+        "responseBodyHash": "4c69cc55d4e68eacdfd2d2db40a497fce61d416b3f6255de1f67e94588a20f37",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js"
+        ],
+        "time": 0.11142999999901804
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/3e2b62ff-7ae7-4ac5-87c8-d5949ecafff5/019d1eaf-92c1-706c-a3ae-d59a457f5e2c/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 45725,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DE8EF905773CB9",
+          "expires": "Wed, 01 Apr 2026 20:26:29 GMT"
+        },
+        "responseBodyHash": "47761b732e96d24f963282d89638911df08de95e706495a489d65896199611bb",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.043863999999302905
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/assets/otCenterRounded.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2871,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE5F32676B8D0B"
+        },
+        "responseBodyHash": "cc0893f7642163731e6a1ac5913371303ce1fd81be6995d11012326617ba6817",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.03524399999878369
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/assets/v2/otPcCenter.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 13720,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE5F32686858B2"
+        },
+        "responseBodyHash": "d4242cdd5c1315d0eb14a7f60aee783d18f87805456557ec1b73537f01bfb708",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.03456899999946472
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4772,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "a131537801b0b4c9afe646666a1464acd23ba867dbdb854696326635b5ee3672",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.03462000000035914
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCba290c02ddaa4853b3f20e3119d8c3fa-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 743,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "97dbeedb3757f810fa46f6cd3a402b688977487db15cff902b0740c49dd3a154",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.00882400000045891
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCaf65df2e2d6f4e67bdb5896e2c01c8c4-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 810,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "61c7bf0b1418b7e9cabc4beafef098b2e8be452cdaefcbe6317c1fa6a4073029",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.010931999999229447
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC6f35854fc9624e84bf34b488627c10bf-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 738,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d905451a751477fe7e5b47732b55a62393f228a8fc5ed17928d7b6881b49d409",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.015699000001404784
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC8499de30b5fa420da388674f7ab2c18c-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 535,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6577c5bf9d9efaae9092c4403b465344fb4faf8a1ab5b6efa686ea412cdafa50",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.01483399999960966
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCc7efb7c94d1f46eca46a6c2b3f8c3d94-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 714,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e0eeda0a61a166beff963ba272fb73dcb4b51d740ee5fb19fa3949bd3cdfce39",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.015987000000677654
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCd6ee660d5fe34c3e9d622bc5e4f54f2f-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 728,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "320a5275a3e7b260d005f35c7aea16c6d0ca2f2635c86fa3976ef879522017b5",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.014543999999659718
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC8b40992182534f8dab345c044383fd3e-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 753,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9b178885aaca36838da55c236288601196e141efbdde97b7f03ee25b9daf93e0",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.014501999999993131
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC72fcada4a1874de7ba451e925004357e-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 743,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bbf3c8dec3e127f98ba7d375fdf76578eb27ca3c4519c28a1943aa2d091648ac",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.014478999999482767
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC08dd839ba5fc4eb1963fb0db501ee4ef-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 745,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d27d57605f8104cc4f6d00ef88216b74e3203793e94b1945c55a6ed965a68175",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.01732600000104867
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCf1fd1813163d417b9b3fae0d24ac0ea1-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 768,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cd12de35f9c76eca5e579f115f0e47fe2ddf27462f933aac228d538ae3530420",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.014408999999432126
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC1e6602e71e4b4eca86274b0161d501b6-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 800,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3b1b7d835f99660bcd42f9447d8f70846466cf3362e567a6e2b0c27ac5511867",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.014381999999386608
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC4b03e384990843e79b79c34fbb0fafd1-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 796,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6635deee27b04dfc3a097c02bd6420aca7cc4a1abd66abb02b5f5af0749f6a2f",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.012334999999438878
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCc81f42ca1d5f4d23ab7560ddc058558b-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 618,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "935ba88824302ae6b1194cef0e2171fdc1de0b40e7971460fdc69c59c7ee7663",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.012087999999494059
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCb598db61fb7446628e78245a1f2c887c-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 740,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "599f2ab9d19103a21487d169f4da885680f16492c815aa325ab7dcbd74c0818a",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.01108600000043225
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC3f1ab20a4a734a5fae15038af0cec551-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 680,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "799dd246a3534b2b2734ea0b0e056320ab19c868c883667d4a94be4bfde57758",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.011137999999846215
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC38d02d78870b41eda51507a3e3ed1024-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 692,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b76ddd4de4fc60e2ad924f144d42029620f5c6fc284ee939c38c093a999057be",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.010344000000259257
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RCa3ea9a41abf446578d77f5422d9e3646-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1085,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "27dc03c4791eb3862769340a90fc0ad31fed97022badd99e25e5ba76b2fd53cc",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.009728000000905013
+      },
+      {
+        "url": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/RC9812453425c64fbaab3db67f80fbc05b-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 672,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"a1385e08d44f6a362f3097b0cc2d3243:1774944524.890334\"",
+          "expires": "Tue, 31 Mar 2026 21:26:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f1fcdd7038822bead61be89a78175d1dea425a45f78600b46c064239d039a79",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.016122999999424792
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 96806,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c0d7d74e6c765f5866d804b9d217adbaaebe364f1e5a9b136a53ced92587b5d8",
+        "initiators": [
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.059287999998559826
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 151048,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:26:29 GMT"
+        },
+        "responseBodyHash": "8b9fc8eb87b16f7cbdbe2922afc27058c067194301d6405c2810c7809ef43640",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.18470200000047043
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19174,
+        "remoteIPAddress": "23.214.95.219",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "7e09fc2637f99d9770b0ee76309ac4c3c08e5583adf6cb5d0bbcc827bba2adc6",
+        "initiators": [
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07874300000003132
+      },
+      {
+        "url": "https://static.ads-twitter.com/uwt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13787,
+        "remoteIPAddress": "151.101.40.157",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "\"bff19971b2265d01dfb724ad50dd4ae7+gzip+gzip\"",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\""
+        },
+        "responseBodyHash": "c018d91765ec8a331df3ac1e8b28fb55833ee555fcfa868d3c7d9a982b32635a",
+        "initiators": [
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.09708500000124332
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 514,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.020333999998911167
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/10ddf4ca-c072-45d0-b3ac-eead0ed93db0/6e17f6e4-c77b-4a11-9f34-c107c42e4bfc/7981.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8307,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8D7FAE09F0EE450"
+        },
+        "responseBodyHash": "3317767494a0d02939a1bc22e3515445063cf3a5ec81c5ea54f095b511f2d97b",
+        "initiators": [],
+        "time": 0.027122999999846797
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2336,
+        "remoteIPAddress": "104.18.87.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d",
+        "initiators": [],
+        "time": 0.025831000000835047
+      },
+      {
+        "url": "https://js.zi-scripts.com/zi-tag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5750,
+        "remoteIPAddress": "104.18.37.212",
+        "responseHeaders": {
+          "etag": "W/\"c88aad6be2aabd1e2727c646df466a66\""
+        },
+        "responseBodyHash": "f63b0c60c778f3b13cce838210ec9a1e5d6e9a046bd827312113f1b9409336b4",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.08653799999956391
+      },
+      {
+        "url": "https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2701,
+        "remoteIPAddress": "34.107.254.219",
+        "responseHeaders": {},
+        "responseBodyHash": "e5180c96fcca740556d99e0fb8fdc5869531e44d62dcb8a94825118f770606d2",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.12313499999982014
+      },
+      {
+        "url": "https://static.hotjar.com/c/hotjar-3655182.js?sv=6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44432,
+        "remoteIPAddress": "3.169.183.92",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/d8e93ecdf7741e36a9be9f765befbcb8"
+        },
+        "responseBodyHash": "d68a249635cad00e5b83d30c435a8c3ab0fd1ce89f7e3489de4fd2650c9d1858",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.06530100000054517
+      },
+      {
+        "url": "https://www.nvidia.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 5365,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"627e-59142b1f72a7d\""
+        },
+        "responseBodyHash": "cd81582c7c10ccf28df3c3b88c9a4e4d36b4852f6f910cce074dcd2f1ac85646",
+        "initiators": [],
+        "time": 0.03367600000092352
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/161755414605325?v=2.9.285&r=stable&domain=www.nvidia.com&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 49449,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8f61dc62aacca3880e8dc0766f1acef16924372aca9ce10fbc5b850b2f5978fc",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.020504000000073574
+      },
+      {
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=84497&time=1774988789314&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1001,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ar_debug=1; Max-Age=2629746; Expires=Fri, 01 May 2026 06:55:35 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nbcookie=\"v=2&531d09ab-37c3-4dae-80d7-5f3e141f84c0\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 20:26:29 GMT; SameSite=None\nlidc=\"b=OGST06:s=O:r=O:a=O:p=O:g=3507:u=1:x=1:i=1774988789:t=1775075189:v=2:sig=AQElJUOO-xnl-i3jzDcxWw9uAymndqW0\"; Expires=Wed, 01 Apr 2026 20:26:29 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.21187099999951897
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=84497&time=1774988789314&li_adsId=136a5d21-387c-4d08-be42-19cb3f9c05eb&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "set-cookie": "li_sugr=0ed27cd4-a2e4-4ec9-9280-4af5a3238f48; Max-Age=7776000; Expires=Mon, 29 Jun 2026 20:26:29 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&3455bd23-8ea7-40a8-879b-232f989ffb1b\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 20:26:29 GMT; SameSite=None\nlidc=\"b=VGST06:s=V:r=V:a=V:p=V:g=3488:u=1:x=1:i=1774988789:t=1775075189:v=2:sig=AQGjV2IetOiEiJ5rU6SS3vQYw1LZswpT\"; Expires=Wed, 01 Apr 2026 20:26:29 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=84497&time=1774988789314&li_adsId=136a5d21-387c-4d08-be42-19cb3f9c05eb&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&cookiesTest=true",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.22427799999968556
+      },
+      {
+        "url": "https://www.nvidia.com/akam/13/pixel_138e8e88",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 728,
+        "remoteIPAddress": "23.46.216.199",
+        "responseHeaders": {
+          "set-cookie": "ak_bmsc=9F2C8E1934B4A5BF7A121DF320018E5F~000000000000000000000000000000~YAAQTGDQFwj0XSydAQAAkoaTRR/PZCIi/9sJr+mJvlFtvsfyFlc9fnh/urs8nKZsNj+noKkP1A5TV7VaDbRGgTFZpjP0qASpPTcjzrZ9rAt/KORKJ6qnhzsSyzAxw/90Hrc3R3OovnhYK6x0yy41mtXojoTmc2eNeJ0KaXqZADZfTX4HkPW21sxDyKDwnk8YuDek4HEHCLVVRlUMMH4G/d1Eau8+TFt4Ieq562C2A8ke7NW2e2NsqBXhulXrUYu+9C9NJcvA62VI+jVKaUFHAGG5eHxBa6Xmbi13jBEAkrOcKnrtWGQ5YO8HwvHKQSzMBzSH6FXyZohS4tT0neHingFjprXXMRKQ/iE379RLtdZn5D6pxbAGTyvir1Egd/g6OYn+4JD7KChJuhkkuNhX9IqxZtxvyTi/iw5+95MYZ2phRgRpP+QknMcoDvSo1W1Wi1ZcuPstIDbvHmW+BdyZ; Domain=.nvidia.com; Path=/; Expires=Tue, 31 Mar 2026 22:26:25 GMT; Max-Age=7196; HttpOnly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.nvidia.com/akam/13/138e8e88"
+        ],
+        "time": 0.10025800000039453
+      },
+      {
+        "url": "https://t.co/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=3637b9f2-e3bd-4645-83d5-6d9ba4214399&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o5kw4&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 465,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "muc_ads=d9fb5784-6d32-4aef-9344-4966f2cc3331; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=t.co; Secure; SameSite=None\n__cf_bm=JTaIGj6RAxnACw9oBOmkTlZNFqwR3kb64nogdcxcZDA-1774988789.4062302-1.0.1.1-XjsEnW6bCEuLgQCdPz51O6xzSRyFaEYaQcy_5y6CvEqJcwlGm091fHytnbv6.Xw2jo8R0A583JRfokJmnINc27SKmnupL_UWR7qYvlIsNnjU4_b37yq06pnsNbMoHDVo; HttpOnly; Secure; Path=/; Domain=t.co; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07676299999911862
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=3637b9f2-e3bd-4645-83d5-6d9ba4214399&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o5kw4&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 481,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "personalization_id=\"v1_lkkWPmCG2B6424/pjf9nCg==\"; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\n__cf_bm=iOX886U4wQtCrCEMnWon9wSMtSwC8w4V2NevODEh9TQ-1774988789.4048796-1.0.1.1-Vs_HbgDIB49.pLhVhe63D.FJqqIuAqAdWWVBtoPUS6CWBxjN4Bi6BZWVmDra9aKXfhS80mUnBp0SCRQ_THeDwfkEmglYjE5rN9c1kvug8nJ4WoWE0phE8HB8Chgg0dm_; HttpOnly; Secure; Path=/; Domain=twitter.com; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07382700000016484
+      },
+      {
+        "url": "https://t.co/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=88e72624-13f0-4199-9471-ef6d87debffc&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o5kwu&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 468,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "muc_ads=274228db-01d3-448c-bc08-e9642b280726; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=t.co; Secure; SameSite=None\n__cf_bm=LOigMdBIwEQlMFOikKhbvAGJeADT4Ie7l7ZUWZwNhd8-1774988789.405974-1.0.1.1-I57wGtl6xrPzJN79Qiteqy_ANnaSYs.27l5wiXqct.QwgMyqwBD6JFbsWnzf7ybYfmEWncXXFogdlZtR7efc1ruKXJLFyvkvrRDFaqVzjHrDfkvd34o6iYqIOF5eIepg; HttpOnly; Secure; Path=/; Domain=t.co; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07417900000109512
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=88e72624-13f0-4199-9471-ef6d87debffc&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o5kwu&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 485,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "personalization_id=\"v1_1I37/PxVK9UiJKVOkZOD6Q==\"; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\n__cf_bm=baRztF7adP7T5pLuaM_W1ueMfuEwqVuxC0acOi8q59s-1774988789.4047182-1.0.1.1-V8U2Pncc3nO0idKtDaHUVSnCOcvS1uODaJjOfYl8ihOrZFBH.mekyKYOI1ErdWTC5DspD0cMRtIuXxmg0MZhs.HtL.NxIwRn6KL9EOY3AXOAvt9ZRLsbEzCvhrreK8HL; HttpOnly; Secure; Path=/; Domain=twitter.com; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07678699999996752
+      },
+      {
+        "url": "https://t.co/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=f4396fd7-2c63-46ad-884b-4fb61c2f40da&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o1txo&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 465,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "muc_ads=a61df57d-ee07-4039-a5b3-474871852399; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=t.co; Secure; SameSite=None\n__cf_bm=WpMJAxwy8TU4Gvzoc4mlwp9xvh.u_dteDhktDJ5BIDc-1774988789.4053652-1.0.1.1-sycTRHCR6jsvuO1y8eMAqxbR1Ke0brAuYWCpaT7yyqxSWugaHdu10wApAC_8Bz43yFn6BpdW2_LKXr2xNvynz_R6L9am91ChHlkogMyM25QW__0iRGEUHkBxkGeXWCoz; HttpOnly; Secure; Path=/; Domain=t.co; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.0794000000005326
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=f4396fd7-2c63-46ad-884b-4fb61c2f40da&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o1txo&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 674,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "personalization_id=\"v1_BeF7Q7I19mhM/i2+bWmbLg==\"; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\n__cf_bm=bP8ZCWDeW1OrRy9aa7tfj8ULmBZviqEYlif7rqyY9bM-1774988789.4053013-1.0.1.1-PhQLH0n0omkpyjLmhM9JTmvMEfSsAHQAJvjW31MuIMOVLZDm.RV56T25OoB3pvQyjUmXjqNT8thhupx5iZ5y6Cno_n59kMDiY7KxTQ0AYVprmFi1afaurt1hU6sByAmw; HttpOnly; Secure; Path=/; Domain=twitter.com; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07226700000137498
+      },
+      {
+        "url": "https://t.co/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=6c8ff866-8c44-44e8-9404-f15dbad2ce37&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o5j0n&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 659,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "muc_ads=cb6b9e23-3496-4f56-b879-d68165cfd978; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=t.co; Secure; SameSite=None\n__cf_bm=bp5KpmPTSVNDI.qixPS3I5mZhqH.18XyqvDNl24YYi4-1774988789.4049356-1.0.1.1-arz6F2dxMHqRhDf5O85AY_aonz8luvaR0t0Xyh_AxMtPyx2zTSg7C80d9dIVbBpUU1.RFDp4XLaGgCzcNrik8vtPXz._NUMx8ko0UnS.9g1c7KYJtkpO3kgUUhDuCNsb; HttpOnly; Secure; Path=/; Domain=t.co; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07283400000051188
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=2&event_id=6c8ff866-8c44-44e8-9404-f15dbad2ce37&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1774988789330.750930566175506193&txn_id=o5j0n&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 483,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "personalization_id=\"v1_2r7Gcp8v1LeR1UDTS9FoMQ==\"; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\n__cf_bm=_iw1UM14BKKe95ZCKnYy8PIctMHiy9iQBp8Iq475xok-1774988789.405918-1.0.1.1-kCpytB7vyTRdhsTYdAAVRMvcp1ioq2572wZtNmmsvm9fsDYdEkDkQEoCnhCpodfVx5M7rrxGdHL59Wu5wGvGQx5yPgK7WidaiyTPDQcFGhMeP397AqE5NEOZ4U8aAE1k; HttpOnly; Secure; Path=/; Domain=twitter.com; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07635600000139675
+      },
+      {
+        "url": "https://t.co/1/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=3&event=%7B%7D&event_id=2b9e5c54-8852-4930-bd71-2e67e4f95565&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1774988789330.750930566175506193&txn_id=nutdh&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 465,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "muc_ads=ba4f1d21-5014-4745-9ae0-82fec67f06d0; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=t.co; Secure; SameSite=None\n__cf_bm=aHvHcskQbUSWZHCinO7L3KIWRhOvQCXxI71kQgYr6E4-1774988789.4056067-1.0.1.1-LfBSVuhb2nCVXE3WZpGrycKlukSJcQW65tp9WSnORYLn5e1molyJt6Ag9HbfpIRWK7Lyi4rAtOtBlF8VrEReN9vWCYlTm3mQrNOc7sD_MEF84i4yUvmiwwNlwUzS9IH8; HttpOnly; Secure; Path=/; Domain=t.co; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.0787240000008751
+      },
+      {
+        "url": "https://analytics.twitter.com/1/i/adsct?bci=5&dv=America%2FLos_Angeles%26en-US%26Google%20Inc.%26MacIntel%26127%26800%26600%268%2624%26800%26600%260%26na&eci=3&event=%7B%7D&event_id=2b9e5c54-8852-4930-bd71-2e67e4f95565&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=4d477721-3945-4805-962c-7228c96d7ccf&pt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&tw_document_href=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1774988789330.750930566175506193&txn_id=nutdh&type=javascript&version=2.3.50",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 808,
+        "remoteIPAddress": "172.66.0.227",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0",
+          "set-cookie": "guest_id_marketing=v1%3A177498878941962884; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\nguest_id_ads=v1%3A177498878941962884; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\npersonalization_id=\"v1_mHWD9xEngNhW5HSV0OYScQ==\"; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\nguest_id=v1%3A177498878941962884; Max-Age=63072000; Expires=Thu, 30 Mar 2028 20:26:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None\n__cf_bm=tvMEhsa_iSanBsQCBzHY75kKQfmCrYrHFIwCCdk3gFA-1774988789.4056213-1.0.1.1-kxCEuR5vbxaFY2aQyj9vVlkI0Rx141piCZDVa8LQaMcqvp2RJ1h6JdcCMV9O1wFEDrnx_NkxVirV1Yw1foAoC0VioG33tRNa.Fve.H555lqkabGaYLj8js5SqOcWFMiT; HttpOnly; Secure; Path=/; Domain=twitter.com; Expires=Tue, 31 Mar 2026 20:56:29 GMT"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.0715520000012475
+      },
+      {
+        "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 801,
+        "remoteIPAddress": "104.18.37.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "etag": "W/\"201-KhcV/GpEkcCwcXIo7ozPDFhagmU\""
+        },
+        "responseBodyHash": "7450d43cc6fabdae91b16471e5333c72acd6845f285ec3c2109e9d278cb7c1d9",
+        "initiators": [
+          "https://js.zi-scripts.com/zi-tag.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.13803999999981897
+      },
+      {
+        "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "104.18.37.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://js.zi-scripts.com/unified/v1/master/getSubscriptions"
+        ],
+        "time": 0.07322600000043167
+      },
+      {
+        "url": "https://t.influ2.com/u/?cb=1774988789359",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 370,
+        "remoteIPAddress": "34.117.110.211",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "set-cookie": "R=4fa294cfa9907f525f684919; Path=/; Domain=influ2.com; Expires=Wed, 31 Mar 2027 20:26:29 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "fe7db626f6f76c362ae6dad79ce942166a3edff935560d2a9969357e806c7b40",
+        "initiators": [
+          "https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.12285899999915273
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=161755414605325&ev=PageView&dl=https%3A%2F%2Fwww.nvidia.com&rl=&if=false&ts=1774988789384&sw=800&sh=600&v=2.9.285&r=stable&ec=0&o=8222&cs_est=true&pm=1&hrl=6bb8be&ler=empty&cdl=API_unavailable&plt=4672.0999999996275&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1774988789201&coo=false&cs_cc=1&cas=33187439224204909%2C25788613810741165%2C8184980024932099%2C8219954314748968%2C6568747843249054%2C8404759669568488%2C7636811139769104%2C8804584779669346%2C5014114568700122%2C7415646275182020%2C7355716814526219%2C7510614728984207%2C7674603002596582%2C8043529499023858%2C7195549740517815%2C7356089494506002%2C24005973982381675%2C25809741798672704%2C7806985612666709%2C3829550393768482%2C6715772505150752%2C25796690336687474%2C4819469048143418&dlc=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct1&expv2[6]=hf0&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": ""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/161755414605325?v=2.9.285&r=stable&domain=www.nvidia.com&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.03930899999977555
+      },
+      {
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=161755414605325&ev=PageView&dl=https%3A%2F%2Fwww.nvidia.com&rl=&if=false&ts=1774988789384&sw=800&sh=600&v=2.9.285&r=stable&ec=0&o=8222&cs_est=true&pm=1&hrl=6bb8be&ler=empty&cdl=API_unavailable&plt=4672.0999999996275&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1774988789201&coo=false&cs_cc=1&cas=33187439224204909%2C25788613810741165%2C8184980024932099%2C8219954314748968%2C6568747843249054%2C8404759669568488%2C7636811139769104%2C8804584779669346%2C5014114568700122%2C7415646275182020%2C7355716814526219%2C7510614728984207%2C7674603002596582%2C8043529499023858%2C7195549740517815%2C7356089494506002%2C24005973982381675%2C25809741798672704%2C7806985612666709%2C3829550393768482%2C6715772505150752%2C25796690336687474%2C4819469048143418&dlc=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct1&expv2[6]=hf0&rqm=FGET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 199,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "cache-control": "private, no-store, no-cache, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "886d7044dc32b617079285a76550c0941cd6e184b1b66be91e7a1ebaed373143",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/161755414605325?v=2.9.285&r=stable&domain=www.nvidia.com&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.25784899999962363
+      },
+      {
+        "url": "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 57963,
+        "remoteIPAddress": "18.155.202.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"505bb0c84f9eefda103bf69f4d3372f2\""
+        },
+        "responseBodyHash": "c47bb84af40559f27a847a6e5ad09b5c4cb040ff0d4da08f1021b1d81fd7a8df",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://static.hotjar.com/c/hotjar-3655182.js?sv=6",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.055918000000019674
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1041695361/?random=1774988789480&cv=11&fst=1774988789480&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1532143353.1774988789&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61,
+        "remoteIPAddress": "172.217.12.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 20:41:29 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "77d5fe96defd6c8c1e3b0466b4827cf83dc7e5c727a10177e115d25132fa86f6",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07105100000080711
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/1041695361/?random=1774988789513&cv=11&fst=1774988789513&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=1~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&fmt=7",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1062,
+        "remoteIPAddress": "142.251.46.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "13ea4c22c78cda9f9558c83accb7169506f6db1974f78dddd8f77868e8190a44",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.23741899999913585
+      },
+      {
+        "url": "https://www.google.com/ccm/form-data/1041695361?gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&userId=replace%20with%20value&npa=0&frm=0&pscdl=noapi&auid=1532143353.1774988789&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.2316850000006525
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1041695361/?random=1774988789520&cv=11&fst=1774988789520&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&userId=replace%20with%20value&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1532143353.1774988789&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61,
+        "remoteIPAddress": "172.217.12.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 20:41:29 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "77d5fe96defd6c8c1e3b0466b4827cf83dc7e5c727a10177e115d25132fa86f6",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.04817100000036589
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/1041695361/?random=1774988789533&cv=11&fst=1774988789533&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&userId=replace%20with%20value&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=2~0~0&data=event%3Dpage_view&category=acrcp_v1_512&fmt=7",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1059,
+        "remoteIPAddress": "142.251.46.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e52b444232e4a5eb7bb6d5aa59e0cb4d445402fafa5c1c4aa45c22c95cf66698",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.21490199999971082
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&scrsrc=www.googletagmanager.com&rnd=1230304543.1774988789&dt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&auid=1532143353.1774988789&navt=n&npa=0&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&apve=1&apvf=f&apvc=1&tids=AW-1041695361&tid=AW-1041695361&tft=1774988789539&tfd=5254",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.22312299999975949
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&scrsrc=www.googletagmanager.com&rnd=1230304543.1774988789&dt=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&auid=1532143353.1774988789&navt=n&npa=0&uid=replace%20with%20value&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&apve=1&apvf=f&apvc=0&tids=AW-1041695361&tid=AW-1041695361&tft=1774988789539&tfd=5254",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.22277299999950628
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=84497&time=1774988789314&li_adsId=136a5d21-387c-4d08-be42-19cb3f9c05eb&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&cookiesTest=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "set-cookie": "li_sugr=0ed27cd4-a2e4-4ec9-9280-4af5a3238f48; Max-Age=7776000; Expires=Mon, 29 Jun 2026 20:26:29 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nUserMatchHistory=AQI65XqgEKDc4AAAAZ1Fk4dlcQ2lvyoyhPmbPVu109qyvGQmBFMV8J2VYolMUHQ4bCiolCORtcJbWQ; Max-Age=2592000; Expires=Thu, 30 Apr 2026 20:26:29 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nAnalyticsSyncHistory=AQI2361xt5qvOgAAAZ1Fk4dl7snJcTw-jV9kj7ADchB_frQStrp-1hI-r-FcEkUtoDMygUV5wZFDIhH0xjXibQ; Max-Age=2592000; Expires=Thu, 30 Apr 2026 20:26:29 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&3455bd23-8ea7-40a8-879b-232f989ffb1b\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 20:26:29 GMT; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D84497%26time%3D1774988789314%26li_adsId%3D136a5d21-387c-4d08-be42-19cb3f9c05eb%26url%3Dhttps%253A%252F%252Fwww.nvidia.com%252Fen-us%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=84497&time=1774988789314&li_adsId=136a5d21-387c-4d08-be42-19cb3f9c05eb&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.11850299999969138
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D84497%26time%3D1774988789314%26li_adsId%3D136a5d21-387c-4d08-be42-19cb3f9c05eb%26url%3Dhttps%253A%252F%252Fwww.nvidia.com%252Fen-us%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "104.18.41.41",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, no-transform",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "bscookie=\"v=1&20260331202629c9671d07-83f2-4d59-8b3c-c17a425b4c01AQHyrBalmFNVAQnXAmk7wMk7f3BlslGg\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 20:26:29 GMT; HttpOnly; SameSite=None\n__cf_bm=fZZii2YQn6ZorvyWSzKQT8k.BaP1Z3BG30R2li37q7M-1774988789-1.0.1.1-I0zdAgkm.JEFhkfdrdR1ZXkVfca9_yKd9.1IGxYS.idzyWpDIZJ2iHm0M7fNkqKaDKFTcae7pvunWvNe30pnVaK9H7Gjv7.loq6kphwR9Yg; path=/; expires=Tue, 31-Mar-26 20:56:29 GMT; domain=.linkedin.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=84497&time=1774988789314&li_adsId=136a5d21-387c-4d08-be42-19cb3f9c05eb&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&cookiesTest=true&liSync=true",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=84497&time=1774988789314&li_adsId=136a5d21-387c-4d08-be42-19cb3f9c05eb&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&cookiesTest=true",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.18724900000052003
+      },
+      {
+        "url": "https://a.usbrowserspeed.com/cs?pid=9927063789ae621419534228c1e647c4e99a602c4655bf974acf5926b92fe9e9&r=https%3A//t.influ2.com/u/?hem%3D%24%7BHEM_SHA256_LOWERCASE%7D%26up_id%3D%24%7BUP_ID%7D&ref=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&puid=%7B%22client_id%22%3A%22cc39198a-89bf-4c7b-86bc-535a0b4fd630%22%2C%22referrer%22%3A%22https%253A%252F%252Fwww.nvidia.com%252Fen-us%252F%22%2C%22influ2_cookie%22%3A%224fa294cfa9907f525f684919%22%2C%22influ2_target_id%22%3A%22%22%2C%22timestamp%22%3A1774988789763%2C%22ip%22%3A%22128.120.85.246%22%7D",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "54.184.55.80",
+        "responseHeaders": {
+          "set-cookie": "tuid=e29f7268-19df-4363-931e-e8693b263b41; Path=/; Domain=a.usbrowserspeed.com; Max-Age=31536000; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://t.influ2.com/u/?hem=&up_id=",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.15298599999914586
+      },
+      {
+        "url": "https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b/?iszitag=true",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.16.118.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "set-cookie": "_cfuvid=VrZ26hXHdCBYDFg_fkz5pNp42Vt0VKI.EXW2xEEskI4-1774988789898-0.0.1.1-604800000; path=/; domain=.zoominfo.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b/?iszitag=true"
+        ],
+        "time": 0.12741900000037276
+      },
+      {
+        "url": "https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b/?iszitag=true",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1885,
+        "remoteIPAddress": "104.16.118.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nvidia.com",
+          "set-cookie": "_cfuvid=QYpZmu.YFWorI1aYY4_Qpi4_YMZzy5uhr__.XzbQoJw-1774988790073-0.0.1.1-604800000; path=/; domain=.zoominfo.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "dc56757c7142c72efcc36800d1f46912ede215c049717bc06543aa8281ca2208",
+        "initiators": [
+          "https://js.zi-scripts.com/zi-tag.js",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.30555099999946833
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1041695361/?random=679521919&cv=11&fst=1774988789533&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&userId=replace%20with%20value&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=2~0~0&data=event%3Dpage_view&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKFHRyaWdnZXI7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP1mb2epU_HWXCWglYFDO-M29etQ7V7JrGvOlLHBYq9Vu4KeiLM_eR0aAixg&pscrd=IhMIgI6jwvzKkwMVKI2OCB0lKSWaMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEltQnpyNHFmakJlZ1BFbTdxNzlaNXhqV2VPVmhNeDVtMXFiZWpMZWJzZWN1SklmV1d1Wkg5NnoMCAliCAgAEAAYACAA",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 302,
+        "remoteIPAddress": "172.217.12.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-conversion/1041695361/?random=679521919&cv=11&fst=1774988789533&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&userId=replace%20with%20value&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=2~0~0&data=event%3Dpage_view&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKFHRyaWdnZXI7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP1mb2epU_HWXCWglYFDO-M29etQ7V7JrGvOlLHBYq9Vu4KeiLM_eR0aAixg&pscrd=IhMIgI6jwvzKkwMVKI2OCB0lKSWaMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEltQnpyNHFmakJlZ1BFbTdxNzlaNXhqV2VPVmhNeDVtMXFiZWpMZWJzZWN1SklmV1d1Wkg5NnoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQSsAEABaugfTVHcsYk1yo8rtQVbwfuWdHnAXzEFvSSS44tOirldP96dVRH6Fyq2jPdB_94J5IbRSAXywmVAXn-8tpKhnZbC-Vx-ObY-HAgsH-HVc2g3-fdh1RS-lFNQr3-6vBHZNcVvyc4BPOohPxFLX8lXUpAHcVH6hMWRWE55BHMcyoThh8MdD8FvSJPH7JKo7z2y-nLEy4JfMuGdCMJYUt6xLdyhtulyJWzjVMTq5pm_Q&random=3208296682",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.23836600000140606
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1041695361/?random=286626178&cv=11&fst=1774988789513&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=1~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP2JkOyVTYydrYAKFqPa532xarcCbwFX_Zvug4QtX70x4hwXzF03XQQaAuee&pscrd=IhMIlYyjwvzKkwMV77qOCB3NQB2QMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEpHN0h0M09BOHNDNkFjWjRnWUw5aE9pRVljNVFjZDdsUlJoaEtUTl9EX01RVE9MekRvZ29MWXoMCAliCAgAEAAYACAA",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 302,
+        "remoteIPAddress": "172.217.12.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-conversion/1041695361/?random=286626178&cv=11&fst=1774988789513&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=1~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP2JkOyVTYydrYAKFqPa532xarcCbwFX_Zvug4QtX70x4hwXzF03XQQaAuee&pscrd=IhMIlYyjwvzKkwMV77qOCB3NQB2QMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEpHN0h0M09BOHNDNkFjWjRnWUw5aE9pRVljNVFjZDdsUlJoaEtUTl9EX01RVE9MekRvZ29MWXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQSsAEABaugfWQgaQyqgJSSPFZf5DLkhxSKjaq53yLhLHeG9AffTIsWfOwhbSfm6NZDlL1w_uGEhkgCrfuP10zgvdSJEZbsbrHyt6EC-B6kHfQUx0fKfl_jDHwpjoOXa00rxu-jPK_uS04uuv36AffUOcFVZi5YwmovucR_5_paAUZzOBJbo6ciAN4NMnaH5pEFwghx-gINTD3TzsaO04DI5hhtfdhwO3NjUdrA5p0XSynRJQ&random=851461075",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.23083600000063598
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=84497&time=1774988789314&li_adsId=136a5d21-387c-4d08-be42-19cb3f9c05eb&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&cookiesTest=true&liSync=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 41,
+        "remoteIPAddress": "150.171.22.12",
+        "responseHeaders": {
+          "set-cookie": "li_sugr=0ed27cd4-a2e4-4ec9-9280-4af5a3238f48; Max-Age=7776000; Expires=Mon, 29 Jun 2026 20:26:29 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&3455bd23-8ea7-40a8-879b-232f989ffb1b\"; domain=.linkedin.com; Path=/; Secure; Expires=Wed, 31-Mar-2027 20:26:29 GMT; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D84497%26time%3D1774988789314%26li_adsId%3D136a5d21-387c-4d08-be42-19cb3f9c05eb%26url%3Dhttps%253A%252F%252Fwww.nvidia.com%252Fen-us%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.11177200000020093
+      },
+      {
+        "url": "https://t.influ2.com/u/?hem=&up_id=",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "R=4fa294cfa9907f525f684919; Path=/; Domain=influ2.com; Expires=Wed, 31 Mar 2027 20:26:29 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "redirectedFrom": "https://a.usbrowserspeed.com/cs?pid=9927063789ae621419534228c1e647c4e99a602c4655bf974acf5926b92fe9e9&r=https%3A//t.influ2.com/u/?hem%3D%24%7BHEM_SHA256_LOWERCASE%7D%26up_id%3D%24%7BUP_ID%7D&ref=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&puid=%7B%22client_id%22%3A%22cc39198a-89bf-4c7b-86bc-535a0b4fd630%22%2C%22referrer%22%3A%22https%253A%252F%252Fwww.nvidia.com%252Fen-us%252F%22%2C%22influ2_cookie%22%3A%224fa294cfa9907f525f684919%22%2C%22influ2_target_id%22%3A%22%22%2C%22timestamp%22%3A1774988789763%2C%22ip%22%3A%22128.120.85.246%22%7D",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07272700000066834
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/1041695361/?random=286626178&cv=11&fst=1774988789513&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=1~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP2JkOyVTYydrYAKFqPa532xarcCbwFX_Zvug4QtX70x4hwXzF03XQQaAuee&pscrd=IhMIlYyjwvzKkwMV77qOCB3NQB2QMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEpHN0h0M09BOHNDNkFjWjRnWUw5aE9pRVljNVFjZDdsUlJoaEtUTl9EX01RVE9MekRvZ29MWXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQSsAEABaugfWQgaQyqgJSSPFZf5DLkhxSKjaq53yLhLHeG9AffTIsWfOwhbSfm6NZDlL1w_uGEhkgCrfuP10zgvdSJEZbsbrHyt6EC-B6kHfQUx0fKfl_jDHwpjoOXa00rxu-jPK_uS04uuv36AffUOcFVZi5YwmovucR_5_paAUZzOBJbo6ciAN4NMnaH5pEFwghx-gINTD3TzsaO04DI5hhtfdhwO3NjUdrA5p0XSynRJQ&random=851461075",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1041695361/?random=286626178&cv=11&fst=1774988789513&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=1~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP2JkOyVTYydrYAKFqPa532xarcCbwFX_Zvug4QtX70x4hwXzF03XQQaAuee&pscrd=IhMIlYyjwvzKkwMV77qOCB3NQB2QMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEpHN0h0M09BOHNDNkFjWjRnWUw5aE9pRVljNVFjZDdsUlJoaEtUTl9EX01RVE9MekRvZ29MWXoMCAliCAgAEAAYACAA",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.0007850000001781154
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/1041695361/?random=679521919&cv=11&fst=1774988789533&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&userId=replace%20with%20value&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=2~0~0&data=event%3Dpage_view&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKFHRyaWdnZXI7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP1mb2epU_HWXCWglYFDO-M29etQ7V7JrGvOlLHBYq9Vu4KeiLM_eR0aAixg&pscrd=IhMIgI6jwvzKkwMVKI2OCB0lKSWaMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEltQnpyNHFmakJlZ1BFbTdxNzlaNXhqV2VPVmhNeDVtMXFiZWpMZWJzZWN1SklmV1d1Wkg5NnoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQSsAEABaugfTVHcsYk1yo8rtQVbwfuWdHnAXzEFvSSS44tOirldP96dVRH6Fyq2jPdB_94J5IbRSAXywmVAXn-8tpKhnZbC-Vx-ObY-HAgsH-HVc2g3-fdh1RS-lFNQr3-6vBHZNcVvyc4BPOohPxFLX8lXUpAHcVH6hMWRWE55BHMcyoThh8MdD8FvSJPH7JKo7z2y-nLEy4JfMuGdCMJYUt6xLdyhtulyJWzjVMTq5pm_Q&random=3208296682",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1041695361/?random=679521919&cv=11&fst=1774988789533&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be63u0v885977293za200zd885977293xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116133313~116991817~117266402~118089341&u_w=800&u_h=600&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&capi=1&gtm_ee=1&frm=0&tiba=World%20Leader%20in%20Artificial%20Intelligence%20Computing%20%7C%20NVIDIA&npa=0&pscdl=noapi&auid=1532143353.1774988789&label=nB4mCO7oye4bEIGF3PAD&userId=replace%20with%20value&hn=www.googleadservices.com&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&gcl_ctr=2~0~0&data=event%3Dpage_view&category=acrcp_v1_512&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKFHRyaWdnZXI7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP1mb2epU_HWXCWglYFDO-M29etQ7V7JrGvOlLHBYq9Vu4KeiLM_eR0aAixg&pscrd=IhMIgI6jwvzKkwMVKI2OCB0lKSWaMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5udmlkaWEuY29tL0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VEltQnpyNHFmakJlZ1BFbTdxNzlaNXhqV2VPVmhNeDVtMXFiZWpMZWJzZWN1SklmV1d1Wkg5NnoMCAliCAgAEAAYACAA",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.0007839999998395797
+      },
+      {
+        "url": "blob:https://www.nvidia.com/668f51f2-9bc3-46f7-bf58-1174b45b3d64",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "dc56757c7142c72efcc36800d1f46912ede215c049717bc06543aa8281ca2208",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://js.zi-scripts.com/zi-tag.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.0006069999999454012
+      },
+      {
+        "url": "https://tracking.intentsify.io/page-tracking/intentsify-nvidia/https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "204.236.154.241",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "userId=0eb9ab08-d449-42b9-9db7-f87f43979a5f; SameSite=None; Secure;Expires=Expires=Fri, 28 Mar 2036 20:26:30 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://a.usbrowserspeed.com/cs?pid=5476ad7fb254ae8ddffd9ee34e77cfbb0c895c04783f2a615f8a1341878ee532&puid=0eb9ab08-d449-42b9-9db7-f87f43979a5f-intentsify-nvidia-1ffc7992-3a5f-4212-8fb6-2f7ece868e24",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.07755200000065088
+      },
+      {
+        "url": "https://a.usbrowserspeed.com/cs?pid=5476ad7fb254ae8ddffd9ee34e77cfbb0c895c04783f2a615f8a1341878ee532&puid=0eb9ab08-d449-42b9-9db7-f87f43979a5f-intentsify-nvidia-1ffc7992-3a5f-4212-8fb6-2f7ece868e24",
+        "method": "GET",
+        "type": "Script",
+        "status": 204,
+        "size": 148,
+        "remoteIPAddress": "54.184.55.80",
+        "responseHeaders": {
+          "set-cookie": "tuid=e29f7268-19df-4363-931e-e8693b263b41; Path=/; Domain=a.usbrowserspeed.com; Max-Age=31536000; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://tracking.intentsify.io/page-tracking/intentsify-nvidia/https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F",
+        "initiators": [
+          "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js",
+          "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js"
+        ],
+        "time": 0.06438700000035169
+      }
+    ],
+    "cookies": [
+      {
+        "name": "userId",
+        "domain": "tracking.intentsify.io",
+        "path": "/page-tracking/intentsify-nvidia",
+        "expires": 1809548790244,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "c_code",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_cs_mk",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1774990588000,
+        "session": false
+      },
+      {
+        "name": "bm_sv",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1774995985926,
+        "session": false
+      },
+      {
+        "name": "OptanonConsent",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1806524789000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_twpid",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1808684789354,
+        "session": false,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "ak_bmsc",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1774995985396,
+        "session": false
+      },
+      {
+        "name": "guest_id_marketing",
+        "domain": ".twitter.com",
+        "path": "/",
+        "expires": 1809548789427,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "guest_id_ads",
+        "domain": ".twitter.com",
+        "path": "/",
+        "expires": 1809548789427,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "guest_id",
+        "domain": ".twitter.com",
+        "path": "/",
+        "expires": 1809548789427,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "personalization_id",
+        "domain": ".twitter.com",
+        "path": "/",
+        "expires": 1809548789431,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "muc_ads",
+        "domain": ".t.co",
+        "path": "/",
+        "expires": 1809548789434,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "R",
+        "domain": ".influ2.com",
+        "path": "/",
+        "expires": 1806524789988,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1782764789000,
+        "session": false
+      },
+      {
+        "name": "li_sugr",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1782764789957,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "bcookie",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1806524789957,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "lidc",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1775075190527,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_hjSessionUser_3655182",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1806524789000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1774989689582,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_hjSession_3655182",
+        "domain": ".nvidia.com",
+        "path": "/",
+        "expires": 1774990589000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "UserMatchHistory",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1777580789645,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1777580789645,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_zitok",
+        "domain": ".www.nvidia.com",
+        "path": "/",
+        "expires": 1806524789000,
+        "session": false,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "bscookie",
+        "domain": ".www.linkedin.com",
+        "path": "/",
+        "expires": 1806524789845,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1774990589845,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "tuid",
+        "domain": ".a.usbrowserspeed.com",
+        "path": "/",
+        "expires": 1806524790309,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".zoominfo.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": {
+          "Document.cookie getter": 8,
+          "window.sessionStorage": 4
+        },
+        "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js": {
+          "Navigator.prototype.userAgent": 21,
+          "window.localStorage": 8,
+          "Navigator.prototype.appVersion": 1,
+          "Document.cookie getter": 62,
+          "Document.cookie setter": 13,
+          "window.sessionStorage": 3,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 1,
+          "Date.prototype.getTime": 4,
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.doNotTrack": 15
+        },
+        "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js": {
+          "Navigator.prototype.userAgent": 11,
+          "Document.cookie setter": 6
+        },
+        "https://www.nvidia.com/en-us/": {
+          "window.innerWidth": 1,
+          "Document.cookie getter": 1
+        },
+        "https://www.nvidia.com/assets/account-wrapper/starfleet.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/9c806d7ec077/EXea8a172518894e9e9d3a538770eec1ef-libraryCode_source.min.js": {
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.appName": 2,
+          "Date.prototype.getTime": 1
+        },
+        "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.2cf48d5727fcbc4399056a81c9556ea4.js": {
+          "window.innerWidth": 12,
+          "window.devicePixelRatio": 3,
+          "window.innerHeight": 5,
+          "Navigator.prototype.userAgent": 8,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.appVersion": 2,
+          "Navigator.prototype.appName": 1,
+          "Document.cookie getter": 4
+        },
+        "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js": {
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3
+        },
+        "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.c615b422b69815dda8c5379a2b245500.js": {
+          "window.devicePixelRatio": 2
+        },
+        "https://www.nvidia.com/assets/account-wrapper/v1.9.5-669.70a5d4359a7ae1e851a5.js": {
+          "Navigator.prototype.product": 6,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.nvidia.com/assets/account-wrapper/v1.9.5-88.21afadbff1ec70c711bd.js": {
+          "window.sessionStorage": 1,
+          "window.localStorage": 4
+        },
+        "https://www.nvidia.com/akam/13/138e8e88": {
+          "Navigator.prototype.plugins": 8,
+          "window.innerWidth": 1,
+          "window.outerWidth": 1,
+          "window.screenX": 1,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.width": 1,
+          "window.innerHeight": 1,
+          "window.outerHeight": 1,
+          "window.screenY": 1,
+          "Screen.prototype.availHeight": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.pixelDepth": 1,
+          "window.indexedDB": 2,
+          "Date.prototype.getTimezoneOffset": 1,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "HTMLCanvasElement.prototype.toDataURL": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.appName": 2,
+          "Navigator.prototype.appCodeName": 2,
+          "Navigator.prototype.appVersion": 2,
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.productSub": 2,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.vendorSub": 2,
+          "Navigator.prototype.platform": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.language": 2,
+          "Navigator.prototype.languages": 2,
+          "Navigator.prototype.doNotTrack": 2,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Navigator.prototype.webdriver": 1,
+          "Navigator.prototype.permissions": 21,
+          "Navigator.prototype.getBattery": 1,
+          "CanvasRenderingContext2D.prototype.getImageData": 1
+        },
+        "https://www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.js": {
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.nvidia.com/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js": {
+          "Element.prototype.getClientRects": 1,
+          "Event.prototype.timeStamp": 2
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 42,
+          "Date.prototype.getTime": 11,
+          "Document.cookie setter": 10,
+          "Navigator.prototype.userAgent": 15,
+          "Navigator.prototype.vendor": 1
+        },
+        "https://images.nvidia.com/aem-dam/Solutions/ot-js/ot-custom.js": {
+          "Navigator.prototype.userAgent": 1,
+          "window.localStorage": 1
+        },
+        "https://connect.facebook.net/en_US/fbevents.js": {
+          "Navigator.prototype.userAgent": 13,
+          "Navigator.prototype.vendor": 4,
+          "window.sessionStorage": 2,
+          "NavigatorUAData.prototype.brands": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "Screen.prototype.width": 3,
+          "Screen.prototype.height": 3
+        },
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js": {
+          "window.localStorage": 20,
+          "Document.cookie getter": 5,
+          "Date.prototype.getTime": 1,
+          "Navigator.prototype.userAgent": 3
+        },
+        "https://static.ads-twitter.com/uwt.js": {
+          "Navigator.prototype.getBattery": 1,
+          "Document.cookie getter": 11,
+          "Screen.prototype.width": 5,
+          "Screen.prototype.height": 5,
+          "Screen.prototype.colorDepth": 5,
+          "Screen.prototype.availWidth": 5,
+          "Screen.prototype.availHeight": 5,
+          "Navigator.prototype.languages": 10,
+          "Navigator.prototype.doNotTrack": 5,
+          "Navigator.prototype.maxTouchPoints": 5,
+          "Navigator.prototype.hardwareConcurrency": 5,
+          "Navigator.prototype.platform": 5,
+          "Navigator.prototype.vendor": 5,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+          "Navigator.prototype.userAgent": 10,
+          "Document.cookie setter": 5
+        },
+        "https://js.zi-scripts.com/zi-tag.js": {
+          "window.sessionStorage": 13,
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 6,
+          "Date.prototype.getTime": 1,
+          "Navigator.prototype.userAgent": 1,
+          "URL.createObjectURL": 1
+        },
+        "https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630": {
+          "Document.cookie getter": 2,
+          "window.localStorage": 2
+        },
+        "https://connect.facebook.net/signals/config/161755414605325?v=2.9.285&r=stable&domain=www.nvidia.com&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157": {
+          "Navigator.prototype.userAgent": 9,
+          "window.localStorage": 5,
+          "Date.prototype.getTime": 1
+        },
+        "https://static.hotjar.com/c/hotjar-3655182.js?sv=6": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.googletagmanager.com/gtag/js?id=AW-1041695361": {
+          "Navigator.prototype.userAgent": 77,
+          "Document.cookie getter": 86,
+          "Date.prototype.getTime": 84,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "Document.cookie setter": 1,
+          "window.localStorage": 59,
+          "Screen.prototype.width": 6,
+          "Screen.prototype.height": 6
+        },
+        "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js": {
+          "window.sessionStorage": 5,
+          "Document.cookie setter": 6,
+          "Document.cookie getter": 12,
+          "Date.prototype.getTime": 6,
+          "window.localStorage": 6,
+          "Navigator.prototype.userAgent": 20,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.doNotTrack": 1
+        },
+        "https://www.nvidia.com/668f51f2-9bc3-46f7-bf58-1174b45b3d64": {
+          "window.sessionStorage": 6
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "com.adobe.alloy.getTld=com.adobe.alloy.getTld; path=/; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "com.adobe.alloy.getTld=; path=/; domain=nvidia.com; expires=Mon, 30 Mar 2026 20:26:28 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kndctr_F207D74D549850760A4C98C6_AdobeOrg_bc_session_id=; path=/; domain=nvidia.com; expires=Mon, 30 Mar 2026 20:26:28 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kndctr_F207D74D549850760A4C98C6_AdobeOrg_consent=; path=/; expires=Mon, 30 Mar 2026 20:26:28 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_ecid=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=nvidia.com; path=/;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_ecid=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=nvidia.com; path=/;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=nvidia.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=nvidia.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=nvidia.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=nvidia.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gd1774988788627=_gd1774988788627;domain=nvidia.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gd1774988788627=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=nvidia.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cs_mk=0.6852127882668426_1774988788627; expires=Tue, 31 Mar 2026 20:56:28 GMT;path=/;domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "nv.buttonReferrer=; expires=Mon, 30 Mar 2026 20:26:28 GMT; path=/; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "nv.referrerHref=; expires=Mon, 30 Mar 2026 20:26:28 GMT; path=/; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "nv.referrerId=; expires=Mon, 30 Mar 2026 20:26:28 GMT; path=/; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "nv.buttonReferrer=; expires=Mon, 30 Mar 2026 20:26:28 GMT; path=/; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "nv.referrerHref=; expires=Mon, 30 Mar 2026 20:26:28 GMT; path=/; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.f58cebbafd958925023ac7b2e58f758a.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "nv.referrerId=; expires=Mon, 30 Mar 2026 20:26:28 GMT; path=/; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=48386ec8-914d-4f92-b5ad-841f90330904; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=48386ec8-914d-4f92-b5ad-841f90330904&interactionCount=0; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=48386ec8-914d-4f92-b5ad-841f90330904&interactionCount=0&isAnonUser=1; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=48386ec8-914d-4f92-b5ad-841f90330904&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=48386ec8-914d-4f92-b5ad-841f90330904&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202601.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A26%3A29+GMT-0700+(Pacific+Daylight+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=48386ec8-914d-4f92-b5ad-841f90330904&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0; expires=Wed, 31 Mar 2027 20:26:29 GMT; path=/; domain=.nvidia.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://static.ads-twitter.com/uwt.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_twpid=tw.1774988789330.750930566175506193;domain=.nvidia.com;max-age=33696000;secure;samesite=Strict;path=/"
+          ]
+        },
+        {
+          "source": "https://static.ads-twitter.com/uwt.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_twpid=tw.1774988789330.750930566175506193;domain=.nvidia.com;max-age=33696000;secure;samesite=Strict;path=/"
+          ]
+        },
+        {
+          "source": "https://static.ads-twitter.com/uwt.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_twpid=tw.1774988789330.750930566175506193;domain=.nvidia.com;max-age=33696000;secure;samesite=Strict;path=/"
+          ]
+        },
+        {
+          "source": "https://static.ads-twitter.com/uwt.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_twpid=tw.1774988789330.750930566175506193;domain=.nvidia.com;max-age=33696000;secure;samesite=Strict;path=/"
+          ]
+        },
+        {
+          "source": "https://static.ads-twitter.com/uwt.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_twpid=tw.1774988789330.750930566175506193;domain=.nvidia.com;max-age=33696000;secure;samesite=Strict;path=/"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=AW-1041695361",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.1532143353.1774988789; path=/; expires=Mon, 29 Jun 2026 20:26:29 GMT; domain=nvidia.com"
+          ]
+        },
+        {
+          "source": "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_hjTLDTest=.nvidia.com; path=/; sameSite=None; secure; domain=.nvidia.com"
+          ]
+        },
+        {
+          "source": "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_hjTLDTest=; path=/; sameSite=None; secure; domain=.nvidia.com; expires=Mon, 30 Mar 2026 20:26:29 GMT"
+          ]
+        },
+        {
+          "source": "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_hjSessionUser_3655182=eyJpZCI6IjliNDI3OTllLTkwZTEtNWE3OS1iNjc3LTVhNTUzYjYwMDk3NiIsImNyZWF0ZWQiOjE3NzQ5ODg3ODk1ODAsImV4aXN0aW5nIjpmYWxzZX0=; path=/; sameSite=None; secure; domain=.nvidia.com; expires=Wed, 31 Mar 2027 20:26:29 GMT"
+          ]
+        },
+        {
+          "source": "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_hjSession_3655182=eyJpZCI6ImZhNWI4OTc3LTRiYzktNDY3Ny04N2M1LTg1YjY2NDMwZWEwNyIsImMiOjE3NzQ5ODg3ODk1ODIsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==; path=/; sameSite=None; secure; domain=.nvidia.com; expires=Tue, 31 Mar 2026 20:56:29 GMT"
+          ]
+        },
+        {
+          "source": "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_hjSession_3655182=eyJpZCI6ImZhNWI4OTc3LTRiYzktNDY3Ny04N2M1LTg1YjY2NDMwZWEwNyIsImMiOjE3NzQ5ODg3ODk1ODIsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=; path=/; sameSite=None; secure; domain=.nvidia.com; expires=Tue, 31 Mar 2026 20:56:29 GMT"
+          ]
+        },
+        {
+          "source": "https://script.hotjar.com/modules.6a0f3932cb1341a35c18.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_hjSession_3655182=eyJpZCI6ImZhNWI4OTc3LTRiYzktNDY3Ny04N2M1LTg1YjY2NDMwZWEwNyIsImMiOjE3NzQ5ODg3ODk1ODIsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=; path=/; sameSite=None; secure; domain=.nvidia.com; expires=Tue, 31 Mar 2026 20:56:29 GMT"
+          ]
+        },
+        {
+          "source": "https://js.zi-scripts.com/zi-tag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_zitok=; expires=Thu, 01 Jan 1970 00:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://js.zi-scripts.com/zi-tag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_zitok=; path=; expires=Thu, 01 Jan 1970 00:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://js.zi-scripts.com/zi-tag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_zitok=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://js.zi-scripts.com/zi-tag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_zitok=; path=/en-us; expires=Thu, 01 Jan 1970 00:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://js.zi-scripts.com/zi-tag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_zitok=; path=/en-us/; expires=Thu, 01 Jan 1970 00:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://js.zi-scripts.com/zi-tag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_zitok=63b2c8ae7cd8b8ec932a1774988789; domain=www.nvidia.com; path=/; ; expires=Wed, 31 Mar 2027 20:26:29 GMT; samesite=strict; secure;"
+          ]
+        }
+      ]
+    }
+  }
+}

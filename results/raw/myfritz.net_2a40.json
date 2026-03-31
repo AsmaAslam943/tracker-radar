@@ -1,0 +1,1740 @@
+{
+  "initialUrl": "https://myfritz.net/",
+  "finalUrl": "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256",
+  "timeout": false,
+  "testStarted": 1774987054211,
+  "testFinished": 1774987064148,
+  "data": {
+    "requests": [
+      {
+        "url": "https://myfritz.net/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.myfritz.net/devices/",
+        "initiators": [],
+        "time": 0.7012060000006386
+      },
+      {
+        "url": "https://www.myfritz.net/devices/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 4104,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "85fb97254ecc3645e1cf48e27e673501204c336e04fd3657816432eed98ecb90",
+        "redirectedFrom": "https://myfritz.net/",
+        "initiators": [],
+        "time": 0.6871510000000853
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/reporting-bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2498,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69807418-684\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.6953139999995983
+      },
+      {
+        "url": "https://sso.myfritz.net/static/css/myfritz-discovery-bootstrap-v2.css?v=4.6.64",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 77326,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f256-42463\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.7004530000003797
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/jquery.slim.min.js?v=4.6.117",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39397,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f24a-11abc\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.6981209999994462
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/popper.min.js?v=4.6.117",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12211,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f24a-52f1\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.6956890000001295
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/bootstrap.min.js?v=4.6.117",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27994,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f254-f7eb\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.6981189999996786
+      },
+      {
+        "url": "https://www.myfritz.net/devices/assets/extra-app-config.js?v=4.6.117",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3805,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.4984099999992395
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-N5UCCROT.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3594,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.33541500000046653
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-V3YLUSRR.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23646,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.4977039999994304
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-2LZ4GHLU.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22328,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.4975219999996625
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-JQRWJSS2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17932,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.4976959999994506
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-IHXFO6QB.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3330,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.1692669999993086
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-25JDSIX6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2583,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.3346209999999701
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-M5QT5X52.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4403,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.4979270000003453
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-DVRHZ2BG.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4010,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.3348120000000563
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-T6535XYL.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4002,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.16940099999919767
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-FZNOSYHT.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4958,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.4982690000006187
+      },
+      {
+        "url": "https://www.myfritz.net/devices/polyfills-3WIQBMD5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19465,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.3340140000000247
+      },
+      {
+        "url": "https://www.myfritz.net/devices/main-7DFT6ACZ.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42167,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.6939699999993536
+      },
+      {
+        "url": "https://www.myfritz.net/devices/styles-TCK5RVZL.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2102,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/"
+        ],
+        "time": 0.1657150000000911
+      },
+      {
+        "url": "https://sso.myfritz.net/static/fonts/source-sans-pro/WOFF2/TTF/SourceSansPro-Regular.ttf.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 88377,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"69c4f24a-1533c\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://sso.myfritz.net/static/css/myfritz-discovery-bootstrap-v2.css?v=4.6.64"
+        ],
+        "time": 1.5605820000000676
+      },
+      {
+        "url": "https://piwik.avm.de/piwik/piwik.js",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://www.myfritz.net/devices/assets/extra-app-config.js?v=4.6.117"
+        ]
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-H3XQJHZQ.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2361,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17467699999997421
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-JHU3KH3G.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 78089,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.35466900000028545
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-USBROAME.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3202,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17482600000039383
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-BDYXMC5I.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4058,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17589500000030966
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-HK6JAPJC.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4276,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17429900000024645
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-RF2ID6FF.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1745,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17604299999948125
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-KRLMRVEL.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3747,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17492099999981292
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-TLEDZL4T.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3717,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17547300000023824
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-7BZ5TT36.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2166,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17505700000037905
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-SP2VNVPE.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1588,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.1751830000002883
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-UGOSWL73.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3352,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.1760309999999663
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-TJSLJ7XZ.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21645,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17696200000045792
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-K4W5FO22.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14868,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17681900000025053
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-VYQCU2PM.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9235,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17663400000037655
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-UMPE5IHZ.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10476,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17667699999947217
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-LGYFML5F.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6244,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.18085599999994884
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-CU55C7SH.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23930,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.3617240000003221
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-YTW63IC7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1545,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.182557000000088
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-EQER5L33.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2789,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.1816580000004251
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-KWQF2HMN.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7160,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.18286299999999756
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-GP6EJYSN.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51813,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.36462400000073103
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-7XTX2ZUT.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1730,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.18047500000011496
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-JA3OHZWO.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1581,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.18103299999984301
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-WVFT4QMG.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3565,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.1808229999996911
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-F6RWVRT6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4749,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.18019300000014482
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-WTQYDMW7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3110,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.18251499999951193
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-3G46PZ3C.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54285,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.3657020000000557
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-VNETIZY5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 114719,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.37670499999967433
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-CYHCZ73C.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30341,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.3615799999997762
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-RQCSFJ6I.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4019,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.17965900000035617
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-QQJ2IMBO.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4874,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.1824690000003102
+      },
+      {
+        "url": "https://www.myfritz.net/devices/chunk-ASZCZQOF.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 133039,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.3694450000002689
+      },
+      {
+        "url": "https://www.myfritz.net/devices/config/environment",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2164,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/polyfills-3WIQBMD5.js",
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.22078400000009424
+      },
+      {
+        "url": "https://www.myfritz.net/devices/assets/i18n/en.json?v=4.6.117",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38466,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.myfritz.net/devices/polyfills-3WIQBMD5.js",
+          "https://www.myfritz.net/devices/chunk-ASZCZQOF.js",
+          "https://www.myfritz.net/devices/chunk-3G46PZ3C.js",
+          "https://www.myfritz.net/devices/chunk-VNETIZY5.js",
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js"
+        ],
+        "time": 0.16780800000015006
+      },
+      {
+        "url": "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 7874,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "no-store, must-revalidate, max-age=0",
+          "set-cookie": "AUTH_SESSION_ID=a3901095-c977-48ca-b130-5f7062d42198;Version=1;Path=/realms/myfritz/;Secure;HttpOnly;SameSite=None\nAUTH_SESSION_ID_LEGACY=a3901095-c977-48ca-b130-5f7062d42198;Version=1;Path=/realms/myfritz/;Secure;HttpOnly\nKC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..ZG893Bt6O8p-HUgyIDNN-w.A3NP3cz4Uyli077JPcuc5CL4MYOFzRFTEtUVmsVFvBIfifxLKODtW-2WWFXhD2EqRlxoXbvJms72ccBmWXxnEvKvzWo18xkbv-stpqc4J22SO4ehLk1IYlRj5ljmZcExMN8n8z28k3UoraFtAtj7gQpLENrvfhXoefbnsFmgc6FGEaw0QMLRxQZpdj54o973_yoq3LLmrqTloWJKMlxi5djaDS_0NrmwgB7V9mSGlfYRfAB819uHtmi3-9lnlRKOFe7j_6KmrDhTKaeF0pn5AmVlqSKmiswxY73HD6ccGM4MTpMrLz3-DrFbnIcgufizDrPrwJR8c3BZYn9Rukc3chNnPyO7mL_Dapt10Rmo265vCiNiGNYnezliGfY3cUTYTIulOiPAD_-XSMvCFX5iFn3vzvtAClyx7uLQuefJwnpHGLRzxPtA3_XSOb8cUzb5xOo-feqTnuDgAVlBYQp7iRI6KRwZxxtY-wHd9lfTd2jQX508AdmXwmgjyc3W9J0P-XBgfPdcZ2X5sEp6scQGCfwPsGLNkGJpealSNb8YQ1W-wm-3GULYh4_j-9h4e-mcpL1hryFNZ7PlTNCbjZ9de8sXbxuH6xHMs0UW7iKLCvjsuaAhHKiQz7Tf7tZjxxzLmm3U20HbRb5z9uS9H7MhoCJ28QGrgH5xZ543uMnVcV8MksIaOy0bb9MwpAWax9miUNXzL8tKz5fvHP_NvdRnMJEe9RIkSbIH8OGIUeDRmpQKG5ZbyvhznwxC7UTKCUUN9q6byGfHmEutSESyDiTNqTOPTTdmrshG_VySGGf9BP0Q1Zeiocyeg6J1SlQiYGISenPkZzEXhhXNiWFo2q17FY0-IJ1qbio4ULl5N3dOyh78Zeg0ld_KSwDGyHRpgvbhlXgxAcCotOOsyw8QCTVoovtcnIjevr-bknNYLGSuOoCj9YyFGe8k9K20_6VzfBSe_uAnEyaaHXjm5zjxNluW5AAqlhokiC9XI4kx_iV0aOMFFKqHJuBoHnj0ljKbikZCNwfIHJPCrTLqTIe1pYWNCa3iRa19Rgo3Qa3dg0L_b3w6dcUlpQ8R3J17LgdRbXoaGkqwonYK9IRRPFtuSB9p-A.mz6FCsd-IOO25WiLTRASEg;Version=1;Path=/realms/myfritz/;Secure;HttpOnly;SameSite=None\nSERVER_ID=s1; path=/; Secure"
+        },
+        "responseBodyHash": "132cde42f9a00d87b589f2a03b4568600f64162a2016695e9a321fd2c5c2cc0d",
+        "initiators": [
+          "https://www.myfritz.net/devices/main-7DFT6ACZ.js",
+          "https://www.myfritz.net/devices/polyfills-3WIQBMD5.js",
+          "https://www.myfritz.net/devices/chunk-ASZCZQOF.js"
+        ],
+        "time": 0.7845390000002226
+      },
+      {
+        "url": "https://www.myfritz.net/static/manifest.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 3800,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"69c4f24a-934\""
+        },
+        "responseBodyHash": null,
+        "initiators": [],
+        "time": 0.3930239999999685
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/reporting-bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2498,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69807418-684\""
+        },
+        "responseBodyHash": "0272a049e3dea78010927ae44a55a00d000d7de85411efd9a4e3338e197c737f",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.2805900000003021
+      },
+      {
+        "url": "https://sso.myfritz.net/static/css/myfritz-bootstrap.css?v=4.6.35",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 81870,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f256-459e4\""
+        },
+        "responseBodyHash": "c78a7914928c8fbb96b9771a38fc7bf3edec88cbe1c095a88b4c6e5b97f2f1c2",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.7999010000003182
+      },
+      {
+        "url": "https://sso.myfritz.net/resources/69h14/login/myfritz/css/styles.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2017,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "max-age=2592000"
+        },
+        "responseBodyHash": "b97878d7892f169d8fb4f2db52eb4fd5ea5f01598b8c6aee97547ab968a1ae8e",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.6300120000005336
+      },
+      {
+        "url": "https://sso.myfritz.net/resources/69h14/login/myfritz/js/login-fp.js?v=4.6.65",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2529,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "max-age=2592000"
+        },
+        "responseBodyHash": "948233d8fbfb565959fd935001c023e85a8c77362cd0e042321dc0d13e94fc26",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.6303389999993669
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/jquery.slim.min.js?v=4.6.35",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39397,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f24a-11abc\""
+        },
+        "responseBodyHash": "e3e5f35d586c0e6a9a9d7187687be087580c40a5f8d0e52f0c4053bbc25c98db",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.6291649999993751
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/popper.min.js?v=4.6.35",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12211,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f24a-52f1\""
+        },
+        "responseBodyHash": "fe28dc38bc057f6eb11180235bbe458b3295a39b674d889075d3d9a0b5071d9f",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.4576419999993959
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/uap.min.js?v=4.6.35",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12963,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f24a-541f\""
+        },
+        "responseBodyHash": "1571a166d9ce44835c23581a3b7e6e0ebfd389414b92222b8fdb8f5c267be38a",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.45780399999966903
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/myffp.min.js?v=4.6.35",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16340,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f24a-8d59\""
+        },
+        "responseBodyHash": "0a38f58671095a8a5b0eea4b27ab252e874c4230adb768ee2b0155bba1e9afc5",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.6267159999997602
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/bootstrap.min.js?v=4.6.35",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27994,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"69c4f254-f7eb\""
+        },
+        "responseBodyHash": "edd03b96ae4ff7886406c59d7dfeeaa1b624a7da297bf2f92d0cb6b7f9633cba",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.629120999999941
+      },
+      {
+        "url": "https://sso.myfritz.net/static/icons/generic/fritz-logo-white.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3002,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69c4f24a-991\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "7a569f3cdc8d31912cefd9664aa2f631afdcfe7f61539b01739bf80d9d3b42ed",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.4567639999995663
+      },
+      {
+        "url": "https://sso.myfritz.net/static/images/help.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2168,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69c4f24a-286\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "07ae798d4706053b2dd2c473a50914de99d57f56e7948c11be1f4893518443dd",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.4571640000003754
+      },
+      {
+        "url": "https://sso.myfritz.net/resources/69h14/login/myfritz/js/login.js?v=4.6.65",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2668,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "max-age=2592000"
+        },
+        "responseBodyHash": "90cc6f4492aa4cf574456518245b73667b7fcfe913af00a435fd98985f95ec34",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.7997629999999845
+      },
+      {
+        "url": "https://sso.myfritz.net/resources/69h14/login/myfritz/js/url-history.js?v=4.6.35",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1680,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "max-age=2592000"
+        },
+        "responseBodyHash": "101bc51e09b15c3af14c569e8ea4fc00ec275981cdff6c3a4c3f6a20ae0a3dee",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.9789439999995011
+      },
+      {
+        "url": "https://sso.myfritz.net/static/js/announcements-bundle.js?v=4.6.35",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3835,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"6977335a-edf\""
+        },
+        "responseBodyHash": "894e71b75c9ebdef59f40498b70204a42c1a669ebd92a9508c1e92d476134f47",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 1.0024330000005648
+      },
+      {
+        "url": "https://sso.myfritz.net/static/icons/generic/fritz-logo-red.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2920,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69c4f24a-9b5\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "1a6227650cbcfc9825ae59ad53d03a0ed878519bf6e4d46db3dc2043f83d5f07",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 0.7999159999999392
+      },
+      {
+        "url": "https://sso.myfritz.net/resources/69h14/login/myfritz/js/load-pwk.js?v=4.6.65",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2096,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "access-control-allow-origin": "https://www.myfritz.net",
+          "cache-control": "max-age=2592000"
+        },
+        "responseBodyHash": "6b2c3b8201a2d4b1df628194b024a4ab650c8b27b4f39823f03d76acf9bcf04c",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 1.0026539999998931
+      },
+      {
+        "url": "https://sso.myfritz.net/static/manifest.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 3802,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"69c4f24a-934\""
+        },
+        "responseBodyHash": "cfbd0859c20aa01b287941e05b4d33f2015ba5a50cdab884a976284acd4595bf",
+        "initiators": [
+          "https://sso.myfritz.net/realms/myfritz/protocol/openid-connect/auth?client_id=box-discovery-webapp&redirect_uri=https%3A%2F%2Fwww.myfritz.net%2Fdevices%2F&state=f5249cec-5b64-413c-870e-4c5f1543989c&response_mode=fragment&response_type=code&scope=openid&nonce=03f78d47-c502-4a66-802f-545710544014&code_challenge=EurVyiMUb7p74ijccJO7NXaNio3QDy63HpPQ4tvKObs&code_challenge_method=S256"
+        ],
+        "time": 1.0435689999994793
+      },
+      {
+        "url": "https://sso.myfritz.net/static/images/login-background.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 75576,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69c4f24a-12168\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "e1f08344656318aa664ce81f23bda44b24bc81ec32095c87528457cf0b1ad286",
+        "initiators": [
+          "https://sso.myfritz.net/static/css/myfritz-bootstrap.css?v=4.6.35"
+        ],
+        "time": 0.1728769999999713
+      },
+      {
+        "url": "https://sso.myfritz.net/static/fonts/source-sans-pro/WOFF2/TTF/SourceSansPro-Regular.ttf.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 88376,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"69c4f24a-1533c\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "2886d4eda18d227e2b11d3830789c6b55ce7beb260912fba1d907107118238f1",
+        "initiators": [
+          "https://sso.myfritz.net/static/css/myfritz-bootstrap.css?v=4.6.35"
+        ],
+        "time": 0.2040950000000521
+      },
+      {
+        "url": "https://sso.myfritz.net/static/fonts/fds-iconfont/FDS-Iconfont.woff2?fav9gu",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23015,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"69c4f24a-5410\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "cbe7f7bf0581dbcda59fcb10443e9dc2761eafb8e173bd1cc7c38c5494ef88b5",
+        "initiators": [
+          "https://sso.myfritz.net/static/css/myfritz-bootstrap.css?v=4.6.35"
+        ],
+        "time": 0.19474199999967823
+      },
+      {
+        "url": "https://sso.myfritz.net/static/fonts/source-sans-pro/WOFF2/TTF/SourceSansPro-Semibold.ttf.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 87728,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"69c4f24a-150b4\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "4a9216492963f19d1636134c01acfbd90ed6dbb2fa581cc7eb9e0180cc5588fb",
+        "initiators": [
+          "https://sso.myfritz.net/static/css/myfritz-bootstrap.css?v=4.6.35"
+        ],
+        "time": 0.4866360000005443
+      },
+      {
+        "url": "https://sso.myfritz.net/static/fonts/fontawesome-webfont.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 99564,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"69c4f24a-17ee8\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "5a7bc16b6e77a7ade644d4611cfa959a950c431938e2c82f7117a477081ef098",
+        "initiators": [
+          "https://sso.myfritz.net/static/css/myfritz-bootstrap.css?v=4.6.35"
+        ],
+        "time": 0.48496499999964726
+      },
+      {
+        "url": "https://sso.myfritz.net/static/fonts/source-sans-pro/WOFF2/TTF/SourceSansPro-Black.ttf.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 83584,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"69c4f24a-14084\"",
+          "expires": "Wed, 01 Apr 2026 19:57:36 GMT"
+        },
+        "responseBodyHash": "793942504604ee6b5e7feca25029eb21fa982ecc7e7c75adab30717270ad089d",
+        "initiators": [
+          "https://sso.myfritz.net/static/css/myfritz-bootstrap.css?v=4.6.35"
+        ],
+        "time": 0.48463600000013685
+      },
+      {
+        "url": "https://piwik.avm.de/piwik/piwik.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22790,
+        "remoteIPAddress": "212.42.244.72",
+        "responseHeaders": {
+          "etag": "\"10e57-64d225045e473-gzip\""
+        },
+        "responseBodyHash": "11309514c7dd8677c32c6e90a80922d08b6cf40028de869396d2bb6553f8f1ab",
+        "initiators": [
+          "https://sso.myfritz.net/resources/69h14/login/myfritz/js/load-pwk.js?v=4.6.65"
+        ],
+        "time": 1.0165850000003047
+      },
+      {
+        "url": "https://gateway.myfritz.net/api/announcement/v1/public/en",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 226,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://sso.myfritz.net",
+          "cache-control": "max-age=30 s-maxage=30, must-revalidate, proxy-revalidate"
+        },
+        "responseBodyHash": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa",
+        "initiators": [
+          "https://sso.myfritz.net/static/js/announcements-bundle.js?v=4.6.35"
+        ],
+        "time": 0.4240959999997358
+      },
+      {
+        "url": "https://piwik.avm.de/piwik/piwik.php?action_name=sso.myfritz.net%2FLogging%20into%20MyFRITZ!Net&idsite=13&rec=1&r=460915&h=12&m=57&s=40&url=https%3A%2F%2Fsso.myfritz.net%2F&_id=&_idn=1&send_image=0&_refts=0&pv_id=92ooeF&devicePixelRatio=1&pf_net=549&pf_srv=234&pf_tfr=1&pf_dm1=853&uadata=%7B%22formFactors%22%3A%5B%5D%2C%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 260,
+        "remoteIPAddress": "212.42.244.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://sso.myfritz.net"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://piwik.avm.de/piwik/piwik.js",
+          "https://sso.myfritz.net/resources/69h14/login/myfritz/js/load-pwk.js?v=4.6.65"
+        ],
+        "time": 0.36216199999944365
+      },
+      {
+        "url": "https://sso.myfritz.net/static/images/icons/favicon.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 9950,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69c4f24a-5f38\"",
+          "expires": "Wed, 01 Apr 2026 19:57:16 GMT"
+        },
+        "responseBodyHash": "fdef088096806d4a830bff27888c6004e2d1b7dac85eda6f25222e5df8ff6ae3",
+        "initiators": [],
+        "time": 0.32186000000001513
+      },
+      {
+        "url": "https://sso.myfritz.net/static/images/icons/android-chrome-144x144.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 11106,
+        "remoteIPAddress": "212.42.244.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69c4f24a-260b\"",
+          "expires": "Wed, 01 Apr 2026 19:57:40 GMT"
+        },
+        "responseBodyHash": "ec6e6b4a90f66801cd83e32b98bed7bf706dcddcef7896f20376c4dae4b6dec8",
+        "initiators": [],
+        "time": 0.3220609999998487
+      }
+    ],
+    "cookies": [
+      {
+        "name": "AUTH_SESSION_ID",
+        "domain": "sso.myfritz.net",
+        "path": "/realms/myfritz/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "AUTH_SESSION_ID_LEGACY",
+        "domain": "sso.myfritz.net",
+        "path": "/realms/myfritz/",
+        "session": true
+      },
+      {
+        "name": "KC_RESTART",
+        "domain": "sso.myfritz.net",
+        "path": "/realms/myfritz/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "login-retry-date",
+        "domain": "www.myfritz.net",
+        "path": "/devices",
+        "session": true,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "login-retry-count",
+        "domain": "www.myfritz.net",
+        "path": "/devices",
+        "session": true,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "SERVER_ID",
+        "domain": "sso.myfritz.net",
+        "path": "/",
+        "session": true
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://sso.myfritz.net/static/js/reporting-bundle.js": {
+          "window.localStorage": 4
+        },
+        "https://sso.myfritz.net/static/js/popper.min.js?v=4.6.117": {
+          "Navigator.prototype.userAgent": 5
+        },
+        "https://www.myfritz.net/devices/chunk-3G46PZ3C.js": {
+          "window.sessionStorage": 8,
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 2
+        },
+        "https://www.myfritz.net/devices/main-7DFT6ACZ.js": {
+          "window.localStorage": 4
+        },
+        "https://sso.myfritz.net/static/js/popper.min.js?v=4.6.35": {
+          "Navigator.prototype.userAgent": 5
+        },
+        "https://sso.myfritz.net/static/js/uap.min.js?v=4.6.35": {
+          "Navigator.prototype.userAgent": 5
+        },
+        "https://sso.myfritz.net/static/js/myffp.min.js?v=4.6.35": {
+          "Navigator.prototype.userAgent": 6,
+          "Navigator.prototype.language": 4,
+          "Screen.prototype.colorDepth": 2,
+          "Navigator.prototype.deviceMemory": 2,
+          "Navigator.prototype.hardwareConcurrency": 4,
+          "Date.prototype.getTimezoneOffset": 2,
+          "window.sessionStorage": 2,
+          "window.localStorage": 2,
+          "window.indexedDB": 2,
+          "Navigator.prototype.platform": 6,
+          "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+          "HTMLCanvasElement.prototype.toDataURL": 4,
+          "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+          "WebGLRenderingContext.prototype.getParameter": 56,
+          "WebGLRenderingContext.prototype.getContextAttributes": 2,
+          "WebGLRenderingContext.prototype.getExtension": 6,
+          "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 72,
+          "Navigator.prototype.languages": 4,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.availHeight": 2,
+          "Navigator.prototype.maxTouchPoints": 6,
+          "Navigator.prototype.plugins": 2,
+          "Navigator.prototype.productSub": 2
+        },
+        "https://piwik.avm.de/piwik/piwik.js": {
+          "Document.cookie getter": 7,
+          "Navigator.prototype.doNotTrack": 1,
+          "window.name": 1,
+          "NavigatorUAData.prototype.brands": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.mimeTypes": 9,
+          "Navigator.prototype.javaEnabled": 1,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Date.prototype.getTime": 7,
+          "window.devicePixelRatio": 1
+        },
+        "https://sso.myfritz.net/static/js/jquery.slim.min.js?v=4.6.35": {
+          "Event.prototype.timeStamp": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.myfritz.net/devices/chunk-3G46PZ3C.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "login-retry-date=1774987057492; SameSite=Strict; Secure"
+          ]
+        },
+        {
+          "source": "https://www.myfritz.net/devices/chunk-3G46PZ3C.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "login-retry-count=1; SameSite=Strict; Secure"
+          ]
+        }
+      ]
+    }
+  }
+}

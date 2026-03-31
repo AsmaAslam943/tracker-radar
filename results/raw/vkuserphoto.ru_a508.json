@@ -1,0 +1,48 @@
+{
+  "initialUrl": "https://vkuserphoto.ru/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "timeout": false,
+  "testStarted": 1774987471735,
+  "testFinished": 1774987482950,
+  "data": {
+    "requests": [
+      {
+        "url": "https://vkuserphoto.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "87.240.190.64",
+        "responseHeaders": {},
+        "responseBodyHash": "2503a98729e53d96ab2800b3219600f3dfa2763842029fa20249e503d5fe197b",
+        "redirectedTo": "https://ps.userapi.com/",
+        "initiators": [],
+        "time": 0.90337400000044
+      },
+      {
+        "url": "https://ps.userapi.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 418,
+        "size": 183712,
+        "remoteIPAddress": "87.240.190.89",
+        "responseHeaders": {},
+        "responseBodyHash": "2503a98729e53d96ab2800b3219600f3dfa2763842029fa20249e503d5fe197b",
+        "failureReason": "net::ERR_HTTP_RESPONSE_CODE_FAILURE",
+        "redirectedFrom": "https://vkuserphoto.ru/",
+        "initiators": [],
+        "time": 3.2135669999997845
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

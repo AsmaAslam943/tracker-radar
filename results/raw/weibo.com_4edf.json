@@ -1,0 +1,1583 @@
+{
+  "initialUrl": "https://weibo.com/",
+  "finalUrl": "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F",
+  "timeout": true,
+  "testStarted": 1774988369581,
+  "testFinished": 1774988434157,
+  "data": {
+    "requests": [
+      {
+        "url": "https://weibo.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {
+          "set-cookie": "XSRF-TOKEN=X79WRfHoKdTBc19LpAQCXtOs; path=/; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref=",
+        "initiators": [],
+        "time": 0.869024000000536
+      },
+      {
+        "url": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref=",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 2884,
+        "remoteIPAddress": "36.51.224.27",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+          "pragma": "no-cache\nno-cache"
+        },
+        "responseBodyHash": "49d67231e10543222ad79f0ed66e73489cbc489f5108167edf4684e9fb39c39c",
+        "redirectedFrom": "https://weibo.com/",
+        "initiators": [],
+        "time": 1.0510029999995822
+      },
+      {
+        "url": "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16165,
+        "remoteIPAddress": "36.51.224.27",
+        "responseHeaders": {
+          "cache-control": "max-age=120",
+          "etag": "W/\"69cb93bf-107a7\"",
+          "expires": "Tue, 31 Mar 2026 20:21:31 GMT"
+        },
+        "responseBodyHash": "4e0327e9ce6d909230cc94972deafc1da46144e7378656f6760d2e30898fc5b5",
+        "initiators": [
+          "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref="
+        ],
+        "time": 0.32491699999991397
+      },
+      {
+        "url": "https://passport.sinaimg.cn/js/fp/1.2.1.umd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13336,
+        "remoteIPAddress": "155.102.54.144",
+        "responseHeaders": {
+          "cache-control": "max-age=7200",
+          "etag": "W/\"694a4b63-75ef\"",
+          "expires": "Tue, 31 Mar 2026 21:35:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7869318210a5009813db6b1d6b009fa2cafaf93bc2b0c1fb1d96c5d22c53241e",
+        "initiators": [
+          "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref="
+        ],
+        "time": 1.773605999999745
+      },
+      {
+        "url": "https://passport.weibo.com/sso/bd",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 392,
+        "remoteIPAddress": "36.51.224.27",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://passport.weibo.com"
+        },
+        "responseBodyHash": "cfda9a8935a97b29ecc989f704e066b322d31ab1320563b2524c4af5a03afe19",
+        "initiators": [
+          "https://passport.sinaimg.cn/js/fp/1.2.1.umd.js",
+          "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref=",
+          "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116"
+        ],
+        "time": 0.27444199999990815
+      },
+      {
+        "url": "https://passport.weibo.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 5740,
+        "remoteIPAddress": "36.51.224.27",
+        "responseHeaders": {
+          "cache-control": "max-age=120",
+          "etag": "\"69cb93bf-1536\"",
+          "expires": "Tue, 31 Mar 2026 20:21:33 GMT"
+        },
+        "responseBodyHash": "4ea8561c7b302fe9cd9b5db732c970b6a2fe96db16d37fae1fced3c75ef69df2",
+        "initiators": [],
+        "time": 0.2734660000005533
+      },
+      {
+        "url": "https://passport.weibo.com/visitor/genvisitor2",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1622,
+        "remoteIPAddress": "36.51.224.27",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate\nmax-age=60",
+          "etag": "01AVlS5jugIMzI38bfGkl4I8ZB31X3AhGpnv4i6f_2VvdF",
+          "expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+          "p3p": "CP=\"CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache\nno-cache",
+          "set-cookie": "SVB=_2AkMekKNif8NxqwFRm_oRymrlZY52ww7EieKozFK5JRMxHRl-yT9kqhwvtRB6NRCNjWcovZDJcIsrRkrf5PAAHkXUJhkb; expires=Wednesday, 31-Mar-2027 20:19:33 GMT; path=/; domain=passport.weibo.com; secure; SameSite=1\nSUB=_2AkMekKNif8NxqwFRm_oRymrlZY52ww7EieKozFK5JRMxHRl-yT9kqlAptRB6NRCNja5fJjZKIcyKdeJ8U0CB8pV1CjJk; expires=Wednesday, 31-Mar-2027 20:19:33 GMT; path=/; domain=.weibo.com; secure; httponly; SameSite=None\nSUBP=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WFPhKSw1X1g18zvJoJ05cnS; expires=Wednesday, 31-Mar-2027 20:19:33 GMT; path=/; domain=.weibo.com\nSRT=D.QqHBTrsbTrkKTdRtOeYoWrSNUPy64ebkVcoTdO4pW3V3MdbbN-ywM%21jsNbHi5mYNUCsuPDbhVdoBVGMNAZSK4%21iKTcmsS%219gd%21kHR3bISFP1KE4nArztVERoA-91Tn77%2AB.vAflW-P9Rc0lR-ykKDvnJqiQVbiRVPBtS%21r3J8sQVqbgVdWiMZ4siOzu4DbmKPWF4FYI43VodDEeJOYwW%2196NZvsR-uO; expires=Fri, 28-Mar-2036 20:19:33 GMT; Max-Age=315360000; path=/; domain=.passport.weibo.com; secure; HttpOnly\nSRF=1774988373; expires=Fri, 28-Mar-2036 20:19:33 GMT; Max-Age=315360000; path=/; domain=.passport.weibo.com; secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116",
+          "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref="
+        ],
+        "time": 0.2752680000003238
+      },
+      {
+        "url": "https://login.sina.com.cn/visitor/visitor?a=crossdomain&s=_2AkMekKNif8NxqwFRm_oRymrlZY52ww7EieKozFK5JRMxHRl-yT9kqlAptRB6NRCNja5fJjZKIcyKdeJ8U0CB8pV1CjJk&sp=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WFPhKSw1X1g18zvJoJ05cnS&from=weibo&_rand=0.3352605279645253&entry=miniblog&url=https%3A%2F%2Fweibo.com%2F",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "36.51.224.27",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+          "p3p": "CP=\"CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache\nno-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://weibo.com/",
+        "initiators": [
+          "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref=",
+          "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116"
+        ],
+        "time": 0.8282779999999548
+      },
+      {
+        "url": "https://weibo.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {
+          "set-cookie": "WBPSESS=aARFyRVweA_9fj06XqV6aGqY1SovWJy8xH9R2wtVar4bpOaSf-F1He9LfqvcdrTpyCkspQBovmmIYxfH-yDyRWQ3YpJEgpd3uEwuy4PePyUdjIuoYT6h-0n85-6abkjHgAn8yCONvXc_PttKOTIhY_127YtO-fG5oW0UmzfGFwA=; path=/; max-age=86400; expires=Wed, 01 Apr 2026 20:19:35 GMT; secure; httponly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F",
+        "redirectedFrom": "https://login.sina.com.cn/visitor/visitor?a=crossdomain&s=_2AkMekKNif8NxqwFRm_oRymrlZY52ww7EieKozFK5JRMxHRl-yT9kqlAptRB6NRCNja5fJjZKIcyKdeJ8U0CB8pV1CjJk&sp=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WFPhKSw1X1g18zvJoJ05cnS&from=weibo&_rand=0.3352605279645253&entry=miniblog&url=https%3A%2F%2Fweibo.com%2F",
+        "initiators": [
+          "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref=",
+          "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116"
+        ],
+        "time": 0.317960000000312
+      },
+      {
+        "url": "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1581,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "c6fe959878e871a2817eb25321f75b0db2e1a45f9f94317b7120b48766ea1fb9",
+        "redirectedFrom": "https://weibo.com/",
+        "initiators": [
+          "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref=",
+          "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116"
+        ],
+        "time": 0.2579149999992296
+      },
+      {
+        "url": "https://h5.sinaimg.cn/m/reward-pc-kits/style.css?version=2.1.5",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 20044,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"602db9c9321d21b863ab43d63c503284-df\""
+        },
+        "responseBodyHash": "787d4c3573ea7e4a401f04ead69d8a316e91ad08a3f23d186a8b71c5ce7bc890",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.5580150000005233
+      },
+      {
+        "url": "https://js.t.sinajs.cn/static/validate-loader.umd.cjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2961,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"f5b9990dd08fa3b89186488968c36dff\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1bbf911d28b5f6ca0a846766f559ebe0b2aba87ebfeab530dfc7efe52a23be33",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 1.3498450000006414
+      },
+      {
+        "url": "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1930548,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"9b99e8827ca2637bb72db8a282c34999-df\""
+        },
+        "responseBodyHash": "f5638399f0217758725b29a4491843be6c34935276b87c8a54cab17d245ebb86",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.9690469999995912
+      },
+      {
+        "url": "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C9jSqwDg.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 225808,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"63213b2bedcf73609a418e609259244e-df\""
+        },
+        "responseBodyHash": "45e4b12dd758348dc5212a1d9693d90cf4f330faf3bde7325340d41d90411a5a",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.4493640000000596
+      },
+      {
+        "url": "https://cstaticdun.126.net/load.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15372,
+        "remoteIPAddress": "8.25.82.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=43200",
+          "expires": "Fri, 27 Mar 2026 22:56:31 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2f55203b6eac5a5edbefc7225557ba6bf8f4d869c67525d11d10719a8becd3d5",
+        "initiators": [
+          "https://js.t.sinajs.cn/static/validate-loader.umd.cjs",
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.9188220000005458
+      },
+      {
+        "url": "https://i.sso.sina.com.cn/js/qrcode_login_v2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4838,
+        "remoteIPAddress": "155.102.54.144",
+        "responseHeaders": {
+          "cache-control": "max-age=120",
+          "etag": "\"67e519f7-2adf\"",
+          "expires": "Tue, 31 Mar 2026 20:18:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cca01d202a0480fb126321d5f2166bbe2eba8a428f66e193ec59db55a5800aa1",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 1.2442369999998846
+      },
+      {
+        "url": "https://static.geetest.com/v4/gt4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4808,
+        "remoteIPAddress": "104.17.5.193",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"3E10F4BC47F2FCD630ED843E9061CF44\"",
+          "expires": "Wed, 01 Apr 2026 20:19:37 GMT"
+        },
+        "responseBodyHash": "d16f159d776bfadf27a75099cd3a16e3de499a39d26e7587d0831322f767cc4d",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.2134780000005776
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2201111119/wza/aria.js?appid=dc65fe7d7d2aaf372b1ac9945ffbd093",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14323,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"6b6a1cf1b68577d16ba5c33d29620245\""
+        },
+        "responseBodyHash": "16648717938468ca7e65b9d14efd325a2215e882f3f6c2b4f190bf34f216701f",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.6791769999999815
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2406250331/48po.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5189,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"bee38ed14e016359ad718cfc09e8ada3\"-"
+        },
+        "responseBodyHash": "2be24b2bb7f3796d67ead179552c924e81fd05efa488f868070f4dc4ee24d07b",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.6787810000005265
+      },
+      {
+        "url": "https://h5.sinaimg.cn/m/reward-pc-kits/sdk.js?version=2.1.5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 67744,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"89c7fbb4114034e63b373aee918f6384-df\""
+        },
+        "responseBodyHash": "917beab2332d8cf17dd1fb4444fd1951c6e6f9c2311ebfc30b054ea442d31119",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.1601119999995717
+      },
+      {
+        "url": "https://weibo.com/ajax/config/get_config",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 822,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "b092b5099fda50928b7c5524896b0d1be0be3ac0ac602e2a024b32efa8d07f19",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.3202769999998054
+      },
+      {
+        "url": "https://weibo.com/ajax/statuses/config",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6583,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "0fe116e43176a84e7ad82f600c241a31ab0764812dbbe83c592e54b20b1f14c1",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.3190100000001621
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2112130400/18weibo_login.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 529919,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7444a18830b59f882c587767b16612c7\"-"
+        },
+        "responseBodyHash": "8cf3cd9c404bfbacee5d5016e0d8cd9ee247717a6114c6293670bf64edb08d19",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.45882500000061555
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2201190827/32aria.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57863,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"452e0ab9aef0e9f16c51ac6559ea72a9\"-"
+        },
+        "responseBodyHash": "a7d5a730c64d43e9e7a55097ddc1dcd202985de4a0027e66f4a26e9e8d4f5b65",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.2895669999998063
+      },
+      {
+        "url": "https://weibo.com/ajax/getNavConfig",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 899,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "7ea04ce349c854f2a82ed5d0fa8a9e91dc0a43fe8568f5c389b7f3f759f1090f",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.26184400000056485
+      },
+      {
+        "url": "https://weibo.com/ajax/feed/allGroups?is_new_segment=1&fetch_hot=1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2245,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "1a98812641cd917e3ed1d7890a0e57e9cd4b8e0bf1750a0f9ee0449b94bc93a5",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.4426979999998366
+      },
+      {
+        "url": "https://weibo.com/ajax/side/cards",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 423,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "498425e2a1dbb8ea628607deb0752856f27b2c72e3c55e7bac783826965f96ed",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.27026399999977
+      },
+      {
+        "url": "https://weibo.com/ajax/common/getCopyright",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2394,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "cd137121eef086defd86153c0a9fbcd60841eeb9c78d4bab8818eac5b09224cd",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.269137000000228
+      },
+      {
+        "url": "https://weibo.com/ajax/log/detectVideoCodecSupport?data=%7B%22h264%22:%7B%22supported%22:true,%22details%22:%7B%22hardwareAccelerated%22:true,%22supportedProfiles%22:[%22video%2Fmp4%3B+codecs%3D%5C%22avc1.42E01E%5C%22%22,%22video%2Fmp4%3B+codecs%3D%5C%22avc1.4D401E%5C%22%22,%22video%2Fmp4%3B+codecs%3D%5C%22avc1.64001E%5C%22%22],%22canDecode%22:true%7D%7D,%22hevc%22:%7B%22supported%22:true,%22details%22:%7B%22hardwareAccelerated%22:false,%22canDecode%22:true%7D%7D,%22browser%22:%7B%22name%22:%22Chrome%22,%22version%22:%22135%22,%22os%22:%22macOS%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 348,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "046680263c5f5febe316fe2af57db60e5002855f7576e2dbcb59a2f4fce1a000",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.3242760000002818
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3043727ec2541fa43d2021aee6a828fd\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://weibo.com/newlogin?url=https%3A%2F%2Fweibo.com%2F"
+        ],
+        "time": 0.15329599999950005
+      },
+      {
+        "url": "https://h5.sinaimg.cn/upload/1005/526/2021/08/23/bg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11760,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"122445872a7a138ef6622c012cb9e9b0\""
+        },
+        "responseBodyHash": "97975521e8f02b095dc75a53528fd2aecb0df0f73ad6e357f7f1cc127e4e39f9",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C9jSqwDg.css"
+        ],
+        "time": 0.10556099999939761
+      },
+      {
+        "url": "https://h5.sinaimg.cn/upload/1005/526/2021/08/23/text.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3755,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"e22a09304fcee81d14def1bece5a20cc\""
+        },
+        "responseBodyHash": "bcfa9772dbd105fac90fc7d6b7372a67acf1cb85b58acad9bf87deada5d45837",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C9jSqwDg.css"
+        ],
+        "time": 0.10585799999989831
+      },
+      {
+        "url": "https://weibo.com/ajax/feed/getTipsAd?posid=pc_unlogin_banner_right&page=login",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 341,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "675616f3dacdbdc040bd5d61033ba04adcfcf064fb8d78ece50ef640da8dc154",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.29305999999996857
+      },
+      {
+        "url": "https://weibo.com/ajax/side/searchBand",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1455,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "4430523f0e2022f3272ce945290351aab08db6b0ad8c101db21cb93fa1ecbcce",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.4251160000003438
+      },
+      {
+        "url": "https://weibo.com/ajax/log/action?type=pic&uicode=20000405&fid=232184&act_code=4288&ext=module%3A01&luicode=&t=1774988378987",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 327,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "39f94024cbcf740958d8bb6e25095e33ee260776744698ff4e0d43a4454bf72f",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.26686099999915314
+      },
+      {
+        "url": "https://weibo.com/ajax/feed/hottimeline?since_id=0&refresh=0&group_id=102803&containerid=102803&extparam=discover%7Cnew_feed&max_id=0&count=10",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25790,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "556c2a2a5baf3b34607dd2bfcf683c1910ae113aa8e12cc2fde99a77ff65df3d",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.7106349999994563
+      },
+      {
+        "url": "https://weibo.com/ajax/feed/getTipsAd?posid=pc_unlogin_banner_top&page=login",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 341,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "675616f3dacdbdc040bd5d61033ba04adcfcf064fb8d78ece50ef640da8dc154",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.2716129999998884
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 149779,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3043727ec2541fa43d2021aee6a828fd\""
+        },
+        "responseBodyHash": "64f9f6660ad6690e31e5fd2db21afc2d7a651b5dcf86b463709084cbd4759a10",
+        "initiators": [
+          "https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https://weibo.com/"
+        ],
+        "time": 0.2816510000002381
+      },
+      {
+        "url": "https://simg.s.weibo.com/imgtool/20241104_20241104_huore_icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5776,
+        "remoteIPAddress": "156.225.111.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b64205dc8b6a71d461defa8a877d73e8\""
+        },
+        "responseBodyHash": "4e0b74e1bfb9d199f85fc0987a916fdd14d65ca7be68a436a0b4085c259e170d",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 1.0729529999998704
+      },
+      {
+        "url": "https://d.sinaimg.cn/prd/1005/891/2025/02/12/goldv.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4599,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"cf4e5336518a195e65480e3ec5844ace\""
+        },
+        "responseBodyHash": "a904127f39d296fd6252545db74beb3344f77d9015e7bf02c154a710ed36569e",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C9jSqwDg.css"
+        ],
+        "time": 0.5877749999999651
+      },
+      {
+        "url": "https://tvax2.sinaimg.cn/crop.58.61.875.875.1024/001R0E0aly8h8vg6xx3srj60rs0rsdko02.jpg?KID=imgbed,tva&Expires=1774999179&ssig=RzeNXcx0oK",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 191241,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-9f2e69a02347f2145740da4ad9274f04\"",
+          "expires": "Tue, 31 Mar 2026 22:25:01 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "a7e9d11809329d5f242338c13d36260f75fe605a2cd73680f97c971706730b19",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.17933999999968364
+      },
+      {
+        "url": "https://h5.sinaimg.cn/upload/108/1866/2022/11/02/vvip_4.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7036,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7bc43937f9b79d596f848322a1326c24\""
+        },
+        "responseBodyHash": "b3003b05573730d2e3bbd4b81d67f7a7c34ac8259ac2349b9a7c6a8b725b55a7",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.06473600000026636
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj360/001R0E0aly1ibqczywi9rj61f516zwu902.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12592,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-0c61f2d9ea36c9d96f3bb77c48c845b4\"",
+          "expires": "Fri, 10 Apr 2026 11:34:52 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "cc91d6ee217e979530096b72e10d2f490e14d9fecb4357219e273492ce669a2f",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.26191300000027695
+      },
+      {
+        "url": "https://tvax3.sinaimg.cn/crop.0.0.1080.1080.1024/008YTiFwly8ibkkcq7h4gj30u00u0wmr.jpg?KID=imgbed,tva&Expires=1774999179&ssig=BwnskVMYIz",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 289676,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-2d02fc9ed3f6b021d2e843fdfb9cadd4\"",
+          "expires": "Mon, 06 Apr 2026 00:06:07 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "f33ffc198fd10ddfdb50a69c3ca19b0162c9318d41011dccbb7eea6bc95c8e31",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.3800409999994372
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj360/008YTiFwly1iboqngj1bvj327z0xce82.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 39434,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-938ae1606d62a9da59222f3a6ef6b24a\"",
+          "expires": "Thu, 09 Apr 2026 02:00:14 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "9afaa2c2b73284b464510f404c2f064c95dd469beb1e21ae0c8b36466be98343",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.36084500000015396
+      },
+      {
+        "url": "https://tvax2.sinaimg.cn/crop.0.0.1080.1080.1024/001MTwmaly8h8vlu6go9hj60u00u0mxm02.jpg?KID=imgbed,tva&Expires=1774999179&ssig=1MylQUeyLx",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 27747,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-21701e218f8027dae9f724f5b971963f\"",
+          "expires": "Thu, 02 Apr 2026 07:40:52 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "addec1bd0c5e1237187fa8a2cdd648ef3db83c01483ec4f547e6694afcc7538d",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.1706270000004224
+      },
+      {
+        "url": "https://h5.sinaimg.cn/upload/108/1866/2022/11/02/vvip_3.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7032,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"58e1b6df5a9051f346b051840ef7ea2e\""
+        },
+        "responseBodyHash": "51fe2ff354fde8add176fc8f803c19ff7ca208294b0e3cc4f875bc31027bed24",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.06756699999914417
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj480/001MTwmaly1ibq8iamhh0j60k00zkq3n02.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21451,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-3bedbc412df94baf4f40d7f220311ee0\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "0e87eda0536bd2960671b2b292ecbc28eac7de2e00eebd691e7c2563a27f9ca3",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5118210000000545
+      },
+      {
+        "url": "https://wx4.sinaimg.cn/orj480/001MTwmaly1ibq8ic7fjjj60k00zkjs802.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 28555,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-f8d9e06ffa3c04d760914e3e270cd394\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "69fa44a6c45ef8db65c4db2bc3154aca76e9baa7c5639b3fa5e1e8b5320743e6",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5319190000000162
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj480/001MTwmaly1ibq8ibumcgj60k00zk75902.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29362,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-8a30ee632a43271c31723d0cf30a3359\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "5b4be6e51030f91f2aa0c85a5023a4b83b8ef272b4d3f283cc3287afcf6f426a",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.3604640000003201
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj480/001MTwmaly1ibq8ieyer4j60k00zk75602.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29228,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-04b600d2a58a585ecd9b7b7889590004\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "eb3b19ebd730c2efe6e45d3a517ed011073e1447728e8d044b050ded550ff4f4",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.4402460000001156
+      },
+      {
+        "url": "https://wx4.sinaimg.cn/orj480/001MTwmaly1ibq8ig8vcaj60k00k0t9q02.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 28963,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-cdd858fa4cbcb0868f359591b9f0f947\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "f171e1a13b42a19716935c979c33d1f503d9641039ac066885ae5025428abc32",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5406270000003133
+      },
+      {
+        "url": "https://wx4.sinaimg.cn/orj480/001MTwmaly1ibq8ig8yuyj60k00zkwf802.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22181,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-c16f449b4a546642629aabb2516b6ed9\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "4e0b3c2f5a7f9f74d7d24e30c85101025e9b75ba062703765ac8a34d344bfa7d",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5471870000001218
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj480/001MTwmaly1ibq8im0n5tj60k00zkt9o02.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29303,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-11327d80a8ded2e80c2385f442d44a23\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "e256094d897dea4bfcc9cc4b4f34eefd4e62714ae03b9f99d4f69e6e77c9e349",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.45094199999948614
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj480/001MTwmaly1ibq8ijuuvlj60k00zk75c02.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35532,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-be4234a3f5d252e3a7f8d4622c711c6d\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "71a07937cd8a2da0def57d06ce14e2a0d4c1022c675d4b3a04c49800388eef6f",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.46276399999987916
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj480/001MTwmaly1ibq8imrtpkj60k00zk3zn02.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36363,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-41ef1571b3f6d0b6477155c0e939c58b\"",
+          "expires": "Fri, 10 Apr 2026 15:30:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "3dc4be65db203f39f2450863dfdd667758206b1e732c280d8f72727ba33c31c1",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.47634300000026997
+      },
+      {
+        "url": "https://tvax1.sinaimg.cn/crop.0.0.723.723.1024/006RGG6Ply8htggza9r0wj30k30k3mxv.jpg?KID=imgbed,tva&Expires=1774999179&ssig=DQ0cXoT%2B9u",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 37197,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-67949b1d53ec345e079a439ec81ac20c\"",
+          "expires": "Thu, 02 Apr 2026 15:45:01 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "c4463d38efe2e01f5387284e6e866390ae0e8fbff005a732b2546934fc8af1dd",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.18190899999990506
+      },
+      {
+        "url": "https://h5.sinaimg.cn/upload/108/1866/2022/11/02/svip_9.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5863,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"369882c2644ca8a4da7ed853575a7384\""
+        },
+        "responseBodyHash": "8d7b41488f41569115dc4b45006f94a71a2bebacc3c5d623c477f10b941f166e",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.0686599999999089
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj360/006RGG6Pgy1ibnlx0pt5kj32xg4e64qt.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35118,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-80367cac77c7fc3c4b774edfc2722c4a\"",
+          "expires": "Wed, 08 Apr 2026 02:26:49 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "ab407294f4ae19a0261390b604c753693447883f3a101252e0d06facf51816d9",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.360714000000371
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj360/006RGG6Pgy1ibnlx1p1upj31v22smnpd.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 48703,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-96cf9dccab8477a9283fb84a7ab52b74\"",
+          "expires": "Wed, 08 Apr 2026 02:26:49 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "9141b22d489c9612905d21bc223fc77b284d869a4d3ba30921200b129f6b6b25",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5005929999997534
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj360/006RGG6Pgy1ibnlx3863ij32xs4eonpf.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 44640,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-0d0d212eceb7ed76247dee3e48d16708\"",
+          "expires": "Wed, 08 Apr 2026 02:26:49 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "885aec75b6b79cd887397d0156cfadce3e4b0c709b44ec7926de40b164ad7654",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.2503930000002583
+      },
+      {
+        "url": "https://wx4.sinaimg.cn/orj360/006RGG6Pgy1ibnlwr2awyj34s036onpn.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38894,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-485aa644c09a49a80adc528098d2b2af\"",
+          "expires": "Wed, 08 Apr 2026 02:26:49 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "d456b0197dfb1cff04c92d8591085c1c2dbbc52b7e971d7eb0b6fa5cd1c2db23",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5559220000004643
+      },
+      {
+        "url": "https://tvax1.sinaimg.cn/crop.0.0.1080.1080.1024/005IsNEtly8h75ti2g0t5j30u00u1dm0.jpg?KID=imgbed,tva&Expires=1774999179&ssig=K2qtTg8Sya",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 220469,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-91f4e5f53fc25145c73d13ba1f29ef8b\"",
+          "expires": "Fri, 03 Apr 2026 18:09:27 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "e81ef6155141a432b13ba77be12f7f3fe6a58b1a376aa0bd9d041b57c45a8b66",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.18544199999996636
+      },
+      {
+        "url": "https://h5.sinaimg.cn/upload/108/1866/2022/11/02/vvip_2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6909,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"0745c3007ec9e2f88cde78305a447eea\""
+        },
+        "responseBodyHash": "77cb141d7e498444664d231f75be27da6c48ca0b25a87d0567446ac935eca595",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.15852600000016537
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj360/005IsNEtgy1ibqamfvg2hj30p00iddic.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16463,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-23863b46fca3cf915b7fe30156de90c2\"",
+          "expires": "Fri, 10 Apr 2026 10:15:03 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "f0c63e90628e4317df099c0cd72e5522eeef1b46f68ec263316adbd95f1a56c8",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.16193099999964033
+      },
+      {
+        "url": "https://tvax4.sinaimg.cn/crop.0.0.1080.1080.1024/0080jbVvly8gyr4g4vyjbj30u00u00tb.jpg?KID=imgbed,tva&Expires=1774999179&ssig=uSTGi3NJlL",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 33052,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-bdde16a6b26dcd3a1982eb226ec8fb87\"",
+          "expires": "Sat, 04 Apr 2026 02:05:34 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "8caec3855dd822eb39f59f417a6425319f387a2ecff8711ada6a45b1d5695965",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.3618510000005699
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj360/0080jbVvgy1ibpft2fc8ij31400vcdi5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10072,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-627f2bf3ed1dd8e6d16ec9e96a474282\"",
+          "expires": "Thu, 09 Apr 2026 16:26:36 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "eae2b190a7530bd6f0c3b4e6d8f83b212920d72001535de7716261dce236fa0a",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.1607930000000124
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj360/0080jbVvgy1ibpft2y5q4j31400uiq5k.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11365,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-645dd5d7320c58dafdd91e55006eeb8f\"",
+          "expires": "Thu, 09 Apr 2026 16:26:36 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "4c09654a929a64a9f27c804329f785bdf89430f26c4dfb4971fd57134464002b",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.1584179999999833
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj360/0080jbVvgy1ibpft3q2zpj314012gdlf.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13256,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-0012e96cf22116bf222954c7bb1272aa\"",
+          "expires": "Thu, 09 Apr 2026 16:26:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "7fc34d3360f8f56ce2ce5dd8c9d496604b15358e758f13d9f3c57795312e7252",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5108700000000681
+      },
+      {
+        "url": "https://wx4.sinaimg.cn/orj360/0080jbVvgy1ibpft4iu2dj314017ojwa.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16392,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-cc8d45fd62ebe50b3ed89291ca2b4c1f\"",
+          "expires": "Thu, 09 Apr 2026 16:26:36 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "7b234176f0103fb6a83c795aaa6dde012cb655e7356bc793e26a0fd72558f296",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5575220000000627
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/orj360/0080jbVvgy1ibpft1v9f3j31400xutap.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8603,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-3cee3cd1bdf553a9446eac0e1f1a39f9\"",
+          "expires": "Thu, 09 Apr 2026 16:26:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "fbc4978eb3991dffe8bd0ce94500f43413c78758a5e14c768f7e31cafcb5bab6",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.4741830000002665
+      },
+      {
+        "url": "https://wx2.sinaimg.cn/orj360/0080jbVvgy1ibpft54ex0j30t20rkgo5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12759,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-17e8116fa779a5029a0004966a61d5e1\"",
+          "expires": "Thu, 09 Apr 2026 16:39:28 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "9a67e4633ceec7ceb1cd1d4a300d9891ed5b48975df582b0ba488f5f100d9fc7",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.18249000000014348
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj360/0080jbVvgy1ibpft5mtezj31400ww0vv.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11684,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-0f42b278a5d1edab0f7cfeb7e93a4627\"",
+          "expires": "Thu, 09 Apr 2026 16:26:36 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "382ce4fdfdaf31621e86c3e2c6d963959c96f257fb1ccc5603a967570bcacc44",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.1584579999998823
+      },
+      {
+        "url": "https://wx1.sinaimg.cn/orj360/0080jbVvgy1ibpft66i9lj31400oc40j.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12013,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-30bad3bebc934df1a0fed987ba82cef5\"",
+          "expires": "Thu, 09 Apr 2026 16:26:36 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "416eff5b86d61c721fa825a325aa319db2ca8721755fa2b07e3f867d763a95c6",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.35774299999957293
+      },
+      {
+        "url": "https://wx4.sinaimg.cn/orj360/0080jbVvgy1ibpft6pzuuj31400uo40e.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8231,
+        "remoteIPAddress": "128.14.219.131",
+        "responseHeaders": {
+          "cache-control": "max-age=864000",
+          "etag": "\"1-0a21815cca36b895b9b750c8f79b3891\"",
+          "expires": "Thu, 09 Apr 2026 16:26:36 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "a8a25f4a8ef9b5f6e36feec1f3ce2301a52c1af03dc1a2cfff43f631be00392f",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.5133820000000924
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3043727ec2541fa43d2021aee6a828fd\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https://weibo.com/"
+        ],
+        "time": 51.22889700000087
+      },
+      {
+        "url": "https://weibo.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 10444,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"69aa762c-2796\"",
+          "expires": "Thu, 30 Apr 2026 20:19:40 GMT"
+        },
+        "responseBodyHash": "7c431622a6bc9097a796131fc08c5a7e01af75cae08171cecbab46b5950e1968",
+        "initiators": [],
+        "time": 0.3326230000002397
+      },
+      {
+        "url": "https://weibo.com/ajax/log/read",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1172,
+        "remoteIPAddress": "36.51.224.123",
+        "responseHeaders": {},
+        "responseBodyHash": "f3605efcd9b3f608f4e778740b6a8d70388c07719ec182d7e59709cb0af8704b",
+        "initiators": [
+          "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js"
+        ],
+        "time": 0.31289599999945494
+      },
+      {
+        "url": "https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "remoteIPAddress": "156.225.111.239",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3043727ec2541fa43d2021aee6a828fd\""
+        },
+        "initiators": []
+      }
+    ],
+    "cookies": [
+      {
+        "name": "tid",
+        "domain": "passport.weibo.com",
+        "path": "/visitor",
+        "expires": 1805746774000,
+        "session": false
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "domain": "weibo.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "SVB",
+        "domain": ".passport.weibo.com",
+        "path": "/",
+        "expires": 1806524374036,
+        "session": false
+      },
+      {
+        "name": "SUB",
+        "domain": ".weibo.com",
+        "path": "/",
+        "expires": 1806524374037,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "SUBP",
+        "domain": ".weibo.com",
+        "path": "/",
+        "expires": 1806524374037,
+        "session": false
+      },
+      {
+        "name": "SRT",
+        "domain": ".passport.weibo.com",
+        "path": "/",
+        "expires": 1809548374037,
+        "session": false
+      },
+      {
+        "name": "SRF",
+        "domain": ".passport.weibo.com",
+        "path": "/",
+        "expires": 1809548374037,
+        "session": false
+      },
+      {
+        "name": "SUB",
+        "domain": ".sina.com.cn",
+        "path": "/",
+        "expires": 1806524374995,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "SVB",
+        "domain": ".login.sina.com.cn",
+        "path": "/",
+        "expires": 1806524374995,
+        "session": false
+      },
+      {
+        "name": "SUBP",
+        "domain": ".sina.com.cn",
+        "path": "/",
+        "expires": 1806524374995,
+        "session": false
+      },
+      {
+        "name": "WBPSESS",
+        "domain": "weibo.com",
+        "path": "/",
+        "expires": 1775074775314,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116": {
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.platform": 2,
+          "Navigator.prototype.plugins": 3,
+          "window.indexedDB": 1,
+          "window.localStorage": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Document.cookie getter": 1,
+          "Document.cookie setter": 1
+        },
+        "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F135.0.0.0%20Safari%2F537.36&_rand=1774988370436&sudaref=": {
+          "Navigator.prototype.webdriver": 1
+        },
+        "https://passport.sinaimg.cn/js/fp/1.2.1.umd.js": {
+          "Navigator.prototype.webdriver": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.mimeTypes": 2,
+          "Navigator.prototype.permissions": 2,
+          "Navigator.prototype.plugins": 4,
+          "Navigator.prototype.productSub": 1,
+          "Navigator.prototype.connection": 3,
+          "Navigator.prototype.userAgent": 2,
+          "WebGLRenderingContext.prototype.getParameter": 2,
+          "window.outerWidth": 1,
+          "window.outerHeight": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Notification.permission": 1
+        },
+        "https://h5.sinaimg.cn/m/weibo-pro-next/assets/index-C8QLMz5g.js": {
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.userAgent": 29,
+          "Navigator.prototype.maxTouchPoints": 3,
+          "window.innerWidth": 2,
+          "window.innerHeight": 12,
+          "NavigatorUAData.prototype.platform": 1,
+          "Navigator.prototype.languages": 2,
+          "HTMLMediaElement.prototype.canPlayType": 8,
+          "MediaSource.isTypeSupported": 7,
+          "window.localStorage": 17,
+          "window.devicePixelRatio": 3,
+          "Navigator.prototype.platform": 1,
+          "Document.cookie getter": 25,
+          "Navigator.prototype.mediaCapabilities": 3,
+          "window.sessionStorage": 2,
+          "window.matchMedia(\"prefers-color-scheme\")": 2,
+          "Date.prototype.getTime": 36,
+          "Screen.prototype.orientation": 2
+        },
+        "https://static.geetest.com/v4/gt4.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://h5.sinaimg.cn/m/reward-pc-kits/sdk.js?version=2.1.5": {
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://a.sinaimg.cn/mintra/pic/2201111119/wza/aria.js?appid=dc65fe7d7d2aaf372b1ac9945ffbd093": {
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Document.cookie getter": 1
+        },
+        "https://cstaticdun.126.net/load.min.js": {
+          "Navigator.prototype.userAgent": 2,
+          "window.localStorage": 1
+        },
+        "https://i.sso.sina.com.cn/js/qrcode_login_v2.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Date.prototype.getTime": 1
+        },
+        "about:blank": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://passport.weibo.com/js/visitor/mini_original.js?v=20161116",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tid=01AVlS5jugIMzI38bfGkl4I8ZB31X3AhGpnv4i6f_2VvdF;expires=Mon, 22 Mar 2027 20:19:34 GMT"
+          ]
+        }
+      ]
+    }
+  }
+}

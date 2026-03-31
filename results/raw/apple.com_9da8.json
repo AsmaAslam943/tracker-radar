@@ -1,0 +1,836 @@
+{
+  "initialUrl": "https://apple.com/",
+  "finalUrl": "https://www.apple.com/",
+  "timeout": false,
+  "testStarted": 1774986736597,
+  "testFinished": 1774986764127,
+  "data": {
+    "requests": [
+      {
+        "url": "https://apple.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "17.253.144.10",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.apple.com/",
+        "initiators": [],
+        "time": 0.06776999999965483
+      },
+      {
+        "url": "https://www.apple.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 40393,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT",
+          "set-cookie": "geo=US; path=/; domain=.apple.com"
+        },
+        "responseBodyHash": "435535b274f2638e55f072f11939f465bdd0f8c8d305eb045320fed2c3644901",
+        "redirectedFrom": "https://apple.com/",
+        "initiators": [],
+        "time": 0.08580500000061875
+      },
+      {
+        "url": "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 15910,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=21",
+          "etag": "W/\"29d85-19d27bd4e1f\"",
+          "expires": "Tue, 31 Mar 2026 19:52:38 GMT"
+        },
+        "responseBodyHash": "8ad3318c5b31bc5732cd4f33fb6d1a965de50b5445e025cf9ae3a303c7f8fb82",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.04053899999962596
+      },
+      {
+        "url": "https://www.apple.com/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7283,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=49",
+          "expires": "Tue, 31 Mar 2026 19:53:06 GMT"
+        },
+        "responseBodyHash": "09c64fee16d70c4652f3b09077031dd85ae074a18a5cf4fb5b6f64130da4dca2",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03953600000022561
+      },
+      {
+        "url": "https://www.apple.com/ac/localnav/9/styles/ac-localnav.built.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 8520,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT"
+        },
+        "responseBodyHash": "b78a508c90c8d120e78b497d790235ea902eea085f7543ed94acef5e3f9a4ff5",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03988800000024639
+      },
+      {
+        "url": "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1963,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=808",
+          "etag": "3031aa1b654ca979f7577e4706173d35a9d8ff35cbdb80a8e4911fd9423e2bc4",
+          "expires": "Tue, 31 Mar 2026 20:05:45 GMT"
+        },
+        "responseBodyHash": "3031aa1b654ca979f7577e4706173d35a9d8ff35cbdb80a8e4911fd9423e2bc4",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03904400000010355
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/built/styles/main.built.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 50856,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=70",
+          "expires": "Tue, 31 Mar 2026 19:53:27 GMT"
+        },
+        "responseBodyHash": "9e8245d7b1a6b9262d093bb8209066cbd3b7b46b9b37501a706ebeb991550191",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03828400000020338
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/built/scripts/head.built.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6160,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=385",
+          "expires": "Tue, 31 Mar 2026 19:58:42 GMT"
+        },
+        "responseBodyHash": "d46bc2742bafd17cfe82ea6561171d8f89d3ec881db5f0031793995f6bc1d7e8",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.019527000000380212
+      },
+      {
+        "url": "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164796,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"28046-19d27bd500a\"",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT"
+        },
+        "responseBodyHash": "4a1a43daab083d0a97abbd2c4963c2b360459af1ca2eae976239f3524b6d7119",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.14464799999950628
+      },
+      {
+        "url": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 104511,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=235",
+          "expires": "Tue, 31 Mar 2026 19:56:12 GMT"
+        },
+        "responseBodyHash": "4876c82e971dc18f0caef6f5cefa54e34bbc756b35424af0add37305a198c068",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.36865099999977247
+      },
+      {
+        "url": "https://www.apple.com/autopush/us/fam-gallery/styles/home-gallery.built.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 20169,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT"
+        },
+        "responseBodyHash": "0ffac99155d4b285f3a7316e1a5aacf1c169bfeb667d821d9579ae02b03557ca",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.0413010000002032
+      },
+      {
+        "url": "https://www.apple.com/ac/globalfooter/8/en_US/scripts/ac-globalfooter.built.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3847,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT"
+        },
+        "responseBodyHash": "0143d2dc99f08655601b9d197041372052b370325b4ff4c4864eaf0c8728e732",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03660599999966507
+      },
+      {
+        "url": "https://www.apple.com/ac/localeswitcher/4/en_US/scripts/localeswitcher.built.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 57054,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=166",
+          "expires": "Tue, 31 Mar 2026 19:55:03 GMT"
+        },
+        "responseBodyHash": "d40ac7756e83b9610b35555031d2ab928fbd20b172f48a64cf0c1cc78353534c",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.1958889999996245
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/built/scripts/main.built.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 67310,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=236",
+          "expires": "Tue, 31 Mar 2026 19:56:13 GMT"
+        },
+        "responseBodyHash": "7ff4f1599769eb380572c27a02f86bdef971badd91a907b7c2e3ffcfe052f4a0",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03595899999982066
+      },
+      {
+        "url": "https://www.apple.com/autopush/us/fam-gallery/scripts/home-gallery.built.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44717,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT"
+        },
+        "responseBodyHash": "4408e8fa82501294607b84f0d55a9da43c46f31694312b6982f52efeaf1f49a7",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.16478800000004412
+      },
+      {
+        "url": "https://www.apple.com/autopush/us/fam-gallery/scripts/endless-entertainment-gallery.built.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42215,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT"
+        },
+        "responseBodyHash": "d527999951586ca1bda66b5e786c39ffc8de87707ec29ef1f759573cf784731a",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.1459530000001905
+      },
+      {
+        "url": "https://www.apple.com/home/gallery/styles/modal.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 23440,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=251",
+          "expires": "Tue, 31 Mar 2026 19:56:28 GMT"
+        },
+        "responseBodyHash": "728607ada0250dc06f4e793ba59ee15831a3137e6d71cc9b85d6a948872de650",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.15408399999978428
+      },
+      {
+        "url": "https://www.apple.com/home/gallery/scripts/autofilms.built.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 102131,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=83",
+          "expires": "Tue, 31 Mar 2026 19:53:40 GMT"
+        },
+        "responseBodyHash": "a5ccc26e3892b217b19ded31bcb40df4340b8013800ed8d04451c1a8e8fba473",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.375873999999385
+      },
+      {
+        "url": "https://www.apple.com/metrics/data-relay/1.2.0/scripts/data-relay.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6065,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=190",
+          "expires": "Tue, 31 Mar 2026 19:55:27 GMT"
+        },
+        "responseBodyHash": "9c9d99a545614dea2eb69ad31f4814121662e5bb8b991e2e4427e2717d5a7416",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03878400000030524
+      },
+      {
+        "url": "https://www.apple.com/metrics/data-relay/1.2.0/scripts/auto-relay.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 936,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT"
+        },
+        "responseBodyHash": "202a2016c552840100864ea7e87861ac05fa9e2baabdad81609ec97464a40eb6",
+        "initiators": [
+          "https://www.apple.com/"
+        ],
+        "time": 0.03656299999965995
+      },
+      {
+        "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 235109,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3478",
+          "expires": "Tue, 31 Mar 2026 20:50:15 GMT"
+        },
+        "responseBodyHash": "3f93fb4f286f9d653b039e4a5cfe24643b83062b5b03380c8c1ebfb1fe08c588",
+        "initiators": [
+          "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3"
+        ],
+        "time": 0.17193700000007084
+      },
+      {
+        "url": "https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 221375,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=997",
+          "expires": "Tue, 31 Mar 2026 20:08:54 GMT"
+        },
+        "responseBodyHash": "854e5af07533a68cf67085d17b5d62c98538e2299ffbd5dd7ddf37875b6307e2",
+        "initiators": [
+          "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3"
+        ],
+        "time": 0.21098999999958323
+      },
+      {
+        "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 130270,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2678",
+          "expires": "Tue, 31 Mar 2026 20:36:55 GMT"
+        },
+        "responseBodyHash": "2b021e26cecf093f3fbbe0be81b3b96cd2c9ca19c5af565c6e0e82ace2251913",
+        "initiators": [
+          "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3"
+        ],
+        "time": 0.23670700000002398
+      },
+      {
+        "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 41517,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=147",
+          "expires": "Tue, 31 Mar 2026 19:54:44 GMT"
+        },
+        "responseBodyHash": "18be795c4033ea26946721c4e4d8a9f582f606e37a60996afd4740af908723dd",
+        "initiators": [
+          "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js"
+        ],
+        "time": 0.19214499999998225
+      },
+      {
+        "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 781,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=206",
+          "expires": "Tue, 31 Mar 2026 19:55:43 GMT"
+        },
+        "responseBodyHash": "62653b8b0b696021210f2ccee2bc3d78fc17a2fe5ae86d68f5b654870d5172cb",
+        "initiators": [
+          "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js"
+        ],
+        "time": 0.18341600000076141
+      },
+      {
+        "url": "https://www.apple.com/us/shop/bag/status?apikey=SFX9YPYY9PPXCU9KH",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 788,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.apple.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 31 Mar 2026 19:52:17 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f45454e4518838bc8e9c45344bcfd41bcce6d1c1c9fa34a7ca7216c49eca580f",
+        "initiators": [
+          "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js"
+        ],
+        "time": 0.12210899999990943
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/logos/ipad-air-m4/hero_logo_ipad_air__ejixj9pic0uq_large.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4153,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=3304",
+          "expires": "Tue, 31 Mar 2026 20:47:22 GMT"
+        },
+        "responseBodyHash": "302c02a900011ff3a17ecc53c7a96d219edf192fcbaeeaebca7c2c000f14d25e",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.015279000000191445
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/logos/apple-50/promo_logo_apple_50_headline__5493ndwfu0iy_large.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9652,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=3096",
+          "expires": "Tue, 31 Mar 2026 20:43:54 GMT"
+        },
+        "responseBodyHash": "aa180a1f9b9b581b20132a2468d1fd964f8706fa6624a5013e991b7acc32e97a",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.01573499999994965
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/logos/apple-watch-series-11/promo_logo_apple_watch_series_11__d9br21pxygya_large.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4350,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=3585",
+          "expires": "Tue, 31 Mar 2026 20:52:03 GMT"
+        },
+        "responseBodyHash": "dd9acf3af012a4db924bd456533445539c869491ee02ab9cf6d025f9a3ab22e0",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.014984999999796855
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_large.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2285,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=780",
+          "expires": "Tue, 31 Mar 2026 20:05:18 GMT"
+        },
+        "responseBodyHash": "4862bc01e3737be54f290502e7e34270e36db76a78dbec4ddda95d4de8df73d1",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.015419000000292726
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/logos/apple-card/logo__dcojfwkzna2q_large.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2743,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=1944",
+          "expires": "Tue, 31 Mar 2026 20:24:42 GMT"
+        },
+        "responseBodyHash": "da3e49f5e199de81e61fb92e8e9e7e8c406aa29556207e5b01aa0fef8b108c55",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.014462000000094122
+      },
+      {
+        "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 117841,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=449",
+          "expires": "Tue, 31 Mar 2026 19:59:47 GMT"
+        },
+        "responseBodyHash": "5f5c79479111d898a1c7b256c586166d11bd793d7a849076461c4f1e65525ebd",
+        "initiators": [
+          "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3"
+        ],
+        "time": 0.21588100000008126
+      },
+      {
+        "url": "https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 128730,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1306",
+          "expires": "Tue, 31 Mar 2026 20:14:04 GMT"
+        },
+        "responseBodyHash": "862236e34a2a2a3065520b26f92df077fd6e4a721ec761ccd781bf3fa8fa6335",
+        "initiators": [
+          "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3"
+        ],
+        "time": 0.23408800000015617
+      },
+      {
+        "url": "https://www.apple.com/ac/localeswitcher/4/en_US/content/localeswitcher.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1208,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=79",
+          "expires": "Tue, 31 Mar 2026 19:53:37 GMT"
+        },
+        "responseBodyHash": "0117d94fd0f06c8a706aa4f4a166c2d867612710d17eaef02fd2e5d845a4f241",
+        "initiators": [
+          "https://www.apple.com/ac/localeswitcher/4/en_US/scripts/localeswitcher.built.js"
+        ],
+        "time": 0.10923399999956018
+      },
+      {
+        "url": "https://securemetrics.apple.com/b/ss/applestoreww/1/JS-2.23.0/s06357052116873?AQB=1&ndh=1&pf=1&t=31%2F2%2F2026%2012%3A52%3A37%202%20420&fid=0649714ABA04FE3A-05B17BC5BEFE206E&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&ch=www.us.homepage&server=ac-2.29.1&h1=www.us.homepage&v3=aos%3A%20us&l3=D%3Das_tex&c4=D%3Dg&v4=D%3DpageName&v14=en-us&c20=aos%3A%20us&v54=D%3Dg&v97=s.t-p&s=800x600&c=24&j=1.6&v=N&k=Y&bw=1440&bh=812&AQE=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "17.33.192.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "expires": "Mon, 30 Mar 2026 19:52:37 GMT",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "redirectedTo": "https://securemetrics.apple.com/b/ss/applestoreww/1/JS-2.23.0/s06357052116873?AQB=1&pccr=true&vidn=34E61302A1F60BE8-4000179920490539&ndh=1&pf=1&t=31%2F2%2F2026%2012%3A52%3A37%202%20420&fid=0649714ABA04FE3A-05B17BC5BEFE206E&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&ch=www.us.homepage&server=ac-2.29.1&h1=www.us.homepage&v3=aos%3A%20us&l3=D%3Das_tex&c4=D%3Dg&v4=D%3DpageName&v14=en-us&c20=aos%3A%20us&v54=D%3Dg&v97=s.t-p&s=800x600&c=24&j=1.6&v=N&k=Y&bw=1440&bh=812&AQE=1",
+        "initiators": [
+          "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+          "https://www.apple.com/v/home/cm/built/scripts/main.built.js"
+        ],
+        "time": 0.47190000000045984
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_largetall.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 60421,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=1151",
+          "expires": "Tue, 31 Mar 2026 20:11:48 GMT"
+        },
+        "responseBodyHash": "a748d70faeecf7f58f22a001e5409edd5d275298c459c1ec2821b68a0852a553",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.025137999999969907
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_largetall.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 53541,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=3466",
+          "expires": "Tue, 31 Mar 2026 20:50:23 GMT"
+        },
+        "responseBodyHash": "a38b72599345f1b07a1e262ee77a19c003ae682cd2dbe99c650e62b9b57a65c4",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.03303599999981088
+      },
+      {
+        "url": "https://www.apple.com/v/home/cm/images/heroes/ipad-air-m4/hero_ipad_air_m4__ew8k92mk1w6e_largetall.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 188698,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=2750",
+          "expires": "Tue, 31 Mar 2026 20:38:27 GMT"
+        },
+        "responseBodyHash": "1d5b20945e8c465664030fc1c4818d0e6f0715aa0ce5b8de36656f40cfaa81ee",
+        "initiators": [
+          "https://www.apple.com/v/home/cm/built/styles/main.built.css"
+        ],
+        "time": 0.08621099999982107
+      },
+      {
+        "url": "https://securemetrics.apple.com/b/ss/applestoreww/1/JS-2.23.0/s06357052116873?AQB=1&pccr=true&vidn=34E61302A1F60BE8-4000179920490539&ndh=1&pf=1&t=31%2F2%2F2026%2012%3A52%3A37%202%20420&fid=0649714ABA04FE3A-05B17BC5BEFE206E&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&ch=www.us.homepage&server=ac-2.29.1&h1=www.us.homepage&v3=aos%3A%20us&l3=D%3Das_tex&c4=D%3Dg&v4=D%3DpageName&v14=en-us&c20=aos%3A%20us&v54=D%3Dg&v97=s.t-p&s=800x600&c=24&j=1.6&v=N&k=Y&bw=1440&bh=812&AQE=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 580,
+        "remoteIPAddress": "17.33.192.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "etag": "3811755037558374400-4613631266061387838",
+          "expires": "Mon, 30 Mar 2026 19:52:37 GMT",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "pragma": "no-cache",
+          "set-cookie": "s_vi=[CS]v1|34E61302A1F60BE8-4000179920490539[CE]; Path=/; Domain=apple.com; Max-Age=1800; Expires=Tue, 31 Mar 2026 20:22:22 GMT; SameSite=None; Secure"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "redirectedFrom": "https://securemetrics.apple.com/b/ss/applestoreww/1/JS-2.23.0/s06357052116873?AQB=1&ndh=1&pf=1&t=31%2F2%2F2026%2012%3A52%3A37%202%20420&fid=0649714ABA04FE3A-05B17BC5BEFE206E&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&ch=www.us.homepage&server=ac-2.29.1&h1=www.us.homepage&v3=aos%3A%20us&l3=D%3Das_tex&c4=D%3Dg&v4=D%3DpageName&v14=en-us&c20=aos%3A%20us&v54=D%3Dg&v97=s.t-p&s=800x600&c=24&j=1.6&v=N&k=Y&bw=1440&bh=812&AQE=1",
+        "initiators": [
+          "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+          "https://www.apple.com/v/home/cm/built/scripts/main.built.js"
+        ],
+        "time": 0.06287499999962165
+      },
+      {
+        "url": "https://www.apple.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 23145,
+        "remoteIPAddress": "23.45.136.241",
+        "responseHeaders": {
+          "cache-control": "max-age=432",
+          "expires": "Tue, 31 Mar 2026 19:59:50 GMT"
+        },
+        "responseBodyHash": "ab1eb116fd876e06ecf7cdfea118e2d1815a214b9c3026b91c9d3c036c0e4787",
+        "initiators": [],
+        "time": 0.11065400000006775
+      }
+    ],
+    "cookies": [
+      {
+        "name": "geo",
+        "domain": ".apple.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "s_fid",
+        "domain": ".apple.com",
+        "path": "/",
+        "expires": 1774988557000,
+        "session": false
+      },
+      {
+        "name": "s_cc",
+        "domain": ".apple.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "mk_epub",
+        "domain": ".apple.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "s_vi",
+        "domain": ".apple.com",
+        "path": "/",
+        "expires": 1774988558023,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.apple.com/v/home/cm/built/scripts/head.built.js": {
+          "window.devicePixelRatio": 1
+        },
+        "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js": {
+          "window.localStorage": 1,
+          "Document.cookie getter": 231,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1
+        },
+        "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js": {
+          "window.localStorage": 30,
+          "window.devicePixelRatio": 1,
+          "window.innerHeight": 5,
+          "window.sessionStorage": 21,
+          "Document.cookie getter": 18,
+          "Document.cookie setter": 5,
+          "Navigator.prototype.appName": 2,
+          "Date.prototype.getTime": 4,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.pixelDepth": 2,
+          "window.innerWidth": 2,
+          "PerformanceTiming.prototype.navigationStart": 2
+        },
+        "https://www.apple.com/ac/localeswitcher/4/en_US/scripts/localeswitcher.built.js": {
+          "window.localStorage": 7,
+          "window.sessionStorage": 1,
+          "Document.cookie getter": 1
+        },
+        "https://www.apple.com/v/home/cm/built/scripts/main.built.js": {
+          "window.innerHeight": 10,
+          "window.localStorage": 1
+        },
+        "https://www.apple.com/autopush/us/fam-gallery/scripts/endless-entertainment-gallery.built.js": {
+          "window.innerWidth": 5
+        },
+        "https://www.apple.com/home/gallery/scripts/autofilms.built.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "window.localStorage": 1
+        },
+        "https://www.apple.com/metrics/data-relay/1.2.0/scripts/data-relay.js": {
+          "window.localStorage": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mk_epub=; expires=Mon, 30 Mar 2026 19:52:36 GMT; path=/; domain=apple.com; secure"
+          ]
+        },
+        {
+          "source": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_fid=0649714ABA04FE3A-05B17BC5BEFE206E; path=/; expires=Tue, 31 Mar 2026 20:22:37 GMT; domain=.apple.com; secure;"
+          ]
+        },
+        {
+          "source": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "pt-dm=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=apple.com; secure; samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_cc=true; path=/; domain=.apple.com; secure;"
+          ]
+        },
+        {
+          "source": "https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mk_epub=%7B%22btuid%22%3A%22mrh6l8%22%2C%22prop57%22%3A%22www.us.homepage%22%7D; path=/; domain=apple.com; secure"
+          ]
+        }
+      ]
+    }
+  }
+}

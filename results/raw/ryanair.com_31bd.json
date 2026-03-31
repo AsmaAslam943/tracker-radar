@@ -1,0 +1,1870 @@
+{
+  "initialUrl": "https://ryanair.com/",
+  "finalUrl": "https://www.ryanair.com/us/en",
+  "timeout": false,
+  "testStarted": 1774993213543,
+  "testFinished": 1774993227242,
+  "data": {
+    "requests": [
+      {
+        "url": "https://ryanair.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "216.137.39.91",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.ryanair.com/",
+        "initiators": [],
+        "time": 0.37356999999974505
+      },
+      {
+        "url": "https://www.ryanair.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.ryanair.com/us/en",
+        "redirectedFrom": "https://ryanair.com/",
+        "initiators": [],
+        "time": 1.0762940000004164
+      },
+      {
+        "url": "https://www.ryanair.com/us/en",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 13070,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, no-store",
+          "etag": "\"a6bee0abd76462206cae4f794215f6d3\"",
+          "set-cookie": "fr-correlation-id=44ac54f3-f5f2-4c50-87f1-5619a1c53e1d; path=/; domain=www.ryanair.com; SameSite=Lax; secure\nrid=36727788-d614-4691-ac0d-9cd993e46673; path=/; expires=Wed, 31 Mar 2027 00:00:00 GMT; domain=www.ryanair.com; SameSite=Lax; secure; httponly\nrid.sig=jyna6R42wntYgoTpqvxHMK7H+KyM6xLed+9I3KsvYZaVt7P36AL6zp9dGFPu5uVxaIiFpNXrszr+LfNCdY3IT3oCSYLeNv/ujtjsDqOzkY5JmUFsCdAEz3kpPbhCUwiArp5oaa75tpJtO3kFwYQ8l0DbH67AtcN/PMbniLsiM5qn+2AjrrtoNJicE3ZQwFHVipe4lWPSRfq2OIyUrlFhwEDt20+wCX7l1mCubNXtG6nZrUA07sFUFhn4RUxnjwjJ6d9qjjBasXLvYSqyYN7UaY8s+X70korZyaicZWcWTvMY3C3HnVvcufgViW5sAJQ3uvuSNkb3Ei12YqgzUABqBq3dVG4iL8eHFu9uPjjHDry/+2FM32pWPqn9T5m9YjS+wniX/8HFbXTF8YBNkkAyaX8zQqPwX789bCmfTNGC7YZSQeO7RBiCm3LiALF+y2sTRUxj680gfvUEt5EKNGVB2etL7irTUdN+K59jieCct7qazjgqB2xWjbsyQzlMJ4twwc24FGKtZX1Rvcz/SUJdkfu5bEwzyUzSIIkSrX8N74rkvs93oEoKA2p4ssqRvPD5NBReMfRfY5f/TDOzmxmHj/bjAWXi4o0ScVN2LTVi5/vOdLLiB72o9VWT0vdo1+lsqQh0x0Yvv6kgvO0Q74enJSsFz4jmFBeSkZFLf952O1ACGOmPdPPDNuK6fX5z2K/dT9PD89E6KsZW96E4SIR0XnKUVJOhiCR6dyxLhp0y6MIlevKdTBw61RCNwzR/LiLOCjZevk1eFtDkOM5/bNcUa9B9G40b9/cqGVVdE2NAi7KBThui/92yHMqETz6y9Cgf; path=/; expires=Wed, 31 Mar 2027 00:00:00 GMT; domain=www.ryanair.com; SameSite=Lax; secure; httponly\nxid=c43c4288-5b97-4d5d-a5c6-730f057db59c; path=/; expires=Tue, 07 Apr 2026 00:00:00 GMT; domain=www.ryanair.com; SameSite=Lax; secure"
+        },
+        "responseBodyHash": "ec7f247a64021871bb065668eede256026bbb7e2e6b8c3ab7f89fa3ca80af62e",
+        "redirectedFrom": "https://www.ryanair.com/",
+        "initiators": [],
+        "time": 0.0329120000005787
+      },
+      {
+        "url": "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14400,
+        "remoteIPAddress": "18.244.214.78",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"46e0-FhcGIE+KhPyX9ay0drSfrmpwTmE\""
+        },
+        "responseBodyHash": "d353c8fd40a59451e880ac8af1e47e4d8c3249867abae8daf4c7b2d16257a7c1",
+        "initiators": [
+          "https://www.ryanair.com/us/en"
+        ],
+        "time": 4.850325999999768
+      },
+      {
+        "url": "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9744,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"f34047be70a374c7374c2a6c9f9f7c8e\""
+        },
+        "responseBodyHash": "b10361bf1f31098e7493b63ced9d9aef25cb60fc04a63d7a5b733a7e859965b9",
+        "initiators": [
+          "https://www.ryanair.com/us/en"
+        ],
+        "time": 0.01620100000036473
+      },
+      {
+        "url": "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 748741,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"ad709f4332e8bd48be101c76592f2389\""
+        },
+        "responseBodyHash": "3f4a1107e216602880ac6d3df034e1b85a949122533dcbde0b2ab37296d9e410",
+        "initiators": [
+          "https://www.ryanair.com/us/en"
+        ],
+        "time": 0.061835999998947955
+      },
+      {
+        "url": "https://assets.ryanair.com/shared-scripts/manifest.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 1517,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2629800, public",
+          "etag": "\"b9b265ca25ba960628c8b4cf6594188c\""
+        },
+        "responseBodyHash": "aec755bfd9848efe19562baba0ac8a453a7c9bd4b1f7345f0d747b5e8e59ed59",
+        "initiators": [
+          "https://www.ryanair.com/us/en"
+        ],
+        "time": 4.729249999998501
+      },
+      {
+        "url": "https://www.ryanair.com/apps/ryanair/i18n.frontend.a11y.accessibility.auth.common-header.customer-portal.farefinder.flight-search.home-page.input-desktop.legalfooter.meta.networkerrors.passengers-selector.side-menu.verified-seal.en-us.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 57107,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=60,max-age=0,stale-while-revalidate=10",
+          "etag": "\"3fa98dc16816ced50d715f54c06aafb8\""
+        },
+        "responseBodyHash": "9b889a4bcf7e69c72cee3ac3c3c5aaed05400e4b23424e618f53f4d918f5188e",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.7246549999999843
+      },
+      {
+        "url": "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 974,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"0f8c0b69eaa9d62fd5591d6ddef21d16\""
+        },
+        "responseBodyHash": "55216e5e49265533834d6d0823ac684223b648d4527707860e7af1542d2e8c2e",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit"
+        ],
+        "time": 0.06967799999983981
+      },
+      {
+        "url": "https://assets.ryanair.com/shared-scripts/pixels-config.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2741,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-max-age=2629800, max-age=86400, public",
+          "etag": "W/\"eb270f5c673b19e03e34d67cdc02ab82\""
+        },
+        "responseBodyHash": "1b58504333cdbe8c4e99ad559d37ac7e3c482ac9895ad035e23557049571a00e",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.015540999998847838
+      },
+      {
+        "url": "https://www.ryanair.com/api/usrprof/v2/loggedin",
+        "method": "GET",
+        "type": "XHR",
+        "status": 204,
+        "size": 1010,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "SESSION_COOKIE=; Path=/; Domain=services-api.ryanair.com; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly\nREMEMBERME_COOKIE=; Path=/; Domain=services-api.ryanair.com; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly\nSESSION_COOKIE=; Path=/; Domain=api.ryanair.com; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly\nREMEMBERME_COOKIE=; Path=/; Domain=api.ryanair.com; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly\nSESSION_COOKIE=; Path=/; Domain=www.ryanair.com; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly\nREMEMBERME_COOKIE=; Path=/; Domain=www.ryanair.com; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly\nSSO=; Path=/; Domain=ryanair.com; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.18317500000011933
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/data/home-page/desktop.en-us.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3482,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=60,max-age=0,stale-while-revalidate=10",
+          "etag": "\"02d10f7296d7511225e43ed35938fb0d-gzip\""
+        },
+        "responseBodyHash": "e2ec4509ae41ce2901b0a7556fc7636c52510ade445c04326319771770de03cf",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.4021130000000994
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/data/footer/desktop.en-us.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1097,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "s-maxage=60,max-age=0,stale-while-revalidate=10",
+          "etag": "\"365a959a25a3c89ae0ba46e21d6881cb-gzip\""
+        },
+        "responseBodyHash": "24868e576a595b0a8bb349952050ac795a3990dfc5e19d6b982273ee1cb8b8a9",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.14765799999986484
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/data/global-header/desktop.en-us.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1416,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "s-maxage=60,max-age=0,stale-while-revalidate=10",
+          "etag": "\"a8c0032ff5579770216ce5752e84f412-gzip\""
+        },
+        "responseBodyHash": "0b7207dfdc267588a2e27b02bd214dd3d00b8812d1da2714838e389cd3ffb401",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.40737300000000687
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/ryanair-logo.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1417,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"e17fab6dbacb03f42c52abfb634b39b4\""
+        },
+        "responseBodyHash": "9d57f1aa096319935dbeea00fa118b7c0ed7c592b2531738dacb057e8a257992",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.015699000001404784
+      },
+      {
+        "url": "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1110,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"8d6f60d2a6c5e75d9cf6f61a9df2526b\""
+        },
+        "responseBodyHash": "6a34b1a3e1ec6404f26c4e4bd1778d8bf85462c984458a4b4364f06f7dfdfe61",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.018638999999893713
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/direction-swap_v2.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 970,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"01fb9b2e359db9ad891f9e3cec3cc148\""
+        },
+        "responseBodyHash": "6cebe127f400f64f809c6b020eece672aba4886d34c8673aff2dc402b8e8d368",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.025475999998889165
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/desktop-background-harp_v2.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2405,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"3ba5c0ba53170da32bb12b5e037f2472\""
+        },
+        "responseBodyHash": "34fa27d8f0ac05ff53a7afaea6838c0bc0dbaa00dc9b00f38b7d2b352b8fd1a2",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.022370000000591972
+      },
+      {
+        "url": "https://www.ryanair.com/homepage_dist/desktop/1010.f2f9833b32b6d723.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 988,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"67694d5907ed01eab3b1224f8e19ae6c\""
+        },
+        "responseBodyHash": "3c42906fc0a10a211d2450d9f884e254d5f79f928efd19fc35c8b7da054584a2",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.01555000000007567
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/helpcentre.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1473,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"16ed046c4718a99eb35b862fdfcb6d2c\""
+        },
+        "responseBodyHash": "a99c2bcfd731690849d8d954db36814c6eca40b292b2fd06ff19c5628797da47",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.016971999999441323
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/plane.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1119,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"09793876bfe4c2f61791284e12bc6b06\""
+        },
+        "responseBodyHash": "ee2bacaf6433606b03b5ce16f533a9b5558582cecc25bc49b4be97db0cdcadfc",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.01511699999900884
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/facebook-footer.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 983,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"a6d9fbcad29dc58439b87dbbe5a2412f\""
+        },
+        "responseBodyHash": "5c7ea450520f6c6d69d1a47f5b891cef748314d7fbde6feb450a2b9546b14b31",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.0173159999994823
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/instagram-footer.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1181,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"304ab349ab4b9aeed47856a35585df81\""
+        },
+        "responseBodyHash": "26537a09bd6fb4db1acc1d55189b5a248ff3e632408f7a9cb63e2f77933f5559",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.016564999999900465
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/youtube-footer.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1253,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"ca1fc22a4778b66dd3956827c8ae67b8\""
+        },
+        "responseBodyHash": "97f84884aa71bcbd75b67804bddf64954677bffca91f7f4d3807ff57ea4f858b",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.02045399999951769
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/linked-in-footer.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 988,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"64b218707fe8edc2a9ed1cf1fa77e396\""
+        },
+        "responseBodyHash": "60158b446cc6792b2c6434210e972432ffd049435e4143f9576d576e3b123b61",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.019106000001556822
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/x-platform-footer.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 894,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"4693ba4561143bae93df4906d7a5f47d\""
+        },
+        "responseBodyHash": "487b394f080a63c687393098eafefb1df20ddc905fa84d32564c70a18223d539",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.01865399999951478
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/ryanair-logomark.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1378,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"6759d39c5d02d00174bdde1f9bbaf011\""
+        },
+        "responseBodyHash": "ecc6494ae69b9125f7d4e3d9c44aa16a3bd77f1997ae8af5c0f4e5f9849b452a",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.01811499999894295
+      },
+      {
+        "url": "https://app.launchdarkly.com/sdk/evalx/59e9fe36082f980b153a4e43/contexts/eyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFub255bW91cyIsImtpbmQiOiJ1c2VyIiwidXNlckFnZW50IjoiTW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzNS4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiY29ycmVsYXRpb25JZCI6IjQ0YWM1NGYzLWY1ZjItNGM1MC04N2YxLTU2MTlhMWM1M2UxZCIsImV4cGVyaW1lbnRJZCI6ImM0M2M0Mjg4LTViOTctNGQ1ZC1hNWM2LTczMGYwNTdkYjU5YyIsIm15UnlhbmFpcklEIjpudWxsLCJhcHBOYW1lIjoiaG9tZXBhZ2UiLCJpc0Rlc2t0b3AiOnRydWUsImlzTW9iaWxlIjpmYWxzZSwiaXNUYWJsZXQiOmZhbHNlLCJtYXJrZXQiOiJlbi11cyIsInVybCI6Imh0dHBzOi8vd3d3LnJ5YW5haXIuY29tL3VzL2VuIn0",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://app.launchdarkly.com/sdk/evalx/59e9fe36082f980b153a4e43/contexts/eyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFub255bW91cyIsImtpbmQiOiJ1c2VyIiwidXNlckFnZW50IjoiTW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzNS4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiY29ycmVsYXRpb25JZCI6IjQ0YWM1NGYzLWY1ZjItNGM1MC04N2YxLTU2MTlhMWM1M2UxZCIsImV4cGVyaW1lbnRJZCI6ImM0M2M0Mjg4LTViOTctNGQ1ZC1hNWM2LTczMGYwNTdkYjU5YyIsIm15UnlhbmFpcklEIjpudWxsLCJhcHBOYW1lIjoiaG9tZXBhZ2UiLCJpc0Rlc2t0b3AiOnRydWUsImlzTW9iaWxlIjpmYWxzZSwiaXNUYWJsZXQiOmZhbHNlLCJtYXJrZXQiOiJlbi11cyIsInVybCI6Imh0dHBzOi8vd3d3LnJ5YW5haXIuY29tL3VzL2VuIn0"
+        ],
+        "time": 0.009771000000910135
+      },
+      {
+        "url": "https://app.launchdarkly.com/sdk/evalx/59e9fe36082f980b153a4e43/contexts/eyJhbm9ueW1vdXMiOnRydWUsImtleSI6ImFub255bW91cyIsImtpbmQiOiJ1c2VyIiwidXNlckFnZW50IjoiTW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzNS4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiY29ycmVsYXRpb25JZCI6IjQ0YWM1NGYzLWY1ZjItNGM1MC04N2YxLTU2MTlhMWM1M2UxZCIsImV4cGVyaW1lbnRJZCI6ImM0M2M0Mjg4LTViOTctNGQ1ZC1hNWM2LTczMGYwNTdkYjU5YyIsIm15UnlhbmFpcklEIjpudWxsLCJhcHBOYW1lIjoiaG9tZXBhZ2UiLCJpc0Rlc2t0b3AiOnRydWUsImlzTW9iaWxlIjpmYWxzZSwiaXNUYWJsZXQiOmZhbHNlLCJtYXJrZXQiOiJlbi11cyIsInVybCI6Imh0dHBzOi8vd3d3LnJ5YW5haXIuY29tL3VzL2VuIn0",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 11692,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0",
+          "etag": "W/\"(p:3XDTAAENV09XHAZ1MT6P4K5BXG:5944)\""
+        },
+        "responseBodyHash": "602b73511a378950aa646fa352ed9bd2361f333988a402f48f87c9d9a6756b90",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.077701000000161
+      },
+      {
+        "url": "https://www.ryanair.com/homepage_dist/desktop/3132.1f1cad4667cb0cc0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14467,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"db83fb7a32399099946d10212e9557bc\""
+        },
+        "responseBodyHash": "a82e29c1878777d47214ad4ac3130095769dcddc893b5b493fcc81d9eda4d467",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.014977999999246094
+      },
+      {
+        "url": "https://www.ryanair.com/content/dam/ryanair/cta%27s/google-play-60H_EN.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4646,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {},
+        "responseBodyHash": "cd27db647abcad53499bdf7be2017f2f256ffd738e1eb5c41977268da3f80f1b",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.40364899999985937
+      },
+      {
+        "url": "https://www.ryanair.com/content/dam/ryanair/cta%27s/Apple-60H_EN.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2824,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {},
+        "responseBodyHash": "e1b86ea5c66866aee8f83253ff9008346cef86e244355d5e6ee3294da2432a40",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.40366200000062236
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/fonts/roboto.latin.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 11579,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"1f6d3cf6d38f25d83d95f5a800b8cac3\""
+        },
+        "responseBodyHash": "d6bff0450d6691127396f8e6399623147224b0d3e460aea93689271462aa505c",
+        "initiators": [
+          "https://www.ryanair.com/us/en"
+        ],
+        "time": 0.02345700000114448
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/fonts/roboto-700.latin.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 11600,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"5e22a46c04d947a36ea0cad07afcc9e1\""
+        },
+        "responseBodyHash": "7844db3cf10a76768a1af0ea441b5a37514a044a5302d7730551e7e3dba03a5b",
+        "initiators": [
+          "https://www.ryanair.com/us/en"
+        ],
+        "time": 0.017169999999168795
+      },
+      {
+        "url": "https://www.ryanair.com/apps/ryanair/i18n.frontend.gdpr.legalfooter.en-us.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3993,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=60,max-age=0,stale-while-revalidate=10",
+          "etag": "\"80c08448087ecd79e16cae95b60134fe\""
+        },
+        "responseBodyHash": "6b67cceadb6b1023b2910ea05a16e77e298d4aca7bf7ff95072250f7b452c001",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.15750399999888032
+      },
+      {
+        "url": "https://www.ryanair.com/api/geoloc/v5/defaultAirport?market=en-us",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 510,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "max-age=60, s-maxage=300"
+        },
+        "responseBodyHash": "c5aa713fa2d229dddb215b1fe54d3d6e8ae5436e2f11abb4bb73c3e2bbad82d2",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.22257799999897543
+      },
+      {
+        "url": "https://www.ryanair.com/api/views/locate/3/categories/en",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 662,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "max-age=0, s-maxage=2592000",
+          "etag": "\"05d34d5f5189b0c3479ae69e05f72a77\""
+        },
+        "responseBodyHash": "03c08c735603dc724a13098636b89dd658d6f1837a14a3990aea922b370e3995",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.10794399999940651
+      },
+      {
+        "url": "https://sonar.ryanair.com/browser/analytics",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 389,
+        "remoteIPAddress": "65.8.54.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ryanair.com"
+        },
+        "responseBodyHash": "ae824edd74fa242b89221177df8577529d6d44bdd8f0ef692d0f8ee730b292e0",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 1.2532249999985652
+      },
+      {
+        "url": "https://www.facebook.com/tr?id=776134079199579&ev=PageView&cd[market]=en-us",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": ""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.11694700000043667
+      },
+      {
+        "url": "https://sonar.ryanair.com/browser/analytics",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.54.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ryanair.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://sonar.ryanair.com/browser/analytics"
+        ],
+        "time": 0.6415259999994305
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/message.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 849,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"aa590e5b795f013ad7fdd9807e9638b9\""
+        },
+        "responseBodyHash": "be545ec1c16b0384e1066cd4e9fe1a154363c3ee746f40edea68ea74473dd1b4",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.09853599999951257
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/svg/medium-chevron-icon.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 842,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"a4ad0c0a97588afde0613182513bd8aa\""
+        },
+        "responseBodyHash": "ad07053d499db819ba4567e5052e5bc2382ac3fefc46684f4a588accaa3de543",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.08364799999981187
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/svg/filters-icon.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1031,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"24eba4c278da1bc9c2b8678b1ecc623b\""
+        },
+        "responseBodyHash": "6b640a68238dbab3fa1767d0f472e6904187a5e4f3215d9844c64e0ade259976",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.08408200000121724
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/ribbon-star.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 865,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"3f67d4ea9c90c4e7483c63a24e68f462\""
+        },
+        "responseBodyHash": "beff4ad43a24a07f594d6648165d6a8edbb8b6603836c103f1959bb659b6b693",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.07989400000042224
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/info.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1005,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"90d9270c0d0263c8f10f62d43d51295b\""
+        },
+        "responseBodyHash": "e67e68d6abc3bfdadd72aacf65fef20e07bd3cc075a638c3d98c98809a069c35",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.07468799999878684
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/ryanair-verified-seal.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1894,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"ed76121cd88ccdfbb261a4ece93b57be\""
+        },
+        "responseBodyHash": "9af2ca6118ae751607998f66a483abe63ee0b8134ee8ba2bca2545657f04f201",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.07385400000021036
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/info.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"90d9270c0d0263c8f10f62d43d51295b\""
+        },
+        "responseBodyHash": "e67e68d6abc3bfdadd72aacf65fef20e07bd3cc075a638c3d98c98809a069c35",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.07403700000031677
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/ryanair-verified-seal.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"ed76121cd88ccdfbb261a4ece93b57be\""
+        },
+        "responseBodyHash": "9af2ca6118ae751607998f66a483abe63ee0b8134ee8ba2bca2545657f04f201",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/4271.6552b846e08699bb.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.07251300000098126
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/chevron-slim.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 861,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"2ff2eff51a52f05fe83b6a1159a97b3b\""
+        },
+        "responseBodyHash": "9e74649ed4c1d81d929df9c6f14f3fd3d36a51dd0b50c2c67230aec6bd8bb579",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.03520600000047125
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/wheelchair.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1210,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"bb7fc4c86a3adeebe082b522aeb8f7d5\""
+        },
+        "responseBodyHash": "c4ae3ed1e7b3fce5de1352687427815ec5d1c6a34290f9f0211ce54ffb2c5d56",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.03295599999910337
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/data/markets.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1302,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "s-maxage=60,max-age=0,stale-while-revalidate=10",
+          "etag": "\"1adf74584b009482cdcdc57022eaf9ae-gzip\""
+        },
+        "responseBodyHash": "b0987ff86ffef1429edef44728db548710c51af58255089a16487acd983dfd2b",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.025018999998792424
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/cars.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1323,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"9774faab96611d6f761f51a5a2a54d1c\""
+        },
+        "responseBodyHash": "c25abf74c3b3c2bb7ccea68d5c615c494d212965d489efc7216c60edc24ed938",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01811500000076194
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/hotels.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1026,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"dcc70dfd3caefd092af9d3e07f2a1859\""
+        },
+        "responseBodyHash": "c2b7f1474e4ca21e70c8fe4a2b2649e0f94525a742ed444af927121eb19d5914",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.017038999998476356
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/gift-cards.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1427,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"a77fdebc31f396d46b6279f45e96f769\""
+        },
+        "responseBodyHash": "7e9a02b40c79e9f5e1177e61c6635364b3ae9a8d90b031caea0e9f308d600dd6",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.018962000000101398
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/check-in.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1202,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"94ad344bf9ff286e00d5296fe58671a1\""
+        },
+        "responseBodyHash": "2dc5d7ad0a06359b2ce66c084101eaa1727390a61a048354d3b504e3bc4521d0",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01356099999975413
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/travel-updates.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1137,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"8df985084cd2754986a8822b0b1ae7ab\""
+        },
+        "responseBodyHash": "c2cc68f7d59be33600f7bf33385eefeb9540e715079fec1f33faf638b8be23bd",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.014041000000361237
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/plan-a-trip.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1403,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"2e390aaf8a490df618d63f848a8bc4d1\""
+        },
+        "responseBodyHash": "10e158b077bb0cc5c56dcf03199a36e9ca752632d7066700d1e3e9b38151afbe",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.013194000001021777
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/group-travel.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1063,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"a6f6bcba5860411d2259ad15eb070e08\""
+        },
+        "responseBodyHash": "426f6fada1acf6f73283335c266f984ed6ad1739a3aa06dcd7d12bbe7272e5da",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.015656999999919208
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/chevron.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 809,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"b1a0682f18a01d001652f13e18899b50\""
+        },
+        "responseBodyHash": "f47f6679ef8354682421af8f0642d94412eb3f3dbff2596310c7ceb7881dda2a",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.016827999999804888
+      },
+      {
+        "url": "https://www.ryanair.com/homepage_dist/desktop/3433.185d962500282c45.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4510,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"d89233942c74cdb629669733f89ce051\""
+        },
+        "responseBodyHash": "d798e21a24af6c1d9f7ce76374c01058be0525068d3cc63006d6a51ea5ba8799",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/3132.1f1cad4667cb0cc0.js",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit"
+        ],
+        "time": 0.012939000000187661
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2026/flights/03/30-mar-payday-fs-crea-6342/ie-gb/Crea-6342_Sale_Hero.jpg.transform/lqip/image.524633916f8ff2be36bf53c801738f97.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1448,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "0371ddd871ad6cff9448b17b578ab15282ad0f04b9905fac6587b38a4645aac6",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01643800000056217
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2026/gift-cards/03/30th-mar-gift-card-easter-crea6335/chick/hero-banners/US_Crea-6335_Gift-Cards_Hero.jpg.transform/lqip/image.6b6073d0c57de6250bc17098f6c31746.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1240,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "9384e4e0397a3152cfca221d57f7224be9b830ba55f7f0c573c2bb8bedf08cce",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01641100000051665
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2025/ancillaries/11/19-nov-car-hire-generic-assets-crea6072/hero-banner/EN_CREA-6072_Car-Hire-Generic-Assets-19-NOV_Hero-Banner.jpg.transform/lqip/image.93de19b3c7ded9d55a97032fee3de4c9.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1313,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "da2a4137424814df802bb990cd19cbbedf2d17ad01622e63806dd0736e798067",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.016395000000557047
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2025/ancillaries/04/17-april-ryr-rooms-crea5526/hero-banners/US_Hero-copy-2.jpg.transform/lqip/image.87e2729a379089c53e14bb2f59469027.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1309,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "7224effe85281e17c619f2592febbb1c9f672393b88bd5609d4a24e95674c52f",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01715399999920919
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2026/brand-campaigns/03/02-dbp-update-crea6025/hero-banner/EN_CREA-6025_Digital-Boarding-Pass-Update_Hero-Banner-Carousel.jpg.transform/lqip/image.f3a3747bbcd01f5a4495ab3fdde347c2.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1207,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "f420cd3d486a158e77a0a6f51272437deca67776950f7612d6774d040de5959f",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01717600000120001
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2026/brand-campaigns/03/uk-eta-refresh-crea-6143/hero/CREA-6143-UK_ETA_COMMS_HERO.jpg.transform/lqip/image.93bbaa597a6730e2e3ab503676b45f87.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1404,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "5447dd08fe792aad53323e0cc860deba8d1fa7049edd4772ac0528adf690938b",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.017820999999457854
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2025/ancillaries/04/04-apr-private-transfer-crea5536/hero-banners/EN_CREA-5480-Hero-Single-copy.jpg.transform/lqip/image.46bf0a1a7263bd95a8e753a8c5d8c1be.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1329,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "a5d265e4e775d3c7c1ada2d30e6a1235e7900460b54e7a24790c4bde27ae5658",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.017809000000852393
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/desktop-3-0/our-partners/Example-AngelCard-Icon-03.png.transform/lqip/image.3f8114f467f9f7c293c2b78fb8432ec4.png.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1176,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "adcac760844e3b05d542d13f747cc977cf9730d99e35bef3667d096187a037be",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01649600000018836
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2026/gift-cards/03/30th-mar-gift-card-easter-crea6335/chick/angel-cards/US_CREA-6335_Gift-Cards_Angel-4Up.jpg.transform/lqip/image.6d02504e5cf309aaf1a3b5cea68ec5e0.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2250,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "c96f624ebbbcf1e4d6386343b1efd758d7f5cbbdcb260ac3468ca1da3cad866d",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.018651000000318163
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/desktop-3-0/our-partners/Example-AngelCard-Icon-02.png.transform/lqip/image.06c89688a10111221f0d2c8806558c00.png.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1217,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "e2b7bccbe39cbea94064bfa8f13aa92a0f98138f49c25ec01f8fc950b2c152a3",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01717099999950733
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2025/ancillaries/11/19-nov-car-hire-generic-assets-crea6072/angel-cards/4up/EN_CREA-6072_Car-Hire-Generic-Assets-19-NOV_AngelCard-4up-IE.jpg.transform/lqip/image.90a7f554ff49b2e0da1fbf577d071361.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2043,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "192bb2bb39b93124375373658eb0446ec25549986b5d23549d70c882fee68a3a",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01737399999910849
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2021/rooms/cq5dam.web.1280.1280.png.transform/lqip/image.f56abf28f0b91f13528d501d8651280c.png.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1113,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "166fd861441fc377746a5174807bc254fa56be235d7a3c25ccc92f57caa063e0",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.021822000000611297
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2025/ancillaries/06/ryanair-rooms-x-expedia-generic-up366/US_AngelCard-4up.jpg.transform/lqip/image.d1a3bde494f06eff1516f569cfa2f013.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1992,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "e5fe58526b7abb768d06743cd7bcb0424f3310ff8cc130b2272def11699f0e28",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.017041000000972417
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2025/ancillaries/04/04-apr-private-transfer-crea5536/angel-cards/EN_CREA-5480-_AngelCard-4up-copy.jpg.transform/lqip/image.9259e548103c600fced7f2a08be0de1c.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2085,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "83468f24aa191d62361480e867e364dedb7ce6a5d3f578bfb52f88b5160afc30",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.018835000000763102
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2021/ja/8/8278-min.jpg.transform/lqip/image.793be1a40d9dd7a16d6333c0999fedec.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1193,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "0be45f68e886e17f92aad80277d43f168871addaed91318174565e794de77056",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.018885999999838532
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2020/ams/BGY%20FD%202.jpg.transform/lqip/image.95e1d890f8616b21cb67f945ed4c1498.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1178,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "519b6a9b2f5fca59f23eeb8d05600cd10477b77fdbeb5a0c4ed8d3260e8c8f01",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.019424000000071828
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/desktop-3-0/tsn/Winter-City-Breaks_Gdansk.jpg.transform/lqip/image.7fe1c807136d52d9301c813e93fc727c.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1392,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "a0bd5d1653c38f24be00600e79c65b9689687374d90324406826ad788c147982",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.018503000001146575
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/desktop-3-0/tsn/12-summer-bucket-list.jpg.transform/lqip/image.6cdf424adcd43ca60a6ea4353dd534fa.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1549,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "99575b6539060afd5a19be01eb58295713aa7601912a3aa0fcde389e1588888a",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.01906299999973271
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/desktop-3-0/tsn/Winter-City-Breaks_Prague.jpg.transform/lqip/image.e1bf39d061ab309c8706fb6c7befab51.jpg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1406,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "716d91f65e7ff109e6278b3cfde13f65a28892d3d6ecf81820e2e9a93e297525",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js"
+        ],
+        "time": 0.0190149999998539
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/flags/us-en.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 956,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "W/\"d2ce7444cb351f5e307fa962a08bdb15\""
+        },
+        "responseBodyHash": "7e3ff9b59a74fa07cf411d5748465f21a5ca673d7fc82266f94eda704033d31c",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.016276999998808606
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/info.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"90d9270c0d0263c8f10f62d43d51295b\""
+        },
+        "responseBodyHash": "e67e68d6abc3bfdadd72aacf65fef20e07bd3cc075a638c3d98c98809a069c35",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/3433.185d962500282c45.js",
+          "https://www.ryanair.com/homepage_dist/desktop/3132.1f1cad4667cb0cc0.js"
+        ],
+        "time": 0.0016470000009576324
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/chevron-left.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 780,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"a244e9319817e58214249652077c1053\""
+        },
+        "responseBodyHash": "e9e914c6e5a923595e65d8db1d35069625765890b58b0e9420a4677159ae8847",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/3433.185d962500282c45.js",
+          "https://www.ryanair.com/homepage_dist/desktop/3132.1f1cad4667cb0cc0.js"
+        ],
+        "time": 0.015467999999600579
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/icons/glyphs/chevron-right.svg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 785,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"3994752a376c215dd9cdd403172fef64\""
+        },
+        "responseBodyHash": "7e4fc36036f0e9879bd850f39c4cad9a3e4e89cee409e7980f2e849b21316b34",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/3433.185d962500282c45.js",
+          "https://www.ryanair.com/homepage_dist/desktop/3132.1f1cad4667cb0cc0.js"
+        ],
+        "time": 0.01470799999879091
+      },
+      {
+        "url": "https://www.ryanair.com/flightselect_dist/desktop/prefetch-config.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 389,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "\"668d23a0e31be3a324df53227084c161\""
+        },
+        "responseBodyHash": "a6b3d98fb0a725f74a77bbf951da3109a27360ce76f2e383908d48e249c32c7d",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.4203880000004574
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 15669,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"fa0118bb6525250bd70e6cdd3393b94c\""
+        },
+        "responseBodyHash": "8574575d65a7347e07541182079ecd0100be33bc59803ffc9aa83154238888fd",
+        "initiators": [],
+        "time": 0.015106999999261461
+      },
+      {
+        "url": "https://www.ryanair.com/flightselect_dist/desktop/runtime.2fc648fb1ed2fce8.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 12450,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"9676e09cddf98a249c9a410a2932b73f\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.014614000001529348
+      },
+      {
+        "url": "https://www.ryanair.com/flightselect_dist/desktop/main.34ff4ee2292c3cf2.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 648633,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"42f0548dd2cb7d6094fcc39cb55d8519\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/runtime.a821d64f749d4a53.js",
+          "https://www.ryanair.com/homepage_dist/desktop/1401.c67ee73cbf306c46.js"
+        ],
+        "time": 0.03896999999960826
+      },
+      {
+        "url": "https://assets.ryanair.com/resources/ui/img/cards/sprite/cards_v4.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4484,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29030400, public",
+          "etag": "\"878df94383179919d49904c6a0193791\""
+        },
+        "responseBodyHash": "c4d228f90d75995719ec44da3640ca0c4b50594993a1b4bb274c1d90c30c8084",
+        "initiators": [],
+        "time": 0.07672699999966426
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2026/flights/03/30-mar-payday-fs-crea-6342/ie-gb/Crea-6342_Sale_Hero.jpg.transform/1x/image.524633916f8ff2be36bf53c801738f97.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 27825,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "7770609ea7b2009af884d53caf55be1174135061c5dd55ccd43910af1b09c540",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit"
+        ],
+        "time": 0.07310899999902176
+      },
+      {
+        "url": "https://www.ryanair.com/ryanair3/dam/2026/gift-cards/03/30th-mar-gift-card-easter-crea6335/chick/hero-banners/US_Crea-6335_Gift-Cards_Hero.jpg.transform/1x/image.6b6073d0c57de6250bc17098f6c31746.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30222,
+        "remoteIPAddress": "108.139.10.64",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable"
+        },
+        "responseBodyHash": "ef805d792473b819c157f201acff54326a6619f173ead52d226fdb4ebf35ac5b",
+        "initiators": [
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit"
+        ],
+        "time": 0.06605800000033923
+      },
+      {
+        "url": "https://events.launchdarkly.com/events/bulk/59e9fe36082f980b153a4e43",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "3.212.63.89",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://events.launchdarkly.com/events/bulk/59e9fe36082f980b153a4e43"
+        ],
+        "time": 0.07496299999911571
+      },
+      {
+        "url": "https://events.launchdarkly.com/events/bulk/59e9fe36082f980b153a4e43",
+        "method": "POST",
+        "type": "XHR",
+        "status": 202,
+        "size": 358,
+        "remoteIPAddress": "3.212.63.89",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit",
+          "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js"
+        ],
+        "time": 0.3743159999994532
+      }
+    ],
+    "cookies": [
+      {
+        "name": "fr-correlation-id",
+        "domain": ".www.ryanair.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "rid",
+        "domain": ".www.ryanair.com",
+        "path": "/",
+        "expires": 1806486768238,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "rid.sig",
+        "domain": ".www.ryanair.com",
+        "path": "/",
+        "expires": 1806486768239,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "xid",
+        "domain": ".www.ryanair.com",
+        "path": "/",
+        "expires": 1775555568239,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "mkt",
+        "domain": ".ryanair.com",
+        "path": "/",
+        "expires": 1806529221000,
+        "session": false
+      },
+      {
+        "name": "STORAGE_PREFERENCES",
+        "domain": ".www.ryanair.com",
+        "path": "/",
+        "expires": 1777585221000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://polyfill.ryanair.com/?features=intersectionObserver,cssVars,objectFit": {
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js": {
+          "Navigator.prototype.userAgent": 35,
+          "window.sessionStorage": 81,
+          "Document.cookie getter": 24,
+          "Date.prototype.getTime": 735,
+          "Document.cookie setter": 2,
+          "window.localStorage": 2,
+          "Navigator.prototype.connection": 222,
+          "Navigator.prototype.doNotTrack": 1464,
+          "window.innerHeight": 1,
+          "window.innerWidth": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mkt=/us/en/; Secure; Path=/; Domain=ryanair.com; Expires=Wed, 31 Mar 2027 21:40:21 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.ryanair.com/homepage_dist/desktop/main.da34040018a53c11.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "STORAGE_PREFERENCES={\"STRICTLY_NECESSARY\":true,\"PERFORMANCE\":false,\"FUNCTIONAL\":false,\"TARGETING\":false,\"SOCIAL_MEDIA\":false,\"PIXEL\":false,\"__VERSION\":5}; Secure; Path=/; Domain=www.ryanair.com; Expires=Thu, 30 Apr 2026 21:40:21 GMT;"
+          ]
+        }
+      ]
+    }
+  }
+}

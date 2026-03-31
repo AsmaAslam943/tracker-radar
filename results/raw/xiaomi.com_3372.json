@@ -1,0 +1,4412 @@
+{
+  "initialUrl": "https://xiaomi.com/",
+  "finalUrl": "https://www.mi.com/us/",
+  "timeout": false,
+  "testStarted": 1774987351249,
+  "testFinished": 1774987367435,
+  "data": {
+    "requests": [
+      {
+        "url": "https://xiaomi.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "124.251.34.141",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.mi.com/",
+        "initiators": [],
+        "time": 0.7505279999995764
+      },
+      {
+        "url": "https://www.mi.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "Tue, 31 Mar 2026 20:02:32 GMT",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com\nxm_user_bucket=7;expires=Fri, 30 Apr 2027 20:02:32 GMT;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.mi.com/us/",
+        "redirectedFrom": "https://xiaomi.com/",
+        "initiators": [],
+        "time": 0.35143500000049244
+      },
+      {
+        "url": "https://www.mi.com/us/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 22647,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=39",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "2ad5787bd69704533a7b1362e1f91815b171a1e7968d2473ba7b83e4e56455a6",
+        "redirectedFrom": "https://www.mi.com/",
+        "initiators": [],
+        "time": 0.08789899999919726
+      },
+      {
+        "url": "https://i02.appmifile.com/i18n/fonts/MiSansLatin/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 23767,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"0efedc033f32340e6b4f7fb85badd972\"",
+          "expires": "Wed, 15 Apr 2026 22:00:45 GMT"
+        },
+        "responseBodyHash": "85b2167f5850412940625c80c1a0fbabce43a5e34afa22005cd0bb7d154b7a0d",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.612428000000364
+      },
+      {
+        "url": "https://i02.appmifile.com/i18n/local-config/pro/us.config.js?t=1753253612185",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1224,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"1f6b3dbea0864b1df9a0c2bd71e6c479\"",
+          "expires": "Wed, 15 Apr 2026 22:00:45 GMT"
+        },
+        "responseBodyHash": "2061f0b7494f646286ea63ad191a1ecf52cb42dc94eef19bb3321552746db8ab",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.6503249999996115
+      },
+      {
+        "url": "https://i02.appmifile.com/i18n/ga4/xmot-i18n.min.js?v=20250102",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 76671,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"ed50a56474aef9b8da19a2b15e7fdbb8\"",
+          "expires": "Tue, 21 Jul 2026 08:14:32 GMT"
+        },
+        "responseBodyHash": "d3737bf72694f1a7f3aecde0d9bd25c6266cb136e7b2a191f8a8b0f3dac98860",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.909555000000182
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4760,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "4321cb3e6d9b7997b27a149d8f9979c3eabc93cdbd29c238c944eab499fbf333",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.95158100000026
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53275,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314521333",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "9f44bac1725f53846cd18221aabd17092cc47dd0193dd9fed4890dc2e3e86f9a",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.954947999999604
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53537,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314615187",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "35c00b338054d2065dd65be00d890b1d210cb8994704a5468c954414ad1198c0",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.998129000000517
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 265265,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "95315f2fcc484762e220078b340636b9dce7adac712e5d744e0d9fe159bbc26d",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.975964000000204
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/css/us/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 31472,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314345648",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "70a793d7802c11827dc7eb2ba9ef0b73ddce4edd9496fe09a97dc9066777ac05",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.06538600000021688
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/5868.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2855,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314724162",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "c11a8950f5ee2ca4a1f85a9da39c938ce1d6ebd9bede47e6210c9f85c60325de",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.97610800000075
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/18.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10637,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=313618441",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "d5990977fe61f7451e53359b89fe2b782d13ded745c18c0d5c3172db8218731f",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.9768739999999525
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/9230.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32743,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "b17dc67a55de4ff9ac04fb711de6f278d8d840d1bba111ba7cdeef4d906597c7",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.982372999999825
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/5025.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10205,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314957508",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "b3224f30c8fdad17c702051794b7035ad104146fc633cdba19d891032c1ffffc",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.9825449999998455
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/4458.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30770,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315267249",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "36a0813bfc4ba2d41ff7883d1ce79183f7fddcf0e6cd7038ee7cbd651c0c791e",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.985037000000375
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/1405.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3471,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "764bf99c17c7ec66d872c3712bd757501df506c46fffb354b8dd6517466bd323",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.983185999999478
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/5532.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10111,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=313618441",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "201f98bbec0b4c9be8c39376291d92317b0191a504032274e8ad3616d02d4dc5",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.985405999999784
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/7093.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9920,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315212381",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "57130cdc31221d64ff3519930971c6426f5365254fc7b3236b2723c90d919d74",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 5.107535000000098
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/5807.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4264,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "81d19739ff6501168f3309bf797d921c94c5668461141a9d6a1f82d46a1f03ab",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.9856870000003255
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/4807.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5233,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314731331",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "cd06ddebcfddab6599faf1e3d1a26b1deaeb71d8462d8f8a0a19e3f4e843c71f",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.985784999999851
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/3750.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3091,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315333015",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "5d3e039c814365d4eb50183ee8aff3ab8ac70d436e03409e0111569631e47588",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.990945999999894
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/3572.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3474,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=313638106",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "89afc46493e7ac8a93f94e6be95391462f564dd1ab9badc0abb9d8f328aceeee",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.98671000000013
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/css/7758.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 15515,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314365255",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "d671b9a09fd6d0978f55669c33deca7e94719028eb8dea12498d0cc3ee1eae2c",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.04125599999952101
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/7758.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21107,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "4b478837c91b211d96b770087f667a6a39f249ca6bd41974ebb73e93ead3458e",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.991559000000052
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/9570.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3639,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314234697",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "0eaa443de9a621786efb49685a4ea2517701215194f18ec1636c26544bd6d17c",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.9887619999999515
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/3684.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6940,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "b1af8f6ca67c2dd0a31b19dcdc3d220d8dada0c4dc3b3ad9cd7c54ed85e2d261",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.987359999999171
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/3675.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4916,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=313991081",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "a4cc8597eca73fd6cf0a4eed7689679afffcae2d94315ad79ba4711869c4dbec",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.9874629999994795
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/2504.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3980,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314255505",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "f54a9134e063499392789f03e14b8816dc75b36bc6fdf642372ee12de74feef6",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.987781000000723
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/2134.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9172,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "20c1b1e589c23ff31abfbbcd81003744384d3aeceba69ef9d898b8713e0a105a",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.988072999999531
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/5076.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5286,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314950838",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "631553d3eb42910a01f4be2415940f2217ddea770ca955705c3997b7fa037ebf",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.988362000000052
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/9540.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3576,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315338182",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "5bb8319a402f7339152a5596c4a93abda3659c449972112e9df1f6e1d5da56fc",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.988859000000048
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/css/7477.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2426,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314606919",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "d49982e7a5949f4e0e0c87547589704e16a02315258488dc5222d90775882761",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.04101799999989453
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/css/7902.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 101678,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315338120",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "a3d53e776b9c95fb4efd8fb40b07f61dae1d9643666cd770f390d9f85fa0dc12",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.07205700000031356
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/7902.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 80674,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "5a0ca715f84cec3db44c8a59e52e9cb5793a090e8b10336e0c09c5f93b1ccb8f",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 5.0009549999995215
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/5935.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5490,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "40d0567cd8b1fcb044fd2f09584ee406810e38bb6ec12a55ba9a730fea968234",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 5.6471190000002025
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/css/Editable.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 941,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314367299",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "cb61eb1f2a5a23f28fa214a2318c5a073687a4a8859f3f26d9aad22c997847f2",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.05075899999974354
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/Editable.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1456,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "2d8ea4b1dd998c246b2d5d743828012eb188f14aeef2d91e68c3828101b0878c",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 5.524564000000282
+      },
+      {
+        "url": "https://i02.appmifile.com/718_operator_us/12/09/2024/32be5e4595be16205c32a270f875e443.jpg?thumb=1&w=2560&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 83390,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Sun, 05 Apr 2026 13:15:18 GMT"
+        },
+        "responseBodyHash": "eb3dba569803c1671986a527b00d127561d44b5b3a4c43ddfa55535933a0ecf8",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.661731000000145
+      },
+      {
+        "url": "https://i02.appmifile.com/645_operator_us/12/09/2024/8afbd6ef7a0070c1e893b343483aa685.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8252,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"46157324f1237e6b6d7f2da6be600e99\"",
+          "expires": "Tue, 07 Apr 2026 16:55:13 GMT"
+        },
+        "responseBodyHash": "1c33645ac7e09dc7fc35a052beec2a116e9d96bdcdcb1de030b5f4a2e66da99f",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.611092000000099
+      },
+      {
+        "url": "https://i02.appmifile.com/493_operator_us/12/09/2024/98698988b8ecc1a8d8de90715c815da4.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8342,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"e57b3369799e487b6a33e31f2e5b581b\"",
+          "expires": "Tue, 05 May 2026 07:00:22 GMT"
+        },
+        "responseBodyHash": "4703aa435a956461c3282af15507a5656c0ef49210c07707416c0af14e93da4c",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.61728100000073
+      },
+      {
+        "url": "https://i02.appmifile.com/579_operator_us/12/09/2024/97a39bcc471b65a0b2e165f85bdadf0f.png?thumb=1&w=2560&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 70726,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Sun, 21 Jun 2026 02:32:32 GMT"
+        },
+        "responseBodyHash": "b34d7f095b071b3a4dc5a76dd8be937ac45fca98ebd0f9e739be796d484b8b0b",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.661714999999276
+      },
+      {
+        "url": "https://i02.appmifile.com/771_operator_us/12/09/2024/9d6312226f79bd295d58d3dda70dc3c5.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9530,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"9015aab17a6a891ac62f878bf626b109\"",
+          "expires": "Sat, 04 Apr 2026 04:24:14 GMT"
+        },
+        "responseBodyHash": "defbf1d3f6b1e212d300f9b0ea6b0e50583cc6d7c3144fe1a135415f70e4c10f",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.6509759999999005
+      },
+      {
+        "url": "https://i02.appmifile.com/71_operator_us/12/09/2024/66bc7f6193cd5e0c119865bb0c1bb2b2.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9516,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"0bd2cfd01a2caaea159969af58b14a73\"",
+          "expires": "Wed, 15 Apr 2026 22:00:45 GMT"
+        },
+        "responseBodyHash": "d8c1645f3ce59a76f5b4529dc0ee2e218bae041cc2c5fd68a3f79bc885c5a957",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.9194379999999
+      },
+      {
+        "url": "https://i02.appmifile.com/368_operator_us/12/09/2024/a94881799a886946d5b74c91c263c7c0.jpg?thumb=1&w=2560&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 417357,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Wed, 15 Apr 2026 22:00:45 GMT"
+        },
+        "responseBodyHash": "55118ba5720ce3c113837756cfb18b52546c0b221e8315a0ff5cbf95bea13320",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.694817999999941
+      },
+      {
+        "url": "https://i02.appmifile.com/166_operator_us/12/09/2024/6a3ad0659b4b264f74d17e6482ffcdef.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5765,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"7f82bd48c10c703501ed0c6b205d1fda\"",
+          "expires": "Sat, 30 May 2026 15:36:26 GMT"
+        },
+        "responseBodyHash": "bbc7cc1c122eee77f4d7d3f20e2db7fd08209020874779cadf0461712d697aac",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.937958999999864
+      },
+      {
+        "url": "https://i02.appmifile.com/491_operator_us/12/09/2024/f41ce0ff1ac8b4372a36edd15f25d3cf.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5721,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"064d4aec4a232752ba2c52240684ac85\"",
+          "expires": "Wed, 15 Apr 2026 22:00:29 GMT"
+        },
+        "responseBodyHash": "e1580ec9e5e2fb1620fb3111d619b0b77e66c97f31e080bec967723affaa4de2",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.921049000000494
+      },
+      {
+        "url": "https://i02.appmifile.com/635_operator_us/12/09/2024/337e68fd3e380a12ec1d817bf96a723e.jpg?thumb=1&w=2560&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 241304,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Wed, 15 Jul 2026 13:28:51 GMT"
+        },
+        "responseBodyHash": "7f2b7911490f1783786a38b27b3583f271aef025cb853fbefefaa028297ecf5e",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.661906999999701
+      },
+      {
+        "url": "https://i02.appmifile.com/389_operator_us/12/09/2024/86b4647a8ccd205140e667787fc9d7f9.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12153,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"5b9c556f3f5adf18f0a7ce3806584940\"",
+          "expires": "Sat, 25 Jul 2026 13:02:35 GMT"
+        },
+        "responseBodyHash": "565f36a5118af861ba1765b7ca32af6479b932f0a0feaa6d97f3d7c1fc372f90",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.923784999999953
+      },
+      {
+        "url": "https://i02.appmifile.com/845_operator_us/12/09/2024/8ec78c63b8b2aca4c065dde5c7176502.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12165,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"b7fb06b459334374c9fc8e3a6219ef8d\"",
+          "expires": "Tue, 05 May 2026 07:00:22 GMT"
+        },
+        "responseBodyHash": "f8df34f730671095f6c94df9a0e8ce090e2f5ee657f4d750f86e4c7bffe2b112",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.938117000000602
+      },
+      {
+        "url": "https://i02.appmifile.com/674_operator_us/12/09/2024/36b3dce6577718e95fb53e8bb0b8694c.jpg?thumb=1&w=660&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35792,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Wed, 01 Jul 2026 16:22:13 GMT"
+        },
+        "responseBodyHash": "f3eb63422cd639b22b71a4d7c2289c1b5d5cb4329bf943da7b74a7ec50bff229",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.9221410000000105
+      },
+      {
+        "url": "https://i02.appmifile.com/502_operator_us/16/08/2024/bbbb3ef17b336ee4b8e4c496684e5eb1.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8451,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"88551e7ad521c1e73d463b202755ebcf\"",
+          "expires": "Wed, 15 Apr 2026 22:00:45 GMT"
+        },
+        "responseBodyHash": "138f9792f1ddfc97eaf1db9b2dcec38fb8ad10e80af7161b5d8099d5ca0e48ff",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.921560999999201
+      },
+      {
+        "url": "https://i02.appmifile.com/638_operatorx_operatorx_opx/12/07/2024/96654c19e139fc193312fce677a60008.png?thumb=1&w=160&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4053,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Wed, 15 Jul 2026 12:29:50 GMT"
+        },
+        "responseBodyHash": "bd0dbe0c1e81268e6078b6ebe5a238595b5eff7291b49c3fb5cfde76efc3f738",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.937479000000167
+      },
+      {
+        "url": "https://i02.appmifile.com/996_operatorx_operatorx_opx/11/10/2023/9dea8e756a357911d5a9921a4f7af6af.png?thumb=1&w=160&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3916,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Fri, 08 May 2026 02:05:19 GMT"
+        },
+        "responseBodyHash": "22c8547a7fe6c8655cc3ba8796d00094aa3398e8b6d806cbc72fd30506a6cf59",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.937084000000141
+      },
+      {
+        "url": "https://i02.appmifile.com/409_operatorx_operatorx_opx/12/07/2024/ea2bde2a3a3e90e454f6ea83b2dbfe07.png?thumb=1&w=160&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4346,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Sat, 04 Apr 2026 04:24:16 GMT"
+        },
+        "responseBodyHash": "0f49ec2a02abc242062f576d60e50c4709ffcfb1cc227da40e6e194f477c01d3",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.920732000000498
+      },
+      {
+        "url": "https://i02.appmifile.com/505_operatorx_operatorx_opx/23/02/2024/e0c147c194d31c32098f391e326c24f6.png?thumb=1&w=160&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3565,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Sat, 25 Jul 2026 00:12:42 GMT"
+        },
+        "responseBodyHash": "5086373d7a488bf8963ef5bbe14f4424e6c82b8df5657272ddbdd83abf9b4ca4",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.921018000000004
+      },
+      {
+        "url": "https://i02.appmifile.com/423_operator_us/12/09/2024/3a9af3269db16701c4a95542b8f7e61c.jpg?thumb=1&w=660&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18912,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Mon, 27 Jul 2026 21:31:43 GMT"
+        },
+        "responseBodyHash": "8f1be6fe03442c80732982546260b2f11c53cd1799c4cbe752981628c271fa51",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.924551000000065
+      },
+      {
+        "url": "https://i02.appmifile.com/106_operator_us/12/09/2024/69236c32564d3f8278813c738ae74d15.jpg?thumb=1&w=660&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 32049,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Tue, 05 May 2026 07:53:56 GMT"
+        },
+        "responseBodyHash": "ee98477ebe340b1c4e1d0bec0a29c86bea21f86e92d4e1f4d6d6e299f3fe7c34",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.937601000000541
+      },
+      {
+        "url": "https://i02.appmifile.com/938_operator_us/12/09/2024/3ebe22526caadb1707584076368c77d1.jpg?thumb=1&w=660&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 34182,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Tue, 14 Apr 2026 14:30:11 GMT"
+        },
+        "responseBodyHash": "e2f562f4302f89d94ae840722b97fb2f99d788bf4e38f06ba0463de771acfbd5",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.936627000000044
+      },
+      {
+        "url": "https://polyfill-fastly.io/v3/polyfill.min.js?features=es2015%2Ces2016%2Ces2017%2Ces2018%2Ces2019%2CIntersectionObserverEntry%2CIntersectionObserver",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 361,
+        "remoteIPAddress": "151.101.193.91",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=604800, stale-while-revalidate=604800, stale-if-error=604800, immutable"
+        },
+        "responseBodyHash": "6c68769e8470ce89a0f2270529a5d47db00917e3ef9df946dca202098f09d0a2",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 5.811647999999877
+      },
+      {
+        "url": "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29444,
+        "remoteIPAddress": "151.101.66.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"813ca082338abb1f915e1f303f01a706\"",
+          "expires": "Sun, 26 Oct 2025 07:11:43 GMT"
+        },
+        "responseBodyHash": "ecd68c6229cc13de51a58b70479f8b0629281fc7972d81994e7d4b1f3ffff2e2",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.705289000000448
+      },
+      {
+        "url": "https://www.mi.com/us/manifest.json?xm-v=0.54.229",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 1174,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com\nxm_user_bucket=7;expires=Fri, 30 Apr 2027 20:02:38 GMT;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "1b4d8372057e398f6c8b2ccaec509c973948979d874239a0a45a460d6f4cbd1e",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 4.8234990000000835
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5KRKGGMR&l=infraConfigDataLayer",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 115295,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:02:38 GMT"
+        },
+        "responseBodyHash": "4a67d226157944204c4ada074d14580c60b74812460d2bd17145fa192c96cec2",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.40688000000045577
+      },
+      {
+        "url": "https://cdn.alsgp0.fds.api.mi-img.com/xiaomi-b2c-i18n-upload/i18n/micon/iconfont.css?t=1761546803955",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 44102,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=6932764",
+          "etag": "\"298e5f39814dcb81e9e70d0ade0702ce\""
+        },
+        "responseBodyHash": "33ee7277784cebeaa2f0e11280e7bc3f4d0eef67198e097e4da350f6209bf6ee",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/css/us/index.css"
+        ],
+        "time": 0.12017400000058842
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/fonts/POCOTechCool/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 872,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314570710",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "b48e76c7e735b2cd8f2bad300c1e9b8f51ed7d6dd31d2437946abc3a06c4cb21",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/css/7902.chunk.css"
+        ],
+        "time": 0.029671999999663967
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 183035,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:02:38 GMT"
+        },
+        "responseBodyHash": "b92bfc1fbb57f1417a2483fa8ae86a4210aa41995e4195a6b077a254aa6b62b3",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.3950830000003407
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 47177,
+        "remoteIPAddress": "23.40.24.182",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "359b1c4b99bcaf83ccefe6935c1e58d03e1780c81b1784d44f301f531e4d0860",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.2642909999995027
+      },
+      {
+        "url": "https://i02.appmifile.com/i18n/fonts/MiSansLatin/vf/4.woff2?v=lwrpi0tp",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 35759,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"03563478bb9a1564aad0693121ccbab9\"",
+          "expires": "Thu, 07 May 2026 11:51:07 GMT"
+        },
+        "responseBodyHash": "1d075239a73d2ad0c930452b06b94d76158f18e2ce7586bdeb7db37d0f9e75f1",
+        "initiators": [
+          "https://i02.appmifile.com/i18n/fonts/MiSansLatin/index.css"
+        ],
+        "time": 0.17758799999955954
+      },
+      {
+        "url": "https://i01.appmifile.com/webfile/globalimg/pandora/user-head/user-avatar-v4-default.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2273,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"3272c9260f77e7a086de9f4e389b4237\"",
+          "expires": "Sun, 05 Apr 2026 12:26:56 GMT"
+        },
+        "responseBodyHash": "c1225b0121f5efda2d32646c15c41c27339098eaa6405b992e9a5387d2d96589",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.04546000000027561
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-411786826&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 146851,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:02:38 GMT"
+        },
+        "responseBodyHash": "3fcd1a97fe9fdaa55d6d03edce4136a72e00c7697e8e7c49581bd295cc8971b8",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.13531200000034005
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-777641845&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 148576,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:02:38 GMT"
+        },
+        "responseBodyHash": "b05d65659dc4dd900f271ec84c0304ce5a4b08c9aed2d48c1ebb283060cc00a6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.1321379999999408
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-M7BZ346GN7",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 171374,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:02:38 GMT"
+        },
+        "responseBodyHash": "b64e379202e9c901cc3dc55e4379bd5cfa484a98b9d9dcc461aee517ae7375b5",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.15469800000028044
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.mi.com%2Fus%2F&scrsrc=www.googletagmanager.com&rnd=2011772974.1774987359&dt=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&auid=1820925883.1774987359&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He63u0v843571270za200zd843571270xea&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115616985~115938466~115938469~116991817~117884344~118012005~118128923&apve=1&apvf=f&apvc=1&tft=1774987358729&tfd=6676",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.157.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.07958899999994173
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/777641845/?random=1774987358920&cv=11&fst=1774987358920&bg=ffffff&guid=ON&async=1&gtm=45be63u0v876492531z8843571270za20gzb843571270zd843571270xea&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115616986~115938466~115938469~116991817~117266401~118128922&u_w=800&u_h=600&url=https%3A%2F%2Fwww.mi.com%2Fus%2F&frm=0&tiba=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1820925883.1774987359&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2143,
+        "remoteIPAddress": "172.217.12.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 20:17:39 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "597cd95c1b7b406fb146df9a28f04b4f443799aa7f19147de760c8dfccef8398",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/destination?id=AW-777641845&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.1931960000001709
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&ae=g&dl=https%3A%2F%2Fwww.mi.com%2Fus%2F&scrsrc=www.googletagmanager.com&rnd=2011772974.1774987359&dt=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&auid=1820925883.1774987359&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45be63u0v876492531z8843571270za20gzb843571270zd843571270xea&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115616986~115938466~115938469~116991817~117266401~118128922&apve=1&apvf=f&apvc=0&tids=AW-777641845&tid=AW-777641845&tft=1774987358944&tfd=6892",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.157.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/destination?id=AW-777641845&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.17874699999993027
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/411786826/?random=1774987359009&cv=11&fst=1774987359009&bg=ffffff&guid=ON&async=1&gtm=45be63u0v895418459z8843571270za20gzb843571270zd843571270xea&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115938466~115938469~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.mi.com%2Fus%2F&frm=0&tiba=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1820925883.1774987359&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2124,
+        "remoteIPAddress": "172.217.12.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 20:17:39 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e903ce542caec90625d18feb16a52171a8856de02ec932849b22e63c6551acdc",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/destination?id=AW-411786826&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.0931879999998273
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/411786826/?random=1774987359009&cv=11&fst=1774987359009&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be63u0v895418459z8843571270za20gzb843571270zd843571270xea&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115938466~115938469~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.mi.com%2Fus%2F&frm=0&tiba=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1820925883.1774987359&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&gcp=5",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.157.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/destination?id=AW-411786826&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.11845699999958015
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&ae=g&dl=https%3A%2F%2Fwww.mi.com%2Fus%2F&scrsrc=www.googletagmanager.com&rnd=2011772974.1774987359&dt=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&auid=1820925883.1774987359&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45be63u0v895418459z8843571270za20gzb843571270zd843571270xea&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115938466~115938469~116991816&apve=1&apvf=f&apvc=0&tids=AW-411786826&tid=AW-411786826&tft=1774987359040&tfd=6987",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.157.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/destination?id=AW-411786826&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.11021299999993062
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-213608374-11&cx=c&gtm=4e63u1h2",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125117,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:02:39 GMT"
+        },
+        "responseBodyHash": "3c045a4b40bb3f23d8485be3f839ca34fc97c0dc3f0e6d7abc60e85a2a773862",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-M7BZ346GN7",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.15557500000068103
+      },
+      {
+        "url": "https://alisgp-sentry.d.xiaomi.net/api/4/envelope/?sentry_key=3af74c2d5d8b493f93abc405cb83371a&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.64.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 201,
+        "remoteIPAddress": "47.236.118.158",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.9108580000001893
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/411786826/?random=1774987359009&cv=11&fst=1774987200000&bg=ffffff&guid=ON&async=1&gtm=45be63u0v895418459z8843571270za20gzb843571270zd843571270xea&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115938466~115938469~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.mi.com%2Fus%2F&frm=0&tiba=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1820925883.1774987359&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsAEABaugfRBrN6EtwAMUR2NicGyPttvKmOMDt25_EdFDCrxXR776Iu4BV0GPDPTnrSXwi4u5Eiw43tJ1mneBYQkpyaCd798K_h4ySmaEdbCwUn62uuSrTgmgwXQQGRUNtP36mh6G7AVCvNFVCfBsMxthtFilvXl6khNskWdxLMjEFLlJIgJmZ1gmZcc8na2YG_3Y0N8JKenUMrgvBVji9SUoLGt840XI5_Z1FxWw_tJIeg&random=2667374185&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.157.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/411786826/?random=1774987359009&cv=11&fst=1774987359009&bg=ffffff&guid=ON&async=1&gtm=45be63u0v895418459z8843571270za20gzb843571270zd843571270xea&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115938466~115938469~116991816&u_w=800&u_h=600&url=https%3A%2F%2Fwww.mi.com%2Fus%2F&frm=0&tiba=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1820925883.1774987359&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&rfmt=3&fmt=4",
+          "https://www.googletagmanager.com/gtag/destination?id=AW-411786826&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.033220999999684864
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/777641845/?random=1774987358920&cv=11&fst=1774987200000&bg=ffffff&guid=ON&async=1&gtm=45be63u0v876492531z8843571270za20gzb843571270zd843571270xea&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115616986~115938466~115938469~116991817~117266401~118128922&u_w=800&u_h=600&url=https%3A%2F%2Fwww.mi.com%2Fus%2F&frm=0&tiba=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1820925883.1774987359&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsAEABaugfWtxiDwxpB_0PH8Yu-r0GOYOCLmL46IJ1Echtqk3bpSKYyQ_2p9xYVmX1mbc-Juuq0gxGWDqdYjsJbc7WDRaXDvHZebrqwax-QGX6Gt35HkeNpB_bBbVaIfyj-RoMESOz_38xU7LFQIErYt9WAtn5odWnj9WCtYkEnxG7UCkRt5KVOFT3dJhyK0ckvD8kMZNzaw-RLZdtqZA2eZ9cZJJ8e2l0bT-jkFf7Rb5lA&random=2580070240&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.157.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/777641845/?random=1774987358920&cv=11&fst=1774987358920&bg=ffffff&guid=ON&async=1&gtm=45be63u0v876492531z8843571270za20gzb843571270zd843571270xea&gcd=13l3l3l3l5l1&dma=0&tag_exp=0~115616986~115938466~115938469~116991817~117266401~118128922&u_w=800&u_h=600&url=https%3A%2F%2Fwww.mi.com%2Fus%2F&frm=0&tiba=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1820925883.1774987359&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&rfmt=3&fmt=4",
+          "https://www.googletagmanager.com/gtag/destination?id=AW-777641845&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.03860900000017864
+      },
+      {
+        "url": "https://go.buy.mi.com/us/diversion?channel_tag=Direct",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 827,
+        "remoteIPAddress": "161.117.160.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "set-cookie": "xmuuid=XMGUEST-C1066AE3-3EBC-BB1A-3370-2674B5A669C4; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com\ncanary=1; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com",
+          "timing-allow-origin": "https://www.mi.com, https://buy.mi.com, https://m.buy.mi.com"
+        },
+        "responseBodyHash": "60c88f15384f8c934597d3825ed5d5af9a59b27dba078ebfa02bbfcae29aae67",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.969756999999845
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/css/9762.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4212,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315095842",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "94915fa50563dd08c1e141cffdfc0e1d15ad98fadab4a4f27227b671ccef8853",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.07553100000041013
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/9762.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7123,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=313826590",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "2c18b1890ea48a0963f7a7bc5f70098b094c109f3d6f8773648543ab2407b9c9",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.07570000000032451
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/css/9376.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6679,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=313674916",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "d488f64a453d1dba8370a8da600c0d155b176cd3861bde4f7bf379e7e04bb456",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.07522900000003574
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/9376.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7990,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315298784",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "e7095a91ae2c1e85748af8e34f123a5003420effe32e1776d2206f6036ff1b85",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.08567299999958777
+      },
+      {
+        "url": "https://go.buy.mi.com/us/cms/v2/page/header-footer?cacheable=1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4568,
+        "remoteIPAddress": "161.117.160.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "set-cookie": "xmuuid=XMGUEST-EE6DF5EC-A065-B9A8-C93A-DEAB515ECBDD; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com\ncanary=1; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com",
+          "timing-allow-origin": "https://www.mi.com, https://buy.mi.com, https://m.buy.mi.com"
+        },
+        "responseBodyHash": "1326db530838116c57ccab1e9100d0546e2e72789f90150dca3c5c46d1897810",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.927733000000444
+      },
+      {
+        "url": "https://go.buy.mi.com/us/app/userprofile?cacheable=1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 846,
+        "remoteIPAddress": "161.117.160.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "set-cookie": "xmuuid=XMGUEST-7E3FA90D-5375-013B-DF1F-3C699A7C68B8; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com\ncanary=1; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com",
+          "timing-allow-origin": "https://www.mi.com, https://buy.mi.com, https://m.buy.mi.com"
+        },
+        "responseBodyHash": "8777b820034c1f4f36b6391d1b9e316c2fcbad22bcc9161147e90f6e2b5a4856",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.7495740000003934
+      },
+      {
+        "url": "https://go.buy.mi.com/us/v2/cms/page/get?from=web&cacheable=1&path=index",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6772,
+        "remoteIPAddress": "161.117.160.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "set-cookie": "xmuuid=XMGUEST-584F1569-6F24-4B8B-21F8-1321A866375A; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com\ncanary=1; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com",
+          "timing-allow-origin": "https://www.mi.com, https://buy.mi.com, https://m.buy.mi.com"
+        },
+        "responseBodyHash": "cf5c93c0a1807c8602e5eba8a6d6e20274a74c3c0a19260287ccc0eaaf9244a8",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/5935.chunk.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.7917369999995572
+      },
+      {
+        "url": "https://go.buy.mi.com/us/v2/cms/support/consumer-service",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 839,
+        "remoteIPAddress": "161.117.160.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "set-cookie": "xmuuid=XMGUEST-78E51901-B3F7-8276-CE71-A6070A122E0B; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com\ncanary=1; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com",
+          "timing-allow-origin": "https://www.mi.com, https://buy.mi.com, https://m.buy.mi.com"
+        },
+        "responseBodyHash": "0defe802be39bdf657e1cfb804cab120ece6f8b77e1b0cde315e31701dad8bd7",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.6271820000001753
+      },
+      {
+        "url": "https://c.go-mpulse.net/api/config.json?key=CGK7X-KWLZ2-9JBMW-YPK4H-NXS33&d=www.mi.com&t=5916625&v=1.815.70&sl=0&si=4b987d87-e476-4002-9e17-2f0a11bbfbd0-tcs508&plugins=AK,ConfigOverride,Continuity,PageParams,RT,PaintTiming,NavigationTiming,ResourceTiming,Memory,Errors,Akamai,EventTiming,BFCache,LOGN&acao=&ak.ai=604632",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 932,
+        "remoteIPAddress": "23.40.24.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=300, stale-while-revalidate=60, stale-if-error=120",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "700ad3540c773c780a3c588c6591e79706574cfd0474cb519c26befe975274f3",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.14860000000044238
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-TN8XYTFEY2&cx=c&gtm=4e63u1h2",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 147131,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:02:39 GMT"
+        },
+        "responseBodyHash": "bba2ec854ebc82aa950053a2ebd5d2f2520dae9f011485d3bbcf5a193d86a78f",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-213608374-11&cx=c&gtm=4e63u1h2",
+          "https://www.googletagmanager.com/gtag/js?id=G-M7BZ346GN7",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.23297200000070006
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21409,
+        "remoteIPAddress": "142.251.219.46",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 31 Mar 2026 21:28:04 GMT"
+        },
+        "responseBodyHash": "f1a61277e3f902f50ab42015d8b07218db9b7601bb0967e54a52bfdcb4fa7e81",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-213608374-11&cx=c&gtm=4e63u1h2",
+          "https://www.googletagmanager.com/gtag/js?id=G-M7BZ346GN7",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.11749799999961397
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TN8XYTFEY2&gtm=45je63u1h2v9124989439za20gzd874595450&_p=1774987358147&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&cid=36164515.1774987360&ul=en-us&sr=800x600&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAI&_s=1&tag_exp=0~115938466~115938468~116991816~117384406&sid=1774987360&sct=1&seg=0&dl=https%3A%2F%2Fwww.mi.com%2Fus%2F&dt=Xiaomi%20United%20States%20%7C%20Xiaomi%20Official%20Website&_tu=CA&en=page_view&_fv=1&_ss=1&tfd=7994",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.219.46",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.googletagmanager.com/gtag/js?id=G-TN8XYTFEY2&cx=c&gtm=4e63u1h2",
+          "https://www.googletagmanager.com/gtag/js?id=UA-213608374-11&cx=c&gtm=4e63u1h2",
+          "https://www.googletagmanager.com/gtag/js?id=G-M7BZ346GN7",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.04738499999984924
+      },
+      {
+        "url": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 138500,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"3269e96398462eb270fdf244776f5e49\"",
+          "expires": "Sun, 19 Jul 2026 13:24:17 GMT"
+        },
+        "responseBodyHash": "878ec008b1d47a0e19353194656074e6d921ef27f6de0c1a3299f7bf069ea764",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-5KRKGGMR&l=infraConfigDataLayer",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.03183900000021822
+      },
+      {
+        "url": "https://i02.appmifile.com/i18n/scm/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1945,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"2989324a6db553aa43db3187f3c372f4\"",
+          "expires": "Tue, 14 Jul 2026 15:08:29 GMT"
+        },
+        "responseBodyHash": "1b594520b8153fca5ab6e93fa62aff5a31fa068580618bb77b38092ba09ab843",
+        "initiators": [],
+        "time": 0.02718300000015006
+      },
+      {
+        "url": "https://i02.appmifile.com/i18n/images/pwa/192x192.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 7845,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "etag": "\"dcea3b150d2f3fe46888b3ac21067e32\"",
+          "expires": "Sat, 11 Apr 2026 12:51:40 GMT"
+        },
+        "responseBodyHash": "f424dcfea6e542ce9cc02500271686be554e6f59f12016f91acb03e160799054",
+        "initiators": [],
+        "time": 0.027129000000059023
+      },
+      {
+        "url": "https://go.buy.mi.com/us/base/cookie-config?location=https%3A%2F%2Fwww.mi.com%2Fus%2F",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1342,
+        "remoteIPAddress": "161.117.160.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "set-cookie": "canary=1; Expires=Tue, 30 Jun 2026 20:02:39 UTC; Max-Age=7862399; Path=/; Domain=.mi.com",
+          "timing-allow-origin": "https://www.mi.com, https://buy.mi.com, https://m.buy.mi.com"
+        },
+        "responseBodyHash": "e0b5403acdebd52c1076a3b22e948a5d09db22b5c81c586dddd1ee7d3dcc27c4",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-5KRKGGMR&l=infraConfigDataLayer",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33"
+        ],
+        "time": 0.4083120000004783
+      },
+      {
+        "url": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt?c=pfc8wc15m",
+        "method": "GET",
+        "type": "XHR",
+        "status": 302,
+        "remoteIPAddress": "23.44.229.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://qb4fkdixfts6e2omfbqa-pfc8wc-3e2f53686-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33"
+        ],
+        "time": 0.054412000000411354
+      },
+      {
+        "url": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt?c=pfc8wc15m",
+        "method": "GET",
+        "type": "XHR",
+        "status": 302,
+        "remoteIPAddress": "23.212.62.70",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://128-120-85-13_s-23-212-62-70_ts-1774987360-clienttons-s.akamaihd.net/eum/results.txt",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33"
+        ],
+        "time": 0.053861000000324566
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89269,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:40 GMT"
+        },
+        "responseBodyHash": "93295da231f5ea4e0647d975213b0ef9b4e70a365b349ea151f568a4d6cfb3a5",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.20663599999988946
+      },
+      {
+        "url": "https://128-120-85-13_s-23-212-62-70_ts-1774987360-clienttons-s.akamaihd.net/eum/results.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 312,
+        "remoteIPAddress": "23.212.62.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"402e7a087747cb56c718bde84651f96a:1367999472\""
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedFrom": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt?c=pfc8wc15m",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33"
+        ],
+        "time": 0.17810800000006566
+      },
+      {
+        "url": "https://qb4fkdixfts6e2omfbqa-pfc8wc-3e2f53686-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 312,
+        "remoteIPAddress": "23.44.229.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"402e7a087747cb56c718bde84651f96a:1367999472\""
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedFrom": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt?c=pfc8wc15m",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33"
+        ],
+        "time": 0.1724739999999656
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23747,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314809744",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "b2e5aea3008b4fdb42e05f7ed8a4e006c59e9a8ff700781dcb0fc7f7704edab4",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.040185000000747095
+      },
+      {
+        "url": "blob:https://www.mi.com/1a74a458-deb9-47dc-a26d-80a4f1f7032c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "afb6fb55093df3f8539c0240c7928f0a89a09d8b146921466e6ab9f7853e425b",
+        "initiators": [
+          "https://www.mi.com/us/"
+        ],
+        "time": 0.36767299999974057
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/ym_base.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5872,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:40 GMT"
+        },
+        "responseBodyHash": "4db50dcb68271e34b3105a5dee0203e0f044b7c21a338315f43830f43621d811",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.0382129999998142
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/animate.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7272,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:40 GMT"
+        },
+        "responseBodyHash": "b2dc07b18a526c91118b214c13b883749f9b000c9ba855ca0f4624f1dc0201b4",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.038228000000344764
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 179674,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:41 GMT"
+        },
+        "responseBodyHash": "f20973c8aee93378edc3f98ae4bccb40f22163dd234a3b52442b4ce6da6f0108",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.10768099999950209
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/481.1f07b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 109807,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314310621",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "bea124b86e5f41c33686a69574466142bd224ae522b548d9bf24a76cc80472b4",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.07682999999997264
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 20288,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=315050235",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "5dd3a61197247fb2be0dc16bf5e5c2f01adb6daa9370b68c89aff0d5fc4c0ed4",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.08051499999965017
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.7792d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34309,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314809746",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "8af58688f16745683bfddada7eaafb19b9cda14aab2d27f9907aa85a60684fc5",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.06797699999970064
+      },
+      {
+        "url": "https://cdn.alsgp0.fds.api.mi-img.com/xiaomi-b2c-i18n-upload/i18n/micon/iconfont.css?t=1741663932511",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 44102,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=5788941",
+          "etag": "\"298e5f39814dcb81e9e70d0ade0702ce\""
+        },
+        "responseBodyHash": "33ee7277784cebeaa2f0e11280e7bc3f4d0eef67198e097e4da350f6209bf6ee",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.index.css"
+        ],
+        "time": 0.017001000000163913
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/ym_worker.min.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 855,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 20:02:41 GMT"
+        },
+        "responseBodyHash": "89cdb05ece401aa4633406778c68ed7c0effca9b381288da3855a65138e35a55",
+        "initiators": [
+          "blob:https://www.mi.com/1a74a458-deb9-47dc-a26d-80a4f1f7032c"
+        ],
+        "time": 0.022826000000350177
+      },
+      {
+        "url": "blob:https://www.mi.com/48a0880f-899e-43f3-a0f4-080bdac26020",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "afb6fb55093df3f8539c0240c7928f0a89a09d8b146921466e6ab9f7853e425b",
+        "initiators": [
+          "about:blank"
+        ],
+        "time": 0.49207100000057835
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/ym_toast.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2844,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:41 GMT"
+        },
+        "responseBodyHash": "6191104a918d15578604728ee4c7965887f3cf65f4b07638aa98866f901914ca",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.02069599999958882
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/ym_skeleton.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2912,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:41 GMT"
+        },
+        "responseBodyHash": "3f8042aa5f99c22f311d614a846adf41abbef9c7e04a41d34362a861df7a1659",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.030636999999842374
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/ym-file-upload-utils.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3707,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:41 GMT"
+        },
+        "responseBodyHash": "82f8808e8e774da48b4bf476f679cb66339f003f96f26b7d5badc61f4bd57d27",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.02448999999978696
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/52.4c3d9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24531,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314812705",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "02ada695a4a967404270381b954bf9813826900826b0ad952d50afba0db78f41",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js",
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.7792d.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js"
+        ],
+        "time": 0.05308899999999994
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/262.index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6460,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314812705",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "a40a137671e886b17838e529fedac0cb41254740802823c3b1e8444996a29cf0",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js",
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.7792d.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js"
+        ],
+        "time": 0.03560899999956746
+      },
+      {
+        "url": "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/262.23f53.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6010,
+        "remoteIPAddress": "23.212.62.71",
+        "responseHeaders": {
+          "cache-control": "max-age=314812705",
+          "set-cookie": "xm_geo=US;path=/; domain=.mi.com"
+        },
+        "responseBodyHash": "cc6044c577d2ba3426ee90a7f198d9515e2ee4c52a10374952eafeaf19c562e5",
+        "initiators": [
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js",
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.7792d.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js"
+        ],
+        "time": 0.07154400000035821
+      },
+      {
+        "url": "https://go.buy.mi.com/us/app/userprofile?cacheable=1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 735,
+        "remoteIPAddress": "161.117.160.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "set-cookie": "canary=1; Expires=Tue, 30 Jun 2026 20:02:40 UTC; Max-Age=7862399; Path=/; Domain=.mi.com",
+          "timing-allow-origin": "https://www.mi.com, https://buy.mi.com, https://m.buy.mi.com"
+        },
+        "responseBodyHash": "8777b820034c1f4f36b6391d1b9e316c2fcbad22bcc9161147e90f6e2b5a4856",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.7792d.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js"
+        ],
+        "time": 0.2730219999994006
+      },
+      {
+        "url": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666840186.22353127.png?thumb=1&w=200&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3385,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Sat, 06 Jun 2026 02:21:19 GMT"
+        },
+        "responseBodyHash": "ea13c6d0a4fccbec679a1d2e98dcb2f273cf8164650fc319bc21822147ac8f63",
+        "initiators": [],
+        "time": 0.014619000000493543
+      },
+      {
+        "url": "https://i02.appmifile.com/413_operatorx_operatorx_opx/11/01/2024/c4dc8c66faa8d0a2f98de1d8657dd8c3.png?thumb=1&w=200&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6035,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Wed, 29 Jul 2026 11:19:05 GMT"
+        },
+        "responseBodyHash": "fb5e3c36a059846b94906d6ce42ec8d11e25f1e7eb772203757b687ff86fd5be",
+        "initiators": [],
+        "time": 0.014895999999680498
+      },
+      {
+        "url": "https://i02.appmifile.com/735_operatorx_operatorx_opx/11/01/2024/34bf6081e4d7666038873f17cd02eb84.png?thumb=1&w=200&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5668,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Fri, 03 Apr 2026 20:50:51 GMT"
+        },
+        "responseBodyHash": "f963d1d7bb57bbc0bfbd961547be23c0dc571dad04529104fa846a91e7c11f09",
+        "initiators": [],
+        "time": 0.024479999999130087
+      },
+      {
+        "url": "https://i02.appmifile.com/746_operatorx_operatorx_opx/18/05/2023/c099315037d1ebc4d228f2138d0b093b.png?thumb=1&w=200&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5885,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Fri, 03 Apr 2026 12:12:09 GMT"
+        },
+        "responseBodyHash": "0c6189bf58a085c3aabfa978cfab7401b3eced682bf6d134861d349e5203adf3",
+        "initiators": [],
+        "time": 0.021375000000261934
+      },
+      {
+        "url": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1675060078.80189756.png?thumb=1&w=200&f=webp&q=85",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3243,
+        "remoteIPAddress": "138.113.24.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10368000",
+          "expires": "Thu, 16 Apr 2026 00:15:24 GMT"
+        },
+        "responseBodyHash": "586662a50e72c1641567309b26a7d0654d5bfeec26af5fa898337b0c2d4036c8",
+        "initiators": [],
+        "time": 0.02389099999982136
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/ym_worker.min.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 20:02:41 GMT"
+        },
+        "responseBodyHash": "89cdb05ece401aa4633406778c68ed7c0effca9b381288da3855a65138e35a55",
+        "initiators": [
+          "blob:https://www.mi.com/48a0880f-899e-43f3-a0f4-080bdac26020"
+        ],
+        "time": 0.002427999999781605
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget-css.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22447,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:42 GMT"
+        },
+        "responseBodyHash": "fa2788e9ff99d964ccb5d8c381c8e1fbac0003d3961d1a64099ca74434246445",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.032674000000042724
+      },
+      {
+        "url": "https://cloud.yellow.ai/api/plugin/bot-load-details?bot=x1724910215783",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.6.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"4-Yf+Bwwqjx254r+pisuO9HfpJ6FQ\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cloud.yellow.ai/api/plugin/bot-load-details?bot=x1724910215783"
+        ],
+        "time": 0.3100330000006579
+      },
+      {
+        "url": "https://cloud.yellow.ai/api/plugin/bot-load-details?bot=x1724910215783",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 838,
+        "remoteIPAddress": "104.18.6.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"706-bu/z9Us9IlcDDi4xGs+XaD9OOIo\""
+        },
+        "responseBodyHash": "e61ed5e04356eb147f9a780aec10fe7b99d5c76463ae52b82b8711697042a268",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.5993339999995442
+      },
+      {
+        "url": "https://17de4c0f.akstat.io/",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 223,
+        "remoteIPAddress": "23.40.24.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 20:02:42 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js"
+        ],
+        "time": 0.2608199999995122
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/ym_stt.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6391,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "03600f34ac60d4412e7354d07998d0601eded92be4bbaff3d84323de1b69d00f",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.02797199999986333
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/open-sans.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1216,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "1436c48e326b6b119a9eb8fd022f110be16605715638f1df029d885fc6ee27f4",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.02069500000015978
+      },
+      {
+        "url": "https://cloud.yellow.ai/api/plugin/push-to-metrics?bot=x1724910215783&linkType=web&payload=[object%20Object]&source=yellowmessenger&subSource=null&_=1774987361543",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.6.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"d-bMedpZYGrVt1nR4x+qdNZ2GqyRo\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cloud.yellow.ai/api/plugin/push-to-metrics?bot=x1724910215783&linkType=web&payload=[object%20Object]&source=yellowmessenger&subSource=null&_=1774987361543"
+        ],
+        "time": 0.3361000000004424
+      },
+      {
+        "url": "https://cloud.yellow.ai/api/plugin/push-to-metrics?bot=x1724910215783&linkType=web&payload=[object%20Object]&source=yellowmessenger&subSource=null&_=1774987361543",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 168,
+        "remoteIPAddress": "104.18.6.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"2e-Gyi7Bl4WvG7CJ8s8OsTledI1y70\""
+        },
+        "responseBodyHash": "f57faa602933fa2c5449d3487280a5bd1d82fd8f8a2ddcef80de8847c7d1121b",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.6087719999995898
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/slick-css.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3677,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "b62077f5471b038d517d38c5fc91015bad0f89eb05fdc1c97cc0fbe29e833dde",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.023210999999719206
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/slick.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10902,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "93e53d536f1793bfe776743fae091c459518c8523f22ac5499b68558adc5b64d",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.024490000000696455
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/i18n-hi-translation.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3150,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "b6526712903f8f3e4b654b5d6e4887acdaa82f5654d6c50ee03354f2a1d67f94",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.024116999999932887
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/YHJine4z64SD1761977336776.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29725,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "0x8DE190D24DEE0B8",
+          "expires": "Wed, 31 Mar 2027 20:02:43 GMT"
+        },
+        "responseBodyHash": "866e336cbe467d7913a3d764f8016ec5f8b01e801dda93eed5533e53fea01c1d",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.022087999999712338
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/open-sans.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 505,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "etag": "0x8DAEC91B3F2CEC3",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "1436c48e326b6b119a9eb8fd022f110be16605715638f1df029d885fc6ee27f4",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.022876999999425607
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/YHJine4z64SD1761977336776.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "0x8DE190D24DEE0B8",
+          "expires": "Wed, 31 Mar 2027 20:02:43 GMT"
+        },
+        "responseBodyHash": "866e336cbe467d7913a3d764f8016ec5f8b01e801dda93eed5533e53fea01c1d",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.009122000000388653
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/0z9e5AvCP3PD1739162893178.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 82846,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "0x8DD498E2042D23C",
+          "expires": "Wed, 31 Mar 2027 20:02:43 GMT"
+        },
+        "responseBodyHash": "f52fe0e7c33d33dcaf97f2e619b36fd5a3639e6ef98869b7fd46fef1d961a571",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.035183999999389926
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/cognitiveservices.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 65048,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "9055810f67f8d231ec522bf85d489a64e64d3c8cf3c54a35a8dabc4431f75b73",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/ym_stt.chunk.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.04933499999970081
+      },
+      {
+        "url": "https://cloud.yellow.ai/api/plugin/analytics?bot=x1724910215783",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 146,
+        "remoteIPAddress": "104.18.6.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"2e-Gyi7Bl4WvG7CJ8s8OsTledI1y70\""
+        },
+        "responseBodyHash": "f57faa602933fa2c5449d3487280a5bd1d82fd8f8a2ddcef80de8847c7d1121b",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/ym_worker.min.js"
+        ],
+        "time": 1.117896999999175
+      },
+      {
+        "url": "https://cloud.yellow.ai/api/plugin/analytics?bot=x1724910215783",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.6.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"4-Yf+Bwwqjx254r+pisuO9HfpJ6FQ\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cloud.yellow.ai/api/plugin/analytics?bot=x1724910215783"
+        ],
+        "time": 0.8205120000002353
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/open-sans-latin-400-normal.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17269,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "etag": "0x8DAEC926389A476",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "778b8cd899b9ebf3913aaa46e397ce897bb192b100b276982869f5f00525b39f",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/open-sans.min.css"
+        ],
+        "time": 0.055066000000806525
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/remix.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17292,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "1f6d49cab4b474e096a95741a237a7c63caaa14d5c6d97636fc9aa40e5575a0e",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.04200200000013865
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/compact-css.chunk.min.js?v=v0.54.19_1773387861586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2716,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "09992e257d7af942e578ba45fb1dd240573a6cb06f96e3a822afcd64f3327d83",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586",
+          "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/runtime.js"
+        ],
+        "time": 0.023616000000401982
+      },
+      {
+        "url": "https://cdn.yellowmessenger.com/open-sans-latin-400-normal.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 504,
+        "remoteIPAddress": "104.18.1.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "etag": "0x8DAEC926389A476",
+          "expires": "Tue, 31 Mar 2026 20:32:43 GMT"
+        },
+        "responseBodyHash": "778b8cd899b9ebf3913aaa46e397ce897bb192b100b276982869f5f00525b39f",
+        "initiators": [
+          "https://cdn.yellowmessenger.com/open-sans.min.css"
+        ],
+        "time": 0.05729499999961263
+      },
+      {
+        "url": "https://alisgp-sentry.d.xiaomi.net/api/4/envelope/?sentry_key=3af74c2d5d8b493f93abc405cb83371a&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.64.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 273,
+        "remoteIPAddress": "47.236.118.158",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mi.com"
+        },
+        "responseBodyHash": "01041407e7484046ea748b7766c9962e71af2acb32a43d62af8271e9d4d46ef2",
+        "initiators": [
+          "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js",
+          "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js",
+          "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.7792d.js",
+          "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js"
+        ],
+        "time": 0.8342259999999442
+      }
+    ],
+    "cookies": [
+      {
+        "name": "notice_gdpr_prefs_copy",
+        "domain": ".mi.com",
+        "path": "/us",
+        "expires": 1809115360000,
+        "session": false
+      },
+      {
+        "name": "policy_notice_pre",
+        "domain": ".mi.com",
+        "path": "/us",
+        "expires": 1809115360000,
+        "session": false
+      },
+      {
+        "name": "xm_geo",
+        "domain": ".mi.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "xm_user_bucket",
+        "domain": ".mi.com",
+        "path": "/",
+        "expires": 1809115352155,
+        "session": false
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1774988259135,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_gat_gtag_UA_213608374_11",
+        "domain": ".mi.com",
+        "path": "/",
+        "expires": 1774987419000,
+        "session": false
+      },
+      {
+        "name": "RT",
+        "domain": ".www.mi.com",
+        "path": "/",
+        "expires": 1775592160000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "canary",
+        "domain": ".mi.com",
+        "path": "/",
+        "expires": 1782849761071,
+        "session": false
+      },
+      {
+        "name": "xmuuid",
+        "domain": ".mi.com",
+        "path": "/",
+        "expires": 1782763360000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://www.mi.com/1a74a458-deb9-47dc-a26d-80a4f1f7032c"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://www.mi.com/48a0880f-899e-43f3-a0f4-080bdac26020"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.mi.com/us/": {
+          "Date.prototype.getTime": 4,
+          "Document.cookie getter": 4,
+          "Event.prototype.timeStamp": 1
+        },
+        "https://i02.appmifile.com/i18n/ga4/xmot-i18n.min.js?v=20250102": {
+          "window.innerWidth": 1,
+          "Document.cookie getter": 78
+        },
+        "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33": {
+          "Date.prototype.getTime": 4,
+          "PerformanceTiming.prototype.navigationStart": 108,
+          "window.localStorage": 11,
+          "Navigator.prototype.vendor": 3,
+          "Navigator.prototype.connection": 3,
+          "Document.cookie getter": 3,
+          "window.sessionStorage": 2,
+          "Performance.prototype.memory": 4,
+          "window.innerHeight": 2,
+          "window.innerWidth": 1,
+          "Document.cookie setter": 2,
+          "NavigatorUAData.prototype.platform": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.pixelDepth": 1,
+          "Screen.prototype.orientation": 3,
+          "window.devicePixelRatio": 1,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.deviceMemory": 2
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5KRKGGMR&l=infraConfigDataLayer": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 7,
+          "window.name": 2
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 36,
+          "Date.prototype.getTime": 43,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "Document.cookie setter": 1,
+          "window.localStorage": 7
+        },
+        "https://www.googletagmanager.com/gtag/destination?id=AW-777641845&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 11,
+          "Date.prototype.getTime": 39,
+          "Document.cookie setter": 1,
+          "window.localStorage": 4,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "window.name": 2
+        },
+        "https://www.googletagmanager.com/gtag/destination?id=AW-411786826&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 13,
+          "Date.prototype.getTime": 109,
+          "Document.cookie setter": 1,
+          "window.localStorage": 8,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "window.name": 2
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-M7BZ346GN7": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 45,
+          "window.name": 2
+        },
+        "https://browser.sentry-cdn.com/7.64.0/bundle.tracing.min.js": {
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.connection": 1,
+          "Navigator.prototype.deviceMemory": 2,
+          "Navigator.prototype.hardwareConcurrency": 2
+        },
+        "https://www.mi.com/sgp/spps_files/store/0.54.363/js/us/index.js": {
+          "window.localStorage": 8,
+          "Navigator.prototype.userAgent": 34,
+          "window.innerWidth": 7,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.platform": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        },
+        "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js": {
+          "Document.cookie setter": 5,
+          "Document.cookie getter": 1132,
+          "Navigator.prototype.userAgent": 2,
+          "Date.prototype.getTime": 28
+        },
+        "https://www.mi.com/sgp/spps_files/store/0.54.363/js/react.js": {
+          "Navigator.prototype.userAgent": 2,
+          "Event.prototype.timeStamp": 1
+        },
+        "https://www.mi.com/sgp/spps_files/store/0.54.363/js/9230.chunk.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.mi.com/sgp/spps_files/store/0.54.363/js/4807.chunk.js": {
+          "Navigator.prototype.userAgent": 10
+        },
+        "https://www.googletagmanager.com/gtag/js?id=UA-213608374-11&cx=c&gtm=4e63u1h2": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 19,
+          "window.name": 2
+        },
+        "https://www.google-analytics.com/analytics.js": {
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTime": 9,
+          "Document.cookie getter": 21,
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie setter": 3
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-TN8XYTFEY2&cx=c&gtm=4e63u1h2": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 12,
+          "Date.prototype.getTime": 39,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Document.cookie setter": 3,
+          "window.name": 2
+        },
+        "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js": {
+          "Document.cookie getter": 31,
+          "Document.cookie setter": 154,
+          "window.localStorage": 54,
+          "window.sessionStorage": 18
+        },
+        "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js": {
+          "Navigator.prototype.userAgent": 14,
+          "Navigator.prototype.platform": 4,
+          "Screen.prototype.width": 3,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.connection": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "URL.createObjectURL": 1,
+          "Navigator.prototype.getBattery": 1,
+          "Document.cookie getter": 2,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2,
+          "window.localStorage": 2
+        },
+        "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/remoteEntry.js": {
+          "window.localStorage": 6
+        },
+        "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/481.1f07b.js": {
+          "Navigator.prototype.userAgent": 6,
+          "Document.cookie getter": 806
+        },
+        "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/widget.min.js?v=v0.54.19_1773387861586": {
+          "Navigator.prototype.userAgent": 32,
+          "Navigator.prototype.platform": 6,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 3,
+          "Navigator.prototype.deviceMemory": 5,
+          "Navigator.prototype.connection": 6,
+          "Navigator.prototype.hardwareConcurrency": 6,
+          "URL.createObjectURL": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "window.localStorage": 9,
+          "Navigator.prototype.getBattery": 2,
+          "Event.prototype.timeStamp": 4
+        },
+        "https://www.mi.com/sgp/spps_files/i18n/scripts/shared-header/pro/1.0.74/705.7792d.js": {
+          "window.localStorage": 3,
+          "window.innerWidth": 1
+        },
+        "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/cognitiveservices.chunk.min.js?v=v0.54.19_1773387861586": {
+          "Date.prototype.getTime": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.googletagmanager.com/gtm.js?id=GTM-N7BDPG6",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.1820925883.1774987359; path=/; expires=Mon, 29 Jun 2026 20:02:38 GMT; domain=mi.com"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/destination?id=AW-777641845&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.1820925883.1774987359; path=/; expires=Mon, 29 Jun 2026 20:02:39 GMT; domain=mi.com"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/destination?id=AW-411786826&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.1820925883.1774987359; path=/; expires=Mon, 29 Jun 2026 20:02:39 GMT; domain=mi.com"
+          ]
+        },
+        {
+          "source": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "userId=; path=/; expires=Mon, 30 Mar 2026 20:02:39 GMT"
+          ]
+        },
+        {
+          "source": "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "RT=\"z=1&dm=www.mi.com&si=972c5cd6-a8fc-40d7-babb-844c8126c576&ss=mnf1n27p&sl=0&tt=0&bcn=%2F%2F17de4c0f.akstat.io%2F\"; path=/; domain=www.mi.com; expires=Tue, 07 Apr 2026 20:02:39 GMT; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.2.36164515.1774987360; path=/; expires=Thu, 30 Mar 2028 20:02:39 GMT; domain=mi.com;"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=GA1.2.1666851235.1774987360; path=/; expires=Wed, 01 Apr 2026 20:02:39 GMT; domain=mi.com;"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat_gtag_UA_213608374_11=1; path=/; expires=Tue, 31 Mar 2026 20:03:39 GMT; domain=mi.com;"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TN8XYTFEY2&cx=c&gtm=4e63u1h2",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TN8XYTFEY2=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 20:02:40 GMT; domain=mi.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TN8XYTFEY2&cx=c&gtm=4e63u1h2",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TN8XYTFEY2=GS2.1.s1774987360$o1$g0$t1774987360$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 20:02:40 GMT; domain=mi.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-TN8XYTFEY2&cx=c&gtm=4e63u1h2",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.36164515.1774987360; path=/; expires=Thu, 30 Mar 2028 20:02:40 GMT; domain=mi.com; "
+          ]
+        },
+        {
+          "source": "https://s.go-mpulse.net/boomerang/CGK7X-KWLZ2-9JBMW-YPK4H-NXS33",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "RT=\"z=1&dm=www.mi.com&si=972c5cd6-a8fc-40d7-babb-844c8126c576&ss=mnf1n27p&sl=1&tt=66g&bcn=%2F%2F17de4c0f.akstat.io%2F&ld=66j\"; path=/; domain=www.mi.com; expires=Tue, 07 Apr 2026 20:02:40 GMT; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "notice_gdpr_prefs_copy=0%3A; expires=Fri, 30 Apr 2027 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "xmuuid=XMGUEST-4DE2220C-9C63-4AB3-98A4-71BFA00CB45A; expires=Mon, 29 Jun 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "policy_notice_pre=0%3A; expires=Fri, 30 Apr 2027 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "userId=; path=/; expires=Mon, 30 Mar 2026 20:02:40 GMT"
+          ]
+        },
+        {
+          "source": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "userId=; path=/; expires=Mon, 30 Mar 2026 20:02:40 GMT"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "NID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "NID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "APISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "APISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "HSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "HSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "isFromPassport=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "isFromPassport=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_term=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_term=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_medium=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_medium=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_channel=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_channel=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_content=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_content=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_campaign=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_campaign=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_use_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_use_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_session_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_session_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_curr_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_curr_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_instance_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_instance_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat_eventPage=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat_eventPage=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TN8XYTFEY2=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_TN8XYTFEY2=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_time=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_time=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_prev_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_prev_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_referrer_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_referrer_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_b=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_b=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_update_flag=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_update_flag=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_view_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_view_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_name=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_name=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "NID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "NID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "APISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "APISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "HSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "HSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SSID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "SAPISID=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__Secure-3PSIDCC=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "isFromPassport=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "isFromPassport=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_term=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_term=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_source=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_medium=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_medium=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_channel=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_channel=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_content=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_content=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_campaign=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_utm_campaign=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_use_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_use_type=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_session_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_session_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_curr_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_curr_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_instance_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_instance_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat_eventPage=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat_eventPage=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_time=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_last_time=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_prev_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_prev_uri_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_referrer_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_referrer_path=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_b=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_b=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_ref_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_update_flag=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_update_flag=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_view_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_view_tip=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_name=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_name=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/us; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ot_item_list_id=null; expires=Mon, 30 Mar 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://i01.appmifile.com/webfile/globalweb/i18n/policy/cookie-clear.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "xmuuid=XMGUEST-4DE2220C-9C63-4AB3-98A4-71BFA00CB45A; expires=Mon, 29 Jun 2026 20:02:40 GMT; path=/; domain=.mi.com"
+          ]
+        },
+        {
+          "source": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "userId=; path=/; expires=Mon, 30 Mar 2026 20:02:42 GMT"
+          ]
+        },
+        {
+          "source": "https://www.mi.com/sgp/spps_files/store/0.54.363/js/vendor.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "userId=; path=/; expires=Mon, 30 Mar 2026 20:02:42 GMT"
+          ]
+        }
+      ]
+    }
+  }
+}

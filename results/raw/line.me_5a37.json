@@ -1,0 +1,2862 @@
+{
+  "initialUrl": "https://line.me/",
+  "finalUrl": "https://www.line.me/en/",
+  "timeout": false,
+  "testStarted": 1774989061320,
+  "testFinished": 1774989073827,
+  "data": {
+    "requests": [
+      {
+        "url": "https://line.me/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "147.92.243.206",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.line.me/en/",
+        "initiators": [],
+        "time": 0.5918480000000272
+      },
+      {
+        "url": "https://www.line.me/en/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 8574,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "W/\"68a301114dc39dafa7a0d9ababb6ac22\""
+        },
+        "responseBodyHash": "ada965b51b848326aaff436847b48026f6062be4c807fc1628aa0a3cdf6b8b91",
+        "redirectedFrom": "https://line.me/",
+        "initiators": [],
+        "time": 0.3317459999998391
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-49752572-1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 115969,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:31:04 GMT"
+        },
+        "responseBodyHash": "221f57d3a77b9657377395de67aee8aceb6337634ebdb16ddbb48d56d7504ba1",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 2.0175490000001446
+      },
+      {
+        "url": "https://www.line.me/static/css/index.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 17745,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "W/\"ad09595c6a1658924815d1d776da8019\""
+        },
+        "responseBodyHash": "b542237580178312f6586515375de23034ad5e5ca6175ca513c879da1796ded9",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 0.01775900000029651
+      },
+      {
+        "url": "https://www.line.me/static/js/api-key.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 676,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"0a3edc1fbb9466045f03b2bbff4a45ca\""
+        },
+        "responseBodyHash": "829a486a9de625710fe7cbf7208b335a82e5bee156187653388875b6a37f4e9d",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.850749999999607
+      },
+      {
+        "url": "https://www.line.me/static/js/common.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3126,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "W/\"888625844e1c36c6f4f2f528927bc327\""
+        },
+        "responseBodyHash": "6158fe282436ae2bf25a2f7f343330d1c00f4d6956ea88a6288206f8ba422f14",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.8566179999997985
+      },
+      {
+        "url": "https://www.line.me/static/js/content-service.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5129,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "W/\"6d757256119477659d84c9724e7069f9\""
+        },
+        "responseBodyHash": "43c53259bdadf49a825d9589a962d2bbabf506c941fcf0f12783f0816a98ce19",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.85769000000073
+      },
+      {
+        "url": "https://www.line.me/static/js/image-lazyloding.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1223,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"453f1a7df4bbdff7c758946744270c94\""
+        },
+        "responseBodyHash": "f7a2c315a8ee0cefa108fd9e453a9e52e0930c66947cb5964c8a49329878a6f4",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.9898900000007416
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5524,
+        "remoteIPAddress": "104.16.175.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=43200",
+          "etag": "W/\"4816-00NTceTFOXSCfuleSHYg+tVGAkA\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "74ca6aae5468dbc924790c3b4d219a089b90a34bad53a0f7ca3a73e73b6f5ab8",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.8298889999987296
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44449,
+        "remoteIPAddress": "104.16.175.226",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=43200",
+          "etag": "W/\"25be5-n7vuhWVYfwo6iXqEBF16IW76OmQ\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "985f1224c0eeec99d367a9db35e58e44b21e7eb9ce45831b15b4c108e41fd97f",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.832592000000659
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-title-pc_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1423,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"21697aee1d278296a8ab661116820762\""
+        },
+        "responseBodyHash": "72d05c7be205e95546f31c201ad58bf2bec0003b41fdab15d8dcc33e23a66c1f",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.9898549999998068
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-title-sp_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1332,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"9960565a2e024b1f6fa6b6aa4bd5d026\""
+        },
+        "responseBodyHash": "4956053d162d8c3e557cd54867ad453541ee12e0e04082b443c00566dd4c1cad",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.9906430000010005
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-lang-b_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1609,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"39a116de2705b3bd4c58777b097ec58d\""
+        },
+        "responseBodyHash": "a12cd0abd6339c70df9ea408a34c82314c4ff28a63b15b2e82233bc9f94ee3c5",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.9900680000009743
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-lang-w_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1466,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"5632e5037fc3b5ec5790f402f10c7cc0\""
+        },
+        "responseBodyHash": "534ed4e185cc0437ada928a7a369f18518851f982e346dd15e9d36f034551aa6",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.99039300000004
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-line-w_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1595,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"9a5c064dcd55b4be9181cf8adb09ccf7\""
+        },
+        "responseBodyHash": "9a3b53ea1a2570eefd504233e139822a13f8bf1177a0202ff3d588773ae88595",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.9901890000001004
+      },
+      {
+        "url": "https://www.line.me/static/img/sprite-download-list_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6056,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"6a33cf031ad60a2d7ba6bb12b345ee65\""
+        },
+        "responseBodyHash": "658e050eb6a3fcfccacea4d6104fadcb129a96e23924ba90647d600f211424fb",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 0.17248000000108732
+      },
+      {
+        "url": "https://www.line.me/static/img/mv01_w1920.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 227717,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"765695a8956bdf0c834d8a9cd0c3e859\""
+        },
+        "responseBodyHash": "ec966e641e600b13869bca87465b9e02aa97c6e77279f001031b0e6bbeb70200",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 0.17133100000137347
+      },
+      {
+        "url": "https://www.line.me/static/img/mv02_w1920.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 212617,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"643069b8763466d5ebe225b341dc8bb2\""
+        },
+        "responseBodyHash": "f36dc0399f1f346e8a134be4c0a0258c7acc49aef42592da1017817f8b46ce49",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 0.3153650000003836
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-line_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1901,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"420f42827f8e2df24fe5d8b8d7e970fb\""
+        },
+        "responseBodyHash": "a357f223f22494cad4f2f14f7f5f9fab35c056583a0c6ccca32287558ebf7e82",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.9901069999996253
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T3SK6H7",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 1.9885210000011284
+      },
+      {
+        "url": "https://www.line.me/static/LINESeed_W_XBd-7d940d31ff60f5953c6d93ec102bcac8.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17383,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"7d940d31ff60f5953c6d93ec102bcac8\""
+        },
+        "responseBodyHash": "dd636590c3d84eff7284b92aa43d4f923e54118d454be29b60e236c8595ab4ff",
+        "initiators": [
+          "https://www.line.me/static/css/index.min.css"
+        ],
+        "time": 0.16274299999895447
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/main_service/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"2c-gI/EnikSW9s8qee14lOZbbO0Hwg\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/main_service/items?page=1&limit=100&_status=PUBLISH&locale=en_US"
+        ],
+        "time": 0.6125179999999091
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/communication/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"2c-gI/EnikSW9s8qee14lOZbbO0Hwg\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/communication/items?page=1&limit=100&_status=PUBLISH&locale=en_US"
+        ],
+        "time": 0.6120780000001105
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/single_banner/item?_status=PUBLISH&locale=en_US",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"2c-gI/EnikSW9s8qee14lOZbbO0Hwg\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/single_banner/item?_status=PUBLISH&locale=en_US"
+        ],
+        "time": 0.6125590000010561
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/all_product/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"2c-gI/EnikSW9s8qee14lOZbbO0Hwg\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/all_product/items?page=1&limit=100&_status=PUBLISH&locale=en_US"
+        ],
+        "time": 0.6122799999993731
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/banner/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"2c-gI/EnikSW9s8qee14lOZbbO0Hwg\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/banner/items?page=1&limit=100&_status=PUBLISH&locale=en_US"
+        ],
+        "time": 0.6115060000010999
+      },
+      {
+        "url": "https://www.line.me/static/locales/en/translation.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1324,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "W/\"3e324f4b05302523bcd18d4b3b8bdf97\""
+        },
+        "responseBodyHash": "57b1ceda5e919128d84738ae5b587e6b70d3dd9c24484a9bed25c1730c8a68df",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.018516999998610117
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/main_service/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1987,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"214f-k8OABg1c6xP4F8S5+eElloyC1fA\""
+        },
+        "responseBodyHash": "8a59f8d204d101962e4b1937bd43b8420f6dee764436fb53fc4ae00fb3e377b2",
+        "initiators": [
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.0225609999997687
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/communication/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2029,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"2421-6G3XGy6rqRP1+YR6UaOKdys7erQ\""
+        },
+        "responseBodyHash": "66495258b1e7ca5af6a9cdf1a2027f77a038ccbf8c56f4e5106b309bc5c0ca10",
+        "initiators": [
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.0270609999988665
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/single_banner/item?_status=PUBLISH&locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1043,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"5e9-ZKgUdI/yZLr0NvvSZNIjddWSaN8\""
+        },
+        "responseBodyHash": "20e008d4d953c0109b469dd78da24131745190c30d2442c2b9880de8eb5c5265",
+        "initiators": [
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.0219579999993584
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/all_product/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 7502,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"fa73-fS+XcJcE2+Axzgp6vkg1XnWeCUs\""
+        },
+        "responseBodyHash": "25f41bed0ea6b9b311f2eeee017a0c1a9be7f7d0a54cd22c70674bfa4a2feb1f",
+        "initiators": [
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.2709409999988566
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/banner/items?page=1&limit=100&_status=PUBLISH&locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 599,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"4a-7cmX2SQhFjNojkFi7hqrF4jS5sM\""
+        },
+        "responseBodyHash": "e1460ea0598104320a3010e67935eb55626309b41a1747a68ad61f7c1bd90240",
+        "initiators": [
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.0212700000010955
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-sns-y_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1071,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"65c7e1c4941d4ec458ed2b3da06962fb\""
+        },
+        "responseBodyHash": "247d3a6ff2b67d961f214766aa2e270dcfe040dea0ef47bffa868f6c79e815ee",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 0.015386999999464024
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-sns-f_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1315,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"0d6c887fc26b6e662671736d364a868d\""
+        },
+        "responseBodyHash": "7616b8945132d88d051c137e5e2086a18820d7e4508577c8972c0ce7f127f69a",
+        "initiators": [
+          "https://www.line.me/en/"
+        ],
+        "time": 0.0163460000003397
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21409,
+        "remoteIPAddress": "142.251.218.78",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 31 Mar 2026 22:06:10 GMT"
+        },
+        "responseBodyHash": "f1a61277e3f902f50ab42015d8b07218db9b7601bb0967e54a52bfdcb4fa7e81",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-49752572-1"
+        ],
+        "time": 0.07862799999929848
+      },
+      {
+        "url": "https://www.line.me/static/img/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 5490,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"115d5539e2d10b8da66d31ce22e6bccd\""
+        },
+        "responseBodyHash": "f976beb31e1fca138ebc658d897f78e12f37ae953dd0205067dfc32a806d0fa0",
+        "initiators": [],
+        "time": 0.07016900000053283
+      },
+      {
+        "url": "https://www.line.me/static/img/favicon-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1753,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"45e1e9b58221c0bed388e76988dc1944\""
+        },
+        "responseBodyHash": "a43c2d279cc505cef7bd26a10bb495ba679afb7c9548521f9391e7d34aeb66c0",
+        "initiators": [],
+        "time": 0.016375999999581836
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/fcb845209a4b46f68fe03c068c4b0fc4-middle.png?updatedAt=1752658839000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 175716,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"be5bc02eef7ecbd67eacbf5d6cd6b2ad\""
+        },
+        "responseBodyHash": "54fc837291492741661b79b296073c029468b2cec155acd8443e19e59ec1e775",
+        "initiators": [],
+        "time": 0.3720790000006673
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/fcb845209a4b46f68fe03c068c4b0fc4-large.png?updatedAt=1752658839000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 274689,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"8e7e39513bc912ccf931145f057f6d49\""
+        },
+        "responseBodyHash": "7d796e0872501dab8312e6ca5735ea44b170942b85d9342b4bddec878bfdf7fc",
+        "initiators": [],
+        "time": 0.3683369999998831
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/fcb845209a4b46f68fe03c068c4b0fc4.png?updatedAt=1752658839000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 811794,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"06d2750c45adcb91818320d54a21a2d8\""
+        },
+        "responseBodyHash": "85cc18328e24deab28ed6cf92847fb93e3f0003409ae58629349ccbed952c7c8",
+        "initiators": [],
+        "time": 0.43500700000004144
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/fcb845209a4b46f68fe03c068c4b0fc4-small.png?updatedAt=1752658839000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 50171,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"b1d6fca0fc11795754820d2729409755\""
+        },
+        "responseBodyHash": "958766a424378255d4a17b84d659f1001e25c5270f335bb462462450df12dcdb",
+        "initiators": [],
+        "time": 0.435100999999122
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a1b827a142bc4c60a10880521781d288-middle.png?updatedAt=1752486070000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 379326,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"123d3b5a8e9765dfc2be647590abfc0e\""
+        },
+        "responseBodyHash": "639347795d9a2b7f128fa4cb3c9d83296461dffee9356920fddfc6591eb5e068",
+        "initiators": [],
+        "time": 0.49583200000051875
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a1b827a142bc4c60a10880521781d288-large.png?updatedAt=1752486070000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 641554,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"45c66330d5dde5244b190ece435d8e10\""
+        },
+        "responseBodyHash": "2a052d054058b11a015f86c2831fce787047d89efff5b52df85f98c5aabb78b6",
+        "initiators": [],
+        "time": 0.5414290000007895
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/4c90c2b2cd424ff4ada85590f6a17c57-middle.png?updatedAt=1754298749000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 124268,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a5bca9ad6674e461485b2cc23158ee7c\""
+        },
+        "responseBodyHash": "d2f7b2d457f4f7197b76625dfe9cf45d9828e01a4d0deb24537858390c39c9d8",
+        "initiators": [],
+        "time": 0.4743010000001959
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/4c90c2b2cd424ff4ada85590f6a17c57-large.png?updatedAt=1754298749000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 195291,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"baa0e345d9f8ed331e4447c90271d230\""
+        },
+        "responseBodyHash": "ee92033bd08e55a47dad69163587be397110d6e405319f015a37942c1347296b",
+        "initiators": [],
+        "time": 0.48081599999932223
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/4c90c2b2cd424ff4ada85590f6a17c57.png?updatedAt=1754298749000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 46018,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ffa3514253d556a0d0438ac29a4b7f54\""
+        },
+        "responseBodyHash": "3d9b95c8f806c7be59cbe58288346003cd4efe739d90089deaa8274728cf61d5",
+        "initiators": [],
+        "time": 0.48432300000058603
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/4c90c2b2cd424ff4ada85590f6a17c57-small.png?updatedAt=1754298749000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 34467,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c02990e0014594c57e32cbe4da528cf4\""
+        },
+        "responseBodyHash": "3ac370f7a6fa1928d03b4e47aff558eeb217f88f9f940274dc09c90d461a2c13",
+        "initiators": [],
+        "time": 0.4866119999987859
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/1c7f9ad5a0d2415cab739ae6e9f71e35-middle.png?updatedAt=1752734110000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 73830,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"707a951df8c3e26b2595a3dab80a61b5\""
+        },
+        "responseBodyHash": "458e053bdd7d60136df2a4e8485608486567e622266b5bb2cd42f5591a23148d",
+        "initiators": [],
+        "time": 0.26525000000037835
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/1c7f9ad5a0d2415cab739ae6e9f71e35-large.png?updatedAt=1752734110000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 118786,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"221b51ef32cc61f4394e2b2bcd2414dd\""
+        },
+        "responseBodyHash": "6cfd712d27dd33cae6dcaa40b74ee81cc337f1d8016976e9ec8956f8afa9327a",
+        "initiators": [],
+        "time": 0.27025400000093214
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/b78b8ca8479348f58f24fcb9b5ea6a89-middle.png?updatedAt=1754379488000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 830231,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a1c0f1b243166b25c806d31cbb9237f6\""
+        },
+        "responseBodyHash": "7c05d05f477a41768689de94d41ef6f7e2c851ebdb7bd94c523dc5196b713c18",
+        "initiators": [],
+        "time": 0.3508559999991121
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/b78b8ca8479348f58f24fcb9b5ea6a89-large.png?updatedAt=1754379488000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1269875,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"05759e144983869acefcb9015c5b0ac4\""
+        },
+        "responseBodyHash": "5f5c2e542aa16a3a747260405beaf42d768102e7106218de7d8583354ddf5e5d",
+        "initiators": [],
+        "time": 0.4928589999999531
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/6cb6e16798d746588a92accd77316f6b-middle.png?updatedAt=1752734197000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 37099,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"15d6e398a0e8a737e01d46378c9a387e\""
+        },
+        "responseBodyHash": "98ac4fb719642186ba33c3d72213b3bca2dc97f3298be0f474f5e83842b06a7c",
+        "initiators": [],
+        "time": 0.3263680000000022
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/6cb6e16798d746588a92accd77316f6b-large.png?updatedAt=1752734197000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57358,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"55414bdcb1493b4ac465d6f952ba3f11\""
+        },
+        "responseBodyHash": "b7f388833664b25038e2fa4a27ab5497afede7063d45cb721932c062a066773d",
+        "initiators": [],
+        "time": 0.3272580000011658
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2fe0fd51562b4dbf93dbff5b8602519d-middle.png?updatedAt=1754380833000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 28440,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"f5c48cbc6394c3dc5c49fa0823d88dc9\""
+        },
+        "responseBodyHash": "aa31af2202d2938c2d53aec9cf2abc94b94c60ad4936ae51024ea2da5378d2fa",
+        "initiators": [],
+        "time": 0.32783999999992375
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2fe0fd51562b4dbf93dbff5b8602519d-large.png?updatedAt=1754380833000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 42019,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"4ad54741a5548651aeffb95dd7b4e99b\""
+        },
+        "responseBodyHash": "cddb935193da785fc01edfc0f2b7949638c94ef82285f26ad447a8183e8435ef",
+        "initiators": [],
+        "time": 0.329569999999876
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/de9bde8d22c142489e3d18834e18aa88-middle.png?updatedAt=1754379575000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 80400,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"d03863de26da45fcfc4d0933feb862bb\""
+        },
+        "responseBodyHash": "af2cb6f3ad518749295b31c81fbe3308b20ca2388beaf0c9f71530786d45e592",
+        "initiators": [],
+        "time": 0.33433100000002014
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/de9bde8d22c142489e3d18834e18aa88-large.png?updatedAt=1754379575000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 123513,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"18828376f97e0b85d06fab4a954ee547\""
+        },
+        "responseBodyHash": "b8f2af5a513ae628549649f8b891f1113a42805a38d801d9eff4bd7602cf7a38",
+        "initiators": [],
+        "time": 0.3662079999994603
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/348ce2292b0c4a2c890a3d24e5451a07-middle.png?updatedAt=1754379628000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 141051,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"9c3bd2af9c5d2a0f5b06e79099550b30\""
+        },
+        "responseBodyHash": "26bed4fc5ac6f658e7b121779ba5d2d55bdd6cb5ab44630e4e802ea80b65750f",
+        "initiators": [],
+        "time": 0.3763229999985924
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/348ce2292b0c4a2c890a3d24e5451a07-large.png?updatedAt=1754379628000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 216878,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"d12c2e7268f4ceeace2a68597a748297\""
+        },
+        "responseBodyHash": "f5a331a6138fdeb56a0fcfcc678c3609516197080edd38d34d166076bf5e2b4a",
+        "initiators": [],
+        "time": 0.45067399999970803
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/750e16103a884112ad97f5d824d51a97-middle.png?updatedAt=1754385102000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 199183,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"2855634a1c34ba54d13050cf8dc8b00d\""
+        },
+        "responseBodyHash": "fc6031bd23a1d70a6d631822551e40779ea86edd87c0a8c1a936f44e651d1c9d",
+        "initiators": [],
+        "time": 0.4629990000012185
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/750e16103a884112ad97f5d824d51a97-large.png?updatedAt=1754385102000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 293536,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"b8a866f85aad5e7bc9850b07c33c9137\""
+        },
+        "responseBodyHash": "fffce4aab0c25106a5f7df85c6cb97cca04fca5ad452ea6be5162e7e1ca619a5",
+        "initiators": [],
+        "time": 0.520673999999417
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/e6c8d1b0c3a9442a8db500f8a45a80e2-middle.png?updatedAt=1754381882000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 146715,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"b57c89e22f865a6c935898d8bab2b11a\""
+        },
+        "responseBodyHash": "bdd79bb8384524b3fc54e7d1c890061890559266d13066b7d553248646e7d5e4",
+        "initiators": [],
+        "time": 0.5293110000002343
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/e6c8d1b0c3a9442a8db500f8a45a80e2-large.png?updatedAt=1754381882000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 228044,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"e2d215968feef866af08fae63eb6d9c4\""
+        },
+        "responseBodyHash": "cfc127383a6713841531ce030d5e225d551e4720a90f907b5b48790438d1bb4d",
+        "initiators": [],
+        "time": 0.5802429999985179
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/88697edba2fc4e288d3f7398a59972b9-middle.png?updatedAt=1754298799000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 120717,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c6d96a9d60092e4f08658e5ca34b9fd6\""
+        },
+        "responseBodyHash": "3a77d5a59b0ec9dbdbc6939b10f1bad8ce4bccd3919e96bb4b3c79ad74e0a3c5",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.3425360000001092
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/88697edba2fc4e288d3f7398a59972b9-large.png?updatedAt=1754298799000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 187829,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"bc80d3468a8340994bba6f15f9a7897a\""
+        },
+        "responseBodyHash": "6b9ae62def76335507546e7be00211cbe270bdeb5cb526c7f9feb1566a677acc",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.38226899999972375
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/88697edba2fc4e288d3f7398a59972b9.png?updatedAt=1754298799000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 89672,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a8de3e6659ebefe88b2a5f9599a44840\""
+        },
+        "responseBodyHash": "f5a660eaa11c31987055d44e75e2f3ad07cc3f8d087421824eb2235aa0ec6d7c",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.38898599999993166
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/88697edba2fc4e288d3f7398a59972b9-small.png?updatedAt=1754298799000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 33981,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"d732fd15190eb3197111438e16d2b8fa\""
+        },
+        "responseBodyHash": "c5b13e6d95646df3e11e87f0280b86a35c382b167a446a24c67bc510a9d4701a",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.3896679999998014
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/913226c9a85148eeac6afe25f3028f59-middle.png?updatedAt=1754381790000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 118810,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"4c3d566404823790e3aeecdfd14573d7\""
+        },
+        "responseBodyHash": "4496001bd3d020377c1cac781f42badff26d42a0cff19ccb688ad2e6b8f7c199",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.36852299999918614
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/913226c9a85148eeac6afe25f3028f59-large.png?updatedAt=1754381790000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 178010,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"59225fc19e86b5c37f8c4967d1339682\""
+        },
+        "responseBodyHash": "61e5f7389259646a0ac8aebea878a31ad17a3bb32e79da4ba357d1e4c6dc9377",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.3782289999999193
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/ee9a5b88ea844eab88490f8e99ad1921-middle.png?updatedAt=1752486068000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 780356,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"fce9e86a20609d3d502a335c48b5871a\""
+        },
+        "responseBodyHash": "fd8514787597d52aff4b9bf546f0928dd270b5c2eb7611a7befa66641c47458c",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.43699999999989814
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/ee9a5b88ea844eab88490f8e99ad1921-large.png?updatedAt=1752486068000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1201934,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"b5f0a028ec33b39460921f227d5b2a02\""
+        },
+        "responseBodyHash": "820696047d60e2490d78700f105ccf27f67e74b955c71002d50d4d58a5220b65",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.561664999999266
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/ee9a5b88ea844eab88490f8e99ad1921.png?updatedAt=1752486068000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 575348,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"fb2efd333addf218703ae73af42ea9ad\""
+        },
+        "responseBodyHash": "5e4862d937ba61a0fe5e21623c6b010c0294f15bbb3a0431ff4b24d62b97a70c",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.48841600000014296
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/ee9a5b88ea844eab88490f8e99ad1921-small.png?updatedAt=1752486068000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 216517,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"3a7e450a7e52b58d04f2e4ec329ca6fd\""
+        },
+        "responseBodyHash": "2fbe966af5d1698554afd66d36ff2ac58a71c0cabe5e84b241d4e15ed151efb3",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.5544950000003155
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/bb5e48becda940328da844c81384b9ca-middle.png?updatedAt=1754380967000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 40001,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c4d3b05278b246de850224efea10b883\""
+        },
+        "responseBodyHash": "9d83cdc7ce2747cee45f772055d9299ae975e3442c16b06adedc494727739213",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.5303300000014133
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/bb5e48becda940328da844c81384b9ca-large.png?updatedAt=1754380967000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 59524,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ea491ff31e64549a5c8ae0518db51e39\""
+        },
+        "responseBodyHash": "836f21d75071ca73a0d7959bcfc29c87c119dc5754634460d2b038e4a7084c84",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.5329809999984718
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/5696c43ea1cc4a7783a2fe02be8731e5-middle.png?updatedAt=1754381044000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 224843,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"cf96858dff67d60d63741494d39b76c9\""
+        },
+        "responseBodyHash": "335558d0ccad503ced449d4de1c610b10870e35ef69ebe783abb320b0afce567",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.543149999999514
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/5696c43ea1cc4a7783a2fe02be8731e5-large.png?updatedAt=1754381044000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 340397,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"e1e1bef73eb8f2ce8602151d1daef3a9\""
+        },
+        "responseBodyHash": "4744ea8d86c914314c1f3a1445047d9d4ebe42690f707eeab6b47511bee55434",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.4399219999995694
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/272b046d5b884b81b351e489156b62f9-middle.png?updatedAt=1754381117000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 118623,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"1d91e9e6ee2c4b31dde370cdf864476e\""
+        },
+        "responseBodyHash": "ce23ef64b3a2a4d4b21151e045c6a72278f1f2c610c2cfd5bf5e3d4bd0eb2d55",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.444086999999854
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/272b046d5b884b81b351e489156b62f9-large.png?updatedAt=1754381117000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 184041,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"4d6cd838db5cb23fdb8e53021d221d4d\""
+        },
+        "responseBodyHash": "719d9b32502f4100604783f19a359a4500b33324190aab08f898b7804f2c2261",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.2753069999998843
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/827e4f31c0ae4cb4a19243cdccca464a-middle.png?updatedAt=1754381695000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 884705,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ba0398fdfd1fc1ccc1023ed03d08d963\""
+        },
+        "responseBodyHash": "8dc8e2cf323081d1cbfb0993b44ec89aee754dec7315b264cfc51cd3686a7b2a",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.3219720000015514
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/827e4f31c0ae4cb4a19243cdccca464a-large.png?updatedAt=1754381695000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1331948,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"348de44a46d5114c2fecdc37d2e80c02\""
+        },
+        "responseBodyHash": "2956f950863d018abcf3ffc1d6024aef90ed65ee5611456dc82fdc96e9ae31fe",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.367787999999564
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/ffd1b378126e4c548221873191e77f9f-middle.png?updatedAt=1754381947000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 101445,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"fdae9bfddad63e7c4475ab004d43b157\""
+        },
+        "responseBodyHash": "cb52de271a8fcd33547390c47d06973e28a7dd0f94cbf9f828c1791a565007a5",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.33491099999992
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/ffd1b378126e4c548221873191e77f9f-large.png?updatedAt=1754381947000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 152208,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c863b078ffd67694676350018bdfcb2e\""
+        },
+        "responseBodyHash": "53b6644574012ccc4672d610f2b98a136defc78a94cb986f93bd7f908e2a4530",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.3432950000005803
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a45748e1a6f34c1aaee02dbddee8c130-middle.png?updatedAt=1754382028000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 49380,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"61e41544dd01468c1f3653ab8caa9578\""
+        },
+        "responseBodyHash": "dbbd13b8ef460a9adff91049983a74a9d4f92c626b819a0e621cbd5a20228ae6",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.2933049999992363
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a45748e1a6f34c1aaee02dbddee8c130-large.png?updatedAt=1754382028000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 76658,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"68e8b94673eae79cf4b00476530fe587\""
+        },
+        "responseBodyHash": "c253662374aedd63041a319d40b9345bb217d731dd73270af9f04a41b0396ca6",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.2968950000013137
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/83dc5f931b5c4967812718ac194b2b45-middle.png?updatedAt=1754298862000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 183227,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c40cab67f7891e1a73382abdd4c76d57\""
+        },
+        "responseBodyHash": "3a5ba412a4ec9073e673e696cb35d309d4961fb3fa60dd85ff68c0c8823b628e",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.2506300000004558
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/83dc5f931b5c4967812718ac194b2b45-large.png?updatedAt=1754298862000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 290471,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"0871886ba1b9d82f90848915c257e1e2\""
+        },
+        "responseBodyHash": "6ceeb5d9952c506477757d319372673d73dc409706cc746320a15f36982729b3",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.3319460000002437
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/83dc5f931b5c4967812718ac194b2b45.png?updatedAt=1754298862000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 67404,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"7e273da272151d55b273e972f22f423c\""
+        },
+        "responseBodyHash": "49a76f5311996c50aa348eb52d3f850946ed478eca5b8c3e09e9c660f3cf4166",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.2734720000007655
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/83dc5f931b5c4967812718ac194b2b45-small.png?updatedAt=1754298862000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 50262,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"268accd6425fad664c0b96b5c99a7ddb\""
+        },
+        "responseBodyHash": "40fe838c160b0e43834b7bb520ed28d9a69c57ed4ea7620984b2c1b575a582f0",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.2978100000000268
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/235960246b2c4bdebcc1821b33878d7b-middle.png?updatedAt=1752130216000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 58173,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"dec50ab16774ba231c8e00f4a5d14e41\""
+        },
+        "responseBodyHash": "8df78e4d68e1a82a9137d81bcb3ab612937928419ea18365ba27f14f6cdf965e",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.0866519999999582
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/235960246b2c4bdebcc1821b33878d7b-large.png?updatedAt=1752130216000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 87529,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c9603af5babd0ee773f65fce4b447515\""
+        },
+        "responseBodyHash": "1611e8061325785020f8a1324d0a42daf0326af9bbab73b28803f362281c1749",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.1057160000000295
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/5f31df1a7ed240b387adffe88ed2265a-middle.png?updatedAt=1754381294000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 34764,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"dc5f03359ef954ba8e15b19b1b936eed\""
+        },
+        "responseBodyHash": "055bfa1fa475ab55a95fdd57aee5d5fe1bd4a6f189bf836bef9d4f018cc930d7",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.0906169999998383
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/5f31df1a7ed240b387adffe88ed2265a-large.png?updatedAt=1754381294000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 53321,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"4a1a38789ab0c223651fd8c24028389b\""
+        },
+        "responseBodyHash": "2c099017cce8b0b430475b265dbff378d188bfb9c478e78db8e07f7ea153576e",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 1.0993539999999484
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2aefa21e76da45abb57a44011bdbdbcb-middle.png?updatedAt=1754383739000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 201704,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"51561962b14cdecfa039fae769328737\""
+        },
+        "responseBodyHash": "5f1c432c314be8ef02286fd03ca0766d491838a28154c37779b183b542e64b78",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.248953000000256
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2aefa21e76da45abb57a44011bdbdbcb-large.png?updatedAt=1754383739000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 304977,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"9aa951fc236a937075aa6679b3d223d5\""
+        },
+        "responseBodyHash": "ac7c2a149248cbb90a576bb756d6bf141f2c2c68b162f3e517fef8ccd1bbdceb",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.3051419999992504
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a6024a92b5ce4deb8abf924fddbd9ada-middle.png?updatedAt=1754381407000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 110287,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c78ac34a165fe0e231c2da0feaedd364\""
+        },
+        "responseBodyHash": "0568e5fad7d92191429c9559c2bb7bdf2295b8f84711a6aab67371c89c06a5ba",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.22446599999966566
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a6024a92b5ce4deb8abf924fddbd9ada-large.png?updatedAt=1754381407000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 172722,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"9cd45668bd3e3b5ebc776552b72fa191\""
+        },
+        "responseBodyHash": "006fb3684326e613bd71a106dce8999486a3a69901eaccdfd19292bad5723bcb",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.23145499999918684
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/baae2c29f8464789b979c483f815a915-middle.png?updatedAt=1754383692000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 993412,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ba73d9565c347973d87e03ff42ef865a\""
+        },
+        "responseBodyHash": "dcc53fc87dba16b6d8694b4f3e2dd45bd346f1413d6f83bac3d3d9e19288724b",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.2914330000003247
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/baae2c29f8464789b979c483f815a915-large.png?updatedAt=1754383692000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1488504,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"f46e5706c4a0626e0e7a37c9c10ff289\""
+        },
+        "responseBodyHash": "304c3cdc2360aa203c4ad8306f6314458fc90721f5cf7c761d13881ecd1864cf",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.43847099999948114
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c76313e25b7e488f976e541ed3c92b50-middle.png?updatedAt=1754382118000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 109292,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"36f386e373bb57f22bfcc7f274977af3\""
+        },
+        "responseBodyHash": "21f0d395dcf518d6cc43365d96d9cdc75d3ce9c769a41b291b5be73af9a3a6e5",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.1978479999997944
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c76313e25b7e488f976e541ed3c92b50-large.png?updatedAt=1754382118000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 168935,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a8d5e3902ead1a2f770c0ef02008a5b6\""
+        },
+        "responseBodyHash": "acb43d8265f794d4696bfc2ae5585406ea2f4e02ff4cccae8d0f2500c34c4ed4",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.20747000000119442
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/89763aa7d386490eb40fb2e2d0941d98-middle.png?updatedAt=1754298910000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 76329,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"e1083a88ea6f4b64541cbc3bd7dc50b9\""
+        },
+        "responseBodyHash": "4aaac58305231c65156702ff4b831ca78a7a9e30743fdcd2d08f0671841f9588",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.15391099999942526
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/89763aa7d386490eb40fb2e2d0941d98-large.png?updatedAt=1754298910000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 118682,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"19a8ea14e602ff6ff476dfe80f8e6d64\""
+        },
+        "responseBodyHash": "900f1acd56ae9740014d12ceeb532e4c19a5556ed10e0b819da0589cd1747609",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.1578540000009525
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/89763aa7d386490eb40fb2e2d0941d98.png?updatedAt=1754298910000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 58914,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"df3b41c41af445382cf6236328043118\""
+        },
+        "responseBodyHash": "30397ab5a8f57fc41e58722d3e5491d2f92651b804f1acd9b969ffebcfedfa65",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.16057000000000698
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/89763aa7d386490eb40fb2e2d0941d98-small.png?updatedAt=1754298910000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22886,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"7f281dc526ca11ff24e3589c533bb3ee\""
+        },
+        "responseBodyHash": "c552ece669eb0370981bd1a54db2a35d1014f06a9ad2f26f6f82cd4dc82460ea",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.16082300000016403
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2ee0517c43e14e2d97ba3544222f4baa-middle.png?updatedAt=1752563462000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 438825,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"11e126079e60631f2e7137669c0d5c5e\""
+        },
+        "responseBodyHash": "ee9b2f72ccc20eaaa24b6ecd2394ef8c7cb65aa1343570c2be8aff4adfd49627",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.16152099999999336
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2ee0517c43e14e2d97ba3544222f4baa-large.png?updatedAt=1752563462000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 705351,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"3cc096c93f608f54f2b237d716eda7e2\""
+        },
+        "responseBodyHash": "dc7b07f359cdb10f9b596ce039c9267e4fcc283ca6489671c9ec01e4036a1d95",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.30546099999992293
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/146ca71eb0964a16981fc5bbd29dca88-middle.png?updatedAt=1754381644000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22035,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"b6b66b6143139b4e380740eaf921cfd3\""
+        },
+        "responseBodyHash": "0927c2bf4509bcca87ddca734655576c2ae051ce1cf579995aa1d29fde20f4ad",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.21423200000026554
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/146ca71eb0964a16981fc5bbd29dca88-large.png?updatedAt=1754381644000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 32237,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a48770c5f53b0e0de19bb9276a1379dc\""
+        },
+        "responseBodyHash": "67ab4f51d2a7a193cd215b399541ea60fb36e2a9cdf1fbad341d872185c8e289",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.21607399999993504
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2da6fc41eef449738c0d0f96a97fe159-middle.png?updatedAt=1754381470000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 39162,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"8737bf60f75c984b863f3973755456f2\""
+        },
+        "responseBodyHash": "053b53245c01f73b3750a389ac9b6ba9557e3f7ad26b4e8c27ec26f0c17c6087",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.17898000000059255
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2da6fc41eef449738c0d0f96a97fe159-large.png?updatedAt=1754381470000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 60336,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"7243519a24249b05108ce0613d32d4c7\""
+        },
+        "responseBodyHash": "1fa31d84d9d5865f0688a7c4dfc646b755de707ad16cf7595e440a14afa6a440",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.1809720000001107
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/d0fb66c396014f86bc60575557ea4d77-middle.png?updatedAt=1754383910000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 53471,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"735ca7798a0856656191def9dccadbb7\""
+        },
+        "responseBodyHash": "a468a53928d9e6c3f0336cfdecc0c4f61405c776e534a3103189a6bbaddeab4c",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.15178200000082143
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/d0fb66c396014f86bc60575557ea4d77-large.png?updatedAt=1754383910000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 81360,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"78ebf59ddbfd2666189b2cbf337d1e10\""
+        },
+        "responseBodyHash": "f383f4ea2a16402ae82e33471bfac14f0121228e495c999d3bdd53e6dd7de886",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.15728799999851617
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/79f7b96411404489a39425dad29ef0e0-middle.png?updatedAt=1754298954000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 296849,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"e1be04ab4934069c29d9ee94fe532660\""
+        },
+        "responseBodyHash": "152489b001efcd48dd9bb94fde197bca71d91f436b30e55ee75778c3ee521b57",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.18140800000037416
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/79f7b96411404489a39425dad29ef0e0-large.png?updatedAt=1754298954000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 466498,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"40be4f3795df6325e660508a3185eaf8\""
+        },
+        "responseBodyHash": "3b7157d5cdda6184793a381c1fb358b6b59f5822daefc8f166b1248687cbd964",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.20985499999915191
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/79f7b96411404489a39425dad29ef0e0.png?updatedAt=1754298954000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 240968,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"97907952821c1f60eb45de2385abea09\""
+        },
+        "responseBodyHash": "29d26f6dc50e66c01d48d9db706b8c274a8afacaf5c965f3da98deccdfc4f397",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.2179869999999937
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/79f7b96411404489a39425dad29ef0e0-small.png?updatedAt=1754298954000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 84282,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a85fa94078995b77fb90d5c475c54910\""
+        },
+        "responseBodyHash": "51f5aff6035897ffe95eb5120fade4730de80814e8fcbffc1e790406e9e6a509",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.22202999999899475
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/8210891f506a467d974db7134eb56cfe-middle.png?updatedAt=1754381825000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 78728,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"b46dd531a797af12183ccbae4c706fb9\""
+        },
+        "responseBodyHash": "1c849e1813ddab9b8146b5b34df8db856d596b623d774ee0861a4aae73da2810",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.14124199999969278
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/8210891f506a467d974db7134eb56cfe-large.png?updatedAt=1754381825000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 117668,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a81e36e1698123f9f97a2e53552aad8e\""
+        },
+        "responseBodyHash": "11a2bc489118ea1babcb4716a2378f195f9c26bfe4cc3f17e1add19855936209",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.14718799999900511
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c4d8d59ed999402fa2b5f454f45de03f-middle.png?updatedAt=1752563464000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 941306,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"9d8938db4cfba4ca1606910f2bd51f2e\""
+        },
+        "responseBodyHash": "44608d976a71c9bd77d8e5b8c2d55351fd6a811230f3d8fbcb42c8553a217a39",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.11740199999985634
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c4d8d59ed999402fa2b5f454f45de03f-large.png?updatedAt=1752563464000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1479459,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"5bf31a3f2a5cb69c9aebb81db0e3a693\""
+        },
+        "responseBodyHash": "7c368417da6b1a3105838afb219817028ef2c2b3d1979ec41f4d8712ff06e44d",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.20747399999891059
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c4d8d59ed999402fa2b5f454f45de03f.png?updatedAt=1752563464000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 683267,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"6a248d728cd5869c8c5bfb7d2654237e\""
+        },
+        "responseBodyHash": "1f09b194bc6b39acf8e56dbbc110414141cd3efdd5390756304fc40f2897bf01",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.24916299999858893
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c4d8d59ed999402fa2b5f454f45de03f-small.png?updatedAt=1752563464000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 258066,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ad6b17ed937a2c128883f8b68da7475f\""
+        },
+        "responseBodyHash": "cecb932223c76efc1fb2a645da1b465721da045a866ee2d077909430cb9ddce9",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.23262500000055297
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/4e89ea915df74b259d2dacf0522d1129-middle.png?updatedAt=1754384165000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 646943,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c02a66110a342860b66e5af43ea6bb7d\""
+        },
+        "responseBodyHash": "fe21e3f460a1f447b6e2b0d6aed1d619bccf5ffe5b3811c0fb6b36bb07bfb8a8",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.28598000000056345
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/4e89ea915df74b259d2dacf0522d1129-large.png?updatedAt=1754384165000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 994986,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"da5728ecf91b4847af19b0abec8a4618\""
+        },
+        "responseBodyHash": "a7cc0753505a34190cf33ac4cf29cbac235943993a1dfa99e8b81f3cb3dc7f6c",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.323500000000422
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2d25b30b2a36491286ec3674845ae37f-middle.png?updatedAt=1773040809000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 97631,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"0639f1fcc9f1e26318a225f8a5494920\""
+        },
+        "responseBodyHash": "dfdf089386294039f970c4d81611950cc0eeba0e554b121a047ad4218def3ae0",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.21460400000069058
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2d25b30b2a36491286ec3674845ae37f-large.png?updatedAt=1773040809000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 152913,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"2560b8644840717b3031dc318cf2f0f2\""
+        },
+        "responseBodyHash": "d0e00eb6078404f3f1d45650c5547ca0809dab1c7d3d0d9436c14cb6d9c3c3d0",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.22502499999973224
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2d25b30b2a36491286ec3674845ae37f.png?updatedAt=1773040809000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 78667,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"f2a74eae906f38e48cdc49fed4984bd1\""
+        },
+        "responseBodyHash": "bb8071bc755ae2c2635a8bc5bbf99a6e60a3900ece7b60cc9599cf412bb25e7d",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.22798499999953492
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2d25b30b2a36491286ec3674845ae37f-small.png?updatedAt=1773040809000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29318,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"19dcaa4def6807fb4a51b7f848a3fc95\""
+        },
+        "responseBodyHash": "6cbf54c0e58b2e707cb7a504cd072e7615715bafc4235cf0e7d114de27373be7",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.22824799999943934
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/b5326f9b623349e9bdf5e067b6039929-middle.png?updatedAt=1754382369000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 42219,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ff6679a1b6d19820f927199392b48154\""
+        },
+        "responseBodyHash": "4586cd3efa1c28b4bdb285f13162770d49e8745fddae577585ad307142449d04",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.22632100000009814
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/b5326f9b623349e9bdf5e067b6039929-large.png?updatedAt=1754382369000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 63960,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"087e6e02a0f2b355f2368be54123cb90\""
+        },
+        "responseBodyHash": "546b76fe85b45448865c664c625cb796adf33752676922bb7f9db7dab19e2e84",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.22658899999987625
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/9c632d7dfd424230893fc2625babd6eb-middle.png?updatedAt=1752563398000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 118623,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"1d91e9e6ee2c4b31dde370cdf864476e\""
+        },
+        "responseBodyHash": "ce23ef64b3a2a4d4b21151e045c6a72278f1f2c610c2cfd5bf5e3d4bd0eb2d55",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.10408599999936996
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/9c632d7dfd424230893fc2625babd6eb-large.png?updatedAt=1752563398000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 184041,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"4d6cd838db5cb23fdb8e53021d221d4d\""
+        },
+        "responseBodyHash": "719d9b32502f4100604783f19a359a4500b33324190aab08f898b7804f2c2261",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.12025800000083109
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2f12aa656b7c4196801ddf98f5531a4c-middle.png?updatedAt=1754382483000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 79887,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"3792a450ad87434e4ac4ee7917d403cd\""
+        },
+        "responseBodyHash": "1c94a96146292cda5f3084e3331c1741a2ebe7f16569a186d26d17dbdfc22bed",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.08132400000067719
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2f12aa656b7c4196801ddf98f5531a4c-large.png?updatedAt=1754382483000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 133704,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"64502ec9d63bf449e2406ff22c0a49f9\""
+        },
+        "responseBodyHash": "93cffd3935d61ec6c7a4af203ae95e0fdd50ffbf521315afc3754c6493594c35",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.0870149999991554
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/858070398b784aa89040d203c2ac009f-middle.png?updatedAt=1754384218000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1041883,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"4d70b18dd72155653b8a345e92378772\""
+        },
+        "responseBodyHash": "803fe93f03c68efb43ccfac2a6d7990dc52aa57c5d6806235123de30de88a962",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.15411499999936495
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/858070398b784aa89040d203c2ac009f-large.png?updatedAt=1754384218000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1583307,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"11d9206951890ec448e19cf8f7ec845c\""
+        },
+        "responseBodyHash": "57597bf3c16b8a8a6c69d3c52c201e07a925cb74243611d22e936b70c2acb8f0",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.2391669999997248
+      },
+      {
+        "url": "https://www.line.me/static/img/icon-dl-b_1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 759,
+        "remoteIPAddress": "65.8.180.20",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c805c9b15b29f0e15c42a072e5f36bf6\""
+        },
+        "responseBodyHash": "6bac96e441c357288dfdfa34e4c40b3ab586ed71c927306f3dd5ed3460ef545e",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.2084739999991143
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/11b04fc3f42149f1afbb082559469b34-middle.png?updatedAt=1754383634000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 55552,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"d5ae6650243ac014336ab1a9b71299cd\""
+        },
+        "responseBodyHash": "e1631217f3e21ce1cec3618f5765e8695450f8eded4a252856f39ccea5f9df44",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.16394000000036613
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/11b04fc3f42149f1afbb082559469b34-large.png?updatedAt=1754383634000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 84105,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a087ef2c117b418c624ad5227526a222\""
+        },
+        "responseBodyHash": "0054a676aca811791d0a5e1362a50f6174275865b92436195953b3b987a654dc",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.16492999999900348
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/cdefaa727d4f4d36a7952b45d4902f76-middle.png?updatedAt=1754383797000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 39459,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c4d8153504957a478519064695173b38\""
+        },
+        "responseBodyHash": "ace4006bf5108554f97a739a21c78c8f27c76acdd385d8f06bf4b93977652d40",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.06630000000041036
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/cdefaa727d4f4d36a7952b45d4902f76-large.png?updatedAt=1754383797000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 61578,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"2ad6e7052311ac46dea5095d2fcd11ff\""
+        },
+        "responseBodyHash": "46c672978ab0caa742146a1e6672f9f448eab1803eced3f9607ea65887117c1b",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.059769999999844
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/59186fc24b394f6aacfd5a1d7642bda0-middle.png?updatedAt=1754384268000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1374794,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"7cc285bf9b7ed0cbc0e54a3faf173319\""
+        },
+        "responseBodyHash": "c1575c1e4e95f6f996e2bb971ccd3429081292ed55c9840b867de7890d2e2f18",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.16729900000063935
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/59186fc24b394f6aacfd5a1d7642bda0-large.png?updatedAt=1754384268000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2100243,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"8b4dff171f9eef11337dcf7ac5796c06\""
+        },
+        "responseBodyHash": "804c059c852bcaf847b92baf57fb49d9d657f1bd4518f138deff8414ee60e120",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.2392840000011347
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2774255297784f20a8cdb83232a512e6-middle.png?updatedAt=1754383959000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 95160,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ebef6168cd087abf2271a7a909da7ce3\""
+        },
+        "responseBodyHash": "53d2db1b108379db77b165389a518209c712ce4a1e911c39fb7dca0c860aff0c",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.16588600000068254
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/2774255297784f20a8cdb83232a512e6-large.png?updatedAt=1754383959000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 146642,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"250f30b8e60ed03bb60d6a6c97688028\""
+        },
+        "responseBodyHash": "bf9961fcd89ff869e050f7263e64d2675ff5c4966af88ebfab19384b9ba07535",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.21477299999969546
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/5481a806e3f24b8983de7f2c7153fd20-middle.png?updatedAt=1754382541000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 713593,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"c371e60b5efb3785e1aeb3ee95fd6100\""
+        },
+        "responseBodyHash": "189e9cbf079c562054bbadb399d6fe34eaa2b2c9cf80dc131fe0438a7c746a86",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.07315599999856204
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/5481a806e3f24b8983de7f2c7153fd20-large.png?updatedAt=1754382541000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1092365,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"ee0cab665931ae234bd109183a715648\""
+        },
+        "responseBodyHash": "e8ce13d2415eed420a640dafcf668eefb2d9ecf31ece58ae9cd683ba83e24d69",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.12670300000172574
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a11301a714714ab0905dc57666b2b66f-middle.png?updatedAt=1754384109000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1052931,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"8cc307f56138386322be5e66584e0cf3\""
+        },
+        "responseBodyHash": "b2a0c36a2f64425a44a3474c63351e45469bef6ccebb2500ab8c69566f704808",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.06936200000018289
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/a11301a714714ab0905dc57666b2b66f-large.png?updatedAt=1754384109000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1566027,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"b181b8e351de84840278743a8d5b2913\""
+        },
+        "responseBodyHash": "581a21906216052e68a686ea10ebb0c8a43868c8590c3dd1faa1ff60b7fb3d8b",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.13924100000076578
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/faf62a7f50b749b3a24a0d079cb0ef60-middle.png?updatedAt=1754383852000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 413240,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"1fd3c21de56181683b39245a18b58795\""
+        },
+        "responseBodyHash": "6571f5fcc01fda9aab9018667ba8e73ae944941ca471cd1be1fbd8cc7924fd76",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.03854500000124972
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/faf62a7f50b749b3a24a0d079cb0ef60-large.png?updatedAt=1754383852000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 628692,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"5d3f99184ba83a797627f97f972c1c27\""
+        },
+        "responseBodyHash": "26bd80be911fc1aaaa698eabc65bb411bf4d15476cc9c178618ff51d37932257",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.06771500000104425
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/6a650887673149df8389cc0facec7f97-middle.png?updatedAt=1754384317000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 579669,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"0eb9185d255cc7c64da6d89da38a9dee\""
+        },
+        "responseBodyHash": "6dcf4feacd816f53d8aaf3ab04c22836cb0eaee3333d2e9130bdce86e9b93340",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.09222800000134157
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/6a650887673149df8389cc0facec7f97-large.png?updatedAt=1754384317000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 894635,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"6d0ea792a9240aba356b4b114adcff87\""
+        },
+        "responseBodyHash": "0315d2812d501c816d69010a980b4cf6d6bc4b2b610901773a92868af85cd0b0",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.0552800000004936
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/8a964e7fb5da4f23afc9f91c99ed5746-middle.png?updatedAt=1754383574000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 834423,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"99c0db573de987e979b9c2c7686c1708\""
+        },
+        "responseBodyHash": "b19dec68ac2263dc9e24df9bfacb0d5b1a5f9dec11389651999e0e6579a36793",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.08818699999937962
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/8a964e7fb5da4f23afc9f91c99ed5746-large.png?updatedAt=1754383574000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1266364,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"e9d2ed9719d470f0fcaa5df05a8b9f50\""
+        },
+        "responseBodyHash": "389650746f4ab427fcaf75b19b7c8d0e8071da0e770f04480889561867d4a851",
+        "initiators": [
+          "https://www.line.me/static/js/common.min.js",
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.12506000000030326
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/service_banner/item?_status=PUBLISH&locale=en_US",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1125,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"69f-X46sE27ciBXxr2CUX2DsjQ3cxok\""
+        },
+        "responseBodyHash": "63b01cb9c72dede5d715a596e000cc576cce4bcbe70d406069fa6b937fe90c28",
+        "initiators": [
+          "https://www.line.me/static/js/content-service.min.js"
+        ],
+        "time": 0.8237319999989268
+      },
+      {
+        "url": "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/service_banner/item?_status=PUBLISH&locale=en_US",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.169.183.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.line.me",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"2c-gI/EnikSW9s8qee14lOZbbO0Hwg\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://landpress-content.line-scdn.net/contents/v2/projects/tqq6mwxs5qlx5cg0nutma2bg/collections/service_banner/item?_status=PUBLISH&locale=en_US"
+        ],
+        "time": 0.4177270000000135
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c936a753ecf84a269cdc0f23d734f357-middle.png?updatedAt=1752826192000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 100945,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"2ce1dee0242bc71a91233f15926b173e\""
+        },
+        "responseBodyHash": "720c32593339e3d585da1e3392ddbaa37fc3f3f4988fdbd45299fbfb267a1e82",
+        "initiators": [],
+        "time": 0.020137999999860767
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c936a753ecf84a269cdc0f23d734f357-large.png?updatedAt=1752826192000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 182151,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"1799e7c387c8e1f32cf8f32771ed3f2c\""
+        },
+        "responseBodyHash": "a49ad690e44a217fad676935cbd7aa04b661578ae483de549d8a842ec85d6b0b",
+        "initiators": [],
+        "time": 0.03341600000021572
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c936a753ecf84a269cdc0f23d734f357.png?updatedAt=1752826192000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 101074,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"a8a76dfcb3634c0cc8ab318411a5ed6d\""
+        },
+        "responseBodyHash": "fb323653c6072c917968df0c28f4ee11ea95f70f902f5ba787d0c49a45d35a57",
+        "initiators": [],
+        "time": 0.038720000000466825
+      },
+      {
+        "url": "https://vos.line-scdn.net/landpress-content-v2-tqq6mwxs5qlx5cg0nutma2bg/c936a753ecf84a269cdc0f23d734f357-small.png?updatedAt=1752826192000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 33376,
+        "remoteIPAddress": "184.28.122.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300",
+          "etag": "\"f2998d63e5ca183e7e956c074bd4108e\""
+        },
+        "responseBodyHash": "791ebeec923cc1e1f0bb8843d884f8caff26f3317eb0d3892ecb70eab4137a0b",
+        "initiators": [],
+        "time": 0.03375000000050932
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_ga",
+        "domain": ".line.me",
+        "path": "/",
+        "expires": 1809549064676,
+        "session": false
+      },
+      {
+        "name": "_gid",
+        "domain": ".line.me",
+        "path": "/",
+        "expires": 1775075464000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.line.me/static/js/common.min.js": {
+          "Navigator.prototype.userAgent": 1,
+          "window.innerWidth": 2
+        },
+        "https://www.googletagmanager.com/gtag/js?id=UA-49752572-1": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 7,
+          "window.name": 2
+        },
+        "https://www.google-analytics.com/analytics.js": {
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTime": 6,
+          "Document.cookie getter": 12,
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie setter": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.2.636146252.1774989065; path=/; expires=Thu, 30 Mar 2028 20:31:04 GMT; domain=line.me;"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=GA1.2.676919137.1774989065; path=/; expires=Wed, 01 Apr 2026 20:31:04 GMT; domain=line.me;"
+          ]
+        }
+      ]
+    }
+  }
+}

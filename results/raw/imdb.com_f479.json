@@ -1,0 +1,999 @@
+{
+  "initialUrl": "https://imdb.com/",
+  "finalUrl": "https://www.imdb.com/",
+  "timeout": false,
+  "testStarted": 1774987904351,
+  "testFinished": 1774987916051,
+  "data": {
+    "requests": [
+      {
+        "url": "https://imdb.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "98.82.158.179",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.imdb.com/",
+        "initiators": [],
+        "time": 0.2800919999999678
+      },
+      {
+        "url": "https://www.imdb.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 202,
+        "size": 2430,
+        "remoteIPAddress": "18.155.187.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, max-age=0"
+        },
+        "responseBodyHash": "a416af1e910b3934b8fe9db9a612f4fc7f16c3d0593c1125162003dc2f48c02f",
+        "redirectedFrom": "https://imdb.com/",
+        "initiators": [],
+        "time": 0.2077179999996588
+      },
+      {
+        "url": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 505380,
+        "remoteIPAddress": "3.168.86.8",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6de202ac798e979b559b6c11ba7f48588ec51790e9aa246a9056847c59ce093f",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 4.6752690000002985
+      },
+      {
+        "url": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/inputs?client=browser",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 827,
+        "remoteIPAddress": "3.168.86.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "08ad292cfff8ed43263b7ca87354d4b72b5b635cf84c97f193280db6e56540d1",
+        "initiators": [
+          "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "https://www.imdb.com/"
+        ],
+        "time": 0.18934900000022026
+      },
+      {
+        "url": "https://www.imdb.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 302,
+        "remoteIPAddress": "18.155.187.37",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png",
+        "initiators": [],
+        "time": 0.10830499999974563
+      },
+      {
+        "url": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/mp_verify",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 616,
+        "remoteIPAddress": "3.168.86.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b30d32973fa200ff5b0d2f8de561293a176a68640bab4952622bc1b6226e5d",
+        "initiators": [
+          "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js"
+        ],
+        "time": 0.12206400000013673
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1339,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600,public",
+          "expires": "Sun, 15 Feb 2026 05:14:27 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "b239689bc02bdeef08e86dab6ace6b227201232fa57468baf47cc6c3f407d470",
+        "redirectedFrom": "https://www.imdb.com/favicon.ico",
+        "initiators": [],
+        "time": 0.14583399999992253
+      },
+      {
+        "url": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/mp_verify",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 616,
+        "remoteIPAddress": "3.168.86.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js"
+        ],
+        "time": 0.1879289999997127
+      },
+      {
+        "url": "https://www.imdb.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 251053,
+        "remoteIPAddress": "18.155.187.37",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "etag": "\"6pw1yaea70pacm\"",
+          "set-cookie": "session-id=139-4643408-6702267; Domain=.imdb.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure\nsession-id-time=2082787201l; Domain=.imdb.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure\nnext-sid=uO1-Oi_LpxHHbutmJjXnz; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly"
+        },
+        "responseBodyHash": "860e2f15ea53fb8deb21458f4dc17618fd312ce33169d968b8a9c9bf94689f53",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 1.2461560000001555
+      },
+      {
+        "url": "https://m.media-amazon.com/images/S/sash/MQvAPZtWnLQYt5p.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 73749,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 22 Mar 2046 02:47:22 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "8af03b5dd30a8f3dd88526c0a3c9880a2387c150756a078b7a668b1ddf981398",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.10784500000045227
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/11QhRZqmoxL.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1716,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 15 Jan 2045 14:39:03 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "2575acff0e06b7b5a6e0980c27ed1d4feb52d26b89d3bdcd204e2ee6e8d7ca47",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.10921099999995931
+      },
+      {
+        "url": "https://m.media-amazon.com/images/S/sash/djV9FnI7RYrbIyR.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14418,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 21 Aug 2045 05:02:14 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "291150eadc3be80ac7a25b5a6991a258aa0fef045161a2afc6698c584a83febf",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.1131070000001273
+      },
+      {
+        "url": "https://www.googletagservices.com/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 35186,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "339 / 20543 / 31097518 / config-hash: 318396702692584703",
+          "expires": "Tue, 31 Mar 2026 20:11:53 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.3190789999998742
+      },
+      {
+        "url": "https://m.media-amazon.com/images/S/sash/6WQdCE8Mjrz1328.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2142,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 21 Feb 2046 04:16:51 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "982303735a73272cdf4400b1e341d058eea5e9c84670174d669eed1d957c37b7",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.11363199999959761
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/css/587cc37b1abffd77.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 41941,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"a3a0a72baa7edeb1e8df1e1db88d441a\""
+        },
+        "responseBodyHash": "90f07daba182945678224784a1d20dffb8051e73380b5d4655809dd0e3573adb",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.13604100000065955
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/css/5473e0cf0f2d751f.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3432,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"0814310c92f5b993346c1973d6602353\""
+        },
+        "responseBodyHash": "304ff91297b4428bbe1eccd2ecf5701dbdd6a11efae79db985ad7f82d825fd29",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.13644099999964965
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/css/8b391bc17371a7b0.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 8043,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"2d30f2e67c9e051493c0122068d14d50\""
+        },
+        "responseBodyHash": "b19fe568d6d5a7666bac3a69d68073a41ae27eba225a35fe6e77a6b91711a5e2",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.13668500000039785
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/css/ea954c775e56c8f4.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1265,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"686c6336fbe92b8f389a918a077cbf2a\""
+        },
+        "responseBodyHash": "90434de7e46745163a8e90b3fd2bbb7fb1fbbfa3f039442213bd54b41761bb62",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.13687099999970087
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/webpack-6c88487194755af3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2536,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"fa8d3f7558e4493adbc80efbe9df130b\""
+        },
+        "responseBodyHash": "4d65276b4a153c9c5fc852d89e8267130ffe250b18b7ab56b327ddf223dfabda",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.15719500000068365
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/framework-a909d885f472f220.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 66912,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"b4131f0135fbde04394cb3c363011af3\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.6871369999998933
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/main-6c24c9b673722d49.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41883,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"c9d22c22f96b3ffa186f421816767315\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.7830700000004072
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/pages/_app-a7c9704f070662da.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 739747,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"484c1f77e102e33996f7152697339337\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8502609999995911
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/c30a072d-ac83d3290b9b3eaf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30484,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"e5a85ef5269d13f18ac9f7732b4c40aa\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8542499999994106
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/8198-8150702a7fc55b3d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21962,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"57363cf015d05e1dce9017947b97321e\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8559990000003381
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/5368-51c24bec7694a0d4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 91507,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"42ce4c0288a148b3b3f1d974ae945658\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8583989999997357
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/9291-c23eaddc9645c064.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22729,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"a7a3d579a66e69f4fc6a0ecb4e775485\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8609709999991537
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/6177-13bf9534a84f1b09.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5908,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"cb668b7a2ada1d1047f960ec170ff60e\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8614010000001144
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/1177-191d36d48b2d0a25.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5566,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"88643520cbcbbc3f09b675bfd7b6550b\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8618560000004436
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/5522-31a2f4ccbc79131f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4966,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"95c975e26af9c95b815222d1daa2162c\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8622169999998732
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/3065-654ede082df167f8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 221807,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"2b3b3a54d3d8702a80e9633ed82cdb45\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.87131700000009
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/380-123b96685047e6cc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4042,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"d41fb1f6a5e862012493b9551ed60482\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8717289999995046
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/6580-e45de6da1476e91c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8014,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"065729a5245c9611091e9d6c354e8a96\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8719619999992574
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/9031-de0d2babbcc9fa50.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6347,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"32e77449260fc6519a957e3834686228\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8721789999999601
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/370-b45f3274a909d31e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6656,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"413c12c0d67e6de39b8fa05d09a6743c\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8727310000003854
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/337-a2092e955da6365d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9945,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"a9dbd2a2cd0d813895a3070b75e9fa13\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8733879999999772
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/pages/index-930ac0e810a30584.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28946,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"a38c35f893bbc3124103a910d57a3664\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8749369999995906
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/msfkA6r4h54D1rb9e29sA/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11224,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "W/\"9876e5d14a90baa1a57d7036b9d66bd2\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8756649999995716
+      },
+      {
+        "url": "https://dqpnq362acqdi.cloudfront.net/_next/static/msfkA6r4h54D1rb9e29sA/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 606,
+        "remoteIPAddress": "13.249.66.69",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000",
+          "etag": "\"b6652df95db52feb4daf4eca35380933\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8758419999994658
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:139-4643408-6702267:GV09EHCKATXK0JJ8YCCV$uedata=s:%2Fuedata%2Fuedata%3Fstaticb%26id%3DGV09EHCKATXK0JJ8YCCV:0",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 151,
+        "remoteIPAddress": "54.167.136.226",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.8955240000004778
+      },
+      {
+        "url": "https://m.media-amazon.com/images/M/MV5BN2MzMjMyNmQtYzkwMC00NTM2LThmN2ItMTczMGVmNGY5ODZlXkEyXkFqcGc@._V1_QL75_UX280_CR0,3,280,414_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23657,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 17 Jan 2046 14:55:15 GMT"
+        },
+        "responseBodyHash": "b1a63dd8821ae22153decbc396a1fbc9437492e5b79486bf8525310dc6e09b50",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.05016500000056112
+      },
+      {
+        "url": "https://m.media-amazon.com/images/M/MV5BY2MxNGI1NmMtOGY0NC00NzAzLTk5NDMtNzEzYTU3Yzc3MGMyXkEyXkFqcGc@._CR1460,157,3717,2091_QL75_UX1000_CR0,0,1000,563_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 31659,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a7365447a1927ef390def8ea0b5a5a7b020bed44f8871a2fa1bd57fbe434a276",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.05397300000004179
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 92102,
+        "remoteIPAddress": "65.8.185.90",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"e321b824449039de690fd4e40ef81db8\""
+        },
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.2342530000005354
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/IMDb/cm9ib3Rv._TTW_.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 11738,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800,public",
+          "expires": "Mon, 02 Feb 2026 13:38:20 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "954e9d147f6b961f72655ff1850210fa627d466b2d1081479a1dc00eb47b6bff",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.1510390000003099
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/IMDb/cm9ib3RvTWVk._TTW_.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 11747,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800,public",
+          "expires": "Mon, 30 Mar 2026 12:30:11 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "3992dd36ff4f15ad141efecfb42a2eeb1c2db5dd541ba5d9de7434f7ce798761",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.15221199999996315
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/IMDb/cm9ib3RvQm9sZA._TTW_.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 11747,
+        "remoteIPAddress": "18.244.213.224",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Form-Factors, Sec-CH-Viewport-Width, Sec-CH-Width, Sec-CH-Viewport-Height, Sec-CH-DPR, ECT",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800,public",
+          "expires": "Tue, 31 Mar 2026 06:37:48 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "3992dd36ff4f15ad141efecfb42a2eeb1c2db5dd541ba5d9de7434f7ce798761",
+        "initiators": [
+          "https://www.imdb.com/"
+        ],
+        "time": 0.1519689999995535
+      },
+      {
+        "url": "https://api.graphql.imdb.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "initiators": [
+          "https://m.media-amazon.com/images/S/sash/MQvAPZtWnLQYt5p.js",
+          "https://www.imdb.com/"
+        ]
+      },
+      {
+        "url": "https://api.graphql.imdb.com/",
+        "method": "OPTIONS",
+        "type": "Other",
+        "initiators": [
+          "https://api.graphql.imdb.com/"
+        ]
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603300101/pubads_impl.js?cb=31097518",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://www.googletagservices.com/tag/js/gpt.js"
+        ]
+      }
+    ],
+    "cookies": [
+      {
+        "name": "aws-waf-token",
+        "domain": ".www.imdb.com",
+        "path": "/",
+        "expires": 1775333512000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "session-id",
+        "domain": ".imdb.com",
+        "path": "/",
+        "expires": 1809547913558,
+        "session": false
+      },
+      {
+        "name": "session-id-time",
+        "domain": ".imdb.com",
+        "path": "/",
+        "expires": 1809547913558,
+        "session": false
+      },
+      {
+        "name": "csm-hit",
+        "domain": "www.imdb.com",
+        "path": "/",
+        "expires": 1805227914000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js": {
+          "Navigator.prototype.appName": 2,
+          "window.localStorage": 11,
+          "Date.prototype.getTime": 73,
+          "Navigator.prototype.plugins": 48,
+          "Navigator.prototype.userAgent": 4,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Screen.prototype.availHeight": 4,
+          "Screen.prototype.colorDepth": 4,
+          "Navigator.prototype.webdriver": 4,
+          "WebGLRenderingContext.prototype.getExtension": 2,
+          "WebGLRenderingContext.prototype.getParameter": 4,
+          "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+          "Navigator.prototype.doNotTrack": 2,
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "HTMLMediaElement.prototype.canPlayType": 4,
+          "MediaSource.isTypeSupported": 2,
+          "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+          "HTMLCanvasElement.prototype.toDataURL": 2,
+          "CanvasRenderingContext2D.prototype.getImageData": 2,
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 12
+        },
+        "https://www.imdb.com/": {
+          "window.localStorage": 6,
+          "Document.cookie getter": 4,
+          "Document.cookie setter": 1,
+          "Date.prototype.getTime": 57,
+          "window.innerHeight": 3,
+          "window.sessionStorage": 8,
+          "Navigator.prototype.connection": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.availHeight": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.pixelDepth": 1,
+          "window.innerWidth": 2,
+          "PerformanceTiming.prototype.navigationStart": 6,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.webdriver": 1
+        },
+        "https://m.media-amazon.com/images/S/sash/MQvAPZtWnLQYt5p.js": {
+          "window.innerWidth": 1,
+          "Document.cookie getter": 6
+        },
+        "https://www.googletagservices.com/tag/js/gpt.js": {
+          "Document.cookie getter": 3,
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://c.amazon-adsystem.com/aax2/apstag.js": {
+          "Event.prototype.timeStamp": 220,
+          "window.localStorage": 28,
+          "NavigatorUAData.prototype.brands": 3,
+          "NavigatorUAData.prototype.platform": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=www.imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.www.imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=9de4283e-68cc-49d7-a1c6-84d89989c3bc:EQoAcLaNMTS+AAAA:SwkYj/4LtUu3k2YfpQp8W9p5lFRMQctRNw9H0ig9KTA2duDq/0EV1qLU83v4AP+amYJojVSCWjVa3ja/mA5PlXp+jSc8phqWfGLMGIbg9B3FCmCHj5KsrhOCbNsl2oGABG3U2AyXBrPtI3Q16IUU8iuqPSrbTte0oObqC0tr7jWf761ibFy5dXGOFLROHug=; expires=Sat, 04 Apr 2026 20:11:52 GMT; path=/; samesite=Lax; domain=.www.imdb.com; secure"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=www.imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.www.imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.imdb.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fb423e1ef94f.6277d64d.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/916d943f6a58/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=9de4283e-68cc-49d7-a1c6-84d89989c3bc:EQoAjC6NCpzfAAAA:rOikQcs4beVxbAWvhiBUT3W/3FxYs2wCzH6v7xye3a4djdaOUE7Azwy9dqsfkXr0w9JyHAXG49hKGlgvhfyYnXYkMDUXIaBOcJBy8OyHCMFhjHNM0s+sAnYtYVlS1MvC3r/M1JXC6RHDOfbxoojrVYYsPfa+aBBrWjASkrh7EHRmkZVCABV0xybrVj5MXWM=; expires=Sat, 04 Apr 2026 20:11:52 GMT; path=/; samesite=Lax; domain=.www.imdb.com; secure"
+          ]
+        },
+        {
+          "source": "https://www.imdb.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "csm-hit=tb:s-GV09EHCKATXK0JJ8YCCV|1774987914288&t:1774987914289;expires=Tue, 16 Mar 2027 20:11:54 GMT;path=/"
+          ]
+        }
+      ]
+    }
+  }
+}

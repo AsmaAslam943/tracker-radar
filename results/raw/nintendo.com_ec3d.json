@@ -1,0 +1,4269 @@
+{
+  "initialUrl": "https://nintendo.com/",
+  "finalUrl": "https://www.nintendo.com/us/",
+  "timeout": false,
+  "testStarted": 1774993880276,
+  "testFinished": 1774993910090,
+  "data": {
+    "requests": [
+      {
+        "url": "https://nintendo.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "192.159.190.35",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nintendo.com/",
+        "initiators": [],
+        "time": 0.21591699999953562
+      },
+      {
+        "url": "https://www.nintendo.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "set-cookie": "BIGipServerWEBFARM_REDIRECT_8053=1751318794.29983.0000; path=/; Httponly; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nintendo.com/us/",
+        "redirectedFrom": "https://nintendo.com/",
+        "initiators": [],
+        "time": 0.057614000001194654
+      },
+      {
+        "url": "https://www.nintendo.com/us/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 85009,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=60"
+        },
+        "responseBodyHash": "77183aa4e50f3c58d8c85b1a862d15c3eb55d067b9e16d5927943d487bb4ce25",
+        "redirectedFrom": "https://www.nintendo.com/",
+        "initiators": [],
+        "time": 0.025320999999166816
+      },
+      {
+        "url": "https://www.nintendo.com/us/optimizelyjs/6623157105197056.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 154235,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=120",
+          "etag": "\"659c540716d06582cdc89b5efdc0eadf\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2a5d97a70bb98d69f275dde879cd077675ec35ecc4faa14a08bdc831969ac170",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.2813129999994999
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/css/4d866954d1ca1a6d.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 51412,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "1b6c098b69d14bfad39ca2ed6ac3e43b556aa3c46d3a954529c0fba0558af437",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.013106000000334461
+      },
+      {
+        "url": "https://polyfill-fastly.io/v3/polyfill.min.js?features=Intl%2CIntersectionObserver%2CIntl.Locale%2CIntl.NumberFormat%2CResizeObserver%2CMediaQueryList.prototype.removeEventListener%2CMediaQueryList.prototype.addEventListener",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 359,
+        "remoteIPAddress": "151.101.1.91",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=604800, stale-while-revalidate=604800, stale-if-error=604800, immutable"
+        },
+        "responseBodyHash": "6c68769e8470ce89a0f2270529a5d47db00917e3ef9df946dca202098f09d0a2",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 6.897997000000032
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/webpack-8b62ee40f1a1d1a5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5922,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "2cf52cf5ff31efa093d329127c7468a7b645e94c40e0eb5fb24bf7821172395e",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.4446860000007291
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43065,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "0f57105a9727bca524755e82a2132d3388d567a977b76170fe79647df8212f90",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.4510840000002645
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23776,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "19a9dc9e4e1b1c186a78aed8b3ce92475b21d382516d62062c82305a89e991e3",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.4514529999996739
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 791268,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "f01c721b013b5d43549b1bb3b80458f32c6069213ed141c73d0b9b9086b8661b",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.4933789999995497
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/index-27d63d5e7db08bee.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2949,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "b4f6b1a56d54b22a863a10943b57cabe69cca5513e45fe958b79131156200862",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.4520569999986037
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/84NIHITWh17NJPK3myUkw/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4485,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "b921013ef63384a26bbae54968acd6e674660a56805b824789d3b0bc3a0c1dda",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.4557440000007773
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/84NIHITWh17NJPK3myUkw/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 165,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "a6631e130569e420cf9ab550ef80d3ef46cf7c7deda894928f9302c6a0b38394",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.4559059999992314
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/c_fill,h_56,w_56/dpr_2.0/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/512x512-Thumbnail",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4839,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"9d7c56c59a7e02129eed18bf767267db\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8953bcb61e89a3bf42b95d211727a0a9081058180f6e413e06de4cecf3059141",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.08274400000118476
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/c_fill,h_56,w_56/dpr_2.0/ncom/en_US/merchandising/center-stage-stories/2026/03-March/Yoshi's%20MB/96x96-YMB-Static",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2224,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"5586448e4ec280625d52d85f4ddd7b93\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3519d19612a9f03f8d6c4bc202cc491c71bf4341dff45f2346b851a2a8fea0dc",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.0830839999998716
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/c_fill,h_56,w_56/dpr_2.0/ncom/en_US/merchandising/center-stage-stories/2026/02-February/Pokemon%20Pokopia/96x96-Pokemon_Pokopia",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3215,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d2394540b422a12eb1155bdeb6a378a6\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bbe48caa0d4b1cfcfb887b1dafd2133323489ece907c90e77951dcecd5e876de",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.097314999999071
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/c_fill,h_56,w_56/dpr_2.0/ncom/en_US/merchandising/center-stage-stories/2025/09-September/Super%20Mario%20Galaxy%20Movie/96x96-CS-Thumb-SMGM",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4546,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"68cde11a29a1c3db59004c788bd87b5f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1c768bf192ba02dfc964f23f934e266f83990ee261b880d47c1bf5c200acc85a",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.09765500000139582
+      },
+      {
+        "url": "https://caru.bbbprograms.org/seal/GetSeal/1514703882",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14233,
+        "remoteIPAddress": "52.2.84.234",
+        "responseHeaders": {},
+        "responseBodyHash": "082ddda34d6377ef981943df0101af3f6250b62ac1e97e3092c8a4956c77b269",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 6.698770999999397
+      },
+      {
+        "url": "https://assets.nintendo.com/raw/upload/v1666282340/ncom/icons/fav-icons/site.webmanifest",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 931,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, no-transform, immutable, max-age=31536000",
+          "etag": "\"3f17b00b2c4773aa6109210e0be045ee\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb198b9af410a77f2f6e658aa67461a2161fdbabb4c9da6d1d7c74225bf33b69",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.2219490000006772
+      },
+      {
+        "url": "https://integrations.optimizely-edge.com/ga4?projectId=6623157105197056&ids=",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 145,
+        "remoteIPAddress": "104.18.167.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "5991daa8a4669859059af611b24fd6f02116077b00b02f96cabe21b68319e10d",
+        "initiators": [
+          "https://www.nintendo.com/us/optimizelyjs/6623157105197056.js"
+        ],
+        "time": 6.182536999998774
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 210774,
+        "remoteIPAddress": "142.251.214.136",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:51:27 GMT"
+        },
+        "responseBodyHash": "aad8ff7f7904b208130ee1a320caec1d38db3865e41ed3d41425ed4d88fce695",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 6.403330000001006
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164519,
+        "remoteIPAddress": "142.251.214.136",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:51:27 GMT"
+        },
+        "responseBodyHash": "cc5907880ee15a4b92300342afd54e0f9c28d05db2de37daed5f5d6721d4bc3d",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 6.39774799999941
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/media/geologica-latin-crsv-normal.ab5d2ea0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26058,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "5431dc9bdc07742491d08781ed0ff34d846bbb5ec3bbb545ee8de861b0e62737",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/css/4d866954d1ca1a6d.css"
+        ],
+        "time": 0.06414399999994203
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/c_scale,w_24,q_auto/ncom/global/flags-change-region/FlagUsaIconRegionSelect.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 571,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"4dbe19d7d4d29386331e0fb705e06530\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "78185ff11fc5326a510f79ee014c5428b420957698b596e18df81832405a9209",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.015800000001036096
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ccb3e8ca3c296e21a8c933e8369031511589d0ef6b079cf5bb3667b09893482c/Global%20Nav/Explore/Nintendo-Switch-2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9926,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"c769581d6caeca1828d288118ea1e847\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4fccbbb27455206a23585b5f8bf831505426a8d294e999e838f2609c0dc5aac9",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.01998699999967357
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Explore-Nintendo-Switch-alt",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13272,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"58455346b329b2130f0f567ea011d0c6\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "96db10a856c59a6a0353cf815bfabd28d63d90164d50dd34d6fa3591f7efec6c",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.01941900000019814
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ccb3e8ca3c296e21a8c933e8369031511589d0ef6b079cf5bb3667b09893482c/Global%20Nav/Explore/Games",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 53774,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d32eeeb01b8f943fd75aa1abb9b3ad14\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2c96ea2cc867f61795a8e5be8dbced8fe0e18b948dfe8e3af92cb7a55c92cc54",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.02900700000100187
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Explore-Nintendo-Switch-Online",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2343,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"7d9ad4a2f48833666060a5f5768747c6\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4f4f3da1076df42c91f3d17d81777372954f4566852e1d29817a2988360ff8be",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.020737999999255408
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Characters-Super-Mario",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4926,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"fee0b9a27b0b4433b3308a4ffaaf3d23\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ac11e387e425e67778cac7939fbb99a5073f0f2709c8756a620e7ebfd8d41368",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.029662000000826083
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Characters-The-Legend-of-Zelda",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3816,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"98a691249020b1c3599546facde65835\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a73c9b19894461995e2332269f84fa5e9c10478d2ed6cd8ec80ce9e876e10047",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.030334999999467982
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Characters-Splatoon",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4503,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d441b4b5b59437a3c35549d3d8fa483b\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cdf06da85b28f7e488ca34e11ab590c22740e54679426fa545fca21ba19a2ea0",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.020026999998663086
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Characters-Kirby",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2683,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"fdb621094376090d35e8fc158cafd4fc\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "31bfb6f59131b5b430db999e03a0ce08ff93d62cf634b291e3095e4a25276b80",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.020749999999679858
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Characters-Pikmin",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1126,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"a02c333e401559d08f50a4ab57a623a6\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ef374e0be8d9b423e976ee57d7be654c51dad8538d21541c011430123926d25f",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.021101999998791143
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Characters-Animal-Crossing",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3428,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"7be676a56267c9160a03206f204bc768\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bc3a6121445d9f8f2845c4708806c9c02bd8c043c98ee2c18727ab538cd02a71",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.030869000000166125
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/Global%20Nav/Explore/Characters-Metroid",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3471,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"1be46419f952499ccc1ab8b1304ea501\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9104c5574e744e3ab2410e124a8ce02204ff9e1c00af963047294f3ca69b0741",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.030404999999518623
+      },
+      {
+        "url": "https://a5740182066954240.cdn.optimizely.com/client_storage/a5740182066954240.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1462,
+        "remoteIPAddress": "104.18.66.57",
+        "responseHeaders": {
+          "cache-control": "max-age=120",
+          "etag": "\"4be4a0b998635e4b8c83100d64c087bc\""
+        },
+        "responseBodyHash": "ed390aaedcfb201c5c6781e35a05e4c25a51d558bf26e8bdc9979e7da451a301",
+        "initiators": [
+          "https://www.nintendo.com/us/optimizelyjs/6623157105197056.js"
+        ],
+        "time": 0.17035000000032596
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/03-March/The%20Super%20Mario%20Galaxy%20Movie/Animations/Desktop/2880x900_SMGM-30926_desktop_bg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 657,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"94d8863a84c352d38e00eb5b64a164f2\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "15acc76ae5e1586ff53893434fe98ee3666e46c55e6a034fe1264010359dd719",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.012588000001414912
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/2880x900-Centerstage-Background-DT",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36552,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"4d1071e1a9b0768e964cc1f2c7cf331f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c5c0c9f8a68c6b3ac8cd62806a4ee7eecd7837fde3f45340bd19c7e8c2090cb3",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.012913999999000225
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/03-March/Yoshi's%20MB/D/2880x900-YMB-bg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 227359,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"1db61718ced740335276c6f5914a2243\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6752f045a27dcf2e7a5ee419465462bc92198ad49bb3f47939c00d043483b9b8",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.03569000000061351
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/en_US/merchandising/feature-banner/2026/Tomodachi%20Life:%20Living%20the%20Dream/Tomodachi-Life-Hero",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 193181,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"6a2afbe0da82501b7342dee9eedcd412\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e81dfe17e05cbd78fba2d06c3d9227f49cd132abe7b632bb0b85c96fd5d00f2c",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.03623000000152388
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/My%20Nintendo%20Store/EN-US/MNS%20HOME/General/Talking%20Flower%20PMP/keyart",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 70919,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"fb4e671ce720e586ecbd240e2dba7f4a\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1313f87c83f6dd2c887fa32178cb24b833a45694648ac680e6af9a15f5844c4a",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.038056999999753316
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/en_US/articles/2026/pokemon-firered-version-and-pokemon-leafgreen-version-are-coming-to-nintendo-switch-in-multiple-languages/2250x1266_PRG_EN",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 90622,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"30376937afc7f95f0f58ea15b34dc6a0\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bdb3f8829d232cc82a54a8860aa38e5d41e349852a618e6875e2b2da327ce21a",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.042261999999027466
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/en_US/articles/2026/icon-elements-inspired-by-the-super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-game-are-here-for-a-limited-time/CS-27951-MissionsRewards-Icons-SMBW-NS2-Social-EN_v01",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 106401,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"fd6decadef42c9ebd6500f60dc082b8d\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cf5c25d2f288593199927cf6dbd5557badc273a36fd62e5533acb5325fce6d51",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.04424099999960163
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/software/switch-2/70010000105869/86a26a6d9a870eee16d0ff1b5591f055d63dee475fe688c42c46fcd96a199805",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 290854,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"91c90c622b055d3fc65dabd6f2bc937e\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "71a194b13bb055e8cd01880fbb5b9552c54d4895ca8231b593056dd98a06eea3",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.062436000000161584
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/store/software/switch2/70050000070210/e3a47e05c84440b18532c08e6348e355c675cf2b1f4a79c8a4f074d5736aa9f9",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 198412,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"4e6adf2621d3c470892eaa9fbfd88f80\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "45272af105fe899248c318af65ba125a33ce5c1f8d1947358648c6dad0c75c50",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.06500100000084785
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/en_US/merchandising/feature-banner/2026/South_of_Midnight",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 211599,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d44e5a2382283c7cb3496f970f9411df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f36d05172e0dfef37a59f0d1823b8b3a15d0392d592d9cc1abba58e47879b8f3",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.06981599999926402
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/homepage%20assets/Nintendo%20Today/1200x560_v03",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 50226,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d4772174f2027abd818fcb1267903dcb\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ceb38bc46a6ced5cc3442d766d9437a40a07dd296484086fd2da6468f9a46753",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.0645219999987603
+      },
+      {
+        "url": "https://logx.optimizely.com/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 387,
+        "remoteIPAddress": "34.49.241.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/optimizelyjs/6623157105197056.js"
+        ],
+        "time": 5.198691999999937
+      },
+      {
+        "url": "https://logx.optimizely.com/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 72,
+        "remoteIPAddress": "34.49.241.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/optimizelyjs/6623157105197056.js"
+        ],
+        "time": 4.196561000000656
+      },
+      {
+        "url": "https://logx.optimizely.com/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 73,
+        "remoteIPAddress": "34.49.241.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/optimizelyjs/6623157105197056.js"
+        ],
+        "time": 3.193334000001414
+      },
+      {
+        "url": "https://integrations.optimizely-edge.com/ga4?projectId=6623157105197056&ids=",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.167.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://integrations.optimizely-edge.com/ga4?projectId=6623157105197056&ids="
+        ],
+        "time": 0.10162499999933061
+      },
+      {
+        "url": "https://o4507091576815616.ingest.us.sentry.io/api/4507091584024576/envelope/?sentry_version=7&sentry_key=85e31b076da8f0a46d8ba5f5bd94768f&sentry_client=sentry.javascript.nextjs%2F10.38.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 300,
+        "remoteIPAddress": "34.160.81.0",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/webpack-8b62ee40f1a1d1a5.js"
+        ],
+        "time": 0.13301899999896705
+      },
+      {
+        "url": "blob:https://www.nintendo.com/cead947a-d6c6-4d3b-8776-f300d63d1d53",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "2cc533eaba03b0202afad4cd23db32ffbbf59a19b3f06ca28ca5c7e8b21a3cdf",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 2.7034270000003744
+      },
+      {
+        "url": "https://cdn.pricespider.com/1/lib/ps-widget.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2717,
+        "remoteIPAddress": "96.6.230.127",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3537",
+          "etag": "\"de0e5e05b2f4598212028f4f388b73c9:1770823290.626458\"",
+          "expires": "Tue, 31 Mar 2026 22:50:27 GMT"
+        },
+        "responseBodyHash": "1ede43aef5a962a8edca228056372121bdce03620069de9cc3a0f0cce6fe827d",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.2221190000000206
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9281,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE8ED5319CAE71"
+        },
+        "responseBodyHash": "15a5a919d4b2c63b74bac3c0752f7faa08675d5ecaab478032a0232013a2ba6a",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.22265100000004168
+      },
+      {
+        "url": "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28924,
+        "remoteIPAddress": "23.5.240.11",
+        "responseHeaders": {
+          "etag": "\"3ea504db0c73cf2f0d360be36c16a23f\""
+        },
+        "responseBodyHash": "9c59d9e15c45a15b4e23cba39390a5e1c8f251f59aa1d1c6f37645244c99c5c8",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.22102900000027148
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_200/ccb3e8ca3c296e21a8c933e8369031511589d0ef6b079cf5bb3667b09893482c/Global%20Nav/Explore/Nintendo-Switch-2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7376,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"0b8c04049fa539370e75bf19cc030994\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7d6ff48b00295b61a08efe442bf15838f4d46a83f11bd4b6f8a33609b65a6b11",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.014103999999861117
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_200/Global%20Nav/Explore/Explore-Nintendo-Switch-alt",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10289,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"804e84fcee1edfc6a4d98231d1a00243\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "01ef24a1c98c43e76536a0951d9f821f91c96b945ce6d6638aafb746358bd9f6",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.013034000001425738
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_200/ccb3e8ca3c296e21a8c933e8369031511589d0ef6b079cf5bb3667b09893482c/Global%20Nav/Explore/Games",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16574,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"97a2de745aa012298bcaff4989cec29c\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b770547bde499a8876fe3fdb3ee4948ea0c0b86ea77ce4c20553ccd733f3310b",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.014472000000750995
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_200/Global%20Nav/Explore/Explore-Nintendo-Switch-Online",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5267,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"54a6e5a427ffc8cb7d527b76b98ae87b\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a9ccb476249bd29675a9c62ffac4386d451d2c71a5803af7c39b005c62cba46",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.013772000000244589
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/c_scale,w_100/Global%20Nav/Explore/Characters-Super-Mario",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7750,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"b1a0e1c68a311f74bcf2c38c34a11abf\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4776e4945d3ee7886998bff07933dc5e678be838791e12c5fade37c3798e5c66",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01463800000055926
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/c_scale,w_100/Global%20Nav/Explore/Characters-The-Legend-of-Zelda",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7164,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"fe17ea053220e6bfd64158afcc2273d2\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0bdac7b4232c9bf387e3179281b06c848e38d62914d231c002170cded04800de",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.017111999999542604
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/c_scale,w_100/Global%20Nav/Explore/Characters-Splatoon",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6964,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"3fd0816ffe0644d4e9880d9f18fd4939\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e70b35d1b168c8b92f41a0589640c9c25780d6350d472af011ff2cbfa29e80d2",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01489200000105484
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/c_scale,w_100/Global%20Nav/Explore/Characters-Kirby",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7201,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"747b9be4eadf2665110e2ff6c69ca264\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2d5a9d352dfba018a0200c40c9a383b239e76e48af88bb49723c92cf22594154",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.016074000001026434
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/c_scale,w_100/Global%20Nav/Explore/Characters-Pikmin",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4700,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"68ada6b79b3f68f87b4031ebd2c70c5a\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2389e4137a24561850f7bb960cc75353e5505dc492fb76e6d144f5c0773560e0",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.015077000000019325
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/c_scale,w_100/Global%20Nav/Explore/Characters-Animal-Crossing",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6411,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"0bb46630322eddbf25fb85786108a573\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cd64b28d8a7b7d9147e866e2c8af27736ee282d388871b92aa56d9df4a9597dd",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01689000000078522
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_1:1,b_transparent,c_lpad/f_auto/q_auto/dpr_1.5/c_scale,w_100/Global%20Nav/Explore/Characters-Metroid",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7150,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"801f867a7498f3e16dffa8e4caa074c6\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "167dff3da492f22b45c3bc56776919c56eebc699e5f3f310cd19122923cf0394",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.017463000000134343
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/merchandising/feature-banner/2026/Tomodachi%20Life:%20Living%20the%20Dream/Tomodachi-Life-Hero",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 32777,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"cd324fa38fb740a1cb51aebb96f8ef63\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8e5a9759820e004f9e85d52b5226b43aa796efd0a751d06e4cb436a21329da05",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01620099999854574
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/My%20Nintendo%20Store/EN-US/MNS%20HOME/General/Talking%20Flower%20PMP/keyart",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15856,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d181902202373207a94bbcff4c11cbac\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dec99f69409d63850059ec48f22078b01b673f8588aaa30316b3073f417a9c01",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.014329999999972642
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/articles/2026/pokemon-firered-version-and-pokemon-leafgreen-version-are-coming-to-nintendo-switch-in-multiple-languages/2250x1266_PRG_EN",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20512,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d379a940003bdf481b8cccfeb9fdb160\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "634342d62b9e58a85b76bb4488f9361ac7894e99310c9a020eafc69f2df23906",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.017188999998325016
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/articles/2026/icon-elements-inspired-by-the-super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-game-are-here-for-a-limited-time/CS-27951-MissionsRewards-Icons-SMBW-NS2-Social-EN_v01",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22131,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"fcb73046497e613193566895bdcd1d15\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1a90cccbedf9a9b89270c7f97794c70877436b2e03528fcf43515d31f62537a0",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01675699999941571
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/software/switch-2/70010000105869/86a26a6d9a870eee16d0ff1b5591f055d63dee475fe688c42c46fcd96a199805",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 32953,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"bb12ae1f20219290e444f81de048e147\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c29f31a2204e0c46ea146bd44295ec5c3806db46e1d8929517a227c1a92607ce",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.018593000000691973
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/store/software/switch2/70050000070210/e3a47e05c84440b18532c08e6348e355c675cf2b1f4a79c8a4f074d5736aa9f9",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21725,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"5ea9f498ab6b96205254a4c646fc2834\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e7c796a588a25f1d1c9cbf3b9b8eadb6de785edc6669dab6720f880cb0e1f79",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01901200000065728
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/merchandising/feature-banner/2026/South_of_Midnight",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16222,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"553ecae2e85f44f77aaa455cbf90c6de\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "29bbb2a8bdd82f01419910cce09d32b7e6b62382a79c98987f15baa8a4766fae",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.019560000000637956
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_1200/ncom/en_US/homepage%20assets/Nintendo%20Today/1200x560_v03",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 68715,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"6f086c141fd1492e14f9d91b679a4d51\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1efd114bab91293a3fd1302b638001369779dc0efba0bb6aed1ff54d43bff796",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.020496000001003267
+      },
+      {
+        "url": "https://us.app.unleash-hosted.com/nintendo/api/frontend?sessionId=750794999&appName=ncom&environment=default",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1215,
+        "remoteIPAddress": "100.24.217.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "W/\"e7e-llNBFjIYX3flfQxlPpXRXNDt+58\""
+        },
+        "responseBodyHash": "10b57a2aa76b004544397fdd9517461474b3137d750e3584771ffa17ee6352d0",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.42305099999975937
+      },
+      {
+        "url": "https://us.app.unleash-hosted.com/nintendo/api/frontend?sessionId=750794999&appName=ncom&environment=default",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "100.24.217.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://us.app.unleash-hosted.com/nintendo/api/frontend?sessionId=750794999&appName=ncom&environment=default"
+        ],
+        "time": 0.2742469999993773
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/2354.ea3dc4ad61fe74d2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2641,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "2e5bc4cf8bf3a495d57471d607af84990447b3959e8ff297f7eba525981f85a4",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/webpack-8b62ee40f1a1d1a5.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.011888999999428052
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/SMBW-NS2-2880x900-Centerstage-DT-STATIC",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 86000,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"efde066db52db8f14787e57b724cb1b1\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a7059ec74ee007dd1e7ecfbe5862c52e1cefa6a975f07f11646e0f45b530e060",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.017698999999993248
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/03-March/Yoshi's%20MB/2880x900-YMB-Static",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 70382,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"33a0b41c8e91afddbfd443113799d363\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8e764422073530c07ad4689d2f0a4398ed2a7c703949621cfa7a2cc29140434d",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.016221999998379033
+      },
+      {
+        "url": "https://graph.nintendo.com/?operationName=MaintenanceWindows&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221883c3ad415ee9187450b79505d76cf0fcb03253cca225881bd90469bc2877cc%22%7D%7D",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graph.nintendo.com/?operationName=MaintenanceWindows&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221883c3ad415ee9187450b79505d76cf0fcb03253cca225881bd90469bc2877cc%22%7D%7D"
+        ],
+        "time": 0.05003000000033353
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/03-March/The%20Super%20Mario%20Galaxy%20Movie/2880x900_SMGM_desktop_no-subline",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 111287,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"494621189a1241bd6ad68316aeca3874\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9018c0e9b6e3d09979a68933aa7cdeaeb631be4871539c20b3b9256e73124fda",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.020365999998830375
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_1200/ncom/en_US/homepage%20assets/Nintendo%20Today/1880x277_v02",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 33744,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d52e569bdfd256606a16221fa44bc43b\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "393a92e3004811587e6cc2ec1452091a47606cdfccae3916326913558686ce46",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.019722000000911066
+      },
+      {
+        "url": "https://graph.nintendo.com/?operationName=MaintenanceWindows&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221883c3ad415ee9187450b79505d76cf0fcb03253cca225881bd90469bc2877cc%22%7D%7D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 361,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "private, no-store",
+          "etag": "\"58-niGwWlNft5GuumqoFjokD+wblfk\""
+        },
+        "responseBodyHash": "3f0758683d55ea434edf947249f0d82cf66590db1322f0906901d6d061c2858b",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.1732510000001639
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_1200/ncom/en_US/merchandising/Showrooms/NS%20Home%20of%20Mario%20and%20Friends/2026/Homepage%20banners/3600x1200_Ncom_homepage_hardware_D",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 53053,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"11cbca4c17927fcb825258c9febddb16\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7b7196520f2d1fa3e3e0f25c17dc2060d617566ec3d0a3a279bd2419272016c0",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.012875999998868792
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_300/Dev/Global%20Navigation/unauthd-asset.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11164,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"770f390933d6a7ff485329eb23da7685\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "01122e47b56592747582b6a31c58fa134f32b817fef53510d2b79ca8e2ba38aa",
+        "initiators": [
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.013557000000218977
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177615,
+        "remoteIPAddress": "142.251.214.136",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:51:30 GMT"
+        },
+        "responseBodyHash": "b6ee09a703c69070cbf705f74ece95452ff5a2fadb6e71b0bcbef7df9dfcfe15",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.1678090000004886
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&scrsrc=www.googletagmanager.com&rnd=1328306026.1774993891&dt=Nintendo%20-%20Official%20Site%3A%20Consoles%2C%20Games%2C%20News%2C%20and%20More&auid=1067666239.1774993891&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He63u0v832126376za200zd832126376xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116991817&apve=1&apvf=f&apvc=1&tft=1774993891008&tfd=10502",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.152.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.09762200000113808
+      },
+      {
+        "url": "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 110237,
+        "remoteIPAddress": "104.20.36.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, stale-while-revalidate=21600, stale-if-error=21600",
+          "etag": "W/\"177152813401017739320362351774944002244\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6e7da2e660302ea1074ab7b1ee4b9d7d911b436768e5ef9e62de171605adb4c8",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/"
+        ],
+        "time": 0.07372200000099838
+      },
+      {
+        "url": "https://cdn.pricespider.com/1/3623/config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 460,
+        "remoteIPAddress": "96.6.230.127",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2910",
+          "etag": "\"affdc9bf3d8d47e011773c07a67e6e74:1771865091.344428\"",
+          "expires": "Tue, 31 Mar 2026 22:40:01 GMT"
+        },
+        "responseBodyHash": "a4c066d1f82ff6d2c72ae16affc3ffb3c450378b0b3a9a8d9ffc2dfced89ed1f",
+        "initiators": [
+          "https://cdn.pricespider.com/1/lib/ps-widget.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.017488999999841326
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/018e80fc-5843-7dc9-8c39-239278889ed0/018e80fc-5843-7dc9-8c39-239278889ed0.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2319,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DD06F030B69B3D",
+          "expires": "Wed, 01 Apr 2026 21:51:31 GMT"
+        },
+        "responseBodyHash": "8d3dd1e0782d13600bff36ef8957d7b249cb6506fb1799b1f070c1c265f6025b",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.04962599999998929
+      },
+      {
+        "url": "https://accounts.nintendo.com/static/jssdk/opframe.3.0.2.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1837,
+        "remoteIPAddress": "23.56.3.210",
+        "responseHeaders": {
+          "etag": "\"ae0766832cb6561ddd66da8a05f86bf2\"",
+          "set-cookie": "_abck=813984D25AFE50C179F357680B5806EE~-1~YAAQzgM4F/6aEz+dAQAA1GHhRQ/okyvQM3AHfbC5gBD+ioyoZSVVRXmTIHwRo49mQvQUx8TtR4E7zhWunykC7uOSP38/f4IPy2ZxTx1yM40jw7DMiZuYBUZ1E3EcOUcF7seIrfKiv3WsJjorWyA5bhMLLKLR8Ftyrljrqsk0O5VW3reDZqyXNTxWzJyXW/jovvl2qfg8Onz8LqCsPY05m6TMneP1GQhau4DI+iwl5YbpO8jMH9Xn8P8T93D1wNFkr+7A6sGrCVuqVCPQRobO4BxQTeLlLEzGKjbNaj1Hsvtq6BndlitQTrnbPQBLclD4zAqV2SAq3cKyo04Vm8ZVurwT4Hpu6rZXHuy3u06HkA2jhe1vwPQeXBUpt4+gMJeO7o9jOAiAOeV/U66Oy0gevHOjq3nGcTf/HTquv+NB8LypSBecVxzRlAta9ayStQo+6cDFf55Y+y6ThA==~-1~-1~-1~-1~-1; Domain=.nintendo.com; Path=/; Expires=Wed, 31 Mar 2027 21:51:31 GMT; Max-Age=31536000; Secure\nbm_sz=9BD56C4D17707F942A0E71E7418F5083~YAAQzgM4F/+aEz+dAQAA1WHhRR8/YtO1cjoXc78G8ord6hyvL4JC4WrVmaFzbklvtvdVmoApLi/6OiPijZ4HNHyNcTyhmaFZLG8cD7sM3aa+TSvkm6GqS2M5aIyPfqi5DuexvngnbgmZakMWtQtFr5aYu5pQ0cEbmdup1rUSDeUL1hjahuQ8hM6W9phtN6AZF1xoEuMERFGKVeY2DjczvOVJXd5aTx74VLrGApUwagnMKdxB7Fd6bUTpe7pqEhmZx7ZwxCTydj58Oy2wOrS8vHhNbkVFrGuxCKM1X3pfP37iw/+8RzIFADQFGlQy2b6nO1mMFHYtlUCmmbm17yeyLpOmOSSiijo0qZsOeW7apFE=~3555637~3294275; Domain=.nintendo.com; Path=/; Expires=Wed, 01 Apr 2026 01:51:31 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": "8932fda4884eb6a3c980509965907058ee7acb69e2d52c9ae5c84729c010af30",
+        "initiators": [
+          "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.23133000000052562
+      },
+      {
+        "url": "https://api.accounts.nintendo.com/static/jssdk/xdframe.3.0.2.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 904,
+        "remoteIPAddress": "23.46.216.87",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"e02b83ea70284baeef26d3f83a37f216\"",
+          "expires": "Tue, 31 Mar 2026 21:51:34 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "33fa8ae5f213dc085389b11d4def8297ef20ea43a9a2d71d8921a45d07e41631",
+        "initiators": [
+          "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.3497880000013538
+      },
+      {
+        "url": "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-opframe.3.0.2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12992,
+        "remoteIPAddress": "23.5.240.11",
+        "responseHeaders": {
+          "etag": "\"e3cb60cc9af4e1ed02fdd6907e54633f\""
+        },
+        "responseBodyHash": "802f10e75a9664420bafd6dc5a4cfe2a149b0e60818eb4b57715226f1e2c5778",
+        "initiators": [
+          "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.025696999999127
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/8286-17d22cadd929d3fd.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 3901,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01947699999982433
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/4511-ed69887b128ee4c7.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 12026,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.022549000001163222
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/402-d183a31afaea6dab.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4203,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.02723100000002887
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/5999-08d7d29f2b9d8784.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4380,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03300699999999779
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/wish-list-0e42f8c6188aefa8.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 7669,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03271900000072492
+      },
+      {
+        "url": "https://www.nintendo.com/_next/data/84NIHITWh17NJPK3myUkw/us/cart.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 7021,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=60"
+        },
+        "responseBodyHash": "21193e5b3eeb824e0c401506eb6d81e226af63f1db00a4ddcacd8588c2322701",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.011363000001438195
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/cart-aad65939a6312a76.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 16519,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.030353000000104657
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/795-9d0ba94004064ac3.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 12293,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.030325000001539593
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/orders-2a8a8ba0cc5f023a.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 884,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.029956000000311178
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/9204-47d918f95cae6065.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 3069,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.036465000001044245
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/3207-b6b169a4ce4bb301.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 3841,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03597599999920931
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/movies/super-mario-galaxy-369aa43d111d47a6.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2268,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03436300000066694
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/2813-ddc5aaabbe34fc74.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 8714,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03393399999913527
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/5484-a4c8b7225c8652c5.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4148,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.034399000000121305
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/4956-7be459ee60260579.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 17989,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.033943999998882646
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/store/products/%5Bslug%5D-f5fe1731f02b7a50.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4089,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03659499999957916
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/5705-4b0fd8be56f6014b.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 3767,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03585000000020955
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/whatsnew/%5Bslug%5D-b37379b91b19d4df.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1541,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03557400000136113
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "172.64.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4da8a6638ad70698ad3d01aa0ef124aebe35c297685c0796b174822f597b1d09",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0965649999998277
+      },
+      {
+        "url": "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-xdframe.3.0.2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14372,
+        "remoteIPAddress": "23.5.240.11",
+        "responseHeaders": {
+          "etag": "\"8290103f85ea6e68f9e3e674b8a3a2eb\""
+        },
+        "responseBodyHash": "b3800ca034d522996fede595cb0e1ea146231aa63615afd5306583ee9f10ed32",
+        "initiators": [
+          "https://api.accounts.nintendo.com/static/jssdk/xdframe.3.0.2.html"
+        ],
+        "time": 0.012333000000580796
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/2880x900-Centerstage-Background-DT",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"4d1071e1a9b0768e964cc1f2c7cf331f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c5c0c9f8a68c6b3ac8cd62806a4ee7eecd7837fde3f45340bd19c7e8c2090cb3",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.003776000001380453
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/03-March/Yoshi's%20MB/D/2880x900-YMB-bg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"1db61718ced740335276c6f5914a2243\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6752f045a27dcf2e7a5ee419465462bc92198ad49bb3f47939c00d043483b9b8",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.004269999999451102
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/03-March/The%20Super%20Mario%20Galaxy%20Movie/Animations/Desktop/2880x900_SMGM-30926_desktop_bg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"94d8863a84c352d38e00eb5b64a164f2\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "15acc76ae5e1586ff53893434fe98ee3666e46c55e6a034fe1264010359dd719",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0035640000005514594
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/SMBW-NS2-Centerstage-SMBW-KeyArt-DT_v03",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 254630,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"f206bd7569c2f3218d78522ab4938437\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4812bab05943d6b69ee785828a3f15e31498360ff807d872d15037a35984754b",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.026144000001295353
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/SMBW-NS2-Centerstage-BP-KeyArt-DT_v03",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 185781,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"36f4ec5bbcff3e41270d3ad0cf013aa3\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "562ff6725ec602c7067dc2cc87a283b69556fe52167744dad91a1ecef19d9427",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0365139999994426
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/SMBW-NS2-Centerstage-SMBW-Logo-DT_v03",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 51904,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"fe9809cd83c375bf1bb1403eb0e00882\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "260199666025ffaf5d48f5a2883d3a25557f509b7eb8f567a2f4d64fdc48a43f",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03141500000128872
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/SMBW-NS2-Centerstage-BP-Logo-DT_v03",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 45245,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"d1294fd3ebf54f0bd4ec3e2e737be2cf\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "90b9bfd64ef74513d88cb9172d9c2ba2b0ff2361f899494c839abefd6dd3bead",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03927799999837589
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/SMBW-NS2-Centerstage-Plus-DT_v03",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5754,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"95ff28197bdf28ee9b88927494f799ae\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "db90556b27e49064b06583f5c7688bb5ff214b7bb021d58212c74f97204b3e2a",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03983399999924586
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/01-January/Super%20Mario%20Bros%20Wonder%20-%20NS2/Desktop/2880x900-Centerstage-40th-DT",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7545,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"1a012927c3d4f80ba128c7191bd0b61f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ecb2f911a26b62885e158a50a859362ba0067c933c16c43cdfb1cd56a65989dd",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.04019299999890791
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2880x900-S2Logo-Right",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5029,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"dbd61b3cb82482a3268989c0b6a52768\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1cef03227605c63843d2d8edd62f10f05532fa6188b23798fd3428bd57e5dd0f",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.036810999999943306
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 106960,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DCA5DCC362C22E"
+        },
+        "responseBodyHash": "a6e702aa7963cf3425973ca929037ddd53daf67d0fc6700bd89a585c1aaba2b6",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.10151299999961338
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F6ERC4HMNZ&gtm=45je63u0h1v871296135z8811295577za20gzb811295577zd811295577&_p=1774993881239&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&cid=765707575.1774993899&ecid=957106490&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=denied&_s=1&tag_exp=0~115616986~115938465~115938468~116991817~118012006~118089341&dl=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&dr=&dt=Nintendo%20-%20Official%20Site%3A%20Consoles%2C%20Games%2C%20News%2C%20and%20More&sid=1774993898&sct=1&seg=0&_tu=QA&en=view_promotion&_fv=1&_nsi=1&_ss=1&pr1=idnone~nmEnjoy%20even%20more%20multiplayer%20mayhem%20in%20the%20Flower%20Kingdom%20with%20Mario%20and%20friends~brNintendo~qt1~afncom~lp0&ep.gtm_container_id=GTM-WS6V89B&ep.gtm_container_version=1014&ep.responsive_breakpoint=desktop&ep.timestamp=2026-03-31T14%3A51%3A30.992-07%3A00&ep.custom_client_id=not%20set&ep.custom_client_id_s=not%20set&ep.previous_url=&ep.utm_campaign=&ep.utm_campaign_description=&ep.utm_campaign_product=&ep.utm_campaign_type=undefined&ep.utm_campaign_category=&ep.site_name=www.nintendo.com&ep.utm_medium=undefined&ep.gtm_tag_name=GA4%20-%20Ecommerce%20-%20Promotion%20Impression&up.custom_client_id_s=not%20set&upn.timezone_offset=-7&up.logged_in=false&tfd=18448",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "size": 549,
+        "remoteIPAddress": "142.251.218.142",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B"
+        ],
+        "time": 0.10381200000119861
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/018e80fc-5843-7dc9-8c39-239278889ed0/018fdf68-1c54-707f-ab76-cff11ef85461/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 15870,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DD06F0374C2D80",
+          "expires": "Wed, 01 Apr 2026 21:51:39 GMT"
+        },
+        "responseBodyHash": "362f498c6a93b528ccbc199bbf991bfeb99173526edbad25b931ae8428a52c8b",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03667700000005425
+      },
+      {
+        "url": "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4698,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600, s-maxage=604800",
+          "etag": "W/\"24f3-xR7kF1F0HmPe4MJCEbf8Mg89Eks\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fee5aa16f92e3b0248cd2343237e7b4d23c4f587fc8726392a81a6ac5a78409e",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.3459819999989122
+      },
+      {
+        "url": "https://accounts.nintendo.com/connect/1.0.0/authorize?client_id=01fe027acd6bc0cf&state=e227dbe820f4e118168ae3a340d9f414&response_type=code%20id_token&scope=eshopDemo%20eshopDevice%20eshopPrice%20familyMember%20mission%3AanyClients%20missionStatus%3AanyClients%20missionStatus%3Aprogress%20openid%20parentalControlSetting%20pointTransaction%20pointWallet%20user%20user.birthday%20user.email%20user.membership%20user.mii%20user.wishlist&redirect_uri=https%3A%2F%2Fwww.nintendo.com&web_message_uri=https%3A%2F%2Faccounts.nintendo.com&web_message_target=op-frame&response_mode=web_message&prompt=none&display=touch",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 75034,
+        "remoteIPAddress": "23.56.3.210",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, must-revalidate, no-store",
+          "expires": "Tue, 31 Mar 2026 21:51:40 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "NATID=ae6f4f9d228cf666d0d114fa4e42c179b3e8fa53;Version=1;Path=/;Max-Age=1576800000;Secure;SameSite=None\nNASDAL=;Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Secure;HttpOnly\nNACDT=;Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Secure;HttpOnly\nNASKAN=;Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Secure"
+        },
+        "responseBodyHash": "90991852601888862a731f864863d81715e6cddcaa3cb42241fa28efc92b8e62",
+        "initiators": [
+          "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.3880699999990611
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 3940,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, no-transform, max-age=31536000",
+          "etag": "W/\"c13b8b9f526c615cb01784c0cdc3a4c4\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "67973b8ed612067340474bef1b5babc193c04fc24933cd9d2ebcd70e5a65c9ac",
+        "initiators": [],
+        "time": 0.012603999999555526
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCenterRounded.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2923,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DCA5DCBF9D259C"
+        },
+        "responseBodyHash": "09b627933e01faa4979dc5661f7e616c7db1c12ea1984ca0549bdb253d24da9b",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.03159899999991467
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 12994,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DCA5DCC085217F"
+        },
+        "responseBodyHash": "777b4b4a083fe36afca14edfa9de06db28dacfe106659598d9c88f576428e2d1",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.030359000000316883
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3981,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "d3f7b0ec4de079928a999641e781e80f33597a392a561bc460276dfb4efb6eec",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.02731800000037765
+      },
+      {
+        "url": "https://cdn.accounts.nintendo.com/account/css/pc/main.css?t=1774945806",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 10219,
+        "remoteIPAddress": "23.5.240.11",
+        "responseHeaders": {
+          "etag": "\"699ae08163fabd1a9c83d14edc3c16c0\""
+        },
+        "responseBodyHash": "54e08a2f11515565950d5e1677592b351e2d72f0f1252190cae4860e91a835c3",
+        "initiators": [
+          "https://accounts.nintendo.com/connect/1.0.0/authorize?client_id=01fe027acd6bc0cf&state=e227dbe820f4e118168ae3a340d9f414&response_type=code%20id_token&scope=eshopDemo%20eshopDevice%20eshopPrice%20familyMember%20mission%3AanyClients%20missionStatus%3AanyClients%20missionStatus%3Aprogress%20openid%20parentalControlSetting%20pointTransaction%20pointWallet%20user%20user.birthday%20user.email%20user.membership%20user.mii%20user.wishlist&redirect_uri=https%3A%2F%2Fwww.nintendo.com&web_message_uri=https%3A%2F%2Faccounts.nintendo.com&web_message_target=op-frame&response_mode=web_message&prompt=none&display=touch"
+        ],
+        "time": 0.1366520000010496
+      },
+      {
+        "url": "https://cdn.accounts.nintendo.com/account/css/pc/pages/authorize-web-message/all.css?t=1774945806",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1126,
+        "remoteIPAddress": "23.5.240.11",
+        "responseHeaders": {
+          "etag": "\"c6eee047f6d6b1b683a48c140554b678\""
+        },
+        "responseBodyHash": "a94fd8f0430f2da7e330931981df1449a719b28b78d6e075cefec953e669c348",
+        "initiators": [
+          "https://accounts.nintendo.com/connect/1.0.0/authorize?client_id=01fe027acd6bc0cf&state=e227dbe820f4e118168ae3a340d9f414&response_type=code%20id_token&scope=eshopDemo%20eshopDevice%20eshopPrice%20familyMember%20mission%3AanyClients%20missionStatus%3AanyClients%20missionStatus%3Aprogress%20openid%20parentalControlSetting%20pointTransaction%20pointWallet%20user%20user.birthday%20user.email%20user.membership%20user.mii%20user.wishlist&redirect_uri=https%3A%2F%2Fwww.nintendo.com&web_message_uri=https%3A%2F%2Faccounts.nintendo.com&web_message_target=op-frame&response_mode=web_message&prompt=none&display=touch"
+        ],
+        "time": 0.13701300000138872
+      },
+      {
+        "url": "https://cdn.accounts.nintendo.com/account/js/common.js?t=1774945806",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1421652,
+        "remoteIPAddress": "23.5.240.11",
+        "responseHeaders": {
+          "etag": "\"461a292a398bfb7ae14b3e88d2354ed0\""
+        },
+        "responseBodyHash": "542c600efef33cf24ecee988aab1df8ef76a6bd233284ee70cb7ba0fd1d76ebc",
+        "initiators": [
+          "https://accounts.nintendo.com/connect/1.0.0/authorize?client_id=01fe027acd6bc0cf&state=e227dbe820f4e118168ae3a340d9f414&response_type=code%20id_token&scope=eshopDemo%20eshopDevice%20eshopPrice%20familyMember%20mission%3AanyClients%20missionStatus%3AanyClients%20missionStatus%3Aprogress%20openid%20parentalControlSetting%20pointTransaction%20pointWallet%20user%20user.birthday%20user.email%20user.membership%20user.mii%20user.wishlist&redirect_uri=https%3A%2F%2Fwww.nintendo.com&web_message_uri=https%3A%2F%2Faccounts.nintendo.com&web_message_target=op-frame&response_mode=web_message&prompt=none&display=touch"
+        ],
+        "time": 0.22601200000099197
+      },
+      {
+        "url": "https://cdn.accounts.nintendo.com/account/js/pages/authorize-web-message/pc.js?t=1774945806",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3014,
+        "remoteIPAddress": "23.5.240.11",
+        "responseHeaders": {
+          "etag": "\"c92962890fb07ca7193f01fa0a9545b7\""
+        },
+        "responseBodyHash": "c27a28aa18ef8648d10e1c23eb0e99052db601774f108574449202cdd8e7a7bd",
+        "initiators": [
+          "https://accounts.nintendo.com/connect/1.0.0/authorize?client_id=01fe027acd6bc0cf&state=e227dbe820f4e118168ae3a340d9f414&response_type=code%20id_token&scope=eshopDemo%20eshopDevice%20eshopPrice%20familyMember%20mission%3AanyClients%20missionStatus%3AanyClients%20missionStatus%3Aprogress%20openid%20parentalControlSetting%20pointTransaction%20pointWallet%20user%20user.birthday%20user.email%20user.membership%20user.mii%20user.wishlist&redirect_uri=https%3A%2F%2Fwww.nintendo.com&web_message_uri=https%3A%2F%2Faccounts.nintendo.com&web_message_target=op-frame&response_mode=web_message&prompt=none&display=touch"
+        ],
+        "time": 0.13736099999914586
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/37.f07adfd0005923b508c9.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19005,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"da1f-19d1c6fc420\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "71a51eaa7bf939adc993d21d36c43d7a4bfe45a1707566f84092f26ac72801da",
+        "initiators": [
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.1435299999993731
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36737,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"2212a-19d1c6fc420\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bef87dc5c051d50ecb903648b5d9ad86b0ac0f815086ace281dafb85ceab1a84",
+        "initiators": [
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.14192499999990105
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 692,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.043212999999013846
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/50b45312-ab08-436b-adc7-79156d8394f7/fbf3549c-4010-4bc2-8e8e-7077219d886e/a9e434c0-45f5-46cf-8f9c-c267f3130104/grey_racetrack.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5850,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8D81DEDC88A20E8"
+        },
+        "responseBodyHash": "3966f761dba73f9cd51c9359d4f5a6d583d5d3f0891cf8bb7d7456fa8e42609e",
+        "initiators": [],
+        "time": 0.023063999999067164
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2308,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d",
+        "initiators": [],
+        "time": 0.02333100000032573
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_5aoCaKGJJ2UaGXj&Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 2515,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f47a5e2b3bb85bc645262615bc843e3545581eb1a35b3a09c00f9f43b3fe8028",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.0976780000000872
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=nintendoofamerica",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31677,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"1a57b-19d1c6fc420\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "99f85ce32c9fb66ab4144b9eae333e22872f56b4e5a2c11c29e00807552fca35",
+        "initiators": [
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.022328000000925385
+      },
+      {
+        "url": "https://o4507091576815616.ingest.us.sentry.io/api/4507091584024576/envelope/?sentry_version=7&sentry_key=85e31b076da8f0a46d8ba5f5bd94768f&sentry_client=sentry.javascript.nextjs%2F10.38.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 56,
+        "remoteIPAddress": "34.160.81.0",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.044880000001285225
+      },
+      {
+        "url": "https://o4507091576815616.ingest.us.sentry.io/api/4507091584024576/envelope/?sentry_version=7&sentry_key=85e31b076da8f0a46d8ba5f5bd94768f&sentry_client=sentry.javascript.nextjs%2F10.38.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 98,
+        "remoteIPAddress": "34.160.81.0",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a175e47546ca05521f853d3fd39a8329fd8a5997a43123e8b536f4d924269b27",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.04308899999887217
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-stories/2026/02-February/Pokemon%20Pokopia/D/2880x900-Pokemon_Pokopia_bg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 696,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"83cf24ca7f0846cb887ac751df0c7a66\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bd5c1f705c56cc43993f5559a0a5e35f4d7f7da0d0bed267a0a966a0ae03f4c4",
+        "initiators": [],
+        "time": 0.01208299999962037
+      },
+      {
+        "url": "https://graph.nintendo.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2493,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "private, no-store",
+          "etag": "\"955-9oBf/7zyYBU4XCyaRnwwtab15jI\""
+        },
+        "responseBodyHash": "428635ffe8b067991a0278e740d9de3c8fdf66cd71a4087bb6f96fe786ce63e9",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.411459000000832
+      },
+      {
+        "url": "https://graph.nintendo.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graph.nintendo.com/"
+        ],
+        "time": 0.0026039999993372476
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/7.ef73897faa00f34d8366.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=nintendoofamerica",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1393,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"b55-19d1c6fc420\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3fae9f10844df58ce67cab673c84de4f10c16a4676dbe665ab66196be0a70589",
+        "initiators": [
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.017880999999761116
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/1.1838854a301771fadd51.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=nintendoofamerica",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7264,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"7c5b-19d1c6fc420\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8b54daf36fe642cff304c7a17698c517f0c6ff90011a0f5e289a8ffe5e114d4a",
+        "initiators": [
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.01916700000037963
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/LinkModule.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=nintendoofamerica",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1256,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"9ec-19d1c6fc420\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4fed788fcd45897593a0f9043c42fa46be351aed7aa5cea00df3a7117efc562a",
+        "initiators": [
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.021838999999090447
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/EmbeddedTargetModule.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=nintendoofamerica",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2959,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"1fca-19d1c6fc420\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "83134a2327284abd266a6d6cb1f669529b86c90f9d117646265675ac921d45fd",
+        "initiators": [
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.022198000000571483
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=SI_0Jp2tY3fCUUckPb&Version=38&Q_ORIGIN=https://www.nintendo.com&Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BrandTier=RQqcwhV2J1&Q_ARCACHEVERSION=21&Q_BRANDDC=iad1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1420,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"a03-8zjNf3LjlbYCE+DasypY5tOmK9M\""
+        },
+        "responseBodyHash": "020f352111e9b6a7832ee202881928c4f09535ee4bdc9d0e590ceae79f2f8e4d",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.045767999999952735
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=CR_8iRydtlobBxa6bP&Version=1&Q_InterceptID=SI_0Jp2tY3fCUUckPb&Q_ORIGIN=https://www.nintendo.com&Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BrandTier=RQqcwhV2J1&Q_ARCACHEVERSION=21&Q_BRANDDC=iad1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 336,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"f5-+KTMlBJtdyAhZ9Z40Kdvyy+NpyA\""
+        },
+        "responseBodyHash": "7ff47cd8f94cc953a0f8e876485f9f2cf009704856389138899e92767bff9a4f",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "https://zn5aocakgjj2uagxj-nintendoofamerica.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_5aoCaKGJJ2UaGXj",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD"
+        ],
+        "time": 0.04705900000044494
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/03-March/Yoshi's%20MB/D/2880x900-YMB-yoshi",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 130102,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"5b99657393bc952a1b3f1c2da46703fd\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3868189954ab17771e953893a029de58a54823c5f9b552b173105806472e1cf2",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0223150000001624
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/03-March/Yoshi's%20MB/D/2880x900-YMB-keyArt",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 579087,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"1053eee56841c91f94fec4a1c8864f74\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "da68f86d2d0161e192562f0037a26c373a0d256973751ddba80e86129491a166",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.048453999999765074
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2026/03-March/Yoshi's%20MB/D/2880x900-YMB-SMB40th",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7165,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"3bb710ff0d97c5da9753eb62b292500d\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "145afee7e7ffb238b6203afe44aa0d1b19f2d5edc514ca2d8a99e62e9d1b6b3a",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.014004999999087886
+      },
+      {
+        "url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_1.0/ncom/en_US/merchandising/center-stage-stories/2880x900-S2Logo-Left",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4900,
+        "remoteIPAddress": "151.101.42.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=31536000",
+          "etag": "\"786db3de2c64498885d879331b79f778\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2d1bf2e85382714be616bd7948d6584aa140fb5bd698c46759d6fa113b19cbbd",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.020935000000463333
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F6ERC4HMNZ&gtm=45je63u0h1v871296135za20gzb811295577zd811295577&_p=1774993881239&gcs=G111&gcu=1&gcd=13r3r3r3r5l1&npa=0&dma=0&gcut=3&cid=765707575.1774993899&ecid=957106490&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=0~115616986~115938465~115938468~116991817~118012006~118089341&dl=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&dr=&dt=Nintendo%20-%20Official%20Site%3A%20Consoles%2C%20Games%2C%20News%2C%20and%20More&sid=1774993898&sct=1&seg=0&_tu=QA&en=user_engagement&ep.gtm_container_id=GTM-WS6V89B&ep.gtm_container_version=1014&ep.responsive_breakpoint=desktop&ep.timestamp=2026-03-31T14%3A51%3A30.992-07%3A00&ep.custom_client_id=not%20set&ep.custom_client_id_s=not%20set&ep.previous_url=&ep.utm_campaign=&ep.utm_campaign_description=&ep.utm_campaign_product=&ep.utm_campaign_type=undefined&ep.utm_campaign_category=&ep.site_name=www.nintendo.com&ep.utm_medium=undefined&ep.ga_temp_client_id=765707575.1774993899&ep.ga_temp_ecid=957106490&tfd=24412",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "size": 57,
+        "remoteIPAddress": "142.251.218.142",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B"
+        ],
+        "time": 0.03979600000093342
+      },
+      {
+        "url": "https://graph.nintendo.com/?operationName=Customer&variables=%7B%22includeAccount%22%3Afalse%2C%22includeCart%22%3Atrue%2C%22expandCart%22%3Afalse%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2244c8d7c44d9ae121cb581878216abbfb0b5fecf037dbece15ed2377aa2691772%22%7D%7D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 389,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "private, no-store",
+          "etag": "\"a6-9G/xW3o9I6L4aQj4HJu/lpjOKzc\""
+        },
+        "responseBodyHash": "bf14788e38cf5a17bceb7a2fcb9dce39a87532083455126a1f6f151224763404",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.2577579999997397
+      },
+      {
+        "url": "https://graph.nintendo.com/?operationName=Customer&variables=%7B%22includeAccount%22%3Afalse%2C%22includeCart%22%3Atrue%2C%22expandCart%22%3Afalse%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2244c8d7c44d9ae121cb581878216abbfb0b5fecf037dbece15ed2377aa2691772%22%7D%7D",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graph.nintendo.com/?operationName=Customer&variables=%7B%22includeAccount%22%3Afalse%2C%22includeCart%22%3Atrue%2C%22expandCart%22%3Afalse%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2244c8d7c44d9ae121cb581878216abbfb0b5fecf037dbece15ed2377aa2691772%22%7D%7D"
+        ],
+        "time": 0.019066999999267864
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/8286-17d22cadd929d3fd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "700f1f5ab42bd8637e0b7aa24d7bf093dd8a72201f9b29a12ecf76b366b6be58",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.001693999998678919
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/4511-ed69887b128ee4c7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "3e1ae8c15319e311cf2c8fbf40feffd05f6bd977030c863a5846ce6ad65ea8af",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0023600000004080357
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/2813-ddc5aaabbe34fc74.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "3fed4b0537517f68769754ff1c16b1c5615af9f6bf33d6a497e87981c5bd3ed6",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0025789999999688007
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/402-d183a31afaea6dab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "899a83d0ab233f55d17239864ce4edd2c0fa2c0584560b79fcf823aa747e6848",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.003503999998429208
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/5484-a4c8b7225c8652c5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "ed74b1c0a72cdba0de5a8cbec8d68b9135c824d10fb9e8e351a4b3b6761ed6f9",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0030310000001918525
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/4956-7be459ee60260579.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "ca83db32eb357eb93f0a83d013658305069780c187e4dc16a8573c544c718522",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.002846999999746913
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/store/products/%5Bslug%5D-f5fe1731f02b7a50.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "a659a90a2d838b0f11a091eb07cb4ee1c561775ebd8460658a6a63816e83b5af",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.002367999999478343
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/css/17d87fb976c5a3ba.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2044,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "0b5c0490193e606ee74a37d0a3af67315abb289b5b85419302369ae89d6d75d1",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.013113999999404768
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/5999-08d7d29f2b9d8784.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "35c1e8512cd27d40b70c00890492d2449c4693a3cfba368660902b9979334826",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0019100000008620555
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/wish-list-0e42f8c6188aefa8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e9bf5758c8c4eaf7084c7905f58087d00026f19e1adb19daf0cefa2b08f23ffc",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.002073999999993248
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/css/e15ffd624dff3344.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 631,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "a95c20e17c66a81a3bade5eed16b54db48eb23abb46d64cd590523d5effe069e",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.00959100000000035
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/cart-aad65939a6312a76.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "dcba5714c3cfadfd646c9878a27ccae5c21835f5a5050e7fac0c480cda7ae534",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0014609999998356216
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/css/aa4a674c16f8c901.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 323,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "66b2ce4d7c7edc95bb22bf46cb6bbca3c309db20d68593e5b7a6af72ec544ccd",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.010163000000829925
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/795-9d0ba94004064ac3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "67d290e981dea272b6c46ebe248b806e7f791cfea3e3d52d55494745b51b6ecc",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0012850000002799788
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/orders-2a8a8ba0cc5f023a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "c80e104042e40e2fb2c2b8d292c6b2628604a2454bbd0d9478d47fe35ecd7b12",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0014440000013564713
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/css/0b80faa879f31dd2.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1470,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "f458114293ebcbd3a4abae0f4748dbbca656ace14a3b79883d62b047fca8b7f8",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.013138000000253669
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/9204-47d918f95cae6065.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "cf3b3af638990721dea8afa9e0236fb1fbe7ec2f5f97df140dd193016229cee2",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.001255999999557389
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/3207-b6b169a4ce4bb301.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "316a2a0f5b4eb0d9967d68e9128fdf5431a6050ca5dc3e9e9f792c8c8714aace",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0009820000013860408
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/movies/super-mario-galaxy-369aa43d111d47a6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "b3d4df9f449dfd70ababb1c6e90766b5bcfe5cef3257d7a1994dd0a2699c8a98",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0022860000008222414
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/css/3e2d2ba4922624f8.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3919,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "fea8d98a960f6e03a9828ab65a41699ead3e213ba2d6de7f9eedacc9bb2e3f88",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.010107000000061817
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/css/c3a446dfce8676e6.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1319,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "3a62671944506c6d5e831220d1a03eb069b6e86d904f0076ec7a8a13aadd75a1",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.01564200000029814
+      },
+      {
+        "url": "https://rl.quantummetric.com/nintendo/hash-check",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 388,
+        "remoteIPAddress": "34.121.25.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.25502200000119046
+      },
+      {
+        "url": "https://rl.quantummetric.com/nintendo/hash-check",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.121.25.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://rl.quantummetric.com/nintendo/hash-check"
+        ],
+        "time": 0.1951390000012907
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/5705-4b0fd8be56f6014b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "3272d728901924f695eabc434607f368964eb166983a5a1fe5303f4ac8d4fc75",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.002524999999877764
+      },
+      {
+        "url": "https://www.nintendo.com/us/_next/static/chunks/pages/whatsnew/%5Bslug%5D-b37379b91b19d4df.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.41.55",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, immutable"
+        },
+        "responseBodyHash": "b6f6ed81142570aae15d5f4feb4ede129c4bc906a78ad6e91a6159b60896d8b7",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js"
+        ],
+        "time": 0.0022759999992558733
+      },
+      {
+        "url": "https://ingest.quantummetric.com/horizon/nintendo?T=B&u=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&t=1774993905592&v=1774993906423&P=0&N=0&S=0&b=128197&z=1",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "34.8.9.231",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": "ac2c746a0f5d52776dbc71b9a8ea11943c43113a56f12a79bc004a9f5ca0f3cd",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.19234299999880022
+      },
+      {
+        "url": "https://rl.quantummetric.com/nintendo/hash-check",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 388,
+        "remoteIPAddress": "34.121.25.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.061453000000256
+      },
+      {
+        "url": "https://ingest.quantummetric.com/horizon/nintendo?T=B&u=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&t=1774993905592&v=1774993906693&H=f241cc69cb2da559c6ecb61e&s=6726aa8369a60b624779df45dd7ef2ed&Q=1&Y=1&X=601f2dbf6ba840970ce5a121c7b7f31c&S=0&b=1123554&z=1",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "34.8.9.231",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.22866599999906612
+      },
+      {
+        "url": "https://ingest.quantummetric.com/horizon/nintendo?T=B&u=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&t=1774993905592&v=1774993906709&H=f241cc69cb2da559c6ecb61e&s=6726aa8369a60b624779df45dd7ef2ed&U=49b2db8c58fb02a44aff22f97f59c45e&N=0&Q=2&S=0&b=2393&z=1",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "34.8.9.231",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.2203190000000177
+      },
+      {
+        "url": "https://ingest.quantummetric.com/horizon/nintendo?T=B&u=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&t=1774993905592&v=1774993906709&H=f241cc69cb2da559c6ecb61e&s=6726aa8369a60b624779df45dd7ef2ed&P=1&N=1&S=0&b=9711&z=1",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "34.8.9.231",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.12459599999965576
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F6ERC4HMNZ&gtm=45je63u0h1v871296135z8811295577za20gzb811295577zd811295577&_p=1774993881239&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&cid=765707575.1774993899&ecid=957106490&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=0~115616986~115938465~115938468~116991817~118012006~118089341&dl=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&dr=&dt=Nintendo%20-%20Official%20Site%3A%20Consoles%2C%20Games%2C%20News%2C%20and%20More&sid=1774993898&sct=1&seg=1&_tu=QA&_s=3&tfd=29414",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "size": 20,
+        "remoteIPAddress": "142.251.218.142",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B"
+        ],
+        "time": 0.028623000000152388
+      },
+      {
+        "url": "https://ingest.quantummetric.com/horizon/nintendo?T=B&u=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&t=1774993905592&v=1774993909925&H=f241cc69cb2da559c6ecb61e&s=6726aa8369a60b624779df45dd7ef2ed&P=2&N=2&S=9711&b=228871&z=1",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "34.8.9.231",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.1285410000000411
+      },
+      {
+        "url": "https://ingest.quantummetric.com/horizon/nintendo?T=B&u=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&t=1774993905592&v=1774993909926&H=f241cc69cb2da559c6ecb61e&s=6726aa8369a60b624779df45dd7ef2ed&N=1&Q=2&S=2393&b=155707&z=1",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "34.8.9.231",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nintendo.com"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js"
+        ],
+        "time": 0.1091149999992922
+      }
+    ],
+    "cookies": [
+      {
+        "name": "OptanonConsent",
+        "domain": ".www.nintendo.com",
+        "path": "/us/",
+        "expires": 1806529902000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "BIGipServerWEBFARM_REDIRECT_8053",
+        "domain": "nintendo.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "optimizelyEndUserId",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1790545881000,
+        "session": false
+      },
+      {
+        "name": "optimizelySession",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1790545882000,
+        "session": false
+      },
+      {
+        "name": "https://www.nintendo.com_oeu1774993881204r0.11279634328034327$$6623157105197056$$session_state",
+        "domain": "a5740182066954240.cdn.optimizely.com",
+        "path": "/",
+        "expires": 1790545888272,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1782769890000,
+        "session": false
+      },
+      {
+        "name": "_abck",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1806529891795,
+        "session": false
+      },
+      {
+        "name": "bm_sz",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1775008291795,
+        "session": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1809553900741,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "NATID",
+        "domain": "accounts.nintendo.com",
+        "path": "/",
+        "expires": 1809553901020,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "NOACookieConsentSettings",
+        "domain": "www.nintendo.com",
+        "path": "/",
+        "expires": 1806529906361,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "QSI_HistorySession",
+        "domain": ".www.nintendo.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_ga_F6ERC4HMNZ",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1809553906487,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "QuantumMetricSessionID",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1774995706000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "QuantumMetricUserID",
+        "domain": ".nintendo.com",
+        "path": "/",
+        "expires": 1806529906000,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://www.nintendo.com/cead947a-d6c6-4d3b-8776-f300d63d1d53"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.nintendo.com/us/optimizelyjs/6623157105197056.js": {
+          "window.localStorage": 10,
+          "window.sessionStorage": 1
+        },
+        "https://a5740182066954240.cdn.optimizely.com/client_storage/a5740182066954240.html": {
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 1
+        },
+        "https://www.nintendo.com/us/_next/static/chunks/main-51eebcec9a3927e2.js": {
+          "window.sessionStorage": 2,
+          "Navigator.prototype.userAgent": 12,
+          "Navigator.prototype.connection": 12
+        },
+        "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js": {
+          "Navigator.prototype.userAgent": 119,
+          "window.sessionStorage": 58,
+          "URL.createObjectURL": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 3,
+          "Navigator.prototype.product": 3,
+          "window.localStorage": 47,
+          "Document.cookie getter": 13,
+          "window.devicePixelRatio": 198,
+          "Date.prototype.getTime": 641,
+          "Navigator.prototype.connection": 1,
+          "Navigator.prototype.deviceMemory": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2,
+          "CookieStore.prototype.set": 2,
+          "Animation.prototype.currentTime": 14
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 16,
+          "Date.prototype.getTime": 66,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "Document.cookie setter": 1,
+          "window.localStorage": 7
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WS6V89B": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 23,
+          "Date.prototype.getTime": 242,
+          "window.name": 2,
+          "window.sessionStorage": 1,
+          "Date.prototype.getTimezoneOffset": 8,
+          "window.innerWidth": 4
+        },
+        "https://www.nintendo.com/us/_next/static/chunks/framework-be5e73b7a49c4614.js": {
+          "Event.prototype.timeStamp": 107
+        },
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": {
+          "Document.cookie getter": 8,
+          "window.sessionStorage": 4
+        },
+        "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-client.3.0.2.js": {
+          "window.localStorage": 4,
+          "Date.prototype.getTime": 1,
+          "window.name": 1,
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3
+        },
+        "about:blank": {
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 67,
+          "Date.prototype.getTime": 99,
+          "window.name": 2,
+          "Navigator.prototype.language": 10,
+          "Screen.prototype.width": 10,
+          "Screen.prototype.height": 10,
+          "Document.cookie setter": 13
+        },
+        "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js": {
+          "Date.prototype.getTime": 3082,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "URL.createObjectURL": 1,
+          "window.localStorage": 57,
+          "Navigator.prototype.userAgent": 12,
+          "Navigator.prototype.vendor": 2,
+          "Document.cookie getter": 7,
+          "Navigator.prototype.webkitTemporaryStorage": 1,
+          "Performance.prototype.memory": 1,
+          "Animation.prototype.currentTime": 17,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 2,
+          "Navigator.prototype.storage": 3,
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "Navigator.prototype.connection": 1,
+          "Screen.prototype.orientation": 2,
+          "window.sessionStorage": 11,
+          "Document.cookie setter": 4,
+          "Navigator.prototype.doNotTrack": 1
+        },
+        "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-opframe.3.0.2.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 6
+        },
+        "https://cdn.accounts.nintendo.com/jssdk/nintendo-jssdk-xdframe.3.0.2.js": {
+          "window.localStorage": 4
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 43,
+          "Date.prototype.getTime": 10,
+          "Document.cookie setter": 9,
+          "Navigator.prototype.userAgent": 7,
+          "Navigator.prototype.vendor": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com": {
+          "Document.cookie getter": 22,
+          "window.sessionStorage": 8,
+          "window.localStorage": 2,
+          "Document.cookie setter": 19,
+          "Date.prototype.getTime": 8
+        },
+        "https://cdn.accounts.nintendo.com/account/js/common.js?t=1774945806": {
+          "Navigator.prototype.userAgent": 4,
+          "Event.prototype.timeStamp": 1,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.product": 6
+        },
+        "https://cdn.accounts.nintendo.com/account/js/pages/authorize-web-message/pc.js?t=1774945806": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=nintendoofamerica": {
+          "window.localStorage": 16,
+          "window.sessionStorage": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://a5740182066954240.cdn.optimizely.com/client_storage/a5740182066954240.html",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "https://www.nintendo.com_oeu1774993881204r0.11279634328034327$$6623157105197056$$session_state={\"lastSessionTimestamp\":1774993881207,\"sessionId\":\"25572557-d3ac-479c-a6ad-1807816b652c\"};max-age=15552000;Secure;SameSite=None;Path=/;"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtm.js?id=GTM-57PNCMD",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.1067666239.1774993891; path=/; expires=Mon, 29 Jun 2026 21:51:30 GMT; domain=nintendo.com"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A40+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0; expires=Wed, 31 Mar 2027 21:51:40 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A40+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0; expires=Wed, 31 Mar 2027 21:51:40 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A40+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0&isIABGlobal=false; expires=Wed, 31 Mar 2027 21:51:40 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A40+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=; expires=Wed, 31 Mar 2027 21:51:40 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A40+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9a499484-8d15-4157-be3b-3113ac41b4ce; expires=Wed, 31 Mar 2027 21:51:40 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A40+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9a499484-8d15-4157-be3b-3113ac41b4ce&interactionCount=0; expires=Wed, 31 Mar 2027 21:51:40 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.765707575.1774993899; path=/; expires=Thu, 30 Mar 2028 21:51:40 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:51:40 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=GS2.1.s1774993898$o1$g0$t1774993898$j60$l0$h957106490; path=/; expires=Thu, 30 Mar 2028 21:51:40 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:51:40 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=GS2.1.s1774993898$o1$g0$t1774993900$j60$l0$h957106490; path=/; expires=Thu, 30 Mar 2028 21:51:40 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A40+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9a499484-8d15-4157-be3b-3113ac41b4ce&interactionCount=0&landingPath=https%3A%2F%2Fwww.nintendo.com%2Fus%2F; expires=Wed, 31 Mar 2027 21:51:40 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A42+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9a499484-8d15-4157-be3b-3113ac41b4ce&interactionCount=0&landingPath=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1; expires=Wed, 31 Mar 2027 21:51:42 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+14%3A51%3A42+GMT-0700+(Pacific+Daylight+Time)&version=202401.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9a499484-8d15-4157-be3b-3113ac41b4ce&interactionCount=0&landingPath=https%3A%2F%2Fwww.nintendo.com%2Fus%2F&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1; expires=Wed, 31 Mar 2027 21:51:42 GMT; path=/us/; domain=.www.nintendo.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "description": "CookieStore.prototype.set",
+          "arguments": [
+            "[object Object]"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_HistorySession=https%3A%2F%2Fwww.nintendo.com%2Fus%2F~1774993904340; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_01xHle8UGh8dcvs_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_0Jp2tY3fCUUckPb_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_2mn7diEe6V1ZdQO_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_37vgc9QM6PY8C0e_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_3s0IeWTqif0wC4m_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_41Jhtz6wCTWvubc_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_6zLu0YaxGyoR88d_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://siteintercept.qualtrics.com/dxjsmodule/12.45e656039b3fa23613e1.chunk.js?Q_CLIENTVERSION=2.45.0&Q_CLIENTTYPE=web&Q_BRANDID=www.nintendo.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QSI_SI_eRuikW4XRma2Z8i_intercept=; expires=Mon, 30 Mar 2026 21:51:44 GMT; path=/; domain=www.nintendo.com; secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:51:44 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=GS2.1.s1774993898$o1$g0$t1774993904$j56$l0$h957106490; path=/; expires=Thu, 30 Mar 2028 21:51:44 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.nintendo.com/us/_next/static/chunks/pages/_app-af34531c9da868e3.js",
+          "description": "CookieStore.prototype.set",
+          "arguments": [
+            "[object Object]"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:51:46 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=GS2.1.s1774993898$o1$g1$t1774993906$j54$l0$h957106490; path=/; expires=Thu, 30 Mar 2028 21:51:46 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:51:46 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=GS2.1.s1774993898$o1$g1$t1774993906$j54$l0$h957106490; path=/; expires=Thu, 30 Mar 2028 21:51:46 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:51:46 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-F6ERC4HMNZ&cx=c&gtm=4e63u0h1",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_F6ERC4HMNZ=GS2.1.s1774993898$o1$g1$t1774993906$j54$l0$h957106490; path=/; expires=Thu, 30 Mar 2028 21:51:46 GMT; domain=nintendo.com; samesite=none;secure"
+          ]
+        },
+        {
+          "source": "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "qm-rc=;domain=nintendo.com;path=/;secure;samesite=None;"
+          ]
+        },
+        {
+          "source": "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "qm-rc=;domain=nintendo.com;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;secure;samesite=None;"
+          ]
+        },
+        {
+          "source": "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QuantumMetricSessionID=6726aa8369a60b624779df45dd7ef2ed;expires=Tue, 31 Mar 2026 22:21:46 GMT;path=/;domain=nintendo.com;secure;samesite=None;"
+          ]
+        },
+        {
+          "source": "https://cdn.quantummetric.com/qscripts/quantum-nintendo.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "QuantumMetricUserID=49b2db8c58fb02a44aff22f97f59c45e;expires=Wed, 31 Mar 2027 21:51:46 GMT;path=/;domain=nintendo.com;secure;samesite=None;"
+          ]
+        }
+      ]
+    }
+  }
+}

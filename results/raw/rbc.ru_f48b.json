@@ -1,0 +1,680 @@
+{
+  "initialUrl": "https://rbc.ru/",
+  "finalUrl": "https://www.rbc.ru/",
+  "timeout": false,
+  "testStarted": 1774993645388,
+  "testFinished": 1774993652096,
+  "data": {
+    "requests": [
+      {
+        "url": "https://rbc.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "178.248.236.77",
+        "responseHeaders": {
+          "set-cookie": "xrft=1774993646.205:e6a7cd9a1a2795c02792dffda77b90f1;Domain=.rbc.ru;Path=/;Max-Age=3600\nsplituid=UET9dWnMQO4vG18JAxcxAg==; expires=Wed, 05-May-27 21:47:26 GMT; domain=.rbc.ru; path=/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.rbc.ru/8c1a1713-f82e-4b8a-97a4-6a2f1cfa20a2/",
+        "initiators": [],
+        "time": 0.8467079999991256
+      },
+      {
+        "url": "https://www.rbc.ru/8c1a1713-f82e-4b8a-97a4-6a2f1cfa20a2/",
+        "method": "GET",
+        "type": "Document",
+        "status": 401,
+        "size": 581,
+        "remoteIPAddress": "178.248.234.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "qrator_jsr=v2.0.1774993646.560.80785579K9Pnpb6e|Stkeef38xtWFrTMa|qM0+WsQe35ZQ160tklWj6HsXdNeFCirIvBbfwXSCiXvv5pxnZXdV1dhGHEnvB61t0D0voeT2Zwd8C8bw2tHwuQ==-URVV98swKBpgqdJub/7NrGG7DUA=-00; Max-Age=300; Path=/;  Domain=.rbc.ru;"
+        },
+        "responseBodyHash": "d345b3c04d0fcf410b83391892338e6c12b2e14bcfed019b1fb7aa43fedde5ed",
+        "redirectedFrom": "https://rbc.ru/",
+        "initiators": [],
+        "time": 0.2373860000006971
+      },
+      {
+        "url": "https://www.rbc.ru/__qrator/qauth.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 228211,
+        "remoteIPAddress": "178.248.234.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "etag": "\"68bfdd19-379bb\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "84e0067ff105357285ec4f2970fdd3ac06de46d9d02db5703a859fd5a686e859",
+        "initiators": [
+          "https://www.rbc.ru/8c1a1713-f82e-4b8a-97a4-6a2f1cfa20a2/"
+        ],
+        "time": 0.04748699999981909
+      },
+      {
+        "url": "https://www.rbc.ru/__qrator/validate?pow=12&nonce=v2.0.1774993646.560.80785579K9Pnpb6e|Stkeef38xtWFrTMa|qM0+WsQe35ZQ160tklWj6HsXdNeFCirIvBbfwXSCiXvv5pxnZXdV1dhGHEnvB61t0D0voeT2Zwd8C8bw2tHwuQ==&qsessid=URVV98swKBpgqdJub/7NrGG7DUA=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 388,
+        "remoteIPAddress": "178.248.234.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "qrator_jsid2=v2.0.1774993646.560.80785579K9Pnpb6e|wFoukUjGIVSJlVio|Qn9YO3mBLZUNgCw9+5jUkSldsvUghFOSoyP6ZTArbp6w4WEURJCWylA2nAtmvXnK2VOv68wv63CDxGY6tmz5yebDaFUXiU0FrSUzZAUszhrMk0Jpiemuo70Le/AwLKgFNuu8UeiA+qR3R/Jv9m0n/Xk5wXHrkHwP3AjrOCgqhjo=-Rx+wIdmCi2dQCJbRKzX03z6f+uM=; Max-Age=1000; Path=/; HttpOnly;  Domain=.rbc.ru;"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.rbc.ru/__qrator/qauth.js"
+        ],
+        "time": 0.0307489999995596
+      },
+      {
+        "url": "https://www.rbc.ru/8c1a1713-f82e-4b8a-97a4-6a2f1cfa20a2/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "178.248.234.119",
+        "responseHeaders": {
+          "set-cookie": "tbd=1774993649.574:82847d284b2a8361bc3cab17c67ea040d;Domain=.rbc.ru;Path=/;Max-Age=36000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.rbc.ru/",
+        "initiators": [
+          "https://www.rbc.ru/__qrator/qauth.js"
+        ],
+        "time": 0.5796559999998863
+      },
+      {
+        "url": "https://www.rbc.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 53298,
+        "remoteIPAddress": "178.248.234.119",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "set-cookie": "split=Y;Path=/;Max-Age=31536000\n_splitt=Y;Path=/;Domain=.rbc.ru;Max-Age=31536000\n_ssc=1;Path=/;Domain=.rbc.ru;Max-Age=31536000\n_sst=1;Path=/;Domain=.rbc.ru;Max-Age=86400\nseg=2;Path=/;Max-Age=31536000\njs_d=false;Path=/"
+        },
+        "responseBodyHash": "4b7da61696e4942bd7ae85661361ded23e2ade6322af447b694001765cea11f4",
+        "redirectedFrom": "https://www.rbc.ru/8c1a1713-f82e-4b8a-97a4-6a2f1cfa20a2/",
+        "initiators": [
+          "https://www.rbc.ru/__qrator/qauth.js"
+        ],
+        "time": 1.127016000000367
+      },
+      {
+        "url": "https://s.rbk.ru/v1_static/fonts/GraphikRBCLC-v1.1/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 857,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000, public, no-transform, immutable\npublic, no-transform",
+          "etag": "\"63e4b8e9-254\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "18a1468fda5a5fd31bdafb986f79b457c32e40883db43d39eaad43f3fef10bc3",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 0.8724060000004101
+      },
+      {
+        "url": "https://s.rbk.ru/v1_static/icons/ra-icon-v1.16/style.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2202,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000, public, no-transform, immutable\npublic, no-transform",
+          "etag": "W/\"668d1b43-30a1\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "ec6bdf06d770f5b80e224a4058f6f52ea9e730ca2695d92a20fa0043e512f1bd",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 0.8734159999985422
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/css/0173bcab6b316a28.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 74987,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.rbc.ru",
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"9ad61-19d2e30810b\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "5e594f3bf2e28b4c880463e280ee8008b95f590b6bf66d3223a63ed9c0346262",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 1.739571000000069
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/css/c37fd77e964f2408.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5059,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.rbc.ru",
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"aecf-19d2e30810b\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "a1958a5cd170836e763d72ce6d14c9b4fd7178976b4b667a684c3589455cea2a",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 1.0698360000005778
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/css/33babec87b1a9e68.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 9698,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.rbc.ru",
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"1d499-19d2e30810b\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "ebf2c4f6530035839df973367230bfaedf34cca90f408828d959d6b12d626aa2",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 1.0695319999995263
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/css/46d5581c8841e156.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 17925,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.rbc.ru",
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"30970-19d2e30810b\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "8c61a361a7443b9c73bce9522ba5fac4bb8a0880b4a6fee5d2467d6a304ee32e",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 1.069089000000531
+      },
+      {
+        "url": "https://api.mindbox.ru/scripts/v1/tracker.js",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/5447-41a7e4499d449c4f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5512,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"341d-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "16ebe071b7ea3541c397f271dc1f1e958401c6c847c227624613675fdb20374a",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 1.7397799999998824
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/3822.e997e5f8de169a0c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2931,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"23a4-19d2e308103\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "392ed9424f42327e981e664f3df772a22b927dead1d0fc85460f00888338d82a",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 1.7401460000000952
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/webpack-cdbf0479a1e0f607.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3703,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"1bae-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "aee74c5b7e0386b49f6920f9ca142e64685a99b2faad7cd663a50ae4daf69155",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 1.7405309999994643
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/framework-663f14bc8ac481eb.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"22817-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/main-6f80eaabe558158c.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"1d97c-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/pages/_app-4399103d57d598ad.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"b19d0-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/5829-6e9396295344bf91.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"21b6-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/5127-888b1b948d170c4c.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"a3db-19d2e308103\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/6246-78d6f991b87c816b.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"decd-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/5394-23b054c737c0f18b.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"3d12-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/2847-149d9bb6a6d7bf22.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"2ad6-19d2e308103\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/4608-39f5dcb1572470af.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"1a6bb-19d2e308103\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/chunks/pages/index-a7512a636bf07424.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"459-19d2e308107\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/nT591eoVdN2YbL2A18YSp/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"10b2-19d2e30810b\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/_next/static/nT591eoVdN2YbL2A18YSp/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"4d-19d2e30810b\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_static/images/common/logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, no-transform, immutable\npublic, no-transform",
+          "etag": "\"61f7969c-349\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s0.rbk.ru/v6_top_pics/media/img/2/89/347628703693892.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 908,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "cache-control": "max-age=604800\npublic, no-transform",
+          "etag": "W/\"69134461-5c1\"",
+          "expires": "Tue, 07 Apr 2026 21:47:31 GMT"
+        },
+        "responseBodyHash": "d887c59959c8a2cccccf172d612022db1e55605ab3fd9654f9957de7b7c347dd",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ],
+        "time": 0.8814289999991161
+      },
+      {
+        "url": "https://s.rbk.ru/v1_front_rbcnews_static/images/pro-gold.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "remoteIPAddress": "80.68.253.2",
+        "responseHeaders": {
+          "cache-control": "max-age=2851200\npublic, no-transform",
+          "etag": "W/\"1ea-19d2e307fa3\"",
+          "expires": "Sun, 03 May 2026 21:47:31 GMT"
+        },
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://edge-upvideo.rbc.ru/archive/2025/02/25/teaser_5_mp4/720p.mp4",
+        "method": "GET",
+        "type": "Media",
+        "initiators": [
+          "https://www.rbc.ru/"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_static/fonts/GraphikRBCLC-v1.1/GraphikRBCLC-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "initiators": [
+          "https://s.rbk.ru/v1_static/fonts/GraphikRBCLC-v1.1/index.css"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_static/icons/ra-icon-v1.16/fonts/ra-icon.ttf?nl4a4a",
+        "method": "GET",
+        "type": "Font",
+        "initiators": [
+          "https://s.rbk.ru/v1_static/icons/ra-icon-v1.16/style.css"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_static/fonts/GraphikRBCLC-v1.1/GraphikRBCLC-Semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "initiators": [
+          "https://s.rbk.ru/v1_static/fonts/GraphikRBCLC-v1.1/index.css"
+        ]
+      },
+      {
+        "url": "https://s.rbk.ru/v1_static/fonts/GraphikRBCLC-v1.1/GraphikRBCLC-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "initiators": [
+          "https://s.rbk.ru/v1_static/fonts/GraphikRBCLC-v1.1/index.css"
+        ]
+      }
+    ],
+    "cookies": [
+      {
+        "name": "xrft",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1774997246312,
+        "session": false
+      },
+      {
+        "name": "splituid",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1809553646312,
+        "session": false
+      },
+      {
+        "name": "qrator_jsr",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1774993946552,
+        "session": false
+      },
+      {
+        "name": "qrator_jsid2",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1774994649043,
+        "session": false
+      },
+      {
+        "name": "tbd",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1775029649657,
+        "session": false
+      },
+      {
+        "name": "split",
+        "domain": "www.rbc.ru",
+        "path": "/",
+        "expires": 1806529650229,
+        "session": false
+      },
+      {
+        "name": "_splitt",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1806529650229,
+        "session": false
+      },
+      {
+        "name": "_ssc",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1806529650229,
+        "session": false
+      },
+      {
+        "name": "_sst",
+        "domain": ".rbc.ru",
+        "path": "/",
+        "expires": 1775080050229,
+        "session": false
+      },
+      {
+        "name": "seg",
+        "domain": "www.rbc.ru",
+        "path": "/",
+        "expires": 1806529650229,
+        "session": false
+      },
+      {
+        "name": "js_d",
+        "domain": "www.rbc.ru",
+        "path": "/",
+        "session": true
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.rbc.ru/__qrator/qauth.js": {
+          "Navigator.prototype.userAgent": 6,
+          "Document.cookie getter": 1,
+          "Performance.prototype.memory": 2,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "Navigator.prototype.vendorSub": 2,
+          "Navigator.prototype.productSub": 2,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.maxTouchPoints": 3,
+          "Navigator.prototype.doNotTrack": 2,
+          "Navigator.prototype.webkitTemporaryStorage": 2,
+          "Navigator.prototype.webkitPersistentStorage": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Navigator.prototype.appCodeName": 2,
+          "Navigator.prototype.appName": 2,
+          "Navigator.prototype.appVersion": 2,
+          "Navigator.prototype.platform": 4,
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.language": 2,
+          "Navigator.prototype.languages": 2,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.webdriver": 2,
+          "Navigator.prototype.plugins": 5,
+          "Navigator.prototype.mimeTypes": 2,
+          "Navigator.prototype.connection": 2,
+          "Navigator.prototype.keyboard": 2,
+          "Navigator.prototype.mediaDevices": 7,
+          "Navigator.prototype.deviceMemory": 2,
+          "Navigator.prototype.storage": 2,
+          "Navigator.prototype.mediaCapabilities": 2,
+          "Navigator.prototype.permissions": 2,
+          "Navigator.prototype.presentation": 2,
+          "NavigatorUAData.prototype.brands": 2,
+          "NavigatorUAData.prototype.platform": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "window.outerWidth": 1,
+          "window.outerHeight": 1,
+          "window.devicePixelRatio": 1,
+          "window.screenX": 1,
+          "window.screenY": 1,
+          "BarProp.prototype.visible": 6,
+          "HTMLCanvasElement.prototype.toDataURL": 2,
+          "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+          "WebGLRenderingContext.prototype.getParameter": 4,
+          "WebGLRenderingContext.prototype.getExtension": 2,
+          "MediaDevices.prototype.enumerateDevices": 1,
+          "HTMLMediaElement.prototype.canPlayType": 3,
+          "Notification.permission": 2,
+          "speechSynthesis.__proto__.getVoices": 2,
+          "Navigator.prototype.requestMediaKeySystemAccess": 1,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

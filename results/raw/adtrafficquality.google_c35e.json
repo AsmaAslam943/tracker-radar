@@ -1,0 +1,584 @@
+{
+  "initialUrl": "https://adtrafficquality.google/",
+  "finalUrl": "https://www.google.com/ads/adtrafficquality/",
+  "timeout": false,
+  "testStarted": 1774987712950,
+  "testFinished": 1774987719241,
+  "data": {
+    "requests": [
+      {
+        "url": "https://adtrafficquality.google/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "142.251.219.36",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/ads/adtrafficquality",
+        "initiators": [],
+        "time": 0.09238299999924493
+      },
+      {
+        "url": "https://www.google.com/ads/adtrafficquality",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 20:09:56 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/ads/adtrafficquality/",
+        "redirectedFrom": "https://adtrafficquality.google/",
+        "initiators": [],
+        "time": 0.013719000000492088
+      },
+      {
+        "url": "https://www.google.com/ads/adtrafficquality/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 12375,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d59b2fa95c351e70b64b63b233cd16a4b229818fb23bfe2520e93ce2ce09bfaa",
+        "redirectedFrom": "https://www.google.com/ads/adtrafficquality",
+        "initiators": [],
+        "time": 0.12177100000008068
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3457,
+        "remoteIPAddress": "142.250.101.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 31 Mar 2026 20:08:35 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8eeaa64422417805316168efb58fca84c3d44f9f2312e3f3a0011ef1a8e7d744",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 1.854323000000477
+      },
+      {
+        "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1724,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:08:33 GMT"
+        },
+        "responseBodyHash": "976adeac97a2f55d560dc94a959acfc799e8c4b2beefc6b1a64d74904ca7e5b7",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 0.047840000000178406
+      },
+      {
+        "url": "https://www.google.com/ads/adtrafficquality/static/css/index.min.css?cache=389b663",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 16947,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:08:33 GMT"
+        },
+        "responseBodyHash": "583efceb4ca5e20a58cf7fb7e781f2c3369426fcb0c3b04f176c655466cec63f",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 0.05965199999991455
+      },
+      {
+        "url": "https://www.google.com/ads/adtrafficquality/static/js/detect.min.js?cache=4cb778b",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10916,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:08:33 GMT"
+        },
+        "responseBodyHash": "bbba9e31df66af97734febb0157eb9b2c3d10c9ac0ff017adad3915916d098f4",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 0.04878400000052352
+      },
+      {
+        "url": "https://www.gstatic.com/external_hosted/createjs/createjs-2015.11.26.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 49706,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=0",
+          "expires": "Tue, 31 Mar 2026 20:08:33 GMT"
+        },
+        "responseBodyHash": "575c82f23dbb9285df2f62c7c8121c65d89e8137713110a149067d695975215e",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 0.09363200000007055
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59412,
+        "remoteIPAddress": "142.251.218.170",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Wed, 31 Mar 2027 04:58:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "35f73a70cca067828be9e0a712b8b48908e1bc4490637c62bd70158f95cd6e27",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 1.825076000000081
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9905,
+        "remoteIPAddress": "142.251.218.170",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Sun, 28 Mar 2027 04:40:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "abbb65a34625414a399bbe13d6533d6a3a694b9ad9a3e4b5d760b59f403ea4b6",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 1.8054560000000492
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-touch.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1966,
+        "remoteIPAddress": "142.251.218.170",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Sun, 28 Mar 2027 12:58:44 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c305745b28600b85be148a4f8e9bc2dad57d86d36ffcd5a66f3951f252217eb1",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 1.805702000000565
+      },
+      {
+        "url": "https://www.google.com/ads/adtrafficquality/static/js/index.min.js?cache=66ce1c1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37570,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:08:33 GMT"
+        },
+        "responseBodyHash": "9e818561a8f42ee253ca27f4aafe65f10c40b2383141e3c8b93b603068741f74",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 0.07484300000032817
+      },
+      {
+        "url": "https://www.google.com/ads/adtrafficquality/static/js/canvas/canvas.min.js?cache=bbbc0e5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 181974,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:08:33 GMT"
+        },
+        "responseBodyHash": "0bb7cfe32d0e9df6999870bce6acf7b81911ff371f680ab6fc74b124c3a28624",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 0.11490599999979167
+      },
+      {
+        "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27857,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:08:33 GMT"
+        },
+        "responseBodyHash": "1c3308bdbd5b4c305676af52eda67ac0953c904f1dbf00f412d5ac3a917b0e14",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/"
+        ],
+        "time": 0.07463800000004994
+      },
+      {
+        "url": "https://csp.withgoogle.com/csp/uxe-owners-acl/www_google",
+        "method": "POST",
+        "type": "Other",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"
+        ],
+        "time": 0.10538499999984197
+      },
+      {
+        "url": "https://csp.withgoogle.com/csp/uxe-owners-acl/www_google",
+        "method": "POST",
+        "type": "Other",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"
+        ],
+        "time": 0.10473500000080094
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/productsans/v20/pxiDypQkot1TnFhsFMOfGShVF9eOYktMqg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 14923,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 04:57:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "383045e71b1071813a784cab6b0f5ce5d5b9226f1a71a311795674c1d5ddb47c",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en"
+        ],
+        "time": 0.04424699999981385
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesans/v67/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQoi-E.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 36176,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 04:39:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fa62069c64f5fb37bd43b627c59a8fa9d41d9ca30581f4c3f36d0406af25c81f",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en"
+        ],
+        "time": 0.062216000000262284
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 37552,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 14:19:15 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d9191c2bc1c5dadf95cfffbe8ee403a2c53aa0248939133d6204c76d99e918b7",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en"
+        ],
+        "time": 0.06573200000002544
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 19653,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 26 Mar 2027 21:41:36 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "544551e9ef4398dba462ce9dd4d0c969475c92391946117bfc5dceb5345b8c62",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en"
+        ],
+        "time": 0.03976299999976618
+      },
+      {
+        "url": "https://csp.withgoogle.com/csp/uxe-owners-acl/www_google",
+        "method": "POST",
+        "type": "Other",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js",
+          "https://www.google.com/ads/adtrafficquality/static/js/index.min.js?cache=66ce1c1"
+        ],
+        "time": 0.05521599999974569
+      },
+      {
+        "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2a.json?hl=en",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 67,
+        "remoteIPAddress": "172.217.12.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:08:35 GMT"
+        },
+        "responseBodyHash": "a0a1f98fca203b8561519a06bacfdc50e4b3c4a5a71e740da5b0875bd4fc00d6",
+        "initiators": [
+          "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+        ],
+        "time": 0.07011200000033568
+      },
+      {
+        "url": "https://www.gstatic.com/images/branding/product/ico/googleg_alldp.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4424,
+        "remoteIPAddress": "142.251.151.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 04:58:04 GMT"
+        },
+        "responseBodyHash": "d0ac11ba8f6add2be52fa4c5c3137d5fcd347ac12cb18b74f3ba7cd32dcaba19",
+        "initiators": [],
+        "time": 0.01268900000013673
+      },
+      {
+        "url": "https://csp.withgoogle.com/csp/uxe-owners-acl/www_google",
+        "method": "POST",
+        "type": "Other",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/",
+          "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+        ],
+        "time": 0.040297999999893364
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M98JXGB",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 130812,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:08:35 GMT"
+        },
+        "responseBodyHash": "9a8d6a88a4bb20994f67e388a76d5af8a674b32d9a8e712722e3c77906ef5b31",
+        "initiators": [
+          "https://www.google.com/ads/adtrafficquality/",
+          "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+        ],
+        "time": 0.14635199999975157
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-Q51ER5S29V&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 145565,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:08:35 GMT"
+        },
+        "responseBodyHash": "5a7bf3693187d519594784611811e3d18ba7ee9979063c7e2a996bd848f29211",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M98JXGB",
+          "https://www.google.com/ads/adtrafficquality/",
+          "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+        ],
+        "time": 0.12349100000028557
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Q51ER5S29V&gtm=45je63u0v880042838z8854759695za20gzb854759695zd854759695&_p=1774987715696&gcs=G111&gcd=13r3r3l3l5l1&npa=0&dma=0&cid=1430253689.1774987716&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=0~115938466~115938469~116991817~118012005~118131808&dl=https%3A%2F%2Fwww.google-b197145817.com%2Fads%2Fadtrafficquality%2F&sid=1774987716&sct=1&seg=0&dt=Google%20Ad%20Traffic%20Quality&_tu=QA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.page_locale=default&ep.percent_scrolled=0&ep.scroll_increment=0&ep.scroll_instance=1&tfd=2615",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.218.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.google.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-Q51ER5S29V&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M98JXGB",
+          "https://www.google.com/ads/adtrafficquality/",
+          "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+        ],
+        "time": 0.10050700000010693
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_ga_Q51ER5S29V",
+        "domain": ".google.com",
+        "path": "/ads",
+        "expires": 1809547716055,
+        "session": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".google.com",
+        "path": "/ads",
+        "expires": 1809547716056,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.google.com/ads/adtrafficquality/static/js/detect.min.js?cache=4cb778b": {
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://www.gstatic.com/external_hosted/createjs/createjs-2015.11.26.min.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Date.prototype.getTime": 365
+        },
+        "https://www.google.com/ads/adtrafficquality/static/js/index.min.js?cache=66ce1c1": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.appVersion": 1
+        },
+        "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js": {
+          "window.name": 2,
+          "Navigator.prototype.userAgent": 3
+        },
+        "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js": {
+          "Navigator.prototype.userAgent": 2,
+          "window.localStorage": 1
+        },
+        "https://www.google.com/ads/adtrafficquality/": {
+          "Date.prototype.getTime": 1
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-M98JXGB": {
+          "Navigator.prototype.userAgent": 39,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 19,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-Q51ER5S29V&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 12,
+          "Date.prototype.getTime": 35,
+          "Navigator.prototype.language": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Document.cookie setter": 3,
+          "window.name": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-Q51ER5S29V&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_Q51ER5S29V=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/ads; expires=Thu, 30 Mar 2028 20:08:36 GMT; domain=google.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-Q51ER5S29V&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_Q51ER5S29V=GS2.1-2.s1774987716$o1$g0$t1774987716$j60$l0$h0; path=/ads; expires=Thu, 30 Mar 2028 20:08:36 GMT; domain=google.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-Q51ER5S29V&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1-2.1430253689.1774987716; path=/ads; expires=Thu, 30 Mar 2028 20:08:36 GMT; domain=google.com; "
+          ]
+        }
+      ]
+    }
+  }
+}

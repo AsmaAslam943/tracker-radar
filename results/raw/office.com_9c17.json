@@ -1,0 +1,1154 @@
+{
+  "initialUrl": "https://office.com/",
+  "finalUrl": "https://www.office.com/",
+  "timeout": false,
+  "testStarted": 1774986810648,
+  "testFinished": 1774986820241,
+  "data": {
+    "requests": [
+      {
+        "url": "https://office.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "23.103.228.11",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.office.com/",
+        "initiators": [],
+        "time": 0.1595870000001014
+      },
+      {
+        "url": "https://www.office.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 39820,
+        "remoteIPAddress": "23.103.228.50",
+        "responseHeaders": {
+          "cache-control": "public, max-age=300",
+          "pragma": "no-cache",
+          "set-cookie": "OH.SID=7efaaded-2a1a-4ca1-af8a-066a5992c5c5; path=/; secure; samesite=none; httponly\nOH.FLID=aeb79755-39a9-47f9-8f2a-56f8e3670c24; expires=Wed, 31 Mar 2027 19:53:31 GMT; path=/; secure; samesite=none; httponly"
+        },
+        "responseBodyHash": "2bfa7888946a34f021490fd77e384ff4c6af0e514a3e16a6c3c942ba181237be",
+        "redirectedFrom": "https://office.com/",
+        "initiators": [],
+        "time": 0.1795799999999872
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-3a910e427c.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 84223,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "15d3864d82a76c48c8321cf5c31b295b4de57114f372be6431541a741c789cb6",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.290179999999964
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/sharedfontstyles-f7f2466ff5.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1143,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "452c71710ac8407da431e133ed831fe09c6c881f23e9b0e93192fd8dc8bab71f",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.2901010000005044
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_light.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 11356,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "66b9b07c01ae0af727ce212de32fae02abe89890e672aa0378ffa3de69079125",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.2921709999991435
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 11912,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c0d87e8d523ca771f3f874ca54350c54ddee7488feda025c2d57817b4a480e7e",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.29252600000018
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 12168,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7ea8ba874db2e76ac3e9821ec644672ea7efb532afd9a1074e10c390abbcdcc4",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.2927609999997003
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_semilight.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 12976,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ce8db9d6d9b237b759ce232e76e8a3f0e73f6eb7ec42e72e060129a8977290f3",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.2934079999995447
+      },
+      {
+        "url": "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&_cf=02242021_3231",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 23615,
+        "remoteIPAddress": "23.37.18.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=25063342",
+          "expires": "Fri, 15 Jan 2027 21:55:56 GMT",
+          "p3p": "CP=\"CAO CONi OTR OUR DEM ONL\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b9e113ec848473983eaa6b552862eacc431e50fd60ec16385d83a7be73f2cb29",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.3037600000006933
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/microsoft-clarity-ff3e2df9ac.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2357,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8a483dbc85effeb35fcbdb4286be3ba050bac7259a6c30e0caa3b285e67337d3",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.2935379999998986
+      },
+      {
+        "url": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4321,
+        "remoteIPAddress": "104.68.102.83",
+        "responseHeaders": {
+          "etag": "\"0x8DD884F3BEF0076\""
+        },
+        "responseBodyHash": "9d247324293c49443f26e77d7fd7c4ae5c06f8b2ca0fca93457049156bd9013c",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.1967240000003585
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-odc-with-prompts-9e75b24933.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 11579,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bb95ad49bc94a7b7d9d0df46ae324388532dceeee0bec97c536753b029d1b0b8",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.303342999999586
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-odc/office365-bc5244dd6e.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 205741,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d5bfab4ca6877cc1e88a84d3ed2a4eadb70234824a8c120014186e32d3f745ec",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.424637000000075
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-mcm/hero-module1-7fefe20a7f.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 54954,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c871e48e4cd31b7ff34b28162c7515cc9c1078e1c92ebc03e65a48b192bfeddc",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.4002889999992476
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-mcm/hero-module2-9b20271b1e.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 134189,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "451368d423251caa76b6288f8b59a7fc33e43b81f7c16d4888e47ef307857c0a",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.4185689999994793
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-mcm/hero-module3-89c3b2f316.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 122798,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3f1ed3c0e9b0ed5d2942eee62bd693ccd3854fdc7879a4b69e4902751f94c921",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.403186999999889
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-odc/hero-module4-d074b3b02a.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 99823,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4f8f01f2330a1389445094a36324b1284c7292cb453834b6f4a0436eb43fcf06",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.4272570000002816
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-odc/word-8d7e06eb1f.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2449,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1ce264380db4a06cbcf3b0e3cf5dc2e57e695960772ed04e9451ae1e8b61d18a",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.422714000000269
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-odc/excel-4d54f0a88a.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2487,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "617a2b06ee005563c872a8d487f79d07a98a3644e55a15e8bc06b2265a7d8a18",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.42279199999939
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-odc/outlook-ec545e5dcb.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3103,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "165cf2a486d67197833c37409cc6551f4a986f3b49b009ef3c8d5b3cc81450d7",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.423063000000184
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth-odc/powerpoint-293be30303.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3005,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "00c098ff7a9934279a05f89e2899fa599110312e43f06d06877e346cc53e4d8f",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.4231309999995574
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth/outlook-app-c296d47fe8.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2134,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "668821ea48d26d0c200311e5145b85a765e4d9884b7c13b7974163d739865e69",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.422864999999547
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/unauth/copilot-app-4b262e7e56.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1337,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3329708b241c248bf72623b887dfb724d3a84cb8b0f1fe8575b732222c2cd797",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.422714999999698
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-mcm-prompt-carousel-af8da43ac6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3007,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "35a4080e84a2ee724fb16b4b9e81be0dee548f04ada9b6d72b999a774d37df93",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.3210790000002817
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-mcm-faq-3ed592771b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1531,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ff01553590707a2bd70f9c4ae4f618a6e8d6fa99e9b3292035355b22ab419fd3",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.3092059999999037
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-vendor-f0ab3fa70e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 35899,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "24d24e08b0df171de506aa9f8eb3bee23a3572d280a58c98881c9ca701445b14",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.307213999999476
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 65905,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "66be806d079390904670a184e4cbc349041cc01298281924073041092c4a1228",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.309801000000334
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/otel-logger-39618b5914375db48ab3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37407,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ef3ca9cbb0411b4de9961604d19a3ef493244759551b62caa991cb79208bf9d7",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.3035259999996924
+      },
+      {
+        "url": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53452,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"0x8DE812826FF3D27\""
+        },
+        "responseBodyHash": "daf7759fedd9af6c4d7e374b0d056547ae7cb245ec24a1c4acf02932f30dc536",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.5395690000004834
+      },
+      {
+        "url": "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/fb-2be034/21-f9d187/b0-50721e/d8-97d509/40-0bd7f9/ea-f1669e/9d-c6ea39/62-a72447/3e-a4ee50/7c-0bd6a1/60-37309a/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/e6-5f3533/6d-1e7ed0/b7-cadaa7/62-2741f0/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/e7-1fe854/66-9d711a/38-b93a9e/de-884374/1f-100dea/33-abe4df/8f-61bee0?ver=2.0&_cf=02242021_3231&iife=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38006,
+        "remoteIPAddress": "23.37.18.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=25219862",
+          "expires": "Sun, 17 Jan 2027 17:24:36 GMT",
+          "p3p": "CP=\"CAO CONi OTR OUR DEM ONL\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5f229d2c8cf661edd55acc6fc9bed3a0ef8c3d97830de0c2eb7cee0d9dd86a78",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.350177000000258
+      },
+      {
+        "url": "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10421,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, no-transform, max-age=43200",
+          "expires": "Wed, 01 Apr 2026 05:00:25 GMT"
+        },
+        "responseBodyHash": "9efe2042cb81f0686dcf4b7e3822fd641d1e1079943231f6aad54b7879a5c81c",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.5063090000003285
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-odc-scripts-4c82c1e399.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 191162,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0f59e7d8cebbfc8664b0cd191af52bc2dfb514d24c2c1bd8ab6b386d2d4c2a3b",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.3349550000002637
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/bundles/unauth-page-performance-fe909b4df2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1772,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d203ba5d71eefaf2a5b380b71970b5f324ca88635ebff2fe5b07dcac966148c4",
+        "initiators": [
+          "https://www.office.com/"
+        ],
+        "time": 3.335567999999512
+      },
+      {
+        "url": "https://www.clarity.ms/tag/svciz78sa8",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 855,
+        "remoteIPAddress": "4.153.187.221",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "expires": "-1"
+        },
+        "responseBodyHash": "09104e84c7151b4fbf43254eba664bfe64a013d84b5c738108d856e2aee901f0",
+        "initiators": [
+          "https://res.cdn.office.net/officehub/bundles/microsoft-clarity-ff3e2df9ac.js"
+        ],
+        "time": 0.2874199999996563
+      },
+      {
+        "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 34264,
+        "remoteIPAddress": "184.28.149.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=303741",
+          "etag": "\"588d483e9c7d51:0\"",
+          "expires": "Sat, 04 Apr 2026 08:15:55 GMT"
+        },
+        "responseBodyHash": "43445bf093e178cdb9cbb457266fe265616c4f509f00108adc0d91e63c5b83bb",
+        "initiators": [
+          "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&_cf=02242021_3231"
+        ],
+        "time": 0.12732299999970564
+      },
+      {
+        "url": "https://www.microsoft.com/mwf/_h/v3.54/mwf.app/fonts/mwfmdl2-v3.54.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27014,
+        "remoteIPAddress": "23.37.18.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30980479",
+          "expires": "Thu, 25 Mar 2027 09:34:53 GMT",
+          "p3p": "CP=\"CAO CONi OTR OUR DEM ONL\""
+        },
+        "responseBodyHash": "8ff0be9242f3f5bf1cbbbd5ed1bf2ec8f225dce8f986106b224d918395a2887c",
+        "initiators": [
+          "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&_cf=02242021_3231"
+        ],
+        "time": 0.17006899999978486
+      },
+      {
+        "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 29591,
+        "remoteIPAddress": "184.28.149.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=89782",
+          "etag": "\"5b68d583e9c7d51:0\"",
+          "expires": "Wed, 01 Apr 2026 20:49:56 GMT"
+        },
+        "responseBodyHash": "11a615013b52b518c5ee50805e4555ff24ea4d3ab89e4521667669bbe4dba41a",
+        "initiators": [
+          "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&_cf=02242021_3231"
+        ],
+        "time": 0.12895099999968807
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.59/clarity.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26801,
+        "remoteIPAddress": "13.107.226.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"0x8DE8E46171FEDDD\""
+        },
+        "responseBodyHash": "6a00b1393bd74ac062ad19c64062eee1ae9c257e24949b55813a9462a4820e54",
+        "initiators": [
+          "https://www.clarity.ms/tag/svciz78sa8",
+          "https://res.cdn.office.net/officehub/bundles/microsoft-clarity-ff3e2df9ac.js"
+        ],
+        "time": 0.2523000000001048
+      },
+      {
+        "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30328,
+        "remoteIPAddress": "184.28.149.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=560297",
+          "etag": "\"83cce83e9c7d51:0\"",
+          "expires": "Tue, 07 Apr 2026 07:31:51 GMT"
+        },
+        "responseBodyHash": "503b569075528b4092aa22bfc6ae36df60744589d37a99bdba64a81c5a409b71",
+        "initiators": [
+          "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&_cf=02242021_3231"
+        ],
+        "time": 0.021147999999811873
+      },
+      {
+        "url": "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 35644,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-transform, public, max-age=1800, immutable",
+          "etag": "W/\"0x8DD4624AB24003C\""
+        },
+        "responseBodyHash": "3a790b6c0d26d7a4d292cb27f992eafaff42c37e9318b2ab704207039127fcb8",
+        "initiators": [
+          "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1"
+        ],
+        "time": 0.2801399999998466
+      },
+      {
+        "url": "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meBoot.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 62568,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"1dbf5a8d4279b1a\""
+        },
+        "responseBodyHash": "ba36c077f43a212f6539fd9ee370aa3b4ba9c1c28ebb91179c2fcff206815361",
+        "initiators": [
+          "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1",
+          "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/fb-2be034/21-f9d187/b0-50721e/d8-97d509/40-0bd7f9/ea-f1669e/9d-c6ea39/62-a72447/3e-a4ee50/7c-0bd6a1/60-37309a/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/e6-5f3533/6d-1e7ed0/b7-cadaa7/62-2741f0/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/e7-1fe854/66-9d711a/38-b93a9e/de-884374/1f-100dea/33-abe4df/8f-61bee0?ver=2.0&_cf=02242021_3231&iife=1",
+          "https://www.office.com/"
+        ],
+        "time": 0.22154000000045926
+      },
+      {
+        "url": "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meCore.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16239,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"1dbf5a8d687dda1\""
+        },
+        "responseBodyHash": "a5268a183f2a091d2d17773997e89a25fc45cbd60e586edf61f544fb85d6f6a8",
+        "initiators": [
+          "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1",
+          "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meBoot.min.js"
+        ],
+        "time": 0.041292999999313906
+      },
+      {
+        "url": "https://o.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 278,
+        "remoteIPAddress": "52.152.143.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "https://www.clarity.ms/tag/svciz78sa8",
+          "https://res.cdn.office.net/officehub/bundles/microsoft-clarity-ff3e2df9ac.js"
+        ],
+        "time": 0.37612799999988056
+      },
+      {
+        "url": "https://mem.gfx.ms/me/mecache?partner=office&wreply=https%3A%2F%2Fwww.office.com",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1331,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, max-age=43200",
+          "expires": "Tue, 31 Mar 2026 14:38:34 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meBoot.min.js",
+          "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1"
+        ],
+        "time": 0.264021999999386
+      },
+      {
+        "url": "https://res.cdn.office.net/officehub/images/content/images/favicon_copilot-4370172aa6.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 9694,
+        "remoteIPAddress": "23.212.62.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b1ceab91425b7194db06b58b59d224e431daca9dc920cdeeb1abc064ca714a79",
+        "initiators": [],
+        "time": 0.012177999999948952
+      },
+      {
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "20.42.73.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com",
+          "cache-control": "public, 3600"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0"
+        ],
+        "time": 0.5008889999999155
+      },
+      {
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 759,
+        "remoteIPAddress": "20.42.73.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com",
+          "p3p": "CP=\"ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"",
+          "set-cookie": "MC1=GUID=6e69e0adecd141fa9f6a2f906e931d32&HASH=6e69&LV=202603&V=4&LU=1774986816679; Domain=.microsoft.com; Expires=Wed, 31 Mar 2027 19:53:36 GMT; Path=/;Secure; SameSite=None\nMS0=94c3653fcfa746e7872971a7293d251c; Domain=.microsoft.com; Expires=Tue, 31 Mar 2026 20:23:36 GMT; Path=/;Secure; SameSite=None"
+        },
+        "responseBodyHash": "c9b30a0aa487b1355dc809c2033e747d3fb8b33d3de7cb5c715f6871f5c4407c",
+        "initiators": [
+          "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js",
+          "https://www.office.com/",
+          "https://res.cdn.office.net/officehub/bundles/unauth-vendor-f0ab3fa70e.js"
+        ],
+        "time": 1.0369599999994534
+      },
+      {
+        "url": "https://o.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 278,
+        "remoteIPAddress": "52.152.143.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://scripts.clarity.ms/0.8.59/clarity.js"
+        ],
+        "time": 0.09769500000038533
+      },
+      {
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "20.42.73.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com",
+          "cache-control": "public, 3600"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2"
+        ],
+        "time": 0.14964899999995396
+      },
+      {
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "20.42.73.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com"
+        },
+        "responseBodyHash": "f8a95719f97006bd286f678a38eb1d7871ba84a84bef75c7107a78f2e17b0583",
+        "initiators": [
+          "https://res.cdn.office.net/officehub/bundles/otel-logger-39618b5914375db48ab3.js",
+          "https://www.office.com/",
+          "https://res.cdn.office.net/officehub/bundles/unauth-vendor-f0ab3fa70e.js"
+        ],
+        "time": 0.2490060000000085
+      },
+      {
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 234,
+        "remoteIPAddress": "20.42.73.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com"
+        },
+        "responseBodyHash": "a3acb09847ed9dd9c4e59845f925ab9461f13ea7092382ddcc013851eadc59a9",
+        "initiators": [
+          "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js",
+          "https://www.office.com/",
+          "https://res.cdn.office.net/officehub/bundles/unauth-vendor-f0ab3fa70e.js"
+        ],
+        "time": 0.1415499999993699
+      },
+      {
+        "url": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 220,
+        "remoteIPAddress": "20.42.73.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.office.com"
+        },
+        "responseBodyHash": "58a4c5599e52638bafc7244318af3ec3205865c03bdc7d0f2e64a3fff36bece1",
+        "initiators": [
+          "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js",
+          "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1"
+        ],
+        "time": 0.11974099999952159
+      }
+    ],
+    "cookies": [
+      {
+        "name": "OH.SID",
+        "domain": "www.office.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "OH.FLID",
+        "domain": "www.office.com",
+        "path": "/",
+        "expires": 1806522812039,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MicrosoftApplicationsTelemetryDeviceId",
+        "domain": "www.office.com",
+        "path": "/",
+        "expires": 1806522814760,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ai_session",
+        "domain": "www.office.com",
+        "path": "/",
+        "expires": 1774988615000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MSCC",
+        "domain": ".office.com",
+        "path": "/",
+        "expires": 1775073215000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MC1",
+        "domain": ".microsoft.com",
+        "path": "/",
+        "expires": 1806522817818,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MS0",
+        "domain": ".microsoft.com",
+        "path": "/",
+        "expires": 1774988617818,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MSFPC",
+        "domain": "www.office.com",
+        "path": "/",
+        "expires": 1806522817190,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.office.com/": {
+          "window.sessionStorage": 3,
+          "Document.cookie getter": 1,
+          "window.localStorage": 2,
+          "window.indexedDB": 4
+        },
+        "https://res.cdn.office.net/officehub/bundles/unauth-odc-scripts-4c82c1e399.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1": {
+          "window.sessionStorage": 1
+        },
+        "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js": {
+          "Navigator.prototype.product": 4,
+          "Document.cookie getter": 22,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.width": 1,
+          "Navigator.prototype.userAgent": 6,
+          "Document.cookie setter": 4,
+          "Date.prototype.getTimezoneOffset": 1,
+          "window.localStorage": 5,
+          "window.sessionStorage": 4,
+          "Date.prototype.getTime": 8,
+          "Navigator.prototype.appVersion": 1,
+          "window.innerHeight": 1554,
+          "window.innerWidth": 314
+        },
+        "https://res.cdn.office.net/officehub/bundles/otel-logger-39618b5914375db48ab3.js": {
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.product": 4,
+          "Date.prototype.getTime": 6
+        },
+        "https://scripts.clarity.ms/0.8.59/clarity.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie getter": 4,
+          "window.devicePixelRatio": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Navigator.prototype.webdriver": 1,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Navigator.prototype.connection": 2,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js": {
+          "Navigator.prototype.product": 4,
+          "Document.cookie getter": 30,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Date.prototype.getTime": 10,
+          "Navigator.prototype.userAgent": 3,
+          "Document.cookie setter": 2
+        },
+        "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meBoot.min.js": {
+          "Navigator.prototype.userAgent": 3,
+          "window.innerWidth": 1
+        },
+        "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 3,
+          "Document.cookie setter": 1
+        },
+        "https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/fb-2be034/21-f9d187/b0-50721e/d8-97d509/40-0bd7f9/ea-f1669e/9d-c6ea39/62-a72447/3e-a4ee50/7c-0bd6a1/60-37309a/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/e6-5f3533/6d-1e7ed0/b7-cadaa7/62-2741f0/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/e7-1fe854/66-9d711a/38-b93a9e/de-884374/1f-100dea/33-abe4df/8f-61bee0?ver=2.0&_cf=02242021_3231&iife=1": {
+          "Document.cookie getter": 2,
+          "window.innerHeight": 1
+        },
+        "https://mem.gfx.ms/scripts/me/MeControl/10.25136.1/en-US/meCore.min.js": {
+          "Navigator.prototype.cookieEnabled": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "MicrosoftApplicationsTelemetryDeviceId=daf6b567-e1ab-44d5-8aeb-8e76444ab434; expires=Wed, 31 Mar 2027 19:53:34 GMT; max-age=31536000; secure; SameSite=None; path=/"
+          ]
+        },
+        {
+          "source": "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ai_session=CMeTiBynHuK4/Y1x/DHD6X|1774986814774|1774986814774; expires=Tue, 31 Mar 2026 20:23:34 GMT; secure; SameSite=None; path=/"
+          ]
+        },
+        {
+          "source": "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ai_session=CMeTiBynHuK4/Y1x/DHD6X|1774986814774|1774986815060; expires=Tue, 31 Mar 2026 20:23:35 GMT; secure; SameSite=None; path=/"
+          ]
+        },
+        {
+          "source": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "MSCC=NR;path=/;samesite=none;secure;domain=.office.com;expires=Wed, 01 Apr 2026 19:53:35 GMT"
+          ]
+        },
+        {
+          "source": "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "MSFPC=GUID=6e69e0adecd141fa9f6a2f906e931d32&HASH=6e69&LV=202603&V=4&LU=1774986816679; expires=Wed, 31 Mar 2027 19:53:36 GMT; max-age=31536000; secure; SameSite=None; path=/"
+          ]
+        },
+        {
+          "source": "https://res.cdn.office.net/officehub/bundles/unauth-936aa5c11c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "MSFPC=GUID=6e69e0adecd141fa9f6a2f906e931d32&HASH=6e69&LV=202603&V=4&LU=1774986816679; expires=Wed, 31 Mar 2027 19:53:36 GMT; max-age=31536000; secure; SameSite=None; path=/"
+          ]
+        },
+        {
+          "source": "https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "MSFPC=GUID=6e69e0adecd141fa9f6a2f906e931d32&HASH=6e69&LV=202603&V=4&LU=1774986816679; expires=Wed, 31 Mar 2027 19:53:37 GMT; max-age=31536000; secure; SameSite=None; path=/"
+          ]
+        }
+      ]
+    }
+  }
+}

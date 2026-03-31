@@ -1,0 +1,782 @@
+{
+  "initialUrl": "https://bluehost.com/",
+  "finalUrl": "https://www.bluehost.com/",
+  "timeout": false,
+  "testStarted": 1774991529298,
+  "testFinished": 1774991546153,
+  "data": {
+    "requests": [
+      {
+        "url": "https://bluehost.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Tue, 31 Mar 2026 22:12:09 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.bluehost.com/",
+        "initiators": [],
+        "time": 0.08557400000063353
+      },
+      {
+        "url": "https://www.bluehost.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 63171,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "set-cookie": "__cf_bm=RVM9UdvdX3Ws4cLPwfQJlDdeXGx7EPwhQk4h1AkwWuM-1774991529-1.0.1.1-PxuoyUuCOklMLT5bT1d.JKrU.NvmTQpjUr_2eD5XmlRD6ftgfSbWHf2Xx9BQ6nP_tI_7Qbw84CQoiBTxVJPeNsq8gIRaTwNbtLQSSYeef_c; path=/; expires=Tue, 31-Mar-26 21:42:09 GMT; domain=.bluehost.com; HttpOnly; Secure; SameSite=None\n__cflb=0H28urDgobSEBVEie2nnF3dPpdznHTu5LhZro7RcU3d; SameSite=Lax; path=/; expires=Tue, 31-Mar-26 22:12:09 GMT; HttpOnly\n_cfuvid=dUVEeKftEwnybhcKtslutGn35WmKAjYX2OoZt8pbRdM-1774991529688-0.0.1.1-604800000; path=/; domain=.bluehost.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1d14dda502063b0fce53c7b3cfaefc875165194fc0e36f99ce55589cc1f136be",
+        "redirectedFrom": "https://bluehost.com/",
+        "initiators": [],
+        "time": 0.3136770000000979
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Icons&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.3967649999995047
+      },
+      {
+        "url": "https://www.bluehost.com/content/dam/bluehost/theme-assets/material-components-web-4.0.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 26496,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"42ea5-64e4f0636821e-gzip\""
+        },
+        "responseBodyHash": "e250895cf5c7eb67455848662baad5c8da6e53edbfae28cdf8236cb43385d882",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.13107599999966624
+      },
+      {
+        "url": "https://www.bluehost.com/content/dam/bluehost/theme-assets/dc-bluehost-theme-refresh1.0-min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3068,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"336c-64e4f0636a72f-gzip\""
+        },
+        "responseBodyHash": "e1bd06c45435699b8642b44d2426d31c9183da99d8bd999a8df7a6082900b683",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.19821400000000722
+      },
+      {
+        "url": "https://assets.adobedtm.com/530368109655/e8a350bf6621/launch-f6aca7ad8f77.min.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.396467999999004
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-base.min.fc8e732bb43151130b24e7af76f8dca3.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2111,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"12ff-64e3c7acae741-gzip\""
+        },
+        "responseBodyHash": "8770b3cb2d4ac728d832e11479b829363774f9e22a04e27bf0a8e877d6f68d22",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.19828299999971932
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-site.min.b7c6af2600045ca4286cc75134d5fa45.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 34822,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"3d17b-64e3c68608ee9-gzip\""
+        },
+        "responseBodyHash": "b3ffae3e8d0f5fddf6ac4fd964f1ea5988278d05f3caae1433ddb89f18f88d48",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.19762400000035996
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.f5bfb2a4590cb65ff27c0ae518000b18.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 27177,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"31b2e-64e4f16c4ceaf-gzip\""
+        },
+        "responseBodyHash": "60fb28ea7c28cb6ad8ea52df78845c4faf6bca5b277935a1db8c04ea52e1e237",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.1681430000007822
+      },
+      {
+        "url": "https://cloud.wordlift.io/app/bootstrap.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.3832629999997152
+      },
+      {
+        "url": "https://www.bluehost.com/content/experience-fragments/bluehost/us/en/site-header/master/_jcr_content/root/header_copy_copy/logo.coreimg.svg/1774950047452/bluehost-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1912,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"e03-64e4ec77aa5c4-gzip\""
+        },
+        "responseBodyHash": "b3dce8df5d4dea1b8fd56e2d231db11c95d932b8a99f1ecbcc6f811aa1f2ca33",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.660280000000057
+      },
+      {
+        "url": "https://assets.calendly.com/assets/external/widget.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.38319600000068
+      },
+      {
+        "url": "https://assets.calendly.com/assets/external/widget.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.383232999998654
+      },
+      {
+        "url": "https://newfold.scene7.com/is/image/NewfoldDigital/Hero__desktop?ts=1774645844639&dpr=off&fmt=avif-alpha",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.476732000000993
+      },
+      {
+        "url": "https://newfold.scene7.com/is/content/NewfoldDigital/refund-fill__new?dpr=off",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.4767159999992145
+      },
+      {
+        "url": "https://newfold.scene7.com/is/content/NewfoldDigital/wordpress-icon__new?dpr=off",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.476698000000397
+      },
+      {
+        "url": "https://newfold.scene7.com/is/image/NewfoldDigital/New__Star__trust?ts=1764168962450&dpr=off&fmt=png-alpha",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.476678000000902
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.652a558c3774088b61b0530c184710d1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1713,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"e22-6375bd61fcfc9-gzip\""
+        },
+        "responseBodyHash": "90a9acaa2b73d4e87bc59beb161a8e9771d517ae8577ba38f6724f40d3461073",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.33631099999911385
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-base.min.3c1dfd69e15913c980f32a6ba8475ff6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 46531,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"2260a-64e3c70e304fd-gzip\""
+        },
+        "responseBodyHash": "af9bfd9a1fc1e272dc1bac0786cc3637f711e67b347e2362a3dbe1c431080313",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.1504640000002837
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-dependencies.min.d41d8cd98f00b204e9800998ecf8427e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 134,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"0-64e3c667bc07d\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.12699200000133715
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-site.min.c1dec355050eaaa88b7682d938821ab3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 141538,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"83fec-64e3c6c744315-gzip\""
+        },
+        "responseBodyHash": "d86ebc4baa0a8d42b85fb29e27991324360de998faa700be01ccfb2e0056985d",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.3912259999997332
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-dependencies.min.e1c06d85ae7b8b032bef47e42e4c08f9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 106,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"2-64e3e3d5d7ebc\""
+        },
+        "responseBodyHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.15065799999865703
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 139444,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"7f770-64e4f505628d6-gzip\""
+        },
+        "responseBodyHash": "a50ee7b65ef34d50c5d5f294001bb469fc08ced448d864bbca8edaba29a973da",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.6339869999992516
+      },
+      {
+        "url": "https://wsmcdn.audioeye.com/aem.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 2.2987149999989924
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site/resources/fonts/Proxima-Nova-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 53170,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"cf38-64e4f064253bb-gzip\""
+        },
+        "responseBodyHash": "e81bab967171f180b810c92c3c5d78178197be3ab9b0eefe1c97f9ff456ca449",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.f5bfb2a4590cb65ff27c0ae518000b18.css"
+        ],
+        "time": 0.25157799999942654
+      },
+      {
+        "url": "https://www.bluehost.com/cf-fonts/s/poppins/5.0.11/latin/400/normal.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 7991,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "a3f23333f71d0d99e810d428517a119f05cefbdc56272db5a3945a4e1e6d9069",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.30615600000055565
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site/resources/fonts/Proxima-Nova-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"cef4-64e4f1a9f31d0-gzip\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.f5bfb2a4590cb65ff27c0ae518000b18.css"
+        ],
+        "time": 1.998446999999942
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site/resources/fonts/Proxima-Nova-Semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"cb4c-64e4f064259ca-gzip\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.f5bfb2a4590cb65ff27c0ae518000b18.css"
+        ],
+        "time": 1.995242999999391
+      },
+      {
+        "url": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site/resources/fonts/Proxima-Nova-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 53126,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"cf48-64e4f28b48f22-gzip\""
+        },
+        "responseBodyHash": "2bdaa8aac9c8839fa3a90368feb09e5bd9b5005be3594b05908fb5235725f3e4",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.f5bfb2a4590cb65ff27c0ae518000b18.css"
+        ],
+        "time": 0.4054329999999027
+      },
+      {
+        "url": "https://newfold.scene7.com/is/content/NewfoldDigital/new__check?ts=1763121832362&dpr=off",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NAME_NOT_RESOLVED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.010283999999955995
+      },
+      {
+        "url": "https://www.bluehost.com/libs/granite/csrf/token.json",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.652a558c3774088b61b0530c184710d1.js"
+        ],
+        "time": 0.008941000000049826
+      },
+      {
+        "url": "https://www.bluehost.com/",
+        "method": "HEAD",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "172.64.146.48",
+        "responseHeaders": {
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.18982800000048883
+      },
+      {
+        "url": "https://www.bluehost.com/content/experience-fragments/bluehost/us/en/plan-table---4-columns/plan-table---hosting2.html",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.1592479999999341
+      },
+      {
+        "url": "https://www.bluehost.com/api/assets/bluehost/country-codes.json",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.1577159999997093
+      },
+      {
+        "url": "https://www.bluehost.com/content/dam/bluehost/cookies/natural-domains.json",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.15412800000012794
+      },
+      {
+        "url": "https://www.bluehost.com/content/dam/bluehost/cookies/organic-social-domains.json",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.15405400000054215
+      },
+      {
+        "url": "https://newfold.scene7.com/is/image/NewfoldDigital/kainetic-new?wid=1201&dpr=off&fmt=png-alpha",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-site.min.c1dec355050eaaa88b7682d938821ab3.js"
+        ],
+        "time": 0.06373100000018894
+      },
+      {
+        "url": "https://newfold.scene7.com/is/image/NewfoldDigital/scoops?wid=1201&dpr=off&fmt=png-alpha",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-site.min.c1dec355050eaaa88b7682d938821ab3.js"
+        ],
+        "time": 0.06353800000033516
+      },
+      {
+        "url": "https://www.bluehost.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/"
+        ],
+        "time": 0.09754200000134006
+      },
+      {
+        "url": "https://www.bluehost.com/getProductPrice/product/BH_HP_PKG_STARTER?bs=jarvis&brand=BLUEHOST&currencyCode=USD",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.033895999999003834
+      },
+      {
+        "url": "https://www.bluehost.com/getProductPrice/product/BH_HP_PKG_BUSINESS?bs=jarvis&brand=BLUEHOST&currencyCode=USD",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.033457999999882304
+      },
+      {
+        "url": "https://www.bluehost.com/getProductPrice/product/BH_CREATOR_SOLUTION_HOSTING?bs=jarvis&brand=BLUEHOST&currencyCode=USD",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.03318599999875005
+      },
+      {
+        "url": "https://www.bluehost.com/getProductPrice/product/TITAN_MAIL_STD(TITAN_MAIL_SEAT:1)?bs=jarvis&brand=BLUEHOST&currencyCode=USD",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.02970400000049267
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.008352999999260646
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.007246999999551917
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.0062890000008337665
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js"
+        ],
+        "time": 0.006594000000404776
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "OPTIONS",
+        "type": "Other",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://sfbff.newfold.com/logEvents/sendEvent"
+        ],
+        "time": 0.00045899999895482324
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "OPTIONS",
+        "type": "Other",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://sfbff.newfold.com/logEvents/sendEvent"
+        ],
+        "time": 0.00045000000136496965
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "OPTIONS",
+        "type": "Other",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://sfbff.newfold.com/logEvents/sendEvent"
+        ],
+        "time": 0.00047000000085972715
+      },
+      {
+        "url": "https://sfbff.newfold.com/logEvents/sendEvent",
+        "method": "OPTIONS",
+        "type": "Other",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [
+          "https://sfbff.newfold.com/logEvents/sendEvent"
+        ],
+        "time": 0.0004900000003544847
+      },
+      {
+        "url": "https://www.bluehost.com/content/dam/bluehost/favicons/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_INTERNET_DISCONNECTED",
+        "initiators": [],
+        "time": 0.002081000000544009
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": ".bluehost.com",
+        "path": "/",
+        "expires": 1774993329740,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cflb",
+        "domain": "www.bluehost.com",
+        "path": "/",
+        "expires": 1774995129740,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".bluehost.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "currencyCode",
+        "domain": "www.bluehost.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.bluehost.com/": {
+          "window.innerWidth": 1,
+          "Document.cookie getter": 1
+        },
+        "about:blank": {
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3
+        },
+        "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-base.min.3c1dfd69e15913c980f32a6ba8475ff6.js": {
+          "Navigator.prototype.userAgent": 1,
+          "window.devicePixelRatio": 1
+        },
+        "https://www.bluehost.com/etc.clientlibs/bluehost-wci-core/clientlibs/clientlib-site.min.c1dec355050eaaa88b7682d938821ab3.js": {
+          "Navigator.prototype.userAgent": 10,
+          "window.innerWidth": 5,
+          "Document.cookie getter": 3,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2,
+          "window.sessionStorage": 6,
+          "Event.prototype.timeStamp": 1
+        },
+        "https://www.bluehost.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.652a558c3774088b61b0530c184710d1.js": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js": {
+          "Document.cookie getter": 33,
+          "window.innerWidth": 1,
+          "Navigator.prototype.userAgent": 7,
+          "window.sessionStorage": 5,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Document.cookie setter": 1,
+          "Event.prototype.timeStamp": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.bluehost.com/etc.clientlibs/bluehost/clientlibs/clientlib-site.min.fba4a0447032b10f99d591756b03727c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "currencyCode=USD;path=/;SameSite=None; Secure"
+          ]
+        }
+      ]
+    }
+  }
+}

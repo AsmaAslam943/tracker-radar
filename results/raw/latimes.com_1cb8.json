@@ -1,0 +1,2139 @@
+{
+  "initialUrl": "https://latimes.com/",
+  "finalUrl": "https://www.latimes.com/",
+  "timeout": false,
+  "testStarted": 1774992104494,
+  "testFinished": 1774992116838,
+  "data": {
+    "requests": [
+      {
+        "url": "https://latimes.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "76.223.88.230",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.latimes.com/",
+        "initiators": [],
+        "time": 0.16315299999951094
+      },
+      {
+        "url": "https://www.latimes.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 173901,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "max-age=60, stale-if-error=86400, stale-while-revalidate=15"
+        },
+        "responseBodyHash": "7696d9a5ac162abb1f5cf1253dcac46cb65b488c6f3212b61015a3c2f628e5ed",
+        "redirectedFrom": "https://latimes.com/",
+        "initiators": [],
+        "time": 0.290262000000439
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/styles-section.min.e4a1d181aed2f56a4c21f711afda63b9.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 12042,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"ff2123e8c6e5990b4a73c4bf6f125a15\""
+        },
+        "responseBodyHash": "73e84153d74bac8b2b2c689bd4057e454b6fe00c9a6fef45d2eafdd84f56bdd9",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.9716650000009395
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51674,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6220c82cfb089464ee868d85f792436d\""
+        },
+        "responseBodyHash": "6d9eb9c0aba176ab509c276e5026892e683df8b7ee045b2fd6b470d1343e161a",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 4.107144999999946
+      },
+      {
+        "url": "https://libs.platform.latimes.com/meteringjs/latspot.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39219,
+        "remoteIPAddress": "18.155.202.123",
+        "responseHeaders": {
+          "cache-control": "max-age=900, s-maxage=604800",
+          "etag": "W/\"249a1540f273a76b69f7c1c0a39f9d02\""
+        },
+        "responseBodyHash": "446d5439af27c5e6e9af7c623cfc600c2a5108d22178a27f9f6a22be17fb999b",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.96683800000028
+      },
+      {
+        "url": "https://libs.platform.latimes.com/reg/tribune/latspot.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38124,
+        "remoteIPAddress": "18.155.202.123",
+        "responseHeaders": {
+          "cache-control": "max-age=900, public, must-revalidate",
+          "etag": "7935492344201015746"
+        },
+        "responseBodyHash": "b36d40b946011a58a2e7119afc0e3e1daaf5060e2bbc5890a8838cf4a27e5f37",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.9789380000001984
+      },
+      {
+        "url": "https://cdn.confiant-integrations.net/GfBGK_P3Adzw1hvTTkQjebew6Z4/gpt_and_prebid/config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 67564,
+        "remoteIPAddress": "104.18.43.90",
+        "responseHeaders": {
+          "cache-control": "public, max-age=900, stale-while-revalidate=3600",
+          "etag": "\"b8bd2de6f10198ec2b4821cef26a3e75\""
+        },
+        "responseBodyHash": "6268659067accb144f18e0ef20929df5ea30a5fe36bf92ad950f285d94ae6f07",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 4.075409999999465
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34901,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "14 / 20543 / m202603240101 / config-hash: 15401705038150461854",
+          "expires": "Tue, 31 Mar 2026 21:21:50 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "928e1755f58099dd28d7e55ed535ee36686c45bf3a92132bfd3adbb437f7c530",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 4.0825129999993806
+      },
+      {
+        "url": "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 136864,
+        "remoteIPAddress": "104.18.35.13",
+        "responseHeaders": {
+          "cache-control": "public, max-age=900",
+          "etag": "\"0e3560713adcd0a169e360835a3250e1\"",
+          "expires": "Tue, 31 Mar 2026 21:36:50 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "33091b007de9cc843ff5e6cb490e162301bb2613a0572791d3ee5fab4f33f7f4",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 4.091978000000381
+      },
+      {
+        "url": "https://libs.platform.latimes.com/modalityjs/latest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3196,
+        "remoteIPAddress": "18.155.202.123",
+        "responseHeaders": {
+          "cache-control": "max-age=900",
+          "etag": "W/\"f591ed3c601205c9d7779af7abeec059\""
+        },
+        "responseBodyHash": "502770ce7c8b532132425b837704ca463e4888f5a4c91f9e8e7ba1edf35a7370",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.9773649999988265
+      },
+      {
+        "url": "https://libs.platform.latimes.com/newsletter-campaign-manager/latest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8333,
+        "remoteIPAddress": "18.155.202.123",
+        "responseHeaders": {
+          "cache-control": "max-age=900",
+          "etag": "W/\"44e8a8d9ed97d8aedada532e29e86f91\""
+        },
+        "responseBodyHash": "5f7533fe8a74aa71d5c9199c84ebf3b6dfc79f36ebc79fd8a0e8d932868e62a9",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.982442999998966
+      },
+      {
+        "url": "https://cdn.speedcurve.com/js/lux.js?id=20201913",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11547,
+        "remoteIPAddress": "151.101.42.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "expires": "Tue, 31 Mar 2026 22:01:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6ece51ec303b99568ac009066a1abd37b1e4bca2c429fc41a8fde8239bd3a516",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.9526940000014292
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 83351,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "W/\"4c583ae96aa01117a832adc65751aa76\""
+        },
+        "responseBodyHash": "b16abef7023c400777b345812c821d315f233660f840c84d95ebb9a7f5caff33",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 4.14794400000028
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/58ba951/2147483647/strip/true/crop/1615x1080+153+0/resize/320x214!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F15%2F35%2Fc400ad4547c4a96a45115da3eda4%2Flats-streaming-thumb-10-18-2024.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 97514,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "7551557919f20cd83af6dda973b779c2",
+          "expires": "Mon, 05 Oct 2026 17:14:56 GMT"
+        },
+        "responseBodyHash": "9541e07efb52c6961944538827a9f0c5e747b5872d7c40f2a18f478f711081bb",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 4.099537000000055
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/assets/icon-play-circle-outline-14x14-333333.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2559,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "c4f8404b2bf35e9a5ad44252d596bca4e2338cf2b5291ad95fb83ab355957633",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 0.04529499999989639
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/assets/ProximaNova-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 53072,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "eb40b3ac0068beecae60f8d9ff2316573371e921da8aab955d4b3752306473c2",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 0.0688929999996617
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/assets/ProximaNova-SemiBold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 52410,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "70604eb0e537968cba142dded1e7d05bbccd85dd79fbf4effe0f01bef8a2dbbc",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 0.07840899999973772
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/assets/BentonGothic-Medium.0af2a448f6d58f8dd85f039eba38b50f.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 14762,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"28ac691e5e6e27bbe25e29d7b864978b\""
+        },
+        "responseBodyHash": "dee216ff5e7dd6a72c1cab6f2fbce45356a2f392ed00f31d1690c3c3e96c675e",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.942988000000696
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/assets/BentonGothic-Bold.0173e1397f3e876c231fe162dd06864a.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 14607,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4e123dc0e3e9bebc896cda50ed712ecf\""
+        },
+        "responseBodyHash": "efb3b34f8c17694ed1990d7bb046bcea42bec809fbf60f15cd1f1afc107e09a2",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.9162780000006023
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/assets/KisFBDisplay-Bold.4046c096f268453d9b0ff36ff067feec.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32342,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"3439c2cbafcfb9062b3acf1de85736bb\""
+        },
+        "responseBodyHash": "10760c237d5332b48dc2e350c728bc38a782f783d17e0fc761573555847300ba",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.942725999999311
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/assets/BentonGothicCond-Black.296bb6689af9a44513ffcc30e4f20962.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 20147,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"405b0516acac76e8ac8ce9e90881483e\""
+        },
+        "responseBodyHash": "fd061857dd59a4a702adb96d15f2759b4e24a2db30639f67f0d0e5807ad949d3",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.942575000000943
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/e004b6e/2147483647/strip/true/crop/1200x1200+0+0/resize/568x568!/format/webp/quality/75/?url=https%3A%2F%2Fedition.pagesuite.com%2Fget_image.aspx%3Fnewportal%3Dtrue%26w%3D1200%26pbid%3D50435180-e58e-48b5-8e0c-236bf740270e%26date%3D1774990800000",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 61241,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "expires": "Wed, 31 Mar 2027 21:00:50 GMT"
+        },
+        "responseBodyHash": "64441527e643ce19814550f08f64093a46b1f5215292682736ad5454490ed962",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 4.02694800000063
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/1dd74ed/2147483647/strip/true/crop/4575x3050+113+0/resize/840x560!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7c%2Ff5%2Fdcf75209431aa7c499669b8dec8b%2F972289-me-colorado-river-project-phoenix01-ls.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 40521,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "ca6805f26862392c4710effaf0d26a45",
+          "expires": "Wed, 31 Mar 2027 14:13:01 GMT"
+        },
+        "responseBodyHash": "2a9a2d19d641e1293a9126ee6d09eca316e412052a7bf51aad0049ef0636263b",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.9406070000004547
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/582588a/2147483647/strip/true/crop/5777x3851+0+0/resize/320x213!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7e%2Fc5%2F7431feca4320a1e6f6b9da1a2c78%2Fec73bc2d60fc462bb0a0ce3c4e831cc4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13783,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "3e1bf28a2653980c5886ec66f481d25a",
+          "expires": "Wed, 31 Mar 2027 19:52:00 GMT"
+        },
+        "responseBodyHash": "f8f84af4e4aad28a5931aa139066e1d201a921412a9bda8498b8e2ef68d5550f",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.892948000000615
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/25f4e99/2147483647/strip/true/crop/1617x1078+0+61/resize/320x213!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F17%2Fa6%2Ffa233b054ad8b4ada26cc7707c51%2Framan-bass.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9555,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "1b0910b0c992b23f22d103acd1522a9b",
+          "expires": "Wed, 31 Mar 2027 00:35:01 GMT"
+        },
+        "responseBodyHash": "c4ddfcdb471a491bc4fd6d93ad87a7cf18e8303c5ba0be07acb59b5064591526",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.8839420000003884
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/66d973f/2147483647/strip/true/crop/8192x5461+0+1/resize/320x213!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3c%2F31%2Fd44672aa4957b9b085ed64423044%2F1541209-enviro-0319-armstrong-flight-research-center-gem-011.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14283,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "68166e282599a2850cd9dd56b783bf45",
+          "expires": "Wed, 31 Mar 2027 10:04:19 GMT"
+        },
+        "responseBodyHash": "ca978a31b2de9f30e3d1c49304b27ddb9723d6a2ae79164d2a707b74f6f52a9a",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.895013999999719
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/19b49ca/2147483647/strip/true/crop/5074x3383+0+0/resize/320x213!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fzbk%2Fdamlat_images%2FLA%2FLA_PHOTO_SELECTS%2F2018_02%2F3037729_la-me-pearl-fernandez.JPG",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5251,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "df0d31449209cba59bf72115fa7f7872",
+          "expires": "Wed, 31 Mar 2027 10:05:59 GMT"
+        },
+        "responseBodyHash": "d132a43c3e2e203ca891228945ffddfbbe284a14d8573641a3d8728716a6e7f8",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.872412999999142
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/e004334/2147483647/strip/true/crop/3000x2000+0+194/resize/320x213!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb9%2F0d%2F7e7f62024e82b040eb1f5ed177c9%2Fap505831190227.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16370,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "9b66a3d288f423f751af446108c38cb7",
+          "expires": "Wed, 31 Mar 2027 10:04:23 GMT"
+        },
+        "responseBodyHash": "06c2e1e02a89e2419cb864025b67628d3e3a6e24e017e4d263bf9a2867497127",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.8961959999996907
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/5977c5a/2147483647/strip/true/crop/6000x4000+0+0/resize/568x379!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F08%2F33%2F9a9eea6f4ca29a64d685cfb27932%2F1531801-me-1124-traffic-rcg-625.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36661,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "42c6bb5189079b231ba712c3bf17120f",
+          "expires": "Tue, 30 Mar 2027 00:08:51 GMT"
+        },
+        "responseBodyHash": "2d9f623f24112c4ae7914ee08772c028a8ac98b296bdd71808282108b74d2eb4",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.9151359999996203
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/5418b3f/2147483647/strip/true/crop/664x664+0+0/resize/180x180!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F97%2F51%2F505dec844854942c6adb6e8678f8%2Fl-a-times-app-logo-600x600.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4520,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "a32d2891c7bf6961c2b530c81105e409",
+          "expires": "Tue, 29 Sep 2026 03:59:48 GMT"
+        },
+        "responseBodyHash": "01855240428083a822d3843d66db4add430cec701cb27be17e505fbfd05679f3",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.8723879999997735
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/assets/BentonGothic-Regular.0c532721f81fc3dc5537f4f33e2023d8.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 14248,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"563755bdfd2fe14b90b3c3f6c44f5b6b\""
+        },
+        "responseBodyHash": "9c7d233f2384fad9af52485b915f9474b8a004ef15031539556434eb3b56fb8a",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 3.7223849999991216
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/assets/ProximaNova-CondensedBold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 53444,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "16c59bb961000c8172079e73a5ec29c0f1a0c489bb385bb9e1c0d6bc0f02d91b",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 0.05133399999976973
+      },
+      {
+        "url": "https://edge.platform.latimes.com/v1/personalize?meterKey=https%3A%2F%2Fwww.latimes.com%2F&productCode=latspot&contentType=homepage&paywallTier=metered&pxlId=177499210618995727942&exp=graphene_config-0000019c-d9b6-ddf9-ad9f-f9bf12420000%7Cru%3Asession-id%7Cco%3Aall",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1288,
+        "remoteIPAddress": "13.249.74.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "max-age=0",
+          "set-cookie": "c_sId=bcacbca4-6240-4418-a02f-15d8fbd051bb; Domain=platform.latimes.com; Path=/; Expires=Wed, 31 Mar 2027 21:21:50 GMT; HttpOnly; Secure"
+        },
+        "responseBodyHash": "ec4ba1e0b3fc298f87862e99ee2af61c619061af774cb922925ad93fe032c29b",
+        "initiators": [
+          "https://libs.platform.latimes.com/meteringjs/latspot.js"
+        ],
+        "time": 0.17349900000044727
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 186307,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=31536000",
+          "etag": "5499532569289001589",
+          "expires": "Wed, 31 Mar 2027 01:08:07 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e4de8744b151398d9ab17e65aeed7850e84ffabe31a71a465044ddb6fcf69ba",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        ],
+        "time": 0.13049099999989267
+      },
+      {
+        "url": "https://cdn.confiant-integrations.net/gptprebidnative/202601281034/wrap.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 145627,
+        "remoteIPAddress": "104.18.43.90",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e19c971ac3f78801b5317f4b95fc99da\""
+        },
+        "responseBodyHash": "e2694a5ae30050f7a87a8e644c70894ed0ad251efaa0f3fbd0ece28923760893",
+        "initiators": [
+          "https://cdn.confiant-integrations.net/GfBGK_P3Adzw1hvTTkQjebew6Z4/gpt_and_prebid/config.js"
+        ],
+        "time": 0.10443099999974947
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/serverComponent.php?namespace=CalTimes&staticJsPath=/caltimes/latimes/code/&ClientID=2715&PageID=https%3A%2F%2Fwww.latimes.com%2F%3FlatBspType%3Dhomepage&custDomain=activate.platform.californiatimes.com",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1355,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache\nno-store",
+          "expires": "Tue, 31 Mar 2026 21:21:50 GMT"
+        },
+        "responseBodyHash": "6798efc921fc68952e8da94e6465cc337a78756490e697caedc1982a1e1dd80b",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.48286799999914365
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/privacy/v1/b/b.rnc?n=0&c=2715&i=5m6j7u&p=latimes&s=350&d=8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI1bTZqN3UiLCJwYWNrZXQiOjAsIm1vZGUiOiJlbmZvcmNlWgDwF29va2llcyI6e30sImVudmlyb25tZW50Ijoibm9uRVUiLCJkb2N1EwDyFFJlZmVycmVyIjoiIiwicmVxdWVzdHMiOlt7ImRlc3RpbmF0ygDwGSIsInR5cGUiOiJiaWxsaW5nIiwic3RhcnQiOjE3NzQ5OTIxMTEyMzhxAMBkIjotMSwic291cmMyAAIrADR0dXNmAEBhc29uZQDUXSwiZGF0YVBhdHRlchIAwmxpc3QiOltdLCJpZF0AwDk5MjExMTIzOH1dfQ",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 106,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "no-cache\nno-store",
+          "expires": "Tue, 31 Mar 2026 21:21:50 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.077701000000161
+      },
+      {
+        "url": "blob:https://www.latimes.com/54783e34-d419-4529-b0a2-f5d8b93fdd42",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "b8c7e01bfa2acbb1e05a7579007f8aafc593ff2be79c8c04f778a08665a72db9",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 0.4026610000000801
+      },
+      {
+        "url": "blob:https://www.latimes.com/cc4dabbb-01c0-4adb-82aa-5b803fe0680a",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "a5e91fd20654630a30361dc94d7bce07f3b1f9f6ce88d7db0dff883a44513359",
+        "initiators": [
+          "https://cdn.confiant-integrations.net/gptprebidnative/202601281034/wrap.js",
+          "https://cdn.confiant-integrations.net/GfBGK_P3Adzw1hvTTkQjebew6Z4/gpt_and_prebid/config.js"
+        ],
+        "time": 0.0007789999999658903
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/66/dc/917df586414785989c0371fbf0aa/logo-full-black-min.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10680,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"55578fedb5257a9c6947e7d85b235675\""
+        },
+        "responseBodyHash": "c89ecf387efd3401ae449fe291ac66c96436e771ef7fcb69d6e6844af3e21247",
+        "initiators": [
+          "https://www.latimes.com/"
+        ],
+        "time": 0.01278200000160723
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/8250-d5c05034.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 223598,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "c57514c27bb366f569df1017cba47b34f00779e86ebb2e8079869e3500d3e24e",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js"
+        ],
+        "time": 0.05665199999930337
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/5240-9d4cac60.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6730,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "b7959f5989cdbb82d52d7e70a5388202914941de25d6d48ac62c3df2592286d7",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js"
+        ],
+        "time": 0.0170429999998305
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/gvp-61667334.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9527,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "896261fbadb51a7b824259e29851b23a12cc2aa2025905861045855ce833c753",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js"
+        ],
+        "time": 0.023800999999366468
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/grapheneCarousels-035d4b89.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3893,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "d337ff2246c68a1b2f291ed68debf14463d944c90865d20e77c8eb6456a467f9",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js"
+        ],
+        "time": 0.015188999999736552
+      },
+      {
+        "url": "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.prmutv.co/v2.0/pxid?k=5d77544a-6fe3-4644-bf31-bccb6eef1a61",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 360,
+        "remoteIPAddress": "35.241.9.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "set-cookie": "pxid=553fbf00-52de-4221-91f6-c820dc5b6ce5; Expires=Tue, 30 Jun 2026 21:21:51 GMT; Domain=68547f8f-2fd8-4ff3-9b63-51e86e2edee8.prmutv.co; Path=/; SameSite=None; Secure; HttpOnly"
+        },
+        "responseBodyHash": "0edcebd3f015615331fdce02a70880d00bb96efcd891d482f728891dbe1d9afe",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js"
+        ],
+        "time": 0.255486000000019
+      },
+      {
+        "url": "https://ib.adnxs.com/getuidj?gdpr=0",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 576,
+        "remoteIPAddress": "104.254.151.60",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "31b45c462302ac175bfa43f9e5591491db780ca094f6ecdd2907f25ad578448d",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js"
+        ],
+        "time": 0.09172199999920849
+      },
+      {
+        "url": "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/styles-gvp.min.0ec7c308a69efe89a44eddaadf79be93.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 16819,
+        "remoteIPAddress": "3.169.183.38",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"a3938a3ab9a35f7acc32ff1bfe163b74\""
+        },
+        "responseBodyHash": "1a77e89bb4a100324ba90c3912df2cfd7a66c28e981055d1210fc3f471a607b7",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js",
+          "https://libs.platform.latimes.com/modalityjs/latest.js",
+          "https://libs.platform.latimes.com/meteringjs/latspot.js",
+          "https://libs.platform.latimes.com/reg/tribune/latspot.min.js"
+        ],
+        "time": 0.015531999999438995
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/watson?k=5d77544a-6fe3-4644-bf31-bccb6eef1a61",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1232,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com"
+        },
+        "responseBodyHash": "bb56a14d167e556c808fd18f110df0c37897f03f4149d81402d2c3e193c75980",
+        "initiators": [
+          "blob:https://www.latimes.com/54783e34-d419-4529-b0a2-f5d8b93fdd42"
+        ],
+        "time": 0.295696000001044
+      },
+      {
+        "url": "https://api.permutive.com/ctx/v1/state?url=https%3A%2F%2Fwww.latimes.com&k=5d77544a-6fe3-4644-bf31-bccb6eef1a61",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 198,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600, immutable, stale-if-error=86400"
+        },
+        "responseBodyHash": "bf8befee8131f88467de159b2c0607e65c4933eb6931c64829d855d89d7a3d66",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js"
+        ],
+        "time": 0.28663800000140327
+      },
+      {
+        "url": "https://www.latimes.com/api/v1/video?id=00000192-788e-ddaa-a39a-7abfc6b30000",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 615,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=15"
+        },
+        "responseBodyHash": "390bcba14b20f7e38da089808cf9faf69739fe7bc38dd861acb73d0bd15013de",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://www.latimes.com/styleguide/gvp-61667334.bundle.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js"
+        ],
+        "time": 0.1539730000004056
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/geoip?include=geo&include=isp&include=ip_hash&k=5d77544a-6fe3-4644-bf31-bccb6eef1a61",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 392,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com"
+        },
+        "responseBodyHash": "be10ddd4b56c39526ad8be60c5cca0d81bffab1ad8c79b8c411885f667b8f247",
+        "initiators": [
+          "blob:https://www.latimes.com/54783e34-d419-4529-b0a2-f5d8b93fdd42"
+        ],
+        "time": 0.23191899999983434
+      },
+      {
+        "url": "https://cdn.permutive.com/models/v2/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-models.bin",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 15094,
+        "remoteIPAddress": "104.17.108.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=900, no-transform",
+          "etag": "\"1c92cdeb75383c0c53f0df655cd8b5e2\"",
+          "expires": "Tue, 31 Mar 2026 20:59:36 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c04a45e9386f773e438ad1d6496342f16100e269bcbf79d5063ffcb7c5287841",
+        "initiators": [
+          "blob:https://www.latimes.com/54783e34-d419-4529-b0a2-f5d8b93fdd42"
+        ],
+        "time": 0.09581599999910395
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/identify?k=5d77544a-6fe3-4644-bf31-bccb6eef1a61",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 230,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com"
+        },
+        "responseBodyHash": "7c5855799264afc7a3cc006e54ad6aa4ee2b0caa607670adf0c35cf75057e143",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js"
+        ],
+        "time": 0.30180299999847193
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=dbegppc&ttd_tpi=1&ttd_puid=5d77544a-6fe3-4644-bf31-bccb6eef1a61,de685368-4875-4868-9b1b-4c70ccc18d08&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "35.71.131.137",
+        "responseHeaders": {
+          "set-cookie": "TDID=13d061b8-99f4-4403-a8d2-fce23b6cfbd0; expires=Wed, 31 Mar 2027 21:21:52 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAEYBSgCMgsIpJWAocjdhz8QBTgB; expires=Wed, 31 Mar 2027 21:21:52 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=dbegppc&ttd_tpi=1&ttd_puid=5d77544a-6fe3-4644-bf31-bccb6eef1a61,de685368-4875-4868-9b1b-4c70ccc18d08&gdpr=0",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js"
+        ],
+        "time": 0.11151299999983166
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/25071cf7a5575dcc9563c2de75955ff2.js?conditionId0=4849544",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9805,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"62e1a1b31d38d2615b70122e97a5db02\""
+        },
+        "responseBodyHash": "663a4508c9a3943cea9117678a4b9dfa2b9aae6ad4b191c9ea435c0ab2ae7f15",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.02923000000009779
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/03b33a4cf60d2472bc956ebd57bd6556.js?conditionId0=4849974",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2946,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"2da895e33b65bb81babbfa691a8733bb\""
+        },
+        "responseBodyHash": "50a9ae413db46a1cead65b23f6cb9e5e579d63a8b95386c789d04de4c060886e",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.018000000000029104
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/d5bf510d58d0bdcfbba2dbc8d1d85267.js?conditionId0=4853386",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1031,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"376388de32900e6bfd6e34f376124992\""
+        },
+        "responseBodyHash": "e91ae2c4271b148eab747ff04000a67ffad04a4bfb4a8be7bff5c2168e9b6862",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.027002000000720727
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/40bbbe93565cebd84e7c927bb40e2aa0.js?conditionId0=4853389&conditionId1=4863749",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1196,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"2a55fcacbe282e3052686d0520a2f2f4\""
+        },
+        "responseBodyHash": "609d96bfd8cb1929777e655138126c753c2fd3b2372f4e794260b5a86c3e2918",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.023117000000638654
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/2dd3415265e9e427b9265f28d23a32c5.js?conditionId0=4853390&conditionId1=4853391",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 806,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"2bae10ff520f255f0f00163c87613a54\""
+        },
+        "responseBodyHash": "508a2bd47e11f8bcdc7108070a6a09c4036f324bfe8b1257491c8199771604d8",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.023312999999689055
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/04b82cfda86af862fc24586cf1b1864f.js?conditionId0=4864511",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1144,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"1ef82bb4aa515f48339765e47ac6162c\""
+        },
+        "responseBodyHash": "5d93a3c8e6a99e038a8c4a42f4fbad5632176c5618ec044f6b8a1c6e013fa585",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.02842899999996007
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/74bcf7e6336050b1affb4601464acec0.js?conditionId0=4973111",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1034,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"f9aeee3a58f4ec8ab8d5f0544d1dd293\""
+        },
+        "responseBodyHash": "fc5dc9689df7338afc2728f01a69641ffa3275d5c5e89011f36df9a3952f5a09",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.02803200000016659
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/eb4ccd6a8c8f3a0cd5c43cd28e981343.js?conditionId0=4853386",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1315,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"4a7aeeddbe3ec9fea5fc6e473471e182\""
+        },
+        "responseBodyHash": "f11601cdac1192e1ac7a17c666da00dafedc972b263524a1bdd4531d189c2ff4",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.022484999999505817
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/9825c1e9a08227dca875b120f3f57bf9.js?conditionId0=4952276",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1033,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"8e202d6dca4e8602face6c0a4f019917\""
+        },
+        "responseBodyHash": "ee5b55f1cc283fb8d742c728b7e085f087486d01826f49f41c3ea435f34adb69",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.027905000000828295
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/1c54541579631c10013615d3fa445c34.js?conditionId0=4853390&conditionId1=4853391",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1376,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"b370eaf0b9f0b06ca08d7f62332e14fa\""
+        },
+        "responseBodyHash": "61879d04b5a73d9d32b0bfe353af0c0283952813626686417e8f9b8462029a13",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.027996999999231775
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/428455119018089028c208b8aedbcdcc.js?conditionId0=4973080&conditionId1=4911260&conditionId2=4973111",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1641,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"78f1779f4e0cb2a50d69acad4b35e620\""
+        },
+        "responseBodyHash": "92fd61b1e6937ccf077624005989d132509883da31c3620e46ef3c16de44545d",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.029179999999541906
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/a001b93526ef109b05dc489934abcdd2.js?conditionId0=4864511",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1247,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"635dd88f28e4569ff4575d4062ebff29\""
+        },
+        "responseBodyHash": "3c684a2b5da0360403fd888876496e6a2630c8996d4c8612d2c06c05f500299a",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.02728899999965506
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/3bf1614dbea7f3f88d32c61ff567c198.js?conditionId0=4853389&conditionId1=4863749",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2965,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"b114b8d0103dfe697a838dca94b5383c\""
+        },
+        "responseBodyHash": "3b10ab6a430a2d63f2928cb228b54610be15f8cc70af0a2d16dd6bc80472e159",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.028168999999252264
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12967,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"6dc95c28bc9bd44892ac2cb758b58a0f\""
+        },
+        "responseBodyHash": "b36750f204060a486f1888644768bf6fb7b917063aa4750e927950ee0c818832",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.031062000000019907
+      },
+      {
+        "url": "https://www.latimes.com/favicon-16x16.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 607,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "max-age=180, stale-if-error=86400, stale-while-revalidate=60\ns-maxage=31536000"
+        },
+        "responseBodyHash": "456dbe4943dc11e270aa39f850670ba964331e8603cfd8f96c4a02813aa5adf0",
+        "initiators": [],
+        "time": 0.012514000000010128
+      },
+      {
+        "url": "https://www.latimes.com/favicon-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 844,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "max-age=180, stale-if-error=86400, stale-while-revalidate=60\ns-maxage=31536000"
+        },
+        "responseBodyHash": "e019be11b4c74192744ce0d07666d3509d1534d3056d81cbdffebfcd3d63c54c",
+        "initiators": [],
+        "time": 0.018525000001318404
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=6036462&ns__t=Tue%20Mar%2031%202026%2014:21:52%20GMT-0700%20(Pacific%20Daylight%20Time)&ns_c=UTF-8&c8=News%20from%20California%2C%20across%20the%20nation%20and%20world%20-%20Los%20Angeles%20Times&c7=https%3A%2F%2Fwww.latimes.com%2F&c9=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "18.155.192.33",
+        "responseHeaders": {
+          "accept-ch": "UA, Platform, Arch, Model, Mobile",
+          "set-cookie": "UID=10B64fc7733a9d6e350f8131774992112; SameSite=None; Secure; domain=.scorecardresearch.com; path=/; max-age=33696000\nXID=10B64fc7733a9d6e350f8131774992112; SameSite=None; Secure; Partitioned; domain=.scorecardresearch.com; path=/; max-age=33696000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://sb.scorecardresearch.com/b2?c1=2&c2=6036462&ns__t=Tue%20Mar%2031%202026%2014:21:52%20GMT-0700%20(Pacific%20Daylight%20Time)&ns_c=UTF-8&c8=News%20from%20California%2C%20across%20the%20nation%20and%20world%20-%20Los%20Angeles%20Times&c7=https%3A%2F%2Fwww.latimes.com%2F&c9=",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.043945999999777996
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/c2/6036462/cs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "18.155.192.33",
+        "responseHeaders": {
+          "accept-ch": "UA, Platform, Arch, Model, Mobile"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://sb.scorecardresearch.com/internal-c2/default/cs.js",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.042105000000447035
+      },
+      {
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10380,
+        "remoteIPAddress": "65.8.176.2",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "W/\"68116b61-5f1c\"",
+          "expires": "Wed, 01 Apr 2026 16:25:37 GMT"
+        },
+        "responseBodyHash": "ff324391dadd9368323fc2bbd7d5e235bd12f864f35e0310f586538ca119d4ab",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.012727999999697204
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FB5D97VJNM&l=adsData",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 174206,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:21:52 GMT"
+        },
+        "responseBodyHash": "dffd7978f56e85f38374c6b60958aec49d9b38692b6877af0126609595ce3a18",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.2274889999989682
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=dbegppc&ttd_tpi=1&ttd_puid=5d77544a-6fe3-4644-bf31-bccb6eef1a61,de685368-4875-4868-9b1b-4c70ccc18d08&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "35.71.131.137",
+        "responseHeaders": {
+          "set-cookie": "TDID=13d061b8-99f4-4403-a8d2-fce23b6cfbd0; expires=Wed, 31 Mar 2027 21:21:52 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAEYBSABKAIyCwiklYChyN2HPxAFOAE.; expires=Wed, 31 Mar 2027 21:21:52 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://api.permutive.com/v2.0/px/sync?ku=5d77544a-6fe3-4644-bf31-bccb6eef1a61,de685368-4875-4868-9b1b-4c70ccc18d08&alias=13d061b8-99f4-4403-a8d2-fce23b6cfbd0&type=tradedesk",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=dbegppc&ttd_tpi=1&ttd_puid=5d77544a-6fe3-4644-bf31-bccb6eef1a61,de685368-4875-4868-9b1b-4c70ccc18d08&gdpr=0",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js"
+        ],
+        "time": 0.03194199999961711
+      },
+      {
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=latimes.com&domain=latimes.com&path=%2F",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1715,
+        "remoteIPAddress": "151.101.42.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0, s-maxage=0",
+          "expires": "Sun, 29 Mar 2026 21:21:53 GMT"
+        },
+        "responseBodyHash": "bfa6c7e65f74f06ee4fd0083883a2acad887961add9bc6a8cc9d18eca3775173",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.9816179999997985
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=6036462&ns__t=Tue%20Mar%2031%202026%2014:21:52%20GMT-0700%20(Pacific%20Daylight%20Time)&ns_c=UTF-8&c8=News%20from%20California%2C%20across%20the%20nation%20and%20world%20-%20Los%20Angeles%20Times&c7=https%3A%2F%2Fwww.latimes.com%2F&c9=",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 224,
+        "remoteIPAddress": "18.155.192.33",
+        "responseHeaders": {
+          "accept-ch": "UA, Platform, Arch, Model, Mobile"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://sb.scorecardresearch.com/b?c1=2&c2=6036462&ns__t=Tue%20Mar%2031%202026%2014:21:52%20GMT-0700%20(Pacific%20Daylight%20Time)&ns_c=UTF-8&c8=News%20from%20California%2C%20across%20the%20nation%20and%20world%20-%20Los%20Angeles%20Times&c7=https%3A%2F%2Fwww.latimes.com%2F&c9=",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.013773000000583124
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/internal-c2/default/cs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 376,
+        "remoteIPAddress": "18.155.192.33",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"d41d8cd98f00b204e9800998ecf8427e\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://sb.scorecardresearch.com/c2/6036462/cs.js",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.013273999999000807
+      },
+      {
+        "url": "https://www.latimes.com/styleguide/airship-24aa4c0f.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2365,
+        "remoteIPAddress": "18.238.192.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629800"
+        },
+        "responseBodyHash": "4d3eb446adf8697b815d0915bd4c8ed2e905f3837c9f009a5cb540a18ffe06ed",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js"
+        ],
+        "time": 0.017334000000118976
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202603310101/gpt",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 23650,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=604800, stale-while-revalidate=7200",
+          "etag": "562959975875977607",
+          "expires": "Tue, 07 Apr 2026 15:01:47 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "606dfeebc6423cbaba3c047b35b1837816b81ebcd40b3cf0a730baca25512741",
+        "initiators": [],
+        "time": 0.03790900000058173
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/px/sync?ku=5d77544a-6fe3-4644-bf31-bccb6eef1a61,de685368-4875-4868-9b1b-4c70ccc18d08&alias=13d061b8-99f4-4403-a8d2-fce23b6cfbd0&type=tradedesk",
+        "method": "GET",
+        "type": "Image",
+        "status": 201,
+        "size": 99,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {},
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=dbegppc&ttd_tpi=1&ttd_puid=5d77544a-6fe3-4644-bf31-bccb6eef1a61,de685368-4875-4868-9b1b-4c70ccc18d08&gdpr=0",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js"
+        ],
+        "time": 0.16313700000137032
+      },
+      {
+        "url": "https://aswpsdkus.com/notify/v1/ua-sdk.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41497,
+        "remoteIPAddress": "34.160.158.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300,no-transform",
+          "etag": "\"2a9997ccd5eb31af22685ef66ebefd56\"",
+          "expires": "Tue, 31 Mar 2026 21:26:22 GMT"
+        },
+        "responseBodyHash": "68fa7e5e3a567af4f9ea5cd87c69dd5366b19525651ad20acfce6237393b7676",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://www.latimes.com/",
+          "https://www.latimes.com/styleguide/airship-24aa4c0f.bundle.js",
+          "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js"
+        ],
+        "time": 0.19543200000043726
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-FB5D97VJNM&gtm=45je63u0v886784429za200zd886784429&_p=1774992112169&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dNjQwYj&cid=866633661.1774992112&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAGA&_s=1&tag_exp=0~115616986~115938465~115938468~116991816~117266401&sid=1774992112&sct=1&seg=0&dl=https%3A%2F%2Fwww.latimes.com%2F&dt=News%20from%20California%2C%20across%20the%20nation%20and%20world%20-%20Los%20Angeles%20Times&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.content_pathname=homepage&ep.content_type=homepage&ep.media_cms_id=0000019d-4117-d364-a7df-45bf15830000&ep.parent_cms_id=00000178-a8bc-df17-ab79-aebdac5d0046&ep.paywall_tier=metered&ep.platform=22&ep.publish_date=04-06-2021%2012%3A57&ep.pxlid=177499210618995727942&ep.sectionFullPath=homepage&up.c_rdp=0&up.signed_in_status=signed-out&up.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F135.0.0.0%20Safari%2F537.36&tfd=6769",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "216.239.34.181",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://www.googletagmanager.com/gtag/js?id=G-FB5D97VJNM&l=adsData",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.1184610000000248
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-FB5D97VJNM&cid=866633661.1774992112&gtm=45je63u0v886784429za200zd886784429&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115616986~115938465~115938468~116991816~117266401",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 558,
+        "remoteIPAddress": "74.125.137.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.latimes.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://www.googletagmanager.com/gtag/js?id=G-FB5D97VJNM&l=adsData",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.13846100000046135
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/privacy/v1/b/b.rnc?n=1&c=2715&i=5m6j7u&p=latimes&s=7487&d=8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI1bTZqN3UiLCJwYWNrZXQiOjEsIm1vZGUiOiJlbmZvcmNlWgDyKG9va2llcyI6e30sImVudmlyb25tZW50Ijoibm9uRVUiLCJyZXF1ZXN0cyI6W3siZGVzdGluYXS0APBsaHR0cHM6Ly82ODU0N2Y4Zi0yZmQ4LTRmZjMtOWI2My01MWU4NmUyZWRlZTgucHJtdXR2LmNvL3YyLjAvcHhpZD9rPTVkNzc1NDRhLTZmZTMtNDY0NC1iZjMxLWJjY2I2ZWVmMWE2MSIsInR5cGUiOiJ4aHIiLCJzdGFy0ADANzc0OTkyMTExNTgwvgBKZCI6MRQAUHNvdXJjOQDBWEhSX01BTkFHRVIiQQDRdHVzIjoiYWxsb3dlZOYAQGFzb27lANRdLCJkYXRhUGF0dGVyEgCzbGlzdCI6W10sImlmAL84MTYzNTc2Mjl9LBcB_x3wC2liLmFkbnhzLmNvbS9nZXR1aWRqP2dkcHI9AAMfdOoBDB8y6gEAPzIsIuoBR683MDQyOTY3MzU16gEHD9MAwGBhcGkucGW0AzFpdmWrAfECY3R4L3YxL3N0YXRlP3VybD3_A-IlM0ElMkYlMkZ3d3cubIsEAC8AHybcAzQ9OTE58gEBFAAP8gFHrzM2ODQxNzg0MTLyAQcPHwH_HwH1BZ9pZGVudGlmeT8dAjNMMjA4Nh0CAhQADx0CR480OTQ0ODg5OR0CGw_-ANnwJG1hdGNoLmFkc3J2ci5vcmcvdHJhY2svY21mL2dlbmVyaWM_dHRkX3BpZD1kYmVncHBjJhAAUXRwaT0xCgBfcHVpZD0ZCBH8FyxkZTY4NTM2OC00ODc1LTQ4NjgtOWIxYi00YzcwY2NjMThkMDgmWwYyaW1nBAgYckUITzIwODhMAgAXOFsG8QJpbWdfRE9NQXR0ck1vZGlmaToIABAFD00ILK82MDk5NzQ4OTE3cQQH8AVzYi5zY29yZWNhcmRyZXNlYXJjaGgF8ZAvYj9jMT0yJmMyPTYwMzY0NjImbnNfX3Q9VHVlJTIwTWFyJTIwMzElMjAyMDI2JTIwMTQ6MjE6NTIlMjBHTVQtMDcwMCUyMChQYWNpZmljJTIwRGF5bGlnaHQlMjBUaW1lKSZuc19jPVVURi04JmM4PU5ld3MlMjBmcm9tJTIwQ2FsaWZvcm5pYSUyQyUyMGFjcm9zcyUyMHRoZSUyMG4rCtAlMjBhbmQlMjB3b3JsCADwAS0lMjBMb3MlMjBBbmdlbGUKAABsAE9zJmM3VwYLdiUyRiZjOT0TCg_OAQQuMTXOAQEUAAUaBA_OAUavNTI2Mjc4NDcxNM4BIDNjMi_HAWYvY3MuanPpAG9zY3JpcHS6AgEvMTbsAAAAFAAF7AACPAAPvQJDnzI4OTE0MzA3Ne8ACfEAdGF0aWMuY2hhcnRiZWF0uQI1anMvEQBPX21hYu4AFR037QsgMjEUAA_uAFKvNjQxNTgzNTUzMd0BBwDMAAXaAAHrAPEIbWFiX3N0cmF0ZWd5L2hlYWRsaW5lX3RNDRBnBAsGHgBoP2hvc3Q9SQlpZG9tYWluEwCGcGF0aD0lMkYeAg8aDQM-MjIwIQcBFAAFLQEPGg0-nzM3MjY3MjQwODALCAA0BQ8QAkkK4wAgbXV_AsJvbk9ic2VydmVyQ0xGAwIEDj9sb2EBDiEPCQKeHTfeBjcyMDfeBg8JAkcfNisDBw_WBgYPCAU1NzIyNOQADwoCQg8BBRIPvgf_HR82twQAD8oBChhB0wNAZXJybykSL3Jl1REbBLoHHzL5DQlyc3dwc2Rrdb8QIG5vzwwAFw-vdWEtc2RrLm1pbsgGFC0yM8sQETIUAAWbBQ-2B0mvNDY5ODEyMTg3OJ0DBw_JC7g_Mzk1BwQICT0CDxAGJQ_ECxDyAGFuYWx5dGljcy5nb29nbFcR9S1nL2NvbGxlY3Q_dj0yJnRpZD1HLUZCNUQ5N1ZKTk0mZ3RtPTQ1amU2M3Uwdjg4Njc4NDQyOXphMjAwemQQAEUmX3A9_BTyBDIxNjkmX2dhej0xJmdjZD0xM2wCAMAxbDEmbnBhPTAmZG0GACBnZIQN9gZOalF3WWomY2lkPTg2NjYzMzY2MS5NAPAOJnVsPWVuLXVzJnNyPTgwMHg2MDAmdWFhPSZ1YWIFADBmdmwHADBtYj0YABBtDAARcAUAEHYGAPASdz0wJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9ldT1BAQBQR0EmX3P-DfADYWdfZXhwPTB-MTE1NjE2OTg2CgBlOTM4NDY1CgCgOH4xMTY5OTE4MR4AtzcyNjY0MDEmc2lkAwGgJnNjdD0xJnNlZ-4AD6wSDABVDD9kdD3aDEvwB2VuPXBhZ2VfdmlldyZfZnY9MSZfbnP0DiBfc_wAIF9lJQGwZXAuY29udGVudF_lCZBuYW1lPWhvbWU7ABcmHQAAJxUJGQDgbWVkaWFfY21zX2lkPTABAPAIMTlkLTQxMTctZDM2NC1hN2RmLTQ1YmbACgAfAABOADBwYXJqAAk2APIPNzgtYThiYy1kZjE3LWFiNzktYWViZGFjNWQwMDQ2NgDxA3l3YWxsX3RpZXI9bWV0ZXJlZBgAoWxhdGZvcm09MjIPAAKmGPAAX2RhdGU9MDQtMDYtMjAyig5xMTIlM0E1NyUAJ3hsuAHBMDYxODk5NTcyNzk0RAAwc2VjbBhARnVsbO4YBvIAgHVwLmNfcmRwdALAcC5zaWduZWRfaW5fWgoydXM9EQDxEC1vdXQmdXAudXNlcl9hZ2VudD1Nb3ppbGxhJTJGNS74DvEFTWFjaW50b3NoJTNCJTIwSW50ZWw4D6BjJTIwT1MlMjBYNQ9wMF8xNV83KbIOoHBwbGVXZWJLaXRGAEAzNy4zVw9iKEtIVE1MBQ8wbGlrfA9QR2Vja28zAMBDaHJvbWUlMkYxMzXnGQF6AGVTYWZhcmlDAJYmdGZkPTY3NjnUC1JmZXRjaNgGCqsQHzT3EgABFAAFOwZfRkVUQ0jyGDufMzQ0Mzk5Nzg3-gwIAH4B_wVzLmcuZG91YmxlY2xpY2submV0L-QEDA97BAYP_QQUVGFpcD0x1AQP8QQDAn0EH3RgBCcGlwGvc2VuZEJlYWNvbpwBAw5pCyg0OGkLr1NFTkRCRUFDT06hATyPMDQxMjUwNji-CGU_NTAxZQcID3YNMtA0Njk4MTIxODc4fV19",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 106,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "no-cache\nno-store",
+          "expires": "Tue, 31 Mar 2026 21:21:51 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.012231000000610948
+      },
+      {
+        "url": "https://static.chartbeat.com/js/subscriptions.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11080,
+        "remoteIPAddress": "65.8.176.2",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "W/\"67c9b5f6-81f0\"",
+          "expires": "Wed, 01 Apr 2026 17:32:22 GMT"
+        },
+        "responseBodyHash": "a1c9a21ede44774a26110c312c2c5398e074132f6e243011c15b4bfd660702ab",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.011406999999962864
+      },
+      {
+        "url": "https://activate.latimes.com/pc/caltimes/?pulse2002=https%3A%2F%2Fwww.latimes.com%2F&pulse2004=www.latimes.com&pulse2005=latimes&pulse2006=homepage&pulse2009=&pulse2010=homepage&pulse2011=home&pulse2012=News%20from%20California%20across%20the%20nation%20and%20world%20%20%20Los%20Angeles%20Times&pulse2013=22&pulse2020=&pulse2021=home&pulse2022=&pulse2023=&pulse2024=&pulse2027=&pulse2035=signed-out&pulse2037=&pulse2039=800x600&pulse2043=undefined&pulse2044=&pulse2088=&pulse2127=%20&pulse2131=00000178-a8bc-df17-ab79-aebdac5d0046&pulse2133=&pulse2134=undefined&pulse2135=&pulse2136=undefined&pulse2137=04-06-2021%2012%3A57&pulse2141=&pulse2147=&pulse2148=&pulse2151=&pulse2158=0000019d-4117-d364-a7df-45bf15830000&pulse2159=undefined&pulse2166=&pulse2168=%20&pulse2170=&pulse2172=&pulse2175=undefined&pulse2285=&pulse2290=undefined&pulse2296=graphene_config-0000019c-d9b6-ddf9-ad9f-f9bf12420000%3A0000019c-d9b6-d3e7-abbe-dfb6c9d90000&pulse2297=&pulse2298=&pulse2302=00000192-06a5-d158-a997-7fad0c520005%3A00000187-a450-d4b0-a1e7-bff07b3d0002%2C0000019c-d9b5-ddf9-ad9f-f9bf8e1d0005%3A00000192-b562-dc88-abfe-fdfaaac10002%2C0000019c-d9b9-d3e7-abbe-dfb9f3420005%3A00000196-9148-de81-af96-db48631b000c%2C0000019c-d9bb-ddf9-ad9f-f9bf5dd40005%3A00000198-99bc-dd0c-a19d-9dbe0e3b0003%2C0000019c-d9bc-dcaa-a39e-ffbc64640005%3A00000198-99bd-dd0c-a19d-9dbf6f650003%2C0000019c-d9be-d93d-abbe-fbbea5340005%3A00000195-ecec-db62-a9bd-ffece8c80002%2C0000019c-d9bd-ddf9-ad9f-f9bf4ebf0005%3A00000198-99bd-dfa7-a5df-99bdb8b00003&pulse2303=bcacbca4-6240-4418-a02f-15d8fbd051bb&pulse2304=%20&pulse2310=&pulse2312=&pulse2313=&pulse2314=undefined&pulse2315=&pulse2316=&pulse2319=0&pulse2323=&pulse2324=&pulse2326=&pulse2327=true&pulse2328=&pulse2330=&pxlid=177499210618995727942&pbrd=1&pch=4&pcid=&c_rdp=0&pei=2",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 442,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "uuid=795f6ba2-e311-4ec4-aca6-bab4d2283d0e; path=/; domain=.latimes.com; secure; Max-Age=157680000; Expires=Sun, 30-Mar-2031 21:21:53 GMT; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.0897160000004078
+      },
+      {
+        "url": "https://static.chartbeat.com/js/chartbeat.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16247,
+        "remoteIPAddress": "65.8.176.2",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "W/\"6865c989-9de2\"",
+          "expires": "Tue, 31 Mar 2026 22:55:31 GMT"
+        },
+        "responseBodyHash": "9b1c68218c55b0ea3780899550196ab68e7d9de1025a2a6c12c19dd0695302fe",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.012144000000262167
+      },
+      {
+        "url": "https://mabping.chartbeat.net/ping/mab?h=latimes.com&p=%2F&d=latimes.com&u=B-N4k3BbYXBBWSUN&c=0&V=150&x=QTpNIbWxVtzip&v=A&ml=m&sl=CtxFKz,Cr04DD&e=-1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 200,
+        "remoteIPAddress": "3.90.76.112",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://static.chartbeat.com/js/chartbeat.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.08464099999946484
+      },
+      {
+        "url": "https://mabping.chartbeat.net/ping/mab?h=latimes.com&p=%2F&d=latimes.com&u=B-N4k3BbYXBBWSUN&c=0&V=150&x=Op378RL8SO1oF&v=A&ml=m&sl=DN6m_L&e=-1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 200,
+        "remoteIPAddress": "3.90.76.112",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://static.chartbeat.com/js/chartbeat.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.08412200000020675
+      },
+      {
+        "url": "https://mabping.chartbeat.net/ping/mab?h=latimes.com&p=%2F&d=latimes.com&u=B-N4k3BbYXBBWSUN&c=0&V=150&x=CvOPN6bOukr7O&v=A&ml=m&sl=D31n_V&e=-1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 200,
+        "remoteIPAddress": "3.90.76.112",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://static.chartbeat.com/js/chartbeat.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.08426599999984319
+      },
+      {
+        "url": "https://mabping.chartbeat.net/ping/mab?h=latimes.com&p=%2F&d=latimes.com&u=B-N4k3BbYXBBWSUN&c=0&V=150&x=KyGdxUoTfe3c4&v=B&ml=m&sl=C0P5j7&e=-1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 200,
+        "remoteIPAddress": "3.90.76.112",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://static.chartbeat.com/js/chartbeat.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.08374699999876611
+      },
+      {
+        "url": "https://ping.chartbeat.net/ping?h=latimes.com&p=%2F&u=B-N4k3BbYXBBWSUN&d=latimes.com&g=3908&g0=homepage&g1=No%20Author&g4=home&n=1&f=00001&c=0&x=0&m=0&y=15199&o=1440&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.latimes.com%2F&b=6363&_s=%7B%22l%22%3A%22%22%2C%22uuid%22%3A%22%22%2C%22ga%22%3A%22866633661.1774992112%22%2C%22epvid%22%3A%22177499210618995727942%22%2C%22dssid%22%3A%22bcacbca4-6240-4418-a02f-15d8fbd051bb%22%7D&t=CUk5NIC6z7fwBnnHGSBu3PQ-DvteH7&V=150&i=News%20from%20California%2C%20across%20the%20nation%20and%20world%20-%20Los%20Angeles%20Times&tz=420&_acct=anon&sn=1&sv=B3FNvbBEtYqMDI1iCXBVO5ll36hhs&sr=external&sd=1&im=067b07ff&_",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 201,
+        "remoteIPAddress": "3.90.76.112",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "https://static.chartbeat.com/js/chartbeat.js",
+          "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544"
+        ],
+        "time": 0.07212499999877764
+      },
+      {
+        "url": "https://activate.platform.californiatimes.com/privacy/v1/b/b.rnc?n=2&c=2715&i=5m6j7u&p=latimes&s=7800&d=8HB7InZlcnNpb24iOiIxLjAuMCIsImdhdGV3YXkiOiIyLjMuNzkzIiwiY2xpZW50SWQiOjI3MTUsInB1Ymxpc2hQYXRoIjoibGF0aW1lcyIsImluc3RhbmNlSWQiOiI1bTZqN3UiLCJwYWNrZXQiOjIsIm1vZGUiOiJlbmZvcmNlWgDyKG9va2llcyI6e30sImVudmlyb25tZW50Ijoibm9uRVUiLCJyZXF1ZXN0cyI6W3siZGVzdGluYXS0APAZaHR0cHM6Ly9zdGF0aWMuY2hhcnRiZWF0LmNvbS9qcy9zdWJzY3JpcC8A4nMuanMiLCJ0eXBlIjoiFwDwCCIsInN0YXJ0IjoxNzc0OTkyMTEzNjY4igAdZBQAVnNvdXJjPADyAV9ET01BdHRyTW9kaWZpZWRMALF0dXMiOiJhbGxvdxMAYHJlYXNvbrwA1F0sImRhdGFQYXR0ZXISALJsaXN0IjpbXSwiaXEAzzU4MDI1MTYxNDZ9LO4ABaJhY3RpdmF0ZS5seQEB7gBwcGMvY2FsdIkBwS8_cHVsc2UyMDAyPSIByCUzQSUyRiUyRnd3dzUARCUyRiYrACs0PR0ABRoAIzU9aAAFEgClNj1ob21lcGFnZRMAJDk9CwAtMTAeACExMRMABSIA8BMyPU5ld3MlMjBmcm9tJTIwQ2FsaWZvcm5pYSUyMGFjcm9zHQBidGhlJTIw7AEAGACQbmQlMjB3b3JsCACAJTIwJTIwTG8pAGBBbmdlbGUKABBU_wAFZwBEMz0yMg0AJTIwoQAaMo4AJjIyGgAWMwsAFjQLABU3CwDUMzU9c2lnbmVkLW91dFsAFzMgAJQ5PTgwMHg2MDAdAMU0Mz11bmRlZmluZWQUAAZcACQ4OFwAZDEyNz0lMjgAUDEzMT0wAQDzEDE3OC1hOGJjLWRmMTctYWI3OS1hZWJkYWM1ZDAwNDZTACUxM7oAPTEzNHIANTEzNWcALzM2HwAA9Ac3PTA0LTA2LTIwMjElMjAxMiUzQTU3XQAlNDE-ABU07AAmMTS7ABY1IQAjNTi4APALOWQtNDExNy1kMzY0LWE3ZGYtNDViZjE1ODPXAARbAC41OY4AJTY2bwAoNjgUARU3xAElMTe1AT0xNzVDACUyOPAAPjI5MB8A8AQ5Nj1ncmFwaGVuZV9jb25maWctlQDwDTAxOWMtZDliNi1kZGY5LWFkOWYtZjliZjEyNDIgADAlM0EHAAcnACAzZZQBsGJlLWRmYjZjOWQ5IAAD3AAlMjksASUyOSwBNDMwMiEB8AkyLTA2YTUtZDE1OC1hOTk3LTdmYWQwYzVsABU1bADwEjg3LWE0NTAtZDRiMC1hMWU3LWJmZjA3YjNkMDAwMiUyQ3MABJMAGzW6ADA4ZTEnAAZOAP8LOTItYjU2Mi1kYzg4LWFiZmUtZmRmYWFhYzFOAAA4OS1k4QAxOWYzCAEHTgD7DjYtOTE0OC1kZTgxLWFmOTYtZGI0ODYzMWIwMDBjnAAbYpwAdzVkZDQwMDBOAEA4LTk56gLwAWQwYy1hMTlkLTlkYmUwZTNOABszTgD_BGMtZGNhYS1hMzllLWZmYmM2NDZOAAE4ZC1kTgCMZjZmNjUwMDBOAPsEZS1kOTNkLWFiYmUtZmJiZWE1M04A_wo1LWVjZWMtZGI2Mi1hOWJkLWZmZWNlOGM4OAEAAHUACEACTzRlYmbqAACwZC1kZmE3LWE1ZGb5ADBkYjjpACMwM0AC9RkzMDM9YmNhY2JjYTQtNjI0MC00NDE4LWEwMmYtMTVkOGZiZDA1MWJiLwAXNCwDJTMxLAMlMzEsAyUzMScELjMxJwQlMzE3AyUzMYUDRDMxOT2XBCYzMkEAFTLGBCYzMi0AZDI3PXRydRgGJjMy-QIQM5IAVHhsaWQ9bAfwFzA2MTg5OTU3Mjc5NDImcGJyZD0xJnBjaD00JnBjaWQ9JmNfcmRwfQBHZWk9MrwHkmVuZEJlYWNvbnQHC8AHLjcwwAcAFAAFwAfyA1NFTkRCRUFDT05fTUFOQUdFUkgAD7wHLa82OTM4NjUyNjc0vAcHD6oIBQa7CA-mCBQvNzHmAAA1MSwi5gAC4ggPpghDrzI4NzMxMTg0MjPqAB8PlAk2Jzg07gDIaW5zZXJ0QmVmb3JlzgEwbG9hmgkPhwlBD8sBBQ_hACMeOc8BCeEAIG115ArPb25PYnNlcnZlckNM5wA5HzfIAQd3bWFicGluZ10LQG5ldC8TAGQvbWFiP2geCgCGCjAmcD1UChlkFAD2PHU9Qi1ONGszQmJZWEJCV1NVTiZjPTAmVj0xNTAmeD1RVHBOSWJXeFZ0emlwJnY9QSZtbD1tJnNsPUN0eEZLeixDcjA0REQmZT0tMQQEMmltZwABCv0DPTcwNEgBARQABRcDP2ltZxQDQ48zNjkzOTc5Of4DCQ9MAU3ZT3AzNzhSTDhTTzFvRkwBf0RONm1fTCZFAY6PMTg1MzgwOTP_DAgPRQFN2kN2T1BONmJPdWtyN09FAV8zMW5fVkUBjp80MTc5OTQyMzOeBQgPRQFN9gJLeUdkeFVvVGZlM2M0JnY9QtYDXzBQNWo3RQGOrzYxMjM0MDQ1OTEbBQcABQUPGAUADxQFAg8GBQAKJwWHZz0zOTA4Jmc_D_ICZzE9Tm8lMjBBdXRob3ImZzRHD1FuPTEmZkYMETFKBf8seD0wJm09MCZ5PTE1MTk5Jm89MTQ0MCZ3PTgxMiZqPTQ1JlI9MSZXPTAmST0wJkU9MCZlPTAmcj0mUEEgEA_wBGI9NjM2MyZfcz0lN0IlMjJsJTIeDgAGABAyfwxwJTIydXVpZBAAAGYQEDIJAHAyQyUyMmdhCwABFACkODY2NjMzNjYxLvsJFjEoADdlcHY_AAQhAAkcCgBJAAFUADdkc3MsAA8eCxEAOwDzFDdEJnQ9Q1VrNU5JQzZ6N2Z3Qm5uSEdTQnUzUFEtRHZ0ZUg3jgYfaZkQCBBDhBAPnBASHy2aEAbwBHR6PTQyMCZfYWNjdD1hbm9uJnPNAfAXc3Y9QjNGTnZiQkV0WXFNREkxaUNYQlZPNWxsMzZoaHMmc3I9ZXg3EkBhbCZzJgvfaW09MDY3YjA3ZmYmXxYHDy4xMxYHABQADxYHT582NTIyOTc4OTNiCAgPSQkFDxQLMRo35wAPJgo7DwcLKQ_dAB8fMsQBDA8iCkIF4wAP1AwIDwcF__-sJzg2Rg4MQwMSQWQMAhkQD0sOJA8CBREPjgmUAEwFImVuqRgDLhk_Nzk4QAFNAokJPzYwMIkJBw9AAU0PWA00D0ABYhMzUw0vNDVAAWcPUw00D0ABYgRODS80MkABZw8kETsPRwFi0DM2OTM5Nzk5ODN9XX0",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 106,
+        "remoteIPAddress": "52.52.16.210",
+        "responseHeaders": {
+          "cache-control": "no-cache\nno-store",
+          "expires": "Tue, 31 Mar 2026 21:21:54 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js"
+        ],
+        "time": 0.05285600000024715
+      }
+    ],
+    "cookies": [
+      {
+        "name": "lux_uid",
+        "domain": "www.latimes.com",
+        "path": "/",
+        "expires": 1774993910352,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "c_sId",
+        "domain": ".platform.latimes.com",
+        "path": "/",
+        "expires": 1806528110456,
+        "session": false
+      },
+      {
+        "name": "permutive-id",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1790889711000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "pxid",
+        "domain": ".68547f8f-2fd8-4ff3-9b63-51e86e2edee8.prmutv.co",
+        "path": "/",
+        "expires": 1782854511836,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TDID",
+        "domain": ".adsrvr.org",
+        "path": "/",
+        "expires": 1806528112231,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "UID",
+        "domain": ".scorecardresearch.com",
+        "path": "/",
+        "expires": 1808688112209,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "XID",
+        "domain": ".scorecardresearch.com",
+        "path": "/",
+        "expires": 1808688112209,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TDCPM",
+        "domain": ".adsrvr.org",
+        "path": "/",
+        "expires": 1806528112231,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_ga_FB5D97VJNM",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1809552112482,
+        "session": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1809552112483,
+        "session": false
+      },
+      {
+        "name": "_t_tests",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1774995713000,
+        "session": false
+      },
+      {
+        "name": "_cb",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1809120113000,
+        "session": false
+      },
+      {
+        "name": "_chartbeat2",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1809120113000,
+        "session": false
+      },
+      {
+        "name": "_cb_svref",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1774993913000,
+        "session": false
+      },
+      {
+        "name": "uuid",
+        "domain": ".latimes.com",
+        "path": "/",
+        "expires": 1809552113760,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://www.latimes.com/54783e34-d419-4529-b0a2-f5d8b93fdd42"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://libs.platform.latimes.com/meteringjs/latspot.js": {
+          "window.localStorage": 12,
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie getter": 1,
+          "Date.prototype.getTime": 1
+        },
+        "https://libs.platform.latimes.com/newsletter-campaign-manager/latest.js": {
+          "window.localStorage": 1
+        },
+        "https://ca-times.brightspotcdn.com/resource/0000016e-6bb5-d505-abef-fbb7e4420000/styleguide/Core.min.59ea1e7bb0af9327cd896044b348e8ef.gz.js": {
+          "Navigator.prototype.userAgent": 42,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "window.innerWidth": 2,
+          "Notification.permission": 1
+        },
+        "https://www.latimes.com/": {
+          "CookieStore.prototype.get": 7,
+          "window.localStorage": 2
+        },
+        "https://libs.platform.latimes.com/reg/tribune/latspot.min.js": {
+          "window.localStorage": 1
+        },
+        "https://cdn.speedcurve.com/js/lux.js?id=20201913": {
+          "Document.cookie getter": 1,
+          "Document.cookie setter": 1,
+          "PerformanceTiming.prototype.navigationStart": 2
+        },
+        "https://securepubads.g.doubleclick.net/tag/js/gpt.js": {
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Document.cookie getter": 3,
+          "Navigator.prototype.userAgent": 12
+        },
+        "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js": {
+          "Date.prototype.getTime": 2,
+          "window.sessionStorage": 2,
+          "URL.createObjectURL": 1,
+          "window.localStorage": 30,
+          "Document.cookie getter": 1,
+          "Document.cookie setter": 2,
+          "Navigator.prototype.userAgent": 18,
+          "Performance.prototype.memory": 4
+        },
+        "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js": {
+          "Navigator.prototype.userAgent": 1,
+          "window.localStorage": 4634,
+          "Date.prototype.getTime": 57,
+          "Document.cookie setter": 4,
+          "Document.cookie getter": 47,
+          "Navigator.prototype.language": 1,
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3
+        },
+        "https://cdn.confiant-integrations.net/gptprebidnative/202601281034/wrap.js": {
+          "URL.createObjectURL": 1
+        },
+        "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603240101/pubads_impl.js": {
+          "Navigator.prototype.userAgent": 65,
+          "PerformanceTiming.prototype.navigationStart": 3,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerHeight": 31,
+          "window.innerWidth": 32
+        },
+        "https://www.latimes.com/styleguide/8250-d5c05034.bundle.js": {
+          "Navigator.prototype.maxTouchPoints": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.languages": 2,
+          "HTMLMediaElement.prototype.canPlayType": 2,
+          "MediaSource.isTypeSupported": 1
+        },
+        "https://activate.platform.californiatimes.com/caltimes/latimes/code/03b33a4cf60d2472bc956ebd57bd6556.js?conditionId0=4849974": {
+          "Screen.prototype.width": 4,
+          "Document.cookie getter": 1
+        },
+        "https://activate.platform.californiatimes.com/caltimes/latimes/code/25071cf7a5575dcc9563c2de75955ff2.js?conditionId0=4849544": {
+          "Document.cookie getter": 46,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Navigator.prototype.userAgent": 2,
+          "Screen.prototype.orientation": 1,
+          "window.localStorage": 11
+        },
+        "https://activate.platform.californiatimes.com/caltimes/latimes/code/7bef0406d3d28127dd256b08467e9033.js?conditionId0=4849544": {
+          "Document.cookie getter": 1,
+          "Date.prototype.getTime": 2,
+          "window.sessionStorage": 6
+        },
+        "https://static.chartbeat.com/js/chartbeat_mab.js": {
+          "Document.cookie getter": 6,
+          "Document.cookie setter": 5,
+          "Date.prototype.getTime": 6,
+          "window.localStorage": 1
+        },
+        "https://www.latimes.com/styleguide/airship-24aa4c0f.bundle.js": {
+          "window.localStorage": 1,
+          "Notification.permission": 1
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-FB5D97VJNM&l=adsData": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 24,
+          "Date.prototype.getTime": 60,
+          "window.name": 2,
+          "Navigator.prototype.language": 4,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Document.cookie setter": 3
+        },
+        "https://aswpsdkus.com/notify/v1/ua-sdk.min.js": {
+          "Navigator.prototype.userAgent": 5,
+          "Notification.permission": 1,
+          "window.indexedDB": 2,
+          "window.sessionStorage": 2
+        },
+        "https://static.chartbeat.com/js/chartbeat.js": {
+          "Document.cookie getter": 25,
+          "Document.cookie setter": 14,
+          "Date.prototype.getTime": 36,
+          "window.localStorage": 1,
+          "Navigator.prototype.userAgent": 5,
+          "Navigator.prototype.platform": 4,
+          "Date.prototype.getTimezoneOffset": 5,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Screen.prototype.colorDepth": 4,
+          "Navigator.prototype.plugins": 4,
+          "PerformanceTiming.prototype.navigationStart": 4,
+          "window.innerHeight": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cdn.speedcurve.com/js/lux.js?id=20201913",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "lux_uid=177499211035225016; max-age=1800; path=/; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__cheq_tld_1774992110447=1;path=/;domain=com;SameSite=Lax;Secure"
+          ]
+        },
+        {
+          "source": "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__cheq_tld_1774992110447=;expires=Thu, 01 Jan 1970 00:00:00 GMT;Max-Age=0;path=/;domain=com;SameSite=Lax;Secure"
+          ]
+        },
+        {
+          "source": "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__cheq_tld_1774992110447=1;path=/;domain=latimes.com;SameSite=Lax;Secure"
+          ]
+        },
+        {
+          "source": "https://activate.platform.californiatimes.com/caltimes/latimes/Bootstrap.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__cheq_tld_1774992110447=;expires=Thu, 01 Jan 1970 00:00:00 GMT;Max-Age=0;path=/;domain=latimes.com;SameSite=Lax;Secure"
+          ]
+        },
+        {
+          "source": "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "permutive-id=de685368-4875-4868-9b1b-4c70ccc18d08; expires=Thu, 01 Oct 2026 21:21:51 GMT; domain=.latimes.com; path=/; samesite=none; secure"
+          ]
+        },
+        {
+          "source": "https://68547f8f-2fd8-4ff3-9b63-51e86e2edee8.edge.permutive.app/68547f8f-2fd8-4ff3-9b63-51e86e2edee8-web.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "permutive-session=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.latimes.com; path=/; samesite=none; secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-FB5D97VJNM&l=adsData",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_FB5D97VJNM=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:21:52 GMT; domain=latimes.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-FB5D97VJNM&l=adsData",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_FB5D97VJNM=GS2.1.s1774992112$o1$g0$t1774992112$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 21:21:52 GMT; domain=latimes.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-FB5D97VJNM&l=adsData",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.866633661.1774992112; path=/; expires=Thu, 30 Mar 2028 21:21:52 GMT; domain=latimes.com; "
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_t_tests=eyJRVHBOSWJXeFZ0emlwIjp7ImNob3NlblZhcmlhbnQiOiJBIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJDdHhGS3oiLCJDcjA0REQiXX0sIk9wMzc4Ukw4U08xb0YiOnsiY2hvc2VuVmFyaWFudCI6IkEiLCJzcGVjaWZpY0xvY2F0aW9uIjpbIkRONm1fTCJdfSwiQ3ZPUE42Yk91a3I3TyI6eyJjaG9zZW5WYXJpYW50IjoiQSIsInNwZWNpZmljTG9jYXRpb24iOlsiRDMxbl9WIl19LCJLeUdkeFVvVGZlM2M0Ijp7ImNob3NlblZhcmlhbnQiOiJCIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJDMFA1ajciXX0sImxpZnRfZXhwIjoibSJ9; expires=Tue, 31 Mar 2026 22:21:53 GMT; path=/; Secure; domain=latimes.com"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb=B-N4k3BbYXBBWSUN; expires=Fri, 30 Apr 2027 21:21:53 GMT; path=/; Secure; domain=latimes.com"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_chartbeat2=.1774992113694.1774992113694.1.B3FNvbBEtYqMDI1iCXBVO5ll36hhs.1; expires=Fri, 30 Apr 2027 21:21:53 GMT; path=/; Secure; domain=latimes.com"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Tue, 31 Mar 2026 21:51:53 GMT; path=/; Secure; domain=latimes.com"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Mon, 30 Mar 2026 21:21:53 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Tue, 31 Mar 2026 21:51:53 GMT; path=/; Secure; domain=latimes.com"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=latimes.com; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Mon, 30 Mar 2026 21:21:53 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Mon, 30 Mar 2026 21:21:53 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Tue, 31 Mar 2026 21:51:53 GMT; path=/; Secure; domain=latimes.com"
+          ]
+        }
+      ]
+    }
+  }
+}

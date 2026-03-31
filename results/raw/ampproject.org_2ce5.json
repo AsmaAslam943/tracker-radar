@@ -1,0 +1,671 @@
+{
+  "initialUrl": "https://ampproject.org/",
+  "finalUrl": "https://amp.dev/",
+  "timeout": false,
+  "testStarted": 1774988166891,
+  "testFinished": 1774988173086,
+  "data": {
+    "requests": [
+      {
+        "url": "https://ampproject.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "142.251.218.142",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.ampproject.org/",
+        "initiators": [],
+        "time": 0.0924669999994876
+      },
+      {
+        "url": "https://www.ampproject.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "199.36.158.100",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://amp.dev/",
+        "redirectedFrom": "https://ampproject.org/",
+        "initiators": [],
+        "time": 0.1490590000003067
+      },
+      {
+        "url": "https://amp.dev/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 27633,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"80f0afdc6881a839a95da518032c2813-ssl-df\""
+        },
+        "responseBodyHash": "bedbd5a012247cb1b00548d25026677b7997d47946fbad1279ff9a40c65a6b8e",
+        "redirectedFrom": "https://www.ampproject.org/",
+        "initiators": [],
+        "time": 0.13714700000036828
+      },
+      {
+        "url": "https://amp.dev/static/fonts/poppins-v5-latin-700.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 7936,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"7a9d47aed7f1d37d099c526709c41b8a-ssl\""
+        },
+        "responseBodyHash": "42d577f49ea07f19edabb75514650a4ce243e1b0716a573c9dbbc1fa51a243c9",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.015698999999585794
+      },
+      {
+        "url": "https://amp.dev/static/fonts/noto-sans-v7-latin-700.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 9838,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"e393780855028e1422cc6b51bd71ad22-ssl\""
+        },
+        "responseBodyHash": "149174708231492f54aa914b68f57af5674ee8192633c6c30a7f6ea4c330b4cc",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.015558000000055472
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63788,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3000, stale-while-revalidate=1206600",
+          "etag": "\"1fb0813db2f9ea66\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "958c3f227881fbb4eebfe70f950f16384382a519ac0b708a073ae809205e312d",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10947200000009616
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29215,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"e063d2b34a7651c0\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6b03d0078cefd454dbf4121ed662175ed8ea3a4cfc4b74dde43ac19df134a94e",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.09642499999972642
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-animation-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16751,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"6a1959669ab26b02\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6f4f05f94e2e8238be0bda20a608754a6878b5f1dfbb2fed6cdf76789151d66f",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10617699999966135
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-base-carousel-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8289,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"ea86f7747adea7c8\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "61434e75a11a694b14b7f48dd95c3c6a391cee8c4e84fe8e51a2956eae3acbf7",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.09408500000063214
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-bind-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14971,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"9983d640b1fca272\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a60569c2f1437a8a70dc1f8cf70575a758dd49c9d913890459caea832e1c6841",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.08976799999982177
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-consent-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16046,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"2d69d621ac86d04e\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a68b24b81f62afc38bd85d11ac2062c83ca0f81f06ec0dd207f46ab429e30900",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10778500000014901
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-fx-collection-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5159,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"bb720f4a4b339d7d\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4fe8f05000cae1e108296bfe20f97205e891929d932a116fadd18187bfea3fa2",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10150500000054308
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-geo-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3682,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=1800",
+          "etag": "\"281a7090882f93c4\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT"
+        },
+        "responseBodyHash": "d4791c84c0992fe02ce8750b90d4962b549f8639869a5a995676e9fa2c91226a",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10262899999997899
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2466,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"cfbe0c1c9e346437\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "60c9e65dbf56bf1a5c591b299e7cd2af5ab98bf5ed2b7141ad38cbdea63b9386",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10693800000080955
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-position-observer-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3200,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"14ab18bf6af0bad4\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d77becf87107655afacb4118437e19b984e1a51e283d6689c3b7131969643cf8",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10457899999983056
+      },
+      {
+        "url": "https://cdn.ampproject.org/v0/amp-selector-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2789,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=604800, stale-while-revalidate=604800",
+          "etag": "\"d6d83147ab924a89\"",
+          "expires": "Tue, 31 Mar 2026 20:16:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "70d32f9a6f715a706e4d0e6324f86990f738ddf75b6e806244042d79dd239888",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.10744100000010803
+      },
+      {
+        "url": "https://amp.dev/static/fonts/noto-sans-v7-latin-regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 10057,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"78e42c1ca6b9a270e975b3f9c7ecd6f8-ssl\""
+        },
+        "responseBodyHash": "f429c30d7671df682445c3e75802002b30ee9dce9c6702e6d345b1f451a0f7c8",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.021199000000706292
+      },
+      {
+        "url": "https://amp.dev/manifest.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 549,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"f9dfec994b3216ddaa37e0fde4e45480-ssl-df\""
+        },
+        "responseBodyHash": "730c5074c28ae8019c7dfcbb87a070dc6f37918c26c16b855b686b3b2596ca86",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.08084800000051473
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012603032146000/v0/amp-auto-lightbox-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2950,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"342c1d4247be8b4a\"",
+          "expires": "Fri, 26 Mar 2027 21:07:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "505be43b956f29f4ff07f46c36713c5f2945da74563628ac9a87b4a7beb6d0ea",
+        "initiators": [
+          "https://cdn.ampproject.org/v0.mjs"
+        ],
+        "time": 0.009904999999889696
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012603032146000/ww.mjs",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 13184,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"d1df5c7bf2e3a902\"",
+          "expires": "Fri, 26 Mar 2027 05:31:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "63b0a5829e73364e90b644881bac5be7996f6757ba02d97cb319bd66e8896c66",
+        "initiators": [
+          "https://cdn.ampproject.org/v0.mjs",
+          "https://cdn.ampproject.org/v0/amp-bind-0.1.mjs"
+        ],
+        "time": 0.010556000000178756
+      },
+      {
+        "url": "https://amp.dev/static/remote/https%253A%252F%252Fblog.amp.dev%252Fwp-content%252Fuploads%252F2021%252F12%252Funboxing-the-bento-component-library-768x384.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 53246,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"d315c52be44ce89b6d39dc6d9985750a-ssl\""
+        },
+        "responseBodyHash": "00595d791c7cb6c01779dfbc0cff729036ac4d1301af27ef951c4940808b798b",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.0171200000004319
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012603032146000/v0/analytics-vendors/gtag.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 956,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c13fdabce9c80a36\"",
+          "expires": "Fri, 26 Mar 2027 21:19:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0cdc1d09aac29df4b32648b075b088d83174193624fe3c219cfd777692c9ba81",
+        "initiators": [
+          "https://cdn.ampproject.org/v0.mjs",
+          "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs",
+          "https://cdn.ampproject.org/v0/amp-base-carousel-0.1.mjs"
+        ],
+        "time": 0.1008640000000014
+      },
+      {
+        "url": "blob:https://amp.dev/313c41e8-90b7-4a9c-bc49-ba1bbde9386f",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f57acc034f48c0240ca5c3f36c1822063ec10bdeabdefa4687293025c944c9f8",
+        "initiators": [
+          "https://amp.dev/"
+        ],
+        "time": 0.18112700000074256
+      },
+      {
+        "url": "https://amp.dev/static/remote/https%253A%252F%252Fblog.amp.dev%252Fwp-content%252Fuploads%252F2021%252F09%252Fimage4-768x384.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 50125,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"6a507f1bbebae4ab04e637f2ddf549af-ssl\""
+        },
+        "responseBodyHash": "025922cd385c74e514374280381c716e313c71793a6727b02f7b8ba31f700b51",
+        "initiators": [
+          "https://cdn.ampproject.org/v0.mjs",
+          "https://cdn.ampproject.org/v0/amp-base-carousel-0.1.mjs"
+        ],
+        "time": 0.04908900000009453
+      },
+      {
+        "url": "https://amp.dev/static/remote/https%253A%252F%252Fblog.amp.dev%252Fwp-content%252Fuploads%252F2021%252F08%252Fimage7-768x384.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 49515,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"b3afb6c66f0d2ee9e981c48700bbf589-ssl\""
+        },
+        "responseBodyHash": "3f82067d899b0813173a4fd78433c2f5b4ba3f5eafc8d594df5fdf3b5d0be896",
+        "initiators": [
+          "https://cdn.ampproject.org/v0.mjs",
+          "https://cdn.ampproject.org/v0/amp-base-carousel-0.1.mjs"
+        ],
+        "time": 0.0488550000000032
+      },
+      {
+        "url": "https://amp.dev/static/remote/https%253A%252F%252Fblog.amp.dev%252Fwp-content%252Fuploads%252F2021%252F08%252Fimage1-1-768x384.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 124643,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"2434b820fbd3b621d7a714bc5620b696-ssl\""
+        },
+        "responseBodyHash": "376f9e850c5f59f6ed21dce11a4801066aebabae483efc2299479def8d7f6657",
+        "initiators": [
+          "https://cdn.ampproject.org/v0.mjs",
+          "https://cdn.ampproject.org/v0/amp-base-carousel-0.1.mjs"
+        ],
+        "time": 0.06394599999930506
+      },
+      {
+        "url": "https://amp.dev/static/img/favicon.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2153,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"c06216821f6cfa7a20c4ca00e687b682-ssl\""
+        },
+        "responseBodyHash": "767d4e2c60131cd41d64303822f7fd5af5ee509e168c54b79901c141fd5ec47a",
+        "initiators": [],
+        "time": 0.03978599999936705
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/amp?__amp_source_origin=https%3A%2F%2Famp.dev",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1547,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://amp.dev",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7a12695da9e006f3a14913dd013471f305040be4bab26818a0aa45d75a762f21",
+        "initiators": [
+          "https://cdn.ampproject.org/v0.mjs",
+          "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs",
+          "https://cdn.ampproject.org/v0/amp-base-carousel-0.1.mjs"
+        ],
+        "time": 0.07994799999960378
+      },
+      {
+        "url": "https://amp.dev/static/img/icons/icon-144x144.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2968,
+        "remoteIPAddress": "75.2.60.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=604800,stale-while-revalidate=86400",
+          "etag": "\"4b377d64704a4dfa1368e6429a43e99d-ssl\""
+        },
+        "responseBodyHash": "dfc62015759dea5fef902194847bd4ce8a370b0bc9e7383159aea8d95f76eea1",
+        "initiators": [],
+        "time": 0.19943700000021636
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-TYM9BH1XCX&cid=amp-Y2NST0vXXa1hoK_gUIwkTg&ul=en-us&sr=800x600&sid=1774988170&sct=1&seg=0&dl=https%3A%2F%2Famp.dev%2F&dr=&dt=AMP%20-%20a%20web%20component%20framework%20to%20easily%20create%20user-first%20web%20experiences%20-%20amp.dev&en=page_view&_ee=1&_s=1&_et=1000&uaa=&uab=&uafvl=%5B%5D&uamb=0&uam=&uap=&uapv=&uaw=0&cd2=amp.dev&_fv=1&_p=580380505&_ss=1&dma=0&ep.groups=default&gtm=45De1110&npa=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 513,
+        "remoteIPAddress": "142.251.218.142",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.06809400000020105
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_ga",
+        "domain": ".amp.dev",
+        "path": "/",
+        "expires": 1806524169000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://amp.dev/313c41e8-90b7-4a9c-bc49-ba1bbde9386f"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://cdn.ampproject.org/v0.mjs": {
+          "Navigator.prototype.vendor": 2,
+          "window.name": 1,
+          "window.localStorage": 11,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "Navigator.prototype.userAgent": 22,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "Date.prototype.getTime": 2,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 8,
+          "Document.cookie getter": 7,
+          "Document.cookie setter": 6
+        },
+        "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs": {
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cdn.ampproject.org/v0.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "-test-amp-cookie-tmp=delete; path=/; domain=amp.dev; expires=Tue, 31 Mar 2026 20:16:10 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.ampproject.org/v0.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "-test-amp-cookie-tmp=delete; path=/; domain=amp.dev; expires=Tue, 31 Mar 2026 20:16:08 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.ampproject.org/v0.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=amp-Y2NST0vXXa1hoK_gUIwkTg; path=/; domain=amp.dev; expires=Wed, 31 Mar 2027 20:16:09 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "-test-amp-cookie-tmp=delete; path=/; domain=amp.dev; expires=Tue, 31 Mar 2026 20:16:10 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "-test-amp-cookie-tmp=delete; path=/; domain=amp.dev; expires=Tue, 31 Mar 2026 20:16:08 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.ampproject.org/v0.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "-test-amp-cookie-tmp=delete; path=/; domain=amp.dev; expires=Tue, 31 Mar 2026 20:16:10 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.ampproject.org/v0.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "-test-amp-cookie-tmp=delete; path=/; domain=amp.dev; expires=Tue, 31 Mar 2026 20:16:08 GMT"
+          ]
+        },
+        {
+          "source": "https://cdn.ampproject.org/v0.mjs",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=amp-Y2NST0vXXa1hoK_gUIwkTg; path=/; domain=amp.dev; expires=Wed, 31 Mar 2027 20:16:09 GMT"
+          ]
+        }
+      ]
+    }
+  }
+}

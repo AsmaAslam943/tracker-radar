@@ -1,0 +1,652 @@
+{
+  "initialUrl": "https://360yield.com/",
+  "finalUrl": "https://ssp.improvedigital.com/login",
+  "timeout": false,
+  "testStarted": 1774989873687,
+  "testFinished": 1774989908834,
+  "data": {
+    "requests": [
+      {
+        "url": "https://360yield.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://ssp.improvedigital.com/",
+        "initiators": [],
+        "time": 0.5355060000001686
+      },
+      {
+        "url": "https://ssp.improvedigital.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate, private",
+          "set-cookie": "AWSALB=2oFw2pDUXzoWVlTkuvL9zyRS/8qmLzPlyRrEsW4sgmpBl2G0RK45ugX04vnJ7B4TbaMyDtcJr+rfqC7d48rGgKke/LgeL/vkDmg2/rDkV6fM4cNGVHt9q3lNENe9; Expires=Tue, 07 Apr 2026 20:44:35 GMT; Path=/\nAWSALBCORS=2oFw2pDUXzoWVlTkuvL9zyRS/8qmLzPlyRrEsW4sgmpBl2G0RK45ugX04vnJ7B4TbaMyDtcJr+rfqC7d48rGgKke/LgeL/vkDmg2/rDkV6fM4cNGVHt9q3lNENe9; Expires=Tue, 07 Apr 2026 20:44:35 GMT; Path=/; SameSite=None; Secure\nPHPSESSID=90992a5de580847d208b4498cd697b4d; path=/; domain=.ssp.improvedigital.com; secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ssp.improvedigital.com/login",
+        "redirectedFrom": "https://360yield.com/",
+        "initiators": [],
+        "time": 0.5353510000004462
+      },
+      {
+        "url": "https://ssp.improvedigital.com/login",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 303975,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate, private",
+          "set-cookie": "AWSALB=TYI4/UPvvfZogNLEFo5nWUeqzsMmd9g4Kfu7Zf7YvnhsxuyJHFdPCncWnGzcKBC0MXr/IaKyCQgOljRrjqCYfyDPPO7+SA0voCcW27GZjskVAlkVh7wrDghF4kJl; Expires=Tue, 07 Apr 2026 20:44:35 GMT; Path=/\nAWSALBCORS=TYI4/UPvvfZogNLEFo5nWUeqzsMmd9g4Kfu7Zf7YvnhsxuyJHFdPCncWnGzcKBC0MXr/IaKyCQgOljRrjqCYfyDPPO7+SA0voCcW27GZjskVAlkVh7wrDghF4kJl; Expires=Tue, 07 Apr 2026 20:44:35 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "0d4601ccbe42ae49711e0bb12f77d985bc8113d37a203fbf01f129d3dcb1a144",
+        "redirectedFrom": "https://ssp.improvedigital.com/",
+        "initiators": [],
+        "time": 3.308661999999458
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 601,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"78-64d206f6d7300\"",
+          "set-cookie": "AWSALB=m9QE+0tdcBHDV8gYb766RyNSL138a4G1+u/VYfy7EDrexkziu4DqJhJWWplT4xUCbTKB+dBW5CRhnPjSJedJKJSGw3Zya9g9a4Y4B+YFOYRmFtHgEP+LVFXXCdds; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/\nAWSALBCORS=m9QE+0tdcBHDV8gYb766RyNSL138a4G1+u/VYfy7EDrexkziu4DqJhJWWplT4xUCbTKB+dBW5CRhnPjSJedJKJSGw3Zya9g9a4Y4B+YFOYRmFtHgEP+LVFXXCdds; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "6370cb4590abce26af3d1f798b3a2bc138e3fabe2ec3c3c9744ff359acd6dea1",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 2.4638759999998
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/ext/packages/sencha-charts/build/neptune/resources/sencha-charts-all.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4880,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"1134-64d206f6d7300\"",
+          "set-cookie": "AWSALB=S08w50Jl0m/LkZeB3K4Afy4R/cCehyue/99iNS4GxT61OgstYwK895zCDNeAHGZIIozvMrHTB0ukBRwa1SjqR9sKnTXy5m+EM2AAXnYBBbp094xREr69XxxDogLa; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/\nAWSALBCORS=S08w50Jl0m/LkZeB3K4Afy4R/cCehyue/99iNS4GxT61OgstYwK895zCDNeAHGZIIozvMrHTB0ukBRwa1SjqR9sKnTXy5m+EM2AAXnYBBbp094xREr69XxxDogLa; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "8f0d9eca64d5ae218e46b3b706c4350c6c6b60367b27dd1b034885e685081c56",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 2.463596999999936
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5941,
+        "remoteIPAddress": "104.18.11.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "etag": "\"04425bbdc6243fc6e54bf8984fe50330\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "541ac58217a8ade1a5e292a65a0661dc9db7a49ae13654943817a4fbc6761afd",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 0.05078300000059244
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/app/ux/flowplayer/skin/functional.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 35144,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"873c-64d206f6d7300\"",
+          "set-cookie": "AWSALB=v+VdMrUlbxyXa691igW40lV/LoPEGC2y/yPQ3/VJICIENkuQJcv0mG05A2RzozdtHcQJZxR+AuFoq6Fbn9ZMTlhKQZ2TIvautP4Xjib3AdS9IfJaQdBMKIsQh2EH; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/\nAWSALBCORS=v+VdMrUlbxyXa691igW40lV/LoPEGC2y/yPQ3/VJICIENkuQJcv0mG05A2RzozdtHcQJZxR+AuFoq6Fbn9ZMTlhKQZ2TIvautP4Xjib3AdS9IfJaQdBMKIsQh2EH; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "ba773313b6086b91a54150ec16f67d75d9228df8c78d225f0aea2f94ae4d94fa",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 2.79764299999988
+      },
+      {
+        "url": "https://ssp.improvedigital.com/build/css/ui.422e69dc2af864c88b1aaa9d5e6ae0d2.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 18636,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"46d8-64d207118b200\"",
+          "set-cookie": "AWSALB=YsLSnF0J8jTAPunfeq9qEq/ortlGyCkMzjvNfgGCZhRfEf9N1Z2UINdp46N6dw+A48Zz2qjoM+LNZEi7VowpBgPZNjCWVZirWS9hdM3ABM8zLznRhVSj9iPEr1PO; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/\nAWSALBCORS=YsLSnF0J8jTAPunfeq9qEq/ortlGyCkMzjvNfgGCZhRfEf9N1Z2UINdp46N6dw+A48Zz2qjoM+LNZEi7VowpBgPZNjCWVZirWS9hdM3ABM8zLznRhVSj9iPEr1PO; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "118c58ffcb0f51881b241900e7e1af393aafcc358bc729e69184ffa7a0183950",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 2.46366400000079
+      },
+      {
+        "url": "https://ssp.improvedigital.com/build/css/polaris.f25e11d7bd6b61d9df7e047b22dfb2b9.css?vmaster-1825",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 814096,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"c66a4-64d207118b200\"",
+          "set-cookie": "AWSALB=4Gg8ltavVeIke+eM/Rz4knyhXAGszYazuIV4dW/aY7riX2cplg0Ym5k8PaVSGqDVYWkDTTTP+omcIW/F1KxNipASFvObj130dI1JedGXJ09rd80LJrN4A+vEcJWb; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/\nAWSALBCORS=4Gg8ltavVeIke+eM/Rz4knyhXAGszYazuIV4dW/aY7riX2cplg0Ym5k8PaVSGqDVYWkDTTTP+omcIW/F1KxNipASFvObj130dI1JedGXJ09rd80LJrN4A+vEcJWb; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "5ed04bf55a7012bb1c1ca1b16d226832a4dadc599f1b11a12ba86a256810782f",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 10.649068999999145
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21409,
+        "remoteIPAddress": "216.239.32.178",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 31 Mar 2026 22:06:10 GMT"
+        },
+        "responseBodyHash": "f1a61277e3f902f50ab42015d8b07218db9b7601bb0967e54a52bfdcb4fa7e81",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 11.732946999998603
+      },
+      {
+        "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDlIrvrw-tjdtMgutn1VQ_VizItXx-1ujM&v=3&libraries=places",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177466,
+        "remoteIPAddress": "142.250.101.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800, stale-while-revalidate=12600",
+          "etag": "d64b69aa",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f8b7718baa6b100f57d067231d770a7d6a8f68f34ec524cf92e4e0726dbe6101",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 2.2724619999989955
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/vendor/socket.io.2.0.1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61633,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"ee8b-64d206f6d7300\"",
+          "set-cookie": "AWSALB=AwqpTtQOMNmudZWca66c1t9YoM5xrLocgfQ50/TaDVi4QTtCfkwOK9OjMIPuVtQVtgDi3LG8IS+BG2PTOEQ2k/mumJkyMOVN6yfjAAPlbwo6DaqAp7aasAnaFfAz; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/\nAWSALBCORS=AwqpTtQOMNmudZWca66c1t9YoM5xrLocgfQ50/TaDVi4QTtCfkwOK9OjMIPuVtQVtgDi3LG8IS+BG2PTOEQ2k/mumJkyMOVN6yfjAAPlbwo6DaqAp7aasAnaFfAz; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "7e2334957dce6337f415f2c178ba85b82a2487eadfd55848fde6a73dbce57543",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 2.799732999999833
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/fosjsrouting/js/router.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12878,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"3059-564a4dcf4d400\"",
+          "set-cookie": "AWSALB=uFl4mpiJga0wa/D6iYSlZUttDgui7T4VTSjTcCr1NpOK5cN/f5sB07817YaPLEZNl71AjejWPIqOazbRgui9BYMviYHXokwnC0gQs/W8qTsr7T267HcVaJhXXRW9; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/\nAWSALBCORS=uFl4mpiJga0wa/D6iYSlZUttDgui7T4VTSjTcCr1NpOK5cN/f5sB07817YaPLEZNl71AjejWPIqOazbRgui9BYMviYHXokwnC0gQs/W8qTsr7T267HcVaJhXXRW9; Expires=Tue, 07 Apr 2026 20:44:36 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "c4a0ee32774d7fa642bbe8421e326b3838795966310f35c0fd836f7145e1a72c",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 2.6297489999997197
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all_01.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 345738,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"5432a-64d206f6d7300\"",
+          "set-cookie": "AWSALB=YWiOvVHP+5utx3g7+owrkvFpjXfoq00J+m4mB/TfaSUs/AyXY63BmHDVK75Ny+VUGpyxSo9aQfDWHly8RGYBSGXUE7P8KtXiOuGGC6rfN+jyMafDi8PxLdlsqNwN; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/\nAWSALBCORS=YWiOvVHP+5utx3g7+owrkvFpjXfoq00J+m4mB/TfaSUs/AyXY63BmHDVK75Ny+VUGpyxSo9aQfDWHly8RGYBSGXUE7P8KtXiOuGGC6rfN+jyMafDi8PxLdlsqNwN; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "aca8ceca4c4f3f9e9ee40947da7e436573cad626df60e1ad8ba2ffa514668567",
+        "initiators": [
+          "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all.css"
+        ],
+        "time": 4.3620260000006965
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all_02.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 423245,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"6719f-64d206f6d7300\"",
+          "set-cookie": "AWSALB=iXAJwbCVaiVq9uA11oB/iecj5lFys/jLeUJ/vHhlZAKQcH0Olta7oZdpQtsIbwF95kx7RfVl1xari9Y4Iv3cNW7tmMFQJFzjlUS3De/i17ewFSSq0cbH/Ly7xJ95; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/\nAWSALBCORS=iXAJwbCVaiVq9uA11oB/iecj5lFys/jLeUJ/vHhlZAKQcH0Olta7oZdpQtsIbwF95kx7RfVl1xari9Y4Iv3cNW7tmMFQJFzjlUS3De/i17ewFSSq0cbH/Ly7xJ95; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "16d524f3cec9def4d3db7db45633f95d011af56dd4bfe371eefaf0fce180500b",
+        "initiators": [
+          "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all.css"
+        ],
+        "time": 5.764636999998402
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all_03.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 434543,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"69dbc-64d206f6d7300\"",
+          "set-cookie": "AWSALB=67pAbzGEAS3cjYFV+XmSJoZplFrGpNRw0u4+lJZZo3Ahv3AGNZA4ty05l1A7K39WM2mWeIKUstMWboQX3NdXRhhJcjhToueC3da/f1RIom79Dq3mv38SQU13ftRk; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/\nAWSALBCORS=67pAbzGEAS3cjYFV+XmSJoZplFrGpNRw0u4+lJZZo3Ahv3AGNZA4ty05l1A7K39WM2mWeIKUstMWboQX3NdXRhhJcjhToueC3da/f1RIom79Dq3mv38SQU13ftRk; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "3f24a443b1c57da499d30bebfcdf21211205ef6c9647cdbe1f5a332d0a7071a3",
+        "initiators": [
+          "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all.css"
+        ],
+        "time": 5.759798000000956
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all_04.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 385700,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"5df24-64d206f6d7300\"",
+          "set-cookie": "AWSALB=bOPMusrEW3uFpjNCxqOwEvDUI9oTRhMoxbL24A1Creco8423Kyy+ZSWcpstLB0KnDQkLU8GyfkHohHBY0P9z71hlSXXgb7nsXWoNrVdsNr+y4zKPFvqxVMdZJ3Ul; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/\nAWSALBCORS=bOPMusrEW3uFpjNCxqOwEvDUI9oTRhMoxbL24A1Creco8423Kyy+ZSWcpstLB0KnDQkLU8GyfkHohHBY0P9z71hlSXXgb7nsXWoNrVdsNr+y4zKPFvqxVMdZJ3Ul; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "3742a435bd7165ccfbefd2b81fa157a7419f408ce911c2278e036c88c58d969b",
+        "initiators": [
+          "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all.css"
+        ],
+        "time": 5.759893999998894
+      },
+      {
+        "url": "https://ssp.improvedigital.com/compiled/js/ext-multi.js?vmaster-1825",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3189961,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"309d3b-64d2071a20640\"",
+          "set-cookie": "AWSALB=e43erb1DNsQl9c3mFj4+sHVrLM5Tzo4ApqQv0RkXKsVJNzf6nucn+QBd3aIW72sXZz7fRCohurvelkXAzO6mRpkXzs3iKD20YWfdlaQKgJxNqpCyq/fRGRbIgQg0; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/\nAWSALBCORS=e43erb1DNsQl9c3mFj4+sHVrLM5Tzo4ApqQv0RkXKsVJNzf6nucn+QBd3aIW72sXZz7fRCohurvelkXAzO6mRpkXzs3iKD20YWfdlaQKgJxNqpCyq/fRGRbIgQg0; Expires=Tue, 07 Apr 2026 20:44:38 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "fd07ba78711a1bf79dc84f2923ff880a3bcc89347cdede77a1323351b44b771a",
+        "initiators": [
+          "https://ssp.improvedigital.com/login"
+        ],
+        "time": 24.833942000001116
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,300,600,700,400",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2516,
+        "remoteIPAddress": "142.250.101.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 31 Mar 2026 20:44:42 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "29151faaa1d96de8e07ca8838c0c447af004e38ec3e2a4ab815fdde9cafe24ed",
+        "initiators": [
+          "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all_01.css"
+        ],
+        "time": 0.06811100000049919
+      },
+      {
+        "url": "https://ssp.improvedigital.com/csp",
+        "method": "POST",
+        "type": "Other",
+        "status": 404,
+        "size": 2260,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate, private",
+          "set-cookie": "AWSALB=odXxKaldRw6MBiCCJmTTUYmzLRQt5yB/nNONlCOR9pdLRR4M5Y78ZF7LwHkesMbdecViMXmbicBN11FlkUvToRNQoi9N4GzomxufeaM62LUm/WIqZU8jUnVOzI1g; Expires=Tue, 07 Apr 2026 20:44:46 GMT; Path=/\nAWSALBCORS=odXxKaldRw6MBiCCJmTTUYmzLRQt5yB/nNONlCOR9pdLRR4M5Y78ZF7LwHkesMbdecViMXmbicBN11FlkUvToRNQoi9N4GzomxufeaM62LUm/WIqZU8jUnVOzI1g; Expires=Tue, 07 Apr 2026 20:44:46 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "d839d92dd01eb50b43061f3576e9a24592fb77cfefe33d0c2bb1450945e053c9",
+        "initiators": [
+          "https://maps.googleapis.com/maps/api/js?key=AIzaSyDlIrvrw-tjdtMgutn1VQ_VizItXx-1ujM&v=3&libraries=places"
+        ],
+        "time": 2.0748989999992773
+      },
+      {
+        "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://maps.googleapis.com/maps/api/js?key=AIzaSyDlIrvrw-tjdtMgutn1VQ_VizItXx-1ujM&v=3&libraries=places"
+        ],
+        "time": 0.000056999999287654646
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1335527795&t=pageview&_s=1&dl=https%3A%2F%2Fssp.improvedigital.com%2Flogin&ul=en-us&dt=Improve%20Digital%20Origin&sr=800x600&vp=1440x812&_u=IEBAAEABAAAAACAAI~&jid=345665962&gjid=93766785&cid=1819091812.1774989888&tid=UA-107085467-1&_gid=96266713.1774989888&_r=1&_slc=1&z=1970520976",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "216.239.32.178",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ssp.improvedigital.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "2d29a6440f4bd2ecad09edd63e3b0f0427bc5e9525e063d363734966450f7662",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.035327999999935855
+      },
+      {
+        "url": "https://ssp.improvedigital.com/csp",
+        "method": "POST",
+        "type": "Other",
+        "status": 404,
+        "size": 2263,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate, private",
+          "set-cookie": "AWSALB=dYcXeDA+xTBOgWWPxhUhXAW9Pala0iN2L1lBz1dvzhKqGPhDIHmzpPJYJSZx27dhCkGkkzHgeRUVL4CrIVTamxs+PPm68UYgsdfxzE5Ykduf6C8cexyf0Kx9rBu8; Expires=Tue, 07 Apr 2026 20:44:47 GMT; Path=/\nAWSALBCORS=dYcXeDA+xTBOgWWPxhUhXAW9Pala0iN2L1lBz1dvzhKqGPhDIHmzpPJYJSZx27dhCkGkkzHgeRUVL4CrIVTamxs+PPm68UYgsdfxzE5Ykduf6C8cexyf0Kx9rBu8; Expires=Tue, 07 Apr 2026 20:44:47 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "d839d92dd01eb50b43061f3576e9a24592fb77cfefe33d0c2bb1450945e053c9",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 1.3436280000005354
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-J084TRT2WD&cx=c&_slc=1",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.00004200000148557592
+      },
+      {
+        "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/14d/common.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38144,
+        "remoteIPAddress": "142.250.101.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 29 Mar 2027 10:06:20 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "14415d48af1ed10aa8c66f4deff15cab211eb3a91a43977c16ff746011a0df94",
+        "initiators": [
+          "https://maps.googleapis.com/maps/api/js?key=AIzaSyDlIrvrw-tjdtMgutn1VQ_VizItXx-1ujM&v=3&libraries=places"
+        ],
+        "time": 0.07813999999962107
+      },
+      {
+        "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/14d/util.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 72376,
+        "remoteIPAddress": "142.250.101.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 29 Mar 2027 10:06:20 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "285d199065a293136e4d06d375dbd17767da26a3775a970c43ce03819ac09126",
+        "initiators": [
+          "https://maps.googleapis.com/maps/api/js?key=AIzaSyDlIrvrw-tjdtMgutn1VQ_VizItXx-1ujM&v=3&libraries=places"
+        ],
+        "time": 0.42663100000027043
+      },
+      {
+        "url": "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/images/loadmask/loading.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2328,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"739-64d206f6d7300\"",
+          "set-cookie": "AWSALB=8FG5lL91Q/vCXJWK/lZEHumQl9q5JxGEHFdc4TaEGa4B0nzvuWmZYdJNiKvibnEA9G91PuY7wtZqOipIy0lzSQUkWoShBmnHJCHU7U2kSJ8rchORRQUx2jf3O+Yh; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/\nAWSALBCORS=8FG5lL91Q/vCXJWK/lZEHumQl9q5JxGEHFdc4TaEGa4B0nzvuWmZYdJNiKvibnEA9G91PuY7wtZqOipIy0lzSQUkWoShBmnHJCHU7U2kSJ8rchORRQUx2jf3O+Yh; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "6391543c76e7fd5ea09c15d715d1f345ae32e22752976671cef43bc19a3785c8",
+        "initiators": [
+          "https://ssp.improvedigital.com/bundles/platformui/ext/theme/phoenix/id-theme-all_01.css"
+        ],
+        "time": 0.22956899999917368
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 42996,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 04:57:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6b8537b98323fd690a25655d575221985a83c1d33ac04bd0b334b8024284994e",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,300,600,700,400"
+        ],
+        "time": 0.3619429999998829
+      },
+      {
+        "url": "https://ssp.improvedigital.com/login?_dc=1774989904543",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2434,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate, private",
+          "set-cookie": "AWSALB=1dhBkr5pE4FyATHhC1C1LUrtXYIcjV6pM8ZMJxQtBqPfltSwDVxK4YKconYy0giV+rOawUQWsMXGVvqUYWVoogphwNdsmM0a2rswTN1e+f+vqP9Q1fP0azgb3utp; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/\nAWSALBCORS=1dhBkr5pE4FyATHhC1C1LUrtXYIcjV6pM8ZMJxQtBqPfltSwDVxK4YKconYy0giV+rOawUQWsMXGVvqUYWVoogphwNdsmM0a2rswTN1e+f+vqP9Q1fP0azgb3utp; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "f932156132e341561305bc7cd77bbd5cd7465abd3cdcff4e333fae73ea3eaab3",
+        "initiators": [
+          "https://ssp.improvedigital.com/compiled/js/ext-multi.js?vmaster-1825"
+        ],
+        "time": 0.23288299999876472
+      },
+      {
+        "url": "https://ssp.improvedigital.com/improve_digital_origin.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 24775,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"5eda-64d206ec59a40\"",
+          "set-cookie": "AWSALB=8NScehsds/phm7lJ8CKcGPgyAcv2PZY4k7QUGcye+SadyVmCu1o2TDyQV6c8Bjo4PgXIfQe2mFzNlseefZNmRCaiGHll6wVcmL0+v6gSgyn7282Te3+T6GF3Vq4I; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/\nAWSALBCORS=8NScehsds/phm7lJ8CKcGPgyAcv2PZY4k7QUGcye+SadyVmCu1o2TDyQV6c8Bjo4PgXIfQe2mFzNlseefZNmRCaiGHll6wVcmL0+v6gSgyn7282Te3+T6GF3Vq4I; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "7a1048039d5c07791ca22b9886dc9373007b253c40702c99f4e01d790f893ca9",
+        "initiators": [
+          "https://ssp.improvedigital.com/build/css/polaris.f25e11d7bd6b61d9df7e047b22dfb2b9.css?vmaster-1825"
+        ],
+        "time": 0.3248429999985092
+      },
+      {
+        "url": "https://ssp.improvedigital.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4776,
+        "remoteIPAddress": "63.32.80.36",
+        "responseHeaders": {
+          "etag": "\"10be-64d206ec59a40\"",
+          "set-cookie": "AWSALB=Yl9nNg6Jxwq9NZ4TdRwSFFazZggdzhUXMqkELuLFT5MmUQlsRK2iSV95gghW8DozIDYZ1bDnV/DP5EZVeGl4wI5vRzNQvbuKgb9AI3W5G0XEp2jc5j1wHO6xzzQh; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/\nAWSALBCORS=Yl9nNg6Jxwq9NZ4TdRwSFFazZggdzhUXMqkELuLFT5MmUQlsRK2iSV95gghW8DozIDYZ1bDnV/DP5EZVeGl4wI5vRzNQvbuKgb9AI3W5G0XEp2jc5j1wHO6xzzQh; Expires=Tue, 07 Apr 2026 20:45:04 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "00d84ecf13714c088c7676b914fa56585f9f8f740483cfb6c2b3d2bc01ea464d",
+        "initiators": [],
+        "time": 0.28950500000064494
+      }
+    ],
+    "cookies": [
+      {
+        "name": "PHPSESSID",
+        "domain": ".ssp.improvedigital.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_ga",
+        "domain": ".improvedigital.com",
+        "path": "/",
+        "expires": 1809549887828,
+        "session": false
+      },
+      {
+        "name": "_gid",
+        "domain": ".improvedigital.com",
+        "path": "/",
+        "expires": 1775076287000,
+        "session": false
+      },
+      {
+        "name": "_gat",
+        "domain": ".improvedigital.com",
+        "path": "/",
+        "expires": 1774989947000,
+        "session": false
+      },
+      {
+        "name": "AWSALB",
+        "domain": "ssp.improvedigital.com",
+        "path": "/",
+        "expires": 1775594705158,
+        "session": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "ssp.improvedigital.com",
+        "path": "/",
+        "expires": 1775594705158,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyDlIrvrw-tjdtMgutn1VQ_VizItXx-1ujM&v=3&libraries=places": {
+          "Date.prototype.getTime": 1,
+          "Navigator.prototype.userAgent": 29,
+          "window.matchMedia(\"prefers-color-scheme\")": 1,
+          "window.devicePixelRatio": 3,
+          "NavigatorUAData.prototype.brands": 2,
+          "window.sessionStorage": 3,
+          "Navigator.prototype.connection": 1
+        },
+        "https://ssp.improvedigital.com/bundles/platformui/vendor/socket.io.2.0.1.js": {
+          "window.localStorage": 1,
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://www.google-analytics.com/analytics.js": {
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTime": 10,
+          "Document.cookie getter": 22,
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie setter": 3
+        },
+        "https://maps.googleapis.com/maps-api-v3/api/js/63/14d/util.js": {
+          "Navigator.prototype.userAgent": 3
+        },
+        "https://ssp.improvedigital.com/compiled/js/ext-multi.js?vmaster-1825": {
+          "Document.cookie getter": 1,
+          "Navigator.prototype.userAgent": 15,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Navigator.prototype.platform": 1,
+          "window.localStorage": 12,
+          "Date.prototype.getTime": 3,
+          "window.devicePixelRatio": 6,
+          "window.name": 2,
+          "window.innerWidth": 6,
+          "window.innerHeight": 6,
+          "window.screenX": 2,
+          "window.screenY": 2,
+          "window.outerWidth": 2,
+          "window.outerHeight": 2,
+          "window.screenLeft": 2,
+          "window.screenTop": 2,
+          "window.indexedDB": 3,
+          "window.sessionStorage": 3,
+          "Navigator.prototype.plugins": 1,
+          "HTMLMediaElement.prototype.canPlayType": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.2.1819091812.1774989888; path=/; expires=Thu, 30 Mar 2028 20:44:47 GMT; domain=improvedigital.com;"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=GA1.2.96266713.1774989888; path=/; expires=Wed, 01 Apr 2026 20:44:47 GMT; domain=improvedigital.com;"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat=1; path=/; expires=Tue, 31 Mar 2026 20:45:47 GMT; domain=improvedigital.com;"
+          ]
+        }
+      ]
+    }
+  }
+}

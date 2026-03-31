@@ -1,0 +1,906 @@
+{
+  "initialUrl": "https://jd.com/",
+  "finalUrl": "https://corporate.jd.com/home",
+  "timeout": false,
+  "testStarted": 1774993768893,
+  "testFinished": 1774993780941,
+  "data": {
+    "requests": [
+      {
+        "url": "https://jd.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "111.13.149.108",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.jd.com/",
+        "initiators": [],
+        "time": 0.9004559999993944
+      },
+      {
+        "url": "https://www.jd.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "157.185.156.194",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://corporate.jd.com/home",
+        "redirectedFrom": "https://jd.com/",
+        "initiators": [],
+        "time": 0.890570999999909
+      },
+      {
+        "url": "https://corporate.jd.com/home",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 16728,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:49:32 GMT"
+        },
+        "responseBodyHash": "26fbbe77b9475f868d55ed2f6dc9817fb37f9af5783549037b0ee2acd3ec3e45",
+        "redirectedFrom": "https://www.jd.com/",
+        "initiators": [],
+        "time": 1.5630359999995562
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/bootstrap.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 19845,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"120533-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "8ac951b28b17b2f224da35bf155451914fc6cad1b623fb0179ecbdeb232c55d7",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 0.4888170000012906
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/common.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2590,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"8362-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "3950bed44e9e82a47b6e255c6cc585cab68657c42fa9e05d55484b70b300448b",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 0.48877100000026985
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2141,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"7130-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "a71d1849344564860ca5d8d13b0608efe3e3fff9b1a274f0be46c5b06b03a550",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 0.48904099999890605
+      },
+      {
+        "url": "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34552,
+        "remoteIPAddress": "157.185.156.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"f03e5a3bf534f4a738bc350631fd05bd\"",
+          "expires": "Fri, 17 Apr 2026 21:55:00 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "aec3d419d50f05781a96f223e18289aeb52598b5db39be82a7b71dc67d6a7947",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 1.0405920000011974
+      },
+      {
+        "url": "https://storage.360buyimg.com/static-hr/npm/bootstrap/3.3.5/dist/js/bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10539,
+        "remoteIPAddress": "157.185.156.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"4becdc9104623e891fbb9d38bba01be4\"",
+          "expires": "Thu, 16 Apr 2026 00:46:09 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4a4de7903ea62d330e17410ea4db6c22bcbeb350ac6aa402d6b54b4c0cbed327",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 1.0360700000001088
+      },
+      {
+        "url": "https://corporate.jd.com/static/js/index.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2448,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"6110-1774575320000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "3edec9c451d9193ef3580bb7130396e3e6a80df1f5cf1a1b0df776d09bb82830",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 0.4885680000006687
+      },
+      {
+        "url": "https://corporate.jd.com/static/images/main-logo-new.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57358,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"167664-1774575320000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "c5324192cd5477b2d559a29f87c3ba41e1ce7a3811e5ba64cd01083d1094d57c",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 0.5327519999991637
+      },
+      {
+        "url": "https://corporate.jd.com/static/js/common.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 826,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"1095-1774575320000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "a582e07769b175da386c6f04cd922f2ff42ac7ac30e80500fd3dedcb3e445cee",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 1.233021000000008
+      },
+      {
+        "url": "https://jdcorporateblog.com/wp-json/news/list",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 16588,
+        "remoteIPAddress": "104.199.226.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://corporate.jd.com"
+        },
+        "responseBodyHash": "bf9512f12e98beeb3dce76de6ccb184d7a20b20b1d8020ef600705c5eda357af",
+        "initiators": [
+          "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+          "https://corporate.jd.com/static/js/index.js"
+        ],
+        "time": 1.1516310000006342
+      },
+      {
+        "url": "https://wlssl.jd.com/joya.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17958,
+        "remoteIPAddress": "157.185.156.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"69bbbab4-c485\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6cd2f83d0f1fc546f5ff4e2ba05642f9a623fe480641e4477047823b022924e4",
+        "initiators": [
+          "https://corporate.jd.com/home"
+        ],
+        "time": 0.5980490000001737
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/banner-bg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4554,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"5096-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "2ce11f6ed91b32f13160ab9be134ec4abc0e474a254dbf21ca6d01db16530063",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.4786530000001221
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/icon-new.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4667,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"4434-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "82a245789074456b5ff99af90a96a9716d595776246d92058838982f06004c72",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.4778150000001915
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/loading.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16413,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "73389bd02e9480e96a047d2fab8cf8e5880b7923c1eb66fd5c58f79081a0d034",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.19648100000085833
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/icons.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8588,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"8233-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "c11e7fb8f31334f447bde4a79a77e22f3d4ec55ae1c18fb29d4366c6471371f1",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.4779289999987668
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/bg-cart.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2145,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"1776-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "746698f93cad9ccce5e154abc95f72dede56f85150187a07c7e5b73b339fba23",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.47762300000067626
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/bg-globe.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1926,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"2067-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "5986669ed099eec7b6b885ae20c35d9d43e0255ada8422e857054bb790bfd074",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.4781700000003184
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/bg-delivery.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2230,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"1877-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "7b14a51e78dbb7908e2b50daf525065bcf8a5c7590abb5d04d5dafbe0b7dc27d",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.5703430000012304
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/bg-present.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2267,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"1905-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "beb464dbe6d64be343470d707357fcacd1c71db44497f5f09fa15fbfa7890939",
+        "initiators": [
+          "https://corporate.jd.com/static/css/index.css"
+        ],
+        "time": 0.7271810000002006
+      },
+      {
+        "url": "https://corporate.jd.com/static/css/i/jdc.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 971,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"616-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:33 GMT"
+        },
+        "responseBodyHash": "e37bbfb12c27c012c0b6a9f2f978c6c0e5d5228eb99945233de8b4faa8f8e071",
+        "initiators": [
+          "https://corporate.jd.com/static/css/common.css"
+        ],
+        "time": 0.3613680000016757
+      },
+      {
+        "url": "https://use.typekit.net/vfg4dus.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 985,
+        "remoteIPAddress": "23.212.62.76",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "15d801c070b1834b997844cb26d69fccb8b5bcae2dd025412ed1ffdf4670932a",
+        "initiators": [
+          "https://corporate.jd.com/static/js/common.js"
+        ],
+        "time": 0.5346389999995154
+      },
+      {
+        "url": "https://sgm-static.jd.com/sgm-web-4.1.1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10277,
+        "remoteIPAddress": "153.43.41.20",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69a10244-6f78\"",
+          "expires": "Wed, 01 Apr 2026 12:22:25 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cec86f43a7dd70cdc792d9214726776918ab3b2752c51dd5fc9515107f3aa96b",
+        "initiators": [
+          "https://corporate.jd.com/static/js/common.js"
+        ],
+        "time": 1.121688000001086
+      },
+      {
+        "url": "https://corporate.jd.com/getCurrentYear",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 296,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:49:34 GMT"
+        },
+        "responseBodyHash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+        "initiators": [
+          "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+          "https://corporate.jd.com/home"
+        ],
+        "time": 0.45469300000149815
+      },
+      {
+        "url": "https://mercury.jd.com/log.gif?t=www.100000&m=JA2016_163492&pin=-&uid=1774993774244476001233&sid=1774993774244476001233|1",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 1023,
+        "remoteIPAddress": "103.107.90.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, max-age=0, must-revalidate",
+          "expires": "Fri, 01 Jan 1980 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "aud=c22d547ac73acda72181f6149888c9ef; expires=Tue, 31-Mar-26 20:49:35 GMT; domain=mercury.jd.com; path=/\navt=1; expires=Tue, 31-Mar-26 20:49:35 GMT; domain=mercury.jd.com; path=/\nasn=1; expires=Tue, 31-Mar-26 20:49:35 GMT; domain=mercury.jd.com; path=/\nbud=c22d547ac73acda72181f6149888c9ef; expires=Tue, 31-Mar-26 20:49:35 GMT; domain=mercury.jd.com; path=/\nbvt=1; expires=Tue, 31-Mar-26 20:49:35 GMT; domain=mercury.jd.com; path=/\nbsn=1; expires=Tue, 31-Mar-26 20:49:35 GMT; domain=mercury.jd.com; path=/\ncud=c22d547ac73acda72181f6149888c9ef; expires=Sun, 27-Sep-26 21:49:35 GMT; domain=mercury.jd.com; path=/\ncvt=1; expires=Sun, 27-Sep-26 21:49:35 GMT; domain=mercury.jd.com; path=/\ncsn=1; expires=Tue, 31-Mar-26 22:19:35 GMT; domain=mercury.jd.com; path=/\n__jdu=1774993774244476001233;path=/;domain=.jd.com;expires=Sun, 27 Sep 2026 21:49:35 GMT"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://wlssl.jd.com/joya.js",
+          "https://corporate.jd.com/home"
+        ],
+        "time": 1.5318870000010065
+      },
+      {
+        "url": "https://stream-outside.jd.com/checkWhiteList?code=JA2016_163492",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 358,
+        "remoteIPAddress": "36.110.180.70",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0",
+          "expires": "Tue, 31 Mar 2026 21:49:35 GMT"
+        },
+        "responseBodyHash": "29108ca3d608b23271c493485383b271a3480fab566ba7dcdcd2c47992501971",
+        "initiators": [
+          "https://wlssl.jd.com/joya.js",
+          "https://corporate.jd.com/home"
+        ],
+        "time": 1.7046589999990829
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=vfg4dus&ht=tk&f=139.140.175.176&a=5894994&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 172,
+        "remoteIPAddress": "23.212.62.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"67f276f6-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://use.typekit.net/vfg4dus.css"
+        ],
+        "time": 0.037784000000101514
+      },
+      {
+        "url": "https://use.typekit.net/af/c9cde8/00000000000000003b9ad1b9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 31844,
+        "remoteIPAddress": "23.212.62.76",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"5d8697d9159fab69ddf2fe5290aa149707f73e8f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "97e4efb0d0b109b0d9091c169fcbf637c7ef4a8e7a0d130b8f9d0079dc64f200",
+        "initiators": [
+          "https://use.typekit.net/vfg4dus.css"
+        ],
+        "time": 0.02425500000026659
+      },
+      {
+        "url": "https://use.typekit.net/af/4ba64f/00000000000000003b9ad1ba/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32791,
+        "remoteIPAddress": "23.212.62.76",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2583dd1881adf30fd1b1c021d6e5ff326c299521\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b87a84e4b178e22173020be5c19a6a43ce9a094e49f5b9e4f3c8bf67149cab28",
+        "initiators": [
+          "https://use.typekit.net/vfg4dus.css"
+        ],
+        "time": 0.014739000000190572
+      },
+      {
+        "url": "https://use.typekit.net/af/7d485b/00000000000000003b9ad1b1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32815,
+        "remoteIPAddress": "23.212.62.76",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"18c8de5bb0482bc1b90ecbc58bf6bf12dce37a2f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "262c259fc5db4128e76975eecfb632dce971626f66928b6b8e9cc8936cddb611",
+        "initiators": [
+          "https://use.typekit.net/vfg4dus.css"
+        ],
+        "time": 0.023603999999977532
+      },
+      {
+        "url": "https://jdcorporateblog.com/wp-content/uploads/2026/03/156511618.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 473575,
+        "remoteIPAddress": "104.199.226.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"69c4a163-73704\""
+        },
+        "responseBodyHash": "3754e5c737177a5bed020d1328d17b6b2ec9743f05dfb8389c52665126146952",
+        "initiators": [
+          "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+          "https://corporate.jd.com/static/js/index.js"
+        ],
+        "time": 2.262459999999919
+      },
+      {
+        "url": "https://jdcorporateblog.com/wp-content/uploads/2026/03/JD.com-at-Alimentaire-2026-scaled.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 91540,
+        "remoteIPAddress": "104.199.226.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"69c0faaf-16451\""
+        },
+        "responseBodyHash": "e57abdb7765f1ee2ad20c835deaecc39987c4a58cf3d25f2977b7fe72179c6a4",
+        "initiators": [
+          "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+          "https://corporate.jd.com/static/js/index.js"
+        ],
+        "time": 2.0140040000005683
+      },
+      {
+        "url": "https://jdcorporateblog.com/wp-content/uploads/2026/03/Q4FY25.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 65979,
+        "remoteIPAddress": "104.199.226.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"69a9060e-10093\""
+        },
+        "responseBodyHash": "8651fc253d3541b3a1dee6db88a19c2091453ebd1fee56c9e2e2a90882a0b3bb",
+        "initiators": [
+          "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+          "https://corporate.jd.com/static/js/index.js"
+        ],
+        "time": 2.014006999999765
+      },
+      {
+        "url": "https://jdcorporateblog.com/wp-content/uploads/2026/02/JD.com-and-DHL-Feb-2026-scaled.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 160810,
+        "remoteIPAddress": "104.199.226.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"699fed12-2729d\""
+        },
+        "responseBodyHash": "ba734bb3538a9cb67f0847c59d84db97b91d594c98140fe22424efc9671bfae0",
+        "initiators": [
+          "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+          "https://corporate.jd.com/static/js/index.js"
+        ],
+        "time": 2.013731999999436
+      },
+      {
+        "url": "https://jdcorporateblog.com/wp-content/uploads/2026/02/AllianzJD-Charming-China.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 105379,
+        "remoteIPAddress": "104.199.226.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"69a56bb0-19a56\""
+        },
+        "responseBodyHash": "4b4d2202193485c9df644d097b5a6c449536478d53835759ccb52bb1647568e7",
+        "initiators": [
+          "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js",
+          "https://corporate.jd.com/static/js/index.js"
+        ],
+        "time": 2.26232600000003
+      },
+      {
+        "url": "https://sgm-static.jd.com/sgm-web-main-4.1.1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39142,
+        "remoteIPAddress": "153.43.41.20",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"69a10244-1d69d\"",
+          "expires": "Wed, 01 Apr 2026 13:23:18 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "014969364ba1760436fd91f3d4ffb67e3b9e811fdb2e1086949a444da87c8b21",
+        "initiators": [
+          "https://sgm-static.jd.com/sgm-web-4.1.1.js",
+          "https://corporate.jd.com/static/js/common.js"
+        ],
+        "time": 0.09471799999846553
+      },
+      {
+        "url": "https://sgm-m.jd.com/h5/init",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1337,
+        "remoteIPAddress": "138.113.24.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://corporate.jd.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2c090e82c0db9e0a67549ba9b20691c7e8c8651ad974a92679a0efa7838b11d6",
+        "initiators": [
+          "https://sgm-static.jd.com/sgm-web-main-4.1.1.js",
+          "https://sgm-static.jd.com/sgm-web-4.1.1.js",
+          "https://corporate.jd.com/static/js/common.js"
+        ],
+        "time": 1.410942000000432
+      },
+      {
+        "url": "https://mercury.jd.com/log.gif?t=exp_log.100000&m=JA2016_163492&pin=-&uid=1774993774244476001233&sid=1774993774244476001233|1",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 372,
+        "remoteIPAddress": "103.107.90.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, max-age=0, must-revalidate",
+          "expires": "Fri, 01 Jan 1980 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "__jdu=1774993774244476001233;path=/;domain=.jd.com;expires=Sun, 27 Sep 2026 21:49:37 GMT"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://wlssl.jd.com/joya.js"
+        ],
+        "time": 0.2544820000002801
+      },
+      {
+        "url": "https://corporate.jd.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 7187,
+        "remoteIPAddress": "138.113.102.15",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "W/\"25214-1774575318000\"",
+          "expires": "Tue, 31 Mar 2026 21:49:37 GMT"
+        },
+        "responseBodyHash": "769253d4583322a3f192a6aaf8d69a4552366c011b20ed99c2e6d3a79640b192",
+        "initiators": [],
+        "time": 0.40391099999942526
+      },
+      {
+        "url": "https://sgm-w.jd.com/h5",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 485,
+        "remoteIPAddress": "121.226.221.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://corporate.jd.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ae64196db7fe3eccb7a320032b6a44caff13bfc21fa264713fba1a5368a7cb6a",
+        "initiators": [
+          "https://sgm-static.jd.com/sgm-web-main-4.1.1.js",
+          "https://sgm-static.jd.com/sgm-web-4.1.1.js",
+          "https://corporate.jd.com/static/js/common.js"
+        ],
+        "time": 1.9694490000001679
+      },
+      {
+        "url": "https://sgm-w.jd.com/h5",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "121.226.221.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://corporate.jd.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://sgm-w.jd.com/h5"
+        ],
+        "time": 1.6981319999995321
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__jda",
+        "domain": ".jd.com",
+        "path": "/",
+        "expires": 1790545774000,
+        "session": false
+      },
+      {
+        "name": "__jdb",
+        "domain": ".jd.com",
+        "path": "/",
+        "expires": 1774995574000,
+        "session": false
+      },
+      {
+        "name": "__jdc",
+        "domain": ".jd.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "__jdv",
+        "domain": ".jd.com",
+        "path": "/",
+        "expires": 1776289774000,
+        "session": false
+      },
+      {
+        "name": "cud",
+        "domain": ".mercury.jd.com",
+        "path": "/",
+        "expires": 1790545775782,
+        "session": false
+      },
+      {
+        "name": "cvt",
+        "domain": ".mercury.jd.com",
+        "path": "/",
+        "expires": 1790545775782,
+        "session": false
+      },
+      {
+        "name": "csn",
+        "domain": ".mercury.jd.com",
+        "path": "/",
+        "expires": 1774995575782,
+        "session": false
+      },
+      {
+        "name": "__jdu",
+        "domain": ".jd.com",
+        "path": "/",
+        "expires": 1790545777321,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://wlssl.jd.com/joya.js": {
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.plugins": 14,
+          "Document.cookie getter": 25,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.language": 1,
+          "Document.cookie setter": 4,
+          "Navigator.prototype.cookieEnabled": 1,
+          "window.localStorage": 2,
+          "window.sessionStorage": 2,
+          "window.name": 1,
+          "Navigator.prototype.deviceMemory": 2,
+          "Date.prototype.getTime": 2
+        },
+        "https://sgm-static.jd.com/sgm-web-4.1.1.js": {
+          "window.localStorage": 49
+        },
+        "https://sgm-static.jd.com/sgm-web-main-4.1.1.js": {
+          "Navigator.prototype.userAgent": 4,
+          "window.localStorage": 5,
+          "Document.cookie getter": 3,
+          "window.sessionStorage": 2,
+          "window.devicePixelRatio": 4,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Navigator.prototype.connection": 3,
+          "Navigator.prototype.onLine": 3
+        },
+        "https://storage.360buyimg.com/static-hr/npm/jquery/1.11.3/dist/jquery.min.js": {
+          "Event.prototype.timeStamp": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://wlssl.jd.com/joya.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__jda=26066735.1774993774244476001233.1774993774.1774993774.1774993774.1; path=/; expires=Sun, 27 Sep 2026 21:49:34 GMT; domain=jd.com;"
+          ]
+        },
+        {
+          "source": "https://wlssl.jd.com/joya.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__jdb=26066735.1.1774993774244476001233|1.1774993774; path=/; expires=Tue, 31 Mar 2026 22:19:34 GMT; domain=jd.com;"
+          ]
+        },
+        {
+          "source": "https://wlssl.jd.com/joya.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__jdc=26066735; path=/; domain=jd.com;"
+          ]
+        },
+        {
+          "source": "https://wlssl.jd.com/joya.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__jdv=26066735|direct|-|none|-|1774993774245; path=/; expires=Wed, 15 Apr 2026 21:49:34 GMT; domain=jd.com;"
+          ]
+        }
+      ]
+    }
+  }
+}

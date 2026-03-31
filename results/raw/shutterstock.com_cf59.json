@@ -1,0 +1,277 @@
+{
+  "initialUrl": "https://shutterstock.com/",
+  "finalUrl": "https://www.shutterstock.com/",
+  "timeout": false,
+  "testStarted": 1774991423842,
+  "testFinished": 1774991432072,
+  "data": {
+    "requests": [
+      {
+        "url": "https://shutterstock.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "99.83.219.164",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.shutterstock.com/",
+        "initiators": [],
+        "time": 0.23538000000007742
+      },
+      {
+        "url": "https://www.shutterstock.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 1570,
+        "remoteIPAddress": "18.155.202.117",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "set-cookie": "datadome=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54; Max-Age=31536000; Domain=.shutterstock.com; Path=/; Secure; SameSite=Lax"
+        },
+        "responseBodyHash": "c80faad913eddefad2804b3727d28f2dfc4ad57387f1bdd7ef2da1aaafbcdae8",
+        "redirectedFrom": "https://shutterstock.com/",
+        "initiators": [],
+        "time": 0.08629000000109954
+      },
+      {
+        "url": "https://ct.captcha-delivery.com/i.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16063,
+        "remoteIPAddress": "3.169.183.53",
+        "responseHeaders": {
+          "etag": "\"14867fc17e7a0d59f653596d425b2feb\""
+        },
+        "responseBodyHash": "b2086fb19988cbf9d2caa696692c0711145ee92124319146e0d1352d8eb5797d",
+        "initiators": [
+          "https://www.shutterstock.com/"
+        ],
+        "time": 3.9765210000005027
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw%3D%3D&hash=1A1097A806C03451D36605BD91879C&cid=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54&referer=https%3A%2F%2Fwww.shutterstock.com%2F&s=49287&e=02016eedf54e3f3963c746c32a5c2683af8d6366668a5680ebd5460de85ae5bdd3fc85e81b8ced3c5dcda222da0f4020&b=1584728&dm=cd",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 176647,
+        "remoteIPAddress": "54.183.122.10",
+        "responseHeaders": {},
+        "responseBodyHash": "09d56fe24815110d65f477846136113a1302b5e025d3c2adab9737c8c3af0279",
+        "initiators": [
+          "https://ct.captcha-delivery.com/i.js"
+        ],
+        "time": 0.8892139999989013
+      },
+      {
+        "url": "blob:https://geo.captcha-delivery.com/5dff07ce-718c-462e-a4d2-51f449ad53e3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "responseHeaders": {},
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw%3D%3D&hash=1A1097A806C03451D36605BD91879C&cid=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54&referer=https%3A%2F%2Fwww.shutterstock.com%2F&s=49287&e=02016eedf54e3f3963c746c32a5c2683af8d6366668a5680ebd5460de85ae5bdd3fc85e81b8ced3c5dcda222da0f4020&b=1584728&dm=cd"
+        ]
+      },
+      {
+        "url": "https://www.shutterstock.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4087,
+        "remoteIPAddress": "18.155.202.117",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"a452fb5bdbf7affac3c72331e9717914\""
+        },
+        "responseBodyHash": "1bafe32c698f5e517f3f14bfe9477e234cf5f6cc10361b7b8e79b3f84d8a5285",
+        "initiators": [],
+        "time": 0.022199999999429565
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/interstitial/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 849,
+        "remoteIPAddress": "54.183.122.10",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw%3D%3D&hash=1A1097A806C03451D36605BD91879C&cid=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54&referer=https%3A%2F%2Fwww.shutterstock.com%2F&s=49287&e=02016eedf54e3f3963c746c32a5c2683af8d6366668a5680ebd5460de85ae5bdd3fc85e81b8ced3c5dcda222da0f4020&b=1584728&dm=cd"
+        ],
+        "time": 0.019572000001062406
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw==&cid=rTD2iMqWg0zctb49X6b1HYlTbB8mmLXHrdWQ~pnf7ni8rK175L3KBHi89nbpnk8JfKsMXQe_yqJKbkROCvLe8uPbhCQDpZqrL4UjWYRv06dOHquGLZgRKoGR3HcEtNia&referer=https%3A%2F%2Fwww.shutterstock.com%2F&hash=1A1097A806C03451D36605BD91879C&t=fe&s=49287&e=a315ca58359d1a8a7b8245051deca45af2374330ded2946886f24ba0ca46260a3acb547ff522fa219f497588da088740&ir=40%2C5&dm=dc_ir&b=1584728",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 217935,
+        "remoteIPAddress": "54.183.122.10",
+        "responseHeaders": {},
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw%3D%3D&hash=1A1097A806C03451D36605BD91879C&cid=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54&referer=https%3A%2F%2Fwww.shutterstock.com%2F&s=49287&e=02016eedf54e3f3963c746c32a5c2683af8d6366668a5680ebd5460de85ae5bdd3fc85e81b8ced3c5dcda222da0f4020&b=1584728&dm=cd"
+        ],
+        "time": 0.08418100000017148
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/tpl/6dc485c0c428c35b53577b146dc6f9179f55ef9ad41b327a2a179998839364bf/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1801,
+        "remoteIPAddress": "65.8.54.7",
+        "responseHeaders": {
+          "etag": "W/\"23464822977c44c55ef7876a5a849489\""
+        },
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw==&cid=rTD2iMqWg0zctb49X6b1HYlTbB8mmLXHrdWQ~pnf7ni8rK175L3KBHi89nbpnk8JfKsMXQe_yqJKbkROCvLe8uPbhCQDpZqrL4UjWYRv06dOHquGLZgRKoGR3HcEtNia&referer=https%3A%2F%2Fwww.shutterstock.com%2F&hash=1A1097A806C03451D36605BD91879C&t=fe&s=49287&e=a315ca58359d1a8a7b8245051deca45af2374330ded2946886f24ba0ca46260a3acb547ff522fa219f497588da088740&ir=40%2C5&dm=dc_ir&b=1584728"
+        ],
+        "time": 0.15653699999893433
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 898,
+        "remoteIPAddress": "65.8.54.7",
+        "responseHeaders": {
+          "etag": "\"e4f77074c0ffbfab377011e19283eb13\""
+        },
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw==&cid=rTD2iMqWg0zctb49X6b1HYlTbB8mmLXHrdWQ~pnf7ni8rK175L3KBHi89nbpnk8JfKsMXQe_yqJKbkROCvLe8uPbhCQDpZqrL4UjWYRv06dOHquGLZgRKoGR3HcEtNia&referer=https%3A%2F%2Fwww.shutterstock.com%2F&hash=1A1097A806C03451D36605BD91879C&t=fe&s=49287&e=a315ca58359d1a8a7b8245051deca45af2374330ded2946886f24ba0ca46260a3acb547ff522fa219f497588da088740&ir=40%2C5&dm=dc_ir&b=1584728"
+        ],
+        "time": 0.1567620000005263
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/set/8076b712223db1fcb654acba027f7a87290374dc/logo.png?update_cache=8193907513635899646",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17875,
+        "remoteIPAddress": "65.8.54.7",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"a282edb30103bde36713f6f01fbf3cda\""
+        },
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw==&cid=rTD2iMqWg0zctb49X6b1HYlTbB8mmLXHrdWQ~pnf7ni8rK175L3KBHi89nbpnk8JfKsMXQe_yqJKbkROCvLe8uPbhCQDpZqrL4UjWYRv06dOHquGLZgRKoGR3HcEtNia&referer=https%3A%2F%2Fwww.shutterstock.com%2F&hash=1A1097A806C03451D36605BD91879C&t=fe&s=49287&e=a315ca58359d1a8a7b8245051deca45af2374330ded2946886f24ba0ca46260a3acb547ff522fa219f497588da088740&ir=40%2C5&dm=dc_ir&b=1584728"
+        ],
+        "time": 0.3133880000004865
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WR7VZ3V3",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:10:31 GMT"
+        },
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw==&cid=rTD2iMqWg0zctb49X6b1HYlTbB8mmLXHrdWQ~pnf7ni8rK175L3KBHi89nbpnk8JfKsMXQe_yqJKbkROCvLe8uPbhCQDpZqrL4UjWYRv06dOHquGLZgRKoGR3HcEtNia&referer=https%3A%2F%2Fwww.shutterstock.com%2F&hash=1A1097A806C03451D36605BD91879C&t=fe&s=49287&e=a315ca58359d1a8a7b8245051deca45af2374330ded2946886f24ba0ca46260a3acb547ff522fa219f497588da088740&ir=40%2C5&dm=dc_ir&b=1584728"
+        ]
+      }
+    ],
+    "cookies": [
+      {
+        "name": "datadome",
+        "domain": ".shutterstock.com",
+        "path": "/",
+        "expires": 1806527424917,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://geo.captcha-delivery.com/5dff07ce-718c-462e-a4d2-51f449ad53e3"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://ct.captcha-delivery.com/i.js": {
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Document.cookie getter": 1
+        },
+        "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw%3D%3D&hash=1A1097A806C03451D36605BD91879C&cid=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54&referer=https%3A%2F%2Fwww.shutterstock.com%2F&s=49287&e=02016eedf54e3f3963c746c32a5c2683af8d6366668a5680ebd5460de85ae5bdd3fc85e81b8ced3c5dcda222da0f4020&b=1584728&dm=cd": {
+          "window.localStorage": 2,
+          "Navigator.prototype.languages": 2,
+          "window.outerHeight": 5,
+          "window.outerWidth": 4,
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.hardwareConcurrency": 6,
+          "Navigator.prototype.webdriver": 4,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 6,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.deviceMemory": 3,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Navigator.prototype.keyboard": 3,
+          "Navigator.prototype.permissions": 3,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2,
+          "Navigator.prototype.getBattery": 1,
+          "URL.createObjectURL": 1,
+          "Performance.prototype.memory": 3,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.connection": 5,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.mediaDevices": 1,
+          "Navigator.prototype.plugins": 26,
+          "window.innerWidth": 3,
+          "window.innerHeight": 4,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "window.devicePixelRatio": 1,
+          "Screen.prototype.orientation": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "speechSynthesis.__proto__.getVoices": 1,
+          "Navigator.prototype.storage": 3,
+          "Navigator.prototype.mimeTypes": 9,
+          "HTMLMediaElement.prototype.canPlayType": 19,
+          "MediaSource.isTypeSupported": 19,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie setter": 2,
+          "Document.cookie getter": 1,
+          "PerformanceTiming.prototype.navigationStart": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw%3D%3D&hash=1A1097A806C03451D36605BD91879C&cid=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54&referer=https%3A%2F%2Fwww.shutterstock.com%2F&s=49287&e=02016eedf54e3f3963c746c32a5c2683af8d6366668a5680ebd5460de85ae5bdd3fc85e81b8ced3c5dcda222da0f4020&b=1584728&dm=cd",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=1; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAO8wSE9feCZEAgHhXzw%3D%3D&hash=1A1097A806C03451D36605BD91879C&cid=pfFiXiAU7njxQbe9eIWH2p6cYTssAVAjHUEhtNI3Uz61GFv1azfkfStlMlxMzz3zeD1Aekj7fQegAvvQVaqWXeGlgufVVBqlYiRSPPE9B1NGPMdRgXUglNQ4pMMVPp54&referer=https%3A%2F%2Fwww.shutterstock.com%2F&s=49287&e=02016eedf54e3f3963c746c32a5c2683af8d6366668a5680ebd5460de85ae5bdd3fc85e81b8ced3c5dcda222da0f4020&b=1584728&dm=cd",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=None; Secure"
+          ]
+        }
+      ]
+    }
+  }
+}

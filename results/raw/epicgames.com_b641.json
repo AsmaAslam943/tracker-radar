@@ -1,0 +1,2038 @@
+{
+  "initialUrl": "https://epicgames.com/",
+  "finalUrl": "https://store.epicgames.com/en-US",
+  "timeout": false,
+  "testStarted": 1774987346706,
+  "testFinished": 1774987365718,
+  "data": {
+    "requests": [
+      {
+        "url": "https://epicgames.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "100.52.34.44",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.epicgames.com/",
+        "initiators": [],
+        "time": 0.23866799999996147
+      },
+      {
+        "url": "https://www.epicgames.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "104.18.20.94",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "set-cookie": "__cf_bm=._t8BAX5rd7_VcJ.9ZSEnvHbLM3JPVdP9ARAsrEX6SM-1774987348-1.0.1.1-UwsvFlx4gwaXr7XxFaaDoSSVt_AuZrT1nFA65.Ki68nyxw6M.tUmQHG8nD_5DoEW82YQTn18kDvRG7S5tTHzdM4sNT6VEkNIJdqtnSBP_NY; path=/; expires=Tue, 31-Mar-26 20:32:28 GMT; domain=.www.epicgames.com; HttpOnly; Secure; SameSite=None\n_cfuvid=JgydKTqemkbse2.T2vClEz_DZKjJLTBpchUvEsz5Yg0-1774987348746-0.0.1.1-604800000; path=/; domain=.www.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://store.epicgames.com/",
+        "redirectedFrom": "https://epicgames.com/",
+        "initiators": [],
+        "time": 0.9875140000003739
+      },
+      {
+        "url": "https://store.epicgames.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=b9hx4I1anfUXUp7dcUxdrcjEquWTzRzVmmVPKU4byzg-1774987349-1.0.1.1-UrZeHfG1g0MyRfjaKFVhRytcX00nLkz4b4fNLJFZao57t_5XLl2wEPi0o4tjwcwWhsbgs3A9.Coin5uxZ7dUDXojL69ooRQgD3YEV5F7.KA; path=/; expires=Tue, 31-Mar-26 20:32:29 GMT; domain=.store.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://store.epicgames.com/en-US",
+        "redirectedFrom": "https://www.epicgames.com/",
+        "initiators": [],
+        "time": 0.34869499999967957
+      },
+      {
+        "url": "https://store.epicgames.com/en-US",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 151300,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {},
+        "responseBodyHash": "aee949623247826fb4c68fa9a8f210b9e22e43a54655c8516a1fbae9060c1018",
+        "redirectedFrom": "https://store.epicgames.com/",
+        "initiators": [],
+        "time": 0.5814030000001367
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1185820,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"b20351f57599fba2735e3515f716089f\"",
+          "expires": "Wed, 01 Apr 2026 20:02:34 GMT",
+          "set-cookie": "__cf_bm=n..6VXccboAnOR1swMzhirU.t3fA8Dj.tlqTxu6yMAw-1774987354-1.0.1.1-WQRNUHAnjONefEJZFS8Qc97QO4EhpUq0qr6h6YDeuekMjHa1AfUHX5KOazSFswdF7pV4kQhpBxdOKTCLvFr79bWudJJW31iRS1MYDFCHqKQ; path=/; expires=Tue, 31-Mar-26 20:32:34 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1ecbfb9ad8b25c240033b8a0f04b14fad0afd2cb73af024fe147a9ec5ef05728",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.269960999999967
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 909662,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"a9a56a6171b14ff55bf4e9a356854294\"",
+          "expires": "Wed, 01 Apr 2026 20:02:34 GMT",
+          "set-cookie": "__cf_bm=4afn4esUe447nmBpqjHG_uHJYre0pVxpVWVTMcdcxng-1774987354-1.0.1.1-uLgAJbZJUuGt7rvGUMG5XpWXpEAKAw53YTpleM8S0Ry73zwPNDQmnlDL7_gwKcG2b26RvllkPN_W1pc.y3Ve_AC18F8TlLEtvFxyezzWUQU; path=/; expires=Tue, 31-Mar-26 20:32:34 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "fd143c36cb7e70f88d2b676e94877496fe23e6d10d56b5ca7944c16e3126fb61",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.3032359999997425
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3423,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"bf937d8f2b4b2becfa788df4417afbc9\"",
+          "expires": "Wed, 01 Apr 2026 20:02:35 GMT",
+          "set-cookie": "__cf_bm=cOb5ygRxgaYHUjsl85TLJVdVauR1ncRYmZarf7vIrUM-1774987355-1.0.1.1-.EpmYFKBFCVeAsRJjOdF0efIN80qMBArYdfHsSjxlBMZMZNeYb2tWbkvWmSkP5OzRxQvRqbxRprPV.Ihc43zmxYaj.r5YFGExiU0jtfktak; path=/; expires=Tue, 31-Mar-26 20:32:35 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "ec33fa9ee23fa1d7b59c10d93c7a97405816480311cd82970a944db6a67976f7",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.384135000000242
+      },
+      {
+        "url": "https://components.unrealengine.com/styles/navigation.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 835,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "\"27d309bc0578bef745e864e418a8bba0\""
+        },
+        "responseBodyHash": "db251c2ae7844a8f5041417911d839d0efa92f69f35bf9b04582283837b8316a",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.064589999999953
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/webpack/webAppStyles.egstore-site.8fdc3b7f27db4309497c.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 11120,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"c7af3341a9161da6c5514c0f3bfa05d2\"",
+          "expires": "Wed, 01 Apr 2026 20:02:34 GMT",
+          "set-cookie": "__cf_bm=enKBDwkD8JtFpBvXYhEffiQ7ijmDOP9XJtd.nNdEz7o-1774987354-1.0.1.1-CuhadJfAoKFWd2.8S64xNrqZqORYWOw__nB051Tcf2wUJdvhFuEcX_BY8oh1r3DjCMkuNJQYcd89X2dlSHCCymjGreENhRqfO91I6419N.g; path=/; expires=Tue, 31-Mar-26 20:32:34 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "f925d186270dae57028dbcae8723c620f4ce97efbb995cc32a11dea4ae366522",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.0884900000000926
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/webpack/fonts.egstore-site.77a6be8035be53cd52fb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1031,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"dde685457a21f43cf139c0242e575257\"",
+          "expires": "Wed, 01 Apr 2026 20:02:34 GMT",
+          "set-cookie": "__cf_bm=Pwyec3fOnrghnUPJ0eKlRWHva2tpkpn7HMJpivvdY6k-1774987354-1.0.1.1-mlcV1uQUHJDF0y5Kf0uscallCqM5DiREPtQlo1RU74a1PfEzEndVBvFXx.C3N_eTmhvpl5ZbUIk6mIfLwpVldpNuQXgkgpX3Q7IZ1uWg2u8; path=/; expires=Tue, 31-Mar-26 20:32:34 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "c869b7ac705de3128664bcf9140a68533e1e47c4f56aabeb23c37e28b51dc11c",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.088549999999486
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.7c564a7fe900777fa693.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 12284,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"8f0d95c70460c11deaeb1f0516c5f840\"",
+          "expires": "Wed, 01 Apr 2026 20:02:34 GMT",
+          "set-cookie": "__cf_bm=II6eGikPs5_CCHNQbpEQBUmanKJA.N7JB9jA12LD_eQ-1774987354-1.0.1.1-RPlBT_uSIXqTAaI8Gli04OC71mdKb540SiCRtfnKW2R_k0lWCZYyj_44L.uRfXLQnBLPzGI2G9JJu1b4EW6XTKRBc0ybw9lEWXv.Vjg8oYU; path=/; expires=Tue, 31-Mar-26 20:32:34 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "ac5953336954c322d38899c5dc772df771646537bd16512014ffad5732d935ed",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.127476999999999
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.6be5a5f1d27c7159e35c.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1348,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"b066976f69c650201e5ff8be19712543\"",
+          "expires": "Wed, 01 Apr 2026 20:02:34 GMT",
+          "set-cookie": "__cf_bm=bKbfO.BjN97EQoi4klH4fwe2MUh1Zx45qZJjchLnEbM-1774987354-1.0.1.1-6Wfdl7SmLm0y_LlNQRevpEFyDVp3c_QGhMggaEZJKfelva4x3GuKbFf3AZGiiEp1wv8oSUaEYwOlaPYJU0InnN8WFwVBdnTVsNbC6YgvBd0; path=/; expires=Tue, 31-Mar-26 20:32:34 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "9ee13b411fd0554162a4d2cb62047b8065c49b646fcc61c3b88778232300fd9f",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.127552999999352
+      },
+      {
+        "url": "https://js.hcaptcha.com/1/api.js?render=explicit&uj=true",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 87142,
+        "remoteIPAddress": "104.19.229.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "W/\"6a2f9b34444fe7af4830e45903d24a03\"",
+          "set-cookie": "__cf_bm=ndek0S_JISv3.7u61vrVjSHlU9yP8w6wr7WF4Hde6Jc-1774987355.2522202-1.0.1.1-MXVaOAy89PyyfvD02t0ptBNEwY.aQ5cjUP30Ul0SZhsAHp0O78DuAqCzjtwlILq_H5gVRqhs3Fi5.i_95ccGgcE9s8G0gu2Cy2lFkq4omU_ldwxcyk0y7DEzo3G5IrVP; HttpOnly; Secure; Path=/; Domain=hcaptcha.com; Expires=Tue, 31 Mar 2026 20:32:35 GMT"
+        },
+        "responseBodyHash": "92bae367f7851a990624d2074ef877aa98ba6e8e6e5c8ca721a23ad6b9d52cda",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.536212999999407
+      },
+      {
+        "url": "https://tracking.epicgames.com/tracking.js?p=EGS",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25903,
+        "remoteIPAddress": "98.85.246.25",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0, s-maxage=0",
+          "etag": "W/\"15166-gXZtlCWgfZenGnzkpTH9sd42ZN8\"",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "_epicSID=7af965217bf04dd39f31bc1eead6bbeb; Domain=.epicgames.com; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": "14d2deff440c646106231008200d910d1d0505ca2724c849f741bc43acd3cbdc",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.763444000000163
+      },
+      {
+        "url": "https://components.unrealengine.com/navigation/egs-navigation.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34234,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "W/\"9bccb24ee8d9bc79ad2e52deb8816b5a\""
+        },
+        "responseBodyHash": "78bfb0fee4e58fcaa3e0a9f7fe242cf5747955aee59bdcc68311c3b9eb5fa9da",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.060150000000249
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/egs-footer.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33866,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "W/\"fe9cd4653f525ba4fb252a1da70f56fa\""
+        },
+        "responseBodyHash": "3ab0fe52111f036b1310c814857bfa9c89ff10f8d7256f81d1aba26fdf514740",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.068256999999903
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/spring-sale-desktop-carousel-asset-1920x1080-79ab95e2e2ae.jpg?resize=1&w=1280&h=720&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 119729,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2477216\npublic; max-age=2592000",
+          "etag": "\"bd522125c44cc0b0d5654d0adfbd9b3e\""
+        },
+        "responseBodyHash": "c967b076643edad7e7dcf6fa087f1c6145f2679353feb8413197786fe34f39ad",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.17551100000037
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-xbl4-desktop-carousel-asset-1f446eea6124.avif?resize=1&w=1280&h=720&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 220381,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31432432",
+          "etag": "\"45c243e90a486eb16d5665a149d28ec9\""
+        },
+        "responseBodyHash": "719de519f7260ea9fd11628772b7b4ada25ddfeed289a10a317b496c764a2f2d",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.265650999999707
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-crimson-desert-carousel-desktop-1920x1080-6c927fd508af.jpg?resize=1&w=1280&h=720&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 104567,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=1286668\npublic; max-age=2592000",
+          "etag": "\"92d9e481fa678c3438be3e5a2ae6b87c\""
+        },
+        "responseBodyHash": "4794583d16febaa926eaf0894c161018e69092fc064f1128ff5cb22a609675b0",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.29464199999984
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-arknights-endfield-carousel-desktop-1920x1080-b261d726cd29.jpg?resize=1&w=1280&h=720&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 143843,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2226551\npublic; max-age=2592000",
+          "etag": "\"8b09d0f6c38d894fa4ca3bac59a73821\""
+        },
+        "responseBodyHash": "1957aa2a8946398f982321cd4cc75a7797d076866a70e2e8e51a262dcff71188",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.322654999999941
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-gwp-resident-evil-desktop-carousel-asset-1920x1080-ca5bff579273.jpg?resize=1&w=1280&h=720&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 114242,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2097205\npublic; max-age=2592000",
+          "etag": "\"85bb224ab59d8d733cb17171ee464f2d\""
+        },
+        "responseBodyHash": "0fb08b0b6620806553662f9191227fb26f8d5a732aae7724f2b0318caf38de5c",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.350007999999434
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-death-stranding-2-carousel-destkop-1920x1080-8c3c31bed70d.jpg?resize=1&w=1280&h=720&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 72815,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=874530\npublic; max-age=2592000",
+          "etag": "\"5bcc72849157a7397206ca4d1be43ab1\""
+        },
+        "responseBodyHash": "60f29fb161fef9710ccdb9a36666bb473cf93ce6ddfb8dc83e5ab5d35529d9d4",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.473636000000624
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-spring-sale-carousel-thumbnail-1200x1600-aaf232f06b79.jpg?resize=1&w=96&h=128&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2573,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2477212\npublic; max-age=2592000",
+          "etag": "\"9f164803022592c6f6f407c256ee88f0\""
+        },
+        "responseBodyHash": "4860072ebe314f802e844be11638443cdaa8e1c3af408e7bffd32ae90a3a9220",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.500788999999713
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-egsxbl4-carousel-thumbnail-1200x1600-3ce756efdaf0.jpg?resize=1&w=96&h=128&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4616,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2488431\npublic; max-age=2592000",
+          "etag": "\"92b50f159cad082ab1b11a58590fb6b2\""
+        },
+        "responseBodyHash": "0a2fc931b1516ee068a8fae3860391905e683bc02609606bc8cfe04dcabadb65",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.47397699999965
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-egs-crimson-desert-carousel-thumb-1200x1600-0e2866f110b6.jpg?resize=1&w=96&h=128&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2668,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=1286667\npublic; max-age=2592000",
+          "etag": "\"67fa5cec77245387340ae07dacf1caa5\""
+        },
+        "responseBodyHash": "41f6a0bb1511bb62a3723fd69ebcdc2bfff5da0ff242c12efe366f5af7fcbdb9",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.4742089999999735
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-arknights-endfield-carousel-thumb-1200x1600-8e4f1efcee5b.jpg?resize=1&w=96&h=128&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3794,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2226616\npublic; max-age=2592000",
+          "etag": "\"92422b1f11c983054fa1a2409de58bfd\""
+        },
+        "responseBodyHash": "3a74bbc9b5ac4635514d161d6116e6f9241672333ec47fbc71cf42008048fc77",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.474723999999696
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-gwp-resident-evil-carousel-thumbnail-1200x1600-89017dca73e8.jpg?resize=1&w=96&h=128&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1895,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=1849450\npublic; max-age=2592000",
+          "etag": "\"1f474da92d2dfdd4e1f8312e5b51aff5\""
+        },
+        "responseBodyHash": "97edc8d43a800d42c5d2280acc8867efe5b9cd8887c7df2d2abab3930b7d9a2f",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.4749269999992975
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-death-stranding-2-carousel-thumb-1200x1600-74e1019a2da3.jpg?resize=1&w=96&h=128&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2397,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=874543\npublic; max-age=2592000",
+          "etag": "\"61ebc1c2f8839e118b15c739433c278c\""
+        },
+        "responseBodyHash": "6103bd58e3fde4e905196df6d765d3bf11f3edaa60df954ddcec49b9e5ad9929",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.475166000000172
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/fnbr-40-00-c7s2-16x9-fortnite-keyar-1920x1080-a1106f984056.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18232,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2152298\npublic; max-age=2592000",
+          "etag": "\"e3bdb346d9c07a3a79faac177a6a30b4\""
+        },
+        "responseBodyHash": "6511ca522f71f47794f18bb9a43543327dec0183bc1d912222a3aad77702fdcd",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.499918000000434
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-fneco-40-10-granola-egs-breaker-1920x1080-1920x1080-6a2832c92b9e.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 62705,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2520166\npublic; max-age=2592000",
+          "etag": "\"730f6be9bd2ea805888614d668da20e6\""
+        },
+        "responseBodyHash": "abb73781bf3081585900bd10824b780b33ae415c9c3849973938d6713351e182",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.476984000000812
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/22br-billy-goatsim-social-1920x1080-b776190c2e68.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20168,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2516007\npublic; max-age=2592000",
+          "etag": "\"3b3c57efc8e348c1d8c0c42d1a32ad21\""
+        },
+        "responseBodyHash": "99cb8483b7e6eaa65212b06fd94de367bbc56c66917f560c13c4bce38edeab2b",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.478368999999475
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-egs-deals-of-the-week-breaker-1920x1080-370730a9f8e0.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 53156,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2573578\npublic; max-age=2592000",
+          "etag": "\"b36800ed5d9ce5e5d01789af2bd58064\""
+        },
+        "responseBodyHash": "781f196a49287597976a41b17134df5bca31d49cf379588f982409d6ea8a6f5a",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.48851999999988
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-egs-deals-of-the-week-breaker-1920x1080-d64e0e5369db.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 25641,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2573825\npublic; max-age=2592000",
+          "etag": "\"c25956234fc22c8ba87cd90762135657\""
+        },
+        "responseBodyHash": "8f5a6df56516cd23fa26b25faface015ba874716c82b3fe9f1a8ae3b3708d83f",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.4925380000004225
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-sales-specials-dotw-breaker-asset-1920x1080-1313ee288796.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6839,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=887817\npublic; max-age=2592000",
+          "etag": "\"906f8c131da89fb229b506293d273e8e\""
+        },
+        "responseBodyHash": "ae385116da44ba2d94dba982d7dac7d4067eb6c7aa519bc893bd87d922460193",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 5.493844999999965
+      },
+      {
+        "url": "https://store.epicgames.com/epic-analytics-worker.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 421,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "etag": "W/\"258e-FRv3k7P9PmOXzDHz9htT84l0NMI\""
+        },
+        "responseBodyHash": "d88b8778a1f5ce8bd454c6c521586169d7d09207387bc163f55a5405e22f1ddb",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 3.7355880000004618
+      },
+      {
+        "url": "https://components.unrealengine.com/navigation/lit-shared-BhisrU_7.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9560,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "W/\"3292f0dd5032330a10954704a80aa70b\""
+        },
+        "responseBodyHash": "8df894ee81577bb2121117e431905af71505646239ab6ae724b74408177a84fc",
+        "initiators": [
+          "https://components.unrealengine.com/navigation/egs-navigation.mjs"
+        ],
+        "time": 0.01623699999981909
+      },
+      {
+        "url": "https://components.unrealengine.com/navigation/navigation-CVNzITGf.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 90571,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "W/\"5ab5e8982524a8ec8284e54b29313774\""
+        },
+        "responseBodyHash": "bc508c24e794587aee3212a07988f272be6cbd9ca78171c29cdef2857d934d11",
+        "initiators": [
+          "https://components.unrealengine.com/navigation/egs-navigation.mjs"
+        ],
+        "time": 0.031406000000060885
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/lit-shared-CfJu2WdS.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8770,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "W/\"f978172ef25216790767de6d4ef671fd\""
+        },
+        "responseBodyHash": "48dac70a19db062fc73d3938ef5a27e9f6a2eda4ffbc9d3e467dc77db2e130c2",
+        "initiators": [
+          "https://components.unrealengine.com/footer/egs-footer.mjs"
+        ],
+        "time": 0.015490000000681903
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/footer-jgytM29I.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31459,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "W/\"46270c716830467462fa85730d2e5744\""
+        },
+        "responseBodyHash": "282590cdb9f83c43c4cd22bbca289aac0a8a85ed362a5f32ccb8b2d0eb33d691",
+        "initiators": [
+          "https://components.unrealengine.com/footer/egs-footer.mjs"
+        ],
+        "time": 0.0281860000004599
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-spring-sale-carousel-logo-350x120-b8aad7481fa0.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6000,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30837908",
+          "etag": "\"d13201d979509498b650fc88c39eecb9\""
+        },
+        "responseBodyHash": "eb1c6828a211a48aed153d82c4ac2613aae20bcde7ecf2306a3811d1f020842b",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.09127999999964231
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-egs-bl4-carousel-logo-350x96-ae37df04034b.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 49694,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=27486112",
+          "etag": "\"4930e94f1f95fe124c41e3afb1e6e2f4\""
+        },
+        "responseBodyHash": "11e3906388a4055586126d14c93874382b7bb4f952817dece576031a2d3015be",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.08268700000007811
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-crimson-desert-logo-350x221-7ea32bba5677.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21484,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=25665324",
+          "etag": "\"21ed4f0fa6030493ad4af66c5b94dcb1\""
+        },
+        "responseBodyHash": "332f7d47ed94a04caf9d004cee0bbccb69ac3ceec0a53c7227a07f1d04bb75c2",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.09732200000053126
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-arknights-endfield-carousel-logo-350x174-b8cdff0f62ce.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7673,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31327169",
+          "etag": "\"df985459a6091869ee4baed4a3b5bbbb\""
+        },
+        "responseBodyHash": "3b3b7b749ddccf2637618e633d9b65d832a99c32afa350eb528cdd09601b29d3",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.09059300000080839
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-gwp-resident-evil-carousel-logo-350x135-0b588b818e0b.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20923,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=28414009",
+          "etag": "\"b143f869e54eca8362ed64acebe707a7\""
+        },
+        "responseBodyHash": "067e3286b678b57fdc341636a928d684a63eecca20cc3bf076ca4d00b176c174",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.08818799999971816
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-death-stranding-2-carousel-logo-350x187-3df73a1ea1da.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10773,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=27469608",
+          "etag": "\"90acd52065dff9cb1573b3ecc6f3ab33\""
+        },
+        "responseBodyHash": "a8e56349302833cca7a69d115da96eb22ed0a01ca2625d125c3e1b7822fee14f",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.08926200000041717
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/static/fonts/interfontsvar/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 38615,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "\"e1b9f0ecaaebb12c93064cd3c406f82b\"",
+          "expires": "Wed, 01 Apr 2026 00:02:35 GMT",
+          "set-cookie": "__cf_bm=SZjfnrcy6M.ArcoKF.lrlu529Ya1X4PYUEbKFLTfvQs-1774987355-1.0.1.1-FxiRWcaWBXsann2lAlYidlsvw0cex29lGFlyaPqiiNMBXpXoQ37zQdaGf_r7ZoFlh0NnbQ_qgIHT4VJOLWqSRWaIgkzAAkliZQpKyNoMBDg; path=/; expires=Tue, 31-Mar-26 20:32:35 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "cd21d27925814226c156b75d99b697f742388affc6db6e98ae2e1c21e3d3fd08",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.11143799999990733
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/static/fonts/interfontsvar/InterTight-Bold.latin.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27514,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "\"7abe84ca4a706463d9aba7b7ea6aedc4\"",
+          "expires": "Wed, 01 Apr 2026 00:02:35 GMT",
+          "set-cookie": "__cf_bm=EDuj6Z.ZKk.pJfutiugRBguz.D4TksxRMU6XWP4._tE-1774987355-1.0.1.1-Udyznfp_i2pFmT7MA4Iq4vmEIKYhFZdtAuioNIi_HWaJUk.6.bSDXGK60QO77pM0UkMly5BLNg3HX_oI2uafO1AXTdGDdSyJI9QCsf2n0Yc; path=/; expires=Tue, 31-Mar-26 20:32:35 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "c6395186559a478eca5db5f429f1b3bdd913003f6769304593f38b0b88b68da1",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.11239500000010594
+      },
+      {
+        "url": "https://sentry.io/api/1319025/envelope/?sentry_version=7&sentry_key=7662faec01ce4f4b9f13b275a938fdfc&sentry_client=sentry.javascript.browser%2F9.13.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 325,
+        "remoteIPAddress": "35.186.247.156",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.21783099999993283
+      },
+      {
+        "url": "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 7040,
+        "remoteIPAddress": "23.213.144.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com"
+        },
+        "responseBodyHash": "d4497c390e1cf4089315d0c61bb5c64784d440029208cffbd7b57a2f24ea1bf5",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.20179900000039197
+      },
+      {
+        "url": "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.213.144.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US"
+        ],
+        "time": 0.18561500000032538
+      },
+      {
+        "url": "https://store-site-backend-static-ipv4.ak.epicgames.com/storefrontLayout?locale=en-US&country=US&start=0&count=6",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.213.144.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://store-site-backend-static-ipv4.ak.epicgames.com/storefrontLayout?locale=en-US&country=US&start=0&count=6"
+        ],
+        "time": 0.1848920000002181
+      },
+      {
+        "url": "https://store-site-backend-static-ipv4.ak.epicgames.com/storefrontLayout?locale=en-US&country=US&start=0&count=6",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 32712,
+        "remoteIPAddress": "23.213.144.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com"
+        },
+        "responseBodyHash": "41661ef4adb0b2c7d8c80cea7533b323b5feffbb07785b29cf81cefc3175d938",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.21456000000034692
+      },
+      {
+        "url": "https://store.epicgames.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300, stale-if-error=10800, stale-while-revalidate=10800, public"
+        },
+        "responseBodyHash": "17603fa41e1e2d07039f0b83879a49a2b2b144aa20affc4cc491aa02f8355b76",
+        "redirectedTo": "https://store.epicgames.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/ea2d291c0fdc/main.js?",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 1.7641199999998207
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/tokens-shared-D-QolYXQ.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 769,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "\"3e93188f3bd08548b8352bcedccb0fb3\""
+        },
+        "responseBodyHash": "f568fe5765d5fe36d3557342e8cb3ba97c758bb0035c42493ab5caf68959255a",
+        "initiators": [
+          "https://components.unrealengine.com/footer/footer-jgytM29I.mjs"
+        ],
+        "time": 0.013162000000193075
+      },
+      {
+        "url": "https://components.unrealengine.com/navigation/tokens-shared-CWE5i0vI.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1356,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "W/\"03eadd07b9fa247b4acecdfd3bc60873\""
+        },
+        "responseBodyHash": "d0c1eee3940ad581b622a74039fd5da976fabd79e10405d2bdc8bb76be1ce6e8",
+        "initiators": [
+          "https://components.unrealengine.com/navigation/navigation-CVNzITGf.mjs"
+        ],
+        "time": 0.013122000000294065
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/3e0c82e7863e40818a56f934edc55712/project-murray-10vqs.png?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10090,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"11d80329b4421add626ce5b2e5857728\""
+        },
+        "responseBodyHash": "fed760a5f398f9f1e7adf1b3f17ef2813049ca17d3b57bf85f5df872d788e306",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.05974699999933364
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/71c943751e9642c3918ba6b20ebe4b13/sunderfolk-11244.png?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16799,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"129763062cf261e3a0f6c9885d666a36\""
+        },
+        "responseBodyHash": "b3390639982180b73d7abbc59dc805ef3a3a27450eb96118e369123ff797cf8c",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.05696499999976368
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/4de17726301e4da79ba35e50a4993b74/konfronto-1vkwv.png?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30595,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"13ce41ea93f57f134fdbb2caa319ccbd\""
+        },
+        "responseBodyHash": "783566e7be734e22b0e30abb673821ec84e6350f24d08e95d9c898008e68248c",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.065429000000222
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/12c61d1c72ff446d86c543205876d1e3/yeetquest-tgulx.png?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15412,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"5b75f9fb04010ec754b7d7209ed9ba25\""
+        },
+        "responseBodyHash": "48e3355063f48a60d7578da75fa9da4b28c927710080b10cfa86ab131f6cdf32",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.052525999999488704
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/b2e589fac93746fc8d20b4177f5b3a60/resident-evil-requiem-1fwby.png?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22958,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"731f3dbfeb232f8fd2b3b3d9d90384f0\""
+        },
+        "responseBodyHash": "b45b815364b05eb1233e6f632e785ceb408551432a0de3c36a5d8494bde65197",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.0722700000005716
+      },
+      {
+        "url": "https://tracking.epicgames.com/track.png?referringUrl=none&location=https%3A%2F%2Fstore.epicgames.com%2Fen-US&now=1774987359484&eventType=pageView&l=en-US",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 408,
+        "remoteIPAddress": "98.85.246.25",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0, s-maxage=0",
+          "etag": "W/\"a-bAsFyilMr4Ra1hIU5PyoyFRunpI\"",
+          "expires": "0\n0",
+          "pragma": "no-cache\nno-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://tracking.epicgames.com/tracking.js?p=EGS",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.07610299999942072
+      },
+      {
+        "url": "https://store.epicgames.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/ea2d291c0fdc/main.js?",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12473,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=14400, stale-if-error=10800, stale-while-revalidate=10800, public"
+        },
+        "responseBodyHash": "17603fa41e1e2d07039f0b83879a49a2b2b144aa20affc4cc491aa02f8355b76",
+        "redirectedFrom": "https://store.epicgames.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.02961600000071485
+      },
+      {
+        "url": "https://egs-platform-service.store.epicgames.com/api/v2/public/egs/gifting/offers/giftable",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "104.18.2.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "set-cookie": "__cf_bm=a_HUio7.mDtt8r58ilnc2SF2Wj02NH1MTG63sXSFK3Q-1774987359-1.0.1.1-bmOQTnAaHeDrXQZaVkHN.hEtfjKxiJQkl67vWbruhI.L5xyFOiRmoGiCt6Wl8FqZSwOFfvpGQs5EsXn6ve_P8.ThuUvvDfexAon4pe3.Ju0; path=/; expires=Tue, 31-Mar-26 20:32:39 GMT; domain=.store.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://egs-platform-service.store.epicgames.com/api/v2/public/egs/gifting/offers/giftable"
+        ],
+        "time": 0.272305000000415
+      },
+      {
+        "url": "https://egs-platform-service.store.epicgames.com/api/v2/public/egs/gifting/offers/giftable",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 504,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public"
+        },
+        "responseBodyHash": "62c5a49762cdae36963e07b39aad68fa3e20a5ef124f315325ff6fa9a9c8ca2f",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.41351699999995617
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22offerId%22:%220e36b6c361784674b56b58446cfb8593%22,%22sandboxId%22:%224e00072a641f4d839f220614dccd1c0a%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5198,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"3a5d-2L/+/RG/UeWaLs0SGOjQj/45k+Q\""
+        },
+        "responseBodyHash": "3f72e19be27f8b423ded3c2c8fe8ea8b50f98c6bcef0722a2c5b92c00f0828da",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.038069000000177766
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22offerId%22:%2293fa632bf25b4361abb3a79c86e3f822%22,%22sandboxId%22:%22302e7fc27b6c4f1987e500aa11b0c35a%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4978,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"31e2-ik+tamAS7r7sTzfpGHegwMSnr8U\""
+        },
+        "responseBodyHash": "b02efefb8f4cdeffc38ec2f21547c2af9c2c13c209fa681df500eab6dda6a8e5",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.04358999999931257
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22offerId%22:%22e9386b2b80954c01a81a0b4d52f923d3%22,%22sandboxId%22:%2214d53b5d3fcb4526a69d59f35c9dd28f%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3233,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"199d-Yt77dkSnItneOWaYHS8/jbOdyb4\""
+        },
+        "responseBodyHash": "3a3d4d358c2d49df0d3010b2919fb66dd348c628facb1680c2aef550da5275de",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.04763600000023871
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22offerId%22:%2203c9e4679725466891f8d72c832dcc01%22,%22sandboxId%22:%22cdf68ea2cdbd443ca0bd1de2d9cfea68%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3999,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"29f7-ZyPsJWPyEijZKiB8w4nuKsQdogo\""
+        },
+        "responseBodyHash": "b564c8a718101cbea0c00026674c37937e112f8bf670bde8b0a5c85bac551b48",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.05065100000047096
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22offerId%22:%22297bb10765dd493eb78944e264e16b7c%22,%22sandboxId%22:%223dd83ff56d484e2c8c1d911170df0c52%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5268,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"350d-gODvV7kEEhpcweQK9OXk6I7EOyo\""
+        },
+        "responseBodyHash": "57feac5a97ca3bf2d52bb87658f3f826c33c654a8e358fa8c388e827a9cd27ee",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.07034199999998236
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22sandboxId%22:%22a9ad9b9c5b0546b1860c870d2cea9ee3%22,%22offerId%22:%228ee010c579db4aa690fd5553c07dcc40%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3264,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"1a2e-pM0zmuE57Q0/WEEgft/sy4fx5mk\""
+        },
+        "responseBodyHash": "4eb641f5d14d3a5ce70652faa1e26fc59a7cc030e0ebdef8171903729ffe95f3",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.1220579999999245
+      },
+      {
+        "url": "https://store-site-backend-static-ipv4.ak.epicgames.com/storefrontLayout?locale=en-US&country=US&start=6&count=6",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 63196,
+        "remoteIPAddress": "23.213.144.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com"
+        },
+        "responseBodyHash": "2b9b66fb1fdd70d1a04d7f93deb00ba665290df38f87e0e59a25736616b37095",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.1061730000001262
+      },
+      {
+        "url": "https://store-site-backend-static-ipv4.ak.epicgames.com/storefrontLayout?locale=en-US&country=US&start=6&count=6",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.213.144.254",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://store-site-backend-static-ipv4.ak.epicgames.com/storefrontLayout?locale=en-US&country=US&start=6&count=6"
+        ],
+        "time": 0.08386499999960506
+      },
+      {
+        "url": "https://tracking.epicgames.com/track.png?appName=EPICEVENTTRACKING&appEnv=prod&appBuildID=15fb883c42ce2b31b9119d85fb0da3705fc23a9e&eventAction=PageView&eventCategory=module_load&eventDate=2026-03-31T20%3A02%3A39.906Z&eventLabel=&eventType=pageView&eventValue=%7B%22mainView%22%3A%22Discover%22%2C%22subView%22%3A%22%22%2C%22interactedElement%22%3A%22%22%2C%22sessionOffsetTime%22%3A2623%2C%22sessionTimer%22%3A2.623%2C%22additionalInfo%22%3A%7B%22locale%22%3A%22en-US%22%7D%2C%22pageUrl%22%3A%22https%3A%2F%2Fstore.epicgames.com%2Fen-US%22%2C%22referrerUrl%22%3A%22%22%2C%22prevMainView%22%3A%22%22%2C%22prevSubView%22%3A%22%22%2C%22queryParams%22%3A%22%22%7D&interactionType=FlowRider.PageView&userAgent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F135.0.0.0%20Safari%2F537.36&referringUrl=none&location=https%3A%2F%2Fstore.epicgames.com%2Fen-US&now=1774987359908&l=en-US",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 408,
+        "remoteIPAddress": "98.85.246.25",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0, s-maxage=0",
+          "etag": "W/\"a-bAsFyilMr4Ra1hIU5PyoyFRunpI\"",
+          "expires": "0\n0",
+          "pragma": "no-cache\nno-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://tracking.epicgames.com/tracking.js?p=EGS",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/main.egstore-site.b58a753b83519b0e9fb2.js"
+        ],
+        "time": 0.11363000000073953
+      },
+      {
+        "url": "https://store.epicgames.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.36707159097325237:1774424211:9_pSV23kWGmNtldQToc5YDBzJFUfKD8QS_h75YB-Zx0/9e51f3b3ebdacf31",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 758,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "set-cookie": "cf_clearance=HuJep69T4gKJJtKosMAtjxScyXT7WpLnKLSm3MD7has-1774987360-1.2.1.1-UQ1uEuTqZU0eNqMm5pBdjrJ7.wUQirtVl6rlxlwHm9D7RblvV2ny7uGZE7HZWbZ0R28y8ZEsngoTi7aQcHk6xGjinP7AxrGLmgHC_dGvAHpS5XuUsOUh6waZgyv.RsbHcDj6d_q4imfZgKTaBYWHdWaIeBuRvx5b5kEZfB2X.zLxI61iHtjPnnP2DxFa8xS8D.Tqn2r2VbqNp64M3VDObBgM7lbUVsWx60n_t8FzJPo; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=store.epicgames.com; Expires=Wed, 31 Mar 2027 20:02:40 GMT",
+          "timing-allow-origin": "https://store.epicgames.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://store.epicgames.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.10138300000016898
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-arc-raiders-flashpoint-breaker-1920x1080-d6da914caed7.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 40009,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2573400\npublic; max-age=2592000",
+          "etag": "\"e0ddf8bbd2ecfa6293aefdafa5c49e12\""
+        },
+        "responseBodyHash": "67b8ac0d62ea0b1942e7c33ff41b00372ef58cf615306ca20300a471eb165722",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.11244399999941379
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-egsxbl4-breaker-asset-1920x1080-9724559da098.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 44701,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2484996\npublic; max-age=2592000",
+          "etag": "\"aa539ac0d143e9f7e6929f16074ff8a2\""
+        },
+        "responseBodyHash": "41d322475f7b7f55f57d9c9dc8229e4e41624ef1f06f3b0d6a817be89b3f32ae",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.10889399999996385
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-screamer-breaker-1920x1080-5f22806c7cfc.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23527,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2141951\npublic; max-age=2592000",
+          "etag": "\"34bc53a6080ba1fe4eeeef8fc15dfe6a\""
+        },
+        "responseBodyHash": "33071d2891b4960ff992aa1d66ad33f4adf231049aad3e19c479e0075de11fef",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.11350800000036543
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-kernel-hearts-breaker-1920x1080-a4837805b0ba.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35968,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2583687\npublic; max-age=2592000",
+          "etag": "\"c94b369726d380876cb8a4f217c5b816\""
+        },
+        "responseBodyHash": "157a5fe08dfc0f9aaeaa4375a0a0c60e9a427692bd1b4f8095ebb7a431246717",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.11400900000080583
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/egs-bus-bound-breaker-1920x1080-bd735fa2ac95.jpg?resize=1&w=854&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 39366,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2490937\npublic; max-age=2592000",
+          "etag": "\"146c7469c3c499ea513903eb5d3bbc5d\""
+        },
+        "responseBodyHash": "42b3a4b31706e71e6ee4e02e921ccb4d09601059a966f718241fffe6c7126f59",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.11437599999953818
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/en-gwp-supermeatboy3d-desktop-carousel-asset-3f9803662b17.avif?resize=1&w=1280&h=720&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 259525,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31188628",
+          "etag": "\"c2ebe213bfe7be197812f38d6b90127a\""
+        },
+        "responseBodyHash": "a4c48f7e3afc78cf980fa9a4413ac8d0598f754b94a3437c03e26861b5c5cc34",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.06882200000018202
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/gwp-supermeatboy3d-carousel-thumbnail-1200x1600-ccae70a0cb2f.jpg?resize=1&w=96&h=128&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2445,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=2244634\npublic; max-age=2592000",
+          "etag": "\"34818f381637131e5d9eb8edc4fde429\""
+        },
+        "responseBodyHash": "b7e82ee297832a8801011145f98ef19d4b9afa2a23805b8f2e5797c6d5f099ec",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.06916700000056153
+      },
+      {
+        "url": "https://cdn2.unrealengine.com/gwp-supermeatboy3d-carousel-logo-350x111-6fbee27f82cf.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 27411,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31005149",
+          "etag": "\"1d87b23e90051d156b62da3c2c406e9c\""
+        },
+        "responseBodyHash": "acbb2c45b12f3376dcde12725d065ce90fee536b197aab7c49f69421f403f606",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.06752000000051339
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/f9616d900e1048a29ee9ffe9523c1594/crimson-desert-1lwr4.png?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18081,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"52d5330985a660a13f1afa21c9444840\""
+        },
+        "responseBodyHash": "e61433c40ca7ff2b67cfa919e5d42bfc629944bad31fa6b14a9738c5f15c1099",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.03724599999986822
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/9e8b37541e614575b4de303d2c2e44cf/arc-raiders-hrxqv.jpg?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20912,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"74356f40c653fcde65ad9dee77c24468\""
+        },
+        "responseBodyHash": "b95e1aeddef9bfcb2e8e86af4b3bfda92990aea3bd5a91323c716a71f29a296e",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.042287999999643944
+      },
+      {
+        "url": "https://cdn1.epicgames.com/offer/1d4d85b1051e41ee8f1a099e99d59f3f/EGS_EASPORTSFC26StandardEdition_EACANADA_S2_1200x1600-effee280c00b9890a0c5249d4b0e5c97?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23603,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"effee280c00b9890a0c5249d4b0e5c97\""
+        },
+        "responseBodyHash": "fcbc6ffd42657300388f24126dbe00f4426fe2efa701861c8a260774b5cedbe5",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.04772899999989022
+      },
+      {
+        "url": "https://cdn1.epicgames.com/spt-assets/55c7dc1d520f4cba8ff261b85059f963/squad-1iayo.jpg?resize=1&w=360&h=480&quality=medium",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10979,
+        "remoteIPAddress": "184.28.149.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"79d068b82b619c380196ff916435658f\""
+        },
+        "responseBodyHash": "3d4ff054db713e841c4b233a290fff2521361ebc37721b257b97ccae3540bb83",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.05130699999972421
+      },
+      {
+        "url": "https://egs-platform-service.store.epicgames.com/api/v2/public/egs/gifting/offers/giftable",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 505,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://store.epicgames.com",
+          "cache-control": "public"
+        },
+        "responseBodyHash": "901e328abb439b66f869ee7de594f23ef27fe38629c615a2227bab56172f4c10",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.11637199999950099
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22sandboxId%22:%22b4bb52a95d0b43d9af543c6ec3c54e04%22,%22offerId%22:%226e1b49b0a42f415b9fa77ca632059209%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5810,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"3b50-qq6gwAq2c8TztQU7B9UPCHTG9sE\""
+        },
+        "responseBodyHash": "f033e62667eebe2228b00e5ee349018fe03cf46d6b95154e9c4acab129988ed7",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.06002600000010716
+      },
+      {
+        "url": "https://store.epicgames.com/graphql?operationName=getCatalogOffer&variables=%7B%22locale%22:%22en-US%22,%22country%22:%22US%22,%22sandboxId%22:%2217082e3fa470458fb68c4c8eea658dc9%22,%22offerId%22:%22dcf3c8cc55854f309c5f32d9a7f60207%22%7D&extensions=%7B%22persistedQuery%22:%7B%22version%22:1,%22sha256Hash%22:%22ec112951b1824e1e215daecae17db4069c737295d4a697ddb9832923f93a326e%22%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4314,
+        "remoteIPAddress": "104.18.3.64",
+        "responseHeaders": {
+          "cache-control": "max-age=120, public",
+          "etag": "W/\"2e70-LB6cWKNwVGoKEt71Y6sJOXPYEdY\""
+        },
+        "responseBodyHash": "9d95f2b07337ca67ce2384d12ea2da2ae700407f12c8e35912697a9323bd3058",
+        "initiators": [
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js",
+          "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js"
+        ],
+        "time": 0.2030750000003536
+      },
+      {
+        "url": "https://cms-assets.unrealengine.com/AVzjeqAbLRKi3W5jq0CAvz/cmb81xhnx3wl407o5wzb06x28",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2296,
+        "remoteIPAddress": "18.238.192.15",
+        "responseHeaders": {
+          "etag": "W/\"4e5f34dde7be67dbf795377c9a895e3f\""
+        },
+        "responseBodyHash": "e7bdf59cd23ad3546da99f342e33fa18a0ca7808645573f309e9a6eb335e15e9",
+        "initiators": [
+          "https://components.unrealengine.com/footer/lit-shared-CfJu2WdS.mjs",
+          "https://components.unrealengine.com/footer/footer-jgytM29I.mjs",
+          "https://components.unrealengine.com/footer/egs-footer.mjs"
+        ],
+        "time": 0.15257700000074692
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/facebook.CWLejaHJ-CWLejaHJ.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 856,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "\"9c91ece4b8d2bde044f5589df2274e1f\""
+        },
+        "responseBodyHash": "a4beaee836a33eb4c8b9bacd7f4892ef2fe92329ee5a06a6d7cae2da65542512",
+        "initiators": [
+          "https://components.unrealengine.com/footer/footer-jgytM29I.mjs",
+          "https://components.unrealengine.com/footer/lit-shared-CfJu2WdS.mjs",
+          "https://components.unrealengine.com/footer/egs-footer.mjs"
+        ],
+        "time": 0.011794000000008964
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/twitter-x.BsaC8aT_-BsaC8aT_.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 867,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "\"10b27decf703d130ef126724e00620ba\""
+        },
+        "responseBodyHash": "528ce9fd1f3cd66cd3c20d3f4e9bdf09f03ef0720dfc21047f70e849f68e476a",
+        "initiators": [
+          "https://components.unrealengine.com/footer/footer-jgytM29I.mjs",
+          "https://components.unrealengine.com/footer/lit-shared-CfJu2WdS.mjs",
+          "https://components.unrealengine.com/footer/egs-footer.mjs"
+        ],
+        "time": 0.013347000000067055
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/youtube.C2ZKmD_u-C2ZKmD_u.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1167,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "\"d4f76e554cc4f72a9295aa9c83f9a561\""
+        },
+        "responseBodyHash": "c81827336fab6fdccd2fe32d7018167168acd328ed996b7881ea327ad370ada6",
+        "initiators": [
+          "https://components.unrealengine.com/footer/footer-jgytM29I.mjs",
+          "https://components.unrealengine.com/footer/lit-shared-CfJu2WdS.mjs",
+          "https://components.unrealengine.com/footer/egs-footer.mjs"
+        ],
+        "time": 0.014592999999877065
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/arrow-up-circle.BRIQvQUg-BRIQvQUg.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 951,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "\"1e23dfec4ef6c83119155e35143a4b24\""
+        },
+        "responseBodyHash": "46b842e35b9e8540f5abec701ec400ac1de779c947fd038e7b6b96eb53949ded",
+        "initiators": [
+          "https://components.unrealengine.com/footer/footer-jgytM29I.mjs",
+          "https://components.unrealengine.com/footer/lit-shared-CfJu2WdS.mjs",
+          "https://components.unrealengine.com/footer/egs-footer.mjs"
+        ],
+        "time": 0.013124999999490683
+      },
+      {
+        "url": "https://components.unrealengine.com/footer/check.B535HyRi-B535HyRi.mjs",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 775,
+        "remoteIPAddress": "18.155.202.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=180,stale-while-revalidate=180",
+          "etag": "\"5da08c42b4fe48c20c65d7ccb607ab3a\""
+        },
+        "responseBodyHash": "b222b429178d26bd601a665d6ff1561f0bb417834004b53557702cdd693c95c4",
+        "initiators": [
+          "https://components.unrealengine.com/footer/footer-jgytM29I.mjs",
+          "https://components.unrealengine.com/footer/lit-shared-CfJu2WdS.mjs",
+          "https://components.unrealengine.com/navigation/navigation-CVNzITGf.mjs",
+          "https://components.unrealengine.com/navigation/lit-shared-BhisrU_7.mjs",
+          "https://components.unrealengine.com/navigation/egs-navigation.mjs"
+        ],
+        "time": 0.043765999999777705
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/static/fonts/interfontsvar/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 58033,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "\"2c1fc211bf5cca7ae7e7396dc9e4c824\"",
+          "expires": "Wed, 01 Apr 2026 00:02:42 GMT",
+          "set-cookie": "__cf_bm=r2E_MADxvDefn6rYFcxkyFNbFof0y73f0Ja8CXgS0To-1774987362-1.0.1.1-sa4lRUCQJH9ealmpcUCjrAVeKfY9Nqlq7BOUlRrwhJ.k9DgpLilgH7gLFkI6WKacpFt3RFtzIp6aD5HEykZYyjMNV9QKusp1LGij446Vbns; path=/; expires=Tue, 31-Mar-26 20:32:42 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "4ee7125b53cf25378843a6f4e4d7921152d4554685843dbd310eb7ea900dd778",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.13399200000003475
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/static/fonts/interfontsvar/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17820,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "\"08ccb2a3cfc83cf18d4a3ec64dd7c11b\"",
+          "expires": "Wed, 01 Apr 2026 00:02:42 GMT",
+          "set-cookie": "__cf_bm=iWA4cz96aITVnQAl8CTo8mVLun_p9xvPySVO1vJSWLI-1774987362-1.0.1.1-yBP3y1vLjBv8.KaCqewz.JX0oOTFMtHR0yrZB2IJFIftrcJfCyRFF3ASQKTGnVDWYTbYLkB4KLWD2FOH6Z.ln60VGkoXoCpU95A_XiztMyE; path=/; expires=Tue, 31-Mar-26 20:32:42 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "3206b059d5810a26c350ceffb9dd6e44e8c3f98d78bb52665ef4ce63c9b43914",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.131387999999788
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/static/fonts/interfontsvar/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7W0Q5n-wU.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 9442,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "\"70afeea69c7f52ffccde29e1ea470838\"",
+          "expires": "Wed, 01 Apr 2026 00:02:42 GMT",
+          "set-cookie": "__cf_bm=1HdjWLenS6pzaqRkSsQfTZQg2Dmq7YcEOEGySs7ZL2Q-1774987362-1.0.1.1-..DgEuDXM_CNgI6_uI8ThhLjGQimlPVQ0DAipOiHB1x_bCZ1UduYt4e7Ex7yAOjz8mv4EXW9UJ91HHSW3H5X0NpeTdti_0TmAsWxTxSH3hw; path=/; expires=Tue, 31-Mar-26 20:32:42 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "39251e316f7e22d4d8325a677e8891a6291e8b3626f8b0cf40da2f4b8f2e8abe",
+        "initiators": [
+          "https://store.epicgames.com/en-US"
+        ],
+        "time": 0.057972000000518165
+      },
+      {
+        "url": "https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 5106,
+        "remoteIPAddress": "104.18.15.62",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"6c0eff6b7f1b8042133e90f17e88ef45\"",
+          "expires": "Wed, 01 Apr 2026 20:02:42 GMT",
+          "set-cookie": "__cf_bm=vfykXpfyhaVTcSMsEXGNBIMYI.h1gvY062M8OTnmLS4-1774987362-1.0.1.1-aVJMQJu6shPFmFZhe_n1T5iHoqEF6hyRxx4H8.jl6fjuwK.k_DO.gm52UzqcZySRfnIhq7Z_duNxbf0GzJhXYb3fUhfgme55viL_ULN0LJc; path=/; expires=Tue, 31-Mar-26 20:32:42 GMT; domain=.static-assets-prod.epicgames.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "eb63e5220fdb08be9b33a62705bbad2ba08565bf7e6218f9d7f8c8665730013d",
+        "initiators": [],
+        "time": 0.0430900000001202
+      },
+      {
+        "url": "https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=diesel-site&AppVersion=6.50.0&AppEnvironment=prod&UploadType=eteventstream&UserID=%7C%7C&SessionID=%7B0975c8f6b98740b4947034713b8854c2%7D",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 101,
+        "remoteIPAddress": "44.216.37.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://store.epicgames.com/epic-analytics-worker.js"
+        ],
+        "time": 0.3856930000001739
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": ".www.epicgames.com",
+        "path": "/",
+        "expires": 1774989148738,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".www.epicgames.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".store.epicgames.com",
+        "path": "/",
+        "expires": 1774989149087,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_epicSID",
+        "domain": ".epicgames.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "cf_clearance",
+        "domain": ".store.epicgames.com",
+        "path": "/",
+        "expires": 1806523360497,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".static-assets-prod.epicgames.com",
+        "path": "/",
+        "expires": 1774989162665,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "shared_worker",
+        "url": "https://store.epicgames.com/epic-analytics-worker.js"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://store.epicgames.com/en-US": {
+          "SharedWorker.prototype.constructor": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://static-assets-prod.epicgames.com/epic-store/static/webpack/Vendor.egstore-site.d92049b26697e2699eee.js": {
+          "Navigator.prototype.product": 45,
+          "Navigator.prototype.userAgent": 13,
+          "console.memory": 2,
+          "Navigator.prototype.language": 1,
+          "Document.cookie getter": 13,
+          "window.indexedDB": 1,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Date.prototype.getTime": 5,
+          "Navigator.prototype.platform": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "window.innerHeight": 16,
+          "Event.prototype.timeStamp": 134
+        },
+        "https://static-assets-prod.epicgames.com/epic-store/static/webpack/ClientIndex.egstore-site.bbc7dc7aa95838c593c2.js": {
+          "window.localStorage": 1,
+          "Navigator.prototype.appVersion": 25,
+          "Navigator.prototype.userAgent": 28,
+          "Navigator.prototype.maxTouchPoints": 11,
+          "window.indexedDB": 1,
+          "Date.prototype.getTime": 1362,
+          "window.sessionStorage": 7,
+          "Navigator.prototype.onLine": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 2,
+          "Document.cookie getter": 13,
+          "window.innerWidth": 1,
+          "window.innerHeight": 3
+        },
+        "https://js.hcaptcha.com/1/api.js?render=explicit&uj=true": {
+          "Navigator.prototype.userAgent": 3,
+          "console.memory": 1,
+          "Navigator.prototype.language": 3,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "window.innerWidth": 10,
+          "window.innerHeight": 4,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.colorDepth": 2,
+          "Screen.prototype.pixelDepth": 2,
+          "Screen.prototype.availLeft": 2,
+          "Screen.prototype.availTop": 2,
+          "Screen.prototype.orientation": 2,
+          "Navigator.prototype.vendorSub": 1,
+          "Navigator.prototype.productSub": 1,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.webkitTemporaryStorage": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.appCodeName": 1,
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.onLine": 1,
+          "Navigator.prototype.webdriver": 1,
+          "Navigator.prototype.plugins": 13,
+          "Navigator.prototype.mimeTypes": 1,
+          "Navigator.prototype.connection": 1,
+          "Navigator.prototype.keyboard": 1,
+          "Navigator.prototype.mediaDevices": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.storage": 1,
+          "Navigator.prototype.mediaCapabilities": 1,
+          "Navigator.prototype.permissions": 1,
+          "Navigator.prototype.presentation": 1,
+          "window.devicePixelRatio": 1,
+          "window.localStorage": 10
+        },
+        "https://tracking.epicgames.com/tracking.js?p=EGS": {
+          "Navigator.prototype.userAgent": 2,
+          "window.localStorage": 1,
+          "Navigator.prototype.doNotTrack": 4
+        },
+        "https://store.epicgames.com/cdn-cgi/challenge-platform/scripts/jsd/main.js": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 2,
+          "window.name": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "window.screenX": 1,
+          "window.screenY": 1,
+          "window.outerWidth": 1,
+          "window.outerHeight": 1,
+          "window.devicePixelRatio": 1,
+          "window.screenLeft": 1,
+          "window.screenTop": 1,
+          "window.indexedDB": 1,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.vendorSub": 1,
+          "Navigator.prototype.productSub": 1,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.webkitTemporaryStorage": 1,
+          "Navigator.prototype.webkitPersistentStorage": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.appCodeName": 1,
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.onLine": 1,
+          "Navigator.prototype.mimeTypes": 1,
+          "Navigator.prototype.connection": 1
+        },
+        "https://components.unrealengine.com/navigation/navigation-CVNzITGf.mjs": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 1,
+          "Screen.prototype.orientation": 8,
+          "window.innerWidth": 3
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

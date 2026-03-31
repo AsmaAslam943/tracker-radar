@@ -1,0 +1,1257 @@
+{
+  "initialUrl": "https://mozilla.org/",
+  "finalUrl": "https://www.mozilla.org/en-US/",
+  "timeout": false,
+  "testStarted": 1774987184212,
+  "testFinished": 1774987191487,
+  "data": {
+    "requests": [
+      {
+        "url": "https://mozilla.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "35.190.14.201",
+        "responseHeaders": {
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.mozilla.org/",
+        "initiators": [],
+        "time": 0.13678400000026159
+      },
+      {
+        "url": "https://www.mozilla.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.mozilla.org/en-US/",
+        "redirectedFrom": "https://mozilla.org/",
+        "initiators": [],
+        "time": 0.06962500000008731
+      },
+      {
+        "url": "https://www.mozilla.org/en-US/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 21848,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "etag": "\"3990e5a42b1ed8f3baf11865d3126c62\"",
+          "expires": "Tue, 31 Mar 2026 15:24:39 GMT"
+        },
+        "responseBodyHash": "03f821762f99828fb494fcf2d4d9205b3f764d2c5740ab2ecccfdbcf7ce55fef",
+        "redirectedFrom": "https://www.mozilla.org/",
+        "initiators": [],
+        "time": 0.016353999999410007
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53272,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"91401b28786eefb9448b767a388eac1a\"",
+          "expires": "Tue, 31 Mar 2026 20:00:47 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f379947af87a868dd262bce98ecca8f68ff1064be6b9d8c757f19e5844a016e3",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 2.4336450000000696
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2748,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"8f1217edbde048613a7b2844b28da799\"",
+          "expires": "Wed, 04 Mar 2026 12:29:17 GMT"
+        },
+        "responseBodyHash": "b076f7c00ab528863d57f00212b6d2014683e90f8e1bb501d04abc1d0947ccf9",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.018444000000272354
+      },
+      {
+        "url": "https://www.mozilla.org/media/css/protocol-mozilla.54ea44c214ed.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 9305,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"54ea44c214ed93aa0fbea13649c339d8\"",
+          "expires": "Mon, 12 Jan 2026 13:22:03 GMT"
+        },
+        "responseBodyHash": "1355767c0aa801c19a80df004171b006a8f8d23e9c6a5cbb619c9a7bc1a2a603",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.018293000000085158
+      },
+      {
+        "url": "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5659,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"038277dadfff84bbc2a796b9b4aff4a5\"",
+          "expires": "Wed, 12 Nov 2025 12:26:47 GMT"
+        },
+        "responseBodyHash": "52ecfde7bf1f7b286423a30b951e63f78adf9f839e77796883b2bf4fb5cf0e5f",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.018976000000293425
+      },
+      {
+        "url": "https://www.mozilla.org/media/css/m24-root.c79048453ab7.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1095,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"c79048453ab7774007e821e81b8b9ce4\"",
+          "expires": "Thu, 20 Nov 2025 10:00:23 GMT"
+        },
+        "responseBodyHash": "cf96e4d163d7b560853f4df8fed3c640ebb20df04678b1a016403487b3710c72",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.01900900000055117
+      },
+      {
+        "url": "https://www.mozilla.org/media/css/m24-base.cb7020016bcf.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2750,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"cb7020016bcf21d762ef69310764bd8e\"",
+          "expires": "Mon, 26 Jan 2026 16:26:02 GMT"
+        },
+        "responseBodyHash": "6a50bfe06282de59ba9a883e7609b8ae3a14d4501e65b253c12062f155dc3c12",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.019566999999369727
+      },
+      {
+        "url": "https://www.mozilla.org/media/css/m24-home.d8deebbf1639.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2879,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"d8deebbf1639d272ff2a0a2224eeeeee\"",
+          "expires": "Wed, 04 Mar 2026 12:30:08 GMT"
+        },
+        "responseBodyHash": "75f932ffbfedb585ed031bf0c8dd4498c57c607c2ef59271b97ebd5ee9f3e502",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.019635000000562286
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/gtm-snippet.b5b7c885f8fa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1135,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"b5b7c885f8fafa8b858e310952079003\"",
+          "expires": "Mon, 27 Jan 2025 16:33:52 GMT"
+        },
+        "responseBodyHash": "fe4a889274c8e8a152308fc53b758e4a36d4f09071f52207fda2c09c964db084",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.01897999999982858
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/logos/m24/lockup-black.f2ddba3f0724.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1033,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"f2ddba3f07249ff0f501bb26c1c19318\"",
+          "expires": "Mon, 27 Jan 2025 16:48:03 GMT"
+        },
+        "responseBodyHash": "5f352a7d1dbeff43a0f33b4bb079b43c84010e7cb37570aab7f1e3a9cd8a15d8",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.09667400000034831
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/home/2024/donate-720.0311101afe23.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 92349,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"0311101afe231f554c91912dc39e1842\"",
+          "expires": "Tue, 12 Aug 2025 16:25:36 GMT"
+        },
+        "responseBodyHash": "8c7d4ac2d9a0d9ce3aa386255148af1924f707bba78658bcda02da174fd302ce",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.0316979999997784
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/logos/mozilla/ads/Mozilla_Ads_Logo.6ed26d0eac2b.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1572,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"6ed26d0eac2b7a933652e8013c80443f\"",
+          "expires": "Mon, 06 Oct 2025 17:46:20 GMT"
+        },
+        "responseBodyHash": "1667443c2d4592a7a0ba8e976ae2202b2329525bd29d545767c387aee41a75a0",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.10527799999999843
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2167,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"988c40f6c26c4adda22a73ea6ffd3d8d\"",
+          "expires": "Thu, 30 Oct 2025 21:06:16 GMT"
+        },
+        "responseBodyHash": "c7b9810b930a6d87d44d90c152cbf33f6367e1dfa8a74649ffae412eff4817a4",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.01889500000015687
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/sentry.31edfa94a7f6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19867,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"31edfa94a7f6dc309bcd04956906566a\"",
+          "expires": "Wed, 04 Mar 2026 12:29:17 GMT"
+        },
+        "responseBodyHash": "332350f8b1bba110adcf107cb1f45d386ca73f9413e14719705b5ac8ac7d9610",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.04007799999999406
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/lib.c244ff81b28a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5975,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"c244ff81b28a576f2318216463ba0fea\"",
+          "expires": "Wed, 28 Jan 2026 16:49:03 GMT"
+        },
+        "responseBodyHash": "2cb6c05a5c42b20903541467317e72948bf9db299d7bd417780d7d74c549b9a2",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.043356999999559775
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/fxa.f30434397531.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2674,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"f30434397531ad9fd074b34dfce0a84b\"",
+          "expires": "Wed, 17 Sep 2025 14:56:45 GMT"
+        },
+        "responseBodyHash": "aed26f212b92efee06411e0a661828dd9b25dc5a20899b6ab4b1a0f52770ebed",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.06247799999982817
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/data.a85f0425619e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2973,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"a85f0425619e171c076d0745e4c9e718\"",
+          "expires": "Wed, 04 Mar 2026 12:29:17 GMT"
+        },
+        "responseBodyHash": "857f6178ba33cd4ae77aa1a542b5346009235d2e67615471434e40022c746556",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.06220000000030268
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/m24-ui.71f62c655696.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4400,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"71f62c655696a21c233f20c344547e32\"",
+          "expires": "Wed, 04 Mar 2026 12:29:17 GMT"
+        },
+        "responseBodyHash": "97bec099e1c6c3228e4be672c839fd3979c95007bbbbc69c0420bebfe41814b7",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.07246200000008685
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/stub-attribution.819aeb6b157b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2848,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"819aeb6b157b1a6e70c31c3dfc51dda7\"",
+          "expires": "Thu, 05 Jun 2025 22:03:12 GMT"
+        },
+        "responseBodyHash": "9036be681521accca9b44c86df22088e1fd9ea7c8e7c402f11b611482dc45abc",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.07398300000022573
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/m24-animation.6371da6532a7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 680,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"6371da6532a7986951cbb7353ec72dd5\"",
+          "expires": "Sat, 08 Feb 2025 21:23:12 GMT"
+        },
+        "responseBodyHash": "d3353eab2aba282e8b664a3b33e8fd0269ad0b0c124b56ea67fef0ee1a4d889d",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.08740300000044954
+      },
+      {
+        "url": "https://www.mozilla.org/media/js/consent-banner.497ea1aa3e76.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2449,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"497ea1aa3e769a30b9191c39c5f08178\"",
+          "expires": "Wed, 07 May 2025 10:28:10 GMT"
+        },
+        "responseBodyHash": "b9094064ee0c2e181ee63f8b7926e629721a9ea205f58ee9d3330ee43c127094",
+        "initiators": [
+          "https://www.mozilla.org/en-US/"
+        ],
+        "time": 0.08713400000033289
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/ui.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 101017,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"b985257448d4dba4b33d8e532e4ac0de\"",
+          "expires": "Tue, 31 Mar 2026 20:00:47 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "073c30945515be5bc66a640057d25bdae396285a0cbbe2144b369780ae061773",
+        "initiators": [
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js"
+        ],
+        "time": 0.1018579999999929
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MW3R8V&l=dataLayer",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 126564,
+        "remoteIPAddress": "142.251.214.136",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 19:59:47 GMT"
+        },
+        "responseBodyHash": "12e14b9a2bc8aee11c2697b9f73f2970198302b4a8c592e8ddaae32065be8a44",
+        "initiators": [
+          "https://www.mozilla.org/media/js/gtm-snippet.b5b7c885f8fa.js"
+        ],
+        "time": 0.1801500000001397
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2971,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"eb1324e44442d41cc447bf257456d257\"",
+          "expires": "Mon, 25 Aug 2025 16:02:57 GMT"
+        },
+        "responseBodyHash": "f3dd297ee9ef486e0563beea279318cedc69980cb808747197cd42a311a2ba50",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.038333999999849766
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/arrow-right.a1e6e0252c06.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 645,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"a1e6e0252c0611c17f2aecb425116a13\"",
+          "expires": "Wed, 12 Nov 2025 12:26:59 GMT"
+        },
+        "responseBodyHash": "7c080f1e8cccb923b717bf0916ac2f5a946ac721758a53ffc064787e9e62ccef",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-home.d8deebbf1639.css"
+        ],
+        "time": 0.040600000000267755
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/logos/thunderbird/logo-thunderbird.121e9c0fed45.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3326,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"121e9c0fed45d0469251bb9b2101fe50\"",
+          "expires": "Mon, 27 Jan 2025 17:18:40 GMT"
+        },
+        "responseBodyHash": "efbc3bd5953a3ebaac1e948a8e11abc6b77a2c2720abda7b6f17429fce6136d2",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.04056200000013632
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/logos/mozilla/vpn/logo.c648f487bfb8.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 952,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"c648f487bfb86d8b5b6ffa78b81dd8b7\"",
+          "expires": "Mon, 27 Jan 2025 17:18:40 GMT"
+        },
+        "responseBodyHash": "0bf4f93b464b34baf06157fae0514ea02288acbf1e30fa5be935d8d2dcf0a949",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.04053199999998469
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/logos/firefox/monitor/logo.d97e5516f9e6.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1568,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"d97e5516f9e6641712ee6c8ecae835d7\"",
+          "expires": "Mon, 27 Jan 2025 17:18:40 GMT"
+        },
+        "responseBodyHash": "499b17c0884891ba3a59004e6a9ea8e4baf48122040561f49e87a55a9e3c904b",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.04051600000002509
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/logos/firefox/relay/logo.d42a8b52e44c.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2052,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"d42a8b52e44c0feae33931f12687cf1b\"",
+          "expires": "Tue, 06 May 2025 17:32:05 GMT"
+        },
+        "responseBodyHash": "b1e06b57322d303ba489b45275bf08fd5b9855a591091026eb08e1f385aed946",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.04049200000008568
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/logos/solo/logo-solo.643cbd69b0d8.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1827,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"643cbd69b0d8e1ac87113de8e9693ddf\"",
+          "expires": "Mon, 26 Jan 2026 16:26:03 GMT"
+        },
+        "responseBodyHash": "69214e4420f4fe28b885b7ea0d31374019064c6860a208df376e211064e93d65",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.03828700000030949
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/logos/0din/logo-0din.50589c5926d2.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 804,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"50589c5926d23c8e7e95ab8e1bb89c53\"",
+          "expires": "Mon, 26 Jan 2026 16:26:03 GMT"
+        },
+        "responseBodyHash": "c22081377d9a4cf626bcfe89a9ad32fc0b6a5e8bdea83ae60b6273685ba77638",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.03820899999936955
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/logos/tabstack/logo-tabstack.4551b75d8e6b.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 615,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"4551b75d8e6bc7b0639ab9ef3d5c6416\"",
+          "expires": "Wed, 04 Mar 2026 12:29:48 GMT"
+        },
+        "responseBodyHash": "df84ec6e3f7f8fd6dac93e8dad1d056febeb471d040c4e9ff5be0ed1bd7cf7fd",
+        "initiators": [
+          "https://www.mozilla.org/media/js/newsletter.988c40f6c26c.js"
+        ],
+        "time": 0.03798999999980879
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/icons/m24-small/glasses.8c98d766725a.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 967,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"8c98d766725aa27988e6e2d4786e3a41\"",
+          "expires": "Thu, 20 Nov 2025 10:00:57 GMT"
+        },
+        "responseBodyHash": "283fc529c261ed63dfce4dcfe7975e2c6d1c26df8b73cd78528f6c215af9689d",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-home.d8deebbf1639.css"
+        ],
+        "time": 0.0385149999992791
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/icons/m24-small/arrow-right.81a74c691dc2.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 597,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"81a74c691dc2af18d9072f919668484f\"",
+          "expires": "Thu, 20 Nov 2025 10:00:57 GMT"
+        },
+        "responseBodyHash": "defd1e263c62ea8f4a79c4ef2c18f81a408a3c5301f3f2fe6e0a7284ff14a19f",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-home.d8deebbf1639.css"
+        ],
+        "time": 0.03861300000062329
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-SemiBold.b126cc23eddf.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26851,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"b126cc23eddf70f80a0149d1fa83b662\"",
+          "expires": "Tue, 06 May 2025 17:31:58 GMT"
+        },
+        "responseBodyHash": "899bf6f5660cd2db06fce1989455f7c14f51a79e85447ca7aa535aa3f6b1e484",
+        "initiators": [
+          "https://www.mozilla.org/media/css/protocol-mozilla.54ea44c214ed.css"
+        ],
+        "time": 0.17219100000056642
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/icons/social/bluesky/white.8fd522097881.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 884,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"8fd522097881c592441fa34fd2db03d7\"",
+          "expires": "Tue, 11 Feb 2025 23:23:35 GMT"
+        },
+        "responseBodyHash": "78605402c7cb9d24a0570b52893340af6e6ff3d7aaac873ca07fb6bb7247f6e5",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.0290050000003248
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/social/instagram/white.a7014a6150b3.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1186,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"a7014a6150b3f157b225650a1a94f885\"",
+          "expires": "Mon, 27 Jan 2025 16:48:03 GMT"
+        },
+        "responseBodyHash": "2bf259afe5f595c83db466e7e540e3b76137986e1f2baa4b1c3cb998f8883866",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.029046000000562344
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/social/linkedin/white.cdc0e910cc1e.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 769,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"cdc0e910cc1e8f7529c50c8cbb448da0\"",
+          "expires": "Mon, 27 Jan 2025 17:13:32 GMT"
+        },
+        "responseBodyHash": "716edd8cce3746fa41f736166fcbb00bd634003f9c5c5881945deb4f6e3792fc",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.03127200000017183
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/social/tiktok/white.599403de7ac0.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 842,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"599403de7ac0fce82a3575735076f102\"",
+          "expires": "Mon, 27 Jan 2025 16:35:50 GMT"
+        },
+        "responseBodyHash": "13323b248ca52dc0a651b5f2fcedcd304bba4e5cea889b6c8d19cded1edcebd0",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.030819999999948777
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/social/spotify/white.aa5334e85bae.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 797,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"aa5334e85baea7187c2e1d89f8dc90cc\"",
+          "expires": "Mon, 27 Jan 2025 17:18:38 GMT"
+        },
+        "responseBodyHash": "b7515c6c42564d5d7135f5851f859859ae6f6f560525a164f6a04d92dec7113d",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.0298769999999422
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/social/youtube/white.4f314c43c69d.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 722,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"4f314c43c69d827d253bad3dbb22985c\"",
+          "expires": "Mon, 27 Jan 2025 17:06:06 GMT"
+        },
+        "responseBodyHash": "8ae7e30dc3de0f41af9170a262d44ff461807cebb836703e5375a40e7029dc79",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.02991199999996752
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/globe-white.4887e287b713.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 891,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"4887e287b71316860d15f230aa771c1c\"",
+          "expires": "Wed, 12 Nov 2025 12:26:48 GMT"
+        },
+        "responseBodyHash": "edf3e87878d5eb87e951cab061f7b56b0c076e1ba0d5044d48117cc073ef8e7e",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.029706000000260246
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/img/icons/caret-down-white.19fd9f88ce53.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 676,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"19fd9f88ce53b54cc7eb9fe6b6737c22\"",
+          "expires": "Wed, 12 Nov 2025 12:26:48 GMT"
+        },
+        "responseBodyHash": "27579b6be8f0a7317297b3843d0eb812984e0f36dc995a862b90113d47b35500",
+        "initiators": [
+          "https://www.mozilla.org/media/css/m24-navigation-and-footer.038277dadfff.css"
+        ],
+        "time": 0.02960200000052282
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/fonts/mozilla-headline/MozillaHeadline-SemiBold.bccc6c46c123.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 29121,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"bccc6c46c12340b339dac46277d1b611\"",
+          "expires": "Tue, 06 May 2025 17:31:58 GMT"
+        },
+        "responseBodyHash": "0ebe0e16600ee646726f9e9761d3b3924acbdfe38f76fb12221ffc2faeb5865b",
+        "initiators": [
+          "https://www.mozilla.org/media/css/protocol-mozilla.54ea44c214ed.css"
+        ],
+        "time": 0.16410399999949732
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-Regular.71c103450d6d.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26794,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"71c103450d6d3aeffa396bf5c907b106\"",
+          "expires": "Tue, 06 May 2025 17:31:58 GMT"
+        },
+        "responseBodyHash": "bb22ec26c87e6077cb054dd26b506ba62c3a7e219ee3dcf2657597d15eb35042",
+        "initiators": [
+          "https://www.mozilla.org/media/css/protocol-mozilla.54ea44c214ed.css"
+        ],
+        "time": 0.16601100000025326
+      },
+      {
+        "url": "https://www.mozilla.org/media/protocol/fonts/mozilla-text/MozillaText-Bold.4af7ce689fd6.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26978,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"4af7ce689fd6f170f4cb3189451b4f04\"",
+          "expires": "Tue, 06 May 2025 17:31:58 GMT"
+        },
+        "responseBodyHash": "fd584d71d0840737773f7b7636ed2e5e4d905f6da70e99a350b45a43fad4eb25",
+        "initiators": [
+          "https://www.mozilla.org/media/css/protocol-mozilla.54ea44c214ed.css"
+        ],
+        "time": 0.16570300000057614
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/cm.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4240,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"c750634c9cd79eac7b67a61732a7efbe\"",
+          "expires": "Tue, 31 Mar 2026 20:00:47 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "834216ca8692aa73844f1006cbffee8c8ed9dde0f404a55a325f312054ed625a",
+        "initiators": [
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/ui.js",
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js"
+        ],
+        "time": 0.18001899999944726
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/translations/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2524,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"d66168cb95fd44e543718c023f70ac16\"",
+          "expires": "Tue, 31 Mar 2026 20:00:47 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bc0810146cdf75b9507a4bd7842bd6ac98760b6e5a2034099843d4581421b65e",
+        "initiators": [
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/ui.js",
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js"
+        ],
+        "time": 0.1649619999998322
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 178625,
+        "remoteIPAddress": "142.251.214.136",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 19:59:47 GMT"
+        },
+        "responseBodyHash": "1c4b3baf9729ef54d15d9e970da7774a64ac1c135f207744a399cd4a7ad8b7b0",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MW3R8V&l=dataLayer",
+          "https://www.mozilla.org/media/js/sentry.31edfa94a7f6.js",
+          "https://www.mozilla.org/media/js/gtm-snippet.b5b7c885f8fa.js"
+        ],
+        "time": 0.1538300000001982
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MQ7767QQQW&gtm=45je63u0v877483787z871075029za20gzb71075029zd71075029&_p=1774987187431&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=666361332.1774987188&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=0~115938466~115938468~116991817&sid=1774987188&sct=1&seg=0&dl=https%3A%2F%2Fwww.mozilla.org%2Fen-US%2F&dt=Mozilla%20-%20Internet%20for%20people%2C%20not%20profit%20(US)&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=3441",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.219.46",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.mozilla.org",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MW3R8V&l=dataLayer",
+          "https://www.mozilla.org/media/js/sentry.31edfa94a7f6.js",
+          "https://www.mozilla.org/media/js/gtm-snippet.b5b7c885f8fa.js"
+        ],
+        "time": 0.08866500000021915
+      },
+      {
+        "url": "https://www.mozilla.org/media/img/favicons/mozilla/favicon.d0be64e474b1.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1046,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.bedrock.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"d0be64e474b15a6c4140d1dbd66bf31c\"",
+          "expires": "Wed, 26 Feb 2025 22:51:39 GMT"
+        },
+        "responseBodyHash": "181f27e8233d5d4c0990b44a6989eaafc89092cbe302a38ff1b0cfdf40024156",
+        "initiators": [],
+        "time": 0.010404000000562519
+      },
+      {
+        "url": "https://www.mozilla.org/en-US/firefox/stub_attribution_code/?referrer=&ua=chrome&client_id_ga4=666361332.1774987188&session_id=7718228297&dlsource=mozorg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2696,
+        "remoteIPAddress": "151.101.43.19",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"b620c09fc98c31995c8f3fb98fcc8896\"",
+          "expires": "Tue, 31 Mar 2026 20:04:48 GMT"
+        },
+        "responseBodyHash": "c7a0aff15fdc5be5bb8850aec2937876b245d9be4fd61003d2cb10a5e7856386",
+        "initiators": [
+          "https://www.mozilla.org/media/js/sentry.31edfa94a7f6.js",
+          "https://www.mozilla.org/media/js/stub-attribution.819aeb6b157b.js"
+        ],
+        "time": 0.13854300000002695
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_ga",
+        "domain": ".mozilla.org",
+        "path": "/",
+        "expires": 1809547188150,
+        "session": false
+      },
+      {
+        "name": "_ga_MQ7767QQQW",
+        "domain": ".mozilla.org",
+        "path": "/",
+        "expires": 1809547188292,
+        "session": false
+      },
+      {
+        "name": "moz-stub-attribution-code",
+        "domain": "www.mozilla.org",
+        "path": "/",
+        "expires": 1775073588000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "moz-stub-attribution-sig",
+        "domain": "www.mozilla.org",
+        "path": "/",
+        "expires": 1775073588000,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js": {
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.userAgent": 1,
+          "window.sessionStorage": 1,
+          "window.localStorage": 1,
+          "Navigator.prototype.languages": 3,
+          "Document.cookie getter": 2,
+          "Event.prototype.timeStamp": 19
+        },
+        "https://www.mozilla.org/media/js/site.8f1217edbde0.js": {
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.userAgent": 6,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Document.cookie setter": 14,
+          "Document.cookie getter": 14,
+          "Navigator.prototype.doNotTrack": 4
+        },
+        "https://www.mozilla.org/media/js/gtm-snippet.b5b7c885f8fa.js": {
+          "Date.prototype.getTime": 1
+        },
+        "https://www.mozilla.org/media/js/lib.c244ff81b28a.js": {
+          "Navigator.prototype.userAgent": 8
+        },
+        "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/ui.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.languages": 3
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MW3R8V&l=dataLayer": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 16,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 33,
+          "Date.prototype.getTime": 68,
+          "Navigator.prototype.language": 4,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Document.cookie setter": 5,
+          "window.name": 2
+        },
+        "https://www.mozilla.org/media/js/stub-attribution.819aeb6b157b.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Date.prototype.getTime": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_MQ7767QQQW=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 19:59:48 GMT; domain=mozilla.org; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_MQ7767QQQW=GS2.1.s1774987188$o1$g0$t1774987188$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 19:59:48 GMT; domain=mozilla.org; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.666361332.1774987188; path=/; expires=Thu, 30 Mar 2028 19:59:48 GMT; domain=mozilla.org; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_MQ7767QQQW=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 19:59:48 GMT; domain=mozilla.org; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-MQ7767QQQW&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_MQ7767QQQW=GS2.1.s1774987188$o1$g0$t1774987188$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 19:59:48 GMT; domain=mozilla.org; "
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "moz-stub-attribution-code=c291cmNlPShub3Qgc2V0KSZtZWRpdW09KGRpcmVjdCkmY2FtcGFpZ249KG5vdCBzZXQpJmNvbnRlbnQ9KG5vdCBzZXQpJmV4cGVyaW1lbnQ9KG5vdCBzZXQpJnZhcmlhdGlvbj0obm90IHNldCkmdWE9Y2hyb21lJmNsaWVudF9pZF9nYTQ9NjY2MzYxMzMyLjE3NzQ5ODcxODgmc2Vzc2lvbl9pZD03NzE4MjI4Mjk3JmRsc291cmNlPW1vem9yZw..; expires=Wed, 01 Apr 2026 19:59:48 GMT; path=/; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://www.mozilla.org/media/js/site.8f1217edbde0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "moz-stub-attribution-sig=038ce9748411ef0ce04b3d78ef4d3245b8d3c9fd404eed21d13ce7380f5436e0; expires=Wed, 01 Apr 2026 19:59:48 GMT; path=/; samesite=lax"
+          ]
+        }
+      ]
+    }
+  }
+}

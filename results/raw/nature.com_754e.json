@@ -1,0 +1,1417 @@
+{
+  "initialUrl": "https://nature.com/",
+  "finalUrl": "https://www.nature.com/",
+  "timeout": false,
+  "testStarted": 1774988408260,
+  "testFinished": 1774988417267,
+  "data": {
+    "requests": [
+      {
+        "url": "https://nature.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nature.com/",
+        "initiators": [],
+        "time": 0.049460000000181026
+      },
+      {
+        "url": "https://www.nature.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 303,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "private,must-revalidate,max-age=0,no-store"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature",
+        "redirectedFrom": "https://nature.com/",
+        "initiators": [],
+        "time": 0.38547900000048685
+      },
+      {
+        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "idp_session=sVERSION_19900fd9b-507b-4b99-bd13-0dc634b4385c; Domain=.nature.com; Path=/; Secure; SameSite=None; HttpOnly\nidp_session_http=hVERSION_1e1124437-d194-4f97-867f-373bd1ba1775; Domain=.nature.com; Path=/; HttpOnly\nidp_marker=ae82c324-669a-4629-a1fb-b51509eb3885; Domain=.nature.com; Path=/; Max-Age=34560000; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature&code=16c981c6-58be-4550-9d7a-c2d9ec6045b1",
+        "redirectedFrom": "https://www.nature.com/",
+        "initiators": [],
+        "time": 0.2509879999997793
+      },
+      {
+        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature&code=16c981c6-58be-4550-9d7a-c2d9ec6045b1",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nature.com/nature",
+        "redirectedFrom": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature",
+        "initiators": [],
+        "time": 0.19324500000038825
+      },
+      {
+        "url": "https://www.nature.com/nature",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=600"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nature.com/",
+        "redirectedFrom": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature&code=16c981c6-58be-4550-9d7a-c2d9ec6045b1",
+        "initiators": [],
+        "time": 0.01601699999991979
+      },
+      {
+        "url": "https://www.nature.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 51619,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "private, must-revalidate",
+          "etag": "\"e43436a3c101f261147652e4a74bfabd\"",
+          "set-cookie": "user.uuid.v2=\"14fd6735-e36d-4b5b-a1df-83267ed5b859\"; Expires=Tue, 30 Jun 2026 20:20:09 GMT; Path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "db4e001ff35d6526e4853fd0a0cd78b0c15864a72a62599112f418a58303c5d7",
+        "redirectedFrom": "https://www.nature.com/nature",
+        "initiators": [],
+        "time": 0.5548600000001898
+      },
+      {
+        "url": "https://www.nature.com/static/fonts/HardingText-Regular-Web-cecd90984f.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 69656,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "7baab8169b2d922daf347602e070aa1be06ab7d051a5f6c28cfabcb4b6046b9c",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.12237300000015239
+      },
+      {
+        "url": "https://www.nature.com/static/css/grade-c-5267398a1c.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1697,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "5d4eff9f974cae1e1829503a8c4ae076a4f68a71be151799639484ddd7875b2a",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.10368999999991502
+      },
+      {
+        "url": "https://www.nature.com/static/css/homepage/homepage-150-nature-branded-926b0b24b7.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 21932,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "8379394509515ffcac3995c50cf8f24cb36874463f9109cc3a026b023e854a91",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.10386800000014773
+      },
+      {
+        "url": "https://media.springernature.com/full/nature-cms/uploads/product/nature/header-86f1267ea01eccd46b530284be10585e.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1154,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"86f1267ea01eccd46b530284be10585e\""
+        },
+        "responseBodyHash": "c46fe32f88140bf86e22e78f2bf7d363b6e614a4d709b722cf9c9074811c841c",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8257440000015777
+      },
+      {
+        "url": "https://media.springernature.com/w735h400/nature-cms/uploads/cms/pages/2913/top_item_image/2026-04-XX_NEWS_Artemis_science_THUMB-ea63f98824a828ce1c6c6b251ed0ccbd.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21897,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"ea63f98824a828ce1c6c6b251ed0ccbd\""
+        },
+        "responseBodyHash": "c81487152bc1b261dfa9bd2ef2d371daec80f0b666d61bb3953877200902094b",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8295040000011795
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00901-5/d41586-026-00901-5_52231830.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9056,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"956d3fa4d7d241d87da271526bc4c7fb\""
+        },
+        "responseBodyHash": "766cc42c10a6273a59590eb633651bdf96e3b816059bc6365f44e5a2123db786",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8267869999999675
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00968-0/d41586-026-00968-0_52221178.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19501,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"ae85c43a90f6d85038e17e3deb2bc3b6\""
+        },
+        "responseBodyHash": "adb162c47412103c2653079370d7a603930d605e32457a181d418b7a8a25d3c3",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8384260000002541
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41586-026-10258-4/MediaObjects/41586_2026_10258_Fig1_HTML.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13185,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"55c672bcbae2629ed326edf488e5f938\""
+        },
+        "responseBodyHash": "3dc1dd50f7697e673710ab5c329eb3cf12e5bd67db87f874c0759365cbcc39b0",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8221319999993284
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-01018-5/d41586-026-01018-5_17300602.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4942,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"caa024092c810b35b42b63f1b81f08ea\""
+        },
+        "responseBodyHash": "b5fef9f9245e60178ab3096e9f1efcfe3a3ebe6f06d08d3f31b9616cb15ddd03",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8256959999998799
+      },
+      {
+        "url": "https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/651/8107?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 48529,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"d69156c3eeeea0726e5927ddd2176bd7\""
+        },
+        "responseBodyHash": "290f7a68db4779d1f4e4e209ae1f596916997824bc91569ca16db32c1bf9236d",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8453869999993913
+      },
+      {
+        "url": "https://media.springernature.com/w485h264/magazine-assets/d41586-026-00966-2/d41586-026-00966-2_52198136.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11052,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"212c118addffda90223531a0d10097da\""
+        },
+        "responseBodyHash": "761915c9df172f52f216c55062b7661a570c62887c546db6ccbb25d9bf192a1d",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8500000000003638
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00964-4/d41586-026-00964-4_52221352.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6679,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"ea63f98824a828ce1c6c6b251ed0ccbd\""
+        },
+        "responseBodyHash": "47be2b6e8e2ac0977818b9d02c5266f02be0cc955fc8693e8ac34e56b23012ac",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8290689999994356
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00987-x/d41586-026-00987-x_52228190.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13265,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"3d07f0f0b4372e794ca687a1178d2acf\""
+        },
+        "responseBodyHash": "6914afb2063f16d4e3029dece023e620c9cdeeba12e629798eae7b46dfed1222",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8295449999986886
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00973-3/d41586-026-00973-3_52212280.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 25875,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"2e545ec57170a675f23c49b0c9b7830a\""
+        },
+        "responseBodyHash": "0f9a9e6104a0d4c92174ec9891ed11c95275afaaa42594a468195c6b5947ff50",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8347990000002028
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00998-8/d41586-026-00998-8_52216564.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7919,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"31fec7d8d6d131fe82d4f902181d4e15\""
+        },
+        "responseBodyHash": "8a77a3f3af085cda1c01c3dbdb8b047e3fedd1c577422ebc5d597bd45fd524cc",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8483539999997447
+      },
+      {
+        "url": "https://media.springernature.com/w485h264/magazine-assets/d41586-026-00912-2/d41586-026-00912-2_16029884.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 42189,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"8ee3652aa15bce11a7cedebc542cb979\""
+        },
+        "responseBodyHash": "a950d343693a668edd3c6e7255fb3d7b03f1bb887a76a7c029274f9ef7af43c6",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8431739999996353
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00921-1/d41586-026-00921-1_52198276.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4848,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"6bf280354ab3de908a8970d48463a6da\""
+        },
+        "responseBodyHash": "3c17cdbfc98486c974e47a2818f43334f9724a04f5c09eb5b0315f30928263f5",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8390699999999924
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00639-0/d41586-026-00639-0_52208266.jpg?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6676,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"69b8a07a12c155e982b5b53429da1c16\""
+        },
+        "responseBodyHash": "d2f8cc945a7c74ccb62fd4df3b2cf4551bee841d52b4ff184ec97063ef06a654",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8485840000012104
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00919-9/d41586-026-00919-9_52198256.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5131,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"eebc8ce21dd0189f681c664e3b898086\""
+        },
+        "responseBodyHash": "6e4ac78abe0604c49407566597d6af13ce93384cd04d7f46c7f9eea2e805b8b1",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.8419400000002497
+      },
+      {
+        "url": "https://www.nature.com/static/manifest.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 902,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200"
+        },
+        "responseBodyHash": "9c62774202949758ee4e1bfea0509f9b81f0af7b59adc0a622dbc0bc0982b55f",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.10389699999905133
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/magazine-assets/d41586-026-00924-y/d41586-026-00924-y_52203846.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6046,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400,stale-while-revalidate=86400,stale-if-error=86400",
+          "etag": "\"8c07c09903a863c899505a8db3231562\""
+        },
+        "responseBodyHash": "287dadca9a57584f2364ae1341b0f001d7e36ee88071c2f5cd2806d2287049cc",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.753673000001072
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41586-026-10112-7/MediaObjects/41586_2026_10112_Fig1_HTML.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10437,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"59b6d8b1d5fe5f9098f50d209037f839\""
+        },
+        "responseBodyHash": "caf390565ea5e296ae94ee0775f83ae3f9d4d3d80f13d6322412cc3953125f09",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7601039999990462
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41586-026-10270-8/MediaObjects/41586_2026_10270_Fig1_HTML.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14626,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"5937ee389fe276189af1224e8df77379\""
+        },
+        "responseBodyHash": "0fb2b2a9362157d2524558a270a141ac06894233772260b3e3c5e02c05549e29",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7549610000005487
+      },
+      {
+        "url": "https://cmp.nature.com/production_live/en/consent-bundle-8-102.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 46579,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"1e8c78a52e839428cfb9193a24e5214e\"",
+          "expires": "Tue, 23 Mar 2027 15:44:49 GMT"
+        },
+        "responseBodyHash": "0a03f81b22a2622a3d026636f4077133ebf6793f19b523b8a0c8854d770de6dd",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.728767999999036
+      },
+      {
+        "url": "https://www.nature.com/static/js/journal-homepage-es6-bundle-f21f4cfbb8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3735,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "cfbe225ef2e00c994a90719dadaa07c3b6763737b5608d076401944ce36784d1",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.015323999999964144
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41586-026-10278-0/MediaObjects/41586_2026_10278_Fig1_HTML.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16966,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"d64289709b1f7f0633cadc620a9a51c5\""
+        },
+        "responseBodyHash": "04f9c7e980132fbde37c1559d8269462647ef9735ac9a7158ae2879994ce822d",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7473879999997735
+      },
+      {
+        "url": "https://media.springernature.com/w290h158/springer-static/image/art%3A10.1038%2Fs41586-026-10266-4/MediaObjects/41586_2026_10266_Fig1_HTML.png?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13364,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"ade5f38d1713e22845d37f93bc6bb00f\""
+        },
+        "responseBodyHash": "07d843e6060d1ba2c64c2877dd390e88ed46680bf847c680ce055198a97621f0",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.738868000000366
+      },
+      {
+        "url": "https://media.springernature.com/lw630/nature-cms/uploads/collections/China_HERO_85__copy-bcbbf039b1c96e5cd865ef274826ba42.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 90702,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"bcbbf039b1c96e5cd865ef274826ba42\""
+        },
+        "responseBodyHash": "ae4568e8035430ac81d26c80fa730ad626ed58396b67ce81ac66bb1a958c3d42",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7472350000007282
+      },
+      {
+        "url": "https://badges.altmetric.com/?size=64&score=2089&types=mbvrtwfu",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18929,
+        "remoteIPAddress": "172.66.151.121",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "7751d09e7ad5e8690d064118c23375b3beb05734f9c7d059bafee11434298fcd",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7147060000006604
+      },
+      {
+        "url": "https://badges.altmetric.com/?size=64&score=1257&types=mbvtwfuo",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18801,
+        "remoteIPAddress": "172.66.151.121",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "4a5d26b7da2453726b1bfa29b79cd898e44b3af306af029d5c7ab4f9e2daa5dc",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7121330000009038
+      },
+      {
+        "url": "https://badges.altmetric.com/?size=64&score=703&types=mrttttfu",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18935,
+        "remoteIPAddress": "172.66.151.121",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "9b7e6c2b38ba9b8d2965ef202736ec173000b27be2b5042a8c40bda2d6652a66",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7143140000007406
+      },
+      {
+        "url": "https://badges.altmetric.com/?size=64&score=529&types=mbvtttfu",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18574,
+        "remoteIPAddress": "172.66.151.121",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "47e602cced70306612b5ebcba22f99980f8fb420fea09ac64409bbe74af1d83c",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 1.7240719999990688
+      },
+      {
+        "url": "https://www.nature.com/static/images/logos/nature-careers-logo-3c89275050.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1897,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "a7c0f2205ce8e268a62ca04274d6d2797797db75c563af627251a6a6555436be",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.01102300000093237
+      },
+      {
+        "url": "https://www.nature.com/static/images/logos/nature-briefing-logo-n150-white-afc2e6ccc7.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2017,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "ea7787a62d3c24eb2d3c58b7b15a7b78076ade800422ad7936888022d07c9554",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.010146999999051332
+      },
+      {
+        "url": "https://www.nature.com/static/fonts/HardingText-Bold-Web-c37111391c.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 70910,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "95c23710c78ea754cc2a239dbacc84a83843e742e2cec6deebe13aae43d4d60c",
+        "initiators": [
+          "https://www.nature.com/static/css/homepage/homepage-150-nature-branded-926b0b24b7.css"
+        ],
+        "time": 0.050648000000364846
+      },
+      {
+        "url": "https://verify.nature.com/verify/nature.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2524,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9fb4dacdeda9de12e7acfcc1d5872b64269196d2fcc7d5f11c1cdb5746d645f0",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.2593930000002729
+      },
+      {
+        "url": "https://verify.nature.com/verify/status",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 795,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nature.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9f403d9f45930bb5ec8fc5ec2cd15bd3de6363ff5b9fc28fff7fa7fd8a8f0920",
+        "initiators": [
+          "https://verify.nature.com/verify/nature.min.js"
+        ],
+        "time": 0.21115300000019488
+      },
+      {
+        "url": "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 201510,
+        "remoteIPAddress": "185.142.146.48",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:34:50 GMT"
+        },
+        "responseBodyHash": "82cbadae71369d004e3d092c51fff1e00872298743394a95d910ad83b493412e",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.8055380000005243
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MRVXSHQ&gtg_health=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 392,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:20:13 GMT"
+        },
+        "responseBodyHash": "c24c8a68f1ffcf9b37963dfdf26c4874c307feceac1245180f85db1da436416a",
+        "initiators": [
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.19407500000124855
+      },
+      {
+        "url": "https://sgtm.springernature.com/collect-cmp?en=banner_visible&ec=undefined&dl=https%253A%252F%252Fwww.nature.com%252F&dr=&dt=Nature&sr=800x600&gtmid=GTM-MRVXSHQ",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 162,
+        "remoteIPAddress": "185.142.146.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.6141220000008616
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34615,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "43 / 20543 / m202603240101 / config-hash: 15401705038150461854",
+          "expires": "Tue, 31 Mar 2026 20:20:13 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bd266ece96e76dce4525b9130daad6117494667ee9a16eb97464b20b1a2e5205",
+        "initiators": [
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.2825119999997696
+      },
+      {
+        "url": "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125557,
+        "remoteIPAddress": "18.155.192.106",
+        "responseHeaders": {
+          "cache-control": "max-age=3600,stale-if-error=86400,stale-while-revalidate=3600",
+          "etag": "W/\"a0019eee00342a861642b0d5a6942c15\""
+        },
+        "responseBodyHash": "c0c4c6db76d29dc11d8c025f8250b0c82d744ec1a7281ed7dd18b211e120ed66",
+        "initiators": [
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.172497999999905
+      },
+      {
+        "url": "https://idp.nature.com/exposed-details",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 656,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nature.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "eac4b4edc53543ce3ffa092d2f2f5c2910c3e057444dd9795e268d1d62f02bbf",
+        "initiators": [
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.2770860000000539
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 186307,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=31536000",
+          "etag": "5499532569289001589",
+          "expires": "Wed, 31 Mar 2027 06:20:56 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e4de8744b151398d9ab17e65aeed7850e84ffabe31a71a465044ddb6fcf69ba",
+        "initiators": [
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/tag/js/gpt.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.053033999998660875
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/dict/m202603310101/gpt",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 23650,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=604800, stale-while-revalidate=7200",
+          "etag": "562959975875977607",
+          "expires": "Tue, 07 Apr 2026 15:01:49 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "606dfeebc6423cbaba3c047b35b1837816b81ebcd40b3cf0a730baca25512741",
+        "initiators": [
+          "https://www.nature.com/"
+        ],
+        "time": 0.050842000000557164
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/gampad/ads?pvsid=7644850620045738&correlator=4156302227725341&eid=31097445%2C31088081%2C83322595&output=ldjh&gdfp_req=1&vrg=202603240101&ptt=17&impl=fifs&ltd=1&npa=1&iu_parts=270604982%2Cnature%2Chomepage&enc_prev_ius=%2F0%2F1%2F1%2F2&prev_iu_szs=728x90&ifi=1&didk=4224914489&dids=div-gpt-ad-top-1&adfs=2558633880&sfv=1-0-45&eri=1&sc=1&abxe=1&dt=1774988413287&lmt=1774988413&adxs=8&adys=8&biw=1440&bih=812&scr_x=0&scr_y=0&btvi=0&ucis=1&oid=2&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&u_tz=-420&dmc=16&bc=31&nvt=1&uach=WyIiLCIiLCIiLCIiLCIiLG51bGwsMCxudWxsLCIiLG51bGwsMF0.&url=https%3A%2F%2Fwww.nature.com%2F&vis=1&psz=1424x121&msz=1424x0&fws=4&ohw=1440&dlt=1774988410033&idt=3199&prev_scp=pos%3DLB1%26type%3Dhomepage%26path%3D%252Fnature%26bpid%3D3000123641%2C3902410118%2C8200759741%26logged%3Dn%26consent_analytics%3Dfalse%26consent_marketing%3Dfalse%26consent_ads%3Dfalse&adks=4020127752&frm=20",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4010,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nature.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0c5af061b66348dd0765b89529a78a512c9a78e06c5bc2482749e428af27e988",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.16344500000013795
+      },
+      {
+        "url": "https://61387d8f00964dbc9c16a7cd4ca4e6e2.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 3147,
+        "remoteIPAddress": "142.251.218.129",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:20:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f1a68bf826c55985468304f4284a09cb8a68e82503d764166e611a7c58a85a4b",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js"
+        ],
+        "time": 0.19451300000037008
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/gampad/ads?pvsid=7644850620045738&correlator=2815860140477633&eid=31097445%2C31088081%2C83322595&output=ldjh&gdfp_req=1&vrg=202603240101&ptt=17&impl=fifs&ltd=1&npa=1&iu_parts=270604982%2Cnature%2Chomepage&enc_prev_ius=%2F0%2F1%2F1%2F2&prev_iu_szs=2x2&ifi=2&didk=2465956383&dids=div-gpt-ad-native-1&adfs=2167860374&sfv=1-0-45&eri=1&sc=1&abxe=1&dt=1774988413315&lmt=1774988413&adxs=-12245933&adys=-12245933&biw=1440&bih=812&scr_x=0&scr_y=0&btvi=-1&ucis=2&oid=2&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&u_tz=-420&dmc=16&bc=31&nvt=1&uach=WyIiLCIiLCIiLCIiLCIiLG51bGwsMCxudWxsLCIiLG51bGwsMF0.&url=https%3A%2F%2Fwww.nature.com%2F&vis=1&psz=18x16&msz=0x0&fws=132&ohw=1440&dlt=1774988410033&idt=3199&prev_scp=pos%3DNATIVE1%26articleid%3D%252Fnature%26path%3D%252Fnature%26bpid%3D3000123641%2C3902410118%2C8200759741%26logged%3Dn%26consent_analytics%3Dfalse%26consent_marketing%3Dfalse%26consent_ads%3Dfalse&adks=2112980994&frm=20",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 152,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.nature.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e238115f2c0aba1edbe65a7c633b554b1af0758ee45ac6d97a53fc04cf077727",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.05049899999903573
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pcs/view?xai=AKAOjsspYoV0BGOjYqco6IozdvpikEgEwWYOMv8M3hRcuNsFXJMR777FOzBWbWhI0pQe9dqF0IRbS-kJ1RnMbx_4I5JPh4gcKZVa8g_v4Tbz_RnArwHALT7pgz1ecRa78YInV6CiwPYPDJeQoyiGnUiRqKZViAKrs1LEKFjhQO3Z1A4L7c8Z3xcn-RUWXKnKaDuHpafyyemk0LgyAeGH1R1ubt1aY4GvDIC_dO_e0zF_lY9IAVhujI4GNYkd5iwpTjYDQ_V7CjHwEkcMQxXec2XkGoaC7mGbevH1qn96HDOsjS4yGpN5WVMjq6I5Nx-WrhJ6476m-vJFEhNoukdMx9tH7tVKXDwpgdsBzIKN6523eOxqvtz_Cu4MZgeYQAN0FMi2ASbgdS6ElVLXLdSA59o0OQFrPEGaIlosFiSPa9-tWwjJqlxadAEL6NI2u4OIVp_yaPKsyA&sig=Cg0ArKJSzGq7_pFA53pjEAE&uach_m=%5BUACH%5D&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version\nSec-CH-UA-Full-Version-List\nSec-CH-UA-Model\nSec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-WoW64",
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.2600450000009005
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/js/r20260330/r20110914/client/window_focus_fy2021.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1262,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1209600",
+          "etag": "772434001065076922",
+          "expires": "Tue, 14 Apr 2026 06:20:57 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "73ef34ed57b69c5a35720bfc3ac6ebf6da3cf1289824112841d403c0fd169f97",
+        "initiators": [
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.03471299999910116
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 74878,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600, stale-while-revalidate=3600",
+          "etag": "16160666205786945521",
+          "expires": "Tue, 31 Mar 2026 21:00:54 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6c53963a015f6efe83e3c61d25a030148a43e3d2fb7e835cb1ff99a79c26fe8c",
+        "initiators": [
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.033729000000676024
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/simgad/15422866739803798356",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19556,
+        "remoteIPAddress": "142.251.218.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 04:58:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e6a1ce6ab665916c21a9460179fa68334967df3a4750ba8becb730ee9ff585b4",
+        "initiators": [
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.081584000001385
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=fle-fetch-start2",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.10822600000028615
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.10003099999994447
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pcs/view?xai=AKAOjssEeYNIwMwbg6zSusLE4M4FDtuNtI4xKTCoeulbbKnIrFA4Tg17b4oviTWxJzSmRHF4PDzMMcGyik2r7AwM4ClQnXlSG0rbBNYSiEuhbw7OyTWah5jMsShcHNeV6fMSsIOtEB6r3EwPF50MIl1z91yuSQapSntJtTs5h5b_hyV6QlRIWXZe1_Ux5BHQ-sVeCrG5oPE9x2_ZCemZGM9xVTt7czMzPt7K60kS-BNANaB8XzIdHzCYEvSH9eSnYUzpyPmr5u1lFT1QyYqMAip7g8kDYsBJ71-5jeAH6UAnLIUjpH_vOGEmp7WXPLEg9eq6-A0hLsNJoJmPrs3l427NxgcdAIzNyypd8QZLkkgpeUFuvGN_8VbhIsUxJeEplU2Pb3Ndun7KwAccGYAz__7fDLJVI5NtZ4undqqR8-T3RLTjOvmzQAzgP9Ta1yBWBQ54SHFSBdhS&sig=Cg0ArKJSzK5lCxWzgp-IEAE&uach_m=%5BUACH%5D&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version\nSec-CH-UA-Full-Version-List\nSec-CH-UA-Model\nSec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-WoW64",
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.10532199999943259
+      },
+      {
+        "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202603240101&st=env&sjk=7644850620045738",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 13564,
+        "remoteIPAddress": "142.251.214.34",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e201bce4b7cade5c66c48abf8ebf78b6ba1b0c573265bfbace81477f7248b14b",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js"
+        ],
+        "time": 0.16915500000141037
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWACaAM%3D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+          "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://www.nature.com/"
+        ],
+        "time": 0.11688600000161387
+      },
+      {
+        "url": "https://www.nature.com/static/images/favicons/nature/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2956,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200"
+        },
+        "responseBodyHash": "8c24647f76fa755eb5e9a23baa357b5c88d5f7fb3790382035799fe8ffc3679a",
+        "initiators": [],
+        "time": 0.03425500000048487
+      },
+      {
+        "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8053,
+        "remoteIPAddress": "142.251.46.225",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1772145733101481\"",
+          "expires": "Tue, 31 Mar 2026 20:20:14 GMT"
+        },
+        "responseBodyHash": "893c7f6aca9aca8c8aded19a9cd8919cbd7a205cff7f6503d1241b8fa2f721ff",
+        "initiators": [
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js"
+        ],
+        "time": 0.150047999999515
+      },
+      {
+        "url": "https://ep2.adtrafficquality.google/sodar/sodar2/253/runner.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 5894,
+        "remoteIPAddress": "142.251.46.225",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:27:34 GMT"
+        },
+        "responseBodyHash": "b77745f4a57eb621e30714ec9daf54ab1191ea694bca8898a48b5ce75de5843b",
+        "initiators": [
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js"
+        ],
+        "time": 0.13843200000155775
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/bg/ZIzB8s1QoM1C3e503wgQte6I0JAva7VBMwP5N5aaLdo.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22480,
+        "remoteIPAddress": "142.251.214.130",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 04:57:36 GMT"
+        },
+        "responseBodyHash": "648cc1f2cd50a0cd42ddee74df0810b5ee88d0902f6bb5413303f937969a2dda",
+        "initiators": [
+          "https://ep2.adtrafficquality.google/sodar/sodar2/253/runner.html"
+        ],
+        "time": 0.05397300000004179
+      },
+      {
+        "url": "https://ep2.adtrafficquality.google/generate_204?HR7QGw",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 40,
+        "remoteIPAddress": "142.251.46.225",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://ep2.adtrafficquality.google/sodar/sodar2/253/runner.html"
+        ],
+        "time": 0.07154699999955483
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjstNOr4V_ItJOOaL7xbjVv60Regz43RZCkXgVQp2eOORFTs90eTN6Og025zWUIvn-XtES05mS3tu5fo1Z_jnN549Vlyc5b4iEFNjKCtYCgvQKNU0tgJw1-zX5rcK6F_TDd9xkSFJfp1rNAAq06e2bZgQQUfrf5hjrwSbnRJMzmokJtqS98fsyePR8Q8PnA&sig=Cg0ArKJSzMC0cOCPR9TuEAE&id=lidar2&mcvt=1001&p=47,356,137,1084&tm=1015&tu=13.900000000372529&mtos=1001,1001,1001,1001,1001&tos=1001,0,0,0,0&v=20260323&bin=7&avms=nio&bs=1440,812&mc=1&vu=1&app=0&itpl=3&adk=4020127752&rs=4&la=0&cr=0&uach=WyIiLCIiLCIiLCIiLCIiLG51bGwsMCxudWxsLCIiLG51bGwsMF0%3D&vs=4&r=v&co=7092121300&rst=1774988413496&rpt=385&isd=0&lsd=0&met=mue&wmsd=0&pbe=0&fle=0&vae=0&spb=0&sfl=0&ffslot=0&reach=8&io2=0",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 65,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js"
+        ],
+        "time": 0.03733699999975215
+      },
+      {
+        "url": "https://ep1.adtrafficquality.google/pagead/sodar?id=sodar2&v=253&t=2&li=gpt_m202603240101&jk=7644850620045738&bg=!4eKl4oDNAAYbyhOnO8o7AEcBe5WfOEtEbKFDItkKs6iEEm0QsK-Mfd23NHbJ8xvl66Vti9vMJWw6relAUUcKilDvEjf7R0ILI7ILqj2jCBJEETfdKfwgdAIAAABeUgAAABdoAQd-ADequl-TlSMJv3R9-RLq5IfSjKeX8oGH2swcA6QvGal7jTi4YzQm9Wea2EaCpjstmLtFWJQ5go6DmQJ7xPJagexJrsviu_umju3QNyouruu6-1KcPRm2ZcLTTECcGKWzmniAfP3yLJKQh1rHkPXpVFVAu9VXm7QT37om_oY385Zb5EesoE9RMh7eaFfLa7Hfi9Oh5OwtXLrK6uRSLzSt3A0kdVkrFqq8ry-uJJj69RqoXWmbA-_fs06iIldHnygCZq-eZuPP4g3EYzyKTzFuRSQ3hv9fDfz5K4mZk3GZ2zTmdAIM0VwGU33xYq5cjfQkyg387iDq6YHKBD6jlEZ10es3Lr_cWPkZI7YydEfHkERPGpNnlh6XOCfwIsEjBjDOJs2871s08VafYOy1DgHbFv-23plRYCMDrFGbUU60qkVe4OjMVEAD5ebyeElpX8pKQ_TXo_XabUqfFWqbJEqxvPHdBg7YjvdC32_SUaD6NJzDleo-HaEKlGUh3TJ1b4xXMUmEteTW9opJh0ybxm6ufHaUazZEOZLhdKHzRVkG8KKG67QI67wZgnxFTdq9BYTuInityrX2mKL_L1STlylFtARkMHpyrRQ37tqzz24p9w4L5yjzljD5SfqkEOl3zIMt2WKKiEUjdZ2hD-_T3l-1F7_OmxtlAyQX6pPlTZaoaqx_wGosYuCkB858ZXKbyqWQqi_o7JX27iuOyy5HtOUa_KlQBatVFf2Yb203W0GU-N6KnaOf-U6tY6hk7ef7X-LOFnNVVfUxNYL6oZfB6E2cTauyeaMA9TA37V6zsMWK9YC08Ufj2B8GEQiMOxeNoGPDqUbByyNOJ3PmLEJ4WNW7Ws18cdEWMLnmwzqgKzUhNnuPyRLnaqeiieFHQl7ki3w1MLInXSlQb3ZEx_JQwVp6hi1eSmD7Wlk",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.251.214.34",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2",
+          "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js"
+        ],
+        "time": 0.08051800000066578
+      }
+    ],
+    "cookies": [
+      {
+        "name": "idp_session",
+        "domain": ".nature.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "idp_session_http",
+        "domain": ".nature.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "idp_marker",
+        "domain": ".nature.com",
+        "path": "/",
+        "expires": 1809548409416,
+        "session": false
+      },
+      {
+        "name": "user.uuid.v2",
+        "domain": "www.nature.com",
+        "path": "/",
+        "expires": 1782850809026,
+        "session": false
+      },
+      {
+        "name": "sncc",
+        "domain": ".nature.com",
+        "path": "/",
+        "expires": 1806524411947,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.nature.com/static/js/journal-homepage-es6-bundle-f21f4cfbb8.js": {
+          "window.localStorage": 2,
+          "Document.cookie getter": 1
+        },
+        "https://cmp.nature.com/production_live/en/consent-bundle-8-102.js": {
+          "Document.cookie getter": 3,
+          "Document.cookie setter": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        },
+        "https://www.nature.com/": {
+          "Date.prototype.getTime": 1
+        },
+        "https://sgtm.nature.com/gtm.js?id=GTM-MRVXSHQ": {
+          "Navigator.prototype.userAgent": 35,
+          "Document.cookie getter": 17,
+          "Date.prototype.getTime": 87,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "window.localStorage": 1,
+          "window.innerHeight": 5,
+          "window.innerWidth": 5
+        },
+        "https://scripts.webcontentassessor.com/scripts/93dabb8d80079a87fec7bb6f67b807fce90e1688f8957ad7ad152bfd58ea01c2": {
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "window.devicePixelRatio": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://pagead2.googlesyndication.com/tag/js/gpt.js": {
+          "Document.cookie getter": 3,
+          "Navigator.prototype.userAgent": 12
+        },
+        "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js": {
+          "Navigator.prototype.userAgent": 76,
+          "PerformanceTiming.prototype.navigationStart": 5,
+          "Screen.prototype.width": 6,
+          "Screen.prototype.height": 6,
+          "window.innerHeight": 9,
+          "window.innerWidth": 12,
+          "Date.prototype.getTime": 8,
+          "Screen.prototype.availHeight": 4,
+          "Screen.prototype.availWidth": 4,
+          "Screen.prototype.colorDepth": 4,
+          "window.devicePixelRatio": 4,
+          "Date.prototype.getTimezoneOffset": 4,
+          "Navigator.prototype.deviceMemory": 4,
+          "Element.prototype.getClientRects": 6
+        },
+        "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js": {
+          "Navigator.prototype.userAgent": 175,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "PerformanceTiming.prototype.navigationStart": 1
+        },
+        "https://pagead2.googlesyndication.com/bg/ZIzB8s1QoM1C3e503wgQte6I0JAva7VBMwP5N5aaLdo.js": {
+          "Date.prototype.getTimezoneOffset": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.connection": 1,
+          "window.devicePixelRatio": 1,
+          "BarProp.prototype.visible": 4,
+          "Performance.prototype.memory": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "speechSynthesis.__proto__.getVoices": 2,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 1,
+          "Navigator.prototype.plugins": 2,
+          "Navigator.prototype.mimeTypes": 1,
+          "HTMLMediaElement.prototype.canPlayType": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cmp.nature.com/production_live/en/consent-bundle-8-102.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "sncc=P%3D8%3AV%3D102.0.0%26C%3DC01%26D%3Dfalse;path=/;domain=nature.com;max-age=31536000;samesite=Lax"
+          ]
+        }
+      ]
+    }
+  }
+}

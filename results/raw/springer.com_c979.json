@@ -1,0 +1,761 @@
+{
+  "initialUrl": "https://springer.com/",
+  "finalUrl": "https://link.springer.com/brands/springer",
+  "timeout": false,
+  "testStarted": 1774988181045,
+  "testFinished": 1774988189626,
+  "data": {
+    "requests": [
+      {
+        "url": "https://springer.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.springer.com/",
+        "initiators": [],
+        "time": 0.0469119999997929
+      },
+      {
+        "url": "https://www.springer.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 303,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://link.springer.com/brands/springer",
+        "redirectedFrom": "https://springer.com/",
+        "initiators": [],
+        "time": 0.22885700000006182
+      },
+      {
+        "url": "https://link.springer.com/brands/springer",
+        "method": "GET",
+        "type": "Document",
+        "status": 303,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer",
+        "redirectedFrom": "https://www.springer.com/",
+        "initiators": [],
+        "time": 0.2561789999999746
+      },
+      {
+        "url": "https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://idp.springer.com/transit?redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer&code=88a5a45a-72ce-4639-8bd4-c3735c83786c",
+        "redirectedFrom": "https://link.springer.com/brands/springer",
+        "initiators": [],
+        "time": 0.25627299999996467
+      },
+      {
+        "url": "https://idp.springer.com/transit?redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer&code=88a5a45a-72ce-4639-8bd4-c3735c83786c",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "idp_session=sVERSION_1daa39f13-e5bf-454b-9908-192584c022ad; Domain=.springer.com; Path=/; Secure; SameSite=None; HttpOnly\nidp_session_http=hVERSION_12f76f15e-074d-47b6-ab1c-329ddbfacac4; Domain=.springer.com; Path=/; HttpOnly\nidp_marker=9889ef5a-7d57-4f56-8e12-6d80d453649c; Domain=.springer.com; Path=/; Max-Age=34560000; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://link.springer.com/brands/springer",
+        "redirectedFrom": "https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer",
+        "initiators": [],
+        "time": 0.1808679999994638
+      },
+      {
+        "url": "https://link.springer.com/brands/springer",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 60993,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "etag": "\"536e595eb8c81ae6cbb2c18476f25ced\"",
+          "set-cookie": "user.uuid.v2=\"20774080-aefe-4ba8-b345-d130892cfd40\"; Expires=Tue, 30 Jun 2026 20:16:22 GMT; Domain=.springer.com; Path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "552693a046b7545da18ad011f3b8fb1d2435d8ef8c127984d6f4e60185d41b06",
+        "redirectedFrom": "https://idp.springer.com/transit?redirect_uri=https%3A%2F%2Flink.springer.com%2Fbrands%2Fspringer&code=88a5a45a-72ce-4639-8bd4-c3735c83786c",
+        "initiators": [],
+        "time": 0.5617950000005294
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/app-springerlink/css/core-darwin-e33163985d.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1380,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "73c3e902932e5d1e98ce568c19da7d2817807e80bf10d3956d2beb54c2ff07d6",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.02586700000028941
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/app-springerlink/css/enhanced-brand-hub-springer-c368be5c23.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 30907,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e1a790d48e7e88af2ad7adf0fc890f5de707832c61757933bbef95170e105ecb",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.0285489999996571
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/app-springerlink/css/print-5e77550b92.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 711,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "276aa40dad7a2db0cce425736512e607e6e859fe6b4b34728c1d3ad63e61aaa4",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.10621499999979278
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/images/darwin/header/img/logo-springer-nature-link-05805fde18.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2490,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "a6871e54b01e2e523fe436c2ea018f17a18cacc10b62e8bd4e974c3d8e311c53",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.012847999999394233
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/images/brand-hubs/springer_logo-c830ed344c.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3072,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "e1c9938fa894c3848aaf1dc603cbff2cb41e5ff1283365ba5ba3ab5ec1e3520e",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.015706000000136555
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/images/brand-hubs/springer_hero-0802427e76.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 715580,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "589961fae3428978848eb1d6f40fd7269049a40b94edc01dc50f7e90635571eb",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.10435000000052241
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/images/brand-hubs/brand-badge-german-538891401d.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1666,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "44d80646ebd896914458959260e1880e8a9293355d516ddc9699cb4d051426f4",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.04198100000030536
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/js/polyfill-es5-bundle-f665f963ea.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23512,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "571215ac5a4ffada3007bea2c7dba4692680cbb1a933b6b8a0483ecbba5db2f7",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.07817400000021735
+      },
+      {
+        "url": "https://cmp.springer.com/production_live/en/consent-bundle-17-72.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41001,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"7053462bec52756cb29458edd8a25340\"",
+          "expires": "Wed, 10 Feb 2027 05:20:04 GMT"
+        },
+        "responseBodyHash": "0757aceb18a723f2533362ad31bdc487b0e60a70ff50e5f119b6aa792cc64022",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.064256999999998
+      },
+      {
+        "url": "https://cart.springer.com/cart-info",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 199,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://link.springer.com",
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.28116599999975733
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/fonts/merriweather/subsets/latin/MerriweatherSans-Variable-Optimised-latin-subset-6a2bbc1ea4.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 50436,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "23d95cab08b20b633efe1cd9e39f1636039ce88761d8644f5c384d63ae994c86",
+        "initiators": [
+          "https://link.springer.com/oscar-static/app-springerlink/css/enhanced-brand-hub-springer-c368be5c23.css"
+        ],
+        "time": 0.053973999999470834
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover-hires/book/978-3-662-65435-4?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6576,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"f6ee60deb51772e40bbda8530b6026c8\""
+        },
+        "responseBodyHash": "147bc11a618965a64874b0e21eec6d1c8848a05b0f341c31a45f67220c3ebac9",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.0249260000000504
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover-hires/book/978-3-032-12359-6?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8814,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"cd0af5962dcab3581acdc7fa7e445e67\""
+        },
+        "responseBodyHash": "54118c3a959b39290f9de6a8a38f3f3c2960713bd0a2aab668aa0fa706764848",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.0266160000001037
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover-hires/book/978-3-658-50388-8?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5999,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"19462aeca33cb209b42d0db3c9fe486d\""
+        },
+        "responseBodyHash": "5bd586fb47dea449d91818de67f2011b1680a71ffdc730e4aadf5cbcb2f5b008",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.0364709999994375
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover-hires/book/978-981-95-2947-6?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7586,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"4fb61b81e2663b3a02f431ec40a534d6\""
+        },
+        "responseBodyHash": "b57c85829bab11f27fb33756f902f26a2c6bf2c3d81ec7c63582292260146cd0",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.0263709999999264
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover-hires/book/978-981-95-7968-6?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10225,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"c7baf5acb31cdf4a8c3e382b112bb91b\""
+        },
+        "responseBodyHash": "396468a2c42fe27df01c8c06d48bec719fa8efc0771c43dd403957487316a0ce",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.028508999999758
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover-hires/book/978-3-662-71991-6?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7332,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"a89f0e11ea9c4e60e1413d9198952acc\""
+        },
+        "responseBodyHash": "28d61858c2b7df45a88aadfa27221290c43d84b9d79f791e70c2823af2c8d14a",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.0365010000004986
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover/series/16185.jpg?as=webp?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17182,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"d164985c422ae9d4150d0f090ab5f4fc\""
+        },
+        "responseBodyHash": "9a686381ee8ea74ebb4361b6cd603871f801a6e0fc6f6acfa35e5319196be2de",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.038246000000072
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover/series/16378.jpg?as=webp?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13523,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"c34ea977575e38c83340543210abd683\""
+        },
+        "responseBodyHash": "14860e70cbb62ccc4e05801c431d781b39ea4db28dfd4a2088af0444d621b3dd",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.0419670000001133
+      },
+      {
+        "url": "https://media.springernature.com/w184/springer-static/cover/series/15818.jpg?as=webp?as=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9293,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2628000,stale-while-revalidate=2628000,stale-if-error=2628000",
+          "etag": "\"18b403ce48a8ff297769efc9e629f7d7\""
+        },
+        "responseBodyHash": "f207dcfe23b4fc2e70cf908cd8472979d226fa62ce0f03edd2257cea064d61e4",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 2.041707000000315
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/js/brandhubspage-es6-bundle-bc4bf4619f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10388,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "b1ae08580eb5737de5cc3cc604b0f7e7dd901de873bb2488f313e38b44569d3e",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.031151000000136264
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS-MML_SVG.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19003,
+        "remoteIPAddress": "151.101.65.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"f82c-bFHSR1BJpowZfDDiGm31msh0nx4\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9ef249bfdc162849bcf2abe8425f5e90bd89fa4fd1588b1a492731c65b2bbfc9",
+        "initiators": [
+          "https://link.springer.com/oscar-static/js/brandhubspage-es6-bundle-bc4bf4619f.js",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 1.965744000000086
+      },
+      {
+        "url": "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 201438,
+        "remoteIPAddress": "185.142.146.48",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:30:51 GMT"
+        },
+        "responseBodyHash": "c2d4603ea47a11c10711bda77d5f20a5f14ac66988e05362b263405469210302",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 1.1337560000001758
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/config/TeX-AMS-MML_SVG.js?V=2.7.5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 65914,
+        "remoteIPAddress": "151.101.65.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"3aeeb-iAfD1zjhS7Y11lshAPXmapIacBQ\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5aa9baedb9a34356985b86c7da892a7a05ed4cc894cee337079e04ac2f4cb2ee",
+        "initiators": [
+          "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS-MML_SVG.js",
+          "https://link.springer.com/oscar-static/js/brandhubspage-es6-bundle-bc4bf4619f.js",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.022880000000441214
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/jax/output/HTML-CSS/config.js?V=2.7.5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2089,
+        "remoteIPAddress": "151.101.65.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"df2-UxM5/KRj9NjRA/0j18ua9yOLI3w\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "873f612c27a1217299052c1180faf13fd2190f43aa2e7b563822aa2c2d79652c",
+        "initiators": [
+          "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS-MML_SVG.js",
+          "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/config/TeX-AMS-MML_SVG.js?V=2.7.5",
+          "https://link.springer.com/oscar-static/js/brandhubspage-es6-bundle-bc4bf4619f.js",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.011886000000231434
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MRVXSHQ&gtg_health=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 392,
+        "remoteIPAddress": "142.251.214.136",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:16:26 GMT"
+        },
+        "responseBodyHash": "c24c8a68f1ffcf9b37963dfdf26c4874c307feceac1245180f85db1da436416a",
+        "initiators": [
+          "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.10570199999983743
+      },
+      {
+        "url": "https://sgtm.springernature.com/collect-cmp?en=banner_visible&ec=undefined&dl=https%253A%252F%252Flink.springer.com%252Fbrands%252Fspringer&dr=&dt=Springer%20%7C%20Partner,%20knowledge,%20expertise&sr=800x600&gtmid=GTM-MRVXSHQ",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 162,
+        "remoteIPAddress": "185.142.146.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.2561179999993328
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34515,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "872 / 20543 / m202603240101 / config-hash: 15401705038150461854",
+          "expires": "Tue, 31 Mar 2026 20:16:26 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "020761c46304878897203beae7d43a38908da3507e9336dc3956148ed20d9766",
+        "initiators": [
+          "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.08689700000013545
+      },
+      {
+        "url": "https://idp.springer.com/exposed-details",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 655,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://link.springer.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "cb444e90ef4b857e4ad02d00385a22eae4f176f561a48204ce1d530c567b85e1",
+        "initiators": [
+          "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.24276000000008935
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 186307,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=31536000",
+          "etag": "5499532569289001589",
+          "expires": "Wed, 31 Mar 2027 06:20:56 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e4de8744b151398d9ab17e65aeed7850e84ffabe31a71a465044ddb6fcf69ba",
+        "initiators": [
+          "https://pagead2.googlesyndication.com/tag/js/gpt.js",
+          "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ",
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.0465329999997266
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/managed/dict/m202603310101/gpt",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 23650,
+        "remoteIPAddress": "142.251.218.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=604800, stale-while-revalidate=7200",
+          "etag": "562959975875977607",
+          "expires": "Tue, 07 Apr 2026 15:01:49 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "606dfeebc6423cbaba3c047b35b1837816b81ebcd40b3cf0a730baca25512741",
+        "initiators": [
+          "https://link.springer.com/brands/springer"
+        ],
+        "time": 0.05196200000045792
+      },
+      {
+        "url": "https://link.springer.com/oscar-static/img/favicons/darwin/favicon-de0c289efe.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1430,
+        "remoteIPAddress": "151.101.40.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "2f80ca244a47ca4d58ca61ca0fac0a484c40207658b40b8730d0b4ccc78d7226",
+        "initiators": [],
+        "time": 0.00834099999974569
+      }
+    ],
+    "cookies": [
+      {
+        "name": "idp_session",
+        "domain": ".springer.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "idp_session_http",
+        "domain": ".springer.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "idp_marker",
+        "domain": ".springer.com",
+        "path": "/",
+        "expires": 1809548182138,
+        "session": false
+      },
+      {
+        "name": "user.uuid.v2",
+        "domain": ".springer.com",
+        "path": "/",
+        "expires": 1782850582856,
+        "session": false
+      },
+      {
+        "name": "sncc",
+        "domain": ".springer.com",
+        "path": "/",
+        "expires": 1806524185093,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://cmp.springer.com/production_live/en/consent-bundle-17-72.js": {
+          "Document.cookie getter": 3,
+          "Document.cookie setter": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        },
+        "https://link.springer.com/brands/springer": {
+          "Date.prototype.getTime": 1
+        },
+        "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS-MML_SVG.js": {
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.platform": 2,
+          "Document.cookie getter": 2
+        },
+        "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/config/TeX-AMS-MML_SVG.js?V=2.7.5": {
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        },
+        "https://sgtm.springer.com/gtm.js?id=GTM-MRVXSHQ": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 17,
+          "Date.prototype.getTime": 85,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "window.localStorage": 1
+        },
+        "https://pagead2.googlesyndication.com/tag/js/gpt.js": {
+          "Document.cookie getter": 3,
+          "Navigator.prototype.userAgent": 12
+        },
+        "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202603240101/pubads_impl.js": {
+          "Navigator.prototype.userAgent": 65,
+          "PerformanceTiming.prototype.navigationStart": 3,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerHeight": 9,
+          "window.innerWidth": 10
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cmp.springer.com/production_live/en/consent-bundle-17-72.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "sncc=P%3D17%3AV%3D72.0.0%26C%3DC01%26D%3Dfalse;path=/;domain=springer.com;max-age=31536000;samesite=Lax"
+          ]
+        }
+      ]
+    }
+  }
+}

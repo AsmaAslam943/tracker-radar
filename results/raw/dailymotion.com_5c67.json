@@ -1,0 +1,2784 @@
+{
+  "initialUrl": "https://dailymotion.com/",
+  "finalUrl": "https://www.dailymotion.com/",
+  "timeout": false,
+  "testStarted": 1774988684169,
+  "testFinished": 1774988698818,
+  "data": {
+    "requests": [
+      {
+        "url": "https://dailymotion.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "195.8.215.136",
+        "responseHeaders": {
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.dailymotion.com/",
+        "initiators": [],
+        "time": 0.8051730000006501
+      },
+      {
+        "url": "https://www.dailymotion.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 20484,
+        "remoteIPAddress": "34.214.37.125",
+        "responseHeaders": {
+          "etag": "W/\"d265-77QKj98GB8uqQlfK+3BFmETzzQQ\"",
+          "set-cookie": "ff=on; Domain=.dailymotion.com; Path=/; Secure; SameSite=None\nff=on; Domain=.dailymotion.com; Path=/; Secure; SameSite=None\nts=815421; Path=/; Domain=dailymotion.com; Expires=Sat, 01 May 2027 20:24:46 GMT; Max-Age=34214399; Secure; SameSite=None\nv1st=b604de94-d7f2-4fed-a992-c16251f37604; Path=/; Domain=dailymotion.com; Expires=Sat, 01 May 2027 20:24:46 GMT; Max-Age=34214399; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0a392c01ffa6c429579dccbe68c3512c36203638e9d99adeb047dbfc417805d0",
+        "redirectedFrom": "https://dailymotion.com/",
+        "initiators": [],
+        "time": 0.6042509999988397
+      },
+      {
+        "url": "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42986,
+        "remoteIPAddress": "108.138.246.64",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"2d2c12321d621b817bdf31cb82604b52\""
+        },
+        "responseBodyHash": "7022e4a7f798da10076936623230291bd5781f50e9e9323d419e4060c19ff66d",
+        "initiators": [
+          "https://www.dailymotion.com/"
+        ],
+        "time": 3.4708669999999984
+      },
+      {
+        "url": "https://geo.dailymotion.com/player/xtv3w.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9356,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "max-age=60"
+        },
+        "responseBodyHash": "6f3b65aed948bbd459de30bb2bfbb646e9914718821f6f469cdce03f80d22a7c",
+        "initiators": [
+          "https://www.dailymotion.com/"
+        ],
+        "time": 3.4870059999993828
+      },
+      {
+        "url": "https://webed.dm-event.net/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://www.dailymotion.com/"
+        ],
+        "time": 3.5919659999999567
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app-styles.44dfda6a9d7f82f4e2e5.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 31634,
+        "remoteIPAddress": "13.249.74.17",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "W/\"3ed7aaa1606c89d0e6842214399b604c\""
+        },
+        "responseBodyHash": "5568cdf300420c2f0a117fa6e8908b208c3817f3ec403fdc01f448d4a39d727d",
+        "initiators": [
+          "https://www.dailymotion.com/"
+        ],
+        "time": 3.459662000001117
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 97911,
+        "remoteIPAddress": "13.249.74.17",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "W/\"96f8b9b3c57ce875fdd751ada6e4355a\""
+        },
+        "responseBodyHash": "ce08f42ea214144b3e7b6086729a55787c006b25a634357389f855d7d75c3441",
+        "initiators": [
+          "https://www.dailymotion.com/"
+        ],
+        "time": 3.4824790000002395
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2002,
+        "remoteIPAddress": "142.251.2.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 31 Mar 2026 20:24:49 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9c5c880c12ea9a857ac38a26fa4dbf7cff0e1398925d4bf5674e6ae70c812c9b",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app-styles.44dfda6a9d7f82f4e2e5.css"
+        ],
+        "time": 0.13254000000051747
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.infopack.8f97014a50846e907f80.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17376,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"5f98c633feb7ca7a4f51e1e390591877\""
+        },
+        "responseBodyHash": "8fd684a14b208b0f5a9564c1b6c1a9e8bbb28511dafdf688f6d85548e8be8d3f",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.039157999999588355
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_vendor.4c05a05f7c86ba88b43f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 181860,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"03c9fa6484716ec0a862bceeaf8d9bd3\""
+        },
+        "responseBodyHash": "c5f0d53c7fe76d0ce4c3f0a61bc5bab658d69595c6a40843f03f54bf72bf38ab",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.06495999999970081
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 65139,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"2e928f90190b6dfb9ecee6720118be70\""
+        },
+        "responseBodyHash": "57c3ee7f4b5399ccaabc59c8debf75da3e353ed0bea650ea41b90c6da4f2c172",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.047872999999526655
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51970,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"efecfa87a53b56061bc160fe9b022e9f\""
+        },
+        "responseBodyHash": "1ec252e66665d7c4823dd2e5da379cb24f92fa4c5905a822123fe671686d0601",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.054044999998950516
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_player.2b0b7c1ed3c8e333727d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38315,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ad1368117bda037f810e65bf704dfaae\""
+        },
+        "responseBodyHash": "a57d17b2ed6e7361d86075878059e7a29675615b71fe69a2325ca64408048383",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.04762699999992037
+      },
+      {
+        "url": "https://pebed.dm-event.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.7095939999999246
+      },
+      {
+        "url": "https://pebed.dm-event.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.5072810000001482
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/pes.iframe.b78a3c57.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7727,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"70bbcf460b81fbe0ec889368c4392516\""
+        },
+        "responseBodyHash": "913970310e3e5bf4d198aedd3c0ebb837b531436f6f026464cad98182f4ee0b8",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.030595000000175787
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/favicons/manifest.d2ccee56e762a6c4b7d7.json",
+        "method": "GET",
+        "type": "Manifest",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"2cb1641030856b343a54a7b78ade9295\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://www.dailymotion.com/"
+        ],
+        "time": 0.10013900000012654
+      },
+      {
+        "url": "https://cdn.privacy-mgmt.com/unified/4.40.1/usnat.f12613136193900e32e2.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42905,
+        "remoteIPAddress": "108.138.246.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"5001d6519c532df147ac104b5e5f6eee\""
+        },
+        "responseBodyHash": "74e9b8ff8b7aeee85e47bc9e668e028476bf037917f9c875ad48821eacf23fba",
+        "initiators": [
+          "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.02378099999987171
+      },
+      {
+        "url": "https://cdn.privacy-mgmt.com/mms/v2/get_site_data?hasCsp=true&href=https%3A%2F%2Fwww.dailymotion.com%2F&account_id=1945",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 605,
+        "remoteIPAddress": "108.138.246.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600, s-maxage=86400"
+        },
+        "responseBodyHash": "af1df4326dfe33009e6676a16c4ff47a6bf2b37e9c6aac4b3ead4458159a5620",
+        "initiators": [
+          "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.0485659999994823
+      },
+      {
+        "url": "https://webed.dm-event.net/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://www.dailymotion.com/",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js"
+        ],
+        "time": 0.15117800000007264
+      },
+      {
+        "url": "https://cdn.privacy-mgmt.com/wrapper/v2/meta-data?hasCsp=true&accountId=1945&env=prod&metadata=%7B%22usnat%22%3A%7B%7D%7D&propertyId=34227&scriptVersion=4.40.1&scriptType=unified",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 786,
+        "remoteIPAddress": "108.138.246.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600, s-maxage=3600"
+        },
+        "responseBodyHash": "908d2f1975edc97150872b770f241662501da7ff4b16773615302317ded98b76",
+        "initiators": [
+          "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.08642299999883107
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/pes.pip.efd7392b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4791,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"093b5089ea28bec01dcb2a104916ea4d\""
+        },
+        "responseBodyHash": "6a1ccf9368a8feaad5b3c8c931236a0f6eea82c0f5356e1a82d1d346cca72267",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js",
+          "https://geo.dailymotion.com/static/latest/cdn/pes.iframe.b78a3c57.js"
+        ],
+        "time": 0.08205799999996088
+      },
+      {
+        "url": "https://geo.dailymotion.com/player/xtv3w.html?",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 8041,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "max-age=60"
+        },
+        "responseBodyHash": "ce4879cf72b86f8820a61f34c4674a9cd580245ee273a6c7d017511841ffe61c",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/pes.iframe.b78a3c57.js",
+          "https://geo.dailymotion.com/player/xtv3w.js"
+        ],
+        "time": 0.08353899999929126
+      },
+      {
+        "url": "https://pebed.dm-event.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.js",
+          "https://geo.dailymotion.com/static/latest/cdn/pes.iframe.b78a3c57.js"
+        ],
+        "time": 0.5934429999997519
+      },
+      {
+        "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 50414,
+        "remoteIPAddress": "65.8.180.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "\"64b92a8b-c320\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "151b36b1fb524b009c5f2478543176da604e6271bc72b1e8a90dbaf4afe0fe46",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app-styles.44dfda6a9d7f82f4e2e5.css"
+        ],
+        "time": 0.0799910000005184
+      },
+      {
+        "url": "https://cdn.privacy-mgmt.com/wrapper/v2/messages?hasCsp=true&env=prod&body=%7B%22accountId%22%3A1945%2C%22campaignEnv%22%3A%22prod%22%2C%22campaigns%22%3A%7B%22usnat%22%3A%7B%22consentStatus%22%3A%7B%7D%2C%22hasLocalData%22%3Afalse%2C%22targetingParams%22%3A%7B%22usState%22%3A%22CA%22%7D%7D%7D%2C%22clientMMSOrigin%22%3A%22https%3A%2F%2Fcdn.privacy-mgmt.com%22%2C%22hasCSP%22%3Atrue%2C%22includeData%22%3A%7B%22localState%22%3A%7B%22type%22%3A%22string%22%7D%2C%22actions%22%3A%7B%22type%22%3A%22RecordString%22%7D%2C%22cookies%22%3A%7B%22type%22%3A%22RecordString%22%7D%7D%2C%22propertyHref%22%3A%22https%3A%2F%2Fwww.dailymotion.com%2F%22%7D&localState=null&metadata=%7B%22usnat%22%3A%7B%22applies%22%3Atrue%7D%7D&nonKeyedLocalState=null&ch=450348232e04c&scriptVersion=4.40.1&scriptType=unified",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1513,
+        "remoteIPAddress": "108.138.246.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, s-maxage=1200"
+        },
+        "responseBodyHash": "bf4beb6eb8b9a94786c3116fcdbae48255bfb826a40e3b119caf0a8fd85e1708",
+        "initiators": [
+          "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.012062000001606066
+      },
+      {
+        "url": "https://cdn.privacy-mgmt.com/wrapper/v2/pv-data?hasCsp=true&env=prod&ch=450348232e04c&scriptVersion=4.40.1&scriptType=unified",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "108.138.246.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.privacy-mgmt.com/wrapper/v2/pv-data?hasCsp=true&env=prod&ch=450348232e04c&scriptVersion=4.40.1&scriptType=unified"
+        ],
+        "time": 0.0733380000001489
+      },
+      {
+        "url": "https://cdn.privacy-mgmt.com/wrapper/v2/pv-data?hasCsp=true&env=prod&ch=450348232e04c&scriptVersion=4.40.1&scriptType=unified",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 749,
+        "remoteIPAddress": "108.138.246.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "ce68bfa6fa5503ae09de21a138fb00c79a8184d976d65dd907f14b51af80821a",
+        "initiators": [
+          "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+          "https://cdn.privacy-mgmt.com/unified/4.40.1/usnat.f12613136193900e32e2.bundle.js"
+        ],
+        "time": 0.15389300000060757
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.infopack.8f97014a50846e907f80.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"5f98c633feb7ca7a4f51e1e390591877\""
+        },
+        "responseBodyHash": "8fd684a14b208b0f5a9564c1b6c1a9e8bbb28511dafdf688f6d85548e8be8d3f",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.0011880000001838198
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_vendor.4c05a05f7c86ba88b43f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"03c9fa6484716ec0a862bceeaf8d9bd3\""
+        },
+        "responseBodyHash": "c5f0d53c7fe76d0ce4c3f0a61bc5bab658d69595c6a40843f03f54bf72bf38ab",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.0012100000003556488
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"2e928f90190b6dfb9ecee6720118be70\""
+        },
+        "responseBodyHash": "57c3ee7f4b5399ccaabc59c8debf75da3e353ed0bea650ea41b90c6da4f2c172",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.0012389999992592493
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"efecfa87a53b56061bc160fe9b022e9f\""
+        },
+        "responseBodyHash": "1ec252e66665d7c4823dd2e5da379cb24f92fa4c5905a822123fe671686d0601",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.002921999999671243
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_player.2b0b7c1ed3c8e333727d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ad1368117bda037f810e65bf704dfaae\""
+        },
+        "responseBodyHash": "a57d17b2ed6e7361d86075878059e7a29675615b71fe69a2325ca64408048383",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.003343000000313623
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.690703fa4c6ab805a46f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24755,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"e22612880cb1231a6c0346fe89e921e3\""
+        },
+        "responseBodyHash": "29441f78d7942bac82dbb9312c25bd3e308b830c43950ed140fa31c1f17f0996",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.017832000001362758
+      },
+      {
+        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 151989,
+        "remoteIPAddress": "142.250.101.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "13364406011499220640",
+          "expires": "Tue, 31 Mar 2026 20:24:50 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1a8c9e1131527c5377c7d731842e460055a2f6e038a0b1ae2ad0175f9e54108c",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.17729599999984202
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 72276,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"07078e5c863d5ecd6ca07f4eafeea91a\""
+        },
+        "responseBodyHash": "02758addd92ec46c5a29c114c28f62774f1802ac5e52aa8691c21f20e934133d",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.0160409999989497
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.locale-en-US.6680a1e9a26e0cedc89f.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2978,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ee71b3d7e15e2cf4c94c2a2913e69abe\""
+        },
+        "responseBodyHash": "a1386efda5499864d730ba917239568aa524567fbd028f1b3baf0ce285ab89d7",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.690703fa4c6ab805a46f.js"
+        ],
+        "time": 0.010751000001619104
+      },
+      {
+        "url": "https://pebed.dm-event.net/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.690703fa4c6ab805a46f.js"
+        ],
+        "time": 0.35215900000002875
+      },
+      {
+        "url": "https://pebed.dm-event.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.690703fa4c6ab805a46f.js"
+        ],
+        "time": 0.5079380000006495
+      },
+      {
+        "url": "https://vendorlist.dmcdn.net/v2/archives/vendor-list-v204.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 56079,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"037d31538a79f2570ba74318ce6479f9\""
+        },
+        "responseBodyHash": "b0978fb0412437ad74f3482f09b3c0084254e06ca8a3956467c7a388746ab840",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.infopack.8f97014a50846e907f80.js"
+        ],
+        "time": 0.3092849999993632
+      },
+      {
+        "url": "https://pebed.dm-event.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.690703fa4c6ab805a46f.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.399650000001202
+      },
+      {
+        "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.180.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "\"64b92a8b-c320\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "151b36b1fb524b009c5f2478543176da604e6271bc72b1e8a90dbaf4afe0fe46",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.0007559999994555255
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.omweb-v1.83107b47376e0c05d33b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15742,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"fbb9328c3912b3e00a0b805915fd578c\""
+        },
+        "responseBodyHash": "62db2c89c81cc94a0b961093e3c984f411e2891d2439196a3966b5a41132c642",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.011336999999912223
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.omid-session-client-v1.7f675153e29102bef4a2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11068,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"df409fba9b3e81299146b494ecd3e5d9\""
+        },
+        "responseBodyHash": "2d54d7718d3e123317198576d3c55a3e1af274be6750ded1984ad4dbe0100209",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.015156999999817344
+      },
+      {
+        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.101.95",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "13364406011499220640",
+          "expires": "Tue, 31 Mar 2026 20:24:50 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1a8c9e1131527c5377c7d731842e460055a2f6e038a0b1ae2ad0175f9e54108c",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js"
+        ],
+        "time": 0.0021010000000387663
+      },
+      {
+        "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.controls_vod_secondary.16713dded1e4363638c8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13122,
+        "remoteIPAddress": "3.168.86.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"5375593e1c050c4eb3d5ef2574004f54\""
+        },
+        "responseBodyHash": "c2e6e0d5f1e274b0319220e9ebf1de78c42d76c5cc8cd444e4fa2c5ae32f30f5",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_player.2b0b7c1ed3c8e333727d.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_vendor.4c05a05f7c86ba88b43f.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js"
+        ],
+        "time": 0.012600000000020373
+      },
+      {
+        "url": "https://static1.dmcdn.net/ABCFavorit-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 51524,
+        "remoteIPAddress": "65.8.180.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "\"64b92933-c774\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0a4372d01f53a4945634c412eef262067687ae08f62e9e4f3736bda6848db12e",
+        "initiators": [
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.023037000000840635
+      },
+      {
+        "url": "https://vendorlist.dmcdn.net/v3/archives/vendor-list-v63.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 79306,
+        "remoteIPAddress": "65.8.180.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"afb98d40f0e3a2d5fe0ebd8646f30eb3\""
+        },
+        "responseBodyHash": "8582a24f5fe1f387e85b61217719a218547d1e6c97deedd904efc464bfc270c8",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.infopack.8f97014a50846e907f80.js"
+        ],
+        "time": 0.10511099999894213
+      },
+      {
+        "url": "https://imasdk.googleapis.com/js/core/bridge3.754.1_en.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 276773,
+        "remoteIPAddress": "74.125.137.95",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 27 Mar 2027 15:10:48 GMT"
+        },
+        "responseBodyHash": "a50e0ad2f113fc950887284334506eabe227ec9e3aeafa322f3f74c9d842e982",
+        "initiators": [
+          "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js"
+        ],
+        "time": 0.24561399999947753
+      },
+      {
+        "url": "https://s0.2mdn.net/instream/video/client.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17201,
+        "remoteIPAddress": "142.251.218.102",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:24:51 GMT"
+        },
+        "responseBodyHash": "d0bffc7261df1454c5e05475cda7d9e6647318dc6c3936767e1252bfe8849c54",
+        "initiators": [
+          "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.1274599999997008
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15751,
+        "remoteIPAddress": "142.251.46.226",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 31 Mar 2026 21:05:27 GMT"
+        },
+        "responseBodyHash": "52d26e14225a6ca8e783f4b2115863bd90470e2b43e739865c309cd0d91c22a1",
+        "initiators": [
+          "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.06784899999911431
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 272499,
+        "remoteIPAddress": "13.249.74.17",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "W/\"58049dc6b92d3adc0484233d3b2def18\""
+        },
+        "responseBodyHash": "d9e48e3b5639be1f0835e3a7aa584d8dec9a572230d5aa4356e416f15f661446",
+        "initiators": [
+          "https://www.dailymotion.com/",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js"
+        ],
+        "time": 0.0934899999992922
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 144144,
+        "remoteIPAddress": "13.249.74.17",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "W/\"8b1a62ca90499a58a3fd5d7f57dcd821\""
+        },
+        "responseBodyHash": "de3e121a220866f27cbe4e174cbd91840a0b263c7574fe96615183866096255a",
+        "initiators": [
+          "https://www.dailymotion.com/",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js"
+        ],
+        "time": 0.06073400000059337
+      },
+      {
+        "url": "https://pebed.dm-event.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.1513699999995879
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/favicons/manifest.d2ccee56e762a6c4b7d7.json",
+        "method": "GET",
+        "type": "Manifest",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"2cb1641030856b343a54a7b78ade9295\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://www.dailymotion.com/"
+        ],
+        "time": 0.23045099999944796
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/388.d6f72505af02015f16b0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11947,
+        "remoteIPAddress": "13.249.74.17",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "W/\"9ecec5b5d15da938d0e1c8b075ee044d\""
+        },
+        "responseBodyHash": "99b71d2882c5b2f68ecaac3af69d87e7eca4150297e4c9e8f51b2643f8611309",
+        "initiators": [
+          "https://www.dailymotion.com/",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js"
+        ],
+        "time": 0.014076000001296052
+      },
+      {
+        "url": "https://dmads.dailymotion.com/js/dmads.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2802,
+        "remoteIPAddress": "3.168.86.89",
+        "responseHeaders": {
+          "etag": "W/\"33b1d5b4bd8c933b5b9be0fb2641db82\""
+        },
+        "responseBodyHash": "572a0bd8b508253c5722e313b9f0d683e47fd414ef07e55cab61ab6c9a3405fb",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://www.dailymotion.com/"
+        ],
+        "time": 0.039322999999058084
+      },
+      {
+        "url": "https://cdn.hubvisor.io/wrapper/01EZWD1S0HKM48S35DDHP8C9C1/hubvisor.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 293094,
+        "remoteIPAddress": "151.101.42.132",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600, stale-while-revalidate=604800",
+          "etag": "\"5d83cf7ee5cd9be1104750141b52f468\"",
+          "expires": "Fri, 07 Nov 2025 12:59:39 GMT"
+        },
+        "responseBodyHash": "5354735bb012c10f91a6c3e68b74b8780f148c32c6fcaf6ae60dc7db9b063f0d",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://www.dailymotion.com/",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js"
+        ],
+        "time": 0.10315300000002026
+      },
+      {
+        "url": "https://www.dailymotion.com/cookie/dmaid",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "34.214.37.125",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "set-cookie": "dmaid=be5c6dd1-8594-415c-a37d-08985cc53bea; expires=Sun, 25-Apr-2027 20:24:52 GMT; Max-Age=33696000; path=/; samesite=None; domain=.dailymotion.com; secure\ndmvk=69cc2d94c149c; path=/; domain=.dailymotion.com; Secure; SameSite=none;",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.dailymotion.com/",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.44403500000044005
+      },
+      {
+        "url": "https://launchpad.privacymanager.io/latest/launchpad.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41719,
+        "remoteIPAddress": "3.168.86.22",
+        "responseHeaders": {
+          "cache-control": "must-revalidate,public,max-age=3600",
+          "etag": "W/\"e4378c982045f9e8f84307ad66091273\""
+        },
+        "responseBodyHash": "8cf7d1e29b55bc82f27772a190f51368a3abe9fa7822abe29977978b6a863943",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.11121000000093773
+      },
+      {
+        "url": "https://launchpad-wrapper.privacymanager.io/f32448cb-2741-4a90-a091-b5e5fabb5929/launchpad-liveramp.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1789,
+        "remoteIPAddress": "65.8.54.18",
+        "responseHeaders": {
+          "etag": "W/\"dc49deaedc4d95864619c81681f9025e\""
+        },
+        "responseBodyHash": "92b47fccc7639b279fb510120d3a12a90be811029ab2bd6824b5d89339a1ed55",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.09523199999966891
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/oauth/token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1543,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-store",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b5f963b0e3f191097d8d890bf86e4aeea5af958589039b0d298206925d82b461",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.6015920000008919
+      },
+      {
+        "url": "https://dmads.dailymotion.com/js/dailymotion/latest/dmads.dailymotion-latest.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22315,
+        "remoteIPAddress": "3.168.86.89",
+        "responseHeaders": {
+          "etag": "W/\"70285d36a3fface330793e1868aa2f6e\""
+        },
+        "responseBodyHash": "6c0c6d8e49617f2cb4bc312ae0d204e0077632f092337f29f1ae6b5c03467793",
+        "initiators": [
+          "https://dmads.dailymotion.com/js/dmads.min.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://www.dailymotion.com/"
+        ],
+        "time": 0.013571999999840045
+      },
+      {
+        "url": "https://static1.dmcdn.net/ABCFavorit-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 53267,
+        "remoteIPAddress": "65.8.180.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "\"64b92965-ce44\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8499834ef8756e5738fb4eb8ba65090427419690ad3a4162ed7f38a4cc9ff942",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app-styles.44dfda6a9d7f82f4e2e5.css"
+        ],
+        "time": 0.028116000001318753
+      },
+      {
+        "url": "https://static1.dmcdn.net/ABCFavorit-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.8.180.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "\"64b92933-c774\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0a4372d01f53a4945634c412eef262067687ae08f62e9e4f3736bda6848db12e",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app-styles.44dfda6a9d7f82f4e2e5.css"
+        ],
+        "time": 0.0007500000010622898
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/oauth/token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1542,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-store",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b5f963b0e3f191097d8d890bf86e4aeea5af958589039b0d298206925d82b461",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.7196750000002794
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/oauth/token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1543,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-store",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b5f963b0e3f191097d8d890bf86e4aeea5af958589039b0d298206925d82b461",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.7195449999999255
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/img/appPromotion.ede7d51d7809bfd4366f.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 466342,
+        "remoteIPAddress": "13.249.74.17",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"6779fdd5d125dbd7b6b25677c555e4c6\""
+        },
+        "responseBodyHash": "652b907bc7a629763ac08f4c1460ea8ff9d613306a518108a170d10e992c5556",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.04505999999855703
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/oauth/token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1542,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-store",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b5f963b0e3f191097d8d890bf86e4aeea5af958589039b0d298206925d82b461",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.692324000001463
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/oauth/token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1543,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-store",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b5f963b0e3f191097d8d890bf86e4aeea5af958589039b0d298206925d82b461",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.6918980000009469
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/oauth/token",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1542,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com",
+          "cache-control": "no-store",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b5f963b0e3f191097d8d890bf86e4aeea5af958589039b0d298206925d82b461",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.690522000000783
+      },
+      {
+        "url": "https://static1.dmcdn.net/DailySans-Bulky.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 39502,
+        "remoteIPAddress": "65.8.180.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "\"65980892-9890\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f37761c42f148bc79ee10e844ae29a9147a66297fb85916fd96662ec270742a",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app-styles.44dfda6a9d7f82f4e2e5.css"
+        ],
+        "time": 0.03905999999915366
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/ppub_config",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 991,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3600, stale-while-revalidate=3600",
+          "expires": "Tue, 31 Mar 2026 20:24:52 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 20:39:52 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fb7a7bdac70710eef00f37173d987b919f82c51f72f8404d467eb4385e70e967",
+        "initiators": [
+          "https://cdn.hubvisor.io/wrapper/01EZWD1S0HKM48S35DDHP8C9C1/hubvisor.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://www.dailymotion.com/",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js"
+        ],
+        "time": 0.11431799999991199
+      },
+      {
+        "url": "https://geo.privacymanager.io/",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 428,
+        "remoteIPAddress": "13.249.74.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "df790197e64683df0e6a96ff423dc23bd96010b5aa6bee119c148b70f6dc33ca",
+        "initiators": [
+          "https://launchpad.privacymanager.io/latest/launchpad.bundle.js",
+          "https://launchpad-wrapper.privacymanager.io/f32448cb-2741-4a90-a091-b5e5fabb5929/launchpad-liveramp.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.1921199999997043
+      },
+      {
+        "url": "https://geo.privacymanager.io/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.249.74.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://geo.privacymanager.io/"
+        ],
+        "time": 0.17599200000040582
+      },
+      {
+        "url": "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/favicons/android-icon-36x36.2bcbc53d92a87f65eaf3.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1547,
+        "remoteIPAddress": "13.249.74.17",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"ddad17021e43a6fe3840bd2d31067714\""
+        },
+        "responseBodyHash": "55426628712beb0168c022b52e5ecdb7d97050489479990e58f8345f459d942c",
+        "initiators": [],
+        "time": 0.013073000000076718
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql-eu-west-1.api.dailymotion.com/"
+        ],
+        "time": 0.16219700000146986
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1271,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": "19d52c79fcda2d6d8cd741a7fd23e66797ea4d0570e25cb8a8c0014d5505234f",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.9536020000014105
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql-eu-west-1.api.dailymotion.com/"
+        ],
+        "time": 0.15924099999938335
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 18396,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": "b4c2e81ec020d1508638569239f7c5d4110cc08368fb4331ed476751191fa94c",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 1.249456999999893
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql-eu-west-1.api.dailymotion.com/"
+        ],
+        "time": 0.16060699999979988
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3019,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": "3ea61558f0eabdc701f3db2e8e9ba5965612b396cc217fc79aaa907db360bb82",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 1.6724130000002333
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql-eu-west-1.api.dailymotion.com/"
+        ],
+        "time": 0.15839299999970535
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1661,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": "a08101f69090a5b6f28dc1f0315795c8bbf32af933f1509eddf795b09640256c",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 1.3964769999984128
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql-eu-west-1.api.dailymotion.com/"
+        ],
+        "time": 0.16206899999997404
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 874,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": "7891417bc2bc9fdcc73c6a36e75ee3db0fc48eef24f48a3ca602f7c99b5c28ad",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.34230399999978545
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql-eu-west-1.api.dailymotion.com/"
+        ],
+        "time": 0.15828099999998813
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1273,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": "1708d08c515deebe4af13aad1fd297ca35dda88d217bfcc443cb78487cd96a9f",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.34168599999975413
+      },
+      {
+        "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2032,
+        "remoteIPAddress": "172.217.12.99",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "expires": "Tue, 31 Mar 2026 20:24:53 GMT"
+        },
+        "responseBodyHash": "ee147e859ad0f09aa50367974e38ab53e7c7054c4a51d400a7f45b0eb251454f",
+        "initiators": [
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.07418800000050396
+      },
+      {
+        "url": "https://www.gstatic.com/eureka/clank/135/cast_sender.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14200,
+        "remoteIPAddress": "172.217.12.99",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Wed, 01 Apr 2026 05:52:39 GMT"
+        },
+        "responseBodyHash": "978c0005866b49f1cd5971cfabe015f3750d6c5a6c7ca43c54e7e57ba4429dba",
+        "initiators": [
+          "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js",
+          "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js",
+          "https://geo.dailymotion.com/player/xtv3w.html?"
+        ],
+        "time": 0.010680999999749474
+      },
+      {
+        "url": "https://ats-wrapper.privacymanager.io/ats-modules/2739abc4-30d8-48d7-945a-e038c6834e74/ats.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39936,
+        "remoteIPAddress": "108.138.246.114",
+        "responseHeaders": {
+          "cache-control": "must-revalidate,public,max-age=3600",
+          "etag": "W/\"c99bdaccd61e24345badfe6df09f6a5c\""
+        },
+        "responseBodyHash": "1744fecae6f250f6cfb343c3f24aa15640239693eade1a13397eb42c8bb0327c",
+        "initiators": [
+          "https://launchpad.privacymanager.io/latest/launchpad.bundle.js",
+          "https://cdn.privacy-mgmt.com/unified/4.40.1/usnat.f12613136193900e32e2.bundle.js",
+          "https://launchpad-wrapper.privacymanager.io/f32448cb-2741-4a90-a091-b5e5fabb5929/launchpad-liveramp.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.06476800000018557
+      },
+      {
+        "url": "https://geo.privacymanager.io/",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 429,
+        "remoteIPAddress": "13.249.74.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "df790197e64683df0e6a96ff423dc23bd96010b5aa6bee119c148b70f6dc33ca",
+        "initiators": [
+          "https://ats-wrapper.privacymanager.io/ats-modules/2739abc4-30d8-48d7-945a-e038c6834e74/ats.js",
+          "https://launchpad.privacymanager.io/latest/launchpad.bundle.js",
+          "https://cdn.privacy-mgmt.com/unified/4.40.1/usnat.f12613136193900e32e2.bundle.js",
+          "https://launchpad-wrapper.privacymanager.io/f32448cb-2741-4a90-a091-b5e5fabb5929/launchpad-liveramp.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.017554000000018277
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/AgWzU1fZERnYGZdW_/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8011,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 04:02:35 CEST"
+        },
+        "responseBodyHash": "37328c83cbb025bf1890b177a198af51aaa2000ed2136763da5713d5647563d7",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.29221900000084133
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/9KF-f1Zm12s1MDRa7/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7924,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Tue, 31 Mar 2026 23:58:32 CEST"
+        },
+        "responseBodyHash": "8847a6d2f5f14a987da2579a9d4cfc8206b4fb2b1bb4605a01504503d0dff3de",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.17696199999954842
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/EF-1af0YG3GacfY/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5508,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 11:43:29 CEST"
+        },
+        "responseBodyHash": "f81ce0db51b82130f496df27775687d28c8c77b98f137bf5c0dc6aee4504076d",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.2922469999994064
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/5DIdS1Zm16VglhWWv/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1730,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 14:47:58 CEST"
+        },
+        "responseBodyHash": "723c3197deaf8d5ab5d69516e832e56a71bd947d4226a2422db76dd98b48db80",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.29299900000114576
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/fioY1bksWqrcjHeY/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1765,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 11:52:18 CEST"
+        },
+        "responseBodyHash": "c43ff4db039a13fdbc0d1e3fe502e84c3ebdcb0d28054576bca1c7d7b4a87b4c",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.29322599999977683
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/4Jnwf1fFmcHnKE6ay/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3552,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Tue, 31 Mar 2026 23:59:16 CEST"
+        },
+        "responseBodyHash": "d84f035799b5907d2872c1b22472d05cc95a77c389dde5b67c4cc07d94146d14",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.18033100000138802
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/7_CT71Zm12QZM9JY3/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2334,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 12:05:52 CEST"
+        },
+        "responseBodyHash": "e917b4d939df856d322025cfa9d48b60fc83936e41635c66cb299bcc0275b968",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.180662000000666
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/5Rna21e2EbKnwcrzT/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5331,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 10:17:37 CEST"
+        },
+        "responseBodyHash": "97c6ce5d2e09789bdea6682b830c2d3d65ca75b71b9393fa691686ee2753278c",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.29321900000104506
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/6dI4F1NeGLsGBqxsS/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4196,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 04:54:54 CEST"
+        },
+        "responseBodyHash": "3fd518bade45292abbb73990ab24bff0342f7874b573434ec64e2cf8e051074c",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.17942799999946146
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/5LTF61VQXydH3KeE-/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1475,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 19:56:42 CEST"
+        },
+        "responseBodyHash": "7684bf83df567d2da93443adeecda6013d001416dcebcd41a50597f9636f83e1",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.29330400000071677
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/4i8vS1VQXiUzxYYT-/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1653,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 03:58:10 CEST"
+        },
+        "responseBodyHash": "c26f3e2fccbc632198d847510a46910b8c13f8dee2aeee6438b8084d0b1c1340",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.3060699999987264
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/7YJTb1Zm11Nv0Czdy/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1682,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 06:50:01 CEST"
+        },
+        "responseBodyHash": "78fa7bead5611f7e8e612140442635b222f9d428e2db5d277f4f1e95b2c714ee",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.18071499999859952
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/DypVW1f2tjHf4WEpq/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3143,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 20:27:22 CEST"
+        },
+        "responseBodyHash": "01f7b7ec1c766f68c98b9788f118d3aba8679b782529afed86c29f7d3ca81311",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.3062279999994644
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/5h6VU1fZArAmnJOqt/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1930,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Tue, 31 Mar 2026 22:59:48 CEST"
+        },
+        "responseBodyHash": "b9a97aae2c5ce8367cf8de553d9d956d4dacf615892a3c0de8097fa8b4d14e81",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.25323000000025786
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/65DP-1TPPAQ-bq8hW/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4729,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 12:34:04 CEST"
+        },
+        "responseBodyHash": "0c48cf2c4d12ed59cae8d0ca8771bed896127c0239fb7f4dfc7712578f9a6fa1",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.29203099999904225
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/7koyo1SzhtPfM4_en/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4100,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 16:53:12 CEST"
+        },
+        "responseBodyHash": "390e16c48135119ac3dd4670b1f126fe373f780e1e0e3ffb84fe285a1cf345ef",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.2518920000002254
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/6vcLv1SzhxTW4oIQE/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4635,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 16:38:56 CEST"
+        },
+        "responseBodyHash": "d83e53189b355bcf0e5f8f00abd7c4dfb10b3be6da78853645c01763a640709e",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.17545900000004622
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/2Ie1l1cbe8Hfv8rvs/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1615,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 12:20:08 CEST"
+        },
+        "responseBodyHash": "841539226d39dae3954edee2eaa5fbcfd5f4b92295de241bc256e226beb2f20b",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.1740009999994072
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/87U-s1SlW9Yi0OBs7/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2952,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 21:07:37 CEST"
+        },
+        "responseBodyHash": "c2987955423e91b7f3799cde19c3ec3f94f7cff955fe2a85047af434327e870f",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.30728799999997136
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/87V5T1SlW7k_qnkPi/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3110,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 17:22:39 CEST"
+        },
+        "responseBodyHash": "7d42d760497e0c46e73c8c965e42f24746964e3a217fb157ef40e3661c987165",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.18653899999844725
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/D8Fww1eaZ2aHALf4s/60x60",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3552,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Tue, 31 Mar 2026 23:09:32 CEST"
+        },
+        "responseBodyHash": "f6033ea65a62424bd8411bb45c1f1ada63a8577a1f285754f1429fceb7b060f1",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.30734099999972386
+      },
+      {
+        "url": "https://webed.dm-event.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "188.65.124.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.1753290000015113
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aR0EQ1fp1D2UnCDw9/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30485,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 20:38:56 CEST"
+        },
+        "responseBodyHash": "1fd9c0c655977bc998efa494ce132e95ec5f2275c6d87bf5878c760e86cb192d",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.20746599999984028
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQ_S41fp2I0Ei599J/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29315,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 21:47:05 CEST"
+        },
+        "responseBodyHash": "d1c902a72a86614b2819a1ae7ec6698b58511f9bd6c86ab0d99885d06fd907c3",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.1884379999992234
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQ-ia1fp2IDliS0HJ/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22917,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 21:51:06 CEST"
+        },
+        "responseBodyHash": "977bc57aca259e38994ad95139e6d5d8708ef8ff5a8a88875faad915bea8001d",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.21055300000080024
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQ_Ts1fp2HoM-3_VE/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 25709,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 21:47:49 CEST"
+        },
+        "responseBodyHash": "4322d7a1600df19c8369d7491b5b87880e7fb26f22e793d0cf60263727ae555b",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.20800000000053842
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQoAq1fo-UKpnZ60M/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18501,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 18:41:01 CEST"
+        },
+        "responseBodyHash": "a1500253e88cd448eb9b62d2ff6c3d6ccd92306ba097b6242af267d8a57feada",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.21072600000115926
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQnn41fo-Nnnhflw2/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8811,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 18:41:01 CEST"
+        },
+        "responseBodyHash": "7fb49e17cc33d4b0ef7ab63b85d9f17612eec3b28c0025610df4687cb812d0ad",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.21864300000015646
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQnNe1fo-OugCyt0B/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15020,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 18:41:01 CEST"
+        },
+        "responseBodyHash": "250bc3a6dec90a625d5a7a24917f1b3d8ae3c87fdde270fd26d4a4b81e2cf0cb",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.21192800000062562
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQmOO1fo-4TQ9aAcq/x720",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38948,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 18:26:38 CEST"
+        },
+        "responseBodyHash": "f276b3fcf7b23d3f4108691b1f67a98448b7f8543a8814810fbce14a7ef4eb4f",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.22224800000003597
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQpjw1fo-xbiCr-YZ/x720",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 65364,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 18:06:31 CEST"
+        },
+        "responseBodyHash": "e5c4de8383fc2be5b9f9f52a432428d86957427b5ce2e61caad178ac4c9ba4ab",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.19515700000010838
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQowm1fo-iSqDB0AU/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23006,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 18:41:57 CEST"
+        },
+        "responseBodyHash": "9f5f25ea95acdaff387d92f48b5bce7d68aec3ba13c8cf76987713e3329d7d8f",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.2063190000008035
+      },
+      {
+        "url": "https://s1.dmcdn.net/v/aQoAc1fo-Z3ne2SMf/x240",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6964,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 18:41:57 CEST"
+        },
+        "responseBodyHash": "a1d2d4f1232211bfed65ade2fa83ac31a82c3ed012ef8d0cb03e5915a4779ddd",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.22193700000025274
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/9r0B31bpJUo8Jf1ot/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2293,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 12:01:21 CEST"
+        },
+        "responseBodyHash": "d82ea38b470d8198859b8b3e2e8263b265b6a10ec1ae47320fdd7290333a832a",
+        "initiators": [],
+        "time": 0.06081600000106846
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/6heDy1bWSaSGP_2jR/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4519,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Tue, 31 Mar 2026 23:55:48 CEST"
+        },
+        "responseBodyHash": "988982e3ebc84fb9b2747ef43bb2321a4936c8e96b643ef974a453896199dcce",
+        "initiators": [],
+        "time": 0.17410299999937706
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/6x5JN1ahPhEIFgllp/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3419,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 14:13:53 CEST"
+        },
+        "responseBodyHash": "1a376b4d87d65b50c6c9aff67a16abf97c20a267b9fe3cc6c530b3fcc57b0f7e",
+        "initiators": [],
+        "time": 0.06107899999915389
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/7_CSW1Y_bJVRsNyHx/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5370,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 13:55:34 CEST"
+        },
+        "responseBodyHash": "b8955f3cb12fb1b040ccf6691b76f180d53feb7c375ba0afbff597efe483ae93",
+        "initiators": [],
+        "time": 0.1430770000006305
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/9beQg1Zm104RlgQx6/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3802,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 13:55:34 CEST"
+        },
+        "responseBodyHash": "d5af4c71a813930d242e6a9f1218623e95e01e537078da22a7992d6f64907ccf",
+        "initiators": [],
+        "time": 0.16288100000019767
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/6z3vy1WcjNvhw0tWo/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3599,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 12:02:13 CEST"
+        },
+        "responseBodyHash": "b9759cb97ba721dc89555456a7a2bd0713465f842664f99b6d1359655024e7d9",
+        "initiators": [],
+        "time": 0.17420099999981176
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/5h6VU1fZArAGNIQl4/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2715,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 11:10:57 CEST"
+        },
+        "responseBodyHash": "511818f9d69059b60812dceb133a8e19c310cfd73ea0b67fcad73b81e0c01524",
+        "initiators": [],
+        "time": 0.1510840000009921
+      },
+      {
+        "url": "https://s1.dmcdn.net/u/9SOk21YEa8_SQCYbm/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2466,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 12:13:09 CEST"
+        },
+        "responseBodyHash": "f0f2de3b99e2e96f7a6a17cfef97d1b44e947d2155a8dac61c00c2842ca320e6",
+        "initiators": [],
+        "time": 0.16503000000011525
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/87V2v1SlW93LQYvhD/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3116,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 17:57:03 CEST"
+        },
+        "responseBodyHash": "42e68c6a1c37aecc156bf9723fa5b9650855326092a25b242d96ca276c198958",
+        "initiators": [],
+        "time": 0.06159699999989243
+      },
+      {
+        "url": "https://s2.dmcdn.net/u/4i8tf1VQFO1TQHu5v/120x120",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2714,
+        "remoteIPAddress": "108.139.10.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, stale-while-revalidate=600, stale-if-error=86400",
+          "expires": "Wed, 01 Apr 2026 02:17:22 CEST"
+        },
+        "responseBodyHash": "5f8b84353148a2363011b7a59ebcf1be6c51b2fd6bf4a2ab20636efa1d6f0ec2",
+        "initiators": [],
+        "time": 0.059703999999328516
+      },
+      {
+        "url": "https://graphql-eu-west-1.api.dailymotion.com/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1662,
+        "remoteIPAddress": "52.49.69.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.dailymotion.com"
+        },
+        "responseBodyHash": "a08101f69090a5b6f28dc1f0315795c8bbf32af933f1509eddf795b09640256c",
+        "initiators": [
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js",
+          "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js"
+        ],
+        "time": 0.2898690000001807
+      }
+    ],
+    "cookies": [
+      {
+        "name": "ff",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "ts",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "expires": 1809203085110,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "v1st",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "expires": 1809203085110,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "dm-gpp-mspa",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "expires": 1809116690180,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "usnatUUID",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "expires": 1806524690198,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "lang",
+        "domain": "www.dailymotion.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "usprivacy",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "expires": 1808684692605,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "dmaid",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "expires": 1808684692859,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "dmvk",
+        "domain": ".dailymotion.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "client_token",
+        "domain": "www.dailymotion.com",
+        "path": "/",
+        "expires": 1775024264814,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_lr_geo_location_state",
+        "domain": "www.dailymotion.com",
+        "path": "/",
+        "expires": 1775161494241,
+        "session": false
+      },
+      {
+        "name": "_lr_geo_location",
+        "domain": "www.dailymotion.com",
+        "path": "/",
+        "expires": 1775161494242,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.dailymotion.com/": {
+          "window.localStorage": 2,
+          "window.innerWidth": 32,
+          "window.innerHeight": 32,
+          "Date.prototype.getTime": 2,
+          "Document.cookie getter": 51,
+          "Document.cookie setter": 11
+        },
+        "https://geo.dailymotion.com/player/xtv3w.js": {
+          "Navigator.prototype.connection": 3,
+          "Navigator.prototype.userAgent": 3,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.width": 2,
+          "Date.prototype.getTimezoneOffset": 3,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1
+        },
+        "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 8,
+          "window.localStorage": 23,
+          "Date.prototype.getTime": 1,
+          "Document.cookie setter": 1
+        },
+        "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/app.40db9b7f089680d80075.js": {
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://geo.dailymotion.com/static/latest/cdn/pes.iframe.b78a3c57.js": {
+          "window.innerWidth": 2,
+          "Document.cookie getter": 3,
+          "window.innerHeight": 1
+        },
+        "about:blank": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.690703fa4c6ab805a46f.js": {
+          "window.name": 3,
+          "Document.cookie getter": 1,
+          "Navigator.prototype.languages": 1,
+          "Navigator.prototype.connection": 2,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.availHeight": 1,
+          "Navigator.prototype.userAgent": 2,
+          "Date.prototype.getTimezoneOffset": 5,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.width": 1,
+          "window.innerHeight": 2,
+          "window.innerWidth": 2,
+          "Document.cookie setter": 1
+        },
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.infopack.8f97014a50846e907f80.js": {
+          "Document.cookie getter": 6
+        },
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.3a9340678f31ffa1650c.js": {
+          "window.localStorage": 13,
+          "HTMLMediaElement.prototype.canPlayType": 1,
+          "Screen.prototype.availWidth": 3,
+          "Screen.prototype.availHeight": 3,
+          "Navigator.prototype.connection": 3,
+          "Navigator.prototype.userAgent": 3
+        },
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.ab88ead031b64bb8bd3d.js": {
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.d3fb1853be33ff0b3940.js": {
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://geo.dailymotion.com/static/latest/cdn/dmp.omweb-v1.83107b47376e0c05d33b.js": {
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://imasdk.googleapis.com/js/sdkloader/ima3.js": {
+          "Navigator.prototype.userAgent": 135,
+          "Navigator.prototype.deviceMemory": 2,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "NavigatorUAData.prototype.brands": 26,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.availWidth": 2,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js": {
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://s0.2mdn.net/instream/video/client.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/694.efa2a3365c5164b6a3b9.js": {
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/runtime-app.bbeeed7bb4284c2763aa.js": {
+          "window.localStorage": 4,
+          "Navigator.prototype.languages": 2,
+          "Navigator.prototype.language": 3,
+          "window.innerHeight": 43,
+          "window.innerWidth": 10,
+          "Screen.prototype.orientation": 1,
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://dmads.dailymotion.com/js/dmads.min.js": {
+          "window.sessionStorage": 1
+        },
+        "https://dmads.dailymotion.com/js/dailymotion/latest/dmads.dailymotion-latest.min.js": {
+          "window.sessionStorage": 1
+        },
+        "https://cdn.hubvisor.io/wrapper/01EZWD1S0HKM48S35DDHP8C9C1/hubvisor.js": {
+          "NavigatorUAData.prototype.brands": 3,
+          "NavigatorUAData.prototype.platform": 1,
+          "window.sessionStorage": 1,
+          "window.localStorage": 13,
+          "Navigator.prototype.userAgent": 3,
+          "Date.prototype.getTime": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://launchpad-wrapper.privacymanager.io/f32448cb-2741-4a90-a091-b5e5fabb5929/launchpad-liveramp.js": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://launchpad.privacymanager.io/latest/launchpad.bundle.js": {
+          "Navigator.prototype.userAgent": 5,
+          "window.localStorage": 6,
+          "Document.cookie getter": 1,
+          "Navigator.prototype.doNotTrack": 3,
+          "Navigator.prototype.cookieEnabled": 1
+        },
+        "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js": {
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.presentation": 1
+        },
+        "https://www.gstatic.com/eureka/clank/135/cast_sender.js": {
+          "Navigator.prototype.userAgent": 11,
+          "Navigator.prototype.presentation": 1
+        },
+        "https://ats-wrapper.privacymanager.io/ats-modules/2739abc4-30d8-48d7-945a-e038c6834e74/ats.js": {
+          "Navigator.prototype.userAgent": 3,
+          "Document.cookie getter": 5,
+          "Navigator.prototype.vendor": 3,
+          "Navigator.prototype.doNotTrack": 1,
+          "Date.prototype.getTime": 4,
+          "Document.cookie setter": 4
+        },
+        "https://imasdk.googleapis.com/js/core/bridge3.754.1_en.html": {
+          "Navigator.prototype.userAgent": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.690703fa4c6ab805a46f.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dm-gpp-mspa=DBABLA~BVQqAAAAAWA;path=/;domain=.dailymotion.com;max-age=34128000;samesite=none;secure=true"
+          ]
+        },
+        {
+          "source": "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "usnatUUID=a135e1a5-7a3d-40d6-9527-1cdc9aecdf99; Path=/; Secure=true; SameSite=None; Max-Age=31536000; expires=Wed, 31 Mar 2027 20:24:50 GMT; Domain=dailymotion.com;"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ff=on; Domain=.dailymotion.com; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ff=on; Domain=.dailymotion.com; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "lang=en_US; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "usprivacy=1YNY; Max-Age=33696000; Domain=.dailymotion.com; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dmaid=be5c6dd1-8594-415c-a37d-08985cc53bea; Max-Age=33696000; Domain=.dailymotion.com; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "client_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMgbWFuYWdlX3BvZGNhc3RzIiwibHRvIjoiTkRRQ1ZWdFNYR0FFRkNJdkNTZ1lQMjh0RUFGYUlSQkRGRVllTGciLCJhaW4iOjEsImFkZyI6MSwiaWF0IjoxNzc0OTg4NjkzLCJleHAiOjE3NzUwMjQyNjQsImRtdiI6IjEiLCJhdHAiOiJicm93c2VyIiwiYWRhIjoid3d3LmRhaWx5bW90aW9uLmNvbSIsInZpZCI6ImI2MDRkZTk0LWQ3ZjItNGZlZC1hOTkyLWMxNjI1MWYzNzYwNCIsImZ0cyI6ODE1NDIxLCJjYWQiOjIsImN4cCI6MiwiY2F1IjoyLCJraWQiOiJBRjg0OURENzNBNTg2M0NEN0Q5N0QwQkFCMDcyMjQzQiJ9.ulbnunwBfnzEO2rFxT-5bS7fpR76YMSDrg2QWoZ3umc; Max-Age=35571; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "client_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMgbWFuYWdlX3BvZGNhc3RzIiwibHRvIjoiTkRRQ1ZWdFNYR0FFRkNJdkNTZ1lQMjh0RUFGYUlSQkRGRVllTGciLCJhaW4iOjEsImFkZyI6MSwiaWF0IjoxNzc0OTg4NjkzLCJleHAiOjE3NzUwMjQyNjQsImRtdiI6IjEiLCJhdHAiOiJicm93c2VyIiwiYWRhIjoid3d3LmRhaWx5bW90aW9uLmNvbSIsInZpZCI6ImI2MDRkZTk0LWQ3ZjItNGZlZC1hOTkyLWMxNjI1MWYzNzYwNCIsImZ0cyI6ODE1NDIxLCJjYWQiOjIsImN4cCI6MiwiY2F1IjoyLCJraWQiOiJBRjg0OURENzNBNTg2M0NEN0Q5N0QwQkFCMDcyMjQzQiJ9.ulbnunwBfnzEO2rFxT-5bS7fpR76YMSDrg2QWoZ3umc; Max-Age=35571; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "client_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMgbWFuYWdlX3BvZGNhc3RzIiwibHRvIjoiTkRRQ1ZWdFNYR0FFRkNJdkNTZ1lQMjh0RUFGYUlSQkRGRVllTGciLCJhaW4iOjEsImFkZyI6MSwiaWF0IjoxNzc0OTg4NjkzLCJleHAiOjE3NzUwMjQyNjQsImRtdiI6IjEiLCJhdHAiOiJicm93c2VyIiwiYWRhIjoid3d3LmRhaWx5bW90aW9uLmNvbSIsInZpZCI6ImI2MDRkZTk0LWQ3ZjItNGZlZC1hOTkyLWMxNjI1MWYzNzYwNCIsImZ0cyI6ODE1NDIxLCJjYWQiOjIsImN4cCI6MiwiY2F1IjoyLCJraWQiOiJBRjg0OURENzNBNTg2M0NEN0Q5N0QwQkFCMDcyMjQzQiJ9.ulbnunwBfnzEO2rFxT-5bS7fpR76YMSDrg2QWoZ3umc; Max-Age=35571; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "client_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMgbWFuYWdlX3BvZGNhc3RzIiwibHRvIjoiTkRRQ1ZWdFNYR0FFRkNJdkNTZ1lQMjh0RUFGYUlSQkRGRVllTGciLCJhaW4iOjEsImFkZyI6MSwiaWF0IjoxNzc0OTg4NjkzLCJleHAiOjE3NzUwMjQyNjQsImRtdiI6IjEiLCJhdHAiOiJicm93c2VyIiwiYWRhIjoid3d3LmRhaWx5bW90aW9uLmNvbSIsInZpZCI6ImI2MDRkZTk0LWQ3ZjItNGZlZC1hOTkyLWMxNjI1MWYzNzYwNCIsImZ0cyI6ODE1NDIxLCJjYWQiOjIsImN4cCI6MiwiY2F1IjoyLCJraWQiOiJBRjg0OURENzNBNTg2M0NEN0Q5N0QwQkFCMDcyMjQzQiJ9.ulbnunwBfnzEO2rFxT-5bS7fpR76YMSDrg2QWoZ3umc; Max-Age=35571; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "client_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMgbWFuYWdlX3BvZGNhc3RzIiwibHRvIjoiTkRRQ1ZWdFNYR0FFRkNJdkNTZ1lQMjh0RUFGYUlSQkRGRVllTGciLCJhaW4iOjEsImFkZyI6MSwiaWF0IjoxNzc0OTg4NjkzLCJleHAiOjE3NzUwMjQyNjQsImRtdiI6IjEiLCJhdHAiOiJicm93c2VyIiwiYWRhIjoid3d3LmRhaWx5bW90aW9uLmNvbSIsInZpZCI6ImI2MDRkZTk0LWQ3ZjItNGZlZC1hOTkyLWMxNjI1MWYzNzYwNCIsImZ0cyI6ODE1NDIxLCJjYWQiOjIsImN4cCI6MiwiY2F1IjoyLCJraWQiOiJBRjg0OURENzNBNTg2M0NEN0Q5N0QwQkFCMDcyMjQzQiJ9.ulbnunwBfnzEO2rFxT-5bS7fpR76YMSDrg2QWoZ3umc; Max-Age=35571; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.dailymotion.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "client_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMgbWFuYWdlX3BvZGNhc3RzIiwibHRvIjoiTkRRQ1ZWdFNYR0FFRkNJdkNTZ1lQMjh0RUFGYUlSQkRGRVllTGciLCJhaW4iOjEsImFkZyI6MSwiaWF0IjoxNzc0OTg4NjkzLCJleHAiOjE3NzUwMjQyNjQsImRtdiI6IjEiLCJhdHAiOiJicm93c2VyIiwiYWRhIjoid3d3LmRhaWx5bW90aW9uLmNvbSIsInZpZCI6ImI2MDRkZTk0LWQ3ZjItNGZlZC1hOTkyLWMxNjI1MWYzNzYwNCIsImZ0cyI6ODE1NDIxLCJjYWQiOjIsImN4cCI6MiwiY2F1IjoyLCJraWQiOiJBRjg0OURENzNBNTg2M0NEN0Q5N0QwQkFCMDcyMjQzQiJ9.ulbnunwBfnzEO2rFxT-5bS7fpR76YMSDrg2QWoZ3umc; Max-Age=35571; Path=/; Secure; SameSite=None"
+          ]
+        },
+        {
+          "source": "https://ats-wrapper.privacymanager.io/ats-modules/2739abc4-30d8-48d7-945a-e038c6834e74/ats.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_lr_geo_location_state=CA;max-age=172800;expires=Thu, 02 Apr 2026 20:24:54 GMT;path=/"
+          ]
+        },
+        {
+          "source": "https://ats-wrapper.privacymanager.io/ats-modules/2739abc4-30d8-48d7-945a-e038c6834e74/ats.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_lr_geo_location=US;max-age=172800;expires=Thu, 02 Apr 2026 20:24:54 GMT;path=/"
+          ]
+        },
+        {
+          "source": "https://ats-wrapper.privacymanager.io/ats-modules/2739abc4-30d8-48d7-945a-e038c6834e74/ats.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_lr_geo_location_state=CA;max-age=172800;expires=Thu, 02 Apr 2026 20:24:54 GMT;path=/"
+          ]
+        },
+        {
+          "source": "https://ats-wrapper.privacymanager.io/ats-modules/2739abc4-30d8-48d7-945a-e038c6834e74/ats.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_lr_geo_location=US;max-age=172800;expires=Thu, 02 Apr 2026 20:24:54 GMT;path=/"
+          ]
+        }
+      ]
+    }
+  }
+}

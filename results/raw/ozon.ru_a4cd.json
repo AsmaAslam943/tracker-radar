@@ -1,0 +1,99 @@
+{
+  "initialUrl": "https://ozon.ru/",
+  "finalUrl": "https://ozon.ru/?__rr=1",
+  "timeout": true,
+  "testStarted": 1774987647986,
+  "testFinished": 1774987712551,
+  "data": {
+    "requests": [
+      {
+        "url": "https://ozon.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "185.73.193.68",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "set-cookie": "__Secure-ETC=d8d175859662d93e7cf1fbed0b151aee; expires=Wed, 31-Mar-27 20:07:29 GMT; path=/; SameSite=None; domain=.ozon.ru; HttpOnly; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ozon.ru/?__rr=1",
+        "initiators": [],
+        "time": 0.9875650000003589
+      },
+      {
+        "url": "https://ozon.ru/?__rr=1",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 46671,
+        "remoteIPAddress": "185.73.193.68",
+        "responseHeaders": {
+          "set-cookie": "abt_data=7.DrWM_iqT8xNUXrZtqSCrXWjwpxXKhqncw5PALjmGBpznJEHJfSo82ol6eolR32ZBj_44nlb8v719p-mZTurqZcvrUA51pYDDlmNepIXucgDJocw4RM87c0Vcuaoo1SE5q1uAKDLbx4EtUzE6nMpJ8ygcCBSpw-TtLNWcN0Ak_uOI8wIFuJXZPyUHYDqUSI_wE6j5T_pp5WYJ-jouUfOCHodjpAT6HNSlu1xTIyMr3-5exEIjwgt73DJXlyn6FZhKfNp1sRG4WqqmsJ_9dQ3_fKPqwbiyCtbVOkDy8xF1k3-MPI007J0KswRZ0k1RMwn7XLcsYtGOMma7i6rBBtb-mAJgq51oabsk877xW6b62i8DZh_pyuGZo5ZQdMMw8BDvfKJ0UJ35O-Ntw-s2JKl-sXJ5BOh4VXfuyK7KQ5T6; expires=Wed, 31 Mar 2027 20:07:29 GMT; domain=ozon.ru; path=/; HttpOnly; secure; SameSite=None; Partitioned"
+        },
+        "responseBodyHash": "80c64de5985906bcb2573a3e6ab90b621c4ba9873104c96227dc6d84377471c5",
+        "redirectedFrom": "https://ozon.ru/",
+        "initiators": [],
+        "time": 0.6482390000001033
+      },
+      {
+        "url": "https://cdn1.ozone.ru/s3/abt-complaints/static/v1/common.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1440,
+        "remoteIPAddress": "185.73.195.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"9d7552ac7ff4e4447d0466d0e6162da7\"",
+          "expires": "Wed, 31 Mar 2027 20:07:33 GMT",
+          "set-cookie": "abt_data=7.Jh3Qd3LXbyP7utSeuiyGmhIGXVopl7BH6Pno6Pc43vqbZu9T4a1_LYyM2rrQgpUmVj0R_Xr_KyxPDOs1q_V4Yt-rdCTtTOP_wYG0ckZa4U3zkAKV9_QSVICftQ8eQZdM_zIdUxd0ghN47LmeriS2ZKRatdHm85xc3Do4Dpfte3U8FouzfM1uWeE56jAHG99mQe_ZFuKT0fsoPBSn7KMMXCOEGyNW5lI3bzKySHg-6J2SvbhuD_tznbmsRDQHl9ZFzDX14TxuXJ27c9KVIoW2NVWgI4shTteooJDbrhLsW6bJGwjeOwY_ifxqZ_-yAHuXFtqv4PkNWyXBe20tojmVTS318hDBDhk; expires=Wed, 31 Mar 2027 20:07:34 GMT; domain=ozone.ru; path=/; HttpOnly; secure; SameSite=None; Partitioned",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6fac18307b67fff6df22549d1e46308e349af41b402e38677b551c10766cbb93",
+        "initiators": [
+          "https://ozon.ru/?__rr=1"
+        ],
+        "time": 3.7302520000002914
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__Secure-ETC",
+        "domain": ".ozon.ru",
+        "path": "/",
+        "expires": 1806523649514,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "abt_data",
+        "domain": ".ozon.ru",
+        "path": "/",
+        "expires": 1806523649966,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "abt_data",
+        "domain": ".ozone.ru",
+        "path": "/",
+        "expires": 1806523653711,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

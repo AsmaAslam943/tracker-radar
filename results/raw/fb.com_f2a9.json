@@ -1,0 +1,674 @@
+{
+  "initialUrl": "https://fb.com/",
+  "finalUrl": "https://www.facebook.com/",
+  "timeout": false,
+  "testStarted": 1774991815714,
+  "testFinished": 1774991826681,
+  "data": {
+    "requests": [
+      {
+        "url": "https://fb.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.facebook.com/",
+        "initiators": [],
+        "time": 0.1567720000002737
+      },
+      {
+        "url": "https://www.facebook.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 88179,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "accept-ch": "viewport-width,dpr,Sec-CH-Prefers-Color-Scheme,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "datr=yDnMafRUZbOVSM9u5fbOVlxj; expires=Wed, 05-May-2027 21:16:56 GMT; Max-Age=34560000; path=/; domain=.facebook.com; secure; httponly; SameSite=None\nfr=07SDyH2rDwzVOddti..BpzDnI..AAA.0.0.BpzDnI.AWdKTEhWJUnjq7QPqkmERBcCCg4; expires=Mon, 29-Jun-2026 21:16:56 GMT; Max-Age=7776000; path=/; domain=.facebook.com; secure; httponly; SameSite=None\nsb=yDnMaUjX18UKm4zEqZEHN7Me; expires=Wed, 05-May-2027 21:16:56 GMT; Max-Age=34560000; path=/; domain=.facebook.com; secure; httponly; SameSite=None"
+        },
+        "responseBodyHash": "5ff7af81fadb0c2e4a5add182b9dcd74a0e79eea25ad74dc7e78e5bea07a4efb",
+        "redirectedFrom": "https://fb.com/",
+        "initiators": [],
+        "time": 0.25808499999948253
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v5/yT/l/0,cross/BwGa3fQlS7kClQWgBq98sn9hZXif1SoAXT9DWDYPz6DhfgQe914iiBfONMKn3YhINqU49pVNahkCkvOJ4AbSr5wE.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 272425,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 17:36:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "767ee82c06f853523b402c3d94d9a65e115c4b1ce78954e848d060c653783d19",
+        "initiators": [
+          "https://www.facebook.com/"
+        ],
+        "time": 0.08071299999937764
+      },
+      {
+        "url": "https://www.facebook.com/ajax/qm/?__a=1&__user=0&__comet_req=15&jazoest=22419",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 227,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "ce9fa75d90c94c9fb5926004a3896dad3868a70b38b190b1b426792cd5348089",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yb/r/pV99Uq47Nuo.js"
+        ],
+        "time": 0.09581000000071072
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/yg/r/v9lMQysRJpu.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15180,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:59:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "90a51357e1ea390da06ec1064a0656d83950bd80532505a28ef7cf6ffd27e798",
+        "initiators": [
+          "https://www.facebook.com/"
+        ],
+        "time": 0.01316199999928358
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 75872,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sun, 28 Mar 2027 00:43:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "966e5afce79e3a2e093130b8c33b88d0a6c48960c06eac87c897c48bf8dd2a17",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.03236499999911757
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4iSJ94/yj/l/en_US-j/3QEbT4sCCiLIVrGrSE57cPYWfFMAAOkxwL53DLuAZ_J-wLi9VKPKEzzSPpoIqJES0f4j4SE1-LXf20Tm3rCAOd1Q6KQY-fe7NBciM-3juxcHXgs6rJrwPjUc1M2Mc9H2EKM-w1JtOGoHMq0Th14Xk8e9Sku4yAsukPWHDiX6AV42EQ_iC8lbkhBm8OT3g9q4pR78qLgXGs9o1jOpXaFgmrHpjQ-8BHl-lElGzTHOl6Gkjq0OVeavkZc4HIHnCTUMvplzbBLsJZCcc2ZP1Mq8wypiAW_bfkF94AKekI-DNAdmh5DEndjkC1LYw5WWi7I.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 242598,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:59:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "28c083eac0b774a4a49b8e2ae427e63dfce77e1e505a888c6ef8cb9608b0f7d1",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.04787100000066857
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4iYeD4/yW/l/en_US-j/ORBKmHHuusX.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 233585,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:36:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d1574738e3931e6b6a848aeafd002dd738a9581533cc58e516ff55be9d1739dd",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.06499499999881664
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4iQnF4/yU/l/en_US-j/39S20nRhDI2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 102777,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:36:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2e4a7516acc66850fbfcf7105cf53d21b13cd008b57f241fa51cb9ce2fa2b302",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.0679230000005191
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4i44x4/yn/l/en_US-j/onA6hIdae6R.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 50032,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Tue, 30 Mar 2027 18:29:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d69238e35d3b101aa3980f66caa21977edcd5b9950891ddff5b0c623d9618166",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.07891000000017812
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4ikdN4/yh/l/en_US-j/N5R0FqL3ki5aNsjRUXi27GWJukooR-9Nvt8zQ6B9vwp7gQxGlu9kuHtRi7mWBMSxEcOrwUWos8AmSPq6t1wY9IZRVIPNHOqVL96Xbo5ubbMbZsZIN72SS5MnT_uK3aPyME2r.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 114131,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 17:32:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "83bdeb91cc9d543299314af43869593de36ff6882696a42024beb96a10e35712",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.09574400000019523
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4iZBp4/y5/l/en_US-j/LAAXUtRnPF5aTvLpEMiMqYV15tj8h63LNLwCYbyWCy8la-9ML_Y_MRXozoFpj-99G3ziu8fjvIasuvR63MZf19Ju-Qx8lcabVTDI3XLoYQF64vO2zT06LS1itQWShO2h-PYdZEoStQUE_H7TvtL32s_6TN5GUvR7zmf91bYZLjz85TBvoXroJ7K59X9C3AwQd1t3qNKef6G-hKocd89O_LiCUWDnXRwDHCkV8R1HmTeYzr6srgonn-JtdZ7PJrsOfCedTPWKCFM-z_0Q2ncZTFDSp4bWABNh9-DZBIN8jKeHWrECl3_n5Wu6jBGHRQaSS1OrajkDar.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10884,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Tue, 30 Mar 2027 19:39:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ecae9b05121f2ec80f946aa121f1dbfbeee2fc62a00515ad6e980ca8d0738754",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.09718400000019756
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4iU7G4/yr/l/en_US-j/Gru2XERgsr3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 56838,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 16:59:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0a0d92b02c11e094e49d67c67c18a5df270408fab655b46eb278b8e07fd0dd38",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.10369600000012724
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4iJW-4/yp/l/en_US-j/_k40EZW7xf2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 102294,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 08:31:55 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "36d45192a301d034f8cf100ce05d1cbfa07033fbcb51d1fc3952ccabef3b4a1a",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.10491800000090734
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4ibYN4/y4/l/en_US-j/kMByeO7tAQ1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40924,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Tue, 30 Mar 2027 21:57:18 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "32b377b64080cbd68a2386ad19e9de5e9ffd7a159d16f96f9f31bbf8bb5cc095",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.10583000000042375
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4ieWN4/y5/l/en_US-j/n5HPHhoxPjLMrbDIOaVqRgzhK17QCJvRTw4dCbpdGE_e85ElNEPjABjyB5KNx6PY3IrruBGGEYFdGLxuD_lF_NqSt5FIdnQ_ONHAdF4Q4yS3Q5yLIhLjdtTF59V3TtN2HhP5zqwyvp6q7nPI6-NhAsCA5LxvyfVWAYRn5Q5XLynIoHzskHM2TrHr72z775NzKCi2Sch9boWyHYdnzATCB6ghfjDQ.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59713,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 31 Mar 2027 00:53:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "962699f243fa778231a38c3cd4bd6b861133122a7e975282cc7f5266c1940881",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.10655100000076345
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v5/yc/l/0,cross/LjLHd2bN797g8T_6-Yirbb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 32682,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sun, 28 Mar 2027 01:58:50 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "770c9368007cda0e6a34d25c6c96c1bae227c47991724ae127cd9dc226d71a57",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/yD/r/kzGXhN7-usT.js"
+        ],
+        "time": 0.032796999999845866
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/yl/r/9AJbVCy4-G1.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30080,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Thu, 18 Mar 2027 20:27:25 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "180015a2d4d7be03836e087f33042a1917f22c4549073bb5f5d97acf626fb5a1",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v5/yT/l/0,cross/BwGa3fQlS7kClQWgBq98sn9hZXif1SoAXT9DWDYPz6DhfgQe914iiBfONMKn3YhINqU49pVNahkCkvOJ4AbSr5wE.css"
+        ],
+        "time": 0.07362999999895692
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/yQ/r/-pkMfchyeAZ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 183361,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Thu, 18 Mar 2027 20:20:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "387f3f9c37333bbd3afd25cc3928a5eb9d6f22b49c4c1e2a67789e7ccdc94701",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v5/yT/l/0,cross/BwGa3fQlS7kClQWgBq98sn9hZXif1SoAXT9DWDYPz6DhfgQe914iiBfONMKn3YhINqU49pVNahkCkvOJ4AbSr5wE.css"
+        ],
+        "time": 0.08384900000055495
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4ilwa4/yS/l/en_US-j/dIPQc7epvjK.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 76033,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Tue, 23 Mar 2027 18:14:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "19e2993718288d598a3d752635893f795fbb7434c0aeaabc4518a351f25a4f06",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.01905600000100094
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/fVMq3pJi9Hw.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19301,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Wed, 24 Mar 2027 22:46:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3edf11a947b745de2a8bf80862fe734b00d0534bbddf527c3812d7a43f4ae47c",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.013014999998631538
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4/yQ/r/phhshD5-sc1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3187,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Sat, 20 Mar 2027 04:15:42 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ff420faf5a8d63cc6cf0795633a0ab7d3492865c660d7d7bdc6fab2beb4a8120",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.015776000000187196
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/DcrX2w7W64E.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 78232,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Thu, 18 Mar 2027 20:28:31 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ffaea25c6413830faf2a8ac1da308ca1b5e26549eb2d62acec4e51b50677644f",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.020845000000917935
+      },
+      {
+        "url": "https://www.instagram.com/accounts/xuserid/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3668,
+        "remoteIPAddress": "57.144.220.34",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "98c6d3955a32f9e105f984be13a937c0f55ecff45da60496fdd27afca5cf99aa",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4iYeD4/yW/l/en_US-j/ORBKmHHuusX.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4iSJ94/yj/l/en_US-j/3QEbT4sCCiLIVrGrSE57cPYWfFMAAOkxwL53DLuAZ_J-wLi9VKPKEzzSPpoIqJES0f4j4SE1-LXf20Tm3rCAOd1Q6KQY-fe7NBciM-3juxcHXgs6rJrwPjUc1M2Mc9H2EKM-w1JtOGoHMq0Th14Xk8e9Sku4yAsukPWHDiX6AV42EQ_iC8lbkhBm8OT3g9q4pR78qLgXGs9o1jOpXaFgmrHpjQ-8BHl-lElGzTHOl6Gkjq0OVeavkZc4HIHnCTUMvplzbBLsJZCcc2ZP1Mq8wypiAW_bfkF94AKekI-DNAdmh5DEndjkC1LYw5WWi7I.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4iQnF4/yU/l/en_US-j/39S20nRhDI2.js"
+        ],
+        "time": 4.2682420000001
+      },
+      {
+        "url": "https://www.facebook.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=15&__hs=20543.HYP%3Acomet_loggedout_pkg.2.1...0&__hsi=7623531801515922087&__req=1&__rev=1036346787&__s=4uo1le%3Av5hycw%3A2ickeq&__spin_b=trunk&__spin_r=1036346787&__spin_t=1774991816&__user=0&dpr=2&jazoest=22419&lsd=AdQVxQl7vNNQr7IjpzkmhLdRc58&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 225,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "03645407b3473bea0ce5e672b10e16fad944d3e593758b07b9c2fcb3faa916dd",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4iSJ94/yj/l/en_US-j/3QEbT4sCCiLIVrGrSE57cPYWfFMAAOkxwL53DLuAZ_J-wLi9VKPKEzzSPpoIqJES0f4j4SE1-LXf20Tm3rCAOd1Q6KQY-fe7NBciM-3juxcHXgs6rJrwPjUc1M2Mc9H2EKM-w1JtOGoHMq0Th14Xk8e9Sku4yAsukPWHDiX6AV42EQ_iC8lbkhBm8OT3g9q4pR78qLgXGs9o1jOpXaFgmrHpjQ-8BHl-lElGzTHOl6Gkjq0OVeavkZc4HIHnCTUMvplzbBLsJZCcc2ZP1Mq8wypiAW_bfkF94AKekI-DNAdmh5DEndjkC1LYw5WWi7I.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4i44x4/yn/l/en_US-j/onA6hIdae6R.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4ieWN4/y5/l/en_US-j/n5HPHhoxPjLMrbDIOaVqRgzhK17QCJvRTw4dCbpdGE_e85ElNEPjABjyB5KNx6PY3IrruBGGEYFdGLxuD_lF_NqSt5FIdnQ_ONHAdF4Q4yS3Q5yLIhLjdtTF59V3TtN2HhP5zqwyvp6q7nPI6-NhAsCA5LxvyfVWAYRn5Q5XLynIoHzskHM2TrHr72z775NzKCi2Sch9boWyHYdnzATCB6ghfjDQ.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4ilwa4/yS/l/en_US-j/dIPQc7epvjK.js"
+        ],
+        "time": 0.05684800000017276
+      },
+      {
+        "url": "https://www.facebook.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=15&__hs=20543.HYP%3Acomet_loggedout_pkg.2.1...0&__hsi=7623531801515922087&__req=2&__rev=1036346787&__s=4uo1le%3Av5hycw%3A2ickeq&__spin_b=trunk&__spin_r=1036346787&__spin_t=1774991816&__user=0&dpr=2&jazoest=22419&lsd=AdQVxQl7vNNQr7IjpzkmhLdRc58&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 224,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a5d0bbb297460ac15852e0cdeb8128742e01ffd6962a69e4c3badb86c95229ea",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4iSJ94/yj/l/en_US-j/3QEbT4sCCiLIVrGrSE57cPYWfFMAAOkxwL53DLuAZ_J-wLi9VKPKEzzSPpoIqJES0f4j4SE1-LXf20Tm3rCAOd1Q6KQY-fe7NBciM-3juxcHXgs6rJrwPjUc1M2Mc9H2EKM-w1JtOGoHMq0Th14Xk8e9Sku4yAsukPWHDiX6AV42EQ_iC8lbkhBm8OT3g9q4pR78qLgXGs9o1jOpXaFgmrHpjQ-8BHl-lElGzTHOl6Gkjq0OVeavkZc4HIHnCTUMvplzbBLsJZCcc2ZP1Mq8wypiAW_bfkF94AKekI-DNAdmh5DEndjkC1LYw5WWi7I.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.06589399999938905
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/y1/r/ay1hV6OlegS.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 20509,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Thu, 18 Mar 2027 20:21:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7b4852945bb520008ec1457bbc3884b42b6172ae703e4ab4a4371c4ef03bd900",
+        "initiators": [],
+        "time": 0.013861999999789987
+      },
+      {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/y0/r/U45qBJmWVHU.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 181640,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 19 Mar 2027 00:07:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4c4e579e458ffc80e007af4e344f9bc0e77811706f4a616fc0b6507283eb6a9e",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4iQnF4/yU/l/en_US-j/39S20nRhDI2.js"
+        ],
+        "time": 0.11004099999991013
+      },
+      {
+        "url": "https://www.facebook.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=15&__hs=20543.HYP%3Acomet_loggedout_pkg.2.1...0&__hsi=7623531801515922087&__req=3&__rev=1036346787&__s=4uo1le%3Av5hycw%3A2ickeq&__spin_b=trunk&__spin_r=1036346787&__spin_t=1774991816&__user=0&dpr=2&jazoest=22419&lsd=AdQVxQl7vNNQr7IjpzkmhLdRc58&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 224,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "54c4e2ce98af2653aa555c768baebd15c3af2623b985742409c335212747d42f",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4iSJ94/yj/l/en_US-j/3QEbT4sCCiLIVrGrSE57cPYWfFMAAOkxwL53DLuAZ_J-wLi9VKPKEzzSPpoIqJES0f4j4SE1-LXf20Tm3rCAOd1Q6KQY-fe7NBciM-3juxcHXgs6rJrwPjUc1M2Mc9H2EKM-w1JtOGoHMq0Th14Xk8e9Sku4yAsukPWHDiX6AV42EQ_iC8lbkhBm8OT3g9q4pR78qLgXGs9o1jOpXaFgmrHpjQ-8BHl-lElGzTHOl6Gkjq0OVeavkZc4HIHnCTUMvplzbBLsJZCcc2ZP1Mq8wypiAW_bfkF94AKekI-DNAdmh5DEndjkC1LYw5WWi7I.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.06203800000002957
+      },
+      {
+        "url": "https://www.facebook.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=15&__hs=20543.HYP%3Acomet_loggedout_pkg.2.1...0&__hsi=7623531801515922087&__req=4&__rev=1036346787&__s=4uo1le%3Av5hycw%3A2ickeq&__spin_b=trunk&__spin_r=1036346787&__spin_t=1774991816&__user=0&dpr=2&jazoest=22419&lsd=AdQVxQl7vNNQr7IjpzkmhLdRc58&ph=C3",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 227,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.facebook.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6a0da5444f05283de8d70a959e59c1fc4238421ed41fab468991ad046283e60e",
+        "initiators": [
+          "https://static.xx.fbcdn.net/rsrc.php/v4iSJ94/yj/l/en_US-j/3QEbT4sCCiLIVrGrSE57cPYWfFMAAOkxwL53DLuAZ_J-wLi9VKPKEzzSPpoIqJES0f4j4SE1-LXf20Tm3rCAOd1Q6KQY-fe7NBciM-3juxcHXgs6rJrwPjUc1M2Mc9H2EKM-w1JtOGoHMq0Th14Xk8e9Sku4yAsukPWHDiX6AV42EQ_iC8lbkhBm8OT3g9q4pR78qLgXGs9o1jOpXaFgmrHpjQ-8BHl-lElGzTHOl6Gkjq0OVeavkZc4HIHnCTUMvplzbBLsJZCcc2ZP1Mq8wypiAW_bfkF94AKekI-DNAdmh5DEndjkC1LYw5WWi7I.js",
+          "https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/R1pEz0OuWy4.js"
+        ],
+        "time": 0.6233370000009018
+      }
+    ],
+    "cookies": [
+      {
+        "name": "datr",
+        "domain": ".facebook.com",
+        "path": "/",
+        "expires": 1809551816483,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "fr",
+        "domain": ".facebook.com",
+        "path": "/",
+        "expires": 1782767816483,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "sb",
+        "domain": ".facebook.com",
+        "path": "/",
+        "expires": 1809551816483,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "wd",
+        "domain": ".facebook.com",
+        "path": "/",
+        "expires": 1775596617000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "dpr",
+        "domain": ".facebook.com",
+        "path": "/",
+        "expires": 1775596617000,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://static.xx.fbcdn.net/rsrc.php/v4iSJ94/yj/l/en_US-j/3QEbT4sCCiLIVrGrSE57cPYWfFMAAOkxwL53DLuAZ_J-wLi9VKPKEzzSPpoIqJES0f4j4SE1-LXf20Tm3rCAOd1Q6KQY-fe7NBciM-3juxcHXgs6rJrwPjUc1M2Mc9H2EKM-w1JtOGoHMq0Th14Xk8e9Sku4yAsukPWHDiX6AV42EQ_iC8lbkhBm8OT3g9q4pR78qLgXGs9o1jOpXaFgmrHpjQ-8BHl-lElGzTHOl6Gkjq0OVeavkZc4HIHnCTUMvplzbBLsJZCcc2ZP1Mq8wypiAW_bfkF94AKekI-DNAdmh5DEndjkC1LYw5WWi7I.js": {
+          "Navigator.prototype.onLine": 5
+        },
+        "https://static.xx.fbcdn.net/rsrc.php/v4ikdN4/yh/l/en_US-j/N5R0FqL3ki5aNsjRUXi27GWJukooR-9Nvt8zQ6B9vwp7gQxGlu9kuHtRi7mWBMSxEcOrwUWos8AmSPq6t1wY9IZRVIPNHOqVL96Xbo5ubbMbZsZIN72SS5MnT_uK3aPyME2r.js": {
+          "Date.prototype.getTimezoneOffset": 2,
+          "Date.prototype.getTime": 3,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.colorDepth": 2
+        },
+        "https://static.xx.fbcdn.net/rsrc.php/v4iYeD4/yW/l/en_US-j/ORBKmHHuusX.js": {
+          "Navigator.prototype.platform": 1
+        },
+        "https://static.xx.fbcdn.net/rsrc.php/v4ieWN4/y5/l/en_US-j/n5HPHhoxPjLMrbDIOaVqRgzhK17QCJvRTw4dCbpdGE_e85ElNEPjABjyB5KNx6PY3IrruBGGEYFdGLxuD_lF_NqSt5FIdnQ_ONHAdF4Q4yS3Q5yLIhLjdtTF59V3TtN2HhP5zqwyvp6q7nPI6-NhAsCA5LxvyfVWAYRn5Q5XLynIoHzskHM2TrHr72z775NzKCi2Sch9boWyHYdnzATCB6ghfjDQ.js": {
+          "Navigator.prototype.webdriver": 2,
+          "Navigator.prototype.plugins": 4,
+          "Navigator.prototype.mimeTypes": 4,
+          "Navigator.prototype.languages": 2,
+          "Navigator.prototype.connection": 6,
+          "window.innerHeight": 2,
+          "window.innerWidth": 2,
+          "Notification.permission": 2,
+          "Navigator.prototype.permissions": 4,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.appVersion": 2,
+          "Navigator.prototype.platform": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Date.prototype.getTimezoneOffset": 2,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://static.xx.fbcdn.net/rsrc.php/v4ilwa4/yS/l/en_US-j/dIPQc7epvjK.js": {
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.deviceMemory": 2,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "initialUrl": "https://wb.ru/",
+  "finalUrl": "https://www.wildberries.ru/",
+  "timeout": false,
+  "testStarted": 1774990861462,
+  "testFinished": 1774990891048,
+  "data": {
+    "requests": [
+      {
+        "url": "https://wb.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "213.184.155.142",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.wildberries.ru/",
+        "initiators": [],
+        "time": 3.6667600000000675
+      },
+      {
+        "url": "https://www.wildberries.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 498,
+        "size": 1797,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {},
+        "responseBodyHash": "14946591a82c5c8e082ddffcd3a66ab91a33bdad32f4c231aa9931a0cc4a1dee",
+        "redirectedFrom": "https://wb.ru/",
+        "initiators": [],
+        "time": 1.883111999999528
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-DQJ0L4Mq.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NETWORK_CHANGED",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 3.9004560000012134
+      },
+      {
+        "url": "https://www.wildberries.ru/__wbaas/challenges/antibot/__static/v1/index-BuoI5IWB.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3282,
+        "remoteIPAddress": "185.62.202.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "dd18c152bf3036e3a57c7ab52e228662644236f4698c4f998a49860ba5b3a554",
+        "initiators": [
+          "https://www.wildberries.ru/"
+        ],
+        "time": 2.167922999999064
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

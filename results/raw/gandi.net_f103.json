@@ -1,0 +1,430 @@
+{
+  "initialUrl": "https://gandi.net/",
+  "finalUrl": "https://www.gandi.net/en-US",
+  "timeout": false,
+  "testStarted": 1774986949705,
+  "testFinished": 1774986959712,
+  "data": {
+    "requests": [
+      {
+        "url": "https://gandi.net/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "217.70.185.65",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.gandi.net/",
+        "initiators": [],
+        "time": 0.6611000000002605
+      },
+      {
+        "url": "https://www.gandi.net/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "cache-control": "max-age=43200, stale-while-revalidate=1209600, stale-if-error=172800, public"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.gandi.net/en-US",
+        "redirectedFrom": "https://gandi.net/",
+        "initiators": [],
+        "time": 0.2371130000001358
+      },
+      {
+        "url": "https://www.gandi.net/en-US",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 58886,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "cache-control": "max-age=3700, public",
+          "expires": "Tue, 31 Mar 2026 20:01:03 GMT"
+        },
+        "responseBodyHash": "81ab30878c7e5500263ff517847f946a0c9d29a11ecd62d7457fc6e667b0c806",
+        "redirectedFrom": "https://www.gandi.net/",
+        "initiators": [],
+        "time": 0.021850999999514897
+      },
+      {
+        "url": "https://www.gandi.net/static/fonts/Fraunces72ptSoft-SemiBold.35ff98584f74.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 28969,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"68d16421-7050\""
+        },
+        "responseBodyHash": "1d560f26642d43761870a9357e0830eecf1aff959035462f752892fe8b06e21d",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.013396000000284403
+      },
+      {
+        "url": "https://www.gandi.net/static/fonts/Inter-Regular--latin.5b5385e029f4.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23235,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"698c4bd6-5a00\""
+        },
+        "responseBodyHash": "a1d1c5cf0a2bd150cfd01e44d121829c7a1b6e8324dd35f34c70ed77a6025059",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.027908000000024913
+      },
+      {
+        "url": "https://www.gandi.net/static/fonts/Inter-SemiBold--latin.cb9cb89b325d.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 24601,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"698c4bd6-5ec4\""
+        },
+        "responseBodyHash": "186e5d486d1f3b758156db001d11271f18e78bdd07126c4a4e6febadc7983fcd",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.025931999999556865
+      },
+      {
+        "url": "https://www.gandi.net/static/css/common.31884ced1615.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 17137,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"698c4bd6-18157\""
+        },
+        "responseBodyHash": "8ae5e3076fb3b22ab5bfaf72cd0fdf77255abf2b78db8d492744bfc2448de857",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.013927999999395979
+      },
+      {
+        "url": "https://www.gandi.net/static/css/home.5b8fc49a8065.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6966,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"68d16421-9f4a\""
+        },
+        "responseBodyHash": "aa4cf46fc7741ab9e6a6628e6d973676c9db0384612224fb5d491761304aeddd",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.014100999999755004
+      },
+      {
+        "url": "https://www.gandi.net/static/js/modern.7a05aaf49ec8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31551,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"68d551d6-17688\""
+        },
+        "responseBodyHash": "ffc31836aca035bb145d495f2e1c3122460a9d116db43ae5c7af4030dc9c7264",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.025274999999965075
+      },
+      {
+        "url": "https://www.gandi.net/static/images/icons/news-placeholder.7725539fceb6.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 774,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"698c4bd6-432\""
+        },
+        "responseBodyHash": "3d2cdc82af2ad2d6a67f2d0fd6079459059742143286d16d04c7c346d3036768",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.02787200000057055
+      },
+      {
+        "url": "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e",
+        "method": "GET",
+        "type": "Script",
+        "status": 301,
+        "remoteIPAddress": "51.68.111.231",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://cdntag.tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 4.022960999999668
+      },
+      {
+        "url": "https://tag.aticdn.net/616708/smarttag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25721,
+        "remoteIPAddress": "18.244.214.96",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "W/\"1676e4644e663d308d76f0f2ab24b6d2\""
+        },
+        "responseBodyHash": "ce8767c94d8c8daf7a5369c7f4732992b5216b887f4a61050f917992208430fd",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 3.8642760000002454
+      },
+      {
+        "url": "https://news.api.gandi.net/api/v5/newssuggest/wpapi?lang=en&limit=2",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2397,
+        "remoteIPAddress": "217.70.185.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.gandi.net",
+          "cache-control": "max-age=0, must-revalidate, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 19:55:55 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d81bd90b0afac58d652b99e315efbcb707bd81e39d0cbe4994b0989204d58faa",
+        "initiators": [
+          "https://www.gandi.net/static/js/modern.7a05aaf49ec8.js"
+        ],
+        "time": 4.685210999999981
+      },
+      {
+        "url": "https://logs1412.xiti.com/hit.xiti?s=616708&idclient=677393fb-b9f8-4258-9863-efcf1511c85a&vc=false&vm=exempt&ts=1774986955063&page_url=https://www.gandi.net/en-US&vtag=5.29.4&ptag=js&r=800x600x24x24&re=1440x812&locale=en-US&lang=en&country=US&currency=USD&taxes=N%2FA&grid=A&p=WWW::Home&release=5.2.4&ref=",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 307,
+        "remoteIPAddress": "18.238.193.55",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://tag.aticdn.net/616708/smarttag.js",
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.1323099999999613
+      },
+      {
+        "url": "https://cdntag.tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33223,
+        "remoteIPAddress": "46.105.202.123",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "expires": "Wed, 01 Apr 2026 17:14:11 GMT"
+        },
+        "responseBodyHash": "fb791bc7b85aed70af453c865554bd7872840ebaa783ac9b1bf97171704bd918",
+        "redirectedFrom": "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e",
+        "initiators": [
+          "https://www.gandi.net/en-US"
+        ],
+        "time": 0.8875479999996969
+      },
+      {
+        "url": "https://cdn.tarteaucitron.io/css/tarteaucitron.min.css?v=1.31.0",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5940,
+        "remoteIPAddress": "46.105.202.123",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000",
+          "etag": "W/\"69399e6f-7591\"",
+          "expires": "Mon, 29 Jun 2026 08:12:35 GMT"
+        },
+        "responseBodyHash": "a49e1a72c7f37739c481e7903f95b1118cb9dbd034b9bd6eb3f34e7b9620be53",
+        "initiators": [
+          "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e"
+        ],
+        "time": 0.5086989999999787
+      },
+      {
+        "url": "https://cdn.tarteaucitron.io/lang/tarteaucitron.en.min.js?v=1.31.0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1683,
+        "remoteIPAddress": "46.105.202.123",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000",
+          "etag": "W/\"6866a6ea-b3b\"",
+          "expires": "Mon, 29 Jun 2026 08:13:53 GMT"
+        },
+        "responseBodyHash": "ba8bb510ddc74f7a300d4e2f67f3005a5e972adea6d086d4ac5c7a5c11abc3d8",
+        "initiators": [
+          "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e"
+        ],
+        "time": 0.5085530000005747
+      },
+      {
+        "url": "https://www.gandi.net/static/images/favicon.e848261f33f9.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 964,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"698c4bd6-5f2\""
+        },
+        "responseBodyHash": "df3e806093f9482887e14dd0ec5e07cb03043b34a0a2d78b2735c636538e174f",
+        "initiators": [],
+        "time": 0.016770000000178698
+      },
+      {
+        "url": "https://www.gandi.net/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2803,
+        "remoteIPAddress": "151.101.41.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60, public",
+          "etag": "\"69b7cc85-a04\""
+        },
+        "responseBodyHash": "09e490d48f5a817e0265ae44a746938d9625f455089c53833dc9edb6218bbfdd",
+        "initiators": [],
+        "time": 0.15228899999965506
+      },
+      {
+        "url": "https://cdn.tarteaucitron.io/tarteaucitron.services.min.js?v=1.31.0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36667,
+        "remoteIPAddress": "46.105.202.123",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7776000",
+          "etag": "W/\"69a82677-2fa65\"",
+          "expires": "Mon, 29 Jun 2026 08:13:50 GMT"
+        },
+        "responseBodyHash": "e5a49a28db513adf04f75e502823e63a99fe732f90c2f96219099e45b2cbd585",
+        "initiators": [
+          "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e"
+        ],
+        "time": 0.07524100000046019
+      }
+    ],
+    "cookies": [
+      {
+        "name": "atuserid",
+        "domain": ".gandi.net",
+        "path": "/",
+        "expires": 1809287755000,
+        "session": false
+      },
+      {
+        "name": "atauthority",
+        "domain": ".gandi.net",
+        "path": "/",
+        "expires": 1809287755000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://tag.aticdn.net/616708/smarttag.js": {
+          "Document.cookie getter": 28,
+          "Screen.prototype.width": 5,
+          "Screen.prototype.height": 5,
+          "Screen.prototype.pixelDepth": 5,
+          "Screen.prototype.colorDepth": 5,
+          "window.innerWidth": 10,
+          "window.innerHeight": 5,
+          "Navigator.prototype.language": 3,
+          "Date.prototype.getTime": 5,
+          "Document.cookie setter": 4
+        },
+        "https://www.gandi.net/en-US": {
+          "Document.cookie getter": 1
+        },
+        "https://tarteaucitron.io/load.js?domain=gandi.net&uuid=f5937014c90cccd8555d1bceaf844b703699ad9e": {
+          "Document.cookie getter": 3,
+          "window.innerHeight": 1,
+          "window.innerWidth": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://tag.aticdn.net/616708/smarttag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%22677393fb-b9f8-4258-9863-efcf1511c85a%22%2C%22options%22%3A%7B%22end%22%3A%222027-05-02T19%3A55%3A55.041Z%22%2C%22path%22%3A%22%2F%22%7D%7D;path=/;domain=.gandi.net;secure;expires=Sun, 02 May 2027 19:55:55 GMT"
+          ]
+        },
+        {
+          "source": "https://tag.aticdn.net/616708/smarttag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "atuserid=%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%22677393fb-b9f8-4258-9863-efcf1511c85a%22%2C%22options%22%3A%7B%22end%22%3A%222027-05-02T19%3A55%3A55.047Z%22%2C%22path%22%3A%22%2F%22%7D%7D;path=/;domain=.gandi.net;secure;expires=Sun, 02 May 2027 19:55:55 GMT"
+          ]
+        },
+        {
+          "source": "https://tag.aticdn.net/616708/smarttag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "atauthority=%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22default%22%2C%22visitor_mode%22%3A%22optin%22%7D%2C%22options%22%3A%7B%22end%22%3A%222027-05-02T19%3A55%3A55.049Z%22%2C%22path%22%3A%22%2F%22%7D%7D;path=/;domain=.gandi.net;secure;expires=Sun, 02 May 2027 19:55:55 GMT"
+          ]
+        },
+        {
+          "source": "https://tag.aticdn.net/616708/smarttag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "atauthority=%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22cnil%22%2C%22visitor_mode%22%3A%22exempt%22%7D%2C%22options%22%3A%7B%22end%22%3A%222027-05-02T19%3A55%3A55.055Z%22%2C%22path%22%3A%22%2F%22%7D%7D;path=/;domain=.gandi.net;secure;expires=Sun, 02 May 2027 19:55:55 GMT"
+          ]
+        }
+      ]
+    }
+  }
+}

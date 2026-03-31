@@ -1,0 +1,55 @@
+{
+  "initialUrl": "https://cambridge.org/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "timeout": false,
+  "testStarted": 1774991576806,
+  "testFinished": 1774991600095,
+  "data": {
+    "requests": [
+      {
+        "url": "https://cambridge.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "104.17.111.190",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=Qz4eHHCtV3wf1_GHFB59X0MHutyNHZgDH8zMhTUGWtg-1774991579.6543286-1.0.1.1-8Q.cs23oiUZ55r7NQyexHuXUNXbfZIeYARZlAnsfmAa4BSPGq4IBWENelXkZY9YJGYE1kzaWASLhiyK77HPlcHnwU0goH1KP1gNzh09GE649V0VMqVw47nVe90t4voUs; HttpOnly; Secure; Path=/; Domain=cambridge.org; Expires=Tue, 31 Mar 2026 21:42:59 GMT"
+        },
+        "responseBodyHash": "87ea0d462e543b44fca9a8cb02c19f8e4d9629fe079c476f44f02d39d836b8c4",
+        "redirectedTo": "https://www.cambridge.org/",
+        "initiators": [],
+        "time": 3.1733640000002197
+      },
+      {
+        "url": "https://www.cambridge.org/",
+        "method": "GET",
+        "type": "Document",
+        "size": 183827,
+        "responseBodyHash": "87ea0d462e543b44fca9a8cb02c19f8e4d9629fe079c476f44f02d39d836b8c4",
+        "failureReason": "net::ERR_NAME_NOT_RESOLVED",
+        "redirectedFrom": "https://cambridge.org/",
+        "initiators": [],
+        "time": 9.026922999999442
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": ".cambridge.org",
+        "path": "/",
+        "expires": 1774993380261,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

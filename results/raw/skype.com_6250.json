@@ -1,0 +1,1022 @@
+{
+  "initialUrl": "https://skype.com/",
+  "finalUrl": "https://teams.live.com/free?source=skype",
+  "timeout": false,
+  "testStarted": 1774986919917,
+  "testFinished": 1774986929640,
+  "data": {
+    "requests": [
+      {
+        "url": "https://skype.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "20.76.201.171",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.skype.com/",
+        "initiators": [],
+        "time": 0.5997310000002471
+      },
+      {
+        "url": "https://www.skype.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "52.123.128.14",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://teams.live.com/free?source=skype",
+        "redirectedFrom": "https://skype.com/",
+        "initiators": [],
+        "time": 0.35068200000023353
+      },
+      {
+        "url": "https://teams.live.com/free?source=skype",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 13897,
+        "remoteIPAddress": "52.113.194.132",
+        "responseHeaders": {
+          "cache-control": "no-store, no-transform, must-revalidate, no-cache",
+          "expires": "Mon, 30 Mar 2026 19:55:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7c231a60bf1ae41afd77ff61b7eb8a1068a25b5e45c45fb217f2f65c44217d9d",
+        "redirectedFrom": "https://www.skype.com/",
+        "initiators": [],
+        "time": 0.3590219999996407
+      },
+      {
+        "url": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53453,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"0x8DE812826FF3D27\""
+        },
+        "responseBodyHash": "daf7759fedd9af6c4d7e374b0d056547ae7cb245ec24a1c4acf02932f30dc536",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1537090000001626
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/videos/from_skype/hero-video-placeholder_4544x2566.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 193236,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=329477",
+          "etag": "0x8DDD61220E677BB",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7d11446b5d4ebe040dc42801beeeb27e98989aaecf3a0ce85b8f093cd4870a90",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.0376029999997627
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/icons/Teams_Logo_v2025_80x80.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7206,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=296439",
+          "etag": "0x8DDEAE9726F056C",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "becc3a98af90d6edc4d9b3716a7aa84c743f6f6846f165e7dee5bfdb0652d4aa",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9211999999997715
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/arrow-download.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1032,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=379065",
+          "etag": "0x8DDD6122217C669",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "14a82de9b8e9126e5312504418f16cfb79985a57875832b81f6011f496fb0bf7",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.922450000000026
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/person-20.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 868,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=215214",
+          "etag": "0x8DCFEDA930E38C9",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "84bf7e4676f4b9f18947db15f38990318278462718844ae84e4aaf11b76fdd1a",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9678030000004583
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/video-20.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 788,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=445638",
+          "etag": "0x8DCFEDA932E6640",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3cd90c6f6176ca2b7441532a869af4024a609b5be27f892bc6c1e383e21e36fe",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9957869999998366
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/play-24.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 776,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=296441",
+          "etag": "0x8DD020B713F659F",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bba28c1d381b18f1854291e657c567dbd9c71a0357e9aa9235f532b8b6036039",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9959990000006655
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/pause-24.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 765,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=379065",
+          "etag": "0x8DD020B713CF4FF",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a4c7aff3e73cc8646999a9f625767aeaac05be0bd5067c4680da9a22730c680a",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9962040000000343
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/video-28.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 828,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=296439",
+          "etag": "0x8DCFC87FA5FB34A",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d19fa4945bcfddaf2a8308905cc382628c43be89552b01e19273ae78570231f7",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9963989999996556
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/teams-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1345,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=215215",
+          "etag": "0x8DDD61221F1A646",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fc7ca156611090c56ffbfaa246af6a37bbb4b8a22598f15ddfb7c2cd48a44cce",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.921443000000181
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/number-symbol-square-28.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 887,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=379065",
+          "etag": "0x8DCFC87FA7B264C",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "afe375bc7effd1b1e2ed80ea866cd4a999736d31731bd7a2ed228eb6d610b31e",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9218019999998432
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61425,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30963827",
+          "etag": "0x8DE202846BAEE84",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d39fe7e6ec22c32b7c9a65c7526c4127d3ff8872a208def669caa6d976fecc1f",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.998424000000341
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/688-b9d125b96c987528.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33559,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31308452",
+          "etag": "0x8DE2028413BCF50",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7d2515440755433532e464cd890fb9beb48dd3e86509f66ac10100aa2032f4c8",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9998289999994086
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7507,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=29643809",
+          "etag": "0x8DE7079E2FF443F",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c3c6105f644ddf928fe5afcb18601ddbad73ed78b9a6db2a3aafc9869891682a",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.999209999999948
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/bento/from_skype/continue-skype-bg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 198340,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=296979",
+          "etag": "0x8DDD612212BDB0D",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f2bf4c9cad7a0f19065174362e2549ab6d8e545b3f4a9d6dfe00aadbb7d03dcb",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9598500000001877
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images//bento/share-meeting-bg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11912,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=296442",
+          "etag": "0x8DCFC87FA50735F",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7f872e126189d9f077a3716ad7de8c627210239c46d2fbf43ccf3c5468b95aa9",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.991606999999931
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/insider-blog/insider-blog-crop.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1269202,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=296442",
+          "etag": "0x8DE3D3C13945B23",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7457d54036b1577a737e3541a02cfb4822ade78a832e39ff1a57c4e3d30c3b11",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1851740000001882
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/chat-multiple.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1313,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=458733",
+          "etag": "0x8DDD612218697FF",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d8a4206d8a1c23c7a955592abe84ec6c5bddbb9696e2ba02ab3341b5ceb25eab",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.889501000000564
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/bento/from_skype/continue-skype-fr.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 83694,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=466718",
+          "etag": "0x8DDD61220D42AF2",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2dec8bce98ca447363e2588eb2894f0eb53c370ab764c8d0a92877322725b9b6",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.9163580000004004
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/video.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 973,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=115748",
+          "etag": "0x8DDD61221E91C06",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "814256323ec22dd4e7b1f378663afde41c696b9fe9ad2b2ede2d705e10fb60c1",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.889017999999851
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/bento/from_skype/video-calls-fr.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 59501,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=379065",
+          "etag": "0x8DDD61220DB55D8",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5894de253368cfbe7c30b151220a6f45f589eee4c55d131aabd773db694b1de6",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.084436000000096
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/share-screen-start.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1017,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=379065",
+          "etag": "0x8DDD61220FEB71C",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "82c238dd5804d511c52dca3f37195ad133989049669c6f46758729073eb176e9",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 2.889427000000069
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/bento/from_skype/web-collaboration-fr.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 148101,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=115749",
+          "etag": "0x8DDD61222175136",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7af034afa12442efd7e7ebf15636e20ad3deac6ef06219441e0581e4e9bbec06",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1208379999998215
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/m365.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3489,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=467382",
+          "etag": "0x8DDD61221C76825",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2995bce4c1833bd02db5418c005380d02cb68eb67852a236175f0049ec172dad",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1213870000001407
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/bento/from_skype/document-active.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17579,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=468178",
+          "etag": "0x8DDD61220F283E2",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5f135b9cbe73ed9401dacae430b1a09786532f8220a0290f287bedfb7b13cfd3",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1236430000008113
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/emoji-laugh.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1270,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=466110",
+          "etag": "0x8DDD612213E75F8",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f18d394afc6a77fe24417d4e3314265f340941ba26a7d4fe7c2c8f16e660ca1c",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.124104000000443
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/bento/from_skype/chat-themes-fr.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 50332,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=379065",
+          "etag": "0x8DDD61221280B1B",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "63c3a4e8f00ce2d6daffd857ef8bdb56a1c120a2f4d286c17860c7ce56dc2508",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.124954999999318
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/from_skype/link-multiple.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1091,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=467382",
+          "etag": "0x8DDD61221B9396E",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0109ecdeb29e824901f0ae34dc2cf2bd5fc8dee04fa9d79425cb5bf68ef72ebb",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.12548599999991
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/bento/from_skype/share-meeting-fr.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 82180,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=467647",
+          "etag": "0x8DDD61221936771",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2018621f66d1ba18f7409e5eb0269ab1db9b2b6bba247bbc4a0aa5127fe99b76",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.131185999999616
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/insider-blog/update.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 938,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=281070",
+          "etag": "0x8DE3119A6BFF677",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0f0ca05c1d823284683de985d2de7297b78204cf855577860069c5bd4ed5469f",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1315850000000864
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/arrow-download-filled-20.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 851,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=382746",
+          "etag": "0x8DCFC87FA7BE97E",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6862b56f08fffea97f8b0b4d2856a05298a354f31018f20e01aedddf491a6d35",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1318469999996523
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/icons/question-circle-filled-20.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 812,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=381884",
+          "etag": "0x8DCFC87FA7D6FE2",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e6a07fc9548ddb9286897a9956a84773155ddd5716fdcfbedfbb69c1eccd0481",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.132090000000062
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/gather/images/privacy-options.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 946,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=385186",
+          "etag": "0x8DCFC87FA1B88D3",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "db1f1587e2c1707791c89eb3757f196943877b53f1d840f34c786fc2b6943e1e",
+        "initiators": [
+          "https://teams.live.com/free?source=skype"
+        ],
+        "time": 3.1323480000000927
+      },
+      {
+        "url": "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize?client_id=4b3e8f46-56d3-427f-b1e2-d239b2ea6bca&response_type=token&scope=openid+profile&redirect_uri=https%3A%2F%2Fteams.live.com%2Fv2%2Fauth&prompt=none",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "20.190.151.9",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache",
+          "expires": "-1",
+          "p3p": "CP=\"DSP CUR OTPi IND OTRi ONL FIN\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://login.live.com/oauth20_authorize.srf?client_id=4b3e8f46-56d3-427f-b1e2-d239b2ea6bca&scope=openid+profile&redirect_uri=https%3a%2f%2fteams.live.com%2fv2%2fauth&response_type=token&prompt=none&uaid=9c7391f463be45cab242036a4045eb74&msproxy=1&issuer=mso&tenant=consumers&ui_locales=en-US&epctrc=7bNn1epM%2fm8YnYtFCn2e%2b796mVFLxNjR3Ig0TFzWgEs%3d5%3a1%3aCANARY%3aZz%2fL5Ch%2bLrUCGQO%2fzvvd%2fq8pUWvNk%2f4X6rvUtZs%2bjHs%3d&epct=PAQABDgEAAACvnsHKEvvRQb3Bz3Qc7wnaRXZvU3RzQXJ0aWZhY3RzCAAAAAAAayKai-aC2NVd-2j5-z4ZRx3zaAbxaBRxqjMQMqBpM36E_zHIAP8iGENB1dl01oL9Nx7aCmRuLgxFtOSXrDD66A5E3yIjK0pkT3nX-WA7eWNAaB90ev8kVLiouNk7-xOFDS_LNRe8-VtlXgJuriiPP0GRG4j1FRB5EL0xwKlmBYBbAbzMvNvcPaFPXmlTePR7_9ZOBsUP3NubCvfqClz0iSAA&jshs=0",
+        "initiators": [
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js",
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js"
+        ],
+        "time": 0.4967349999997168
+      },
+      {
+        "url": "https://www.clarity.ms/tag/o0kztukq0k",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1345,
+        "remoteIPAddress": "4.153.187.221",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store",
+          "expires": "-1",
+          "set-cookie": "CLID=61a396bfae2444b3b6da066334df3cc3.20260331.20270331; expires=Wed, 31 Mar 2027 19:55:25 GMT; path=/; secure; samesite=none; httponly"
+        },
+        "responseBodyHash": "a3c3abee04c0895438a0f3a8d6137b6128615fcf2263a37472b6f3f28d9264a9",
+        "initiators": [
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js",
+          "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js"
+        ],
+        "time": 0.28486700000030396
+      },
+      {
+        "url": "https://e.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 278,
+        "remoteIPAddress": "20.57.85.160",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://teams.live.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/688-b9d125b96c987528.js",
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js",
+          "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js"
+        ],
+        "time": 0.30901299999914045
+      },
+      {
+        "url": "https://login.live.com/oauth20_authorize.srf?client_id=4b3e8f46-56d3-427f-b1e2-d239b2ea6bca&scope=openid+profile&redirect_uri=https%3a%2f%2fteams.live.com%2fv2%2fauth&response_type=token&prompt=none&uaid=9c7391f463be45cab242036a4045eb74&msproxy=1&issuer=mso&tenant=consumers&ui_locales=en-US&epctrc=7bNn1epM%2fm8YnYtFCn2e%2b796mVFLxNjR3Ig0TFzWgEs%3d5%3a1%3aCANARY%3aZz%2fL5Ch%2bLrUCGQO%2fzvvd%2fq8pUWvNk%2f4X6rvUtZs%2bjHs%3d&epct=PAQABDgEAAACvnsHKEvvRQb3Bz3Qc7wnaRXZvU3RzQXJ0aWZhY3RzCAAAAAAAayKai-aC2NVd-2j5-z4ZRx3zaAbxaBRxqjMQMqBpM36E_zHIAP8iGENB1dl01oL9Nx7aCmRuLgxFtOSXrDD66A5E3yIjK0pkT3nX-WA7eWNAaB90ev8kVLiouNk7-xOFDS_LNRe8-VtlXgJuriiPP0GRG4j1FRB5EL0xwKlmBYBbAbzMvNvcPaFPXmlTePR7_9ZOBsUP3NubCvfqClz0iSAA&jshs=0",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "20.190.151.69",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache",
+          "expires": "Tue, 31 Mar 2026 19:54:26 GMT",
+          "p3p": "CP=\"DSP CUR OTPi IND OTRi ONL FIN\"",
+          "pragma": "no-cache",
+          "set-cookie": "MSPRequ=id=N&lt=1774986926&co=1; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly\nuaid=9c7391f463be45cab242036a4045eb74; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly\nOParams=11O.DrFTnYDxHXMUCPzhF9tresWl6wvM6TbZ6dUFq6srgP6*GlKTibMM!pps3931LaPNLwX*Cy!M55d3*vGFsZ!TVnb!7MQ6j8hUiOqQqCixVLaYYn75hotFoVIArcC!RoRU8PcMEtEmX74681O0TqvvXBTgwPKJdLriH1cDcDR8tkLBsCaRE15T2cAFDcfYfa6UYnXdQVZhcfDYu3jUeYyspef0f6YNAupHrARcwg5Llr33tzPgpDiopJbw46E1CqmjOOIijy*1V*i8q9alBh4AmLHQpCkZHSVhRAFldmIsBVpiRpjgXW7Vl5Ev6eODBCftJW!zf0g*fP!Br74fr0D2y8U06bSkwsTBrkQ6M0Eoo3eA5xLVV12BkLqvFRloO7odEKLBU33ICsHFos52HR7VXsev!KiJ2jVDY6H8t5RR76YdmZYPk6WM4*V8dT07XNod0EwUkev1VWN4dan1NMqwAuD48ca5GdXr*IPgTIS0HDKh5KJrSA2pcy0BRXybDP!**IjcjKf6PkWWedcjy*abgkSRxS!bbTSwevieixlxW4QSi5WNVv836QuChDNthYClK0xxLQJE7BoVrL8XX13K4K3uRc9ie16COfDol0x9Re22nP2RbVW6wr*3DxZzTu!8BAbO*ezsfQM2hO2NMdcxF!YMrS7FXEstW6IEgFG8DGgNbbkGdovpekEi8xnACLowk2epNbDCOIIO3I7kH3oakgMucRyraTHmqiGWTvlB0*1epI2uhF!jco18arv5F5yM04z9*8uLMPvcDad08f6LQMm4AkkDaM1zyuk504N!F!BstcoQ3Pexw4!NzBB8UgA0lXODYyiv7opmF9eSsLT3aS49!eaEp8e!mBPqsAsnFsXwUdwtYs3O1lQQqEaHw*U5IA$$; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://teams.live.com/v2/auth",
+        "redirectedFrom": "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize?client_id=4b3e8f46-56d3-427f-b1e2-d239b2ea6bca&response_type=token&scope=openid+profile&redirect_uri=https%3A%2F%2Fteams.live.com%2Fv2%2Fauth&prompt=none",
+        "initiators": [
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js",
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js"
+        ],
+        "time": 0.5607689999997092
+      },
+      {
+        "url": "https://teams.live.com/v2/auth",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "52.113.194.132",
+        "responseHeaders": {
+          "cache-control": "no-store, no-transform, must-revalidate, no-cache",
+          "expires": "Mon, 30 Mar 2026 19:55:26 GMT",
+          "set-cookie": "clocale=en-us; expires=Wed, 31 Mar 2027 19:55:26 GMT; path=/;Partitioned; secure; httponly",
+          "timing-allow-origin": "*"
+        },
+        "redirectedFrom": "https://login.live.com/oauth20_authorize.srf?client_id=4b3e8f46-56d3-427f-b1e2-d239b2ea6bca&scope=openid+profile&redirect_uri=https%3a%2f%2fteams.live.com%2fv2%2fauth&response_type=token&prompt=none&uaid=9c7391f463be45cab242036a4045eb74&msproxy=1&issuer=mso&tenant=consumers&ui_locales=en-US&epctrc=7bNn1epM%2fm8YnYtFCn2e%2b796mVFLxNjR3Ig0TFzWgEs%3d5%3a1%3aCANARY%3aZz%2fL5Ch%2bLrUCGQO%2fzvvd%2fq8pUWvNk%2f4X6rvUtZs%2bjHs%3d&epct=PAQABDgEAAACvnsHKEvvRQb3Bz3Qc7wnaRXZvU3RzQXJ0aWZhY3RzCAAAAAAAayKai-aC2NVd-2j5-z4ZRx3zaAbxaBRxqjMQMqBpM36E_zHIAP8iGENB1dl01oL9Nx7aCmRuLgxFtOSXrDD66A5E3yIjK0pkT3nX-WA7eWNAaB90ev8kVLiouNk7-xOFDS_LNRe8-VtlXgJuriiPP0GRG4j1FRB5EL0xwKlmBYBbAbzMvNvcPaFPXmlTePR7_9ZOBsUP3NubCvfqClz0iSAA&jshs=0",
+        "initiators": [
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js",
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js"
+        ]
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/authCallback-6b1595250b1ab7fa.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://teams.live.com/v2/auth"
+        ],
+        "time": 0.003087000000050466
+      },
+      {
+        "url": "https://statics.teams.cdn.live.net/evergreen-assets/icons/microsoft_teams_logo_refresh_v2025.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 63256,
+        "remoteIPAddress": "23.212.62.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=333278",
+          "etag": "0x8DDEAE972660605",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5f8e5e728c6ecd9940fe9d77dc6ba16a591ab7963e886bf372046468aecad20e",
+        "initiators": [],
+        "time": 0.017536000000291097
+      },
+      {
+        "url": "https://teams.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2&content-encoding=gzip",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 290,
+        "remoteIPAddress": "20.189.173.6",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://teams.live.com"
+        },
+        "responseBodyHash": "4a43245106e0874b95dc5edec8fc630a06f82bf5ce87f245b1b9cd286313ca59",
+        "initiators": [
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js",
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js"
+        ],
+        "time": 0.35455000000001746
+      },
+      {
+        "url": "https://teams.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2&content-encoding=gzip",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "20.189.173.6",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://teams.live.com",
+          "cache-control": "public, 3600"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://teams.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2&content-encoding=gzip"
+        ],
+        "time": 0.18639400000029127
+      },
+      {
+        "url": "https://e.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 278,
+        "remoteIPAddress": "20.57.85.160",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://teams.live.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/688-b9d125b96c987528.js"
+        ],
+        "time": 0.18561700000009296
+      }
+    ],
+    "cookies": [
+      {
+        "name": "MSCC",
+        "domain": ".live.com",
+        "path": "/",
+        "expires": 1775073325000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_clck",
+        "domain": ".live.com",
+        "path": "/",
+        "expires": 1806522925000,
+        "session": false
+      },
+      {
+        "name": "esctx-fr4IoCMlMUc",
+        "domain": ".login.microsoftonline.com",
+        "path": "/",
+        "expires": 1774988425671,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "fpc",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "expires": 1777578925671,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "x-ms-gateway-slice",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "stsservicecookie",
+        "domain": "login.microsoftonline.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_clsk",
+        "domain": ".live.com",
+        "path": "/",
+        "expires": 1775073325000,
+        "session": false
+      },
+      {
+        "name": "MSPRequ",
+        "domain": ".login.live.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "uaid",
+        "domain": ".login.live.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "OParams",
+        "domain": ".login.live.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-b61f5ae0a1a9d8b0.js": {
+          "window.sessionStorage": 4,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "Navigator.prototype.language": 1
+        },
+        "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js": {
+          "Navigator.prototype.language": 5,
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Date.prototype.getTimezoneOffset": 2,
+          "Navigator.prototype.product": 4,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.width": 1,
+          "Document.cookie getter": 1,
+          "Document.cookie setter": 1,
+          "window.localStorage": 1,
+          "Date.prototype.getTime": 5
+        },
+        "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 4,
+          "Document.cookie setter": 1
+        },
+        "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/688-b9d125b96c987528.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie getter": 12,
+          "window.sessionStorage": 3,
+          "window.devicePixelRatio": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Document.cookie setter": 2,
+          "Navigator.prototype.webdriver": 1,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Navigator.prototype.connection": 1
+        },
+        "about:blank": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/661-ed5516cdd4f1f7a0.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "MicrosoftApplicationsTelemetryDeviceId=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT; max-age=0"
+          ]
+        },
+        {
+          "source": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "MSCC=NR;path=/;samesite=none;secure;domain=.live.com;expires=Wed, 01 Apr 2026 19:55:25 GMT"
+          ]
+        },
+        {
+          "source": "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/688-b9d125b96c987528.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_clck=koeoz7%7C2%7Cg4t%7C0%7C2281;expires=Wed, 31 Mar 2027 19:55:25 GMT;path=/;domain=.live.com"
+          ]
+        },
+        {
+          "source": "https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/688-b9d125b96c987528.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_clsk=18qmsja%7C1774986925880%7C1%7C0%7Ce.clarity.ms%2Fcollect;expires=Wed, 01 Apr 2026 19:55:25 GMT;path=/;domain=.live.com"
+          ]
+        }
+      ]
+    }
+  }
+}

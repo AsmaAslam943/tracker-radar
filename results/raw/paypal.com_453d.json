@@ -1,0 +1,2914 @@
+{
+  "initialUrl": "https://paypal.com/",
+  "finalUrl": "https://www.paypal.com/us/home",
+  "timeout": false,
+  "testStarted": 1774987426239,
+  "testFinished": 1774987441281,
+  "data": {
+    "requests": [
+      {
+        "url": "https://paypal.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.3.1",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.paypal.com/",
+        "initiators": [],
+        "time": 0.05220200000076147
+      },
+      {
+        "url": "https://www.paypal.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.paypal.com/us/home",
+        "redirectedFrom": "https://paypal.com/",
+        "initiators": [],
+        "time": 0.16378999999960797
+      },
+      {
+        "url": "https://www.paypal.com/us/home",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 50365,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:47 GMT; Secure; SameSite=None\nLANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:43 GMT; HttpOnly; Secure; SameSite=None\ntsrce=ppcmsnodeweb; Max-Age=259199; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:46 GMT; HttpOnly; Secure; SameSite=None\nkndctr_5CE4123F5245B06C0A490D45_AdobeOrg_cluster=or2; Max-Age=1799; Domain=.paypal.com; Path=/; Expires=Tue, 31 Mar 2026 20:33:46 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQyNzY4MSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523427%26vteXpYrS%3D1774989227%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:47 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:47 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "ef1ee7616f653ffbe171e7fbcbe62a8f06230e4dc1b65e32e8b41abaef5ecd18",
+        "redirectedFrom": "https://www.paypal.com/",
+        "initiators": [],
+        "time": 0.7590179999997417
+      },
+      {
+        "url": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6884,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"6697f682-5a55\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "d81bfefd8585b694222d3e94e9dee5d7935049c65355f9fd096800301d51545b",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.13771300000007614
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/themes/ppe-DDXYcW3Z.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3866,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-d995\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "3f9217ad3541cd635cb829096aa147ebbd6ae62e713e3edda256321e25c4b814",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.07275099999969825
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/helpers-016b3179.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 16667,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69c1a191-20789\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "016b31794947e6198f46735cc6c793d1f0c73961c570d462510fdae997a94dac",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.07616400000006252
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/AppDownloadTemplate-3ff112e2.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1539,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-2948\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "3ff112e2c62493ed4f62568fb8a1783b9f34540afcd08b7c3c800255a2c94901",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.07628399999975954
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/MerchantHero-06fdcd01.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6730,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-dfac\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "06fdcd01de8f177864a5b4f1117170bf62b9996e9ac68e8b2ad6e5869b8e8f2a",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.08693299999958981
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/StickyQrBadge-bc6ebd74.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2773,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-3a63\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "bc6ebd74a8172d23f122d6759f14ea5ba8b4d2e17bdee0d1d8db2398766692ae",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.08732299999974202
+      },
+      {
+        "url": "https://www.paypalobjects.com/martech/tm/paypal/gtm-bootstrap.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 604,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69c6caf9-159\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "facfce78c6d7c6d7fc83b867748e7b09a4c90b82ae46b3bdede4010fc9ae5e0c",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.08779300000060175
+      },
+      {
+        "url": "https://www.paypalobjects.com/globalnav/css/main-DQcdHEcI.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 25256,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69b1734b-76639\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "a0665ae6e80685f0168d8d7017bcc91e251f9f41571af02f5c672676f9cb553d",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.08728999999948428
+      },
+      {
+        "url": "https://www.paypalobjects.com/globalnav/js/main-DLmvdIfW.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 56343,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69b1734b-2931d\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "ed687b4e8cc096ecb62216d9022f24c7f5b23de4729d2de8aa8c589c8e5cc1a2",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.12789500000053522
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/fonts/PayPal%20Plain/PayPalPlain-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 79448,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"687ac9fd-1346b\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "b26487aac1b681be68d36503af294290272182a3838473c1b8866bd3a8596e79",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.14297299999998359
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/fonts/PayPal%20Plain/PayPalPlain-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 79557,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"687ac9fd-134df\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "370edfa0cd9651876e6e038b0a14606aca8c97fc53640e8a5eea80ecc159d4bc",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.15622299999995448
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/fonts/PayPal%20Pro/PayPalProSWeb-Book.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 29711,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"68349e35-7230\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "2e4fbcdb0c5738dc0c88bd25575938d717b5ba409e14d5abde0d38a5ce61afd4",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.1582959999996092
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/fonts/PayPal%20Pro/PayPalProSWeb-Black.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27610,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"68349e35-6a3e\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "7cf33d04aef8d7c6154025fce87665eab751bd3a092760a42f9ea9ab45b5f8dd",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.15984800000023824
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 245652,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-e92f3\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "e193bccc31c7d3affa7e8c86e6248d4487eb052c67086db269434c2a1a39ca80",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.18229199999950652
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54867,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-295d9\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "493f6fcab7a6728e5465cfe7fbd5a1a8e76cc8c400d799f95d4ddfe529838b03",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.1908849999999802
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/web23/us/en/ppe/homepage-consumer/brand-moment-hero-tablet-up-v1.jpg?quality=75&width=1500&format=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 258251,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"cfjlGVqUTn7OFNql7rwuz3REkvTdCCqISaR-5GUofSDQ:6927f4e8-35746\""
+        },
+        "responseBodyHash": "ce218e20e20bc8a464de3746be46ef99f2f0c83be391178bb21097781c61e9d6",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.1355860000003304
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/TextHeaderInner-c1574fb8.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 640,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-327\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "c1574fb83dba31805405d027acbc367f9939d743e5f3500bb60bba35278ea853",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.11737399999947229
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/SplitSectionItem-793ad6a3.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1013,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-1996\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "793ad6a34360daf641bc63d625101bcf274720fcf47bbc520cae2a63d1d32c89",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.12001300000065385
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/SplitSection-101a1ec9.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2314,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-3273\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "101a1ec97e9ea9047925aa3c88e03fc1fbde5dda5823d94a7ae03e11e94dbab8",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.11692200000015873
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/ImageGridSection-46a2281b.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2307,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-32a1\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "46a2281bd6438543c09e1469ac4e9a299a10aa6044f952e7daf5ac5c5790f869",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.11884399999962625
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/LayeredCardWrapper-3a837b71.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1654,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-20a3\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "3a837b71c9323fd09a94ebe333aaa970879efe2761541588bc94a8ccbd606ee7",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.11646599999949103
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/StackSectionType-e38e5e0f.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1621,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-1ea9\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "e38e5e0f3768b1a897dfcd4c57c90136aaa65c3fd1d926320210f862e88d0cd7",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.1173399999997855
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/TextSectionType-7160e4fb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 713,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-624\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "7160e4fb14c1eb1b04d00c923f64a3008343241685c9079f7dc811367e219c07",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.11925700000028883
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/ProductScrollSection-9de4c351.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3521,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-6f68\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "9de4c35175383d5dfa9df143b8efb97018a486de798057c04cae4834ce827d0a",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.11835799999971641
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/pp-com-components/component-chunks/FeaturedCtaSection-3ab7b556.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1386,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69cb15ef-1544\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "3ab7b55640221bd2f582569a65870eba844b3008c20234dc66035a753ae3fd27",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.11887000000024273
+      },
+      {
+        "url": "https://www.paypalobjects.com/ncs/ncs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3330,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"68d5511d-2372\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "ff6bb20f6b1cf4e1b9429b7edf005bee56de805a8eb8704a09893213dc1b349a",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.15772299999935058
+      },
+      {
+        "url": "https://www.paypal.com/auth/createchallenge/ee629ee49d05a163/recaptchav3.js?_sessionID=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7129,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"2b31-lXKGCI6MSTqIu2RFsIxvS4lQfvI\"",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:44 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:48 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQyODAwMiIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=authchallengenodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:48 GMT; HttpOnly; Secure; SameSite=None\ntsrce=authchallengenodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:48 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:48 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523427%26vteXpYrS%3D1774989227%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:48 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:48 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "167bd2029a9da075f235ac767d521e12b282214d61726660ca5101c29cc45586",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.27136199999949895
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T562K64Q&l=ga4DataLayer",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 111553,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:03:53 GMT"
+        },
+        "responseBodyHash": "7ec8046c434008215314cc9f2e47b6505dac0fc2d808aac59ad73467242c2a47",
+        "initiators": [
+          "https://www.paypalobjects.com/martech/tm/paypal/gtm-bootstrap.js"
+        ],
+        "time": 5.2861919999995735
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 793,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"66c45167-2c5\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.03142699999989418
+      },
+      {
+        "url": "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 3278,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:49 GMT; HttpOnly; Secure\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:53 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523433%26vteXpYrS%3D1774989233%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:53 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:53 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "ea0f1fae4e4a0f5e36a0f1b9837abc7935bb0b0bb342027dfdb6881285f648d1",
+        "initiators": [
+          "https://www.paypal.com/auth/createchallenge/ee629ee49d05a163/recaptchav3.js?_sessionID=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx"
+        ],
+        "time": 0.07718199999999342
+      },
+      {
+        "url": "https://www.paypalobjects.com/ncs/paypal/mapping.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 510,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"63dd70ed-11b\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "9c986b81d2fb17a9948c52596451d20d7b110dc1d05d26713b000400ac12c868",
+        "initiators": [
+          "https://www.paypalobjects.com/ncs/ncs.js"
+        ],
+        "time": 0.028537000000142143
+      },
+      {
+        "url": "https://www.paypal.com/myaccount/privacy/cookieprefs/getBanner?showBanner=true&country=US&language=en&policyType=CookieBanner&originalHeaders={%22cookie%22:%22%22}&tenant=paypal&tenantData={}",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 8885,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "access-control-allow-origin": "https://www.paypal.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"62c8-Fz3feRfto78lj6m1Jd50BE0cEBI\"",
+          "set-cookie": "enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:53 GMT; Secure; SameSite=None\nLANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:49 GMT; HttpOnly; Secure; SameSite=None\ntsrce=privacynodeweb; Max-Age=259199; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:52 GMT; HttpOnly; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQzMzgzMCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=privacynodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:53 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:53 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523433%26vteXpYrS%3D1774989233%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:53 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:53 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "eb57e5fa3e03e768768c37e2b71ff85c702552163a5f527010a940bd37aefeee",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ncs/ncs.js"
+        ],
+        "time": 0.18327899999985675
+      },
+      {
+        "url": "https://www.paypal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300, stale-if-error=10800, stale-while-revalidate=10800, public",
+          "set-cookie": "__cf_bm=N66cYJgPAG9xWa4Ri_NyAIQ94lBM2Dj2_diW4_1pObk-1774987433.746721-1.0.1.1-F4xVneXHhElnR3PmS6Vndnghcv00TPg8s_BT_lkyZm8Mqv1Y1x9v52EwMPHAkXOHjXqlxcvRVjnHg5HnVkvoiqDzKYp3XC6qejpWJqNv615fO1erLVpB4dfrBIrw93kE; HttpOnly; Secure; Path=/; Domain=www.paypal.com; Expires=Tue, 31 Mar 2026 20:33:53 GMT"
+        },
+        "responseBodyHash": "ffb66455b464757773c52a763d1fc3c1461cd41864216192c9f14460ebdf0df4",
+        "redirectedTo": "https://www.paypal.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/ea2d291c0fdc/main.js?",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.3757099999993443
+      },
+      {
+        "url": "https://www.paypal.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/ea2d291c0fdc/main.js?",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12775,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "cache-control": "max-age=14400, stale-if-error=10800, stale-while-revalidate=10800, public",
+          "set-cookie": "__cf_bm=tdaGFA026jQMIX5O9RRoz1iWumKf07.GQKQWJmYHz6g-1774987434.124119-1.0.1.1-G67_vycnFhm5XdnKE1uARS6O9iA4kExiTczj3IjTBQ1vLX7ftnHolDfK63Tg.9unkRx93Qf_RBOM6gH_yW1sbZCvCACpauQ1kXZC8i30SODCS7fxfqntMVS0VYl9qQGD; HttpOnly; Secure; Path=/; Domain=www.paypal.com; Expires=Tue, 31 Mar 2026 20:33:54 GMT"
+        },
+        "responseBodyHash": "ffb66455b464757773c52a763d1fc3c1461cd41864216192c9f14460ebdf0df4",
+        "redirectedFrom": "https://www.paypal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.026712000000770786
+      },
+      {
+        "url": "https://www.paypalobjects.com/ncp-ui-web/consumer-home/8.2.3-legacy-v2/consent.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 16161,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"67ae0a80-2f3cb\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "28d8731f83fb3eef3e2d4103768b18da089c814ae6301419ea45b4ca357d6b49",
+        "initiators": [
+          "https://www.paypalobjects.com/ncs/ncs.js",
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js"
+        ],
+        "time": 0.06541999999990367
+      },
+      {
+        "url": "https://www.paypalobjects.com/pa/js/min/pa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25516,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"698c0d52-1169e\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "fae4b858a4efba7ef920a6fda59d4207224ec488e49e16c73ec013b8daf89370",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.02710800000022573
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/HomepageHeroRebrand-bc1a7ce3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 814,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-30b\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "e8d0bc66bb5db7f47dfc9426c71948e9656b7a7f0c1230e261abfc7d232d1da0",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.0315599999994447
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/MerchantHero-3192701a-31a1743f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12813,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-adcc\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "1b9ec219a6191596d5fb7491f18f99594b50d543d28d7dbfdf8684de1091d0eb",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.036863000000266766
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/HeroVideoAnimation-87f53d12-b32be894.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1140,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-629\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "51591942628b7d6826f12d469ec0d5213376def815c301bb829167f51ecaf789",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03183400000034453
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/MinimalMediaFrame-939f39c8-0eb532a5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 727,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-241\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "a4700fec98f045848bd106963f933ccecd8be51c9664af20b2bddc8957194a82",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03710700000010547
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/MinimalImageFrame-62cb494f-0734156b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 617,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-128\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "1acf0fa5eb2d3b7be2269099ea28fe71419bd982c40d77bff0ca13260e8c5966",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.031855000000177824
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/hero.utils-838a08b6-ca3c0cfb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 640,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-13c\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "68746f9b8432a4eecd029237cfd388410dc3b31d56c6992b9063d2d70fa0fb6f",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03095099999973172
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/MinimalTextGroup-163253d2-70876b39.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 813,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-36c\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "c0e7d196e5fafbd56a156adf6edf165e490dea15f25f29c86f48a9894e79638d",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03632199999992736
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/AppDownloadTemplate-fa3c901c-8e8c3951.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2974,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-1e0b\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "4bad2c9d00881412a00d67d4aff6bcda514a78f87eba27a742426d2ec179aa50",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.039526999999907275
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/QrCode-c023427e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15652,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-c956\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "025578cd747743b90daf2e5838ecb1a1c33b1a98b07fbed6d2ea45506129ead7",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.033737000000655826
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/index-6ab3b67a-b60a180c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7747,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-4be8\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "729208268b1add8c28dc8c85aa9c22c481ef69d68e9649d0b7fc2f9580a49a80",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.032866000000467466
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/TextGroupTemplate-a94f2fb0-0d2e14cc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9748,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-6972\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "70aa006ec7cf7b6e11a61065f84285c80f83af6b946ba5d38c7ab9c20beeafa1",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.04244899999957852
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/PpReactCurrencyInput-2aabee03-a5c88765.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12913,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-b4f9\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "e07aab665f0265c48250b8f30fcef11b0b5c565171e21cbb65604b58c9aaf208",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03488700000070821
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/TextGroup-aafa8716.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 946,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-3de\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "e8565b4ae6cdffa22b7e9a561e8b2a076432306e92b48cf76bcdd18a853cb1ba",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03270100000008824
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/card-renderer-d3b7613b-35892719.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 853,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-397\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "fb55fe307d0c972344f51dbbb2fdba0195db5cfc1b7b65bb9637cd603496f9e0",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.031046999999489344
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/BrandMomentSection-3079492b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2338,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-1343\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "7d6b27a09ec50a1a96004bf6e045f51f351477525b28c16828a688a3111051cb",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03312999999980093
+      },
+      {
+        "url": "https://www.paypal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "cache-control": "max-age=14400, stale-if-error=10800, stale-while-revalidate=10800, public"
+        },
+        "responseBodyHash": "ffb66455b464757773c52a763d1fc3c1461cd41864216192c9f14460ebdf0df4",
+        "initiators": [
+          "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html"
+        ],
+        "time": 0.00010299999939888949
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/SplitSectionType-ff7014b7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4646,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-3008\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "9a252d010c8342dcfd4aad8e6f3501257d6fca7bec54d1f740d7fe5d64f72b16",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.028043000000252505
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/TextHeaderInner-4243da7b-ed99f187.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1319,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-7d9\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "27a9be8f1d71fe70829695597593ceb1e13ea0e167e750d4ccb0bfa23ac88270",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03319199999987177
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/SplitSectionItem-c64b6aaa-37be77f9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2833,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-21f3\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "823f2174d89b2e70ffe0993f6a8860ace88b6b669b4a6339ae975b4510cd492c",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.027065999999649648
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/ImageGridType-d94efda5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4116,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-26e4\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "928b3033ee567e0a0a3de213edbc91b7c52a781913794041e91f39752cf81593",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.027520999999978812
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/LayeredCardSection-9ac2c149.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 861,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-383\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "1de731c65acb40598478fa57ba7ed412b22aa4a5eb1028cfb3bb5b47aebfe098",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.02952499999992142
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/LayeredCardWrapper-79e2c2b5-9a586c1e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3117,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-1e09\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "2b09893f5758842ef9e9132a903d56ce8995a1a642bfa32fd17e0557c57fa186",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.027673999999933585
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/StackSectionType-b6291b77.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5011,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-334c\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "25c5b53e7f3d290ef93b9be42853435137d25972bb2830b4d61e33cf7fa7aca8",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.02696300000025076
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/TextSectionType-bd1bf7d2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1404,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-913\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "392026d47c4a9c68e5f1a8a88608347ad33b013aa7d059e197df63d17648ec72",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.027516999999534164
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/ProductScrollType-c757f6ac.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8229,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-627c\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "d5bcf03bf59e9e8b7ac40c6ee34b1cb0d5d7a2438c982d8bd1173a2a53a707d9",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03818000000046595
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/useStickyElementHeight-7c817f1c-b349c94a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1300,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-719\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "7683015c9dbc670ced1d33aba43927e7087c9f3d66c5c0764b0ef672e443657c",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.036151999999674445
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/useSubNavHeight-0bd7f020-992b93f3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1446,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-9ac\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "cf949912221c9993698cfd1540c0dad02233f5bceea2e1db1f188944537d5450",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03438600000026781
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/index-89613cb1-b236376a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7697,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-76a9\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "34b3464de8bafa4eed58b09f2bf18dedb01128efa016acc7d22fda2ca86da2aa",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03377899999941292
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/CtaSection-0c32ab66.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3823,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-2172\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "f87d405897bfa9a9d70b79227d38273e0e21ea0ca2ac6d3ef815a22fab7f9382",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.02647999999953754
+      },
+      {
+        "url": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/StickyQRBadge-b5d623ac.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5646,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=31536000",
+          "etag": "W/\"69c5e194-43f4\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "c873b139911a56364568dc61f8b2342d30e86ea181eee42b8c541d8647d96068",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.028984999999920547
+      },
+      {
+        "url": "https://www.paypal.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.36707159097325237:1774424211:9_pSV23kWGmNtldQToc5YDBzJFUfKD8QS_h75YB-Zx0/9e51f59acec1fb3c",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 917,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "set-cookie": "cf_clearance=HEOM635LSNTMqAOibXTb3r8PaxCuYcyqh77fy9Z8Wb0-1774987434-1.2.1.1-gi8buAezD9LQMAcD3YGsCJrPfZpstEbTKI4ebf_Uo8BYBcZ8ldeB.9zr.z8cOnlyUhatrFgTjSrootTAxfRUBwP7vhPhYD1DIquimcBi.gTZXBJFtk3mYtGs8ZRRhv1UANLckyfwRwJp8hu70oxatevBiOYauP3cslOYP76Lbu7_o3RSuNvKmQx37TKZVHJq2gLL7mnkpcrR0Zr8O2R8hqt0CDymWNEZeTsv8rd4mNM; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=www.paypal.com; Expires=Wed, 31 Mar 2027 20:03:54 GMT\n__cf_bm=1HMWnEFDyAANQqNhhfTscmIx66kyosPQNV7ApYI7oMg-1774987434.4596546-1.0.1.1-T_cC_GON0C2GvAgGXrsSmsJ8EVqAbjcrdlLpTqH30Lll8jPrVT5y6EK1CIe0XLXqFWiV3sbhNgRwpWA9Pyz68m_UuUAN2NTO6rnHT2Y3gUpRpnVWPPDXUPxu3CaZigaY; HttpOnly; Secure; Path=/; Domain=www.paypal.com; Expires=Tue, 31 Mar 2026 20:33:54 GMT",
+          "timing-allow-origin": "https://www.paypal.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.paypal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.020921999999700347
+      },
+      {
+        "url": "https://www.paypal.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.36707159097325237:1774424211:9_pSV23kWGmNtldQToc5YDBzJFUfKD8QS_h75YB-Zx0/9e51f5c3ceb4fb3c",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 852,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "set-cookie": "cf_clearance=ON8ZSh8z5SrtBiIDxeUb4LrXWYaPiTvIrLYHpMpYfOQ-1774987434-1.2.1.1-_x3zU3.VJKHI2jiTiiPOh8teYMMrE.1x2FiV3E6ZSNEBEO.DFem1gyhVQl9nQ91WLPk2sVmPaJgaVBn16Zs7szoodt_C.FO4cD5ic48jNAWp1wk2sF4Ee7ChAsYz9Y7bvTlYPdG0uvbS8SLTSQxERfyUi.iGzVcpY4oP4GsFRDjEaFZhwI1d.NCTIo4AZXGJ2jHolKgv53sEcpPwBfUKhle8Jp.4oYuvPuZMOlgpRM4; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=www.paypal.com; Expires=Wed, 31 Mar 2027 20:03:54 GMT\n__cf_bm=oYx7bOzR7Vcc3l35efnGkmuUeGMwJ76lBDOfOq8jpPQ-1774987434.8278177-1.0.1.1-lF25E0Tb1hwJMUyX2x_XSbG7s_GcxJyNodvoisidqOIYTKUuTDckHgFwhdzFZdb_8XZMV5S0HUg37hF4iwNg6sJ37ZNxwRsRTPunPzfTYjRuUVrlCjhL3NY6b2cMheKP; HttpOnly; Secure; Path=/; Domain=www.paypal.com; Expires=Tue, 31 Mar 2026 20:33:54 GMT",
+          "timing-allow-origin": "https://www.paypal.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.paypal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+          "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html"
+        ],
+        "time": 0.021370000000388245
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise.js?render=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&hl=en",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1715,
+        "remoteIPAddress": "142.250.101.94",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:03:54 GMT"
+        },
+        "responseBodyHash": "78266161ac2eb0d9b4a59c192a8f35788fb74f6e5f8fd905f3e8b972a4ccbcba",
+        "initiators": [
+          "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html",
+          "https://www.paypal.com/auth/createchallenge/ee629ee49d05a163/recaptchav3.js?_sessionID=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx"
+        ],
+        "time": 0.19846999999936088
+      },
+      {
+        "url": "https://www.paypalobjects.com/martech/tm/paypal/mktgtagmanager.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6640,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"68427e47-3e8b\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "21dac7841ff8ec6064185eed4ad7ccfb8396a393c7cf07cd2aea86962a4d43ae",
+        "initiators": [
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.030619000000115193
+      },
+      {
+        "url": "https://www.paypalobjects.com/pa/mi/paypal/latmconf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4584,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"698c0d52-3a83\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "cb38f20a4d9397b82dd2aeb0f432491c1eaead25cac7f197b6862d5066454cac",
+        "initiators": [
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.0281940000004397
+      },
+      {
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.68.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=e2a6d266-ab83-453f-8213-5fce54f9cbda&batch_time=1774987434898",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 287,
+        "remoteIPAddress": "34.149.66.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "55c292e5c4096b45a3c04900d7cb16b9c631983ca17615cd5a6791db4e677545",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.2904399999997622
+      },
+      {
+        "url": "https://www.paypalobjects.com/helpcenter/smartchat/sales/v1/open-chat.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1057,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"60271b1c-5bf\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "15213b958a0af95e33fb82a50fc1a68ef2f171b3762662957e91ef1d834291f8",
+        "initiators": [
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.057668000000376196
+      },
+      {
+        "url": "https://www.paypal.com/myaccount/privacy/cookieprefs/cookies?eventSource=cGFnZUxvYWQ=&isQueryEncoded=dHJ1ZQ==&page=bWFpbjpta3RnOnBlcnNvbmFsOmhvbWVwYWdlOmhvbWUtdW5jb29raWVkLWNvbnN1bWVyOjo6&component=cHBjbXNub2Rld2Vi&eventSourceUrl=aHR0cHM6Ly93d3cucGF5cGFsLmNvbS91cy9ob21l&expireCookies=dHJ1ZQ==",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3755,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "access-control-allow-origin": "https://www.paypal.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"53f-LtartYzlUK00JhwBar8mwZJfStw\"",
+          "set-cookie": "cf_clearance=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:55 GMT; Secure; SameSite=None\n_cfuvid=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=None\nLANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:51 GMT; HttpOnly; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQzNTEzNyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:55 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523435%26vteXpYrS%3D1774989235%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:55 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:55 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "2233ac26c10de438ae5ea0d3c3a303b9e358e53fae72e017a93e29cff1573d45",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ncs/ncs.js"
+        ],
+        "time": 0.1109759999999369
+      },
+      {
+        "url": "https://t.paypal.com/ts?v=1.10.0&t=1774987435073&g=420&pgrp=main%3Aprivacy%3Apolicy&page=main%3Aprivacy%3Apolicy%3Accpa&comp=consentnodeserv&tsrce=mppnodeweb&cu=0&ef_policy=ccpa&pgst=1774987427129&calc=c9e51f59acec1&csci=7eeae2eb25874ab5b4043f2a440e14c7&nsid=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx&rsta=en_US&ccpg=US&pgtf=Nodejs&s=ci&env=live&xe=110041%2C109128%2C105410%2C105409%2C111623%2C111624%2C109059%2C111560%2C111622%2C110042%2C104407&xt=148501%2C143659%2C123956%2C123954%2C158942%2C158944%2C143369%2C161854%2C158940%2C148504%2C119038&pp_ref_id=cb4b7b01-db37-4adb-8c85-be01f7e1a632&pgsf=personal&bzsr=main&lgin=out&page_type=ecm&shir=main_mktg_personal_homepage&pros=1&event_props=cu%2Clgin%2Cpage%2Cxe%2Cxt&page_segment=ppcom&user_props=cu%2Cxe%2Cxt&lgcook=0&server=origin&space_key=SKSVPL&api_name=cookieBanner&displaypage=main%3Amktg%3Apersonal%3Ahomepage%3Ahome-uncookied-consumer&ppage=privacy_banner&bannertype=cookiebanner&flag=ccpa&bannerversion=v14&bannersource=ConsentNodeServ&eligibility_reason=true&is_native=false&cookie_disabled=false&userstate=CA&usercountry=US&stateaccuracy=99&countryaccuracy=99&loggedin=false&event_name=cookie_banner_shown&product=cookieBanner&e=ac",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 275,
+        "remoteIPAddress": "151.101.43.1",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 31 Mar 2026 20:03:55 GMT",
+          "p3p": "CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1806523435%26vteXpYrS%3D1774989235%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew;Expires=Wed, 31 Mar 2027 20:03:55 GMT;domain=.paypal.com;path=/;secure;HttpOnly;SameSite=None;\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505;Expires=Wed, 31 Mar 2027 20:03:55 GMT;domain=.paypal.com;path=/;secure;SameSite=None;",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypalobjects.com/ncs/ncs.js"
+        ],
+        "time": 0.15805700000055367
+      },
+      {
+        "url": "https://t.paypal.com/ts?v=1.10.0&t=1774987435119&g=420&pgrp=main%3Amktg%3Apersonal%3Ahomepage%3Ahome-uncookied-consumer&page=main%3Amktg%3Apersonal%3Ahomepage%3Ahome-uncookied-consumer%3A%3A%3A&comp=ppcmsnodeweb&calc=c9e51f59acec1&csci=7eeae2eb25874ab5b4043f2a440e14c7&rsta=en_US&ccpg=us&xe=112102%2C112068%2C113441%2C110574%2C113943%2C109112%2C110444&xt=162357%2C162134%2C176535%2C151783%2C175156%2C143574%2C150791&lgin=out&lgcook=0&server=origin&space_key=SKDENK&pageurl=%2Fhome&fcp=6796.000&fcp_attr=%7B%22timeToFirstByte%22%3A%22963.700%22%2C%22firstByteToFCP%22%3A%225832.300%22%2C%22fcpEntry%22%3A%7B%22name%22%3A%22first-contentful-paint%22%2C%22entryType%22%3A%22paint%22%2C%22startTime%22%3A%226796.000%22%2C%22duration%22%3A0%7D%2C%22rating%22%3A%22poor%22%7D&e=cwv&event_name=core_web_vitals_collected",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 914,
+        "remoteIPAddress": "151.101.43.1",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 31 Mar 2026 20:03:55 GMT",
+          "p3p": "CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1806523435%26vteXpYrS%3D1774989235%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew;Expires=Wed, 31 Mar 2027 20:03:55 GMT;domain=.paypal.com;path=/;secure;HttpOnly;SameSite=None;\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505;Expires=Wed, 31 Mar 2027 20:03:55 GMT;domain=.paypal.com;path=/;secure;SameSite=None;",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.09218299999974988
+      },
+      {
+        "url": "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-dom.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1023,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"698c0d52-6e5\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "f46b57f978922e4cfe4cb4a80753873aacc2541a78d0952f7634ca60764d594f",
+        "initiators": [
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.05708700000013778
+      },
+      {
+        "url": "https://www.paypalobjects.com/martech/tm/paypal/mktconf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36225,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"69c68278-5dd30\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "2b440e3a9257c2065afb0e9ebcc0ec9da665a38bc464e72c3f881c22a6e44c6d",
+        "initiators": [
+          "https://www.paypalobjects.com/martech/tm/paypal/mktgtagmanager.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.025869000000056985
+      },
+      {
+        "url": "https://www.paypal.com/smartchat/open/eligibility?intent=SALESCHAT&page=/us/home",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3443,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"53c-82VqrZmqnWOOhVgeR5fiHzsyjhk\"",
+          "set-cookie": "enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:55 GMT; Secure; SameSite=None\nLANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:51 GMT; HttpOnly; Secure; SameSite=None\ntsrce=smartchatnodeweb; Max-Age=259199; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:54 GMT; HttpOnly; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQzNTI1NyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=smartchatnodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:55 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:55 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523435%26vteXpYrS%3D1774989235%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:55 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:55 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "a193d11ed647731e90b440d6506738f63f440fe049fda034ce5df10f265b0b86",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/helpcenter/smartchat/sales/v1/open-chat.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.13509199999953125
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise.js?render=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&hl=en",
+          "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html",
+          "https://www.paypal.com/auth/createchallenge/ee629ee49d05a163/recaptchav3.js?_sessionID=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx"
+        ],
+        "time": 0.13143899999977293
+      },
+      {
+        "url": "https://www.paypalobjects.com/martech/tm/paypal/3pjs/adobe/alloy.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40364,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"688905a9-1f4e0\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "fb3679e85ca6f3197a6002fb1b99f44ca02c4df79ed2f2a4306512c644b86fce",
+        "initiators": [
+          "https://www.paypalobjects.com/martech/tm/paypal/mktgtagmanager.js",
+          "https://www.paypalobjects.com/martech/tm/paypal/mktconf.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.027841999999509426
+      },
+      {
+        "url": "https://www.paypalobjects.com/pa/3pjs/glassbox/config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1701,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"698c0d52-1216\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "37482c3cf1b5926c88173c93681d5da864932c89e9928126c3af8b8787bed6f5",
+        "initiators": [
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-dom.min.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.037569999999504944
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&co=aHR0cHM6Ly93d3cucGF5cGFsLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=zhby3j224yj",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 29255,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b0a13b6c82124fca6c968fbff9f0f0f442294e4b3f51002f9f1edd6175fff0e",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+          "https://www.recaptcha.net/recaptcha/enterprise.js?render=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&hl=en"
+        ],
+        "time": 0.17599299999983486
+      },
+      {
+        "url": "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 145174,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"698c0d52-8492f\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "16138cf5e331b8711f1445babe390898709a86016a5e0a472687178a1dd9dc33",
+        "initiators": [
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-dom.min.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.08520899999984977
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 42608,
+        "remoteIPAddress": "142.251.32.163",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 06:37:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "952367c39542f1f7a7444b1d38c94fb932299aa63315ba204e71448695bd11c2",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&co=aHR0cHM6Ly93d3cucGF5cGFsLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=zhby3j224yj"
+        ],
+        "time": 0.07865099999980885
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "142.251.32.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 01:35:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&co=aHR0cHM6Ly93d3cucGF5cGFsLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=zhby3j224yj"
+        ],
+        "time": 0.16622499999994034
+      },
+      {
+        "url": "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-lazy.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 50428,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"698c0d52-2cb87\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "ee2cf83a606ff5ca9690bb017854af77057a417de91889b315f1915febddcdb9",
+        "initiators": [
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-dom.min.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.02891899999940506
+      },
+      {
+        "url": "https://report.gb.paypalobjects.com/0r4bmszq/reporting/16ad1fab-6964-10ca-a4e2-340ea72f3363/cls_report?_cls_s=4616dd55-13ce-492a-9549-35c068ad49d7%3A0&_cls_v=7658ab37-83b7-4698-b37e-95c0277c5dad&pv=2&f_cls_s=true",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1256,
+        "remoteIPAddress": "52.45.56.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypal.com",
+          "set-cookie": "_cls_cfgver=bc168968; Secure; SameSite=None;HttpOnly;Secure\n_cls_s=4616dd55-13ce-492a-9549-35c068ad49d7:0; Secure; SameSite=None;HttpOnly;Secure\n_cls_v=7658ab37-83b7-4698-b37e-95c0277c5dad; Secure; SameSite=None;HttpOnly;Secure\nrto=c0; Secure; SameSite=None;HttpOnly;Secure\nROUTEID=.cligate1; path=/"
+        },
+        "responseBodyHash": "12ea7ff399943f69edc737957e7b9b33bbbebc7cc7e61c88b1d425d202bded12",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-dom.min.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.38856099999975413
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 141,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:03:56 GMT"
+        },
+        "responseBodyHash": "9b81e9a5eb8a2c4f7a3c7d22dd92bebded7d4471ee300444c67c678b4a893cc8",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&co=aHR0cHM6Ly93d3cucGF5cGFsLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=zhby3j224yj"
+        ],
+        "time": 0.21747899999991205
+      },
+      {
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.68.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=938ac30c-85bd-4e82-8e62-eab737dad121&batch_time=1774987435950",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 136,
+        "remoteIPAddress": "34.149.66.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "76ca3b771158f886f609b88fca96ab283ea29bd34388f932d24918a8bfa4d3b3",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.14980599999944388
+      },
+      {
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.68.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=cd5da1df-8fb7-4a29-90e6-5ba765f43373&batch_time=1774987435973",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 113,
+        "remoteIPAddress": "34.149.66.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "c5a31cb79ea74ebbb01f778f7299dea5dd07f086ab7517ebc79690e59e04e359",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.163897000000361
+      },
+      {
+        "url": "https://t.paypal.com/ts?v=1.10.0&t=1774987436066&g=420&pgrp=main%3Amktg%3Apersonal%3Ahomepage%3Ahome-uncookied-consumer&page=main%3Amktg%3Apersonal%3Ahomepage%3Ahome-uncookied-consumer%3A%3A%3A&comp=globalnavnodeweb&tsrce=mppnodeweb&cu=0&ef_policy=ccpa&pgst=1774987427129&calc=c9e51f59acec1&csci=7eeae2eb25874ab5b4043f2a440e14c7&nsid=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx&rsta=en_US&ccpg=us&pgtf=Nodejs&s=ci&env=live&xe=112102%2C112068&xt=162357%2C162134&pp_ref_id=cb4b7b01-db37-4adb-8c85-be01f7e1a632&pgsf=personal&bzsr=main&lgin=out&page_type=ecm&shir=main_mktg_personal_homepage&pros=1&event_props=cu%2Clgin%2Cpage%2Cxe%2Cxt&page_segment=ppcom&user_props=cu%2Cxe%2Cxt&lgcook=0&server=origin&space_key=SKSVPL&event_name=global_nav_viewed&e=ac",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 624,
+        "remoteIPAddress": "151.101.43.1",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 31 Mar 2026 20:03:56 GMT",
+          "p3p": "CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1806523436%26vteXpYrS%3D1774989236%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew;Expires=Wed, 31 Mar 2027 20:03:56 GMT;domain=.paypal.com;path=/;secure;HttpOnly;SameSite=None;\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505;Expires=Wed, 31 Mar 2027 20:03:56 GMT;domain=.paypal.com;path=/;secure;SameSite=None;",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypalobjects.com/globalnav/js/main-DLmvdIfW.js"
+        ],
+        "time": 0.10866600000008475
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.32.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 01:35:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+        ],
+        "time": 0.00886999999966065
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/web/icons/monogram/pp32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 936,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "\"cfGPX90PgCY96tOhE0AMxIsIb1K1VnHOdKHxTvMGKADQ:67368548-275\""
+        },
+        "responseBodyHash": "7e6f1175faddcaa3700b39017580ed7a3e4d4ef798477028c879cbbc6d22cdc0",
+        "initiators": [],
+        "time": 0.07214399999975285
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/web/us/test-demo/qr-stealth/paypal-mark-black.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 862,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"66d0b54c-3c8\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "c508972d4e0cca1396bc6959a91a978c39069cbfc471ce75232bd4d31bb8846b",
+        "initiators": [
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/QrCode-c023427e.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.03254500000002736
+      },
+      {
+        "url": "https://www.paypal.com/csplog/api/log/csp",
+        "method": "POST",
+        "type": "Other",
+        "status": 200,
+        "size": 1817,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"2-nOO9QiTIwXgNtWtBJezz8kv3SLc\"",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:52 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:56 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQzNjY1MyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=cspreportnodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:56 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:56 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523436%26vteXpYrS%3D1774989236%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:56 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:56 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "initiators": [
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-lazy.min.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-dom.min.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "https://www.paypal.com/us/home"
+        ],
+        "time": 0.10705400000006193
+      },
+      {
+        "url": "https://paypalobjects.com/marketing/web/US/en/quantum-leap/home/qrcode_sticky.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 301,
+        "remoteIPAddress": "151.101.3.1",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "c421014a4295577da6e48e3b0d43af1394a62a2e1bb8146144eea14fe6038aa5",
+        "redirectedTo": "https://www.paypalobjects.com/marketing/web/US/en/quantum-leap/home/qrcode_sticky.svg",
+        "initiators": [],
+        "time": 0.09770899999966787
+      },
+      {
+        "url": "https://www.paypalobjects.com/marketing/web/US/en/quantum-leap/home/qrcode_sticky.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 26644,
+        "remoteIPAddress": "104.19.183.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=31536000, public,max-age=3600",
+          "etag": "W/\"65dda2f0-26ccb\"",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "c421014a4295577da6e48e3b0d43af1394a62a2e1bb8146144eea14fe6038aa5",
+        "redirectedFrom": "https://paypalobjects.com/marketing/web/US/en/quantum-leap/home/qrcode_sticky.svg",
+        "initiators": [],
+        "time": 0.026807000000189873
+      },
+      {
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.68.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=bbfbbb33-e2c8-4255-b548-41699bc1bfb8&batch_time=1774987437037",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 136,
+        "remoteIPAddress": "34.149.66.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "ca167a44be1234c06ba7331df763bc5281d89fcb1ae94a9a72c9e9f2edf9980e",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.11354000000028464
+      },
+      {
+        "url": "https://t.paypal.com/ts?v=1.10.0&t=1774987437181&g=420&pgrp=main%3Amktg%3Apersonal%3Ahomepage%3Ahome-uncookied-consumer&page=main%3Amktg%3Apersonal%3Ahomepage%3Ahome-uncookied-consumer%3A%3A%3A&comp=ppcmsnodeweb&tsrce=mppnodeweb&cu=0&ef_policy=ccpa&c_prefs=T%3D0%2CP%3D0%2CF%3D0%2Ctype%3Dinitial&pgst=1774987427129&calc=c9e51f59acec1&csci=7eeae2eb25874ab5b4043f2a440e14c7&nsid=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx&rsta=en_US&ccpg=us&pgtf=Nodejs&s=ci&env=live&xe=112102%2C112068%2C113441%2C110574%2C113943%2C109112%2C110444&xt=162357%2C162134%2C176535%2C151783%2C175156%2C143574%2C150791&pp_ref_id=cb4b7b01-db37-4adb-8c85-be01f7e1a632&pgsf=personal&bzsr=main&lgin=out&page_type=ecm&shir=main_mktg_personal_homepage&pros=1&event_props=cu%2Clgin%2Cpage%2Cxe%2Cxt&page_segment=ppcom&user_props=cu%2Cxe%2Cxt&lgcook=0&server=origin&space_key=SKDENK&event_name=ppcom_page_viewed&e=im&imsrc=setup&view=%7B%22t10%22%3A1%2C%22t11%22%3A10186%2C%22tcp%22%3A6796%2C%22et%22%3A%224g%22%2C%22nt%22%3A%22navigate%22%2C%22bt%22%3A882%7D&pt=Pay%2C%20Send%20and%20Save%20Money%20with%20PayPal%20%7C%20PayPal%20US&cd=24&sw=800&sh=600&dw=800&dh=600&bw=1440&bh=812&ce=1&t1=1&t1c=0&t1d=0&t1s=0&t2=746&t3=13&t4d=0&t4=0&t4e=6&tt=9303&rdc=0&protocol=h2&cdn=cloudflare&res=%7B%7D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 664,
+        "remoteIPAddress": "151.101.43.1",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 31 Mar 2026 20:03:57 GMT",
+          "p3p": "CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1806523437%26vteXpYrS%3D1774989237%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew;Expires=Wed, 31 Mar 2027 20:03:57 GMT;domain=.paypal.com;path=/;secure;HttpOnly;SameSite=None;\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505;Expires=Wed, 31 Mar 2027 20:03:57 GMT;domain=.paypal.com;path=/;secure;SameSite=None;",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js"
+        ],
+        "time": 0.06892400000015186
+      },
+      {
+        "url": "https://i.paypal.com/ee/or2/v1/interact?configId=8a1e7181-ae23-40e2-985e-7eb68997dd65&requestId=8617f4e3-1323-4009-b676-5be9e5123037",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 985,
+        "remoteIPAddress": "63.140.37.246",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypal.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "set-cookie": "kndctr_5CE4123F5245B06C0A490D45_AdobeOrg_identity=CiYzMzQ5MjA3NDA5NjI5NzIyNTc2MzMxMTM5NjU1NzcxNzYyMzE5NlIQCLfK%2D6vUMxgBKgNPUjIwAvABt8r7q9Qz; Max-Age=34128000; Domain=paypal.com; Path=/; Secure; SameSite=None; $x-enc=URI_ENCODING\nkndctr_5CE4123F5245B06C0A490D45_AdobeOrg_cluster=or2; Max-Age=1800; Domain=paypal.com; Path=/; Secure; SameSite=None; $x-enc=URI_ENCODING"
+        },
+        "responseBodyHash": "2535310882432e6f200f73d77e1a9a0ae9acb22d5c0cb454abc771fa725a8d84",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/martech/tm/paypal/3pjs/adobe/alloy.min.js",
+          "https://www.paypalobjects.com/martech/tm/paypal/mktconf.js",
+          "https://www.paypalobjects.com/martech/tm/paypal/mktgtagmanager.js",
+          "https://www.paypalobjects.com/pa/js/min/pa.js"
+        ],
+        "time": 0.15174800000022515
+      },
+      {
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.68.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=d05cb406-e9bb-4877-b324-5df53ac717f5&batch_time=1774987437311",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 113,
+        "remoteIPAddress": "34.149.66.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "6d62ec3f0e3553d43dee017e6cb5752e0f14f3780a769639b5f4213c19c2d54d",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.1592289999998684
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/reload?k=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 2138,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {
+          "cache-control": "private",
+          "expires": "Tue, 31 Mar 2026 20:03:57 GMT",
+          "set-cookie": "_GRECAPTCHA=09AKhCRwjMXlQqDGTEjDe8NLlyzsIl3RFqWlWFBi1GxKlWLhq3nchUi4a6R_kPSybJksyRB66uvGSMMzL-4lQuIBk; Expires=Sun, 27-Sep-2026 20:03:57 GMT; Path=/recaptcha; Secure; HttpOnly; Priority=HIGH; SameSite=none"
+        },
+        "responseBodyHash": "1a2a9da2bf5e0b9adf71c7485d247d6a851b68fa0cc42cb20907f102e08c0e5d",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js"
+        ],
+        "time": 0.10321299999941402
+      },
+      {
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.68.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=40149155-1782-4824-bfd2-eaa4e9f005af&batch_time=1774987437332",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 112,
+        "remoteIPAddress": "34.149.66.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "08cba43166ed99da875313a7eb8ed6562d35f2f8e6f24a1764fba968563e5b21",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.13958400000046822
+      },
+      {
+        "url": "https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Appcmsnodeweb%2Cversion%3A2.68.0&dd-api-key=pubc2ea00ebdaf6a0f6395d8d4d458f2802&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=a5a48dd6-14d7-42d1-95bf-13f4e60f5170&batch_time=1774987437351",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 136,
+        "remoteIPAddress": "34.149.66.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "557544cd124b599a29e8c997fe2fd2145aee39667d8c9fc2ec014df351afbb1a",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js"
+        ],
+        "time": 0.10143599999992148
+      },
+      {
+        "url": "https://www.paypal.com/auth/verifygrcenterprise",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 2857,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:53 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:57 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQzNzYyOCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=authchallengenodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:57 GMT; HttpOnly; Secure; SameSite=None\ntsrce=authchallengenodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:57 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:57 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523437%26vteXpYrS%3D1774989237%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:57 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:57 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypal.com/auth/createchallenge/ee629ee49d05a163/recaptchav3.js?_sessionID=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx",
+          "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html",
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+          "https://www.recaptcha.net/recaptcha/enterprise.js?render=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&hl=en"
+        ],
+        "time": 0.2008219999997891
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/clr?k=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.250.101.94",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+          "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html",
+          "https://www.recaptcha.net/recaptcha/enterprise.js?render=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB&hl=en",
+          "https://www.paypal.com/auth/createchallenge/ee629ee49d05a163/recaptchav3.js?_sessionID=-Ok1wAL_8i9dP1AB63lZrRrVoBLgIbtx"
+        ],
+        "time": 0.18593400000008842
+      },
+      {
+        "url": "https://www.paypal.com/myaccount/privacy/cookieprefs/cookies?eventSource=YWZ0ZXJQYWdlTG9hZA==&isQueryEncoded=dHJ1ZQ==&page=bWFpbjpta3RnOnBlcnNvbmFsOmhvbWVwYWdlOmhvbWUtdW5jb29raWVkLWNvbnN1bWVyOjo6&component=cHBjbXNub2Rld2Vi&eventSourceUrl=aHR0cHM6Ly93d3cucGF5cGFsLmNvbS91cy9ob21l&expireCookies=dHJ1ZQ==",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4185,
+        "remoteIPAddress": "104.18.6.168",
+        "responseHeaders": {
+          "accept-ch": "sec-ch-ua-full, sec-ch-ua-arch, sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version, sec-ch-ua-full-version-list, sec-ch-ua-bitness, sec-ch-ua-wow64",
+          "access-control-allow-origin": "https://www.paypal.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"55d-EAJ4nvAHL8A+b64Y0+8rLI1o2jI\"",
+          "set-cookie": "_cls_v=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 31 Mar 2027 20:03:58 GMT; Secure; SameSite=None\ncf_clearance=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=None\n_cfuvid=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=None\nrto=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=None\nLANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 01 Apr 2026 04:49:54 GMT; HttpOnly; Secure; SameSite=None\n_cls_s=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=None\ntsrce=privacynodeweb; Max-Age=259199; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:57 GMT; HttpOnly; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTc3NDk4NzQzODE5OCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=privacynodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 03 Apr 2026 20:03:58 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg05.phx; Path=/; Domain=paypal.com; Expires=Tue, 31 Mar 2026 20:33:58 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1806523438%26vteXpYrS%3D1774989238%26vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:58 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3D457ebc5f19d647e0f072a009ffd6b506%26vt%3D457ebc5f19d647e0f072a009ffd6b505; Path=/; Domain=paypal.com; Expires=Wed, 31 Mar 2027 20:03:58 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "https://www.paypal.com,https://www.sandbox.paypal.com"
+        },
+        "responseBodyHash": "d2c979241b5422df3633897d5cfb05ec5d7ce6ee2726eac843a7ce3696301a7c",
+        "initiators": [
+          "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "https://www.paypalobjects.com/ncs/ncs.js"
+        ],
+        "time": 0.1734810000007201
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/bcn?k=6LdCCOUUAAAAAHTE-Snr6hi4HJGtJk_d1_ce-gWB",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 16,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js"
+        ],
+        "time": 0.0535570000001826
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_cls_cfgver",
+        "domain": "report.gb.paypalobjects.com",
+        "path": "/0r4bmszq/reporting/16ad1fab-6964-10ca-a4e2-340ea72f3363",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cls_s",
+        "domain": "report.gb.paypalobjects.com",
+        "path": "/0r4bmszq/reporting/16ad1fab-6964-10ca-a4e2-340ea72f3363",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cls_v",
+        "domain": "report.gb.paypalobjects.com",
+        "path": "/0r4bmszq/reporting/16ad1fab-6964-10ca-a4e2-340ea72f3363",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "rto",
+        "domain": "report.gb.paypalobjects.com",
+        "path": "/0r4bmszq/reporting/16ad1fab-6964-10ca-a4e2-340ea72f3363",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_GRECAPTCHA",
+        "domain": "www.recaptcha.net",
+        "path": "/recaptcha",
+        "expires": 1790539437425,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "LANG",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1775018994218,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "enforce_policy",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1806523438218,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "nsid",
+        "domain": "www.paypal.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "ts_c",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1806523438219,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".www.paypal.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "kndctr_5CE4123F5245B06C0A490D45_AdobeOrg_cluster",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1774989237384,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "l7_az",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1774989238219,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "cookie_prefs",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1806523434111,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "cf_clearance",
+        "domain": ".www.paypal.com",
+        "path": "/",
+        "expires": 1806523434826,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".www.paypal.com",
+        "path": "/",
+        "expires": 1774989234826,
+        "session": false
+      },
+      {
+        "name": "kndctr_5CE4123F5245B06C0A490D45_AdobeOrg_identity",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1809115437384,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "tsrce",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1775246638219,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "x-pp-s",
+        "domain": ".paypal.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "ts",
+        "domain": ".paypal.com",
+        "path": "/",
+        "expires": 1806523438219,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_dd_s",
+        "domain": "www.paypal.com",
+        "path": "/",
+        "expires": 1774988340000,
+        "session": false,
+        "sameSite": "Strict"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/pp-com-components-870c52f3.js": {
+          "Navigator.prototype.userAgent": 2,
+          "window.sessionStorage": 4,
+          "window.innerWidth": 3,
+          "window.innerHeight": 3
+        },
+        "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js": {
+          "Document.cookie getter": 39,
+          "Date.prototype.getTime": 430,
+          "Document.cookie setter": 21,
+          "Navigator.prototype.userAgent": 1,
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "Navigator.prototype.onLine": 102,
+          "Navigator.prototype.connection": 306,
+          "Event.prototype.timeStamp": 1
+        },
+        "https://www.paypalobjects.com/ncs/ncs.js": {
+          "Document.cookie getter": 4,
+          "window.sessionStorage": 27,
+          "Document.cookie setter": 1,
+          "Navigator.prototype.cookieEnabled": 10
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-T562K64Q&l=ga4DataLayer": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 1,
+          "window.name": 2
+        },
+        "about:blank": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://www.paypalobjects.com/globalnav/js/main-DLmvdIfW.js": {
+          "window.innerWidth": 2
+        },
+        "https://www.paypal.com/auth/recaptcha/grcenterprise_v3.html": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://www.paypal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js": {
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 4,
+          "window.name": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "window.screenX": 2,
+          "window.screenY": 2,
+          "window.outerWidth": 2,
+          "window.outerHeight": 2,
+          "window.devicePixelRatio": 2,
+          "window.screenLeft": 2,
+          "window.screenTop": 2,
+          "window.indexedDB": 2,
+          "window.localStorage": 2,
+          "window.sessionStorage": 2,
+          "Navigator.prototype.vendorSub": 2,
+          "Navigator.prototype.productSub": 2,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Navigator.prototype.doNotTrack": 2,
+          "Navigator.prototype.webkitTemporaryStorage": 2,
+          "Navigator.prototype.webkitPersistentStorage": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Navigator.prototype.appCodeName": 2,
+          "Navigator.prototype.appName": 2,
+          "Navigator.prototype.appVersion": 2,
+          "Navigator.prototype.platform": 2,
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.language": 2,
+          "Navigator.prototype.languages": 2,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.mimeTypes": 2,
+          "Navigator.prototype.connection": 2
+        },
+        "https://www.paypalobjects.com/pa/js/min/pa.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 13,
+          "Date.prototype.getTime": 6,
+          "window.sessionStorage": 4,
+          "Date.prototype.getTimezoneOffset": 4,
+          "Navigator.prototype.language": 1,
+          "Document.cookie setter": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.devicePixelRatio": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "PerformanceTiming.prototype.navigationStart": 14,
+          "Navigator.prototype.connection": 2,
+          "window.localStorage": 3
+        },
+        "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/index-6ab3b67a-b60a180c.js": {
+          "Navigator.prototype.product": 6,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.paypalobjects.com/martech/tm/paypal/mktgtagmanager.js": {
+          "Document.cookie getter": 252,
+          "window.sessionStorage": 4
+        },
+        "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js": {
+          "Document.cookie setter": 28
+        },
+        "https://www.paypalobjects.com/martech/tm/paypal/3pjs/adobe/alloy.min.js": {
+          "Document.cookie getter": 16,
+          "Document.cookie setter": 3,
+          "Navigator.prototype.userAgent": 1,
+          "window.sessionStorage": 1,
+          "window.localStorage": 2,
+          "Date.prototype.getTime": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.orientation": 1,
+          "Date.prototype.getTimezoneOffset": 2,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1
+        },
+        "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js": {
+          "Navigator.prototype.userAgent": 66,
+          "Event.prototype.timeStamp": 125,
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3,
+          "window.localStorage": 26,
+          "window.sessionStorage": 22,
+          "window.innerWidth": 5,
+          "window.innerHeight": 5,
+          "Document.cookie getter": 6,
+          "window.name": 2,
+          "window.outerHeight": 2,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.availHeight": 2,
+          "Date.prototype.getTimezoneOffset": 2,
+          "Performance.prototype.memory": 2,
+          "Navigator.prototype.getBattery": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.storage": 1,
+          "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+          "WebGLRenderingContext.prototype.getExtension": 2,
+          "WebGLRenderingContext.prototype.getParameter": 4,
+          "NavigatorUAData.prototype.brands": 2,
+          "NavigatorUAData.prototype.platform": 2
+        },
+        "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js": {
+          "Navigator.prototype.userAgent": 60,
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Document.cookie getter": 11,
+          "window.devicePixelRatio": 1,
+          "Date.prototype.getTime": 12,
+          "Document.cookie setter": 3,
+          "Navigator.prototype.connection": 2,
+          "NavigatorUAData.prototype.platform": 1,
+          "window.innerHeight": 5,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "Screen.prototype.height": 3,
+          "Screen.prototype.width": 1,
+          "window.innerWidth": 2
+        },
+        "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-lazy.min.js": {
+          "Navigator.prototype.userAgent": 3,
+          "URL.createObjectURL": 1,
+          "Navigator.prototype.connection": 3
+        },
+        "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/SplitSectionType-ff7014b7.js": {
+          "window.innerHeight": 10
+        },
+        "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/ProductScrollType-c757f6ac.js": {
+          "window.innerHeight": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_cookie_test_2e499b04-c4d3-4e11-aeb2-1c4839eb8d25=test;expires=Tue, 31 Mar 2026 20:04:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_cookie_test_2e499b04-c4d3-4e11-aeb2-1c4839eb8d25=;expires=Tue, 31 Mar 2026 20:03:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=lock=0367fdc1-a33d-46a7-b0a7-69fede62c901;expires=Tue, 31 Mar 2026 20:18:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=isExpired=1;expires=Wed, 01 Apr 2026 00:03:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=isExpired=1&lock=8e0860a2-b9d0-4ae1-b948-d9e8b69adcf3;expires=Tue, 31 Mar 2026 20:18:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=8e0860a2-b9d0-4ae1-b948-d9e8b69adcf3;expires=Tue, 31 Mar 2026 20:18:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:18:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ncs/ncs.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookie_prefs=T%3D0%2CP%3D0%2CF%3D0%2Ctype%3Dinitial; max-age=31536000; path=/; domain=.paypal.com; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=33c178a6-453b-4a23-aa18-d8acd85856ed;expires=Tue, 31 Mar 2026 20:18:54 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:18:54 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=www.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=www.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/martech/tm/paypal/3pjs/adobe/alloy.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "com.adobe.alloy.getTld=com.adobe.alloy.getTld; path=/; domain=paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/martech/tm/paypal/3pjs/adobe/alloy.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "com.adobe.alloy.getTld=; path=/; domain=paypal.com; expires=Mon, 30 Mar 2026 20:03:55 GMT"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/martech/tm/paypal/3pjs/adobe/alloy.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kndctr_5CE4123F5245B06C0A490D45_AdobeOrg_consent=; path=/; expires=Mon, 30 Mar 2026 20:03:55 GMT"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=944be8a6-0db9-46e7-b02a-c0a655c81f8c;expires=Tue, 31 Mar 2026 20:18:55 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:18:55 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_v=7658ab37-83b7-4698-b37e-95c0277c5dad;path=/;domain=.paypal.com;Secure;SameSite=None;expires=Sun, 30 Mar 2031 20:03:55 GMT"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_s=4616dd55-13ce-492a-9549-35c068ad49d7:0;path=/;domain=.paypal.com;Secure;SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/pa/js/min/pa.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tcs=; expires=Mon, 30 Mar 2026 20:03:56 GMT; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/pa/3pjs/glassbox/detector-bootstrap.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "rto=c0;path=/;domain=.paypal.com;Secure;SameSite=None"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=9fd671d7-e30c-4d79-b7f6-37a439ed46a0;expires=Tue, 31 Mar 2026 20:18:56 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:18:56 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=b670e928-1b5f-4482-b58f-3ed630291174;expires=Tue, 31 Mar 2026 20:18:57 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:18:57 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=www.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cfuvid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=www.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cf_clearance=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_v=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_v=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_v=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=www.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_v=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_s=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_s=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_s=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=www.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cls_s=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "rto=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "rto=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "rto=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=www.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "rto=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.paypal.com"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=f482ff9a-878f-4899-ad73-1d615d4eecf3;expires=Tue, 31 Mar 2026 20:18:58 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:18:58 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=ba18dc8c-8e04-4926-9419-183e0df4fc9f;expires=Tue, 31 Mar 2026 20:18:59 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:18:59 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689&lock=1ccde7c0-ee66-4d74-b21e-3f4ffb1e2ef1;expires=Tue, 31 Mar 2026 20:19:00 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.paypalobjects.com/ppcmsnodeweb/pp-com-components/datadog-629d9f48.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=rum=2&id=5e79a3e9-0306-4aaf-bb77-d89089e499d0&created=1774987433688&expire=1774988333689;expires=Tue, 31 Mar 2026 20:19:00 GMT;path=/;samesite=strict"
+          ]
+        }
+      ]
+    }
+  }
+}

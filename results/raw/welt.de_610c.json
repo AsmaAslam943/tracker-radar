@@ -1,0 +1,2246 @@
+{
+  "initialUrl": "https://welt.de/",
+  "finalUrl": "https://www.welt.de/",
+  "timeout": false,
+  "testStarted": 1774992463693,
+  "testFinished": 1774992473198,
+  "data": {
+    "requests": [
+      {
+        "url": "https://welt.de/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "75.2.108.245",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.welt.de/",
+        "initiators": [],
+        "time": 0.6326580000004469
+      },
+      {
+        "url": "https://www.welt.de/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 165374,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "cache-control": "max-age=45, stale-while-revalidate=10, stale-if-error=86400",
+          "etag": "W/\"1212ca-jIqk5tArt+C/gAWnwun8ciLUXH0\""
+        },
+        "responseBodyHash": "1e897c7fd13434c2387b5d35552401fcb813f4477cb39933b8f0c8a8f6ae695e",
+        "redirectedFrom": "https://welt.de/",
+        "initiators": [],
+        "time": 0.4292639999985113
+      },
+      {
+        "url": "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 117865,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"58f4a163e03be1b14c01d00c50dcb010\""
+        },
+        "responseBodyHash": "90c8f992bedf96e6ee62aa7a45770ba5888fddba7a36c42acefa87aaf4859dec",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.06542099999933271
+      },
+      {
+        "url": "https://www.welt.de/assets/bff-section/css/section.e1c2hgtksj.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 48634,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"5a8f1ed488885b457c8442b49380eb14\""
+        },
+        "responseBodyHash": "6451407315a32c741076cebaf9f07f64eb9d34aaddb9d52fca150d987c43067d",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.07887400000072375
+      },
+      {
+        "url": "https://jnt.welt.de/get/live/web/_/6pzfc2.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_CERT_AUTHORITY_INVALID",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 4.017208000001119
+      },
+      {
+        "url": "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42988,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"2d2c12321d621b817bdf31cb82604b52\""
+        },
+        "responseBodyHash": "7022e4a7f798da10076936623230291bd5781f50e9e9323d419e4060c19ff66d",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 3.384160999999949
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/pages/welt.js?1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29813,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache",
+          "etag": "\"c2e6e588af2b9261f673c5beeaaa2fba:1774627560.265813\"",
+          "expires": "Tue, 31 Mar 2026 21:27:48 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "01b2f87c85fa9c81e550b0182ffc7e0f0324568426142cddf72770f5233f310f",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 3.396020000000135
+      },
+      {
+        "url": "https://rosetta.prod.ps.welt.de/ps-rosetta.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16499,
+        "remoteIPAddress": "18.239.199.94",
+        "responseHeaders": {
+          "cache-control": "max-age=120, must-revalidate",
+          "etag": "W/\"4409febbec15f3d7fcdd8ffe00a2b750\""
+        },
+        "responseBodyHash": "649bbbf647b34a1da819a07d344a7dc1602589dd377333ef55567fcff949b4da",
+        "initiators": [
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 3.53500300000087
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/hashMap.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3625,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache",
+          "etag": "\"5c09a5f49c331c669d2b47f12e49a386:1774873378.024086\"",
+          "expires": "Tue, 31 Mar 2026 21:27:48 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "25231cdc4cecc635556ebb1162c4183ce3584af1cf69c8a09cbe54efc7c9a446",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.029286000000865897
+      },
+      {
+        "url": "https://www.asadcdn.com/pec/currency.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1898,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache",
+          "etag": "\"6d66d5644b2398bea54ad0f3afc3631e:1774918518.938967\"",
+          "expires": "Tue, 31 Mar 2026 21:27:48 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a0aae34bef4365869075789aea33c48c81af2603257ba267606d8ab414dfc043",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.03426000000035856
+      },
+      {
+        "url": "https://images.welt.de/69cbc0725d64d64206180359/b2c5746012ce6d1d410ae5772f534ac5/ci16x9-w800/015e7dcb-d8cd-4250-9af7-33249beb2c6a-jpeg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9265,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"-1553596012\""
+        },
+        "responseBodyHash": "b20242e0ce48aebe43da6bd52cff2a780687c59c168e3777ed2db9f4f0a17dc3",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.2094680000009248
+      },
+      {
+        "url": "https://www.welt.de/assets/public/images/welt-go-bg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 104018,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"5adf4453391dbde3d27677c4b7d667ce\""
+        },
+        "responseBodyHash": "416139564082c8d405f2b0156e5e40ac04e568c247cdeeba5890ba4c3ee0db9b",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.029521000000386266
+      },
+      {
+        "url": "https://www.welt.de/assets/public/fonts/ffmark/Mark-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 20600,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"72f588765ec771d9b78e9a6f4d8afa6f\""
+        },
+        "responseBodyHash": "30a6d27420b7571c4e9c7d5c65269dd82c526f1ad0e6df303c4aa8146d2f3328",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.0870759999997972
+      },
+      {
+        "url": "https://www.welt.de/assets/public/fonts/ffmark/Mark-Heavy.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 21567,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"f65b0524c345bec7e4bc7ef56076a009\""
+        },
+        "responseBodyHash": "9d1c2fd3cfc64a7b10a7d0335285c66867e420d8eb8e6bbc1d943a7a8c01b0d9",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.08744499999920663
+      },
+      {
+        "url": "https://www.welt.de/assets/public/fonts/freight/FreightText-ProBoldItalic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 31477,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"838a06fae4c46504ae6e8ea1965a0ed6\""
+        },
+        "responseBodyHash": "080f102e1d87b2babf74d8526afa0ef4958f59a785572c73377ae5f989be9f36",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.18719600000076753
+      },
+      {
+        "url": "https://www.welt.de/assets/public/fonts/ffmark/Mark-Light.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 21036,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"097a71664e7c073231347f020e2b48a6\""
+        },
+        "responseBodyHash": "6a963ec2037cb46313392d2823a2f34a51657db21b646270193d3a956427d6e7",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.08980300000075658
+      },
+      {
+        "url": "https://images.welt.de/69c4234caf187d606b8130b3/7664f071f206887c1fb2da8cd68b87cb/ci16x9-w1000/spacetime-jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 107693,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"736533079\""
+        },
+        "responseBodyHash": "8bfbb0ce8de86a42de31d7fe2e37807b97d4184581517f14305066c30996f739",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.2020699999993667
+      },
+      {
+        "url": "https://images.welt.de/69cbe527d5d629603f266d1b/a02022bc0131ce78a9ddae166caebabf-master/ci16x9-w200/dpa-com-20090101-260331-911-004629-jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7821,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"-1901453618\""
+        },
+        "responseBodyHash": "983163ad4cf05872faaa4b07956a35e6bff908f749c5e05aef9e4f0f35e5afc2",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.17368299999907322
+      },
+      {
+        "url": "https://images.welt.de/69cbf5ead5d629603f266e57/1b92f3529f952de4156c43243c6a1862/ci16x9-w200/vorbach-png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2513,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"-2070532065\""
+        },
+        "responseBodyHash": "52ca2c9c138abef917b3c31744b0f7063ab5c57a86f88d9b207127020deed7b6",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.20674700000017765
+      },
+      {
+        "url": "https://images.welt.de/69cb5fe854836f652f8896ac/883c56c56b74da278b6e87bc26dd5672-master/ci16x9-w200/goeller-trump-iran-jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3031,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"-1565308719\""
+        },
+        "responseBodyHash": "e1bdbdc817ea475db7fb78ce90f02e65c01ec50fb21cd93da60446f01fec2ed3",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.17336400000021968
+      },
+      {
+        "url": "https://images.welt.de/69cb5867d5d629603f265ea7/e28238295a7d7e63132282b8175a0430-master/ci16x9-w200/dpa-com-20090101-260322-99-909227-jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3118,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"1123859543\""
+        },
+        "responseBodyHash": "62bd5b006c99a76f890c524cce18dd88059904c8fc6c36ab5d3b49557488f939",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.17311599999993632
+      },
+      {
+        "url": "https://images.welt.de/69c7dc3b04eeb30f4b107fa1/6470c958a724b2ae8636fadc7affbcc0/ci23x11-w800/519725411-jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23471,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"713253395\""
+        },
+        "responseBodyHash": "b54ed093c0f70c859490b491ac929d2e6736d2fc8558067229b7f0784e57efda",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.17223399999966205
+      },
+      {
+        "url": "https://images.welt.de/69beb128e2b1286a2c525163/6a3eb585d7b2200b72d87f874aaff445/ci23x11-w400/dwosb-dividenden-jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8243,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"-1292247358\""
+        },
+        "responseBodyHash": "d0ad66a6dad89febb05d80a79e5415cc7978b23a3e60eb683fa1123c88c9772a",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.1729510000004666
+      },
+      {
+        "url": "https://wait-web.prod.ps.welt.de/ps-wait-web-pAUtf_zY.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11663,
+        "remoteIPAddress": "13.249.74.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.welt.de",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"bcbd805b40eb07f126762f4bee24be37\""
+        },
+        "responseBodyHash": "b798a3ed837326330202d5d34e51da395a576755b5d05c3f2d2fd869a0c2aa53",
+        "initiators": [
+          "https://rosetta.prod.ps.welt.de/ps-rosetta.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.15227299999969546
+      },
+      {
+        "url": "https://whoami-web.prod.ps.welt.de/ps-whoami-web-CBUlkOhX.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14210,
+        "remoteIPAddress": "18.238.192.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"cac7c5f33a50f1744849522938ce5038\""
+        },
+        "responseBodyHash": "1a33c97be8d627cb3662d728390eb1f0935ac997d9439c773d1e5cb6636a190e",
+        "initiators": [
+          "https://rosetta.prod.ps.welt.de/ps-rosetta.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.12422800000058487
+      },
+      {
+        "url": "https://wall-e.prod.ps.welt.de/ps-wall-e-CeX7mCBt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6978,
+        "remoteIPAddress": "3.168.86.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"3304e1451dbbb8a54067d753daae0358\""
+        },
+        "responseBodyHash": "de7cec610ada5e092c7b7e25dff48435b20b1625a7443910c703eb8423bad9e0",
+        "initiators": [
+          "https://rosetta.prod.ps.welt.de/ps-rosetta.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.182463999999527
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/addCSS.52213e56.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 192,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=25703868",
+          "etag": "\"91cd278d6e2dacc6a4a5ac7103b1f7ff:1764771234.603245\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ddd350cad1688afd523b7df8f0bcf1fffaf201458ce7b9e6c7577b4ccc16cc74",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09273600000051374
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/calcY.7baffa20.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 379,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=25703868",
+          "etag": "\"7c69399c10016fc2ccdf561f16086acb:1764771236.325593\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b0fcb34e25a759f634ca7e189d6f43ba4382fdc5c1be3a5ff61d57dda7d9156d",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09498999999959779
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/enrichPTV.a18a82bb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 946,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29588100",
+          "etag": "\"0c498300fb1447341bd11621df5c74f6:1773044526.792367\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "14ab213ab7fdb18f3c3982808f0c7e16171a11072cc1b95c14989133bc71e8a6",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09491499999967346
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/enrichPersonalstream.1c9828aa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 930,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30464450",
+          "etag": "\"72491d634ee754d8030a995081f659dd:1773920885.407773\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b2b749cceef603696b21c3768da88aea0c816da27faffc08144f220b200fac42",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09244199999920966
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/err.2606b9c6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 559,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30076879",
+          "etag": "\"3a180e7c9eee1160bf1611183795a957:1771944284.977795\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0c58ce6ded7516fd60447b3b55826640d17ecdb42806706d19c535e29531c174",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09446100000059232
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/extendSlot.82db946b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 687,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23947716",
+          "etag": "\"1902dd7e58f6075ebf2b9c49d1fd33cb:1763109197.198997\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "30c9337e35ae72e906ecee4c978e8a69a0c82d3792fbca23a217c98491305650",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09417799999937415
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/fireRequest.3b532c14.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 212,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=25703869",
+          "etag": "\"487a34af513c6b4bf567dd3acaff92b5:1766137815.259788\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7c4fe7f91898a146c0e17f332f0f6860d38161de87057acbdbb2812bb6d460e6",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09503699999913806
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getContWidth.7054d382.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 202,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=21663182",
+          "etag": "\"be36fcaddd818fccf1d5f22911ef2fc1:1764771238.822687\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "62a0dcd3b35042109822170ae43a1dcc954fed409e7257da1c26e11ba8e95fe8",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09374400000160676
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getSChain.fedc5db5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 173,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23644940",
+          "etag": "\"bd2ff39ca20838c110002fb9cae79470:1763109198.381298\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dd466d5828073e884bb7b5a9b57ac2f90daeb822e6eb44fcc17eb08d7f9eac0f",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09459599999900092
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getWinHeight.a475b9e9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 271,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23609978",
+          "etag": "\"f388a0893d4bb5ae67fad036897fa775:1763109198.438311\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "255264f5198b0674bf69c63eebd36db5d07fa6144b35a5ae8857bf7ce22e2989",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09329799999977695
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/idleLoader.fc323c9a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 196,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=28921852",
+          "etag": "\"7179f2078481d22235b76ef114392e5c:1771944287.075877\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4a5fb7b0ba32382ffd0088c04c655b315271bb40b855ed94a742a5ac779a5d09",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09334199999830162
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/listenMessage.2791aebd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1195,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23851841",
+          "etag": "\"3872516783455cb6c63a38188832e673:1764606241.728613\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6f359b066b6976c86d9ee056b8ea6e7175e6cc74a9d8ec25d726853d36fecfce",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09425600000031409
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/posOutstream.90206730.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 786,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=26775664",
+          "etag": "\"2f1033e8c4cb7fa7545c30c8bf9187c8:1770043759.44329\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "12f5f7163dc167cde45fea3f62b85439eef6329be6da7e5df45798a46b36256d",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09343799999987823
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/renderAd.5b647f2f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 790,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=22695519",
+          "etag": "\"6765cd6af171a8209843d65d5d7339cf:1766137822.409664\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a0862bddf2a7468d176efeae5078bb589beef9859fda3d3723d748d219fb0fd8",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09402399999999034
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/renderedCallback.c9c53849.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1835,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=25553248",
+          "etag": "\"c565a797cd1b5aad1c1858005720d4b8:1768212865.960107\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ffa26cec821fbd447902009bdddb9b412f190f9b1320ae172f12c72a4c61212a",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09376799999881769
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/sendEvent.5e638723.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 233,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29385870",
+          "etag": "\"8adced6884472e65139d7036b759c8ce:1771944292.527619\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "49ee1740a5726865f996f5a8232e1ed1f82baf87db52e8632ea96f5575174351",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09347499999967113
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/setRestrictedArea.75af36ca.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 249,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=25669037",
+          "etag": "\"781324b38f80909d8e8d49945ef63074:1768212868.572612\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1d96a095f9405d69682c58eeb25fa7289f48e7cb3eec8ee1219b72a0913ceb74",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09285099999942759
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/speedCheck.ea12efc0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 568,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=27931531",
+          "etag": "\"d780609875afe57e1e4e6d89adc9c4f3:1763109206.355045\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e5bc9812604fddf46d36442e220f8b049d8a15872ca0cd592bd400872190b5e2",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.0916079999988142
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getLocalData.c2c0d88c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 163,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23851839",
+          "etag": "\"e1f983d4416c66bb9f08e6414f1c6ee4:1763109198.193117\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a0410ca0b5656991f50b865e7667fe56996bf3d9f2bea629df8259b1b3798af3",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09036600000035833
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/instream.156c32d4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 859,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29770366",
+          "etag": "\"4deee40a228ebae43f674d85ebb0d89a:1771944287.604503\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6fd0788da94c4dba276fb93bb5edbba0e3a19d2f67ea545ce37a3f524548a1c8",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09029399999963061
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/init.c73e2ca3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1145,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=22598204",
+          "etag": "\"da12ee0eaac5ca6f4f054db9302c1a22:1766054005.4621\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c6574c1d459ec2e2d72c278beff0cd579982206250ce56459265dfca4f49d98a",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.09014500000012049
+      },
+      {
+        "url": "https://images.welt.de/69c29617ffcdb2ce7075c547/cfdb5df5d00d24391574192ae63400cc/ci23x11-w400/image-6-kopie-jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7138,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"-1120882245\""
+        },
+        "responseBodyHash": "c6a5a16c32e0e1a94ee2c52c35fefcc42e05f11531cacfe565dc44324a0d8825",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.11378800000056799
+      },
+      {
+        "url": "https://images.welt.de/69cbf40954836f652f88a51e/abf28db4187ba75726df1ccbf106ff2c/ci23x11-w400/schuster-3103-png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5190,
+        "remoteIPAddress": "23.44.229.210",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, must-revalidate, public",
+          "etag": "\"-1006453879\""
+        },
+        "responseBodyHash": "149e2e542f50e9f7995dc7a6b39d21f02db90791405e546dfd1bec088f67c892",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.12567800000033458
+      },
+      {
+        "url": "https://hua-production.la.welt.de/la-hua-api/v1/articles/comment_counts?external_article_id=69cbc0725d64d64206180359",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 638,
+        "remoteIPAddress": "18.244.214.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.welt.de",
+          "cache-control": "max-age=180"
+        },
+        "responseBodyHash": "3cde3f3254698ae4383c370fbfb0d402c3e17ae48c0adbb22a58005168003a9a",
+        "initiators": [
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.08149799999955576
+      },
+      {
+        "url": "https://www.asadcdn.com/200/test.js",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"d41d8cd98f00b204e9800998ecf8427e:1562244411.560496\"",
+          "expires": "Tue, 31 Mar 2026 21:27:48 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/speedCheck.ea12efc0.js"
+        ],
+        "time": 0.013294000000314554
+      },
+      {
+        "url": "https://whoami-web.prod.ps.welt.de/asinfo-CXY5Eiud.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8225,
+        "remoteIPAddress": "18.238.192.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"03613cfed49c0a2118fb71165cfd7a0d\""
+        },
+        "responseBodyHash": "06d050204b020ee91d75da5ce554a576aa192a79d5435c70022b056348374302",
+        "initiators": [
+          "https://whoami-web.prod.ps.welt.de/ps-whoami-web-CBUlkOhX.js"
+        ],
+        "time": 0.013305000000400469
+      },
+      {
+        "url": "https://consumer-api.prod.auth.welt.de/self-service/fed-cm/parameters",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1580,
+        "remoteIPAddress": "104.18.29.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.welt.de",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "set-cookie": "csrf_token_813e7fa20460eee846d207d1160337747401ce935177bdb8571bc30ed275e535=9pgb6nnzPqwQ9v5JxbuWvwIpcGHJk7fUex400XqOYq4=; Path=/; Domain=welt.de; Max-Age=31536000; HttpOnly; Secure; SameSite=Lax\n__cf_bm=eg5njYcUUBQZI9wZQg6iMlQUVroKYKsW.ufzcbohmv4-1774992468.9495864-1.0.1.1-G3ldLNSRAHK1XcCHjvqjb4_qJd3BSoz33VNeIYtiSNs3qY1XprShKVO5JEAlb667iQY5sQbBuuk59BQddG0vNKcCn5uO_a76_Bh_jDTh.jP0zVQcuSifvdYUiog5O3xg; HttpOnly; Secure; Path=/; Domain=consumer-api.prod.auth.welt.de; Expires=Tue, 31 Mar 2026 21:57:49 GMT\n__cflb=04dTofjtHwhfCny3TibYMM4LURzprwaZsbwiyJTv6f; HttpOnly; SameSite=None; Secure; Path=/; Expires=Tue, 31 Mar 2026 22:27:49 GMT"
+        },
+        "responseBodyHash": "15af33dc2f8b8582e4e420b62f3ad4f0d5f1864a67022ed82feec8bf232f2084",
+        "initiators": [
+          "https://whoami-web.prod.ps.welt.de/ps-whoami-web-CBUlkOhX.js",
+          "https://rosetta.prod.ps.welt.de/ps-rosetta.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.28109500000027765
+      },
+      {
+        "url": "https://consent.up.welt.de/unified/4.40.1/gdpr-tcf.27718c8cb9d29947d2c1.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30092,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"7346b54d559e4a3d7c8a0bd69d653dfc\""
+        },
+        "responseBodyHash": "02aa605423b0682f9df507dd719cd536591c2b6f3669d72d27c48fbbc13fb5be",
+        "initiators": [
+          "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.013444000000163214
+      },
+      {
+        "url": "https://consent.up.welt.de/wrapper/v2/meta-data?hasCsp=true&accountId=75&env=prod&metadata=%7B%22gdpr%22%3A%7B%7D%7D&propertyId=4987&scriptVersion=4.40.1&scriptType=unified",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 780,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600, s-maxage=3600"
+        },
+        "responseBodyHash": "9ebd1dec1ad0269389ecd87a0e4ed23d40482d32b5a456892b9c16aa16e8d5c0",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.0323210000005929
+      },
+      {
+        "url": "https://www.welt.de/api/articles/home",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1547,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "cache-control": "max-age=120, stale-while-revalidate=12, stale-if-error=864000",
+          "etag": "W/\"8af-0MFKI9AWAwq9XHAMqL0Ij2Ndz5k\""
+        },
+        "responseBodyHash": "220e063bd9594c07c1e0eea412497435007b66a66ce9dbc9c525fc10fa51e6a7",
+        "initiators": [
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.20565300000089337
+      },
+      {
+        "url": "https://wall-e.prod.ps.welt.de/legacy-C8XpyYo4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20242,
+        "remoteIPAddress": "3.168.86.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"b4ffb00bb4737a2aa6a3cf3640d6eb6d\""
+        },
+        "responseBodyHash": "0816f677827660471b33ed6eb61b896b37fc9cb9c7f5aaac940a9b14809e3dcd",
+        "initiators": [
+          "https://wall-e.prod.ps.welt.de/ps-wall-e-CeX7mCBt.js"
+        ],
+        "time": 0.013268999999127118
+      },
+      {
+        "url": "https://wall-e.prod.ps.welt.de/config-CKaIz2hc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2090,
+        "remoteIPAddress": "3.168.86.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"853927936f2ce1a2d1bf42bf611b1230\""
+        },
+        "responseBodyHash": "50376629a39be326055d12f292237893a2229e754e8ddc3badebf013ae15b5cc",
+        "initiators": [
+          "https://wall-e.prod.ps.welt.de/ps-wall-e-CeX7mCBt.js"
+        ],
+        "time": 0.013456999999107211
+      },
+      {
+        "url": "https://wall-e.prod.ps.welt.de/svelte-component-Dksy6Mc6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2534,
+        "remoteIPAddress": "3.168.86.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"5e4b984510c8f97ee1d735d6fbb28642\""
+        },
+        "responseBodyHash": "4583aad714e14e7c337417b7cd1e5a54f5e96f2df91e2519b9c5c8bf47e74e48",
+        "initiators": [
+          "https://wall-e.prod.ps.welt.de/ps-wall-e-CeX7mCBt.js"
+        ],
+        "time": 0.013614999999845168
+      },
+      {
+        "url": "https://wall-e.prod.ps.welt.de/await-Bdxf2PM9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1379,
+        "remoteIPAddress": "3.168.86.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"41551525919047127363b535b43988fe\""
+        },
+        "responseBodyHash": "1affac3b64ba1a574d9f6392b7655cd22a8e14c745db2d6c7e7baf589172d011",
+        "initiators": [
+          "https://wall-e.prod.ps.welt.de/ps-wall-e-CeX7mCBt.js"
+        ],
+        "time": 0.01376699999855191
+      },
+      {
+        "url": "https://www.welt.de/api/animated-banner",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2411,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "cache-control": "max-age=60, stale-while-revalidate=6, stale-if-error=864000",
+          "etag": "W/\"fdf-8eNGxgE16cHsat6b3v07WBlniZo\""
+        },
+        "responseBodyHash": "1efe6d0283c79c1365942d5072eb57b8731381eae0e0112fe18a7c18ae148222",
+        "initiators": [
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.48770300000069255
+      },
+      {
+        "url": "https://www.welt.de/api/news-banner/breaking-news",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 719,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "cache-control": "max-age=30, stale-while-revalidate=12, stale-if-error=864000",
+          "etag": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+        },
+        "responseBodyHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "initiators": [
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.4876280000007682
+      },
+      {
+        "url": "https://www.welt.de/assets/bff-section/scripts/chunks/notifier.client.uVyoKhMb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1946,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"cc8ae89efaaee603d2195543e0280d5c\""
+        },
+        "responseBodyHash": "35e52d45464c5fc53d1ee400082199c1e76127bca8d033053879c2fccce921cd",
+        "initiators": [
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.03451099999983853
+      },
+      {
+        "url": "https://consent.up.welt.de/wrapper/v2/messages?hasCsp=true&env=prod&body=%7B%22accountId%22%3A75%2C%22campaignEnv%22%3A%22prod%22%2C%22campaigns%22%3A%7B%22gdpr%22%3A%7B%22consentStatus%22%3A%7B%7D%2C%22targetingParams%22%3A%7B%7D%7D%7D%2C%22clientMMSOrigin%22%3A%22https%3A%2F%2Fconsent.up.welt.de%22%2C%22hasCSP%22%3Atrue%2C%22includeData%22%3A%7B%22localState%22%3A%7B%22type%22%3A%22string%22%7D%2C%22actions%22%3A%7B%22type%22%3A%22RecordString%22%7D%2C%22cookies%22%3A%7B%22type%22%3A%22RecordString%22%7D%7D%2C%22propertyHref%22%3A%22https%3A%2F%2Fwww.welt.de%2F%22%2C%22propertyId%22%3A4987%7D&localState=null&metadata=%7B%22gdpr%22%3A%7B%22applies%22%3Atrue%7D%7D&nonKeyedLocalState=null&ch=5115223525115223522909&scriptVersion=4.40.1&scriptType=unified",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12704,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, s-maxage=1200"
+        },
+        "responseBodyHash": "22ee260c68c31a09cb617f84eda25abf14541a137e802f2f3977d2442fa7c00c",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.01135200000135228
+      },
+      {
+        "url": "https://consent.up.welt.de/index.html?hasCsp=true&message_id=1439095&consentUUID=null&consent_origin=https%3A%2F%2Fconsent.up.welt.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1&consentLanguage=de",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 2298,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"3db22a93636873631df56f92bf49ce1d\""
+        },
+        "responseBodyHash": "3042aa751a9060072196b4c28e9f83c2baece4ae38b8f400cd0050c50d521b37",
+        "initiators": [
+          "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+          "https://consent.up.welt.de/unified/4.40.1/gdpr-tcf.27718c8cb9d29947d2c1.bundle.js"
+        ],
+        "time": 0.01103500000135682
+      },
+      {
+        "url": "https://consent.up.welt.de/Notice.30929.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6834,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"3e47aad391efa200fcd5755f7808ab05\""
+        },
+        "responseBodyHash": "0fa6bc568407a06bea2ea9091b9c47bc23b04bda07458c50a042dfff324213b7",
+        "initiators": [
+          "https://consent.up.welt.de/index.html?hasCsp=true&message_id=1439095&consentUUID=null&consent_origin=https%3A%2F%2Fconsent.up.welt.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1&consentLanguage=de"
+        ],
+        "time": 0.011520000000018626
+      },
+      {
+        "url": "https://consent.up.welt.de/polyfills.01516.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2365,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"89661b8fd918815bcb224bba79cabab1\""
+        },
+        "responseBodyHash": "533b23c57b1770cc3ee9c15b998b2eb494fa0adb2d6929fd22a9b78adfade3a7",
+        "initiators": [
+          "https://consent.up.welt.de/index.html?hasCsp=true&message_id=1439095&consentUUID=null&consent_origin=https%3A%2F%2Fconsent.up.welt.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1&consentLanguage=de"
+        ],
+        "time": 0.023724000000584056
+      },
+      {
+        "url": "https://consent.up.welt.de/Notice.8f529.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 93417,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"064d122a9edb8fcb7d7836fbb505c2f1\""
+        },
+        "responseBodyHash": "a558b1fb305abd8b2a6adbb3268300bc16b63a75a55b8f51091b30ddbcca6fe5",
+        "initiators": [
+          "https://consent.up.welt.de/index.html?hasCsp=true&message_id=1439095&consentUUID=null&consent_origin=https%3A%2F%2Fconsent.up.welt.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1&consentLanguage=de"
+        ],
+        "time": 0.023043999999572407
+      },
+      {
+        "url": "https://rusty-heartbeat.services.ps.axelspringer.de/",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 245,
+        "remoteIPAddress": "18.155.192.42",
+        "responseHeaders": {},
+        "responseBodyHash": "48d304ea4af440f55e5f38f3281d618d6e2e1ee64529bb6d3d4c5321f415f53e",
+        "initiators": [
+          "https://whoami-web.prod.ps.welt.de/asinfo-CXY5Eiud.js",
+          "https://whoami-web.prod.ps.welt.de/ps-whoami-web-CBUlkOhX.js",
+          "https://rosetta.prod.ps.welt.de/ps-rosetta.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.3436280000005354
+      },
+      {
+        "url": "https://gmx.net/.well-known/web-identity",
+        "method": "GET",
+        "type": "FedCM",
+        "status": 200,
+        "size": 300,
+        "remoteIPAddress": "82.165.229.85",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"b1-648455d508a5d-gzip\""
+        },
+        "responseBodyHash": "4d65a41d95c62df076874b7cba9f1ee4a55a0d9edf408b6319041aab84b49175",
+        "initiators": [],
+        "time": 1.7747870000002877
+      },
+      {
+        "url": "https://login.gmx.net/fedcm/config",
+        "method": "GET",
+        "type": "FedCM",
+        "status": 200,
+        "size": 817,
+        "remoteIPAddress": "217.72.199.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5a1aafea55bb91de09ba3f712ad2adc3cd202ec9740e5370c229df5bcc3e71be",
+        "initiators": [],
+        "time": 0.7606999999989057
+      },
+      {
+        "url": "https://web.de/.well-known/web-identity",
+        "method": "GET",
+        "type": "FedCM",
+        "status": 200,
+        "size": 304,
+        "remoteIPAddress": "82.165.229.83",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"ae-648455d508a5d-gzip\""
+        },
+        "responseBodyHash": "4c4ba28219a71798955625409f6b4ee2e59c1e65a904569969fd8aea62f6d428",
+        "initiators": [],
+        "time": 0.878538999999364
+      },
+      {
+        "url": "https://login.web.de/fedcm/config",
+        "method": "GET",
+        "type": "FedCM",
+        "status": 200,
+        "size": 819,
+        "remoteIPAddress": "217.72.199.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d7a3b924a3d11a2329346ebc73a9bbe78222d939cd8639b9793a62409232a643",
+        "initiators": [],
+        "time": 0.7600629999997182
+      },
+      {
+        "url": "https://consent.up.welt.de/consent/tcfv2/vendor-list/categories?siteId=4987",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3227,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, s-maxage=3600"
+        },
+        "responseBodyHash": "8e06024f1b057a9095077175773a9dee574302638588d93f13e5f5f60a816071",
+        "initiators": [
+          "https://consent.up.welt.de/Notice.8f529.js"
+        ],
+        "time": 0.011926000001039938
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 824,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31422211",
+          "etag": "\"1b7af72c90cede738cd8347eac7b3a5d:1774877530.559478\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "efd84fc5b90ee7faf4ce680431fdcecf3bf7da81affe2c4ad3e93ee9640fc2ad",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1"
+        ],
+        "time": 0.01485800000045856
+      },
+      {
+        "url": "https://www.welt.de/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 3137,
+        "remoteIPAddress": "69.192.139.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"bdff589b8bad11efdf2fac499e523716\""
+        },
+        "responseBodyHash": "d3f4c7bc09aff3ee99f0f9d9853409665aba4dd29d35522ec1d8ee6cc490c925",
+        "initiators": [],
+        "time": 0.03634299999976065
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/getScrollTop.3431c031.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 152,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23246068",
+          "etag": "\"83bdbebd14968dc348a804fc2e03b74b:1766137817.749147\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "de6e81d3623ab338ec5f13dfdcb6c0af0baed81940e73a91c0608b50d0e041a2",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.01376199999867822
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/calcAdPos.adfad1c8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 286,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=25703868",
+          "etag": "\"dcc770007886fa242f6abe0e3a126a85:1763109194.279409\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "664c0b260101b233c362dd0beb37dd07ccf88f254f05dff224c75376801b41f2",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.017871000000013737
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/isVisible.565bfdbd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 650,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30785100",
+          "etag": "\"c2140a00e959ea4a9dc09db56846bf81:1771500163.45177\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a5e43842abd07a4d9a60040c45b95b4e068a5b1b983398c61c172bc4312ac9dc",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.016705000000001746
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/stickToSlot.8aa77f56.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 908,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=29353826",
+          "etag": "\"cb5536570cc70d123bcb83568d3e15f8:1771944294.561127\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e8de911be9e256456ef860a6028c1b52546dfa37b57e4101565fbaef4e763d69",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.01661199999944074
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/sightLoader.a6d7f54d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2467,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30782846",
+          "etag": "\"6ef0dd2afd1fd1987e133320a1d77978:1763109205.913556\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "98a1b7814eda6cd9f091723bf421810a71b719007ccec77d5db2aed94328190b",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.030403999999180087
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/backchanger.95c12334.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 744,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30018092",
+          "etag": "\"56fbed9207505bd8130d4c82e3361a6d:1771944282.902934\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "681e5017b10c6618b1b6e14307285f72a2f30fa74efbbce8fc803b615ba02798",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.01647200000115845
+      },
+      {
+        "url": "https://consent.up.welt.de/consent/tcfv2/vendor-list/categories?siteId=4987&consentLanguage=de",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3182,
+        "remoteIPAddress": "108.138.246.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, s-maxage=3600"
+        },
+        "responseBodyHash": "2b577ae33198906d8d1315f0a816035e80c8f8f385fd2609ce0eca7b72ad8866",
+        "initiators": [
+          "https://consent.up.welt.de/Notice.8f529.js"
+        ],
+        "time": 0.012311999998928513
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/isChildOf.8f6a7f93.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 141,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30782847",
+          "etag": "\"b0eb1efc97d12aa4e687b5d3840a62e6:1770043757.777969\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1f6489fe4704511305ecd5e56ba2c40fb9d5b7dc981dbf5051279f4b7e0cdbf9",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/isVisible.565bfdbd.js",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.013993000000482425
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/ovkvmf/propagateOnScroll.634ea025.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 189,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23700989",
+          "etag": "\"7ebcd15a876978dce48102469b9fe2d0:1763109167.818369\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5d17cc13360c11d7b3e827d1765223a374fc7ed7c035a748a19afaa3fbfc53ae",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.01581599999917671
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/moveSky.12bac293.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1150,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=23700989",
+          "etag": "\"1515d385a62ff391b20ec969ec8676c6:1763109201.197786\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e2397dddbc0407878e31979ad9ea088280f3d6405ae6972c812898dafea615c",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/backchanger.95c12334.js",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.014998999999079388
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/delCSS.5ff0b211.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 268,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30782848",
+          "etag": "\"7b13ce7c8f4573205bab3f8bb91e4674:1766137813.945919\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7bc651f1e7c0aac9d3eb7a35c7b283d75983cbba62dc59adb36060bbafd1ae0a",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/backchanger.95c12334.js",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.015525000000707223
+      },
+      {
+        "url": "https://www.asadcdn.com/adlib/libmodules/desktop/setCSS.e9e4e776.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 160,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=30782848",
+          "etag": "\"5b382be030f84fd0df49aaa005f3673f:1763109252.083427\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "28f0814cf52d115d60c301375c13a8af7646acd505a589cfd77c5b47e46fab4b",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/backchanger.95c12334.js",
+          "https://www.asadcdn.com/adlib/libmodules/desktop/scrollHandler.4d2dae3f.js"
+        ],
+        "time": 0.013885000000300352
+      },
+      {
+        "url": "https://ast.welt.de/welt/prod/utag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59316,
+        "remoteIPAddress": "18.238.192.89",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "W/\"2e0fedb4268e43d1b1e8f20c8a6919f1\""
+        },
+        "responseBodyHash": "2f727fc5c156d3809c7c54249a301f7090b086a77b426928876a2e671b559493",
+        "initiators": [
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.07516799999939394
+      },
+      {
+        "url": "https://ast.welt.de/utag/tiqapp/utag.v.js?a=axelspringer/welt/202603301108&cb=1774992469528",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 441,
+        "remoteIPAddress": "18.238.192.89",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"7bc0ee636b3b83484fc3b9348863bd22\""
+        },
+        "responseBodyHash": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb",
+        "initiators": [
+          "https://ast.welt.de/welt/prod/utag.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.013138000000253669
+      },
+      {
+        "url": "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28257,
+        "remoteIPAddress": "18.238.192.89",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "W/\"a79fef797c58cb02309b75be955b5efd\""
+        },
+        "responseBodyHash": "949828f3227ea61c9c994e9bf45a304b399b73c3bb741cc642de53a86699a721",
+        "initiators": [
+          "https://ast.welt.de/welt/prod/utag.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.08102700000017649
+      },
+      {
+        "url": "https://as.welt.de/id?d_visid_ver=5.2.0&d_fieldgroup=A&mcorgid=B21B678254F601E20A4C98A5%40AdobeOrg&mid=05119979327376794695142962185302960319&d_coppa=true&ts=1774992469660",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 452,
+        "remoteIPAddress": "63.140.36.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.welt.de",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "set-cookie": "s_ecid=MCMID%7C05119979327376794695142962185302960319; Path=/; Domain=welt.de; Max-Age=63072000; Expires=Thu, 30 Mar 2028 21:27:27 GMT; SameSite=Lax;"
+        },
+        "responseBodyHash": "78dfecc529a5e16a0a408ac157aac5e578daaecb81c0998cab9494b70cdb9245",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://ast.welt.de/welt/prod/utag.js",
+          "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.21154999999998836
+      },
+      {
+        "url": "https://as.welt.de/b/ss/axelspringerwelt/1/JS-2.10.0/s15081526591597",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 300,
+        "remoteIPAddress": "63.140.36.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.welt.de",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "etag": "3811767303719288832-4613845472711119973",
+          "expires": "Mon, 30 Mar 2026 21:27:49 GMT",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "pragma": "no-cache",
+          "set-cookie": "s_ecid=MCMID%7C05119979327376794695142962185302960319; Path=/; Domain=welt.de; Max-Age=31536000; Expires=Wed, 31 Mar 2027 21:27:27 GMT;"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "initiators": [
+          "https://www.asadcdn.com/adlib/pages/welt.js?1",
+          "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108",
+          "https://ast.welt.de/welt/prod/utag.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.03607200000078592
+      },
+      {
+        "url": "https://ast.welt.de/welt/prod/utag.234.js?utv=ut4.46.202603301108",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19309,
+        "remoteIPAddress": "18.238.192.89",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "W/\"cb443cacf174f67a8011435c0fe1d88f\""
+        },
+        "responseBodyHash": "ca8d3c94772a6f31a83e66d3391dd53b87dd828d360d3e8b8118cb473d2cad00",
+        "initiators": [
+          "https://ast.welt.de/welt/prod/utag.js",
+          "https://consent.up.welt.de/unified/4.40.1/gdpr-tcf.27718c8cb9d29947d2c1.bundle.js",
+          "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.08261299999867333
+      },
+      {
+        "url": "https://as.welt.de/b/ss/axelspringerwelt/1/JS-2.10.0/s1604493485227?AQB=1&ndh=1&pf=1&t=31%2F2%2F2026%2014%3A27%3A50%202%20420&mid=05119979327376794695142962185302960319&ce=UTF-8&ns=axelspringer&cdp=2&cl=31536000&pageName=home%20%3A%205&g=https%3A%2F%2Fwww.welt.de%2F&cc=USD&server=www.welt.de&c1=5&v1=5&c2=desktop&v2=desktop&c3=home&v3=home&c4=%2F&v4=%2F&c5=home&v5=home&c29=false&c30=false&v37=Direct&c47=cmp_interactions&c48=click&c49=cm_layer_shown&v49=home%20%3A%205&c59=Direct&v67=WELT.de&v71=1774992470&v81=false&v82=false&v83=false&v84=false&v170=cmp_interactions&v171=click&v172=cm_layer_shown&v212=false&v219=master&pe=lnk_o&pev2=cmp_interactions&s=800x600&c=24&j=1.6&v=N&k=Y&bw=1440&bh=812&mcorgid=B21B678254F601E20A4C98A5%40AdobeOrg&lrt=37&AQE=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 187,
+        "remoteIPAddress": "63.140.36.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "etag": "3811767304882847744-4613821677518143058",
+          "expires": "Mon, 30 Mar 2026 21:27:50 GMT",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "pragma": "no-cache",
+          "set-cookie": "s_ecid=MCMID%7C05119979327376794695142962185302960319; Path=/; Domain=welt.de; Max-Age=31536000; Expires=Wed, 31 Mar 2027 21:27:27 GMT;"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "initiators": [
+          "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108",
+          "https://ast.welt.de/welt/prod/utag.234.js?utv=ut4.46.202603301108",
+          "https://ast.welt.de/welt/prod/utag.js",
+          "https://consent.up.welt.de/unified/4.40.1/gdpr-tcf.27718c8cb9d29947d2c1.bundle.js",
+          "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+          "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js"
+        ],
+        "time": 0.03318799999942712
+      },
+      {
+        "url": "https://login.gmx.net/fedcm/accounts",
+        "method": "GET",
+        "type": "FedCM",
+        "status": 401,
+        "remoteIPAddress": "217.72.199.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_HTTP_RESPONSE_CODE_FAILURE",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.6607490000005782
+      },
+      {
+        "url": "https://login.web.de/fedcm/accounts",
+        "method": "GET",
+        "type": "FedCM",
+        "status": 401,
+        "remoteIPAddress": "217.72.199.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_HTTP_RESPONSE_CODE_FAILURE",
+        "initiators": [
+          "https://www.welt.de/"
+        ],
+        "time": 0.9856429999999818
+      }
+    ],
+    "cookies": [
+      {
+        "name": "_sp_su",
+        "domain": ".welt.de",
+        "path": "/",
+        "expires": 1806528468963,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "csrf_token_813e7fa20460eee846d207d1160337747401ce935177bdb8571bc30ed275e535",
+        "domain": ".welt.de",
+        "path": "/",
+        "expires": 1806528469157,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".consumer-api.prod.auth.welt.de",
+        "path": "/",
+        "expires": 1774994269157,
+        "session": false
+      },
+      {
+        "name": "__cflb",
+        "domain": "consumer-api.prod.auth.welt.de",
+        "path": "/",
+        "expires": 1774996069157,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "cmp_cv_list",
+        "domain": ".welt.de",
+        "path": "/",
+        "expires": 1777584469000,
+        "session": false
+      },
+      {
+        "name": "s_ecid",
+        "domain": ".welt.de",
+        "path": "/",
+        "expires": 1806528470138,
+        "session": false
+      },
+      {
+        "name": "s_cc",
+        "domain": ".welt.de",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "AMCVS_B21B678254F601E20A4C98A5%40AdobeOrg",
+        "domain": ".welt.de",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "AMCV_B21B678254F601E20A4C98A5%40AdobeOrg",
+        "domain": ".welt.de",
+        "path": "/",
+        "expires": 1809552469882,
+        "session": false
+      },
+      {
+        "name": "utag_main",
+        "domain": ".welt.de",
+        "path": "/",
+        "expires": 1806528470000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.asadcdn.com/adlib/pages/welt.js?1": {
+          "Navigator.prototype.userAgent": 22,
+          "Screen.prototype.availWidth": 4,
+          "Screen.prototype.availHeight": 2,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.language": 1,
+          "window.sessionStorage": 1,
+          "window.localStorage": 1
+        },
+        "https://www.welt.de/": {
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://www.welt.de/assets/bff-section/scripts/section.module.DmDrVGR9.js": {
+          "window.innerWidth": 13,
+          "Document.cookie getter": 2,
+          "window.innerHeight": 1,
+          "Navigator.prototype.userAgent": 11,
+          "Date.prototype.getTime": 13,
+          "window.sessionStorage": 2,
+          "window.localStorage": 1
+        },
+        "https://rosetta.prod.ps.welt.de/ps-rosetta.js": {
+          "window.localStorage": 2,
+          "Navigator.prototype.userAgent": 26,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "Document.cookie getter": 7
+        },
+        "https://whoami-web.prod.ps.welt.de/asinfo-CXY5Eiud.js": {
+          "window.localStorage": 1,
+          "Navigator.prototype.userAgent": 8,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Document.cookie getter": 60
+        },
+        "https://whoami-web.prod.ps.welt.de/ps-whoami-web-CBUlkOhX.js": {
+          "Document.cookie getter": 1
+        },
+        "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js": {
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie getter": 10,
+          "window.localStorage": 19,
+          "Date.prototype.getTime": 1,
+          "Document.cookie setter": 1,
+          "window.innerHeight": 1,
+          "window.innerWidth": 1
+        },
+        "https://wait-web.prod.ps.welt.de/ps-wait-web-pAUtf_zY.js": {
+          "window.localStorage": 1,
+          "Navigator.prototype.userAgent": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "Document.cookie getter": 1
+        },
+        "https://wall-e.prod.ps.welt.de/legacy-C8XpyYo4.js": {
+          "Document.cookie getter": 1
+        },
+        "https://consent.up.welt.de/Notice.8f529.js": {
+          "window.innerWidth": 2,
+          "window.innerHeight": 2
+        },
+        "https://ast.welt.de/welt/prod/utag.js": {
+          "Document.cookie getter": 153,
+          "Date.prototype.getTime": 82,
+          "Navigator.prototype.plugins": 2,
+          "Navigator.prototype.userAgent": 5,
+          "Navigator.prototype.appVersion": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 2,
+          "Document.cookie setter": 33,
+          "window.innerHeight": 5,
+          "window.innerWidth": 5,
+          "Date.prototype.getTimezoneOffset": 6,
+          "window.localStorage": 17,
+          "Screen.prototype.orientation": 3,
+          "window.sessionStorage": 4,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Navigator.prototype.appName": 1
+        },
+        "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108": {
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.appName": 1,
+          "Date.prototype.getTime": 11,
+          "Document.cookie getter": 8,
+          "Document.cookie setter": 3,
+          "window.sessionStorage": 7,
+          "Date.prototype.getTimezoneOffset": 3,
+          "window.localStorage": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.javaEnabled": 1,
+          "Screen.prototype.pixelDepth": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2
+        },
+        "https://ast.welt.de/welt/prod/utag.234.js?utv=ut4.46.202603301108": {
+          "Date.prototype.getTime": 1,
+          "window.sessionStorage": 6
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://consent.up.welt.de/unified/wrapperMessagingWithoutDetection.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_su=false; Path=/; Secure=true; SameSite=None; Max-Age=31536000; expires=Wed, 31 Mar 2027 21:27:48 GMT; Domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:1$_ss:1$_st:1774994269495$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:1$_ss:1$_st:1774994269495$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:1$_ss:1$_st:1774994269495$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:1$_ss:1$_st:1774994269495$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:1$_ss:1$_st:1774994269495$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:1$_ss:1$_st:1774994269495$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cmp_cv_list=adobe_cmp,; expires=Thu, 30 Apr 2026 21:27:49 GMT; path=/; secure; domain=.welt.de"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__utag_cmp_vendor_list=; expires=Thu, 01 Jan 1970 00:00:00 GMT; secure"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:2$_ss:0$_st:1774994269555$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:2$_ss:0$_st:1774994269555$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:2$_ss:0$_st:1774994269555$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_B21B678254F601E20A4C98A5%40AdobeOrg=-1124106680%7CMCIDTS%7C20544%7CvVersion%7C5.2.0; path=/; expires=Fri, 31 Mar 2028 21:27:49 GMT; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_B21B678254F601E20A4C98A5%40AdobeOrg=-1124106680%7CMCIDTS%7C20544%7CMCMID%7C05119979327376794695142962185302960319%7CvVersion%7C5.2.0; path=/; expires=Fri, 31 Mar 2028 21:27:49 GMT; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_vapi1774992469663=_vapi1774992469663;domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_vapi1774992469663=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session$channel:Direct%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session$channel:Direct%3Bexp-session$channelCat:%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session$channel:Direct%3Bexp-session$channelCat:%3Bexp-session$pa:22%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:3$_ss:0$_st:1774994269567$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session$channel:Direct%3Bexp-session$channelCat:%3Bexp-session$pa:22%3Bexp-session$otb:%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_B21B678254F601E20A4C98A5%40AdobeOrg=-1124106680%7CMCIDTS%7C20544%7CMCMID%7C05119979327376794695142962185302960319%7CMCAID%7CNONE%7CvVersion%7C5.2.0; path=/; expires=Fri, 31 Mar 2028 21:27:49 GMT; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.155.js?utv=ut4.46.202603301108",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_cc=true; path=/; domain=.welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCVS_B21B678254F601E20A4C98A5%40AdobeOrg=1; path=/; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_B21B678254F601E20A4C98A5%40AdobeOrg=-1124106680%7CMCIDTS%7C20544%7CMCMID%7C05119979327376794695142962185302960319%7CMCAID%7CNONE%7CMCOPTOUT-1774999669s%7CNONE%7CvVersion%7C5.2.0; path=/; expires=Fri, 31 Mar 2028 21:27:49 GMT; domain=welt.de;"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:4$_ss:0$_st:1774994270009$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session$channel:Direct%3Bexp-session$channelCat:%3Bexp-session$pa:22%3Bexp-session$otb:%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:50 GMT"
+          ]
+        },
+        {
+          "source": "https://ast.welt.de/welt/prod/utag.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "utag_main=v_id:019d45cbadf40006d0d45198c14c05075001406d00590$_sn:1$_se:4$_ss:0$_st:1774994270009$ses_id:1774992469495%3Bexp-session$_pn:1%3Bexp-session$chev:event207%3Bexp-session$ch:Direct%3Bexp-session$chCat:%3Bexp-session$lsa:0$page_platform:desktop%3Bexp-session$vapi_domain:welt.de$articleview:event207%3Bexp-session$channel:Direct%3Bexp-session$channelCat:%3Bexp-session$pa:22%3Bexp-session$otb:%3Bexp-session;path=/;domain=welt.de;expires=Wed, 31 Mar 2027 21:27:50 GMT"
+          ]
+        }
+      ]
+    }
+  }
+}

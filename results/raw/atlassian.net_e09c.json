@@ -1,0 +1,1963 @@
+{
+  "initialUrl": "https://atlassian.net/",
+  "finalUrl": "https://www.atlassian.com/software",
+  "timeout": false,
+  "testStarted": 1774989669615,
+  "testFinished": 1774989682672,
+  "data": {
+    "requests": [
+      {
+        "url": "https://atlassian.net/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.atlassian.com/software",
+        "initiators": [],
+        "time": 0.17258200000105717
+      },
+      {
+        "url": "https://www.atlassian.com/software",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 164860,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "cache-control": "max-age=0, stale-if-error=0, no-cache=\"Set-Cookie\"",
+          "set-cookie": "atlCohort={\"bucketAll\":{\"bucketedAtUTC\":\"2026-03-31T20:41:10.251Z\",\"version\":\"2\",\"index\":65,\"bucketId\":0}}; Max-Age=31536000; Domain=.atlassian.com; Path=/; Secure;\najs_anonymous_id=%222086240a-caed-413e-9632-66de8395dd5e%22; Max-Age=31536000; Domain=.atlassian.com; Path=/; Secure;"
+        },
+        "responseBodyHash": "c4afab2ff0e76cd29eb2852174c7c8271ba39f1b9a709b416ce3aac062b6e6cc",
+        "redirectedFrom": "https://atlassian.net/",
+        "initiators": [],
+        "time": 0.47898799999893527
+      },
+      {
+        "url": "https://ds-cdn.prod-east.frontend.public.atl-paas.net/assets/fonts/atlassian-sans/v4/AtlassianSans-latin.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 73580,
+        "remoteIPAddress": "108.138.246.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "\"b6e555353c63c8c9f07f0f4ef630256e\""
+        },
+        "responseBodyHash": "45ef13f83c22f87f02dc6be585028e523da12491ba5a4a9a8aa4497c654b39a9",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 1.9137309999987338
+      },
+      {
+        "url": "https://ds-cdn.prod-east.frontend.public.atl-paas.net/assets/font-rules/v6/atlassian-fonts.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2210,
+        "remoteIPAddress": "108.138.246.97",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"d228ae4f396d83a4aca767ab24f776fc\""
+        },
+        "responseBodyHash": "d6e6e042e9a4260c0631521fdf6ed6ad89862e73659a7f74dd31d3a75abd2223",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 1.887627000000066
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/atlaskit-tokens_light.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6014,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"d023e9ccd4fd507cfb708ccc32217673\""
+        },
+        "responseBodyHash": "7a9980a205bf6a8d9ae645c4391b3b3fdad418af1caa1c46105b4b4e62339f22",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 1.8102770000004966
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/atlaskit-tokens_spacing.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4013,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "\"41c1b3f47f44f081faab6563f4034f61\""
+        },
+        "responseBodyHash": "152bf6c22b182366f8908eb0532e54ae455ef82ae4b9c266da8b06fcebf5261c",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 1.8107999999992899
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/atlaskit-tokens_typography.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3816,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"cfff01d8dfbf6a0d26b7306fcd06e647\""
+        },
+        "responseBodyHash": "f460e74719cd868dd7e81e29db0a99309d3d6920ed625ea72ceee97d8c0e2b11",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 1.811309999999139
+      },
+      {
+        "url": "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29033,
+        "remoteIPAddress": "65.8.180.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, s-maxage=86400",
+          "etag": "W/\"aadab7155d703d49a44704fbc9832e81\""
+        },
+        "responseBodyHash": "0041c85995003c8b887a9701fb05426652eb2ccf7af5af9703c544753274b43b",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0112449999996898
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1764102,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"7f0a20e6632c1a34b7407d49b5273e3f\""
+        },
+        "responseBodyHash": "38ec63f14d9876449943e11d3148d20fbfa51e9556205d64ee98a6b4946623df",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0439249999999447
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.runtime.df20b9cd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5550,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"16e24211f6d49d36531aaa78e67700ce\""
+        },
+        "responseBodyHash": "72591691a0e6e641e90bf284cd20e0b6916344679df3571e6a0a65c088c70a18",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.03330300000016
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/language-selector.517c7881.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25224,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"1ef2566ce6d7c6a6fe5394e730101cc5\""
+        },
+        "responseBodyHash": "581c007f0e2ffb56133e7288aa6d359d58e21b19509a3b54ddf9917fd3ddbcf1",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0344660000009753
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/animation-illustration.a9145d1a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 81357,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"24ab51e8d565e0f763f32e0b15e3c9c7\""
+        },
+        "responseBodyHash": "396a8bef313862551fced7634ee3746cd049b0f4a3c3d236e3a7aefb2981ea5d",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0443749999994907
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.685c2407.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21778,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"9dc8a573e4578da249f4dbe0028e271a\""
+        },
+        "responseBodyHash": "b69fe56652de2990c730a738d602c5d51645be4952cdb2a7db2b567e9f3a8e59",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.045196000000942
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.runtime.7f13662e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4438,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"6e24abc9718b0cf5604fb508c8cf0f55\""
+        },
+        "responseBodyHash": "8a0193e8a93334e434451f80a0bfd278a7837accb28b834a134e1eb04ef35948",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.047295000000304
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confirmation-page.781e3f1a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8498,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"f1bc5b2fef076b19fd2b1996b35c195a\""
+        },
+        "responseBodyHash": "41e807fbbf709d445878845a97eb313763fea301c632673a88361eaa9a42b88d",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.048877999999604
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confirmation-page.3d0e1b8e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12628,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"0cefc5ed4621c3c3891dfec9cc435682\""
+        },
+        "responseBodyHash": "73be3e72803b9420e1a9f66fa213590da349d7233bc0c360090cb446c8afcf66",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0485939999998664
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confluence-software-anchor-lp-automation.818bdf55.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6202,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"da65d4c3cedfc699b5d2e4dc437ff6a1\""
+        },
+        "responseBodyHash": "84d36392140750002e56fd02065e58861c99e478cc354acba55cafee5bd96aeb",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0482520000005024
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confluence-template-category-page.fbc82601.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14478,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"3d32a51dc4d5427b9a49ae0b11d6083c\""
+        },
+        "responseBodyHash": "4424ed720b25df5affee6bd943429e926e28e8a4b96d6f952308277367fd89b0",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.047982999998567
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/customers-landing-page.9f592f26.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10404,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"58383b17e1ff97da41bf10199e3334b4\""
+        },
+        "responseBodyHash": "86a8c3e46e0ebf3d7713a2ca7b9865e5bd8c23056b3db25271cc1b649c5ed206",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.047665000000052
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/home.32f5fee1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19851,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"668bc59cef1b73465a3f6d06fa643716\""
+        },
+        "responseBodyHash": "5fdb1b49799e1eb0d50228ffee8479283d30342ec444d7d414da44666a304bfc",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0473949999995966
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.a46079b6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23605,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"cbfa3835ec45343e2cd629439ef673d8\""
+        },
+        "responseBodyHash": "88a0abd4f63e0574339f3e5b02fd78d249ef2a3bda0d1fd2f78543493de64ed2",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0661159999999654
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-landing-page.1fd834b3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12238,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"0bf76d626ad6a6fd4e5058a37df4a561\""
+        },
+        "responseBodyHash": "226cff5a0f2aae9fbda5f59bdf0c792d78e6362b60e087897e2cb691c0ef68a5",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.064791000000696
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.0ebac537.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 186512,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"c4a84696b21321902bfca2d5864c83cc\""
+        },
+        "responseBodyHash": "e55c4c0df42a957c3ecec0ca50708c57716580233ce1e0c9882b483a156a2987",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0643010000003414
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/teamwork-collection-pricing-page.2a251b24.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7270,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"1010fcecf53f254b6133cf92cca33632\""
+        },
+        "responseBodyHash": "ba4a3980c13b9a3333be968bdb698b6306b118a7f0a6ee4f9019eebda79807c6",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.052865000001475
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-service-management-pricing-page.7acae3a0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5890,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"432b4525ebae379c6378ba6e3c4d573e\""
+        },
+        "responseBodyHash": "ae7380514ac37886cfb4d508009b69447dd9133f48560b8b17696978209971be",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0525959999995393
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/loom-pricing-page.d74ee30e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6192,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"ccc20eb5d939fafb03b39b756846aac3\""
+        },
+        "responseBodyHash": "8174cf42dd54ec435b1a08e9e9e5741e448465dbcd8df3ab6008305abccfa25d",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0523250000005646
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-product-discovery-page.99691f27.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19955,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"cfa470f10261d0efdade2f9e24505b02\""
+        },
+        "responseBodyHash": "5af964ca2aee81220f48f0bf653aa1e48b2c7b41934a9e143259a1b15f19a119",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0515570000006846
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-software-page.1ab38bb7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16840,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"18810c6b310c489edd66cb9f62df314d\""
+        },
+        "responseBodyHash": "08fe1c4903da7543ebf0863546ce39cbe11b5a47aecffd8ea5d0000d24cd0688",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.048652999999831
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.da2330b4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27759,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"1ad2841e80c9198a38674f38f3c7e922\""
+        },
+        "responseBodyHash": "7a66c4e7cd42a1a961ef22de5ae11683662f7698725f4df03eb52167ea33e649",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 2.0661959999997634
+      },
+      {
+        "url": "https://assets.ctfassets.net/rz1oowkt5gyp/41EruTPEOU9hcBwH94UVuZ/73ac40404d750278b451bf2adf186b1b/Charlie_Text-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 25891,
+        "remoteIPAddress": "65.8.180.53",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"b2fe1098e251238a45ea8d199d04723e\""
+        },
+        "responseBodyHash": "344dc8b5515efdb5a5eeac45f09e9e4835728dd80705e8b77b686c77259e11bd",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.24301200000081735
+      },
+      {
+        "url": "https://assets.ctfassets.net/rz1oowkt5gyp/55uCHq9XzIzIG8yO7WRqfM/b62779fff17f06743e490f6d98a2001a/Charlie_Display-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27798,
+        "remoteIPAddress": "65.8.180.53",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"eef2d4a1cb7bcdfa7cbc3e907a60088e\""
+        },
+        "responseBodyHash": "f16e9805a77617d0c2024b5db2e1960564833425fcd7562631784896b2c84eff",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2647259999994276
+      },
+      {
+        "url": "https://assets.ctfassets.net/rz1oowkt5gyp/2d4nxzJwX8hfIqUN71D4OD/5e2c0c2a3677d935e91dd46635d5149d/Charlie_Text-Semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26224,
+        "remoteIPAddress": "65.8.180.53",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"1c6e2a15a0f304ec8bef45481a75a07c\""
+        },
+        "responseBodyHash": "93d49407962cc077f2f633a7829a7df32f50812ae251f91884546db79f252471",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.26539100000081817
+      },
+      {
+        "url": "https://assets.ctfassets.net/rz1oowkt5gyp/2QtjA2B9aCIa8HvyZcNWqL/886e02c2b15732bc62dc9550078d991c/Charlie_Display-Black.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 28282,
+        "remoteIPAddress": "65.8.180.53",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"43bbc62c21ddeb1b4ef71d47b7d0f323\""
+        },
+        "responseBodyHash": "60c69f7dd7172405dc1fc2b4637e67802c6f5ffac2a13d210212dafbbf0a1000",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.27058000000033644
+      },
+      {
+        "url": "https://assets.ctfassets.net/rz1oowkt5gyp/6nq3flI8NfgICrz3jZjLyD/81918253d594b7bb77eb898a468d4328/Charlie_Display-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 25316,
+        "remoteIPAddress": "65.8.180.53",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"b4c3881bee93dfe1488688bb9d4d8e49\""
+        },
+        "responseBodyHash": "1eb381c8ed8f4abd56d174fdde08b974d22eafd15de2410785ec564af10809e7",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2831899999982852
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/10gonvgd8w05a5ww441ow23cqen04x1t.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 189756,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"b5f5aef6a7769c7f\""
+        },
+        "responseBodyHash": "c2049c411da6c1f22c81852a156d0cc120e4f41fc2a69acbbd16a27654afce1a",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.3009249999995518
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6gc76.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3258,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"1dde966695a11798\""
+        },
+        "responseBodyHash": "46633ca9ff55dd92659e9eb94b86a1dcc589323246ef05224592d0b3eef96657",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2764580000002752
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/78ylq28783ef6w7c21vu5y84ngku10fx.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6890,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"1421d47a51833d1f0daf4cb1a54f8a43\""
+        },
+        "responseBodyHash": "5250a80987312aa42e65c637eb087dce29dcdf9865981b47283b6d112363d9eb",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.27675600000111444
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/h5mj8675hs2i21g7687jagjoax1uy14n.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7726,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"4116a1575781948f\""
+        },
+        "responseBodyHash": "579543eaa5322ef61f17f6bd07fcdf4575dd8a7c61e9c525a82352f2c08c6f7e",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.27748500000052445
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/f481qls2e2g883b2us2ek546yg4c44g1.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6889,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"f6f6dca2fbdd4ba2bb338fdbff996eee\""
+        },
+        "responseBodyHash": "59b61c32205b7d0a68c544e31c6fdb125b8f4eca8f1a1effc02392f98d156a72",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.26957600000059756
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/1j5jdr1kj625ayo48v421j3o05hg8nkg.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7378,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"58904ac4f3aa23d5f111c1b4ef836d7e\""
+        },
+        "responseBodyHash": "fe79e9b61eba0ea7f62b25de8a00880bb3f792f22296b6f191ad78db2ed57fc5",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2764659999993455
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/il41776gtugwybk645h7d873ry80s4vx.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1151,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"5602e8e13710ee8e\""
+        },
+        "responseBodyHash": "e8e629e33a7ed09cfc70889d90f3ea4233da2d8ff9c9c87f79bef37af53cabc1",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.29146200000104727
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/y78pxiri4im6b485s60361vjjgttjq60.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1109,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"129f147ae3d2de21\""
+        },
+        "responseBodyHash": "3b91c2064e8b4789f7f1d87173e2555a133b861d35e600a86b19cc12bd018bc1",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2909400000007736
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/c576jj85325ol3d36mqqxs60fx1na02h.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1418,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"31abba4160b77259\""
+        },
+        "responseBodyHash": "b526841889b423c0d2c0240fc81590d095af958dadde4bc1268b5bd5bc763fc8",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2915069999999105
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/enkpl1qr870d5362vq300025e7mck875.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3369,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"373a85e03c84edcc\""
+        },
+        "responseBodyHash": "e279b52b9789b156fb04bf8a8d5a1b3cbe7392d44dd6d97b2a9430c017683532",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.29099200000018755
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/q6bnfil8fn0i8f2dus07f43w2gcomkl4.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2184,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"42dfc1cf14970b0b\""
+        },
+        "responseBodyHash": "8b092aa9737a383f25066f1425860154b6f63bfe3e1041e7844dc29ef3f80e6d",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2911079999994399
+      },
+      {
+        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/kq00ht3bgk8is4a0d4k7yl6305r0yvq0.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2917,
+        "remoteIPAddress": "3.168.86.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=7776000",
+          "etag": "\"6d703aba72c3b4d2\""
+        },
+        "responseBodyHash": "9aedb2fa2cf8a9c7c28cf0c385b43fa95e9ae33298d2c7ccc75a6a2264f54258",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.2905140000002575
+      },
+      {
+        "url": "https://assets.ctfassets.net/rz1oowkt5gyp/6fvn66mVrRz4Yw3gQoPaJJ/458e6a69f0036d1e566e028fcbc26a50/Charlie_Text-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26809,
+        "remoteIPAddress": "65.8.180.53",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"cea56906f1c28c0630dd984d4bfad569\""
+        },
+        "responseBodyHash": "10c9d9157558b00eb9c190a47f95afc9b7c4c6d2a460b12f40ed952c8925c53a",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.22441599999910977
+      },
+      {
+        "url": "https://assets.ctfassets.net/rz1oowkt5gyp/3KRSiun937K2pXBPYiUwgB/17f578e7699c12924de360e09c018c7c/Charlie_Display-Semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26588,
+        "remoteIPAddress": "65.8.180.53",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "\"5df3e495e418541d4ee58565d65300a3\""
+        },
+        "responseBodyHash": "15b50f5af7f7d9756e3818188d3086cbcdc4f653a9011564c0c5c6f2592280a5",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.23073699999986275
+      },
+      {
+        "url": "https://api.atlassian.com/flags/api/v2/configurations",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1495,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com"
+        },
+        "responseBodyHash": "62c002d1ee974a177e4c43ed74d5685f26b2817d07b6e2f95b5be83f676a8f13",
+        "initiators": [
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.29770099999950617
+      },
+      {
+        "url": "https://api.atlassian.com/flags/api/v2/configurations",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.atlassian.com/flags/api/v2/configurations"
+        ],
+        "time": 0.13985499999944295
+      },
+      {
+        "url": "https://xxid.atl-paas.net/?t=1774989673440",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 6039,
+        "remoteIPAddress": "13.249.74.119",
+        "responseHeaders": {
+          "etag": "W/\"d4d90035e4e0d34fb2756ea14e86dbe7\""
+        },
+        "responseBodyHash": "bdc4fd0410a4195dde1c1f9362a7dd135aa4a13fd78d1916b114b52bb6d4fd1d",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.da2330b4.js"
+        ],
+        "time": 0.12635499999851163
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/dev.87b06fdf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9452,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"5f2f61a5e1562aa27079f299d5eaa9b1\""
+        },
+        "responseBodyHash": "ac88dcae1a4e1a6bddb4a049332404b4a8402183172a839e903267caa6d26b08",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.03661699999975099
+      },
+      {
+        "url": "https://www.atlassian.com/gateway/api/ais/available-products",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 401,
+        "size": 721,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {},
+        "responseBodyHash": "ac3c46eeb781b95872d344623860f0f75c2f3c37bb1abd9ba5294decfe1d279b",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.048179999999774736
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise.js?render=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1716,
+        "remoteIPAddress": "142.250.101.94",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:41:13 GMT"
+        },
+        "responseBodyHash": "82b5d2c2719e816d6fb63f6eb364160836ad671259e3c87089d5c816749dfc52",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.12144199999966077
+      },
+      {
+        "url": "https://o55978.ingest.sentry.io/api/4505919063457792/envelope/?sentry_version=7&sentry_key=a48c5247caec7a2e0ad0b8ef86376ee1&sentry_client=sentry.javascript.react%2F9.15.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 300,
+        "remoteIPAddress": "34.160.81.0",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.10118800000054762
+      },
+      {
+        "url": "https://www.atlassian.com/gateway/api/cookie-integrator/api/onetrust/jwt",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 401,
+        "size": 725,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {},
+        "responseBodyHash": "ac3c46eeb781b95872d344623860f0f75c2f3c37bb1abd9ba5294decfe1d279b",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.04716299999927287
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10113,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DDF23D2509F58E",
+          "expires": "Wed, 01 Apr 2026 20:41:14 GMT"
+        },
+        "responseBodyHash": "6196ada8c116fa2251b04c2f756bd3a0608bd89bf42d28fc9fb0a736d083e9b1",
+        "initiators": [
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.15376000000105705
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1410,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.09800800000084564
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1187,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.19673800000055053
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1182,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.3062339999996766
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1184,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.5191490000015619
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1185,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.7138979999999719
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1187,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.882739999999103
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1184,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 1.0380970000005618
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1184,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 1.1311299999997573
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1186,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 1.294133999999758
+      },
+      {
+        "url": "https://www.atlassian.com/endpoint/location",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1184,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "etag": "W/\"c4-bgJpeBmnA4J7wq+jTLnEwsOkWn0\""
+        },
+        "responseBodyHash": "9151106c7f0ddac4ddab4a5941d8b421495e860d0cd90b6ae908922369f131a3",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 1.3923269999995682
+      },
+      {
+        "url": "https://www.atlassian.com/gateway/api/me",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 401,
+        "size": 726,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {},
+        "responseBodyHash": "ac3c46eeb781b95872d344623860f0f75c2f3c37bb1abd9ba5294decfe1d279b",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.da2330b4.js"
+        ],
+        "time": 0.04448199999933422
+      },
+      {
+        "url": "https://www.atlassian.com/gateway/api/graphql",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1430,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5f061a4a9d17eac3b1481463d2194f6dbce681e0c18b4560886c7cdd18965005",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.16923700000006647
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "172.217.12.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise.js?render=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.31331300000056217
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/1ef16389-2e72-4349-ad86-ea904db9373b.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2621,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DDF23D250CD87B",
+          "expires": "Wed, 01 Apr 2026 20:41:15 GMT"
+        },
+        "responseBodyHash": "ea581905c3e5319f1ca74b6447f78709e4f45fac87bc9d768b225a887d588bdd",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.14259599999968486
+      },
+      {
+        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/language-selector.69d8236a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5121,
+        "remoteIPAddress": "65.8.54.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.atlassian.com",
+          "cache-control": "max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"aeb2367dd117f726e6c509d719c0a583\""
+        },
+        "responseBodyHash": "f9bff75e75ec074ca02dd09870e7bd785c8c6e2ff0964d4941e8b2738a86feb3",
+        "initiators": [
+          "https://www.atlassian.com/software"
+        ],
+        "time": 0.0775999999987107
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "104.18.32.137",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4da8a6638ad70698ad3d01aa0ef124aebe35c297685c0796b174822f597b1d09",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.08642900000086229
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 120228,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DD8078C726C541"
+        },
+        "responseBodyHash": "400ae641c9cbc7406b1ac78353fe540bde193439666e0403c75f489ce3fdd8bc",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.044042999999874155
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD&co=aHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=nann5es5f9ca",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 51756,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8a6980f5272b87d6b0396e8d49452efa4ddc9ee748049620b23074103c86731d",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+          "https://www.recaptcha.net/recaptcha/enterprise.js?render=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD"
+        ],
+        "time": 0.27905699999973876
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 42608,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 06:37:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "952367c39542f1f7a7444b1d38c94fb932299aa63315ba204e71448695bd11c2",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD&co=aHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=nann5es5f9ca"
+        ],
+        "time": 0.06970499999988533
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 01:35:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD&co=aHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=nann5es5f9ca"
+        ],
+        "time": 0.14295600000150444
+      },
+      {
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 141,
+        "remoteIPAddress": "74.125.137.94",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:41:16 GMT"
+        },
+        "responseBodyHash": "9b81e9a5eb8a2c4f7a3c7d22dd92bebded7d4471ee300444c67c678b4a893cc8",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD&co=aHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=nann5es5f9ca"
+        ],
+        "time": 0.18618999999853258
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2252,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Tue, 07 Apr 2026 20:41:09 GMT"
+        },
+        "responseBodyHash": "602c6728d58cf917a3dd121b624e88072a3f1b7f5413849fbbcf92ce32fe72a2",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css"
+        ],
+        "time": 0.045196999999461696
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 34700,
+        "remoteIPAddress": "142.251.218.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 04:09:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dbb604452d1d4d417397425673e852cf58236865abd5a7abcb6f13c8b0e73f64",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD&co=aHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbTo0NDM.&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=nann5es5f9ca"
+        ],
+        "time": 0.0877120000004652
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.210.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 01:35:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.recaptcha.net/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+        ],
+        "time": 0.0077330000003712485
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/01993fab-8884-70da-bcfa-b38fdac1d00a/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 31084,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DDF23D2AB985AA",
+          "expires": "Wed, 01 Apr 2026 20:41:16 GMT"
+        },
+        "responseBodyHash": "3e3fb28f1b8014bc6eb70d093fed21300300cfd800cb13a9d1e9d3f3c12c3c76",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.03522200000043085
+      },
+      {
+        "url": "https://widget.intercom.io/widget/",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3707,
+        "remoteIPAddress": "65.8.180.37",
+        "responseHeaders": {
+          "cache-control": "max-age=300, s-maxage=300, public",
+          "etag": "\"b6f5a7c13248239fcd1d12cbd89c3bc1\""
+        },
+        "responseBodyHash": "435fb8089c07506d5759f2f51dc808514a51978713986434a6e3f5537f6b559c",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.da2330b4.js",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.06447599999955855
+      },
+      {
+        "url": "https://www.atlassian.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2935,
+        "remoteIPAddress": "13.227.180.4",
+        "responseHeaders": {
+          "cache-control": "max-age=3600, stale-while-revalidate=3600, stale-if-error=3600, no-cache=\"Set-Cookie\""
+        },
+        "responseBodyHash": "94d20cafdd7f1f0eaf26b85110f8db2394dacef752ed5b295debe0ca7623d210",
+        "initiators": [],
+        "time": 0.013995999999679043
+      },
+      {
+        "url": "https://js.intercomcdn.com/frame-modern.ac2b5385.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 195992,
+        "remoteIPAddress": "108.139.10.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, s-maxage=7200, public",
+          "etag": "\"b129aa7490246a14dcbd404d4db57d02\""
+        },
+        "responseBodyHash": "4f8b759aef1264f9625f506310ed14f854fad2a8ef45c104d1cb0538ea01a5f6",
+        "initiators": [
+          "https://widget.intercom.io/widget/",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.da2330b4.js",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.1449929999998858
+      },
+      {
+        "url": "https://js.intercomcdn.com/vendor-modern.ed9f4038.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 147220,
+        "remoteIPAddress": "108.139.10.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, s-maxage=7200, public",
+          "etag": "\"530432f8a7135a67d3a4840615ef268b\""
+        },
+        "responseBodyHash": "750529d30885d23e5fe165d871b8b0d767ccd83eee0d632b7c4680e78b8bffae",
+        "initiators": [
+          "https://widget.intercom.io/widget/",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.da2330b4.js",
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.12160500000027241
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/assets/otFlat.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3458,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DD8078C2A2A2AD"
+        },
+        "responseBodyHash": "5a9c09d1427558fc051129f8411d77b4840995b5f49994b1a13f540ffe5c2176",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.026281000000381027
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/assets/v2/otPcCenter.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 13294,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DD8078C40622B2"
+        },
+        "responseBodyHash": "1f1d3650881dc17fa59ea05237c045a7bcc5f4a1a9383942cebc3defd82a36eb",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.0282470000001922
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4560,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "a7989213aebcaf40b964d7f6682ab30514a2eca187b9cdd101739903676b2fde",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.027146000000357162
+      },
+      {
+        "url": "https://o55978.ingest.sentry.io/api/4505919063457792/envelope/?sentry_version=7&sentry_key=a48c5247caec7a2e0ad0b8ef86376ee1&sentry_client=sentry.javascript.react%2F9.15.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 429,
+        "size": 340,
+        "remoteIPAddress": "34.160.81.0",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "bac10d17440dcd6f6c6c4e0bd7eca2e1a7eec030ef3b1143d4be3791dcf91263",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js"
+        ],
+        "time": 0.14402899999913643
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_close.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 631,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "901bb0e03b8c3c0a1cf4c487a177417328bb7d8c94106ecefceedd7d7f6c4ddc",
+        "initiators": [],
+        "time": 0.027282999999442836
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 713,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19",
+        "initiators": [
+          "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js",
+          "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+        ],
+        "time": 0.02520599999843398
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/42dec10d-7eac-4f9f-af3b-e0072302f8ff/9e67f435-a978-459e-ac5a-7167204e1cc6/009accb5-0889-4bb2-83b3-a6e188bd273d/Atlassian-horizontal-blue-rgb-540x67-4ecbd8e.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12103,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DB686F8E58ECBC"
+        },
+        "responseBodyHash": "731a6a5882230f872185e1fcd40cbf6e8a5e907b9c85884941f4f9ec566df101",
+        "initiators": [],
+        "time": 0.02351699999962875
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2183,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d",
+        "initiators": [],
+        "time": 0.024290999999720952
+      }
+    ],
+    "cookies": [
+      {
+        "name": "atlCohort",
+        "domain": ".atlassian.com",
+        "path": "/",
+        "expires": 1806525670584,
+        "session": false
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "domain": ".atlassian.com",
+        "path": "/",
+        "expires": 1806525670584,
+        "session": false
+      },
+      {
+        "name": "atl_xid.xc",
+        "domain": ".atl-paas.net",
+        "path": "/",
+        "expires": 1806525673000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "atl_xid.xc",
+        "domain": ".atlassian.com",
+        "path": "/",
+        "expires": 1806525673000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "atl_xid.ts",
+        "domain": "www.atlassian.com",
+        "path": "/",
+        "expires": 1806525673000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "atl_xid.current",
+        "domain": "www.atlassian.com",
+        "path": "/",
+        "expires": 1806525673000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_otPreferencesSynced",
+        "domain": "www.atlassian.com",
+        "path": "/",
+        "expires": 1806525678000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "OptanonConsent",
+        "domain": ".www.atlassian.com",
+        "path": "/",
+        "expires": 1806525678000,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "https://www.recaptcha.net/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js": {
+          "Document.cookie getter": 4,
+          "Date.prototype.getTime": 1,
+          "Document.cookie setter": 1
+        },
+        "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js": {
+          "window.localStorage": 269,
+          "Navigator.prototype.userAgent": 133,
+          "Navigator.prototype.appName": 2,
+          "Navigator.prototype.platform": 943,
+          "Navigator.prototype.maxTouchPoints": 328,
+          "window.matchMedia(\"prefers-color-scheme\")": 2,
+          "Navigator.prototype.product": 2,
+          "Document.cookie getter": 136,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "window.devicePixelRatio": 1,
+          "window.sessionStorage": 15,
+          "Date.prototype.getTime": 4,
+          "window.indexedDB": 2,
+          "Document.cookie setter": 3,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "window.innerWidth": 18,
+          "Navigator.prototype.cookieEnabled": 3,
+          "Navigator.prototype.connection": 1,
+          "Navigator.prototype.deviceMemory": 2,
+          "Navigator.prototype.hardwareConcurrency": 2
+        },
+        "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/language-selector.517c7881.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/animation-illustration.a9145d1a.js": {
+          "Navigator.prototype.userAgent": 6
+        },
+        "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.da2330b4.js": {
+          "Document.cookie getter": 3,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://cdn.cookielaw.org/consent/1ef16389-2e72-4349-ad86-ea904db9373b/otSDKStub.js": {
+          "Document.cookie getter": 17
+        },
+        "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js": {
+          "Navigator.prototype.userAgent": 62,
+          "Event.prototype.timeStamp": 13,
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3,
+          "window.localStorage": 2,
+          "window.sessionStorage": 3,
+          "Navigator.prototype.getBattery": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.storage": 1
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 62,
+          "Navigator.prototype.languages": 6,
+          "Date.prototype.getTime": 15,
+          "Document.cookie setter": 14,
+          "Navigator.prototype.userAgent": 11,
+          "window.innerHeight": 3,
+          "Navigator.prototype.vendor": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://widget.intercom.io/widget/": {
+          "Navigator.prototype.userAgent": 6,
+          "Navigator.prototype.vendor": 1,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1
+        },
+        "https://js.intercomcdn.com/vendor-modern.ed9f4038.js": {
+          "Navigator.prototype.userAgent": 127,
+          "window.localStorage": 1,
+          "Navigator.prototype.product": 1
+        },
+        "https://js.intercomcdn.com/frame-modern.ac2b5385.js": {
+          "window.localStorage": 3,
+          "window.sessionStorage": 2,
+          "Navigator.prototype.doNotTrack": 1,
+          "window.matchMedia(\"prefers-color-scheme\")": 1,
+          "window.innerWidth": 18,
+          "window.innerHeight": 18
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "atl_xid.xc=%7B%22value%22%3A%225907659b-26e6-4fad-9c8d-24370697b695%22%2C%22createdAt%22%3A%222026-03-31T20%3A41%3A13.741Z%22%2C%22type%22%3A%22xc%22%7D; path=/; domain=atlassian.com; expires=Wed, 31 Mar 2027 20:41:13 GMT; secure; samesite=None"
+          ]
+        },
+        {
+          "source": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "atl_xid.ts=1774989673766; path=/; expires=Wed, 31 Mar 2027 20:41:13 GMT; secure; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.7b4098bb.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "atl_xid.current=%5B%7B%22type%22%3A%22xc%22%2C%22value%22%3A%225907659b-26e6-4fad-9c8d-24370697b695%22%2C%22createdAt%22%3A%222026-03-31T20%3A41%3A13.741Z%22%7D%5D; path=/; expires=Wed, 31 Mar 2027 20:41:13 GMT; secure; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0&isAnonUser=1; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A16+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.atlassian.com%2Fsoftware; expires=Wed, 31 Mar 2027 20:41:16 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A18+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.atlassian.com%2Fsoftware; expires=Wed, 31 Mar 2027 20:41:18 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A18+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.atlassian.com%2Fsoftware; expires=Wed, 31 Mar 2027 20:41:18 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A18+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.atlassian.com%2Fsoftware; expires=Wed, 31 Mar 2027 20:41:18 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_otPreferencesSynced=; expires=Wed, 31 Mar 2027 20:41:18 GMT;path=/; Samesite=Lax;"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A18+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.atlassian.com%2Fsoftware&groups=1%3A1%2C2%3A0%2C3%3A0%2CSSPD_BG%3A0%2C4%3A0; expires=Wed, 31 Mar 2027 20:41:18 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A41%3A18+GMT-0700+(Pacific+Daylight+Time)&version=202503.2.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=df83dab8-1c65-4871-9c89-b1776bae0706&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.atlassian.com%2Fsoftware&groups=1%3A1%2C2%3A0%2C3%3A0%2CSSPD_BG%3A0%2C4%3A0; expires=Wed, 31 Mar 2027 20:41:18 GMT; path=/; domain=.www.atlassian.com; Samesite=Lax"
+          ]
+        }
+      ]
+    }
+  }
+}

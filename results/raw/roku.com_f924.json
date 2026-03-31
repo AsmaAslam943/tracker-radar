@@ -1,0 +1,2185 @@
+{
+  "initialUrl": "https://roku.com/",
+  "finalUrl": "https://www.roku.com/",
+  "timeout": false,
+  "testStarted": 1774987877633,
+  "testFinished": 1774987900887,
+  "data": {
+    "requests": [
+      {
+        "url": "https://roku.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "162.159.136.11",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.roku.com/",
+        "initiators": [],
+        "time": 0.1574689999997645
+      },
+      {
+        "url": "https://www.roku.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 53607,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "_csrf=9SKQB1Q5wl75gXWfkMexiNUJ; Path=/; HttpOnly; Secure\nks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:18 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure\n_uc=a051a129-cb79-4977-8e47-934cdb7385a9:aaab44f53b9a9ed2f09aa5b40528e184; path=/; expires=Wed, 31 Mar 2027 20:11:18 GMT; domain=.roku.com; secure\nks.privacy.ccpa=j%3A%7B%22enabled%22%3Afalse%2C%22optOutSpi%22%3Afalse%7D; Domain=.roku.com; Path=/; HttpOnly; Secure\n__cflb=02DiuJLUNGcuw38hNWqYqFC7xF18iw4YUZf6fi9g3337J; HttpOnly; SameSite=None; Secure; Path=/; Expires=Wed, 01 Apr 2026 19:11:18 GMT"
+        },
+        "responseBodyHash": "51521ffa507924ddc966f71fa9d634567ad8de803aee0ce5492c04fc53d1a94c",
+        "redirectedFrom": "https://roku.com/",
+        "initiators": [],
+        "time": 0.66230700000051
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/glyphicons-roku.ttf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26896,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b2c8-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:18 GMT"
+        },
+        "responseBodyHash": "d5f34b96ab57214047ef2d2027a1c2ed9795bdaa510e3c8a151eae64c6ad3b75",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.04385000000002037
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/runtime/page.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 138479,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"175565-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:18 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "3faf0c306a08a730d1e35df62c7bcbdcda92745d32fcf4b4e427beb68644f30b",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.047779999999875145
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/global/page.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 404,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 01 Apr 2026 00:11:19 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.17601199999990058
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/rapidblocks/page.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 404,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 01 Apr 2026 00:11:19 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.17619199999990087
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fpage-background%2Fc06fdfcd-96f3-4c28-b71b-d812ba77d151.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 137837,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Fri, 03 Apr 2026 21:05:58 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a71b9885915afa323c01469cbcb8649ff9d8a015b8f690453ba3672ed4278a74",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 4.074910999999702
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/runtime/page.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1090171,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"3ff52a-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:19 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "023659e5858d6e1fa63907f64c37e6c387fa0001e62db84e184dad037de3bf73",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.14540699999997742
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/global/page.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 478,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"4a-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:19 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8886d69f6287f69e5f1ba0b06d21d5242bb5e6fb474ab75d61ba7f0ee8e0e9e3",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.06785500000023603
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/rapid/page.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1789,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"edc-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:19 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "27f5c6c989b9817cfae048299439cbaeef1e952cc516a0579708314317869afb",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.09825000000000728
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10993,
+        "remoteIPAddress": "104.16.79.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"2026.2.0\""
+        },
+        "responseBodyHash": "4b77eae349a8cbcea7133cf3640a64ebf1f69d54d8f6469d7be6fdc188ca4ca4",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 3.930039000000761
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/locale-en/page.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12649,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"aed5-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:19 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "09ea3911e4106df6059992cfd1c44c10119a54627a8557f379e6cf7ef2863672",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "https://www.roku.com/s/1774353198520/global/page.js"
+        ],
+        "time": 0.020206999999572872
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/locale-en_US/page.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5573,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"4980-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:19 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7486f719690948fc0e2798f4ce5eb6f18d0ba2a9f1718d888854834ba8101121",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "https://www.roku.com/s/1774353198520/global/page.js"
+        ],
+        "time": 0.023744000000078813
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 174257,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:11:23 GMT"
+        },
+        "responseBodyHash": "134e61dc8d6a0a72675f13e0e78fdb9b8b2cff6eacfae5b3fd74d04d578674ee",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 2.847345999999561
+      },
+      {
+        "url": "https://cdn.sprig.com/shim.js?id=qea0DdC3aOFS",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30146,
+        "remoteIPAddress": "65.8.180.54",
+        "responseHeaders": {
+          "etag": "W/\"3f1e8759e0e66f5208871e3779d6bcd2\""
+        },
+        "responseBodyHash": "4109c7094dedcec6d546952792376679517ccb45a95cad13e47b9e2eb735990d",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "https://www.roku.com/"
+        ],
+        "time": 0.05439399999977468
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.roku.com%2F&scrsrc=www.googletagmanager.com&rnd=2194261.1774987884&dt=Roku&auid=1541247675.1774987884&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He63u0v72530435za200zd72530435xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~116991817&apve=1&apvf=f&apvc=1&tft=1774987883812&tfd=5654",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.152.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP"
+        ],
+        "time": 0.22806800000034855
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-full-1.310.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27903,
+        "remoteIPAddress": "162.247.243.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=86400, stale-if-error=86400",
+          "etag": "\"11a57e28d2658c1556babbc2d5c9e2cb\""
+        },
+        "responseBodyHash": "a045719102ac41ea83ff1d30ee7dc68f0d0143dc0174be434ce1addda21e3844",
+        "initiators": [
+          "https://www.roku.com/"
+        ],
+        "time": 0.13146899999992456
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/glyphicons-roku.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 46266,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b314-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT"
+        },
+        "responseBodyHash": "0156936bad868b43ab87b7edec1eb9b7ebcd72f077b2ca3aceab41ce2e419714",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.15805699999964418
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/RokuText-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32674,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"7e3c-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e7600bfef202b6599d506949fb77001382f190e660ed18af3b3647ef7de35406",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.1516540000002351
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/RokuText-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 31607,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"7a14-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0420e1992f8d2cd0d9bccf7a0fa9183ed7a67fbd5b597f470214a69f6cde3b93",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.15306499999951484
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/RokuText-Italic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 36906,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"8e88-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "57f312a98227e8d0645b3a2f0498f4e64dc0c294490f3e746b2622bebc0d9be2",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.1569150000004811
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/roku-icons.ttf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 25211,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b188-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT"
+        },
+        "responseBodyHash": "361d41aa5d43051eb512e91c5b58c7388ea3a984c2db16832196bcf71618aff8",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.16091699999924458
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/RokuText-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32982,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"7f30-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "252ee1a8897c2aa875e7eaba50dd66b96aa772518d9133d80b160f0f438b1c4b",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.15201299999989715
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/RokuText-BoldItalic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 37904,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"9264-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "4833a313d460d951d6abdc7e7777e106fac159ff4a8b6bc92d4bfd328c2e564f",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.1533770000005461
+      },
+      {
+        "url": "https://image.roku.com/w/rapid/images/logo-image/aaef8f1c-af36-41a7-b851-d4cc32a55946.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1774,
+        "remoteIPAddress": "18.173.121.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"cbab46d89effc3200cda08fdaaada22c\"",
+          "expires": "Tue, 23 Mar 2027 19:14:50 GMT",
+          "set-cookie": "x-amz-continuous-deployment-state=AYABeB%2FI1MmZLMun1q2g7Ve2zUwAPQACAAFEABxkMW9odng2bmxuNmh0LmNsb3VkZnJvbnQubmV0AAFHABVHMDEwNjk1NjJFNFozWE5GUVZLVFcAAQACQ0QAGkNvb2tpZQAAAIAAAAAMutDg4%2FwLdtzMjQxEADDAl0+cvSb++V6cR0T4fHEY5++FC5Vrugqh2jHwCWcNtgUS5RS59x+osfF6QiDeUEgCAAAAAAwABAAAAAAAAAAAAAAAAAAAe9Fo0vvOTf3vguX3jCsqvP%2F%2F%2F%2F8AAAABAAAAAAAAAAAAAAABAAAADEl7tRgpgYqbyEVyt6yVvqoULjI7CXRTXgLGLxg=; HttpOnly; Path=/; Expires=Tue, 31 Mar 2026 20:16:24 GMT"
+        },
+        "responseBodyHash": "5ea58b42b821bc33f0d71ef11fa74e4f98ae562cb3a7f24c582312d3c8a9d1cb",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.09527899999920919
+      },
+      {
+        "url": "https://image.roku.com/w/assets/privacy-options.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3166,
+        "remoteIPAddress": "18.173.121.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"41b108024f74da701b0c67ab7b2ab5cf\"",
+          "expires": "Sun, 07 Mar 2027 04:12:37 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "x-amz-continuous-deployment-state=AYABePPDKwaUDskiFFTJOwDqyKcAPQACAAFEABxkMW9odng2bmxuNmh0LmNsb3VkZnJvbnQubmV0AAFHABVHMDEwNjk1NjJFNFozWE5GUVZLVFcAAQACQ0QAGkNvb2tpZQAAAIAAAAAMHDdRnRnXgZAWSddMADDJPm5A2MqS0DlgMvXXlXk%2FtxdN1d70V0ZI5ZIFzHN9kY4jIJAgo1CdI%2F+ViuGYAzoCAAAAAAwABAAAAAAAAAAAAAAAAAAAMdgiZAyWADlLkg7Gx73oFv%2F%2F%2F%2F8AAAABAAAAAAAAAAAAAAABAAAADHltNmzAAyk0jjZ9RO1gRRbkMcW%2FeohFujoWgNo=; HttpOnly; Path=/; Expires=Tue, 31 Mar 2026 20:16:24 GMT"
+        },
+        "responseBodyHash": "fa537e0f28fe9666c72871236459fda3e8012a20cda3f41bbf2042c373e790bc",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.09551699999974517
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/modules/page.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64218,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"34bea-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a5c25d2051963ab45cadb1cddeed232f537e10a72e6eb32316caade5256b9657",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03012899999976071
+      },
+      {
+        "url": "https://api.sprig.com/sdk/1/environments/qea0DdC3aOFS/config",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1173,
+        "remoteIPAddress": "54.235.101.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"519-pD1/Cltt0n0hbGEsST8oSrLlG2Q\"",
+          "timing-allow-origin": "https://0.0.com, https://0.1.com, https://1.0.com, https://1.1.com"
+        },
+        "responseBodyHash": "c48672c17a4805203986378461060043d9d6181181e48a9de787830268096ae6",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://cdn.sprig.com/shim.js?id=qea0DdC3aOFS"
+        ],
+        "time": 0.5312399999993431
+      },
+      {
+        "url": "https://www.roku.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 318,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+        ],
+        "time": 0.020846999999776017
+      },
+      {
+        "url": "https://www.roku.com/api/v3/shop/cart/store",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 332,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.1717769999995653
+      },
+      {
+        "url": "https://www.roku.com/api/v2/productdata",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 9435,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "86823f2e749dfa1418c6a9fe7ae16ccbfad70d2ad5d3241ef3fe04b36f04a0ad",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.1797580000002199
+      },
+      {
+        "url": "https://api.sprig.com/sdk/1/environments/qea0DdC3aOFS/config",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "54.235.101.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "https://0.0.com, https://0.1.com, https://1.0.com, https://1.1.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.sprig.com/sdk/1/environments/qea0DdC3aOFS/config"
+        ],
+        "time": 0.3469969999996465
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/destination?id=G-ZZXW5ZLMQ5&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 172987,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:11:24 GMT"
+        },
+        "responseBodyHash": "6be9f5fc1f60feeab60a7fbc2b2dd3eeb661b6a47ca4078bed6a75388ae3ae5a",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "https://www.roku.com/"
+        ],
+        "time": 0.11007800000061252
+      },
+      {
+        "url": "https://bam.nr-data.net/1/2acbd9030c?a=9190817&v=1.310.1&to=MlVbNhZSX0FYUhdYVwsffBoUQVRBSlsQHn8gZBZN&rst=5926&ck=0&s=0&ref=https://www.roku.com/&ptid=95a579875f7b1862&tt=8eddb8189777b700&af=err,xhr,stn,ins&ap=260.305501&be=752&fe=5123&dc=4823&perf=%7B%22timing%22:%7B%22of%22:1774987878158,%22n%22:0,%22f%22:160,%22dn%22:161,%22dne%22:209,%22c%22:209,%22s%22:217,%22ce%22:235,%22rq%22:235,%22rp%22:753,%22rpe%22:823,%22di%22:1253,%22ds%22:5574,%22de%22:5575,%22dc%22:5724,%22l%22:5724,%22le%22:5875%7D,%22navigation%22:%7B%7D%7D",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 660,
+        "remoteIPAddress": "162.247.243.29",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "timing-allow-origin": "https://www.roku.com"
+        },
+        "responseBodyHash": "c6f63ce85e5ac73cdf743ab1ef9e4d69902f8208466107f09b72c57e5969f943",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://js-agent.newrelic.com/nr-full-1.310.1.min.js"
+        ],
+        "time": 0.15950800000064191
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2Fb8d0b04b-139c-4e80-81b3-60c6b54a3d3b.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 52458,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 22:11:13 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d4f97dac3ad29e51097cbf56bf0823c69e91c7fe5e2269c858cb4e6442311930",
+        "initiators": [],
+        "time": 0.014769999999771244
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F8c88f47f-f47b-491a-8af3-729fd00a092b.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 245332,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Tue, 31 Mar 2026 22:23:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a7814929063ece3b2b8edc4642ca9fbc0c5b9beb49f080129763ccb029f2756f",
+        "initiators": [],
+        "time": 0.03536500000063825
+      },
+      {
+        "url": "https://www.roku.com/api/v3/watch/trc-us-recommendation-homepage-en-current?count=50",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 155109,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "f3d649bc8d2c243498c9ad8b05832c3cb2555c03c872c76807dffe5e0e86e3ed",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 1.522595000000365
+      },
+      {
+        "url": "https://www.roku.com/api/v3/watch/spring-savings-2026-rapid-page?count=50",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3620,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "8c14997a762174ef5db24f5810a3f651525ce9faf0de28f65c82adcf8d17f36a",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.3778840000004493
+      },
+      {
+        "url": "https://www.roku.com/api/v6/channels/?pagestart=0&pagesize=10&category=22CDB2ED-AF5E-4C7A-8CCF-6E18CCE49DF2&categoryType=tag&country=US&language=en",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2650,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "deb234b766b5b3af685f190fe01fcc7fce9f3591e75e641d1f36c977f7ca05ec",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.1828299999997398
+      },
+      {
+        "url": "https://www.roku.com/api/v6/channels/?pagestart=0&pagesize=10&category=5E976DF9-31F2-461F-BC78-17AB6B5132C8&categoryType=curated&country=US&language=en",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2960,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "28cd14226018474e60dc0f23316c2c7f7fc180fe66c216890e87a641303bea7c",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.17199899999923218
+      },
+      {
+        "url": "https://www.roku.com/api/v6/channels/?pagestart=0&pagesize=10&category=697117F1-82CD-4DF7-A9C4-7A310C5F822F&categoryType=curated&country=US&language=en",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2685,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "c67407865586d4f916b575c36d1aaf85fab1e40c142f2b678a3274d4899dae53",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.1712309999993522
+      },
+      {
+        "url": "https://www.roku.com/api/v6/channels/?pagestart=0&pagesize=10&category=84EE2E9D-0D9F-4E86-8C61-8BAAA8972DC0&categoryType=tag&country=US&language=en",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2885,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "2866e03c612a3d44e69d6c3dae11a3370cd1f80dc6ca6c105729acbc52d0bbcd",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.25742499999978463
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F59b17965-4af8-4d3e-9746-b7164dc002d4.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1713,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:31:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "df667641fc59ce025d74d4958a235f926f1dbe7008b5d8fa7dda81259c32bf6d",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.02371099999982107
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F14d84fdd-7480-4805-8785-58a5918dc994.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6684,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Tue, 31 Mar 2026 22:23:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c262efe6be59ceba45842555a0da4a4f98417f0b62194b5c12bdbf2a000e93d8",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.02775999999994383
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F0d343cb7-585a-43d9-9996-7c470bc76356.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9895,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "fe94b3f9e01c76b18b59fccae173a3ee252db1da5e89722397bf0de4eccdf3fa",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.02525900000000547
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F200aeaea-59cc-4544-8c2a-598fc30a18df.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6329,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "bc7002d518aa5f5620f61570e8a66b29010d2198f1e54de5d0c829cedca2cb74",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.026049000000057276
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F6c14f517-659b-4734-a25d-b183965ea311.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8139,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Tue, 31 Mar 2026 22:23:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e2914caf3b4a0b7051a7268c5da3224a096ee2a32b63e00bfecf706deb614020",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.027731000000130734
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F104d7338-902f-4900-9267-7bacaa526e01.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7379,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0edfa0fd3d45679075c530cbf8100233b41fec368c021eb42bee353dff1cf204",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.02641100000073493
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F7cb7e689-eebe-46ea-bf41-69358673a0f4.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2500,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:40:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "375c99b87af2fb7401da5ca4dec50cdb9f4f97be1118e521f925092b01bf4a1a",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.026608000000123866
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F74efc597-8e7d-450a-bebf-d8b67568d6a6.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3105,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Sun, 05 Apr 2026 00:19:03 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6c6468fd9a126730ea558607236b0512d885f35f3ce3c72e32eea35f1c999585",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.026815000000169675
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2F17b15829-c0e7-4c7d-adc4-f461c8b53bef.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3228,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b63ae0afbb4c7521f807147f908cb88c8b2e8d213cc68ee39d601d7d5cd98797",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.027623999999377702
+      },
+      {
+        "url": "https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fundefined%2Ff9aa928b-667c-4938-be60-d5c5349490cf.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2368,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:31:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "63e547c258494277336ee4a655c9ecea111d6650e56085396ff45bfb8ffc5f27",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.02704600000015489
+      },
+      {
+        "url": "https://www.roku.com/s/1774353198520/fonts/RokuText-Light.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32453,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"7d04-19d1fb24108\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "aeb9f8178c3190217d8bcc388c04e1343f43054ff8e710236fce73ee54c2bcac",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.css"
+        ],
+        "time": 0.028395999999702326
+      },
+      {
+        "url": "https://pixel.web.roku.com/api/v2/scribe?app=www&eventType=action&uvn=a051a129-cb79-4977-8e47-934cdb7385a9%3Aaaab44f53b9a9ed2f09aa5b40528e184&usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a&ip=128.120.84.76&experiment=&auth=false&locale=%7B%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%7D&channelStoreCode=US&timestamp=1774987884199&action=Pageview&page=https%3A%2F%2Fwww.roku.com%2F&referrer=&devices=%5B%7B%7D%5D&misc=%7B%22utmcsr%22%3A%22(direct)%22%2C%22utmcmd%22%3A%22(none)%22%2C%22utmccn%22%3A%22(not%20set)%22%7D&",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 422,
+        "remoteIPAddress": "34.228.102.233",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "_uc=a051a129-cb79-4977-8e47-934cdb7385a9%3Aaaab44f53b9a9ed2f09aa5b40528e184; Max-Age=31536000; Domain=.roku.com; Path=/; Expires=Wed, 31 Mar 2027 20:11:24 GMT; Secure"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.33356000000003405
+      },
+      {
+        "url": "https://image.roku.com/w/rapid/images/undefined/493fcdad-92f1-4b59-85bf-e32a62d0d572.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "remoteIPAddress": "18.173.121.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"4d7b2857ad7d18366c55a6abc22e2847-2\"",
+          "expires": "Fri, 12 Mar 2027 18:01:39 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "x-amz-continuous-deployment-state=AYABePPDKwaUDskiFFTJOwDqyKcAPQACAAFEABxkMW9odng2bmxuNmh0LmNsb3VkZnJvbnQubmV0AAFHABVHMDEwNjk1NjJFNFozWE5GUVZLVFcAAQACQ0QAGkNvb2tpZQAAAIAAAAAMHDdRnRnXgZAWSddMADDJPm5A2MqS0DlgMvXXlXk%2FtxdN1d70V0ZI5ZIFzHN9kY4jIJAgo1CdI%2F+ViuGYAzoCAAAAAAwABAAAAAAAAAAAAAAAAAAAMdgiZAyWADlLkg7Gx73oFv%2F%2F%2F%2F8AAAABAAAAAAAAAAAAAAABAAAADHltNmzAAyk0jjZ9RO1gRRbkMcW%2FeohFujoWgNo=; HttpOnly; Path=/; Expires=Tue, 31 Mar 2026 20:16:24 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [],
+        "time": 0.09838099999979022
+      },
+      {
+        "url": "https://www.roku.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 998,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"10be-19c9a251740\"",
+          "expires": "Wed, 31 Mar 2027 20:11:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "32abcc3d8fa4d102cd66870a482e0003574990c27209a7f555cdcca8c747305e",
+        "initiators": [],
+        "time": 0.019518000000061875
+      },
+      {
+        "url": "https://www.roku.com/api/v2/productrule?skus=DS10005%2CSCS11R%2C3840R%2CSCS11R2%2CDB10005%2CSCW11R%2CBS1000P4R%2CCP10005%2C3820R2%2C3830R",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1000,
+        "remoteIPAddress": "162.159.135.11",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "ks_v_www-ks=v1774353198520s; Max-Age=1800; Domain=.www.roku.com; Path=/; Expires=Tue, 31 Mar 2026 20:41:24 GMT; HttpOnly; Secure; SameSite=None\nks.locale=j%3A%7B%22language%22%3A%22en%22%2C%22country%22%3A%22US%22%7D; Domain=.roku.com; Path=/; HttpOnly; Secure"
+        },
+        "responseBodyHash": "4da9ae13d55552d9a0f34fdcc5d9622f2354d5220efac6f99a958ac2f7fc9860",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.16115700000045763
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F8777ebaa0afe7ecd28ad44a093c787b7304306ca3fe276e5c7d95fe0a10cf1e7.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4219,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c7f83a8c50e4833b0985bd6d0e3c9359e9bb37956e9c0516d737acf8d685135e",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03630700000030629
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F32fb34047e569c7810eae0584ff3c89a37f18287b09829bbd7ab1d75ceb62ffc.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6198,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:31:25 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "25d1b3abb600f2183e0823b0683cdd9676078899ad1dfc8eacdc247b272fabc1",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03643400000055408
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fa3b07503626d88ffc191d40f959848d8ae41ec3e3f4e4e3df827f92e2912b4f3.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8064,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "16fe92fa41825e26eac61c3fd291e28fb325588b0bd0ca8ea8014a98089ce773",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03907299999991665
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F582a63b8bc476e735bda56b06ce018b1c897064a9a2aba429301d574a3d57b07.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2507,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Sun, 05 Apr 2026 17:30:26 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "cad4bc40330e1f78bf1b989926567bde17e6b879287e3b3138aa89f4432c8529",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03926699999919947
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fa87eb60cf64b3dde88af6bac99a57d3502188e70f159d7e162371a3497bff193.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2261,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "3923ba17c1192c7c611d7ae18f0151ce3106cb897db41cac00afd27aadbd2174",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03943399999934627
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F94a331292b1004ae5fa00ff3f383b946e5ec48b4ebe3c3c2c0d6764febf4620e.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4287,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Sun, 05 Apr 2026 18:32:53 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "104b8824ad7d55eefc13f2c022807939a69a4edd4808c657d6de4887026b1a51",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03964300000006915
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F25ba9715101ec1d3fc55db79f4c32734ca1f0f5f1ebac701a55850b13c7cea10.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2922,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Sun, 05 Apr 2026 23:33:36 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5b2ccae72a491c5bc54fd6c23065426a9a9a6c8669995bad6c09197f7795e9e9",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03978400000050897
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F75fd344b2c58880ecf7d524127287d77d63bf83f17d39c2717fd66af88b6c855.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2155,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c3446048daa990f789861d8457835781c6cebc4046f2388a3b1d32827dc9bb1c",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03991400000086287
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F55fe42a03bb51cdb50a6e7efd5e1ba149ac494a842482aead42deed8819bcd60.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3521,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:31:25 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "94cbf8df8c03e5b016582e464df711b750dff6d74903cc885cc54cf9dc59c002",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04004299999996874
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/http%3A%2F%2Fcigars.roku.com%2Fv1%2Fresize%2F290x218%2Fhttps%253A%252F%252Frsp.web.roku.com%252Fproduction%252F9ff4e987-f55e-4a40-bc37-ccae17fb7633",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2813,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Tue, 31 Mar 2026 22:23:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d2600664613a0b82757a9836c7bb9d1170869cfb79a418213a449525b0a03f23",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.05096400000002177
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Frsp.web.roku.com%2Fproduction%2F408f135e-aa22-40df-b6b3-705060fbbdb1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4782,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 07:51:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "26b9974c492f32b3e38ddc6588328f6cd118a17880580e4d8ccdea3e6d7343ac",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03787299999930838
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F3e89735ab4d5a07a15672ef2641a523d58f966db4c3961f27756a4b55a6c9102.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3103,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Fri, 03 Apr 2026 14:02:55 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5edd8e230870a4a5c327c1110b822c637a3a66bbda155f57a6854e2ec85bec5f",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03797500000018772
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F8654c5fac9d62ca238a82a33459e9ea74913044714cfa79122a82d3ba0b5a980.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4978,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 16:25:26 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "bff62f2b1aa671402b6196bf3eda37cb366b8ac47aa34cf2f7da2ae33c64f96a",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.038108000000647735
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/http%3A%2F%2Fchannels.roku.com%2Fimages%2Fdb4868e80c37465e994e308c59ee479c-hd.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5579,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "93b21bf3a63a2a876ba5dcef7ded7835f18af6acafde9a68604254f51f361540",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.03975799999989249
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F66c7f018cafc984295d320578363db37b668d643be4b5684f1d6ae8a116600a6.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5725,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Sun, 05 Apr 2026 18:32:53 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f936585fbbfe7da6dd2530def1882723c01a44df220f9fc50ba5da13eee123c6",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04044900000008056
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fcd1a3ea3905054294b5baf07d66d5907220db93299bf1784880bd822b8ae0c57.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5992,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 09:21:28 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9cff34853845e799f7149426f4186f77f9767c645448fd24a24874c3c061018e",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.048584000000118976
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Frsp.web.roku.com%2Fproduction%2F718708c5-b692-4d33-b977-126ca3144820",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9422,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:40:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "bae1ec98a5969eb9f78cb0ad1738bf469c6d87cd7790a9bda6449ffbfc62dc21",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.05027500000051077
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F8366fac33d8de1e604e66a29032529d9037ffc8a1c656680a4a5ccdde4bbbbaa.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4561,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "aed5072b20c40d9e224fac47f2fe4cab42c8e69e4dc1b648297dcf7811a46059",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.05043400000067777
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F8d5e1f06b9d6e71821a721ff65246362e55c90ffafd8f15f53ff2c3320498371.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3723,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Sat, 04 Apr 2026 16:46:20 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "80e0800f59113395ea7c29f7710998b4899ea15d74dc30823748aa2d98f1dbb5",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.05059799999980896
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/http%3A%2F%2Fchannels.roku.com%2Fimages%2Ff5e60d25f2c94469b0f7a777918ca319-hd.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3632,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "3724658200c3946fa60d73c23fd52c6df25ebf35de4b1def03d76734bd2db824",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04844099999991158
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F43e0475cb4b7a20f920804a8d17a28365f85f9a0e2297c6e45343c21917c8402.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5210,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Fri, 03 Apr 2026 17:25:53 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "54582e10b9794967fda6b4c2ef812a5fae2b37433861ed218da9b9e43040631e",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04856199999994715
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fa744bc1de02fac81bc97fa389730d5f19f00dbef558b19fd3405e60d6890f9a8.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4587,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "92d35b63644e44d44a88e84272a1dd6ca5e1d94514ea5c602291f8f84591ea94",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.048686000000088825
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F5f27cd59c2f130ee9785d500cbd22672c266a0483ce8c9d91db020ea2777c7b4.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5740,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Fri, 03 Apr 2026 17:25:53 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "ff03e039980d8c5f8287fbdc9487bd7c7e782ddd0f67693ec986ed535d7d5de2",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04882999999972526
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fcb1a02115412045909e4104f98277cad12c7a4bc994915398a71985e07b0c55b.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2970,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 09:21:28 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c26b0ac19642216a3f72b6307ba1ca6e1bcb48ba8048ae7d4b3f1561550b8326",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.048950000000331784
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fcfa6c228ee0ee7d6e9a71cd61b7aa8b28d9bf047cd1e01225c0253d79360dd4a.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4242,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d25d7a747a26cbb500b9213459cf6fc72533cdefe499fe8171137114e6520827",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04919199999949342
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Frsp.web.roku.com%2Fproduction%2Fbd60b40f-a01a-4155-a78e-22c809c396bb",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2580,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Tue, 31 Mar 2026 22:23:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "443a621552922664258f5b90e399328a928d9d5e89d5e03b1ca258fe8d46bd85",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04736299999967741
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F256e1c52f4238fb3ffa3a1814b2c3cfdb2cddcad07c03ccc49aeebd2380695d9.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3291,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:31:25 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "23f18ddedda95b8f91c3741237418afbb05ebb6bc9671b01619f81852a0db4f7",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.047475000000304135
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F765687326d951f1dee830d04b61008d5768d495be3382ea4eb66fced5e881022.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4577,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3ab6de512a2082b259a04bc257ee06b6820463650b292b0f0ad88ea15b1740c",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.047590999999556516
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F0016543369066345286ef34494bd57f9121eba5e4b5bf2cf2f3e757f57fb568a.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4044,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Tue, 07 Apr 2026 11:54:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "785fa31f62aa466dfadb2a8bb22822c51d1be62042984fd9ccb7f92cbbe65084",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.047722000000248954
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fc8509d291d2ef8456003b6cc5588d806c9bad244d5f939a17b166b5a8acdd402.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3445,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Fri, 03 Apr 2026 00:55:53 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d78e58c78dd123f8db27aa021cb6fc6f4246bc81ff2639cba1661afa22137736",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.04783599999973376
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F97bea194daeb883282b68f77dc701a23badc4105d37b4be3f917d2aab2dab280.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3333,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 22:43:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "590d866ba3c9060c8cc39a4d785d32238dd481893f22ded11421c9b496c1d616",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.047955000000001746
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F00bd2605d1cd1b7c1ed310062964e7252aa4f2bff032bf16e59fc077963a4a87.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4444,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Mon, 06 Apr 2026 18:53:41 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "72ecd3403a175b9f5c783ec9fd464cac00b7f5ead81bf6f44effdee7263447b0",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.0481420000005528
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F42dd9df3fd6e9149293081c7d0d422e74d65a24f3a57882a36de36d8d059538a.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2212,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 16:25:25 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0496aa5e390951e26c7a5fd068a6993d718189588c120a7de452ea3905575291",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.0482560000000376
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Fae5c62f40f5e1bc747d391db8a8941dc7f1727f76e8be45ba0bad279524ddb24.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12044,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Fri, 03 Apr 2026 14:02:54 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7bb198d4cf6a3e3344a4744f4b9abd4959c63be0e4c0903541ce92d5761c3434",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.048466000000189524
+      },
+      {
+        "url": "https://cigars.roku.com/v1/cover/198x148/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F56ee40604291fdc3cd8b38338b2f7723aa0ffa6ff4855b60fc0abf2de7cefdf2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3213,
+        "remoteIPAddress": "3.168.86.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600000",
+          "expires": "Thu, 02 Apr 2026 08:11:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f10f49f61db572010575b8ad78cc33ec21e78c6741aa7d46266039ebbe560fab",
+        "initiators": [
+          "https://www.roku.com/s/1774353198520/runtime/page.js"
+        ],
+        "time": 0.048594999999295396
+      },
+      {
+        "url": "https://bam.nr-data.net/events/1/2acbd9030c?a=9190817&v=1.310.1&to=MlVbNhZSX0FYUhdYVwsffBoUQVRBSlsQHn8gZBZN&rst=6471&ck=0&s=0&ref=https://www.roku.com/&ptid=95a579875f7b1862",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 358,
+        "remoteIPAddress": "162.247.243.29",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://js-agent.newrelic.com/nr-full-1.310.1.min.js"
+        ],
+        "time": 0.08995500000037282
+      },
+      {
+        "url": "https://bam.nr-data.net/jserrors/1/2acbd9030c?a=9190817&v=1.310.1&to=MlVbNhZSX0FYUhdYVwsffBoUQVRBSlsQHn8gZBZN&rst=6472&ck=0&s=0&ref=https://www.roku.com/&ptid=95a579875f7b1862",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 358,
+        "remoteIPAddress": "162.247.243.29",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://js-agent.newrelic.com/nr-full-1.310.1.min.js"
+        ],
+        "time": 0.11236000000008062
+      },
+      {
+        "url": "https://bam.nr-data.net/events/1/2acbd9030c?a=9190817&v=1.310.1&to=MlVbNhZSX0FYUhdYVwsffBoUQVRBSlsQHn8gZBZN&rst=6473&ck=0&s=0&ref=https://www.roku.com/&ptid=95a579875f7b1862",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 360,
+        "remoteIPAddress": "162.247.243.29",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://js-agent.newrelic.com/nr-full-1.310.1.min.js"
+        ],
+        "time": 0.11185199999999895
+      },
+      {
+        "url": "https://bam.nr-data.net/ins/1/2acbd9030c?a=9190817&v=1.310.1&to=MlVbNhZSX0FYUhdYVwsffBoUQVRBSlsQHn8gZBZN&rst=6473&ck=0&s=0&ref=https://www.roku.com/&ptid=95a579875f7b1862",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 338,
+        "remoteIPAddress": "162.247.243.29",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.roku.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://js-agent.newrelic.com/nr-full-1.310.1.min.js"
+        ],
+        "time": 0.1316289999995206
+      },
+      {
+        "url": "https://image.roku.com/w/rapid/images/undefined/493fcdad-92f1-4b59-85bf-e32a62d0d572.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 42930,
+        "remoteIPAddress": "18.173.121.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"4d7b2857ad7d18366c55a6abc22e2847-2\"",
+          "expires": "Fri, 12 Mar 2027 18:01:39 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "x-amz-continuous-deployment-state=AYABePPDKwaUDskiFFTJOwDqyKcAPQACAAFEABxkMW9odng2bmxuNmh0LmNsb3VkZnJvbnQubmV0AAFHABVHMDEwNjk1NjJFNFozWE5GUVZLVFcAAQACQ0QAGkNvb2tpZQAAAIAAAAAMHDdRnRnXgZAWSddMADDJPm5A2MqS0DlgMvXXlXk%2FtxdN1d70V0ZI5ZIFzHN9kY4jIJAgo1CdI%2F+ViuGYAzoCAAAAAAwABAAAAAAAAAAAAAAAAAAAMdgiZAyWADlLkg7Gx73oFv%2F%2F%2F%2F8AAAABAAAAAAAAAAAAAAABAAAADHltNmzAAyk0jjZ9RO1gRRbkMcW%2FeohFujoWgNo=; HttpOnly; Path=/; Expires=Tue, 31 Mar 2026 20:16:24 GMT"
+        },
+        "responseBodyHash": "21efe2751dc2fb159818488fca5ff4535fe6b1fec92f18e508705d98b5254574",
+        "initiators": [],
+        "time": 0.07018199999947683
+      },
+      {
+        "url": "https://cdn.sprig.com/dependencies/record.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42161,
+        "remoteIPAddress": "65.8.180.54",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"d8839fbc1be2c27ca9f6972c9bf2cdde\""
+        },
+        "responseBodyHash": "ea9762ccaa5d0e4e23f752b505a3b6e4b4bdd5b5671a14bf6ead92ab55a05f87",
+        "initiators": [
+          "https://cdn.sprig.com/shim.js?id=qea0DdC3aOFS",
+          "https://www.roku.com/"
+        ],
+        "time": 0.06889800000044488
+      },
+      {
+        "url": "https://api.sprig.com/sdk/1/environments/qea0DdC3aOFS/visitors/b981b26b-5dfa-443f-bf2f-5e2251023a6e",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "54.235.101.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "https://0.0.com, https://0.1.com, https://1.0.com, https://1.1.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.sprig.com/sdk/1/environments/qea0DdC3aOFS/visitors/b981b26b-5dfa-443f-bf2f-5e2251023a6e"
+        ],
+        "time": 0.20268399999986286
+      },
+      {
+        "url": "https://api.sprig.com/sdk/1/environments/qea0DdC3aOFS/visitors/b981b26b-5dfa-443f-bf2f-5e2251023a6e",
+        "method": "PUT",
+        "type": "Fetch",
+        "status": 204,
+        "size": 437,
+        "remoteIPAddress": "54.235.101.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"a-bAsFyilMr4Ra1hIU5PyoyFRunpI\"",
+          "timing-allow-origin": "https://0.0.com, https://0.1.com, https://1.0.com, https://1.1.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.roku.com/",
+          "https://cdn.sprig.com/shim.js?id=qea0DdC3aOFS"
+        ],
+        "time": 0.49000299999988783
+      },
+      {
+        "url": "https://image.roku.com/w/rapid/images/undefined/493fcdad-92f1-4b59-85bf-e32a62d0d572.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 8655316,
+        "remoteIPAddress": "18.173.121.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"4d7b2857ad7d18366c55a6abc22e2847-2\"",
+          "expires": "Fri, 12 Mar 2027 18:01:39 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "x-amz-continuous-deployment-state=AYABePPDKwaUDskiFFTJOwDqyKcAPQACAAFEABxkMW9odng2bmxuNmh0LmNsb3VkZnJvbnQubmV0AAFHABVHMDEwNjk1NjJFNFozWE5GUVZLVFcAAQACQ0QAGkNvb2tpZQAAAIAAAAAMHDdRnRnXgZAWSddMADDJPm5A2MqS0DlgMvXXlXk%2FtxdN1d70V0ZI5ZIFzHN9kY4jIJAgo1CdI%2F+ViuGYAzoCAAAAAAwABAAAAAAAAAAAAAAAAAAAMdgiZAyWADlLkg7Gx73oFv%2F%2F%2F%2F8AAAABAAAAAAAAAAAAAAABAAAADHltNmzAAyk0jjZ9RO1gRRbkMcW%2FeohFujoWgNo=; HttpOnly; Path=/; Expires=Tue, 31 Mar 2026 20:16:24 GMT"
+        },
+        "responseBodyHash": "3d23265f6538dbefb8778e8202cd92ce3021b63ae7ead426b71267c5b2b5825a",
+        "initiators": [],
+        "time": 8.1391679999997
+      },
+      {
+        "url": "https://pixel.web.roku.com/api/v2/scribe?app=www&eventType=action&uvn=a051a129-cb79-4977-8e47-934cdb7385a9%253Aaaab44f53b9a9ed2f09aa5b40528e184&usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a&ip=128.120.84.76&experiment=&auth=false&locale=%7B%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%7D&channelStoreCode=US&timestamp=1774987885320&action=click&page=https%3A%2F%2Fwww.roku.com%2F&referrer=&devices=%5B%7B%7D%5D&misc=%7B%22event%20category%22%3A%22%2520homepage%22%2C%22event%20label%22%3A%2220260315%253Ahomepage%253Asuperhero%253Ahowdy%253Astart_watching_now%253Aclick%253Aplay%253Aauto%22%2C%22event%20action%22%3A%22Click%22%7D&",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 225,
+        "remoteIPAddress": "34.228.102.233",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "_uc=a051a129-cb79-4977-8e47-934cdb7385a9%3Aaaab44f53b9a9ed2f09aa5b40528e184; Max-Age=31536000; Domain=.roku.com; Path=/; Expires=Wed, 31 Mar 2027 20:11:25 GMT; Secure"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "https://www.googletagmanager.com/gtag/destination?id=G-ZZXW5ZLMQ5&cx=c&gtm=4e63u0",
+          "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "https://www.roku.com/"
+        ],
+        "time": 0.3585849999999482
+      },
+      {
+        "url": "https://pixel.web.roku.com/api/v2/scribe?app=www&eventType=action&uvn=a051a129-cb79-4977-8e47-934cdb7385a9%253Aaaab44f53b9a9ed2f09aa5b40528e184&usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a&ip=128.120.84.76&experiment=&auth=false&locale=%7B%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%7D&channelStoreCode=US&timestamp=1774987892494&action=click&page=https%3A%2F%2Fwww.roku.com%2F&referrer=&devices=%5B%7B%7D%5D&misc=%7B%22event%20category%22%3A%22%2520homepage%22%2C%22event%20label%22%3A%2220260315%253Ahomepage%253Asuperhero%253Ahowdy%253Astart_watching_now%253Aplay%253Apercent%253A25%2525%22%2C%22event%20action%22%3A%22Click%22%7D&",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 225,
+        "remoteIPAddress": "34.228.102.233",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "_uc=a051a129-cb79-4977-8e47-934cdb7385a9%3Aaaab44f53b9a9ed2f09aa5b40528e184; Max-Age=31536000; Domain=.roku.com; Path=/; Expires=Wed, 31 Mar 2027 20:11:32 GMT; Secure"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "https://www.googletagmanager.com/gtag/destination?id=G-ZZXW5ZLMQ5&cx=c&gtm=4e63u0",
+          "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "https://www.roku.com/"
+        ],
+        "time": 0.13491700000031415
+      },
+      {
+        "url": "https://pixel.web.roku.com/api/v2/scribe?app=www&eventType=action&uvn=a051a129-cb79-4977-8e47-934cdb7385a9%253Aaaab44f53b9a9ed2f09aa5b40528e184&usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a&ip=128.120.84.76&experiment=&auth=false&locale=%7B%22country%22%3A%22US%22%2C%22language%22%3A%22en%22%7D&channelStoreCode=US&timestamp=1774987900201&action=click&page=https%3A%2F%2Fwww.roku.com%2F&referrer=&devices=%5B%7B%7D%5D&misc=%7B%22event%20category%22%3A%22%2520homepage%22%2C%22event%20label%22%3A%2220260315%253Ahomepage%253Asuperhero%253Ahowdy%253Astart_watching_now%253Aplay%253Apercent%253A50%2525%22%2C%22event%20action%22%3A%22Click%22%7D&",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 225,
+        "remoteIPAddress": "34.228.102.233",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "_uc=a051a129-cb79-4977-8e47-934cdb7385a9%3Aaaab44f53b9a9ed2f09aa5b40528e184; Max-Age=31536000; Domain=.roku.com; Path=/; Expires=Wed, 31 Mar 2027 20:11:40 GMT; Secure"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "https://www.googletagmanager.com/gtag/destination?id=G-ZZXW5ZLMQ5&cx=c&gtm=4e63u0",
+          "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "https://www.roku.com/"
+        ],
+        "time": 0.1581319999995685
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": ".roku.com",
+        "path": "/",
+        "expires": 1774989678316,
+        "session": false
+      },
+      {
+        "name": "_csrf",
+        "domain": "www.roku.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "ks_v_www-ks",
+        "domain": ".www.roku.com",
+        "path": "/",
+        "expires": 1774989685665,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ks.locale",
+        "domain": ".roku.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "ks.privacy.ccpa",
+        "domain": ".roku.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "__cflb",
+        "domain": "www.roku.com",
+        "path": "/",
+        "expires": 1775070678911,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".roku.com",
+        "path": "/",
+        "expires": 1782763883000,
+        "session": false
+      },
+      {
+        "name": "_usn",
+        "domain": ".roku.com",
+        "path": "/",
+        "expires": 1774989700000,
+        "session": false
+      },
+      {
+        "name": "x-amz-continuous-deployment-state",
+        "domain": "image.roku.com",
+        "path": "/",
+        "expires": 1776637569951,
+        "session": false
+      },
+      {
+        "name": "initialTrafficSource",
+        "domain": ".roku.com",
+        "path": "/",
+        "expires": 1775074284000,
+        "session": false
+      },
+      {
+        "name": "_uc",
+        "domain": ".roku.com",
+        "path": "/",
+        "expires": 1806523900362,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.roku.com/s/1774353198520/runtime/page.js": {
+          "window.innerWidth": 127,
+          "Navigator.prototype.userAgent": 6,
+          "Document.cookie getter": 13,
+          "Document.cookie setter": 6,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "Date.prototype.getTime": 1,
+          "window.sessionStorage": 1,
+          "Event.prototype.timeStamp": 59
+        },
+        "https://www.roku.com/": {
+          "Event.prototype.timeStamp": 2
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP": {
+          "Navigator.prototype.userAgent": 36,
+          "Document.cookie getter": 18,
+          "Date.prototype.getTime": 106,
+          "window.name": 2,
+          "window.sessionStorage": 6,
+          "Document.cookie setter": 2,
+          "window.localStorage": 7
+        },
+        "https://cdn.sprig.com/shim.js?id=qea0DdC3aOFS": {
+          "window.sessionStorage": 1,
+          "window.localStorage": 1,
+          "window.indexedDB": 12,
+          "Navigator.prototype.storage": 2
+        },
+        "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516": {
+          "Performance.prototype.memory": 1,
+          "Navigator.prototype.userAgent": 2,
+          "Date.prototype.getTime": 1
+        },
+        "https://js-agent.newrelic.com/nr-full-1.310.1.min.js": {
+          "Navigator.prototype.webdriver": 2,
+          "Navigator.prototype.connection": 3,
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://www.googletagmanager.com/gtag/destination?id=G-ZZXW5ZLMQ5&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 42,
+          "window.name": 2
+        },
+        "https://cdn.sprig.com/dependencies/record.min.js": {
+          "window.innerWidth": 1,
+          "window.innerHeight": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.1541247675.1774987884; path=/; expires=Mon, 29 Jun 2026 20:11:23 GMT; domain=roku.com"
+          ]
+        },
+        {
+          "source": "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a; expires=Tue, 31 Mar 2026 20:41:23 GMT; path=/; domain=.roku.com"
+          ]
+        },
+        {
+          "source": "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a; expires=Tue, 31 Mar 2026 20:41:24 GMT; path=/; domain=.roku.com"
+          ]
+        },
+        {
+          "source": "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a; expires=Tue, 31 Mar 2026 20:41:24 GMT; path=/; domain=.roku.com"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtm.js?id=GTM-PGF5CP",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "initialTrafficSource=utmcsr=(direct)|utmcmd=(none)|utmccn=(not set);Expires=Wed, 01 Apr 2026 20:11:24 GMT;Path=/;Domain=.roku.com;"
+          ]
+        },
+        {
+          "source": "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a; expires=Tue, 31 Mar 2026 20:41:25 GMT; path=/; domain=.roku.com"
+          ]
+        },
+        {
+          "source": "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a; expires=Tue, 31 Mar 2026 20:41:32 GMT; path=/; domain=.roku.com"
+          ]
+        },
+        {
+          "source": "https://www.roku.com/s/1774353198520/runtime/page.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_usn=0888c4e7-ec49-4d71-9ba2-2f034c34cb4a; expires=Tue, 31 Mar 2026 20:41:40 GMT; path=/; domain=.roku.com"
+          ]
+        }
+      ]
+    }
+  }
+}

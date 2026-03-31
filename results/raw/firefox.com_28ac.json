@@ -1,0 +1,1002 @@
+{
+  "initialUrl": "https://firefox.com/",
+  "finalUrl": "https://www.firefox.com/en-US/",
+  "timeout": false,
+  "testStarted": 1774989896847,
+  "testFinished": 1774989905478,
+  "data": {
+    "requests": [
+      {
+        "url": "https://firefox.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "35.190.14.201",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.firefox.com/",
+        "initiators": [],
+        "time": 0.19959000000017113
+      },
+      {
+        "url": "https://www.firefox.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.firefox.com/en-US/",
+        "redirectedFrom": "https://firefox.com/",
+        "initiators": [],
+        "time": 0.055071000000680215
+      },
+      {
+        "url": "https://www.firefox.com/en-US/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 15555,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "etag": "\"35da284428906729ae1cfe535f844ba0\"",
+          "expires": "Mon, 30 Mar 2026 17:16:13 GMT"
+        },
+        "responseBodyHash": "7c7601b2b77d74df870df12af17165283ce8863ebe29f61b4e899d1d1e793b2a",
+        "redirectedFrom": "https://www.firefox.com/",
+        "initiators": [],
+        "time": 0.011388000000806642
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53388,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"91401b28786eefb9448b767a388eac1a\"",
+          "expires": "Tue, 31 Mar 2026 20:45:57 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f379947af87a868dd262bce98ecca8f68ff1064be6b9d8c757f19e5844a016e3",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.08158599999842409
+      },
+      {
+        "url": "https://www.firefox.com/media/css/flare26.048ab038d6e9.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 32789,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"048ab038d6e9c1625674310ac5980e31\"",
+          "expires": "Mon, 30 Mar 2026 17:16:21 GMT"
+        },
+        "responseBodyHash": "6afb3556026d21f8076c19365a0e656abdc6c0bbe0dce6f43dd91b35ded8e3dc",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.014676999999210238
+      },
+      {
+        "url": "https://www.firefox.com/media/js/site.4dabcff0fc9f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2393,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"4dabcff0fc9f58ff639aba0acd48ab2c\"",
+          "expires": "Tue, 24 Mar 2026 17:09:36 GMT"
+        },
+        "responseBodyHash": "f7bb394dae9d16cdd08f014609e4db6d6f719b797cc2856a356ea8e09165d891",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.02413199999864446
+      },
+      {
+        "url": "https://www.firefox.com/media/js/gtm-snippet.75f2d1f2194b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1272,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"75f2d1f2194b5a78004481cafbe424d2\"",
+          "expires": "Mon, 30 Mar 2026 17:16:21 GMT"
+        },
+        "responseBodyHash": "edb96236826d3b907096883467aae650032f250695cb6fd732ebea63174ee61b",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.024176000000807107
+      },
+      {
+        "url": "https://www.firefox.com/media/img/logos/firefox/logo-word-hor-2026.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5621,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"ec99fb357f62a79ed8b539032daf1e9b\"",
+          "expires": "Mon, 23 Feb 2026 11:16:01 GMT"
+        },
+        "responseBodyHash": "c3ce0c77cf5c57961db3ac3b48991f23c6adc5cbf51d37c58e11d4aa0d92dda3",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.09104300000035437
+      },
+      {
+        "url": "https://www.firefox.com/media/img/l10n/en-US/firefox/ios/btn-app-store.1cfd5dba4a92.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4770,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"1cfd5dba4a9210bcf77f5dbe48ec2e66\"",
+          "expires": "Wed, 18 Jun 2025 16:02:05 GMT"
+        },
+        "responseBodyHash": "4cfabcfdbec9a5cd903190f150028743f38c3533b53ea21c6e4dd35a52a80383",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.10472900000058871
+      },
+      {
+        "url": "https://www.firefox.com/media/img/l10n/en-US/firefox/android/btn-google-play.77bdbc935c58.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3175,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"77bdbc935c583f6353bf55a29ee51fa6\"",
+          "expires": "Wed, 18 Jun 2025 16:02:05 GMT"
+        },
+        "responseBodyHash": "f0b91ed1951c44bbb8d6b123d1c734f898da302ee0284e2184fab97d4fa497d6",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.11486999999942782
+      },
+      {
+        "url": "https://www.firefox.com/media/js/sentry.2f57b70e06a9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19884,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"2f57b70e06a93d10097436efb2f093b2\"",
+          "expires": "Tue, 24 Mar 2026 17:09:36 GMT"
+        },
+        "responseBodyHash": "959ca9bf30919327009da8a22ed91da8b297660aa8b083b16c4726c40537fa02",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.02401300000019546
+      },
+      {
+        "url": "https://www.firefox.com/media/js/lib.244fb6035eee.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5797,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"244fb6035eeec8803359e6175867fd16\"",
+          "expires": "Wed, 28 Jan 2026 17:31:24 GMT"
+        },
+        "responseBodyHash": "91cf041b3f5a340cf96722e5fde00c40d32266132115556b520f9314af57a930",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.02268499999991036
+      },
+      {
+        "url": "https://www.firefox.com/media/js/data.66a011d9be0e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2398,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"66a011d9be0eb837f4875f3a53e5d1b2\"",
+          "expires": "Tue, 24 Mar 2026 17:09:36 GMT"
+        },
+        "responseBodyHash": "1d1ba04e218c464cc6a5cd80913c823df07e7e11bddc2f4adf1b25c4ea3fbcb0",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.035126999999192776
+      },
+      {
+        "url": "https://www.firefox.com/media/js/firefox-cms-flare26.c214e922a79f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25238,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"c214e922a79f601da9dc7dc14fbadc03\"",
+          "expires": "Mon, 30 Mar 2026 17:16:21 GMT"
+        },
+        "responseBodyHash": "5c5ef1e2d6441f667bcf9d52c01559eb2a8c0394469f557313bbc5a28de9de1c",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.039037000000462285
+      },
+      {
+        "url": "https://www.firefox.com/media/js/ui-tour-buttons.5f82dc085f31.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1141,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"5f82dc085f31ac15545becf9f8533f42\"",
+          "expires": "Thu, 26 Feb 2026 21:22:46 GMT"
+        },
+        "responseBodyHash": "dfe1a7a77008cce8b841004cb9d7e1ce51d7863f5cb401780fa7132abb3413d7",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.05173499999909836
+      },
+      {
+        "url": "https://www.firefox.com/media/js/flare-navigation.17c4a3a73443.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9472,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"17c4a3a734430a9ac676d39eaaa4a846\"",
+          "expires": "Tue, 24 Mar 2026 17:09:40 GMT"
+        },
+        "responseBodyHash": "764fdbb19b4e8fc46975830f3a90b2d49a228408059c0dafaaad27185a1306d8",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.0538379999998142
+      },
+      {
+        "url": "https://www.firefox.com/media/js/flare-lang-switcher.90adb422979f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 910,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"90adb422979f796ccebc4064311b8ff1\"",
+          "expires": "Tue, 20 Jan 2026 13:14:21 GMT"
+        },
+        "responseBodyHash": "1c44d032f386558f6eead887257b784f7b34d7771349d628b89fbfa4ef606383",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.06619600000158243
+      },
+      {
+        "url": "https://www.firefox.com/media/js/consent-banner.35e30dbc9f8f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2377,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"35e30dbc9f8fec19de1b114d36e09acf\"",
+          "expires": "Mon, 30 Mar 2026 17:16:21 GMT"
+        },
+        "responseBodyHash": "8bb6116904fb332af4f9fc5fe1746cdd092da4cbf871cf6593d861db8e7fbffc",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.06638600000042061
+      },
+      {
+        "url": "https://www.firefox.com/media/js/stub-attribution.7aaaf0d4ec83.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3037,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"7aaaf0d4ec83ef413144dd78a11de2a9\"",
+          "expires": "Thu, 19 Mar 2026 18:18:31 GMT"
+        },
+        "responseBodyHash": "a91b2f4301b0e569227697cd9b31569c07a0b604293e8c734579038fd02f3478",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.07866000000103668
+      },
+      {
+        "url": "https://www.firefox.com/media/js/download_as_default.740bb0ac58b9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1450,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"740bb0ac58b94b0d1d3e3b1139de7f14\"",
+          "expires": "Tue, 24 Mar 2026 17:09:40 GMT"
+        },
+        "responseBodyHash": "3b1cffe7923267113e69ff014d2a4b3b92a2af52d2a9e3121c50871db8935325",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.07872099999985949
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/ui.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 101014,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"b985257448d4dba4b33d8e532e4ac0de\"",
+          "expires": "Tue, 31 Mar 2026 20:45:57 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "073c30945515be5bc66a640057d25bdae396285a0cbbe2144b369780ae061773",
+        "initiators": [
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js"
+        ],
+        "time": 0.09229300000151852
+      },
+      {
+        "url": "https://www.firefox.com/media/css/flare26_base.8a595f531af8.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3537,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"8a595f531af86c51ad0a91222567c49d\"",
+          "expires": "Mon, 23 Mar 2026 23:25:02 GMT"
+        },
+        "responseBodyHash": "9a9c7d50be70225d6c2efca3988d576e016596b97770084a64d3d82b22868b8e",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.01583799999934854
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-527L9RBL&l=dataLayer",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 126035,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:45:01 GMT"
+        },
+        "responseBodyHash": "ed28d3b199f0be7ab76a86a0922a18f865bcd6eeeda1a01393b45573d888826e",
+        "initiators": [
+          "https://www.firefox.com/media/js/gtm-snippet.75f2d1f2194b.js"
+        ],
+        "time": 3.6497459999991406
+      },
+      {
+        "url": "https://www.firefox.com/media/img/logos/firefox/logo-word-hor-white-2026.38b0d9aa301a.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5607,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"38b0d9aa301a5f8af1913837f24f672d\"",
+          "expires": "Mon, 23 Feb 2026 07:41:15 GMT"
+        },
+        "responseBodyHash": "ec4ee68f5637d9fb4ee99ac635b5c5bb7902e98ce3fcc0d92d51f6ed7b3a7c7c",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.014147000001685228
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/2026/icons/desktop-16/arrows-and-chevrons/chevron-down-16.e2f145363ee8.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 612,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"e2f145363ee8fc1d7ace61831fbf6dc5\"",
+          "expires": "Thu, 12 Feb 2026 14:53:05 GMT"
+        },
+        "responseBodyHash": "f0f8eac317c51e42c195c176f38905fc596618fa0cd56ef20369ba2c0bc389fe",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.013966000000436907
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/kit-dive.26257f27e8a0.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6242,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"26257f27e8a014bb9a69b54ae0b85e97\"",
+          "expires": "Thu, 05 Mar 2026 13:47:43 GMT"
+        },
+        "responseBodyHash": "51abb33fd645d2b09b9ebb6eea1a73cd59cc36c96b5216b24e25e5a66585c38b",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.014492000000245753
+      },
+      {
+        "url": "https://www.firefox.com/media/img/icons/external.e2b4246cf764.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 691,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"e2b4246cf764bb16df3cc4d4fc30cc79\"",
+          "expires": "Mon, 13 Oct 2025 19:26:35 GMT"
+        },
+        "responseBodyHash": "fc63c256a770f6233cf514468dbc3d468a592585612a585016a0c75496906e85",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.014594000000215601
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/2026/icons/desktop-16/globe/globe-16.74af97ffa793.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 882,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"74af97ffa7937e96b7bcbe9b35cfe07b\"",
+          "expires": "Thu, 12 Feb 2026 14:53:07 GMT"
+        },
+        "responseBodyHash": "145ae7bf12434b22a6c31eec0b47a17e8c59e15c6d095c0530408b88560d121d",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.014094999998633284
+      },
+      {
+        "url": "https://www.firefox.com/media/fonts/mozilla-text/MozillaText-Variable.fc7317808d75.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 33619,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"fc7317808d754be7f864818658c5ffa4\"",
+          "expires": "Mon, 23 Mar 2026 23:25:02 GMT"
+        },
+        "responseBodyHash": "57c9eccf3074fd0e93862f228f0262ecc87dcea2b8d07f0109486fe478871894",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.06228999999984808
+      },
+      {
+        "url": "https://www.firefox.com/media/fonts/mozilla-headline/MozillaHeadline-Variable.19ade5d17bd1.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 70171,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"19ade5d17bd1f16526b844ae23e4d124\"",
+          "expires": "Mon, 23 Mar 2026 23:25:02 GMT"
+        },
+        "responseBodyHash": "a20589dc8dd142e0cdb46a7a8e5125612af3540f154b741cfc95a5a3759c26c6",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.06197299999985262
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/kit-tail-2.1608e2bf46c5.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7710,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"1608e2bf46c51e46b3a644457ab53a0c\"",
+          "expires": "Thu, 05 Mar 2026 13:47:43 GMT"
+        },
+        "responseBodyHash": "232faf437c5417466664ec02f693f91158ee56ce560bd467ec1946445e0db4a0",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.012709000000540982
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/2026/icons/desktop-16/downloads/downloads-16.20e252d0a92b.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 690,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"20e252d0a92b028fcab3708c2c94ccad\"",
+          "expires": "Thu, 12 Feb 2026 14:53:06 GMT"
+        },
+        "responseBodyHash": "98216df40ab1c8a853fca2afb965f99dd6128996f8af56ed96ba547d69b359fa",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.012142999999923632
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/fox-brand-curious.3ea99c60c166.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2983,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"3ea99c60c166d055ba83ba833b5eeaaa\"",
+          "expires": "Fri, 13 Feb 2026 22:15:08 GMT"
+        },
+        "responseBodyHash": "4511d82e65eda8b5181dfe4bc0eed7789cd1e29e8100048617467afeba430c62",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.01332399999955669
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/2026/icons/desktop-16/search/search-16.33cf8483a28f.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 655,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"33cf8483a28f29f2e6b0bd5c161d6da5\"",
+          "expires": "Thu, 12 Feb 2026 14:53:09 GMT"
+        },
+        "responseBodyHash": "9a16c5754fc3f4455371dfcac4dfe5966a8d1886197a02740c48b1cdd6d4f5c5",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.012272999998458545
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/2026/icons/desktop-16/profile/palette-16.028234691e78.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1260,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"028234691e7821e07bfb739600c11f88\"",
+          "expires": "Thu, 12 Feb 2026 14:53:09 GMT"
+        },
+        "responseBodyHash": "eb844f165c3af71bda8c3456e4e3c0ae35030dda9334940fcd0f4afe6fcc0dee",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.011814999999842257
+      },
+      {
+        "url": "https://www.firefox.com/media/cms/images/Shield_41DIZ0q.width-400.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2012,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"4fba1197f0ff250a036c3aad71204a52\"",
+          "expires": "Sun, 22 Mar 2026 19:28:26 GMT"
+        },
+        "responseBodyHash": "0b79bd834f58b442c86940c25af49d833c38697e06cb1f9f964519388ded9fdc",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.02455800000097952
+      },
+      {
+        "url": "https://www.firefox.com/media/cms/images/Cursor_HIkIYqM.width-400.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1368,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"94e0b2d5c09448f3a3f243a03b613cfb\"",
+          "expires": "Sun, 22 Mar 2026 19:28:50 GMT"
+        },
+        "responseBodyHash": "c82307e5e4302ffd84a1c6d371b09cb5d61297aba8e60954dd883f4cd435bc4a",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.023703000000750762
+      },
+      {
+        "url": "https://www.firefox.com/media/cms/images/Toggle_DNTkMhH.width-400.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1632,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"11deb3fb94de8c56cafff75bff2feb3f\"",
+          "expires": "Sun, 22 Mar 2026 19:29:13 GMT"
+        },
+        "responseBodyHash": "ff9e3f7b8c4e89ab534a66d6b654b6a4b0830ef0779cec3130e067b2543c35ab",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.025094000000535743
+      },
+      {
+        "url": "https://www.firefox.com/media/cms/images/Bolt_GL1BlXf.width-400.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1582,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"b222d83c254602b7513bb64fda94db7d\"",
+          "expires": "Sun, 22 Mar 2026 19:29:42 GMT"
+        },
+        "responseBodyHash": "96447bab3f86903dc7840baff09a74104e5d9f4012edad1fdbfff5b5c77f9747",
+        "initiators": [
+          "https://www.firefox.com/en-US/"
+        ],
+        "time": 0.024024000000281376
+      },
+      {
+        "url": "https://www.firefox.com/media/img/firefox/flare/sitting-kit-2.f9dedcdd542b.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 65309,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"f9dedcdd542bc7f17d83df10cf7485cc\"",
+          "expires": "Sat, 21 Feb 2026 00:16:56 GMT"
+        },
+        "responseBodyHash": "7588bd3395624590139e7e79b743a62740a989ceaad3d77862e3de65e7756504",
+        "initiators": [
+          "https://www.firefox.com/media/css/flare26.048ab038d6e9.css"
+        ],
+        "time": 0.02069899999878544
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/cm.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4222,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"c750634c9cd79eac7b67a61732a7efbe\"",
+          "expires": "Tue, 31 Mar 2026 20:45:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "834216ca8692aa73844f1006cbffee8c8ed9dde0f404a55a325f312054ed625a",
+        "initiators": [
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/ui.js",
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js"
+        ],
+        "time": 0.02487699999983306
+      },
+      {
+        "url": "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/translations/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2515,
+        "remoteIPAddress": "104.18.40.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "etag": "W/\"d66168cb95fd44e543718c023f70ac16\"",
+          "expires": "Tue, 31 Mar 2026 20:45:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bc0810146cdf75b9507a4bd7842bd6ac98760b6e5a2034099843d4581421b65e",
+        "initiators": [
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/ui.js",
+          "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js"
+        ],
+        "time": 0.02751400000124704
+      },
+      {
+        "url": "https://www.firefox.com/en-US/stub_attribution_code/?referrer=&ua=chrome&dlsource=fxdotcom",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2532,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"4cd2bef38eecae099195944e9630e5cc\"",
+          "expires": "Tue, 31 Mar 2026 20:20:57 GMT"
+        },
+        "responseBodyHash": "828af7f76ad17bb40ea389d8a58d27d8dd59ca1da33bb4a4b6082fca08f03812",
+        "initiators": [
+          "https://www.firefox.com/media/js/sentry.2f57b70e06a9.js",
+          "https://www.firefox.com/media/js/stub-attribution.7aaaf0d4ec83.js"
+        ],
+        "time": 1.8832080000011047
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-E4D4R98JS9&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 160875,
+        "remoteIPAddress": "142.251.2.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:45:02 GMT"
+        },
+        "responseBodyHash": "f89e54d6b9dac359f08c9e03f542a63350a41377d85f6926c3f63e6dbc935611",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-527L9RBL&l=dataLayer",
+          "https://www.firefox.com/media/js/sentry.2f57b70e06a9.js",
+          "https://www.firefox.com/media/js/gtm-snippet.75f2d1f2194b.js"
+        ],
+        "time": 0.18700900000112597
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-E4D4R98JS9&gtm=45je63u0v9220161386z89218017830za20gzb9218017830zd9218017830&_p=1774989897748&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&cid=1290099293.1774989902&ul=en-us&are=1&frm=0&pscdl=denied&_geo=1&_rdi=1&_s=1&tag_exp=0~115616985~115938465~115938468~116133314~116991816~117266400&sid=1774989902&sct=1&seg=0&dl=https%3A%2F%2Fwww.firefox.com%2Fen-US%2F&dt=Get%20Firefox%20%E2%80%94%20Firefox.com&_tu=QA&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=4966",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "142.251.218.78",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.firefox.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-E4D4R98JS9&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-527L9RBL&l=dataLayer",
+          "https://www.firefox.com/media/js/sentry.2f57b70e06a9.js",
+          "https://www.firefox.com/media/js/gtm-snippet.75f2d1f2194b.js"
+        ],
+        "time": 0.07194200000049022
+      },
+      {
+        "url": "https://www.firefox.com/media/img/favicons/firefox/browser/favicon.f093404c0135.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 8585,
+        "remoteIPAddress": "151.101.3.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://prod.cms.springfield.prod.webservices.mozgcp.net",
+          "cache-control": "max-age=315360000, public, immutable",
+          "etag": "\"f093404c01359cad9d0f2fb514b64281\"",
+          "expires": "Wed, 18 Jun 2025 16:01:57 GMT"
+        },
+        "responseBodyHash": "0d86d55cc8dd4133266c815850766875f0c16aaedde95c685aa4159d2f7e4dc1",
+        "initiators": [],
+        "time": 0.011132999999972526
+      }
+    ],
+    "cookies": [
+      {
+        "name": "moz-stub-attribution-code",
+        "domain": "www.firefox.com",
+        "path": "/",
+        "expires": 1775076301000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "moz-stub-attribution-sig",
+        "domain": "www.firefox.com",
+        "path": "/",
+        "expires": 1775076301000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_ga_E4D4R98JS9",
+        "domain": ".www.firefox.com",
+        "path": "/",
+        "expires": 1809549902324,
+        "session": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".www.firefox.com",
+        "path": "/",
+        "expires": 1809549902326,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://transcend-cdn.com/cm/d556c3a1-e57c-4bdf-a490-390a1aebf6dd/airgap.js": {
+          "window.sessionStorage": 1,
+          "window.localStorage": 1,
+          "Event.prototype.timeStamp": 7,
+          "Document.cookie getter": 1
+        },
+        "https://www.firefox.com/media/js/flare-navigation.17c4a3a73443.js": {
+          "window.innerHeight": 1
+        },
+        "https://www.firefox.com/media/js/site.4dabcff0fc9f.js": {
+          "Document.cookie setter": 4,
+          "Document.cookie getter": 1
+        },
+        "https://www.firefox.com/media/js/stub-attribution.7aaaf0d4ec83.js": {
+          "Date.prototype.getTime": 1
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-527L9RBL&l=dataLayer": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 2,
+          "Date.prototype.getTime": 10,
+          "window.name": 2
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-E4D4R98JS9&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 18,
+          "Date.prototype.getTime": 34,
+          "Navigator.prototype.language": 3,
+          "Screen.prototype.width": 3,
+          "Screen.prototype.height": 3,
+          "Document.cookie setter": 3,
+          "window.name": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.firefox.com/media/js/site.4dabcff0fc9f.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://www.firefox.com/media/js/site.4dabcff0fc9f.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cookietest=1; SameSite=Lax; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://www.firefox.com/media/js/site.4dabcff0fc9f.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "moz-stub-attribution-code=c291cmNlPShub3Qgc2V0KSZtZWRpdW09KGRpcmVjdCkmY2FtcGFpZ249KG5vdCBzZXQpJmNvbnRlbnQ9KG5vdCBzZXQpJmV4cGVyaW1lbnQ9KG5vdCBzZXQpJnZhcmlhdGlvbj0obm90IHNldCkmdWE9Y2hyb21lJmNsaWVudF9pZF9nYTQ9KG5vdCBzZXQpJnNlc3Npb25faWQ9KG5vdCBzZXQpJmRsc291cmNlPWZ4ZG90Y29t; expires=Wed, 01 Apr 2026 20:45:01 GMT; path=/; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://www.firefox.com/media/js/site.4dabcff0fc9f.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "moz-stub-attribution-sig=35ede8ed25588c6d0feeab6c84c8f74c4283bafd8e2d910cdd50396912a972e8; expires=Wed, 01 Apr 2026 20:45:01 GMT; path=/; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-E4D4R98JS9&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_E4D4R98JS9=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 20:45:02 GMT; domain=www.firefox.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-E4D4R98JS9&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_E4D4R98JS9=GS2.3.s1774989902$o1$g0$t1774989902$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 20:45:02 GMT; domain=www.firefox.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-E4D4R98JS9&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.3.1290099293.1774989902; path=/; expires=Thu, 30 Mar 2028 20:45:02 GMT; domain=www.firefox.com; "
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "initialUrl": "https://tripadvisor.com/",
+  "finalUrl": "https://www.tripadvisor.com/",
+  "timeout": false,
+  "testStarted": 1774990200295,
+  "testFinished": 1774990207551,
+  "data": {
+    "requests": [
+      {
+        "url": "https://tripadvisor.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "18.155.192.112",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.tripadvisor.com/",
+        "initiators": [],
+        "time": 0.20636100000047009
+      },
+      {
+        "url": "https://www.tripadvisor.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 1720,
+        "remoteIPAddress": "108.139.10.99",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, must-revalidate",
+          "pragma": "no-cache",
+          "set-cookie": "datadome=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI; Max-Age=31104000; Domain=.tripadvisor.com; Path=/; Secure; SameSite=Lax\nTAUnique=%1%enc%3A6mRPMDxis0NKFgp6VVnaRhNH1xGyZJRhhN%2By0nntykUar3c%2BPa7BKhK8NaOEXu8%2FNox8JbUSTxk%3D; Max-Age=63072000; HttpOnly; Path=/"
+        },
+        "responseBodyHash": "75074bce6e6975763ff013d31d8ed43cef09097d127c59b57e8b4310e2bcab75",
+        "redirectedFrom": "https://tripadvisor.com/",
+        "initiators": [],
+        "time": 0.12054199999874982
+      },
+      {
+        "url": "https://ct.captcha-delivery.com/i.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16065,
+        "remoteIPAddress": "3.169.183.115",
+        "responseHeaders": {
+          "etag": "\"14867fc17e7a0d59f653596d425b2feb\""
+        },
+        "responseBodyHash": "b2086fb19988cbf9d2caa696692c0711145ee92124319146e0d1352d8eb5797d",
+        "initiators": [
+          "https://www.tripadvisor.com/"
+        ],
+        "time": 3.469250000000102
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&s=46694&e=4fec65c4a7fba125f4f47532090c220325ea76abb01d60055244c4cd03ba82f0cdc93af046a325d316a19dbc30edc07f&b=1738966&dm=cd",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 176642,
+        "remoteIPAddress": "52.52.48.41",
+        "responseHeaders": {},
+        "responseBodyHash": "1e6995a4fba18f23c0edeca0c41dae37f992d7b8e77458935972021ffeb2acde",
+        "initiators": [
+          "https://ct.captcha-delivery.com/i.js"
+        ],
+        "time": 0.11918600000171864
+      },
+      {
+        "url": "blob:https://geo.captcha-delivery.com/d82baca0-2abc-4442-8071-e9866ebba270",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "responseHeaders": {},
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&s=46694&e=4fec65c4a7fba125f4f47532090c220325ea76abb01d60055244c4cd03ba82f0cdc93af046a325d316a19dbc30edc07f&b=1738966&dm=cd"
+        ]
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/interstitial/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 847,
+        "remoteIPAddress": "52.52.48.41",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&s=46694&e=4fec65c4a7fba125f4f47532090c220325ea76abb01d60055244c4cd03ba82f0cdc93af046a325d316a19dbc30edc07f&b=1738966&dm=cd"
+        ],
+        "time": 0.01979399999981979
+      },
+      {
+        "url": "https://www.tripadvisor.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 15835,
+        "remoteIPAddress": "108.139.10.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Fri, 03 Apr 2026 04:41:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2ba2f187bc0ac6e45c1330a8b322192b1fa3a4de4e400bb9f9d93c28d560d1dc",
+        "initiators": [],
+        "time": 0.012784999998984858
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 217645,
+        "remoteIPAddress": "52.52.48.41",
+        "responseHeaders": {},
+        "responseBodyHash": "0244e838360f69527841d03ae7b1d419d713d0e14232c1b75718f0d0f99a069f",
+        "initiators": [
+          "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&s=46694&e=4fec65c4a7fba125f4f47532090c220325ea76abb01d60055244c4cd03ba82f0cdc93af046a325d316a19dbc30edc07f&b=1738966&dm=cd"
+        ],
+        "time": 0.061136999998780084
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/tpl/6dc485c0c428c35b53577b146dc6f9179f55ef9ad41b327a2a179998839364bf/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1801,
+        "remoteIPAddress": "65.8.54.77",
+        "responseHeaders": {
+          "etag": "W/\"23464822977c44c55ef7876a5a849489\""
+        },
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966"
+        ],
+        "time": 0.1381309999997029
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 899,
+        "remoteIPAddress": "65.8.54.77",
+        "responseHeaders": {
+          "etag": "\"e4f77074c0ffbfab377011e19283eb13\""
+        },
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966"
+        ],
+        "time": 0.1372959999989689
+      },
+      {
+        "url": "https://static.captcha-delivery.com/captcha/assets/set/a9f0e9523bb464dc97737c4749c9335e29175c0c/logo.png?update_cache=8406366111636460005",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 108848,
+        "remoteIPAddress": "65.8.54.77",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"57f19046560843d395d1621d1d50a0b9\""
+        },
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966"
+        ],
+        "time": 0.8376580000003742
+      },
+      {
+        "url": "blob:https://geo.captcha-delivery.com/96eb20f9-3d24-44d4-9d75-558b55ee5f14",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966"
+        ]
+      },
+      {
+        "url": "https://static.captcha-delivery.com/common/fonts/roboto/roboto.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 16184,
+        "remoteIPAddress": "65.8.54.77",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://geo.captcha-delivery.com",
+          "etag": "\"aa23b7b4bcf2b8f0e876106bb3de69c6\""
+        },
+        "initiators": [
+          "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css"
+        ],
+        "time": 0.2775600000004488
+      }
+    ],
+    "cookies": [
+      {
+        "name": "datadome",
+        "domain": ".tripadvisor.com",
+        "path": "/",
+        "expires": 1806094200960,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "TAUnique",
+        "domain": "www.tripadvisor.com",
+        "path": "/",
+        "expires": 1809550200960,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://geo.captcha-delivery.com/d82baca0-2abc-4442-8071-e9866ebba270"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://ct.captcha-delivery.com/i.js": {
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Document.cookie getter": 1
+        },
+        "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&s=46694&e=4fec65c4a7fba125f4f47532090c220325ea76abb01d60055244c4cd03ba82f0cdc93af046a325d316a19dbc30edc07f&b=1738966&dm=cd": {
+          "Navigator.prototype.languages": 2,
+          "window.outerHeight": 5,
+          "window.outerWidth": 4,
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.hardwareConcurrency": 6,
+          "Navigator.prototype.webdriver": 4,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 6,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.deviceMemory": 3,
+          "Navigator.prototype.keyboard": 3,
+          "Navigator.prototype.permissions": 3,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2,
+          "Performance.prototype.memory": 3,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.connection": 5,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.mediaDevices": 1,
+          "Navigator.prototype.plugins": 26,
+          "window.innerWidth": 3,
+          "window.innerHeight": 4,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "window.devicePixelRatio": 1,
+          "Screen.prototype.orientation": 1,
+          "Navigator.prototype.storage": 3,
+          "Navigator.prototype.mimeTypes": 9,
+          "HTMLMediaElement.prototype.canPlayType": 19,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie setter": 2,
+          "Document.cookie getter": 1,
+          "PerformanceTiming.prototype.navigationStart": 1
+        },
+        "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966": {
+          "window.outerHeight": 2,
+          "window.outerWidth": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "window.devicePixelRatio": 1,
+          "Performance.prototype.memory": 3,
+          "Document.cookie setter": 2,
+          "Document.cookie getter": 1,
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "window.localStorage": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&s=46694&e=4fec65c4a7fba125f4f47532090c220325ea76abb01d60055244c4cd03ba82f0cdc93af046a325d316a19dbc30edc07f&b=1738966&dm=cd",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=1; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=eFTxppf85W59LsgoWw3b8LTYOCnKhPAg2NSaNwyiCWP8WshS8OzKbKie3QiVJ1YoQRgNMlSpd~KqgICF~1qOMpwrkn~WlFrQvlGg0hNM651X2LWhm0ebTq1bfKZIM3SI&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&s=46694&e=4fec65c4a7fba125f4f47532090c220325ea76abb01d60055244c4cd03ba82f0cdc93af046a325d316a19dbc30edc07f&b=1738966&dm=cd",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=1; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA2u5h4OLFcHYAgHhXdA==&cid=XusF4Q8qF__OnatcmC6JP9_W4d~5jE858_4wiMEzBPELqiGsSyf0eYk7piFETcFt29mjJ5b2TxjsI0PdVDwrelbkEQW4eaaiOE1bEaRWLZDR6aWyIubQj6qBmaV5inLM&referer=https%3A%2F%2Fwww.tripadvisor.com%2F&hash=2F05D671381DB06BEE4CC52C7A6FD3&t=fe&s=46694&e=0d6aaf992c4559d32c196625816fa02720cd75b0ce6bfacc1e2ada4f5b7073473342b1d00bf3924094556e79aec0e049&ir=5%2C40&dm=dc_ir&b=1738966",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=None; Secure"
+          ]
+        }
+      ]
+    }
+  }
+}

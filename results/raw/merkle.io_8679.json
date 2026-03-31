@@ -1,0 +1,854 @@
+{
+  "initialUrl": "https://merkle.io/",
+  "finalUrl": "https://blinklabs.xyz/",
+  "timeout": false,
+  "testStarted": 1774988204544,
+  "testFinished": 1774988212941,
+  "data": {
+    "requests": [
+      {
+        "url": "https://merkle.io/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "104.20.32.209",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.merkle.io/",
+        "initiators": [],
+        "time": 0.16357799999968847
+      },
+      {
+        "url": "https://www.merkle.io/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "172.66.156.92",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://blinklabs.xyz/",
+        "redirectedFrom": "https://merkle.io/",
+        "initiators": [],
+        "time": 0.08056899999974121
+      },
+      {
+        "url": "https://blinklabs.xyz/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 15075,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"jokcua9cfz247r\""
+        },
+        "responseBodyHash": "d7ac629eeffdc5312415a2432406593cff35d9b89c839edfdafd99a525ce8ae1",
+        "redirectedFrom": "https://www.merkle.io/",
+        "initiators": [],
+        "time": 0.364755999999943
+      },
+      {
+        "url": "https://blinklabs.xyz/blink-labs-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30107,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"5074b57db46af16c35768f4f5a8a68d1-ssl-df\""
+        },
+        "responseBodyHash": "98d684966b0723ffb49fc1d02d224876565e8414a1901254a289004e78769ec3",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.0313190000006216
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/css/f1478ddd84018836.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 10882,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"2e87ff93badb94d14cbe46f492ed2861-ssl-df\""
+        },
+        "responseBodyHash": "c2ff21215c136be3c297005033938057e6af9d337b3d7e4cb47b63c195b1ddc8",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.014496000000690401
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/webpack-291f70ff2f9f6579.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2584,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"8dc29158748783d74743d9528860e803-ssl-df\""
+        },
+        "responseBodyHash": "445322200eb6b9d564cc0f8ffe21d5aa5aedc5c60727a1658aa69cda00a0ca84",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.06187099999988277
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53745,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"1eb8013e00e0a323c1d0343933187e8f-ssl-df\""
+        },
+        "responseBodyHash": "ca8a4bd81d821a829250dc87dda6b7eeb1d4e9a70fa671b0f1489a03c7a9966f",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.04922400000032212
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51798,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"531528fe690cf140044f1b652f1f2730-ssl-df\""
+        },
+        "responseBodyHash": "7c485f4ba0bfe20b6254750b68322166b1436d2bc461ed26931fef8376eacc5c",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.04742400000031921
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/main-app-99e3f7a94b31be24.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 943,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"ca7a59cdee5ce790d34e018f977c88f3-ssl\""
+        },
+        "responseBodyHash": "4f47df89fe8de39152d7bb6d5087062e3dfbcc150d2cb495795ab944f59a9126",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.04943400000047404
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/8173-0aecdb312eb56a26.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4193,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"164a237cbe3b59a847d7afcfc8bf2255-ssl-df\""
+        },
+        "responseBodyHash": "67204db073b961fb0ad0bb043be93d06f089fb2c43da8f912479032f4c175e14",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.04975099999956001
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/7970-98b4af5fe994f2c1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5810,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"95a84b8f87926f523b398a01bb4574eb-ssl-df\""
+        },
+        "responseBodyHash": "a88c89993e9595376edfae2d701b8f68d7406c6af7829ddc9052163d5cce59cd",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.05278499999985797
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/6785-39a889fe641e0db9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8614,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"b5eea1cc605c3eb978b2dae92ef29846-ssl-df\""
+        },
+        "responseBodyHash": "16a4638ef984cbc4cd7c57a36aa253b7d988a9c994a7f9ff542659a49ceb7d55",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.04990499999985332
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/3232-c4f926ed9a8e2fa6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11033,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"ad5e612b9fbef594bc8ace83267d2ac1-ssl-df\""
+        },
+        "responseBodyHash": "3cb5375afd42b3b682ea96c7f255f28adbb3556a8cfe54ad3bb5752f34a35266",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.055658999999650405
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/app/layout-8ece069f57cf698f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6830,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"cff0b61cdc170e5b0f46381f30026f37-ssl-df\""
+        },
+        "responseBodyHash": "50374674981513244f2e9da4a0ebe3de48f647294ac3ddbb63ed6d75788fe937",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.05804500000067492
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/2022-467803350af81186.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38558,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"5abeb76b007db255b2f142e1f4418c6a-ssl-df\""
+        },
+        "responseBodyHash": "c6b21d1b256133361a1ec243e5a92b868e01e03c34d500d7b3f2149026a0fd97",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.0596030000006067
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/4473-0afa939c3569c948.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3682,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"282f04fe5fee93ef97ce315e5e0c88a5-ssl-df\""
+        },
+        "responseBodyHash": "2e0679ae8a04d50112dbfdc75804ac533879ca7110c14a5d23cf3fd0cb7903e9",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.05987100000038481
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/app/page-8ff8488e246060f3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3651,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"86c92fd8b6ed0aa93c94066b4418c12e-ssl-df\""
+        },
+        "responseBodyHash": "cf07fc9883bfd5b3e10f8377c31f5f16028c6a38405a635b00a737c2cca5c8ae",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.06007500000032451
+      },
+      {
+        "url": "https://plausible.io/js/script.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1953,
+        "remoteIPAddress": "169.150.221.147",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform, Sec-CH-UA",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, must-revalidate"
+        },
+        "responseBodyHash": "a34d5ce3e989b828c42fe4994c8c1e21693c311db3b076fcbf5202cdc505e5ac",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.07139100000040344
+      },
+      {
+        "url": "https://blinklabs.xyz/images/lake-gradient.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1793712,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"556d17ab6b84e9169a8d8175c3a6777e-ssl\""
+        },
+        "responseBodyHash": "0f505d0a90bddb074f6f9dd3214de1a5fc4e814263a742f6cbd9ca824f352927",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.2411790000005567
+      },
+      {
+        "url": "https://blinklabs.xyz/images/peach-gradient.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2113592,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"eb13679f31a5ac585e908ec08a49b41e-ssl\""
+        },
+        "responseBodyHash": "ade43668999d1e880e210d770d3b81f24f04714b4f5e51fc51d0db93ddc80732",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.18744599999990896
+      },
+      {
+        "url": "https://blinklabs.xyz/fonts/Fakt-Blond.otf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 71252,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"21f4802f3658047f6e0d49523e8b1a61-ssl-df\""
+        },
+        "responseBodyHash": "db8e9629e0a78d81c2e211eb6192039d28f53a470bde205d8cb23acc4a5e11e1",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/css/f1478ddd84018836.css"
+        ],
+        "time": 0.30284500000016124
+      },
+      {
+        "url": "https://blinklabs.xyz/fonts/Fakt-Medium.otf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 72089,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"ab1f1dfe07388ac3e1792a83f32e6ac3-ssl-df\""
+        },
+        "responseBodyHash": "dd73f2796c5919e137bb2d205c56f0a294a80466b38f32928fd1b73bcd8afcf7",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/css/f1478ddd84018836.css"
+        ],
+        "time": 0.21013199999924836
+      },
+      {
+        "url": "https://blinklabs.xyz/images/card.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1492054,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"ba6101b71a743bca48f517735095c84c-ssl-df\""
+        },
+        "responseBodyHash": "e4b8c2d3885c07918db81d26eaffa8296899671f2ef2fe741b3c7c7fd843a051",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.8034179999995104
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/rabby_wallet.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4721,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"884dd8cfaeb8cdf988ea78d3ec296cd4-ssl-df\""
+        },
+        "responseBodyHash": "9bf7fe5cd6863ffacf0e8416d49330e88a4f60fd7220fed24b86eff34fe98925",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.28429200000027777
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/Trust_Core%20Logo_Blue.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1409,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"1b366d53e2dd5cff2480dffe195d70f6-ssl-df\""
+        },
+        "responseBodyHash": "5508882691c7478aed5596495cc2a8437c0b6a9c343b975a05bf43babd19aafa",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.13369800000054965
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/Coinbase_Wordmark.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2010,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"e7b3669e46bccb336a2d244a772d5490-ssl-df\""
+        },
+        "responseBodyHash": "30d25757eb1642c2de7b026262827d08cf45f1d942b507df8c804cba57b3eec6",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.19943100000000413
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/Binance_idKzmFfrAl_0.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1356,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"f68300d2173a0bfc5f79261d773eb1b0-ssl-df\""
+        },
+        "responseBodyHash": "398f5c1a426b947bdecb833a093253598006cc953e6f47530c1d9a050f320205",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.19471400000020367
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/0x_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1378,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"1cd5fb5efadf54d80c0d4a931e7ebaa2-ssl-df\""
+        },
+        "responseBodyHash": "978ddb34e535bd07a47eb4e6e0159b9c26d4c59f15c0a1166f649e08fa5b0753",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.2848409999996875
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/Bitget%20Wallet-Logo-Black@2x.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3442,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"ebd6804ece712b50e31cb014787238ae-ssl-df\""
+        },
+        "responseBodyHash": "6de38257055976b994320f3139d991d698247942497f52018963836969993d6b",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.28689400000075693
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/Zerion_zerion-lockup_main_0.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2393,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"40a225a5e182b36d13ab7447432b41cf-ssl-df\""
+        },
+        "responseBodyHash": "e3575bef0a2f439235a8dd5e6552a16e4c3120a42112d2854771ddc438f1942d",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.2874310000006517
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/safepal_logo_Horizontal_Color.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3214,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"b67c7cbd3c4ac0c179910b36599b0f07-ssl-df\""
+        },
+        "responseBodyHash": "55525c636341786efa0e70e1da14ee1de54c94099185a8336200d2afc36689a0",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.12095600000066042
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/rainbow_wallet.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 593858,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"29865464c6f8fb15f723a8818436a58b-ssl-df\""
+        },
+        "responseBodyHash": "4b34b6b2160637b99b944adb341ea6da5a5bc62f48582eb60c49c4449b931fdf",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.7914829999999711
+      },
+      {
+        "url": "https://blinklabs.xyz/images/customers/LEDGER-WORDMARK-BLACK-RGB.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1222,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"93f5bc1289814d15b565fa45643df945-ssl-df\""
+        },
+        "responseBodyHash": "d34dd4e99d45dcda63c6c8b8e58d0fdeb8caba441f9510e21bb046d98d2c7eb4",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.28703800000039337
+      },
+      {
+        "url": "https://blinklabs.xyz/animations/protection-orb.webm",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 3592294,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"db86f765eb816d59c105619dcefc9260-ssl\""
+        },
+        "responseBodyHash": "f9285c43401b732dd8318c09e7f3531446374bb96cb771c33ced5f96fe9654ed",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.5866660000001502
+      },
+      {
+        "url": "https://blinklabs.xyz/animations/monetization.webm",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 1332260,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"6b47ddf64bae2d0a87a10a50b13ffa6b-ssl\""
+        },
+        "responseBodyHash": "68d4fc9f09fac65aa449410780d6aee2d837585e45d7019b10733251d391389e",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.274888999999348
+      },
+      {
+        "url": "https://blinklabs.xyz/animations/shield.webm",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 464279,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"50c6d0129462e161a2e15f649f07fae4-ssl\""
+        },
+        "responseBodyHash": "b06a88a6d8043bd35fc44b029c1ad3d594c999b5fb2e1f3c03e7ef54395008bf",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.6045889999995779
+      },
+      {
+        "url": "https://blinklabs.xyz/animations/coins.webm",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 1956472,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"e92b4cd75c6fe3a96091036d22be516a-ssl\""
+        },
+        "responseBodyHash": "7f9709a47b293ee258c4da3ecf9d1ffaa8524d0ee97f962423acec1b3d7a398c",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.38043800000014016
+      },
+      {
+        "url": "https://blinklabs.xyz/animations/monetization.webm",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"6b47ddf64bae2d0a87a10a50b13ffa6b-ssl\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.6272799999997005
+      },
+      {
+        "url": "https://blinklabs.xyz/animations/shield.webm",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 464244,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"50c6d0129462e161a2e15f649f07fae4-ssl\""
+        },
+        "responseBodyHash": "b06a88a6d8043bd35fc44b029c1ad3d594c999b5fb2e1f3c03e7ef54395008bf",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.8438850000002276
+      },
+      {
+        "url": "https://blinklabs.xyz/animations/coins.webm",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate",
+          "etag": "\"e92b4cd75c6fe3a96091036d22be516a-ssl\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 0.6902209999998377
+      },
+      {
+        "url": "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/1N5W0HMW97O5/1N5W0HMW97O5.js.gz",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_ORB",
+        "initiators": [
+          "https://blinklabs.xyz/"
+        ],
+        "time": 3.8422559999999066
+      },
+      {
+        "url": "https://plausible.io/api/event",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 202,
+        "size": 522,
+        "remoteIPAddress": "169.150.221.147",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform, Sec-CH-UA",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate"
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://plausible.io/js/script.js",
+          "https://blinklabs.xyz/_next/static/chunks/3232-c4f926ed9a8e2fa6.js",
+          "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js",
+          "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js"
+        ],
+        "time": 3.1319110000004002
+      },
+      {
+        "url": "https://blinklabs.xyz/about?_rsc=1ld0r",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3324,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate"
+        },
+        "responseBodyHash": "eab9ad0ee25a30eddf3265bf9b59c659f6acbf3fbd63b1e479c9da794bd9802f",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js",
+          "https://blinklabs.xyz/_next/static/chunks/8173-0aecdb312eb56a26.js",
+          "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js"
+        ],
+        "time": 0.4283050000003641
+      },
+      {
+        "url": "https://blinklabs.xyz/support?_rsc=1ld0r",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4549,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate"
+        },
+        "responseBodyHash": "e373fc73d417e45c32d412e6688bdd0a2504f02412573c361c573ec7779d299d",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js",
+          "https://blinklabs.xyz/_next/static/chunks/8173-0aecdb312eb56a26.js",
+          "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js"
+        ],
+        "time": 0.4273769999999786
+      },
+      {
+        "url": "https://blinklabs.xyz/sponsorship?_rsc=1ld0r",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4139,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate"
+        },
+        "responseBodyHash": "38095ca6bef235ccd7f3abbbcd8a9a3d45569dd09eca536ea7a6a1696b94cfdd",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js",
+          "https://blinklabs.xyz/_next/static/chunks/8173-0aecdb312eb56a26.js",
+          "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js"
+        ],
+        "time": 0.42771600000014587
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/app/support/page-33aa975094924896.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1793,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"d0c7ff9743cc73ebe31738e5e4da67e3-ssl-df\""
+        },
+        "responseBodyHash": "ff500001c4f1336a8d64c06cf8c175264465d8d0285317433ff37ee8bce3620a",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/chunks/webpack-291f70ff2f9f6579.js",
+          "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js",
+          "https://blinklabs.xyz/_next/static/chunks/8173-0aecdb312eb56a26.js",
+          "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js"
+        ],
+        "time": 0.18447800000012649
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/app/about/page-1764ebb8fc0f67cd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1642,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"8e91c34e7655806d7cf19e43fd36a9c1-ssl-df\""
+        },
+        "responseBodyHash": "2eb1a7a64f4cf5cb81f2f6a3c6e5abc41e7d642844e8cd276d395a1d004e888a",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/chunks/webpack-291f70ff2f9f6579.js",
+          "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js",
+          "https://blinklabs.xyz/_next/static/chunks/8173-0aecdb312eb56a26.js",
+          "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js"
+        ],
+        "time": 0.1829619999998613
+      },
+      {
+        "url": "https://blinklabs.xyz/_next/static/chunks/app/sponsorship/page-4710dc2821764e6c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 729,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"2eb1d4de24b45f427e9280d05f07ea8c-ssl\""
+        },
+        "responseBodyHash": "3a7751ab7703f292d51f36afcd7f60edf6e04babf39814be8876ad0bd465bdf9",
+        "initiators": [
+          "https://blinklabs.xyz/_next/static/chunks/webpack-291f70ff2f9f6579.js",
+          "https://blinklabs.xyz/_next/static/chunks/1517-9a766a5f1e232c4e.js",
+          "https://blinklabs.xyz/_next/static/chunks/8173-0aecdb312eb56a26.js",
+          "https://blinklabs.xyz/_next/static/chunks/4bd1b696-b537b0489da1603b.js"
+        ],
+        "time": 0.18123100000047998
+      },
+      {
+        "url": "https://blinklabs.xyz/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1507,
+        "remoteIPAddress": "3.168.86.102",
+        "responseHeaders": {
+          "cache-control": "public,max-age=0,must-revalidate"
+        },
+        "responseBodyHash": "d83cb090e4f8d6f85b7e560c46b072f377ace24bb0ec0b78b0b911a4b448fa7c",
+        "initiators": [],
+        "time": 0.13876900000013848
+      }
+    ],
+    "cookies": [],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {},
+      "savedCalls": []
+    }
+  }
+}

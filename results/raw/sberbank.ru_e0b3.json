@@ -1,0 +1,780 @@
+{
+  "initialUrl": "https://sberbank.ru/",
+  "finalUrl": "https://www.sberbank.ru/ru/person",
+  "timeout": false,
+  "testStarted": 1774989591487,
+  "testFinished": 1774989599427,
+  "data": {
+    "requests": [
+      {
+        "url": "https://sberbank.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 4562,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {
+          "cache-control": "no-store, must-revalidate, no-cache, max-age=0",
+          "set-cookie": "TS53ce73bb029=0817d681ccab2800e3874abb9571344888e19ce3286d909ae7276854324c1f81b1e1e421588e1b1409e51d88ee0a5e94; Max-Age=30; Path=/\nTS53ce73bb029=0817d681ccab280001b98f822094b39e3bd1a057961a2c1b0b291c6782d97769fd2c7cfedb416ec24eebaa7d16368c47; Max-Age=30; Path=/\nTS53ce73bb078=0817d681ccab2000d24c1e4f88231df86af6e06e7d74882c9930f31fa18eea2946815d0ec221a76d08f21ef9dd1830018722c8e878d9e1746bf75562ec7834cdd204fb46d3d30855295d94977102d61e01069a07e11fcd219ef81f1460dd1cbc952b6bce168527107b31813210da71e7fcf5b970b489bf4ac53071662e1e90d7fe45fef576209c76fb5b7afc40f72010cd7fb45f4f5d1e51eec10a116e0593bf2fc0d9a4e10919084a833674b84123682c81fddec541381d3c228acff5017f91e72e4d0439502a7681079800022225f7939566b9a40a6e38460522444f01f836687f18ae31034f15809b0adb9d8032252e12811f4e0060ac5cc1064a18b0c4cf7d54f22588d81901da7784111b7355a74b143664d1c21a025e3577008b75d302c5ec9e30a253b914923fac6a7ae1afda14841efa4167e94c48a1f3927c898fa6e70882fc79a0ba4ece753dd0403a576f32c441ce6f1f1167d2c5cc8cfd967438; Max-Age=30; Path=/\nTS1a1f2c2b027=0817d681ccab20006f58a4534fbd7ef61f2dca841b84d0da745aa09c6ff758fa425f8cc4cf86a2480829d4610e113000a33d398a731c6f4ae75cd1f71b1ba080416a4d7a3c154d247e3c27b4fc9e1521f7e18f9b2bdb8809528dc98170335654; Path=/"
+        },
+        "responseBodyHash": "0b7d75e00fbde4d5475fbc98e9f3b31fd36f13be522a8e00926a6f4ebd2cc999",
+        "initiators": [],
+        "time": 1.0394150000010995
+      },
+      {
+        "url": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125081,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "ef3d543f7c10514e1235c6ce70eedd698e705b0338f60b2ce7c1f4866ff6f6a9",
+        "initiators": [
+          "https://sberbank.ru/"
+        ],
+        "time": 1.6029520000010962
+      },
+      {
+        "url": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=12",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38075,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "552f179b8856e5355d6d5865abf56d10af6a0e698c3a8ea2b5610c459fbe37a3",
+        "initiators": [
+          "https://sberbank.ru/"
+        ],
+        "time": 1.414520000000266
+      },
+      {
+        "url": "https://sberbank.ru/TSPD/0817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be8?type=13",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 597,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {
+          "cache-control": "no-store, must-revalidate, no-cache, max-age=0"
+        },
+        "responseBodyHash": "996b1eb7c8b998b8f66af8ddbd77e153a67558ebcc586547e4a66a9e00e98202",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.20038799999929324
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.005421999998361571
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.005250000000160071
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.0051550000007409835
+      },
+      {
+        "url": "chrome://rumola/content/rumola48.png",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.00003199999991920777
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004985999999917112
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004920000001220615
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004853000000366592
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004768000000694883
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004702000000179396
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004648000000088359
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004569000000628876
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.00450500000079046
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.00444699999934528
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004391000000396161
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004340999999840278
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.00427299999864772
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.00420999999914784
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004141999999774271
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004070000000865548
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004011999999420368
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.003952999999455642
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.003893999999490916
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.003839999999399879
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.003767999998672167
+      },
+      {
+        "url": "chrome-extension://invalid/",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.003710999999384512
+      },
+      {
+        "url": "http://127.0.0.1:8888/404",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_CONNECTION_REFUSED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004219999998895219
+      },
+      {
+        "url": "http://127.0.0.1:8888/random_url",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_CONNECTION_REFUSED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004232999999658205
+      },
+      {
+        "url": "http://127.0.0.1:8888/400_random_url_with_numbers_403",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_CONNECTION_REFUSED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004273000000466709
+      },
+      {
+        "url": "http://127.0.0.1:8888/200",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_CONNECTION_REFUSED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004290999999284395
+      },
+      {
+        "url": "http://127.0.0.1:8888/403",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_CONNECTION_REFUSED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004376000000775093
+      },
+      {
+        "url": "http://127.0.0.1:8888/302",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_CONNECTION_REFUSED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.004721000001154607
+      },
+      {
+        "url": "https://burp/favicon.ico",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_NAME_NOT_RESOLVED",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.1501459999999497
+      },
+      {
+        "url": "https://sberbank.ru/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.sberbank.ru/ru/person",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.20040700000026845
+      },
+      {
+        "url": "https://www.sberbank.ru/ru/person",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 4487,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {
+          "cache-control": "no-store, must-revalidate, no-cache, max-age=0",
+          "set-cookie": "TS53ce73bb029=0817d681ccab28001e51f136f3e4ac965964ed192521f7d15629194a1f807b2fee2a592a729201555dc1e702b553c954; Max-Age=30; Path=/\nTS53ce73bb029=0817d681ccab28002f04f1e047e942fa83ca9ddc7d4bfc5b176f7560b671b290cf36e6b00b5b0d5263db414928d1975f; Max-Age=30; Path=/\nTS53ce73bb078=0817d681ccab2000585c8ba8285015fe8619d5535f66faeca4a3026d155701c2d5151bcffa18bb6b08be58511d184001259a81750332596c9b4b9a8bf7941ddc326fb82cc0312b384fb7f570f932b031876114f997c3912160129e7565a3bfdad54ebd2bb3f545e422534a82164cc478c69494d85e3df9706d6d0ef133ab3a74cdfb9d5db568939a491645b2ebd9e1cb0e2f4871a6eec963351d5719462339d47e3b8987ca9aa7f4c61da88a76eb1bb8e5cb7f998f2afcaf2668b26d37079ed328015596f271e765f725c6dcd68b6aefa6cc692dbe2e6d3efb84758501d5035358de20cd35020af0c029bde974c82d71a735094fdf80ac8527ede156c1c7f2c30e5d35d8c709f5f130d7d22a43131969b7ecb5f0435216a5ed416f8e0cea3e6a4cf86697060df251d929e7d984dac83e78846ad81af302e129824209738a8091fa424b1931589cf67f31f8836c41f5cbbaf4dbe756520aa27a261e80367627cb55e5631949a08974ca097f4c4e560597; Max-Age=30; Path=/\nTS1a1f2c2b027=0817d681ccab200070269dccd73bf43faa8fa2e45e256dafa6880331bf2267e4e7eedc0eafa237fa089a6116e6113000e9158aae76fa97891d1e175ffd56cb25ff9db74e9f08fa8fc82ee30bfcf15b50262d623c44e4cfb495501c13535d7d4c; Path=/"
+        },
+        "responseBodyHash": "72d26e04d928e3cb97e74ce20ffcc2dafe5d53a2144bb107f73064324aa1e4c2",
+        "redirectedFrom": "https://sberbank.ru/",
+        "initiators": [
+          "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11"
+        ],
+        "time": 0.42995499999960884
+      },
+      {
+        "url": "https://www.sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125052,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "ef3d543f7c10514e1235c6ce70eedd698e705b0338f60b2ce7c1f4866ff6f6a9",
+        "initiators": [
+          "https://www.sberbank.ru/ru/person"
+        ],
+        "time": 1.4595330000011018
+      },
+      {
+        "url": "https://www.sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=12",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38075,
+        "remoteIPAddress": "84.252.149.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "552f179b8856e5355d6d5865abf56d10af6a0e698c3a8ea2b5610c459fbe37a3",
+        "initiators": [
+          "https://www.sberbank.ru/ru/person"
+        ],
+        "time": 1.2693209999997634
+      }
+    ],
+    "cookies": [
+      {
+        "name": "TS53ce73bb078",
+        "domain": "sberbank.ru",
+        "path": "/",
+        "expires": 1774989622950,
+        "session": false
+      },
+      {
+        "name": "TS00000000076",
+        "domain": "sberbank.ru",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "TSPD_101_DID",
+        "domain": "sberbank.ru",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "TS01f0a616",
+        "domain": ".sberbank.ru",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "TS53ce73bb029",
+        "domain": "sberbank.ru",
+        "path": "/",
+        "expires": 1774989627240,
+        "session": false
+      },
+      {
+        "name": "TSPD_101",
+        "domain": "sberbank.ru",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "TS1a1f2c2b027",
+        "domain": "sberbank.ru",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "TS53ce73bb029",
+        "domain": "www.sberbank.ru",
+        "path": "/",
+        "expires": 1774989627671,
+        "session": false
+      },
+      {
+        "name": "TS53ce73bb078",
+        "domain": "www.sberbank.ru",
+        "path": "/",
+        "expires": 1774989627671,
+        "session": false
+      },
+      {
+        "name": "TS1a1f2c2b027",
+        "domain": "www.sberbank.ru",
+        "path": "/",
+        "session": true
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11": {
+          "Navigator.prototype.userAgent": 21,
+          "Navigator.prototype.plugins": 8,
+          "window.innerHeight": 2,
+          "window.innerWidth": 2,
+          "window.indexedDB": 1,
+          "window.localStorage": 13,
+          "Navigator.prototype.platform": 3,
+          "Document.cookie setter": 12,
+          "Document.cookie getter": 6,
+          "window.name": 8,
+          "Navigator.prototype.language": 2,
+          "Navigator.prototype.appCodeName": 5,
+          "Navigator.prototype.appVersion": 5,
+          "Navigator.prototype.vendorSub": 2,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.productSub": 2,
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.appName": 5,
+          "window.screenX": 2,
+          "window.screenY": 2,
+          "Screen.prototype.width": 3,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Navigator.prototype.mimeTypes": 6,
+          "Screen.prototype.orientation": 2,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.availHeight": 1,
+          "Navigator.prototype.languages": 1,
+          "Performance.prototype.memory": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.pixelDepth": 1,
+          "Screen.prototype.availTop": 1,
+          "Screen.prototype.availLeft": 1,
+          "Navigator.prototype.mediaDevices": 1,
+          "BarProp.prototype.visible": 5,
+          "window.outerWidth": 1,
+          "window.outerHeight": 1,
+          "window.devicePixelRatio": 1,
+          "HTMLCanvasElement.prototype.toDataURL": 3,
+          "DeviceMotionEvent.prototype.acceleration": 6,
+          "DeviceMotionEvent.prototype.rotationRate": 6,
+          "DeviceMotionEvent.prototype.accelerationIncludingGravity": 3,
+          "DeviceOrientationEvent.prototype.alpha": 2,
+          "DeviceOrientationEvent.prototype.beta": 2,
+          "DeviceOrientationEvent.prototype.gamma": 2,
+          "DeviceOrientationEvent.prototype.absolute": 2,
+          "RTCPeerConnectionIceEvent.prototype.candidate": 4,
+          "Date.prototype.getTime": 4,
+          "Navigator.prototype.webdriver": 1,
+          "WebGLRenderingContext.prototype.getSupportedExtensions": 1
+        },
+        "https://www.sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11": {
+          "Navigator.prototype.userAgent": 18,
+          "Navigator.prototype.plugins": 7,
+          "window.innerHeight": 2,
+          "window.innerWidth": 2,
+          "window.indexedDB": 1,
+          "window.localStorage": 2,
+          "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+          "HTMLMediaElement.prototype.canPlayType": 3,
+          "Navigator.prototype.platform": 3,
+          "Document.cookie setter": 2,
+          "Document.cookie getter": 1,
+          "window.name": 1,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTimezoneOffset": 3,
+          "Navigator.prototype.appCodeName": 5,
+          "Navigator.prototype.appVersion": 5,
+          "Navigator.prototype.vendorSub": 2,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.productSub": 2,
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.appName": 2,
+          "CanvasRenderingContext2D.prototype.getImageData": 1,
+          "WebGLRenderingContext.prototype.getParameter": 15,
+          "WebGLRenderingContext.prototype.getContextAttributes": 1,
+          "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 6,
+          "Navigator.prototype.getBattery": 1,
+          "window.screenX": 2,
+          "window.screenY": 2,
+          "Screen.prototype.width": 3,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Navigator.prototype.mimeTypes": 6,
+          "Screen.prototype.orientation": 2,
+          "RTCPeerConnection.prototype.constructor": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "HTMLCanvasElement.prototype.toDataURL": 4,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.availHeight": 1,
+          "Navigator.prototype.languages": 1,
+          "Performance.prototype.memory": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.pixelDepth": 1,
+          "Screen.prototype.availTop": 1,
+          "Screen.prototype.availLeft": 1,
+          "Navigator.prototype.mediaDevices": 1,
+          "MediaDevices.prototype.enumerateDevices": 1,
+          "BarProp.prototype.visible": 5,
+          "window.outerWidth": 1,
+          "window.outerHeight": 1,
+          "window.devicePixelRatio": 1,
+          "DeviceMotionEvent.prototype.acceleration": 6,
+          "DeviceMotionEvent.prototype.rotationRate": 6,
+          "DeviceMotionEvent.prototype.accelerationIncludingGravity": 3,
+          "DeviceOrientationEvent.prototype.alpha": 2,
+          "DeviceOrientationEvent.prototype.beta": 2,
+          "DeviceOrientationEvent.prototype.gamma": 2,
+          "DeviceOrientationEvent.prototype.absolute": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TSURLCK_test=test_cookie_support"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TSURLCK_test=0;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TS00000000074=0817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be808d866766b07e000c5f416018f1559d95ae49e22639d7c8787d8203d4205c0863495733bf7699a805567788f45ae1b01a5576d9a799b5a165dc0c5969ae9962b0af95d5bb19f6d3c7102764072effbe828a1d3ab73327acfc7c9a2eca59cec23b2dc8352192512070d0e6b9742f7bc49cc20884fa12652ec3c1bb4ec11e86e8c2d9d8c8f42e00f6575f64745ea262694c30dce5d64e37103aeb5cd79d7bba709f509487033ade89b7a42046244dbb9b70afb628a217d333c8c9bbdc35af00f8d79c5a73560572d576a65dcabdae8cfd9a906b0f2ceba6f4c191e07a398938ffdd2366a27944f5e36; expires=Wed, 01 Apr 2026 20:39:55 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=0817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be808d866766b091000a3c3a544c2559e214d09c9ba1f8a129d;path=/"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=0817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be808d866766b091000a3c3a544c2559e214d09c9ba1f8a129d; expires=Tue, 31 Mar 2026 20:39:54 GMT;path=/;path=/"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TS00000000076=0817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be808d866766b09d0007fe4656a79ef2d3a9f633c30fd0517ec0ebbe9e5f14c0ed9c776770ad0a127b482284d489e3eef0e99ab914731e3a54ec142437ae247cc670798b25016d32ba1574a577640dd595282c6faf01dc1d2eff4484331e72024679ebc20aa93ae357f51ff4e6b5e9c3f24465570d86f0f8c109346685394ce4e1477098d4b9dbc26f0c154a57d14ea9245412ef760030f33906e6c501f72510db6b0d7691d76d602274ed043f1372e86e982a9ca112446045563a812860f1d6230691e48135f9c31e5429a01e287d2a2a9034b9fbd48882134;path=/"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TS00000000074=; expires=Mon, 30 Mar 2026 20:39:56 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TSPD_101_DID=0817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be808d866766b063800a0c0040f973b51461466cb0bbb33283840bcfeeb46264a27c8b74a7080d614dad1cb05039b1342aa4438b4abc4fd7196ec7a672165280c23;path=/"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TS53ce73bb075=; expires=Thu, 01-Jan-1970 00:00:01 GMT;"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TS53ce73bb075=; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TS53ce73bb075=; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;"
+          ]
+        },
+        {
+          "source": "https://sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TS53ce73bb075=0502d1010817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be8:08d866766b04b0003af1923f205966e994b791acc7038ca3f5a4f9f581f5df14acd3a3858e58e8e513a51d66838b64b8aa57d0cd3bd1bfece6823cbb2d37d335f243b4086dccc4490868cbe9f023f74ef1fb33d583455b6e61b80074a47a683e5400e265fc32c589032dce44d072da2fd844042d239d495fe6f78304818736590e9c3fbe41198c6152e06a746e22f02327e531d0ca5b2b3afc19f4e7843599a1b1fb1abf1f2cfb1f2bf207b04df154d04f7f24ec9ab490e9a0010817d681ccab280033da9a888247b332b36df78bdce35ad2758af5b2b78d67fd3926b54b35864dd5bb2e5dcac00e1be808d866766b109800cefcef0d49ebdd2920aab380cbb2669c98ed64f3ddc7df7b65d96dcd4f86943991dfd0578bbd2fa287acc45b76adf1acae21264ba0a20505270ab1a5748b8cea06fb46e9657129a6bb2c0980753f305bd1835cf5e1685e75715ceff582ced9780799fd86b00e63aed0ee923b8f66aef2c60f5952466b394b34c4e19d0e364a6661e368e01bf51e743a414e7805ec49d5a858ad195e845da00001000b0000817d681ccab2000a556aefeb688acb42e6f70e7ac691b00cbb24ef0b43298a67972a745ab01a8eb08401a5cdc0a280018c7c8bcd100c8d23c4aff0a1c5ad24eb9209d453368c16ee3080d4b69c9b0f3f22ed167517d1acd01000;expires=Tue, 31 Mar 2026 20:40:02 GMT"
+          ]
+        },
+        {
+          "source": "https://www.sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TSURLCK_test=test_cookie_support"
+          ]
+        },
+        {
+          "source": "https://www.sberbank.ru/TSPD/0817d681ccab2000a8bd374093bc543a99376f9942e3244bfa8151016d69f789c469f3ec50b6298e?type=11",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TSURLCK_test=0;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1732 @@
+{
+  "initialUrl": "https://it.com/",
+  "finalUrl": "https://get.it.com/",
+  "timeout": false,
+  "testStarted": 1774992511282,
+  "testFinished": 1774992521298,
+  "data": {
+    "requests": [
+      {
+        "url": "https://it.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "185.174.235.118",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://get.it.com/",
+        "initiators": [],
+        "time": 0.5859349999991537
+      },
+      {
+        "url": "https://get.it.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 30157,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "cd27c067978348cb4298174903ab2bfd65c54fdf11306dc23cab7b66935baf64",
+        "redirectedFrom": "https://it.com/",
+        "initiators": [],
+        "time": 0.39935500000137836
+      },
+      {
+        "url": "https://get.it.com/downloads/itcom.min.js?v=0.0.24",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1380,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+          "etag": "W/\"661d3f55-ba4\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5082f047bfbae78936f10abed4a2d49d8d1b74fce5642641ce5fd88f905c96fd",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.18496500000037486
+      },
+      {
+        "url": "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1055,
+        "remoteIPAddress": "104.26.15.130",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=3600"
+        },
+        "responseBodyHash": "691cf75b6aa97d3ba2221ca122cf867502dd968430b483db6e9a6bbfc3335eca",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.16986499999984517
+      },
+      {
+        "url": "https://get.it.com/termsfeed-reload.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 338,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"1b7-5/C67i8W2Af+e/H13Qp0BxpIAgg\""
+        },
+        "responseBodyHash": "1be4a3f5de5bba2a99cc3d33c71599df6a9ddc3bb11c2546667ed2363a19dc7f",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.29789400000117894
+      },
+      {
+        "url": "https://get.it.com/_nuxt/GoUpContainer.Ba32RI8R.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2532,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"2822-XNGktn6wcTb8JlVnjF78HRmf27Q\""
+        },
+        "responseBodyHash": "2beb6088d8c43fb886a8b5ec01dac46c7879858df29f5d33243456027488c7d1",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.026792000000568805
+      },
+      {
+        "url": "https://get.it.com/_nuxt/set-user-uid.DYwNs4i7.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 270,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"ac-8Zu0TyL0Fw5EVa3h6aSl/7pd+NQ\""
+        },
+        "responseBodyHash": "2377085d3d401db3a60a1be1efdba3b3be915dabddde9c90d01a53d2e31a404d",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.025434999999561114
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DefaultSelectField.BMz4Ki57.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"474-REauRlj7Jjq/ccAvEosbzesbpgM\""
+        },
+        "responseBodyHash": "dd2cbd1813611f8de72a6a023246b60c736d8bd11ee2228ba1e7a9405a5bb843",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02613799999926414
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DropdownDefault.BcnxIaAk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 572,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"19d-+oDn0gFaz3TTTtS2kIPacUsuSNg\""
+        },
+        "responseBodyHash": "fecb18d177488e9d752ae0a409915dd1df87f6d08defdf62a94ef4b785859b4a",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02496900000005553
+      },
+      {
+        "url": "https://get.it.com/_nuxt/ContentWrapper.CJHbDAFc.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 180,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"5f-sB0OeqMhy39AeYHhlu4jcXDxZrk\""
+        },
+        "responseBodyHash": "cb58d3d699d90fc8d23fb4a81a665a97e1953ec300d6d2a3e3bba272959d4bb1",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.025503000000753673
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Socials.BKPwIhgp.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 259,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"eb-BUd53GgCToJMx3XBp9rjomKdafw\""
+        },
+        "responseBodyHash": "6c1ef1a9c8813e346959af8a60d955c05bfa02f83f9e514a2264fd3d692018a3",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.025687000001198612
+      },
+      {
+        "url": "https://get.it.com/_nuxt/SearchDomainField.BNgEcM-Q.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 514,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"546-8PM9B5dc7nrz5eMJTAgkQ1zUHfU\""
+        },
+        "responseBodyHash": "c49b24dcff5bcb863f6a87e76473d5f63fbb01ffd87922ea820ea1529969fb4a",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.027613000000201282
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DefaultTextField.HFVv5AZd.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 443,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"3e2-IfmX5Q8+hqNQpAdMpzmg9dC3f8k\""
+        },
+        "responseBodyHash": "85fd42a6f56ca33339f0c414433ba0ab7b963170f7f05d0b4cd2dd3ff83ed62a",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.027313000000503962
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DefaultButton.BWmTI97k.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 306,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"2d4-T7zfa7Vr9rbOAl8QGohXUjwZigw\""
+        },
+        "responseBodyHash": "6dcd3c982b7ea975c8751642fe12be262d5c657e835e17dd409acdd2a9beca0a",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.025993999999627704
+      },
+      {
+        "url": "https://get.it.com/_nuxt/ReasonTab.CmADm7my.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 593,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"776-BgVKzSCURtERItBHUI294ky0GKY\""
+        },
+        "responseBodyHash": "863253b062225c55918c6e216cbb748c05dc94ef1eb610f458339f53f8fb6c33",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.026421999999001855
+      },
+      {
+        "url": "https://get.it.com/_nuxt/FeatureTab.BdlTX_El.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 435,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"342-YLR7pAePE34+vPSfx7xl+RNOKYE\""
+        },
+        "responseBodyHash": "f459201881d31049149c219791f26bff8be2ea2f6363e775ff7ce3b81037b8cd",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02758900000117137
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DeTcRwqj.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177934,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"7f335-ZdjYt/F9XZY4cmPVmnZIS/ukvcw\""
+        },
+        "responseBodyHash": "61e8049b429aa1eeb3de124b672cab3059589691806da307aaf9d29c4bf3e468",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.055618000000322354
+      },
+      {
+        "url": "https://get.it.com/_nuxt/VrvUlrG2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 839,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"526-Ia1zymx7crjV6c0zMsrXT+MYHrE\""
+        },
+        "responseBodyHash": "4dfa263b62e879e629d2b1d4637403e1a311ce2004463d86fecb9fbff09fc07a",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02770799999962037
+      },
+      {
+        "url": "https://get.it.com/_nuxt/CsrgE0OO.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6921,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"47a6-9yE6TlWEuXKTBDJ2gNTzs/4jV18\""
+        },
+        "responseBodyHash": "c1515795af94f90d9437b03c8523704406ee0b74465ba0dec11a4269bdf2817e",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02643800000078045
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DL-gldEK.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1284,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"91d-dyC91tCkDMb9stCIaaZ0s5luGK4\""
+        },
+        "responseBodyHash": "641612c1708a34bf7b5eae6ead239eff0794786bc66f69fee991f58a877be24d",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.028038999998898362
+      },
+      {
+        "url": "https://get.it.com/_nuxt/BPJmBmrf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2450,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1648-N1KdyxWLVkC+Up25o6i+l1agnn4\""
+        },
+        "responseBodyHash": "0dffbe9e52f20bb7c57852695a185f323b0707bcabb11b9f920f98753772255d",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.028926000000865315
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DVXl5MaO.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 697,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"55a-LEyHJnivS8nq4cMWsmwv//mOvLc\""
+        },
+        "responseBodyHash": "6fb8012952523cb6d0a1bebcf94f268a4bf6325ecee29e60d682ce190ed80665",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.028372000000672415
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DxkZIZLm.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 599,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"33c-hrxlLAjdrSxoMy1bqH3AhGdcsAY\""
+        },
+        "responseBodyHash": "614737965d09826216b2e5d5a00f567601576e75999c877da9573aeaab9ed1ec",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02807299999949464
+      },
+      {
+        "url": "https://get.it.com/_nuxt/BKaVRj4E.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 646,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"399-bldv9wHq6cpsXg9U+kF1QoSpU/E\""
+        },
+        "responseBodyHash": "9be432e8d700a571c885c1d762ca56fd07ada9f1f2cf383144e570acf74eed5b",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.027522999998836895
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Yqm-Y7j5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1023,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"6b1-d4+YYZN5cwAoSf2R5p0vWOR1WLg\""
+        },
+        "responseBodyHash": "776f89e6568d9666888ce5804d8f1f85fd16538b19bc28f845f14ee500985ff1",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.028899000000819797
+      },
+      {
+        "url": "https://get.it.com/_nuxt/svdPZ3ci.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1172,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"773-TPa4tDf/8FVTMpO/SmTxLvjpkxk\""
+        },
+        "responseBodyHash": "f83a144dc207e5fd89a6400d1b0fc09f549f9e08e9ca64656fbf6402b9bb9ae3",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02907699999923352
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Bwiof4ra.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 526,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"16d-hK3GXDnAFK5cWUMAo7IgsZAmRSo\""
+        },
+        "responseBodyHash": "dc0e6aea5b8737e5158ef8d665e57e39578d568632292603321e47a740255266",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.028275000000576256
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DkrynXKf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 537,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"2c1-TtoAsQDxmtUKYa3hTRlxuxzXqeE\""
+        },
+        "responseBodyHash": "c65306102f603e41cc911fc6432b4fd1dd828499626dad98a757abfd14c1b214",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.029355000000578002
+      },
+      {
+        "url": "https://get.it.com/_nuxt/BMVs4omw.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 816,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"4f1-VsVS2KqZaNQ2Km7aoqz/EG8eo8k\""
+        },
+        "responseBodyHash": "0282eb233d7bee6bad29cd1769139635dc741cf262c865ccb0e8165a4a629213",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03180199999951583
+      },
+      {
+        "url": "https://get.it.com/_nuxt/GI3URwn2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"203-Lq7IEh0WW765cjf3B3WlMRcLOZc\""
+        },
+        "responseBodyHash": "9ac2f9dfe91ddc441596d2389e4679cd7d892c24ab094e4a3a19d7d3c447fadf",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02945999999974447
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DB7YS2IY.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 567,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"2ef-D2+Sz+/DSwQaZukahpWeDK3dO5E\""
+        },
+        "responseBodyHash": "764008cacaea5df7f24ae1b98f31257ee314c04a1a3a49cb90f7e2d931e52f69",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02965099999892118
+      },
+      {
+        "url": "https://get.it.com/_nuxt/yyn1SHLj.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 707,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"3e0-zI6qwliS/K5lnnBNDJRjFYbqVLQ\""
+        },
+        "responseBodyHash": "f57eefca8a112841731f923197e7b9421415967e6496ec18267443d7b8a74697",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03018100000008417
+      },
+      {
+        "url": "https://get.it.com/_nuxt/CGxxLQql.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 414,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1de-ZYcLZ+js5AQjvWTeTXC6g01AOVA\""
+        },
+        "responseBodyHash": "e6077e1dbff38efa8b637d25d8038261cfb6ec28a610aa13e2f0c2dac8cc2847",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02975200000037148
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DTkos88j.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16462,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"6382-x8F/2s3PB7xdHnv4VDT6eiuOZjA\""
+        },
+        "responseBodyHash": "da0b737e0abffe612510e289c068edeee5301e264c9e241953632579d6e2ae1a",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.031355999999505
+      },
+      {
+        "url": "https://get.it.com/_nuxt/ChZm3ZA8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1594,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"c5c-cDczxJYNY1zo2UBlOoPviLoqKLY\""
+        },
+        "responseBodyHash": "4f84cde9ed7b4799b2c60e18301e37607142a0fc5d2d85b12259357560b53d9b",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.031785999999556225
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DrJhwkc6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 917,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"5cf-+GHtJMR1DV+9oldzwKJgQK8dEy0\""
+        },
+        "responseBodyHash": "39a0dac24803b84edf1b18264ec9de890b87d818bddd6b79247440cb28d1d13e",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03157099999953061
+      },
+      {
+        "url": "https://get.it.com/_nuxt/jdW-PRtw.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 705,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"412-3YqL0wkZtjRlT7dqRJL//9RyMng\""
+        },
+        "responseBodyHash": "f1e3554a557b7dab2ce2cd14bbcee0de4b61ab60af1a14de558c4d7b687571bc",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03006699999968987
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Ci7XrirT.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 351,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1a0-X7n7CQLrWolR0dtRdRwrqKOXPRI\""
+        },
+        "responseBodyHash": "da8e04385bff66aa057045d42f5adf34c70d9bb0575630f38834241ef9133f8b",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03184499999952095
+      },
+      {
+        "url": "https://get.it.com/_nuxt/BrsWZxL2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 749,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"428-Ty4DgMR1swYbOeIzz1K3E9bVvfo\""
+        },
+        "responseBodyHash": "9fff5701f3919871ce51ff2008ec990b59964bb7cf323c1a6f8d98a8e92627cf",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03426199999921664
+      },
+      {
+        "url": "https://get.it.com/_nuxt/YbP2DS9g.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 849,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"613-Tf9PO8n3CE9bmS/qQGWeMGsY6iE\""
+        },
+        "responseBodyHash": "aed88f64b0a265393c760a31afaa6993f0cc101bf008d08bdda68391c0aaef93",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03198100000008708
+      },
+      {
+        "url": "https://get.it.com/_nuxt/BGmalzRf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 613,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"3a1-Ku3gtVl/P9v3x7t8S4AHeBi7Cr8\""
+        },
+        "responseBodyHash": "82c78d624f2920449af31d07fe5d5f2b1b517f3aaeaf8bab4f7d8cdcaf0c7e59",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03244500000073458
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Cq0aTOPz.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 348,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1a0-h+UDZW3RhTavdbk3IblWL/1w4gw\""
+        },
+        "responseBodyHash": "65819eb86eb8cb20b924335500005041c8fa9cb969637855bcc68a0b409e481c",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03212600000006205
+      },
+      {
+        "url": "https://get.it.com/_nuxt/BwzpL6wf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 657,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"245-HtpVG2EdXrSr5lEg1N+/XIH3vZk\""
+        },
+        "responseBodyHash": "2261573acdbf2771635358fe1c9d144f37e1b93414a3d8d7332869feaed96496",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.05400999999983469
+      },
+      {
+        "url": "https://app.eurometrics.eu/script.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2266,
+        "remoteIPAddress": "104.21.65.231",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, must-revalidate",
+          "etag": "W/\"a83-19d3f05c878\""
+        },
+        "responseBodyHash": "49374f8b2a4429654a05391b7c3bfed852250605bb61c8d67765ad2fb831d5b5",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.1685539999998582
+      },
+      {
+        "url": "https://get.it.com/images/logo-sf.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4276,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"2985-Z85CD8gnDvy5x0QpS94B8scnMQo\""
+        },
+        "responseBodyHash": "8f3b40c49788589479fa2de69d300243ddc0f50a76bc139d8199784357694c4e",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.29369100000076287
+      },
+      {
+        "url": "https://get.it.com/images/icons/facebook.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 612,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"427-UwpqK4En47gXVTYF8cY3UHR/Lsw\""
+        },
+        "responseBodyHash": "52bd8b50d9bf363bd9657155406ea49bfb465bbce577172432b08e8cbceb052d",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.07056499999998778
+      },
+      {
+        "url": "https://get.it.com/images/icons/x.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 425,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"216-iUS/mRQDiEK867/kMuu/lg8r+AE\""
+        },
+        "responseBodyHash": "6c2353d42eb00b99b99bdbb1d9344eb8e857a392ddd3eebefdfaa26a89c7ff12",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.294224999999642
+      },
+      {
+        "url": "https://get.it.com/images/icons/linkedin.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 658,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"552-uVK8OvjUAAC4tZgP1Dj+oLpCXaI\""
+        },
+        "responseBodyHash": "4a6218625b85f14711e0c169e2599564aa7b3f80c7b1253d8c773a3fac3cb508",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.07085100000040256
+      },
+      {
+        "url": "https://get.it.com/images/icons/github.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 826,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"57f-TQJBGIHjiq/QSNM992OpZu5HXXg\""
+        },
+        "responseBodyHash": "a4a17d3dfbf7bdb8f16dcc7ed74d50fd22194c9b56a2b9855818b84dd04893ae",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.29425999999875785
+      },
+      {
+        "url": "https://get.it.com/images/partner-logos/inta.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1690,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"fc2-04k9yeQj2EMBw3yaYB1iRQnIwaQ\""
+        },
+        "responseBodyHash": "64efa9284703b06bcaf10291e94e7ffa58b0b5cffbc79fb80c6191c6a920d51f",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.29502599999977974
+      },
+      {
+        "url": "https://get.it.com/images/partner-logos/dns-oarc.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7520,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"49fa-Ek+b+kegkcO9fY2E7S4EDg72Uvs\""
+        },
+        "responseBodyHash": "923d9b0aa429447d788157b2e5d6edb7f37cd48f2a8104f1a32fd8b0da3277d1",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.0743400000010297
+      },
+      {
+        "url": "https://get.it.com/images/partner-logos/iic.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3828,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"27db-B/UxZSduOjOdtgwJnGgD1XNqZp0\""
+        },
+        "responseBodyHash": "46be73f64e0674e33ed6a0153bec4a8759c8aaa901500d7cd4e8bafe349b89a5",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.2943679999989399
+      },
+      {
+        "url": "https://get.it.com/images/partner-logos/aptld.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3074,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"1a51-AI21ekcGjS0GL6naomYW1/ThYDw\""
+        },
+        "responseBodyHash": "bb5eeaaef68b015bc7b65308facb6e644f5eaed5d3a45c973c7800bdca9f00ef",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.07458299999962037
+      },
+      {
+        "url": "https://get.it.com/images/partner-logos/ica.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3723,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"2ab7-w9KsiwrR21owpslbODvGyn1fp1o\""
+        },
+        "responseBodyHash": "ff61106c389ab1e396be39fa8f595ed709fa81fe2e483d4ccb3d758b9f92f3f6",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.29497599999922386
+      },
+      {
+        "url": "https://get.it.com/images/partner-logos/iso_cropped.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14716,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"8b3b-4RvhuZ3Wm4UkxQtJ/Q93Xuow7Hk\""
+        },
+        "responseBodyHash": "1b4440233d347dfa245bf012971940a7c401f4bf31dd476fd05be164763f355b",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.08006999999997788
+      },
+      {
+        "url": "https://get.it.com/_nuxt/bg-domains-ref.BOPxBQt9.webp",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 72613,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"11ae8-euERka55daBx7w2KHaNc1ZG90wY\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.03143900000031863
+      },
+      {
+        "url": "https://get.it.com/images/flags/en-us.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 844,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"1174-jzP6h74DCWsVx2EZBjFB+VIsfxc\""
+        },
+        "responseBodyHash": "aefd8f7e57d11f7b0416d01d9c665ab3848b10af849f35a4d772d58d24d83329",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.025948000000425964
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Rubik-Regular.Br1IBUhF.ttf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 59453,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1e54c-0Gxwg6efEqj3C0n+iQHHO4Cu2lU\""
+        },
+        "responseBodyHash": "1dbc3bc50464e16a673bc8841b8803d185c1849872132e4f7bc95125ce0bcf6e",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.05247899999994843
+      },
+      {
+        "url": "https://get.it.com/images/video-player/back.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6897,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"5897-0n2K2D1Jqsw4+uzQprfZEH1YtLE\""
+        },
+        "responseBodyHash": "e33852454a1b9a4ca50580cbca6ec37c0f9632dfd5f0d39198fe947c865b2613",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.2197310000010475
+      },
+      {
+        "url": "https://get.it.com/images/video-player/front.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2668,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"233a-dPgh4EVk+Xu0WLtobcKA0mIAGf0\""
+        },
+        "responseBodyHash": "a4f3bded6d22874d77443f1942923bbe23bb4e5e7bc3b8c8f766375bad5b0f72",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.018341000000873464
+      },
+      {
+        "url": "https://get.it.com/_nuxt/bg-domains-ref.BOPxBQt9.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"11ae8-euERka55daBx7w2KHaNc1ZG90wY\""
+        },
+        "responseBodyHash": "3ffe3469b17d6ecdcbeb78087f734f0015ae62b675566ab03d1ee9db5489580c",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.0034379999997327104
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Rubik-Bold.DkFUAGWi.ttf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 59694,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1e4c0-QeqL9kDj8bSX2P8fr3mznVX5/YQ\""
+        },
+        "responseBodyHash": "7a9da7714d2320ed285f5856e4ae6e5bc9a3acb60867dabdd191ebf635b8fe77",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.050865999999587075
+      },
+      {
+        "url": "https://get.it.com/_nuxt/Rubik-Medium.Bcah308c.ttf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 60207,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1e510-ndQWu5iQh6PmMSX0/qeJjJf/FXw\""
+        },
+        "responseBodyHash": "b7104088da3dda5acdcd7540634a0faf4d25ff396eb27e48b9ca2b6522f813dd",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.04959400000007008
+      },
+      {
+        "url": "https://get.it.com/images/content/choose_name.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6788,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"570b-8jjMvsdM7baEM+Eo62L0PkLw99s\""
+        },
+        "responseBodyHash": "fce593042e6d39821a5c6c5c57bfbd8bdb3c8228b247afa4c6da6094767873a4",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.022713000000294414
+      },
+      {
+        "url": "https://get.it.com/images/content/forget_heght_cost.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4185,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"3c60-YkmXOGRxzBt1BSuS2wJbcl6V69I\""
+        },
+        "responseBodyHash": "1eaeecc999b911c6fb04158a9fd183eabb22414b1086cd1ef1fc19bb19fe57ca",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.02331899999990128
+      },
+      {
+        "url": "https://get.it.com/images/content/domain_name.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9065,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"6e2c-z7L2wnxTtx4XIo0Lj5dHiPtyve4\""
+        },
+        "responseBodyHash": "f2407361a9e5a8fbf64846c0cb5add987cf817cd356d6515c3c185e2c7976d73",
+        "initiators": [
+          "https://get.it.com/"
+        ],
+        "time": 0.024957999999969616
+      },
+      {
+        "url": "https://get.it.com/_nuxt/index.Dm8yF7ei.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1917,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"19e2-zoyQMhKaqYLawxSksxl9K5aYRpU\""
+        },
+        "responseBodyHash": "7fed98d78afc4043881b1bbe77516121a4df6a14dc3db503aa7568cc32d10b58",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 0.07095900000058464
+      },
+      {
+        "url": "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin-2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4561,
+        "remoteIPAddress": "104.26.15.130",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=3600"
+        },
+        "responseBodyHash": "06515e7832f4c5cdac4d3814afe5a6149c7489bbce68246c817b1d03bbaa8b5f",
+        "initiators": [
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin.js"
+        ],
+        "time": 0.13463899999987916
+      },
+      {
+        "url": "https://get.it.com/_nuxt/C8j8rGv1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9177,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"78a6-1diUUG7WvGNvxXZBoPp6oDd1mNs\""
+        },
+        "responseBodyHash": "3600bb09a5b988d335dc37bdc1d694faab8c03098c05f6bffb3c2a252a024b19",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 0.023242000001118868
+      },
+      {
+        "url": "https://get.it.com/_nuxt/c__i8qKe.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 55852,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"28474-7N+oOXJMwARshwF90+vu5+VGhfo\""
+        },
+        "responseBodyHash": "01d3bd6057f72adbc0874f8ff6b1ffa1d95a0801385cd129c2637bd27bd3d675",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 0.02779299999929208
+      },
+      {
+        "url": "https://cdn.termsfeedtag.com/plugins-code/pc/v1/plugin-r2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2891,
+        "remoteIPAddress": "104.26.15.130",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=3600"
+        },
+        "responseBodyHash": "94defeb575e6135ad133aed620a978ec4fd3ccda46fde478d34f507eeec13f38",
+        "initiators": [
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin-2.js",
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin.js"
+        ],
+        "time": 0.01842700000088371
+      },
+      {
+        "url": "https://cdn.termsfeedtag.com/plugins-code/pc/v1/preferences-r2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16241,
+        "remoteIPAddress": "104.26.15.130",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=3600"
+        },
+        "responseBodyHash": "4684ed3cb16bd4dbe98e95b52ba1bfbf8c4be5cc485bc3a7b22d206d5d46facd",
+        "initiators": [
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin-2.js",
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin.js"
+        ],
+        "time": 0.03814299999976356
+      },
+      {
+        "url": "https://cdn.termsfeedtag.com/plugins-code/pc/v1/vendors-r2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4754,
+        "remoteIPAddress": "104.26.15.130",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=3600"
+        },
+        "responseBodyHash": "5c63ea8b7bf9b36992390985107a01b167a3b7937dff5ddf3e28d24965d0abfb",
+        "initiators": [
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin-2.js",
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin.js"
+        ],
+        "time": 0.03198499999962223
+      },
+      {
+        "url": "https://cdn.termsfeedtag.com/plugins-api/pc/v1/39413550bf054ed6a395b03cf51ada66/get.it.com/settings.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 669,
+        "remoteIPAddress": "104.26.15.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, immutable, max-age=3600"
+        },
+        "responseBodyHash": "c85528d4be7ce358b8565f7d69858160bd4b041340088f6b79477f48cff82c55",
+        "initiators": [
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin-2.js",
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin.js"
+        ],
+        "time": 0.11462300000130199
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js?render=explicit",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1014,
+        "remoteIPAddress": "142.251.156.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 21:28:33 GMT"
+        },
+        "responseBodyHash": "2e078c0620bc185e451c2614841ce2ede44996e89568d507559ab473dd44ffdc",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 0.10548100000050908
+      },
+      {
+        "url": "https://get.it.com/_nuxt/default.uWkKkkR8.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 303,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1af-120Pw/smoLUBu2nek+oBzHa3oV8\""
+        },
+        "responseBodyHash": "b5473e97c68e15ffbb8d5ea66cb2def7f535c33423b2bf28669d2921347114ad",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 0.0187099999984639
+      },
+      {
+        "url": "https://engine.itcomdomains.com/api/v1/log/event/EnterToLandingWithUTM",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "172.67.72.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://get.it.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/_nuxt/yyn1SHLj.js",
+          "https://get.it.com/_nuxt/VrvUlrG2.js"
+        ],
+        "time": 3.355368999998973
+      },
+      {
+        "url": "https://cdn.termsfeedtag.com/plugins-api-w/pc/v1/39413550bf054ed6a395b03cf51ada66/get.it.com/en/settings.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6668,
+        "remoteIPAddress": "104.26.15.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600, s-maxage=0"
+        },
+        "responseBodyHash": "4996796a7c6a6e7971b7c1f62fc975b4b8ab67ecf43ee74b9ff0c85a0657617c",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin-2.js",
+          "https://cdn.termsfeedtag.com/plugins/pc/v1/39413550bf054ed6a395b03cf51ada66/plugin.js"
+        ],
+        "time": 0.13310099999944214
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "172.217.12.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/api.js?render=explicit",
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 2.454952999998568
+      },
+      {
+        "url": "https://engine.itcomdomains.com/api/v1/performance_metrics?payload=%7B%22performance%22:%7B%22timeOrigin%22:1774992512060.645,%22timing%22:%7B%22connectStart%22:1774992512670,%22secureConnectionStart%22:1774992512680,%22unloadEventEnd%22:0,%22domainLookupStart%22:1774992512652,%22domainLookupEnd%22:1774992512670,%22responseStart%22:1774992513047,%22connectEnd%22:1774992512698,%22responseEnd%22:1774992513048,%22requestStart%22:1774992512698,%22domLoading%22:1774992513062,%22redirectStart%22:0,%22loadEventEnd%22:0,%22domComplete%22:0,%22navigationStart%22:1774992512060,%22loadEventStart%22:0,%22domContentLoadedEventEnd%22:1774992513306,%22unloadEventStart%22:0,%22redirectEnd%22:0,%22domInteractive%22:1774992513174,%22fetchStart%22:1774992512648,%22domContentLoadedEventStart%22:1774992513305%7D,%22navigation%22:%7B%22type%22:0,%22redirectCount%22:0%7D%7D,%22userAgent%22:%22Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/135.0.0.0%20Safari/537.36%22,%22userAgentData%22:%7B%22brands%22:%5B%5D,%22mobile%22:false,%22platform%22:%22%22%7D,%22platform%22:%22MacIntel%22,%22languages%22:%5B%22en-US%22%5D,%22cookieEnabled%22:true,%22href%22:%22https://get.it.com/%22,%22screen%22:%7B%7D%7D&fcp=2398.105000000447&lcp=null&cls=0.0028125639935591895&uid=id__8d2ba95033e7f&href=https://get.it.com/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 356,
+        "remoteIPAddress": "172.67.72.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://get.it.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/downloads/itcom.min.js?v=0.0.24"
+        ],
+        "time": 2.241217000000688
+      },
+      {
+        "url": "https://get.it.com/_nuxt/BtVLWj5Y.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2936,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1ec4-Nd+jZ1tiQ1oMn7igfhwTAM2G5t0\""
+        },
+        "responseBodyHash": "de2e752e8f9f722d3b910f2fb62c6b70bb7c6a4b583acbf2940710bbd508ebb9",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/_nuxt/BPJmBmrf.js"
+        ],
+        "time": 0.022775000001274748
+      },
+      {
+        "url": "https://get.it.com/_nuxt/our-team.Cds9CoMY.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1453,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"14f0-awKTc2cnJ+RppJjB/doVnU93VQc\""
+        },
+        "responseBodyHash": "faac9daa9799f0ac9af7272cd88d803d088c12897f24cb3ff3b90813a5a300de",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/_nuxt/BPJmBmrf.js"
+        ],
+        "time": 0.022326000000248314
+      },
+      {
+        "url": "https://get.it.com/_nuxt/DCDdDki3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1109,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"83b-aw6tbpYzmbaUL+lkJb/rHgM/Cac\""
+        },
+        "responseBodyHash": "81eaa206ba0affd7dbce1fe6a28a33884e1c9880eb8d7f7261630fbe6ae62d1a",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/_nuxt/BPJmBmrf.js"
+        ],
+        "time": 0.022826999998869724
+      },
+      {
+        "url": "https://get.it.com/_nuxt/xIMBgYeK.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 426,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"20f-tcq18qzL/L4Prx85VpTqRg35XXE\""
+        },
+        "responseBodyHash": "ef783446e2e4ddc16872102d9d7c3fb9fa16109bcea11bf1b75d4cbc7f8fdb8b",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/_nuxt/BPJmBmrf.js"
+        ],
+        "time": 0.02302599999893573
+      },
+      {
+        "url": "https://get.it.com/_nuxt/MainTitle.DdEKgJpA.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 261,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"ba-gKsJ5dlEKGWxfyGdg2rz1YxPPS0\""
+        },
+        "responseBodyHash": "30bc063ab17b08b3087affda26fba0e3ded9ec4f059adabb9480c3dc3a219a2b",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/_nuxt/BPJmBmrf.js"
+        ],
+        "time": 0.02125499999965541
+      },
+      {
+        "url": "https://get.it.com/_nuxt/contacts.CTAj66-o.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 456,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"383-bg/IaaiRy3Ua++oX6fX60hQJq+A\""
+        },
+        "responseBodyHash": "c90d1c77c110535e6f646760861fbcac88b872cb5eeba408f9327c09f67925c4",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js",
+          "https://get.it.com/_nuxt/BPJmBmrf.js"
+        ],
+        "time": 0.023040000000037253
+      },
+      {
+        "url": "https://get.it.com/_nuxt/builds/meta/b7a04094-7b1b-4c93-9658-3f6754b82ab6.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 363,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"58-OAQAwbEJ5/f2NOgeF11rJ/0n6SY\""
+        },
+        "responseBodyHash": "f2b2a4ae676cabbe89643f250c3b98af5be0dc502a77756fa575256de997cb53",
+        "initiators": [
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 0.1836509999993723
+      },
+      {
+        "url": "https://engine.itcomdomains.com/api/v1/log/event/EnterToLandingWithUTM",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.67.72.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://get.it.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://engine.itcomdomains.com/api/v1/log/event/EnterToLandingWithUTM"
+        ],
+        "time": 0.4998730000006617
+      },
+      {
+        "url": "https://engine.itcomdomains.com/api/v1/performance_metrics?payload=%7B%22performance%22:%7B%22timeOrigin%22:1774992512060.645,%22timing%22:%7B%22connectStart%22:1774992512670,%22secureConnectionStart%22:1774992512680,%22unloadEventEnd%22:0,%22domainLookupStart%22:1774992512652,%22domainLookupEnd%22:1774992512670,%22responseStart%22:1774992513047,%22connectEnd%22:1774992512698,%22responseEnd%22:1774992513048,%22requestStart%22:1774992512698,%22domLoading%22:1774992513062,%22redirectStart%22:0,%22loadEventEnd%22:0,%22domComplete%22:0,%22navigationStart%22:1774992512060,%22loadEventStart%22:0,%22domContentLoadedEventEnd%22:1774992513306,%22unloadEventStart%22:0,%22redirectEnd%22:0,%22domInteractive%22:1774992513174,%22fetchStart%22:1774992512648,%22domContentLoadedEventStart%22:1774992513305%7D,%22navigation%22:%7B%22type%22:0,%22redirectCount%22:0%7D%7D,%22userAgent%22:%22Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/135.0.0.0%20Safari/537.36%22,%22userAgentData%22:%7B%22brands%22:%5B%5D,%22mobile%22:false,%22platform%22:%22%22%7D,%22platform%22:%22MacIntel%22,%22languages%22:%5B%22en-US%22%5D,%22cookieEnabled%22:true,%22href%22:%22https://get.it.com/%22,%22screen%22:%7B%7D%7D&fcp=2398.105000000447&lcp=null&cls=0.0028125639935591895&uid=id__8d2ba95033e7f&href=https://get.it.com/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.67.72.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://get.it.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://engine.itcomdomains.com/api/v1/performance_metrics?payload=%7B%22performance%22:%7B%22timeOrigin%22:1774992512060.645,%22timing%22:%7B%22connectStart%22:1774992512670,%22secureConnectionStart%22:1774992512680,%22unloadEventEnd%22:0,%22domainLookupStart%22:1774992512652,%22domainLookupEnd%22:1774992512670,%22responseStart%22:1774992513047,%22connectEnd%22:1774992512698,%22responseEnd%22:1774992513048,%22requestStart%22:1774992512698,%22domLoading%22:1774992513062,%22redirectStart%22:0,%22loadEventEnd%22:0,%22domComplete%22:0,%22navigationStart%22:1774992512060,%22loadEventStart%22:0,%22domContentLoadedEventEnd%22:1774992513306,%22unloadEventStart%22:0,%22redirectEnd%22:0,%22domInteractive%22:1774992513174,%22fetchStart%22:1774992512648,%22domContentLoadedEventStart%22:1774992513305%7D,%22navigation%22:%7B%22type%22:0,%22redirectCount%22:0%7D%7D,%22userAgent%22:%22Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/135.0.0.0%20Safari/537.36%22,%22userAgentData%22:%7B%22brands%22:%5B%5D,%22mobile%22:false,%22platform%22:%22%22%7D,%22platform%22:%22MacIntel%22,%22languages%22:%5B%22en-US%22%5D,%22cookieEnabled%22:true,%22href%22:%22https://get.it.com/%22,%22screen%22:%7B%7D%7D&fcp=2398.105000000447&lcp=null&cls=0.0028125639935591895&uid=id__8d2ba95033e7f&href=https://get.it.com/"
+        ],
+        "time": 0.5003120000001218
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfNd_0cAAAAACUv4QVjC_985QBCdh77-Z63O5nK&co=aHR0cHM6Ly9nZXQuaXQuY29tOjQ0Mw..&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=m7maf52is8i",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 50774,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7602b0a5160dde68edae87ea4c3bddac67382dc14ccdcbe888856314915dc6db",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+          "https://get.it.com/_nuxt/DeTcRwqj.js"
+        ],
+        "time": 0.16952299999866227
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 42608,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 18:21:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "952367c39542f1f7a7444b1d38c94fb932299aa63315ba204e71448695bd11c2",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfNd_0cAAAAACUv4QVjC_985QBCdh77-Z63O5nK&co=aHR0cHM6Ly9nZXQuaXQuY29tOjQ0Mw..&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=m7maf52is8i"
+        ],
+        "time": 0.01624400000036985
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfNd_0cAAAAACUv4QVjC_985QBCdh77-Z63O5nK&co=aHR0cHM6Ly9nZXQuaXQuY29tOjQ0Mw..&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=m7maf52is8i"
+        ],
+        "time": 0.05265800000051968
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 21:28:37 GMT"
+        },
+        "responseBodyHash": "9b81e9a5eb8a2c4f7a3c7d22dd92bebded7d4471ee300444c67c678b4a893cc8",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfNd_0cAAAAACUv4QVjC_985QBCdh77-Z63O5nK&co=aHR0cHM6Ly9nZXQuaXQuY29tOjQ0Mw..&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=m7maf52is8i"
+        ],
+        "time": 0.2752360000013141
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2252,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Sat, 04 Apr 2026 11:29:30 GMT"
+        },
+        "responseBodyHash": "602c6728d58cf917a3dd121b624e88072a3f1b7f5413849fbbcf92ce32fe72a2",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css"
+        ],
+        "time": 0.012694000000919914
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 34700,
+        "remoteIPAddress": "142.251.219.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 04:09:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dbb604452d1d4d417397425673e852cf58236865abd5a7abcb6f13c8b0e73f64",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfNd_0cAAAAACUv4QVjC_985QBCdh77-Z63O5nK&co=aHR0cHM6Ly9nZXQuaXQuY29tOjQ0Mw..&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=m7maf52is8i"
+        ],
+        "time": 0.06715900000017427
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.154.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+        ],
+        "time": 0.009127999999691383
+      },
+      {
+        "url": "https://get.it.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 267,
+        "remoteIPAddress": "172.66.154.160",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": "560a481d94b94be28e45a6ee498682f92b2eb99f8f6f5956c9aad969f61ee5e5",
+        "initiators": [],
+        "time": 0.23575500000151806
+      }
+    ],
+    "cookies": [
+      {
+        "name": "itcom_currency",
+        "domain": "get.it.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "__it_com_user_id__",
+        "domain": "get.it.com",
+        "path": "/",
+        "expires": 1809552513586,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js": {
+          "Navigator.prototype.userAgent": 62,
+          "Event.prototype.timeStamp": 13,
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3,
+          "window.localStorage": 2,
+          "window.sessionStorage": 3,
+          "Navigator.prototype.getBattery": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.storage": 1
+        },
+        "https://get.it.com/_nuxt/DeTcRwqj.js": {
+          "Navigator.prototype.connection": 1,
+          "Navigator.prototype.deviceMemory": 2,
+          "Navigator.prototype.hardwareConcurrency": 2
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

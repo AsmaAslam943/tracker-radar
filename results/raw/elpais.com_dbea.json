@@ -1,0 +1,2964 @@
+{
+  "initialUrl": "https://elpais.com/",
+  "finalUrl": "https://elpais.com/us/",
+  "timeout": false,
+  "testStarted": 1774991502548,
+  "testFinished": 1774991514907,
+  "data": {
+    "requests": [
+      {
+        "url": "https://elpais.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+          "cache-control": "private, max-age=60",
+          "expires": "Tue, 31 Mar 2026 21:12:43 GMT",
+          "set-cookie": "arc-geo={\"georegion\":\"246\",\"countrycode\":\"US\",\"regioncode\":\"CA\",\"timezone\":\"PST\",\"continent\":\"NA\"}; expires=Tue, 31-Mar-2026 21:26:43 GMT; path=/\neptz=US; path=/; domain=.elpais.com\nhpage=10; expires=Wed, 31-Mar-2027 21:11:43 GMT; path=/; domain=.elpais.com\ndatadome=fbnx~sgYoUsxg~0H3OkSPBEi3HJbooMA73ziU5iRm_4VrIZIXuz8GA2YvPh1izfW8u12E5Nmo0C2sBSsf3klt9YU2AjdYVRz3utDWZWe9HB2Qs2EOjJEp3re9F2JCrMd; Max-Age=31536000; Domain=.elpais.com; Path=/; Secure; SameSite=Lax"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://elpais.com/us/",
+        "initiators": [],
+        "time": 0.11404299999958312
+      },
+      {
+        "url": "https://elpais.com/us/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 82259,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+          "cache-control": "private, max-age=60",
+          "etag": "W/\"611aa-kBu5Jn9igqcga9clC2aACUel8Yw\"",
+          "expires": "Tue, 31 Mar 2026 21:12:43 GMT",
+          "set-cookie": "datadome=gHVFmVU4AO_8xx2UNXhuw1woCeQ6sdR9GkPuYxlo2k2i1ssp5wRNiOEBhgEAii2ra8I4J7KBqoCJqPm~yH_NP6eEToxsJvywu4roJ38Fwg1DGE5hZB97QoPducJ2LxXi; Max-Age=31536000; Domain=.elpais.com; Path=/; Secure; SameSite=Lax"
+        },
+        "responseBodyHash": "8dcf1df35c1bd3ff8b4138e8de51ea7e48091d3e9e4b6382e22752ed95cf88fb",
+        "redirectedFrom": "https://elpais.com/",
+        "initiators": [],
+        "time": 0.7307319999999891
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/images/logos/primary/el-pais-slogan-esp.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2525,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "etag": "W/\"3318d11808554228d176b8c1f691463c\""
+        },
+        "responseBodyHash": "7c379d5496beb3b6a4d0767c52404aade105e236eb5655ef0b4cd2274f71c3b3",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 2.8092670000005455
+      },
+      {
+        "url": "https://imagenes.elpais.com/resizer/v2/IJFL26NWGNFKTOEUL5CT2H33U4.jpg?auth=9e3c155dfe9ad4e79cc261745d064b208ce66bfb41da863d225b5d7a78061bf3&width=1200&height=675&smart=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 54428,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=31515015",
+          "etag": "\"6387c491470ddc617d80e9cfeaf9e8c6\"",
+          "expires": "Wed, 31 Mar 2027 15:21:58 GMT"
+        },
+        "responseBodyHash": "1afa3c693342c127c6c24a389e13b039c1b4f227d8ffc10103afe435d3634689",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.08647500000006403
+      },
+      {
+        "url": "https://accounts.google.com/gsi/client",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 94785,
+        "remoteIPAddress": "142.251.2.84",
+        "responseHeaders": {
+          "cache-control": "private, max-age=1800",
+          "expires": "Tue, 31 Mar 2026 21:11:44 GMT"
+        },
+        "responseBodyHash": "fabeef7a1ca962b769e92698a1ca36370fda1b82c70027ce1e0476a87a95bd34",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.25194700000065495
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/fonts/majrit/majrit-text/Majrit-Text-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32193,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"c54490acfe701d1062a1ffaf0d41a4c2\""
+        },
+        "responseBodyHash": "426edc8a40e034ac0932abc92f3153eb1f9dad89d257b72c79b43b8b4b6d383e",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 2.8125439999985247
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/fonts/majrit/majrit-text/Majrit-Text-Roman.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 28147,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"91a1690a4cad61647b5c1c19580c15bf\""
+        },
+        "responseBodyHash": "53172575434dbd56afca0b3b862557618b7d44216ff17eec9f3ec2159d3b9b9e",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 2.8216510000002017
+      },
+      {
+        "url": "https://static.prisa.com/dist/subs/securesharesession/v2/latest/securesharesession.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5726,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "etag": "\"effc4473abb039b7ad77847ddf990058\""
+        },
+        "responseBodyHash": "626be513faefc79af3e80f341820580135175e826225ce081e57ab3060800ea2",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.05715799999961746
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 197501,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "cache-control": "public, max-age=30, s-maxage=31536000",
+          "etag": "W/\"ef06e8ef87516d93d280a69df0c852ed\""
+        },
+        "responseBodyHash": "e5a4c17500924646284b06e731d97c0c9783f76135d098b93a13aa2a1037d49d",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 2.840024999999514
+      },
+      {
+        "url": "https://contributor.google.com/scripts/1d9eb4aae2cdce07/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24,
+        "remoteIPAddress": "74.125.137.100",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 31 Mar 2027 21:11:00 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 2.833660999998756
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/images/logos/primary/el-pais-50.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2526,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "cache-control": "public, max-age=30, s-maxage=31536000",
+          "etag": "W/\"14552a225ef740c3201ef39e8dcef6cc\""
+        },
+        "responseBodyHash": "5fc25567dbfb63697c784081834944a510a579b44d9f69148e958448dc660c52",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 2.8401780000003782
+      },
+      {
+        "url": "https://elpais.com/pf/resources/manifests/site.webmanifest?d=2433",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 1439,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"7784827c01bb92bcc909cd643a530f56\"",
+          "expires": "Wed, 31 Mar 2027 21:11:43 GMT",
+          "set-cookie": "eptz=US; path=/; domain=.elpais.com"
+        },
+        "responseBodyHash": "8e738393f3327a7e1fc2b78f80ca4fd1a1197b4c07846a01ac1b78fb416f20d0",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.06887300000016694
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 69948,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53beba72b6ccfbc542c401d5f4bac53df3b16cd8ce50f0fef7e002cb844fdb9d",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 2.846222999998645
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/fonts/marcin-ant-b/marcinantb-regular-webfont.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23709,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"c700f4c8deba52af36e891a428966417\""
+        },
+        "responseBodyHash": "a7bf00f1fdb167780435a72e1d420fe07aa00d416593ec57824d3ae87f1f6d4e",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.14389800000026298
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/fonts/marcin-ant-b/marcinantb-bold-webfont.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23571,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"de6dd51990b615d698e11ad571dffcf9\""
+        },
+        "responseBodyHash": "3877c647c344c4962b80bfdd1902e96a523869aed1713927d5b4fb350d86623c",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.14516200000070967
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/fonts/majrit/majrit-text/Majrit-Text-Bold-Italic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27844,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b4694f96b0ccb2fd6b6695446a4c6213\""
+        },
+        "responseBodyHash": "331b58a577d4d8ed5584a6698fc76cdc06716fdf769ef99cf1df28fa47ffaa1c",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.1500240000004851
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/fonts/majrit/majrit-text/Majrit-Text-Black.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 29035,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1a807ca14e88072f1f08a39199762c7d\""
+        },
+        "responseBodyHash": "c2a870b9f72f5bb69d6d8e35b074d0c1d139003984d3bbdb4fa2a6c2e4633406",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.14649800000006508
+      },
+      {
+        "url": "https://imagenes.elpais.com/resizer/v2/HABCVHBZUVLW3KKCPP6YTAQHEY.jpg?auth=f35e85984a9c4c0f57bdf0b044f387ed26f5d9bca290c67b411efe93cdf8819a&width=828&height=466&smart=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 37885,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=31533140",
+          "etag": "\"cd9537b7fa5a7219bc9c14b01bc587b7\"",
+          "expires": "Wed, 31 Mar 2027 20:24:06 GMT"
+        },
+        "responseBodyHash": "388f143dffc8923d598b8b96c137f84e92d4f54cb016307f1c48d69808a9a65b",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.0796169999994163
+      },
+      {
+        "url": "https://imagenes.elpais.com/resizer/v2/F2PKVOC2OZM4ZDR5LEHC2HX6SU.jpg?auth=e24b0c23a96a206392fe4a561b58305a23eb502239415016afa1c67840fd5f17&width=828&height=466&smart=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16025,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=31531347",
+          "etag": "\"b70e1ad0d3580d19c0d48bd3d43b6448\"",
+          "expires": "Wed, 31 Mar 2027 19:54:13 GMT"
+        },
+        "responseBodyHash": "f17afe77125755a54962c5fd088ae718d5e3913470208b4616d83497651e44bd",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.08101999999962572
+      },
+      {
+        "url": "https://imagenes.elpais.com/resizer/v2/AXWUGB7QQ5GPRCNNP7YUGJKN5E.jpg?auth=7ec0ed19a32e8fa7bf80da82f3e225777dc9a034b945eb1d39db4abc2c9498b3&width=828&height=466&smart=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 27126,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=31522291",
+          "etag": "\"78db21a9256c9b4f689e17718923ec29\"",
+          "expires": "Wed, 31 Mar 2027 17:23:18 GMT"
+        },
+        "responseBodyHash": "c2e11f15815d1095e076f097c599caef086267da04151e2fbccb5ee209698427",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.16102499999942665
+      },
+      {
+        "url": "https://imagenes.elpais.com/resizer/v2/XE3SNIB35JH3LKECLUHGUSKTTU.jpg?auth=b70a583545d673ceaaee4276656da4fb74bebc03a50a3dbefd33e84bb6e92141&width=828&height=466&smart=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 59380,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=31433772",
+          "etag": "\"5ce6b779f71056fbeeedc76a2d4f25b1\"",
+          "expires": "Tue, 30 Mar 2027 16:47:59 GMT"
+        },
+        "responseBodyHash": "158c1c452ba20ac7118ee0c25ec27932bc7c4f8b5f2cba452ae783547fb8feb3",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.09400700000151119
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/css/ed7089ba2a40484f4aab104099c09b5b/ENP/el-pais/section-manual.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 31253,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "cache-control": "public, max-age=30, s-maxage=31536000",
+          "etag": "W/\"e0886fdddbd0116c37439c69baab4f21\""
+        },
+        "responseBodyHash": "ac4fef3fdfc76772d0e2d52a4ee87d03e5c3397b8516d57d16f23b6cf58a6ee6",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.023978999999599182
+      },
+      {
+        "url": "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19697,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "etag": "\"907fc2e4dc6556fcd0a9c309a3944f20\""
+        },
+        "responseBodyHash": "b0517365b8d6e76f4c00efeade3556f9807acca634f3a804fb86962276ce3dd8",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.024644000000989763
+      },
+      {
+        "url": "https://static.prisa.com/dist/subs/pmwall/1.2.1/pmwall.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36977,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "etag": "\"87dea2883ea1d6ce1d31ab19c87e7b8b\""
+        },
+        "responseBodyHash": "4f8deaf38c959ad6bc9dc2446d94a7f8bfb0171b34eb77628d5c5ff275b3b6b0",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.031114999999772408
+      },
+      {
+        "url": "https://cmp.prisa.com/dist/cmp_ep.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8498,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"8995e44567f79d71b5d2448f9fcd2ee5\""
+        },
+        "responseBodyHash": "33f0f69bc591d911e0948ebd5686e98830b4586db71dfeabed3e65f70f6a234d",
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.0391380000000936
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.32699700000011944
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.32562700000016775
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.32192200000099547
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.3170159999990574
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/f/AGSKWxVh6BpoesgLHUDoMQjTx4pXU336Ny64uPgSDzvNVDN_42q5mlNSdQ1bI_aKwKGKx4fhEkKtLwEwsWG8GR_glB-ynq6xf20haPFdP76cMRnQafvZSOwx19FND1gVKOimA2dL9XA=?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzc0OTkxNTA3LDUzNzAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly9lbHBhaXMuY29tL3VzLyIsbnVsbCxbWzgsIkJsZVdiUVU1aFJvIl0sWzksImVuLVVTIl0sWzE2LCJbMSwxLDFdIl0sWzE5LCIyIl0sWzE3LCJbMF0iXSxbMjQsIiJdLFsyOSwiZmFsc2UiXV1d",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4352,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "12f2a505bc7e48f03c0319c99c90dbec78be808c37c08ff4d65fc15d3627bf30",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.09824499999922409
+      },
+      {
+        "url": "https://publicapi.elpais.com/sales/public/v1/entitlements",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 566,
+        "remoteIPAddress": "69.192.139.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 21:11:48 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "845cecffe21079d96c1d679b171c320fd28d99a82d656154ad5b7aac194834e9",
+        "initiators": [
+          "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js"
+        ],
+        "time": 0.7269209999994928
+      },
+      {
+        "url": "https://publicapi.elpais.com/sales/public/v1/entitlements",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "69.192.139.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 21:11:47 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://publicapi.elpais.com/sales/public/v1/entitlements"
+        ],
+        "time": 0.462865999999849
+      },
+      {
+        "url": "https://elpais.com/arc/subs/p.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33572,
+        "remoteIPAddress": "23.44.229.212",
+        "responseHeaders": {
+          "cache-control": "public, private, max-age=39",
+          "etag": "W/\"e7cb175b0b51f77fce82ffd503705544\"",
+          "expires": "Tue, 31 Mar 2026 21:12:26 GMT"
+        },
+        "responseBodyHash": "8188f958e7703d0dc5dd112a04e786f5811f2cd5d4461698644925f301df0ca3",
+        "initiators": [
+          "https://static.prisa.com/dist/subs/pmwall/1.2.1/pmwall.min.js"
+        ],
+        "time": 0.22650900000007823
+      },
+      {
+        "url": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 143660,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"42ea05172f1e4afa52b8f250c09d8510:1773829499.21813\"",
+          "expires": "Tue, 31 Mar 2026 22:11:47 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fca0fb8da104dfbfeaf0b70265c889ab85830b6629765d9728b03711bf66f548",
+        "initiators": [
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.2558249999983673
+      },
+      {
+        "url": "https://player.prisamedia.com/componentes/reels/reels.lib.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13273,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"8734122b48ca431f054eb23e9947a226\""
+        },
+        "responseBodyHash": "e8708d6cf4ecd85802a669eafd678892689d21a48000d77e798ed6286bcfdab7",
+        "initiators": [
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.2305740000010701
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-sponsor-track.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1198,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "cache-control": "public, max-age=30, s-maxage=31536000",
+          "etag": "W/\"d863a105156fc25853fea0c8c71b0321\""
+        },
+        "responseBodyHash": "56ba54583b2b0c6c3d9ebd99e9b52ff20e472d97db2154ccb9bec1be0d8ddd63",
+        "initiators": [
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.10390399999960209
+      },
+      {
+        "url": "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53680,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"096df0c64f976ee0f3bb7d44ac575087\""
+        },
+        "responseBodyHash": "0cc7782e75b5a091168a72f9a21eaf7c80893e9cf402627ea506719a35176ec3",
+        "initiators": [
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.3193520000004355
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable"
+        ],
+        "time": 0.04747000000133994
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.12722000000030675
+      },
+      {
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=2387401053DB208C0A490D4C%40AdobeOrg&d_nsid=0&ts=1774991508021",
+        "method": "GET",
+        "type": "XHR",
+        "status": 302,
+        "remoteIPAddress": "44.254.132.185",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:48 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/id/rd?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=2387401053DB208C0A490D4C%40AdobeOrg&d_nsid=0&ts=1774991508021",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.2611980000001495
+      },
+      {
+        "url": "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12659,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache",
+          "etag": "\"dfdd9e1f988805f0c2fbb10cd6b8f034:1663863409.614694\"",
+          "expires": "Tue, 31 Mar 2026 22:11:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d6d01246a30e9d483531c27721f73f266fa4af35effdb21683ac02a620ab8aaf",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.012311000000408967
+      },
+      {
+        "url": "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1871,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache",
+          "etag": "\"b89fcb8870ac40eecb6d3cc844d35389:1663863409.92483\"",
+          "expires": "Tue, 31 Mar 2026 22:11:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "78c1c1baf0d964522f8afab09cfc754685c1648826a7f9967fd52b774b4ec5aa",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.012501999999585678
+      },
+      {
+        "url": "https://js.datadome.co/tags.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 46500,
+        "remoteIPAddress": "18.155.202.57",
+        "responseHeaders": {
+          "cache-control": "max-age=3600, public",
+          "etag": "W/\"2dfc66f422003d5312c6bf109a5f52ab\""
+        },
+        "responseBodyHash": "184facb81dfee591d7fa0c48551bd7bb27ae2d6031311f80926f4873bc01a6a7",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.25562900000113586
+      },
+      {
+        "url": "https://ak-ads-ns.prisasd.com/slot/control/hb/control.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 421,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"82d5fef87ac7de28c3025359fa3ea026\""
+        },
+        "responseBodyHash": "65d98c83e90f65196c655e4807ea0b1d6842b08d57195f58da49927c0a11a756",
+        "initiators": [
+          "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.19367200000124285
+      },
+      {
+        "url": "https://ak-ads-ns.prisasd.com/slot/elpais/data/lazyload.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 483,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"7545556c6f574dee22abaa2bf70d65df\""
+        },
+        "responseBodyHash": "94a87242eedef7246cd1900b64f2c2147972bc652ef7a41e5faad791f2657643",
+        "initiators": [
+          "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.19366199999967648
+      },
+      {
+        "url": "https://ak-ads-ns.prisasd.com/slot/control/fl/desktop.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 626,
+        "remoteIPAddress": "151.101.42.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"c9e8633e902607fe30fb5f0e5057becd\""
+        },
+        "responseBodyHash": "199acbcc98f69be06729cd995350616a581bff9425d118c756026e108a25ee94",
+        "initiators": [
+          "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.19265599999926053
+      },
+      {
+        "url": "https://pub.doubleverify.com/dvtag/29433989/DV1044330/pub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19669,
+        "remoteIPAddress": "172.64.155.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=900, stale-while-revalidate=3600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "280dbb67b7bc8fcfa76f9112a5b38f91b56c9e605b5ba7e13eacdf8b3bb25089",
+        "initiators": [
+          "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.3056699999997363
+      },
+      {
+        "url": "https://dpm.demdex.net/id/rd?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=2387401053DB208C0A490D4C%40AdobeOrg&d_nsid=0&ts=1774991508021",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1288,
+        "remoteIPAddress": "44.254.132.185",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:48 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "0a3d7ed1bc1a7e47db005091d926086b2229c71a62762e445ef9da91c6534d9a",
+        "redirectedFrom": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=2387401053DB208C0A490D4C%40AdobeOrg&d_nsid=0&ts=1774991508021",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.13386800000080257
+      },
+      {
+        "url": "https://publicapi.elpais.com/sales/public/v2/subscriptions/entitlements",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "69.192.139.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 21:11:48 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://publicapi.elpais.com/sales/public/v2/subscriptions/entitlements"
+        ],
+        "time": 0.5386390000003303
+      },
+      {
+        "url": "https://publicapi.elpais.com/sales/public/v2/subscriptions/entitlements",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 566,
+        "remoteIPAddress": "69.192.139.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 21:11:49 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "92e8c9e556ae4f7c2c3e2780e14c1150aff664a5ca169048a9f674174ad84a87",
+        "initiators": [
+          "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js"
+        ],
+        "time": 0.8842669999994541
+      },
+      {
+        "url": "https://prisacom.demdex.net/dest5.html?d_nsid=0",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 3262,
+        "remoteIPAddress": "44.227.66.34",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7bea17a80a61ed0f54248b4ffc4c718f7c8ff2619742577a73591d62ce074da8",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js"
+        ],
+        "time": 0.38977599999998347
+      },
+      {
+        "url": "https://smetrics.elpais.com/id?d_visid_ver=5.5.0&d_fieldgroup=A&mcorgid=2387401053DB208C0A490D4C%40AdobeOrg&mid=78056112370445899240903094935671971667&ts=1774991508425",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 457,
+        "remoteIPAddress": "63.140.36.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "set-cookie": "s_ecid=MCMID%7C78056112370445899240903094935671971667; Path=/; Domain=elpais.com; Max-Age=63072000; Expires=Thu, 30 Mar 2028 21:11:11 GMT; SameSite=None; Secure"
+        },
+        "responseBodyHash": "d2b076b6c2e2e066231aef35959c1385cfb3314d61089f7878e53f5c3cc2621d",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.41971100000046135
+      },
+      {
+        "url": "https://prisacom.tt.omtrdc.net/rest/v1/delivery?client=prisacom&sessionId=4e57e5e6f3c042d38b589f9e003414fc&version=2.11.4",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 945,
+        "remoteIPAddress": "63.140.37.45",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e8ae86b7ca571ce8bd5945f503f4365ee4bc07d7c339b0d4864b7c1153e5b186",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.5712569999996049
+      },
+      {
+        "url": "https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=29433989&cmp=DV1044330&url=https%3A%2F%2Felpais.com&ids=1&token=hmBsrPNjoc2WfeDk0ErgLjJaMkSl5oyU5TUf8SeQXn7LGg7aX5tOezVdA9AzR96uCkisvJtKQzp79Ht2t%2Fw3wTG8dqBkcoTFqR%2F9Q0S9BuwDqYcyMeF0T7fcjbH3BiyIwfxIaahGwo1zVKKGYmVOzrzLmKihMP4%3D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 353,
+        "remoteIPAddress": "172.64.155.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "private, max-age=900",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7dbf09b845533f3d924106c4b18bdaf719260139d43da9e84b8ffdbc53301c32",
+        "initiators": [
+          "https://js.datadome.co/tags.js",
+          "https://pub.doubleverify.com/dvtag/29433989/DV1044330/pub.js",
+          "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.24151100000017323
+      },
+      {
+        "url": "https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=29433989&cmp=DV1044330&url=https%3A%2F%2Felpais.com%2Fus&bsc=1&abs=1&token=hmBsrPNjoc2WfeDk0ErgLjJaMkSl5oyU5TUf8SeQXn7LGg7aX5tOezVdA9AzR96uCkisvJtKQzp79Ht2t%2Fw3wTG8dqBkcoTFqR%2F9Q0S9BuwDqYcyMeF0T7fcjbH3BiyIwfxIaahGwo1zVKKGYmVOzrzLmKihMP4%3D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 522,
+        "remoteIPAddress": "172.64.155.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "public, max-age=1324",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ac8c8866380e77ee8ce01c4fd70644a83589bfcc8d79730feebbb0c2753ebf8c",
+        "initiators": [
+          "https://js.datadome.co/tags.js",
+          "https://pub.doubleverify.com/dvtag/29433989/DV1044330/pub.js",
+          "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.08145400000103109
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/f/AGSKWxWDcBRCvcdwt2ZUNPyk2RgoTXNiC2h4gX7rrRFuvWsu9_M_MC5Jm4aulcBF2HjSnEBQKbbW-qYMaPhLW_o4FsiR_-P3mNeeNp1RrMFjzL1WPM8SpJz-sCJ5q2AdpsCAyTADLaYfkqz3NghRn8gth6W57XkC43Cz42JAGniKAC2DZFTfQcATi5xuzcjh/__longad_/sidead1..php?adv=/socialads./dne_ad.",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 109,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "09d03abdd6346ac929a5eeb727510d7b57af5fbc14874c9164b530e995e69df4",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.030859000000418746
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/show_companion_ad.js?fcd=true",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11991,
+        "remoteIPAddress": "142.251.218.98",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "16955268503969960675",
+          "expires": "Tue, 31 Mar 2026 21:20:55 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d6c0c9a033a4b4e54091d74e607a6c99959e64376a772f3b2727574f1daf5235",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.04483299999992596
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.02652999999918393
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.16004000000066299
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.14793600000120932
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXMsLzzvpSHgiAvysNXJDPW5IqJXnzYrvlbCIvzFXZLyNBGkPFZpYDfaoDsr-ditFIwAcBB7CShhlsqHaK9L0nWfWWpFIw4tRqBev-KSHtZHYSPY0Nv2LwT7yfzFIygvIhyfng=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.1507659999988391
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/f/AGSKWxXmz4xaBF8CWHXnbQplkV-jvKVwvRGfQolZFwMOIBkY5WrUXVXcRwphX6KZ2gDPd0XPnTki3ZOrhBe-3FGDbH0-cu8Co4B2umSHvtuwzCGhnKq4eGudFxj02QNdtZH8Jt_RXIo=?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzc0OTkxNTA4LDU0OTAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsNl0sbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsMV0sImh0dHBzOi8vZWxwYWlzLmNvbS91cy8iLG51bGwsW1s4LCJCbGVXYlFVNWhSbyJdLFs5LCJlbi1VUyJdLFsxNiwiWzEsMSwxXSJdLFsxOSwiMiJdLFsxNywiWzBdIl0sWzI0LCIiXSxbMjksImZhbHNlIl1dXQ",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1525,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "23012017562f9dd7b192f636064131f15aacbba1611e6981fdb59d26d1fd9898",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.1492980000002717
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxUQHSWnPEfC4U1Bp_LleQraerApEqoYvjOYRxkbInnTiTvREcWp0EwnlQHAtEdnfLwdnKkaLIQlbs2MUM1yLG1Hv5_T1Zv6oFJ8Lje82eop360HQ-OWkHFMcejMNJw0h31BuCE=",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 28,
+        "remoteIPAddress": "74.125.137.138",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=kernel_loader,loader_js_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=ad_blocking_detection_executable,kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=cookie_refresh_executable",
+          "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.BleWbQU5hRo.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMx_X5kRA7Brvi2mJdaNZJO7CWyswQ/m=ad_blocking_detection_executable",
+          "https://elpais.com/us/"
+        ],
+        "time": 0.11316099999930884
+      },
+      {
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=2387401053DB208C0A490D4C%40AdobeOrg&d_nsid=0&d_mid=78056112370445899240903094935671971667&d_blob=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&d_cid_ic=user_id%01not-set%011&d_cid_ic=AdobeCampaignID%01not-set%011&ts=1774991508849",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1285,
+        "remoteIPAddress": "44.254.132.185",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "ad824537a6ba208f7ac400060648753969a70f78a0b2aa7e622b601a417f7e4d",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.16812599999866507
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/images/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1535,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "etag": "\"2eb39e3ae5fc4598640fcca5c6ee12ce\""
+        },
+        "responseBodyHash": "00e530a3041a25e49a60b8f94ab06c6cc172606f5a9de5992cbfb44b77ad4016",
+        "initiators": [],
+        "time": 0.13255800000115414
+      },
+      {
+        "url": "https://static.elpais.com/dist/resources/images/favicon_512.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 10006,
+        "remoteIPAddress": "3.168.86.31",
+        "responseHeaders": {
+          "etag": "\"10d2620a4afbb0b31c8f067626590a32\""
+        },
+        "responseBodyHash": "fbcc4c7a6c4b5c08f0422c0bb27e420cb63fd83f6fac968de74a29af28e4db91",
+        "initiators": [],
+        "time": 0.13052199999947334
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D358%26dpuuid%3D%24UID",
+        "method": "GET",
+        "type": "Image",
+        "status": 307,
+        "remoteIPAddress": "104.254.148.251",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253A%252F%252Fdpm.demdex.net%252Fibs%253Adpid%253D358%2526dpuuid%253D%2524UID",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.49501299999974435
+      },
+      {
+        "url": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/43e7e6681c98/RC5f25d19c3e594cebba54b40991f69fa8-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37097,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"67d4e50c002a5195909de9791da36a24:1773829500.460114\"",
+          "expires": "Tue, 31 Mar 2026 22:11:49 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "674f65c32aab3e5d84f4ecf906a238052b08cb6fde282832fde687e51a95afa3",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.14755700000023353
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=NzgwNzI3OTQwMjcwMjYxODk3NDA5MDE0MDMxMzM2NjcyOTgxNTM=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "142.251.219.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 21:26:49 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm=&gdpr=0&gdpr_consent=&google_hm=NzgwNzI3OTQwMjcwMjYxODk3NDA5MDE0MDMxMzM2NjcyOTgxNTM=&google_tc=",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.3285519999990356
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=aam&gdpr=0&gdpr_consent=&domain=elpais.com&ttd_tpi=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "52.223.40.198",
+        "responseHeaders": {
+          "set-cookie": "TDID=79903e96-b220-47af-88bf-5c4a4ca8f004; expires=Wed, 31 Mar 2027 21:11:49 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAEYBSgCMgsIrvShrJvdhz8QBTgB; expires=Wed, 31 Mar 2027 21:11:49 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=aam&gdpr=0&gdpr_consent=&domain=elpais.com&ttd_tpi=1",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.2349099999992177
+      },
+      {
+        "url": "https://sdk.privacy-center.org/8ba38674-edba-484d-8053-435051d79f72/loader.js?target=epconsentwalnoneu.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34475,
+        "remoteIPAddress": "65.8.180.104",
+        "responseHeaders": {
+          "cache-control": "max-age=7200, public",
+          "etag": "W/\"3449a5d3e6ef1bf41eadc1034c56ae8d\""
+        },
+        "responseBodyHash": "6c6058fc867d34c450ce47aaeec4742bd5193bd795146f617f39f8608e2898aa",
+        "initiators": [
+          "https://cmp.prisa.com/dist/cmp_ep.js",
+          "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js"
+        ],
+        "time": 0.15103199999975914
+      },
+      {
+        "url": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/43e7e6681c98/RC6d06c68917d84e94b03fdb45321f2626-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1446,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"67d4e50c002a5195909de9791da36a24:1773829500.460114\"",
+          "expires": "Tue, 31 Mar 2026 22:11:49 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d6cd31f65e88e51a808ad2da42ad2d803c7fa8919395e47bb3702d76a0860821",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.11408400000073016
+      },
+      {
+        "url": "https://image6.pubmatic.com/AdServer/UCookieSetPug?p=166334&rd=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid=19566%26dpuuid=%23PM_USER_ID",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "104.36.113.23",
+        "responseHeaders": {
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"",
+          "set-cookie": "KTPCACOOKIE=YES; domain=pubmatic.com; path=/; max-age=86400; SameSite=None; secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://image6.pubmatic.com/AdServer/UCookieSetPug?p=166334&rd=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid=19566%26dpuuid=%23PM_USER_ID&rdf=1",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.30869499999971595
+      },
+      {
+        "url": "https://es-config.sensic.net/s2s-web.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31730,
+        "remoteIPAddress": "18.244.214.18",
+        "responseHeaders": {
+          "cache-control": "max-age=1209600",
+          "etag": "\"5daad8249f8068c23c16671bab3ebfcb\""
+        },
+        "responseBodyHash": "04924828b4f99e8371fd4f35b1ebb394b7f600c917156e7a2666e400dcb00e1a",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.40800400000080117
+      },
+      {
+        "url": "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2223",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61847,
+        "remoteIPAddress": "104.19.220.32",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "404409530a34f5728c428f70021c2bf429382ef372d15abd07a450568a34366a",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.4329299999990326
+      },
+      {
+        "url": "https://marfeelexperimentsexperienceengine.mrf.io/experimentsexperience/render?siteId=2223&url=https://elpais.com/us/&experimentType=HeadlineAB&lang=es&version=esnext",
+        "method": "GET",
+        "type": "Script",
+        "status": 204,
+        "size": 287,
+        "remoteIPAddress": "91.134.60.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=180, must-revalidate"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.8836909999990894
+      },
+      {
+        "url": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/43e7e6681c98/RCb3d471fbecc246c1b53f2f43b158082f-source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54550,
+        "remoteIPAddress": "184.28.149.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"67d4e50c002a5195909de9791da36a24:1773829500.460114\"",
+          "expires": "Tue, 31 Mar 2026 22:11:49 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4df6f1c6a30bc2e0baa852ff17e4aaa7e0eeb8db8a923b69706d8d8d11e621ff",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.09594999999899301
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/cs/8671776/beacon.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "18.244.214.60",
+        "responseHeaders": {
+          "accept-ch": "UA, Platform, Arch, Model, Mobile"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://sb.scorecardresearch.com/internal-cs/default/beacon.js",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.39534400000047754
+      },
+      {
+        "url": "https://synchroscript.deliveryengine.adswizz.com/getUID?curl=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D175765%26dpuuid%3D%24%7BUID%7D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "13.249.74.124",
+        "responseHeaders": {
+          "set-cookie": "OAID=7498f8df38ea9aa9c3d77689c34f24ff; Domain=adswizz.com; Expires=Thu, 30 Apr 2026 21:11:49 GMT; Path=/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=175765&dpuuid=7498f8df38ea9aa9c3d77689c34f24ff",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.31387999999969907
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm=&gdpr=0&gdpr_consent=&google_hm=NzgwNzI3OTQwMjcwMjYxODk3NDA5MDE0MDMxMzM2NjcyOTgxNTM=&google_tc=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "142.251.219.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=771&dpuuid=&google_error=15?gdpr=0&gdpr_consent=",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=NzgwNzI3OTQwMjcwMjYxODk3NDA5MDE0MDMxMzM2NjcyOTgxNTM=",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.1520280000004277
+      },
+      {
+        "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253A%252F%252Fdpm.demdex.net%252Fibs%253Adpid%253D358%2526dpuuid%253D%2524UID",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "104.254.148.251",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "XANDR_PANID=j5GKDFPW8Qhid4yx9jRHsWCjS95BqVtdurjZzEdqsKW4krXLRBWF1V-oH_7RY30MXDwxx3jNvl9Mj1kK3joQkCvi9c1seAnKnq1gW2Y9NkU.; SameSite=None; Path=/; Max-Age=7776000; Expires=Mon, 29-Jun-2026 21:11:49 GMT; Domain=.adnxs.com; Secure; Partitioned\nuuid2=1050515604685591363; SameSite=None; Path=/; Max-Age=7776000; Expires=Mon, 29-Jun-2026 21:11:49 GMT; Domain=.adnxs.com; Secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=358&dpuuid=1050515604685591363",
+        "redirectedFrom": "https://ib.adnxs.com/getuid?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D358%26dpuuid%3D%24UID",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.15263899999990826
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=aam&gdpr=0&gdpr_consent=&domain=elpais.com&ttd_tpi=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "52.223.40.198",
+        "responseHeaders": {
+          "set-cookie": "TDID=79903e96-b220-47af-88bf-5c4a4ca8f004; expires=Wed, 31 Mar 2027 21:11:49 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAESEgoDYWFtEgsInobggIXdhz8QBRgFIAEoAjILCK70oayb3Yc_EAU4AQ..; expires=Wed, 31 Mar 2027 21:11:49 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=903&dpuuid=79903e96-b220-47af-88bf-5c4a4ca8f004",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=aam&gdpr=0&gdpr_consent=&domain=elpais.com&ttd_tpi=1",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.15815400000064983
+      },
+      {
+        "url": "https://playerservices.live.streamtheworld.com/api/getuuid?redir=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D963840%26dpuuid%3D%40UUID%40",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "208.92.55.233",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "p3p": "policyref=\"http://tds.media.streamtheworld.com/w3c/policy/tds-p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "set-cookie": "uuid=6f206d9a-12b3-47f1-bd76-8926472a548f; Domain=live.streamtheworld.com; Max-Age=2592000; Path=/\nuuid-s=6f206d9a-12b3-47f1-bd76-8926472a548f; Domain=live.streamtheworld.com; Max-Age=2592000; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=963840&dpuuid=6f206d9a-12b3-47f1-bd76-8926472a548f",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 1.0453280000001541
+      },
+      {
+        "url": "https://adobedc.demdex.net/ee/v1/identity/acquire?configId=9ad480a3-985a-4cc5-9907-d80eae43012e&requestId=89bfc9d4-734c-4c64-9076-d3008af8d5b7",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 987,
+        "remoteIPAddress": "63.140.37.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Domain=demdex.net; Path=/; Secure; SameSite=None; $x-enc=URI_ENCODING"
+        },
+        "responseBodyHash": "63f044029ca4fc7be700a90b2667953793b79a6287aa7c75614642d138b7a1a2",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.48600100000112434
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=771&dpuuid=&google_error=15?gdpr=0&gdpr_consent=",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 728,
+        "remoteIPAddress": "44.227.66.34",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None\ndpm=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm=&gdpr=0&gdpr_consent=&google_hm=NzgwNzI3OTQwMjcwMjYxODk3NDA5MDE0MDMxMzM2NjcyOTgxNTM=&google_tc=",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.14572899999984656
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=358&dpuuid=1050515604685591363",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 718,
+        "remoteIPAddress": "44.227.66.34",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None\ndpm=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253A%252F%252Fdpm.demdex.net%252Fibs%253Adpid%253D358%2526dpuuid%253D%2524UID",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.14123600000129954
+      },
+      {
+        "url": "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/sdk.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 93773,
+        "remoteIPAddress": "65.8.180.104",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"2bff06a0c24d144b5e0e4992f8605198-1\""
+        },
+        "responseBodyHash": "f285f8716a87b992cd13ff7b2475142baac40091ff065e46efed695d56930ab1",
+        "initiators": [
+          "https://sdk.privacy-center.org/8ba38674-edba-484d-8053-435051d79f72/loader.js?target=epconsentwalnoneu.com",
+          "https://cmp.prisa.com/dist/cmp_ep.js",
+          "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js"
+        ],
+        "time": 0.15569499999946856
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=903&dpuuid=79903e96-b220-47af-88bf-5c4a4ca8f004",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 717,
+        "remoteIPAddress": "44.227.66.34",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None\ndpm=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=aam&gdpr=0&gdpr_consent=&domain=elpais.com&ttd_tpi=1",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.1326360000002751
+      },
+      {
+        "url": "https://image6.pubmatic.com/AdServer/UCookieSetPug?p=166334&rd=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid=19566%26dpuuid=%23PM_USER_ID&rdf=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "104.36.113.23",
+        "responseHeaders": {
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\""
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=19566&dpuuid=28F1FB8C-BB28-4496-9E85-7D41EC7B0BCF",
+        "redirectedFrom": "https://image6.pubmatic.com/AdServer/UCookieSetPug?p=166334&rd=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid=19566%26dpuuid=%23PM_USER_ID",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.11288899999999558
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/internal-cs/default/beacon.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6853,
+        "remoteIPAddress": "18.244.214.60",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "W/\"3f6dea365716e8ba82711013483c4d83\""
+        },
+        "responseBodyHash": "7b21bbb8ef971401ae80a3877b20405f18623e70111a65f0503458ea623255ce",
+        "redirectedFrom": "https://sb.scorecardresearch.com/cs/8671776/beacon.js",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.039382999999361346
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=175765&dpuuid=7498f8df38ea9aa9c3d77689c34f24ff",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 716,
+        "remoteIPAddress": "44.227.66.34",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None\ndpm=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://synchroscript.deliveryengine.adswizz.com/getUID?curl=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D175765%26dpuuid%3D%24%7BUID%7D",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.1714300000003277
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=19566&dpuuid=28F1FB8C-BB28-4496-9E85-7D41EC7B0BCF",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 717,
+        "remoteIPAddress": "44.227.66.34",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None\ndpm=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:49 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://image6.pubmatic.com/AdServer/UCookieSetPug?p=166334&rd=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid=19566%26dpuuid=%23PM_USER_ID&rdf=1",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.16830899999877147
+      },
+      {
+        "url": "https://17749915096913538b0faf748966a32d6bcb7f4e13d1f0e1b76eea17.trk.sensic.net/tp.gif?m=ElpaisWeb&r=elpais.com&p=es1&instanceid=17749915096913538B0FAF748966A32D6BCB7F4E13D1F0E1B76EEA17&ipad=false&redirect=manual",
+        "method": "GET",
+        "type": "XHR",
+        "status": 204,
+        "size": 363,
+        "remoteIPAddress": "65.8.180.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Wed, 21 Oct 2015 07:28:00 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://es-config.sensic.net/s2s-web.js",
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 1.3055759999988368
+      },
+      {
+        "url": "https://es-config.sensic.net/3pc.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 30568,
+        "remoteIPAddress": "18.244.214.120",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "\"ab116b47e81f75cb40f0883882e926a4\""
+        },
+        "responseBodyHash": "424ff5bf66a5c9214bbbcc311424786fe76febc77f2e4081263831c58f2c98ae",
+        "initiators": [
+          "https://es-config.sensic.net/s2s-web.js",
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js"
+        ],
+        "time": 0.7391000000006898
+      },
+      {
+        "url": "https://es1-s2s.sensic.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "108.139.10.70",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://js.datadome.co/tags.js",
+          "https://es-config.sensic.net/s2s-web.js",
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 1.119801999999254
+      },
+      {
+        "url": "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/src_sdk_core_modules_integrations_sdk-integrations_providers_google_google_js.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1222,
+        "remoteIPAddress": "65.8.180.104",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"304da46fccba87f8ee4ed9a5eda7716f-1\""
+        },
+        "responseBodyHash": "03b46aff53d175b30817ab2a8256f6030bf427334a633ebaed2b0d57e2ad3a9e",
+        "initiators": [
+          "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/sdk.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+          "https://sdk.privacy-center.org/8ba38674-edba-484d-8053-435051d79f72/loader.js?target=epconsentwalnoneu.com",
+          "https://cmp.prisa.com/dist/cmp_ep.js",
+          "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js"
+        ],
+        "time": 0.12545099999988452
+      },
+      {
+        "url": "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/src_sdk_core_modules_integrations_sdk-integrations_providers_salesforce-dmp_salesforce-dmp_js.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1142,
+        "remoteIPAddress": "65.8.180.104",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e11db4df044ac9ba5cfedc90ba5cb537-1\""
+        },
+        "responseBodyHash": "f2c69ad70803f2806a9f8d2923ce647fae82a2b7b8516d98f3203b4cd6b37312",
+        "initiators": [
+          "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/sdk.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+          "https://sdk.privacy-center.org/8ba38674-edba-484d-8053-435051d79f72/loader.js?target=epconsentwalnoneu.com",
+          "https://cmp.prisa.com/dist/cmp_ep.js",
+          "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js"
+        ],
+        "time": 0.12531199999830278
+      },
+      {
+        "url": "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/ui-web-en-web.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54837,
+        "remoteIPAddress": "65.8.180.104",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"171f864394dd2228ab4eae47e8d411c6-1\""
+        },
+        "responseBodyHash": "236643f00873ee983c0523f13c72b6ad8547ad70f71364d34062c2f6a9103cc3",
+        "initiators": [
+          "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/sdk.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+          "https://sdk.privacy-center.org/8ba38674-edba-484d-8053-435051d79f72/loader.js?target=epconsentwalnoneu.com",
+          "https://cmp.prisa.com/dist/cmp_ep.js",
+          "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js"
+        ],
+        "time": 0.29478000000017346
+      },
+      {
+        "url": "https://prisacom.tt.omtrdc.net/rest/v1/delivery?client=prisacom&sessionId=4e57e5e6f3c042d38b589f9e003414fc&version=2.11.4",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 121,
+        "remoteIPAddress": "63.140.37.45",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.7332949999999983
+      },
+      {
+        "url": "https://sdk.mrf.io/statics/f44a98ba50315141059b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4050,
+        "remoteIPAddress": "104.19.220.32",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "W/\"813c4e8ee1a82ee27f9369c636b15fa0\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fc83cd738b1bcd4a789288d9cf5ccc8b03e41eced51398ebfd9cf0d4deadc0bb",
+        "initiators": [
+          "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2223",
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.7121439999991708
+      },
+      {
+        "url": "https://smetrics.elpais.com/b/ss/prisacomglobal/1/JS-2.23.0-LGPQ/s14336929412916",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 223,
+        "remoteIPAddress": "63.140.36.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "etag": "3811765244645310464-4613762643728331983",
+          "expires": "Mon, 30 Mar 2026 21:11:50 GMT",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "pragma": "no-cache",
+          "set-cookie": "s_ecid=MCMID%7C78056112370445899240903094935671971667; Path=/; Domain=elpais.com; Max-Age=63072000; Expires=Thu, 30 Mar 2028 21:11:11 GMT; SameSite=None; Secure"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "initiators": [
+          "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.6828550000009272
+      },
+      {
+        "url": "https://edge.adobedc.net/ee/or2/v1/interact?configId=9ad480a3-985a-4cc5-9907-d80eae43012e&requestId=a628383c-2500-4296-952b-a70dc370e5d3",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 775,
+        "remoteIPAddress": "63.140.37.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://elpais.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private"
+        },
+        "responseBodyHash": "82aaf19423fc7a3c1f274e918220aff3ce31f71f0d370a6497b8e45c1aacd286",
+        "initiators": [
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 1.0077000000001135
+      },
+      {
+        "url": "https://sdk.mrf.io/statics/b12ab15087c5c1b856b3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 22633,
+        "remoteIPAddress": "104.19.220.32",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "W/\"65dd2b2551d68c071b866acf335e3132\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "94fbaa68ecb6b2e2d315d91619ec746b9c950cdf76a76a34417fc1704a1ebddb",
+        "initiators": [
+          "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2223",
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.5681279999989783
+      },
+      {
+        "url": "blob:https://elpais.com/ad2e76ac-8df3-4c46-a638-bb4bacbd7197",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "initiators": [
+          "https://elpais.com/us/"
+        ],
+        "time": 0.5031589999998687
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=963840&dpuuid=6f206d9a-12b3-47f1-bd76-8926472a548f",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 716,
+        "remoteIPAddress": "44.227.66.34",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:50 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None\ndpm=78072794027026189740901403133667298153; Max-Age=15552000; Expires=Sun, 27 Sep 2026 21:11:50 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://playerservices.live.streamtheworld.com/api/getuuid?redir=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D963840%26dpuuid%3D%40UUID%40",
+        "initiators": [
+          "https://prisacom.demdex.net/dest5.html?d_nsid=0"
+        ],
+        "time": 0.3261080000011134
+      },
+      {
+        "url": "https://api-js.datadome.co/js/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 461,
+        "remoteIPAddress": "54.177.177.173",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9ec7240852edb8149769b2df5ebea1117540edbd1646a6d53b04e1237e1f8c11",
+        "initiators": [
+          "https://js.datadome.co/tags.js",
+          "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js"
+        ],
+        "time": 0.31074100000114413
+      }
+    ],
+    "cookies": [
+      {
+        "name": "arc-geo",
+        "domain": "elpais.com",
+        "path": "/",
+        "expires": 1774992403314,
+        "session": false
+      },
+      {
+        "name": "eptz",
+        "domain": ".elpais.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "hpage",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1806527503314,
+        "session": false
+      },
+      {
+        "name": "FCCDCF",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1808687507000,
+        "session": false
+      },
+      {
+        "name": "at_check",
+        "domain": ".elpais.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "demdex",
+        "domain": ".demdex.net",
+        "path": "/",
+        "expires": 1790543510833,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AMCVS_2387401053DB208C0A490D4C%40AdobeOrg",
+        "domain": ".elpais.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "FCNEC",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1806527508000,
+        "session": false
+      },
+      {
+        "name": "s_ecid",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1809551510817,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AMCV_2387401053DB208C0A490D4C%40AdobeOrg",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1809551509033,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "pmuser",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1806502309000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1774992409370,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "XANDR_PANID",
+        "domain": ".adnxs.com",
+        "path": "/",
+        "expires": 1782767509530,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "uuid2",
+        "domain": ".adnxs.com",
+        "path": "/",
+        "expires": 1782767509530,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TDID",
+        "domain": ".adsrvr.org",
+        "path": "/",
+        "expires": 1806527509539,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "dextp",
+        "domain": ".demdex.net",
+        "path": "/",
+        "expires": 1790543509000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TDCPM",
+        "domain": ".adsrvr.org",
+        "path": "/",
+        "expires": 1806527509539,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "KTPCACOOKIE",
+        "domain": ".pubmatic.com",
+        "path": "/",
+        "expires": 1775077909561,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "dpm",
+        "domain": ".dpm.demdex.net",
+        "path": "/",
+        "expires": 1790543510834,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "KADUSERCOOKIE",
+        "domain": ".pubmatic.com",
+        "path": "/",
+        "expires": 1806527509674,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "didomi_token",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1806613909000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "s_nr30",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1777583509000,
+        "session": false
+      },
+      {
+        "name": "s_vncd",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1775026799000,
+        "session": false
+      },
+      {
+        "name": "s_ivc",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1774993309000,
+        "session": false
+      },
+      {
+        "name": "mbox",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1809551510064,
+        "session": false
+      },
+      {
+        "name": "s_cc",
+        "domain": ".elpais.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "kndctr_2387401053DB208C0A490D4C_AdobeOrg_identity",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1809119510000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "kndctr_2387401053DB208C0A490D4C_AdobeOrg_cluster",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1774993311000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "cmpyoutubeConsent",
+        "domain": "elpais.com",
+        "path": "/",
+        "expires": 1806527510000,
+        "session": false
+      },
+      {
+        "name": "cmp573Consent",
+        "domain": "elpais.com",
+        "path": "/",
+        "expires": 1806527510000,
+        "session": false
+      },
+      {
+        "name": "uuid-s",
+        "domain": ".live.streamtheworld.com",
+        "path": "/",
+        "expires": 1777583510507,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "datadome",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1806527511111,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "pmsegments",
+        "domain": ".elpais.com",
+        "path": "/",
+        "expires": 1775596311000,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://elpais.com/ad2e76ac-8df3-4c46-a638-bb4bacbd7197"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://static.prisa.com/dist/subs/securesharesession/v2/latest/securesharesession.min.js": {
+          "window.localStorage": 3
+        },
+        "https://static.elpais.com/dist/resources/js/ed7089ba2a40484f4aab104099c09b5b/ENP-section-front.js": {
+          "window.localStorage": 14,
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 3,
+          "window.innerWidth": 6,
+          "Document.cookie getter": 11,
+          "Date.prototype.getTime": 18
+        },
+        "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY": {
+          "Navigator.prototype.userAgent": 10,
+          "Document.cookie getter": 26,
+          "Date.prototype.getTime": 3,
+          "Document.cookie setter": 6,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js": {
+          "Document.cookie getter": 13,
+          "window.localStorage": 8,
+          "Document.cookie setter": 1
+        },
+        "https://accounts.google.com/gsi/client": {
+          "Navigator.prototype.userAgent": 30
+        },
+        "https://elpais.com/arc/subs/p.min.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js": {
+          "Navigator.prototype.userAgent": 8,
+          "window.localStorage": 33,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 1,
+          "Document.cookie getter": 293,
+          "Document.cookie setter": 42,
+          "window.sessionStorage": 1,
+          "Date.prototype.getTime": 122,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.appName": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "NavigatorUAData.prototype.brands": 1,
+          "Date.prototype.getTimezoneOffset": 6,
+          "Screen.prototype.width": 5,
+          "Screen.prototype.height": 5,
+          "Screen.prototype.orientation": 3,
+          "Screen.prototype.colorDepth": 2,
+          "window.devicePixelRatio": 2,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.platform": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+        },
+        "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js": {
+          "Date.prototype.getTime": 1,
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 2,
+          "Navigator.prototype.userAgent": 12,
+          "Navigator.prototype.platform": 8,
+          "Navigator.prototype.maxTouchPoints": 8,
+          "window.innerWidth": 3,
+          "window.innerHeight": 3,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.connection": 3,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+          "window.localStorage": 2
+        },
+        "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js": {
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.appName": 2,
+          "Date.prototype.getTime": 4,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie getter": 3,
+          "Document.cookie setter": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.javaEnabled": 1,
+          "Screen.prototype.pixelDepth": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2
+        },
+        "https://js.datadome.co/tags.js": {
+          "window.sessionStorage": 2,
+          "Document.cookie getter": 20,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "WebGLRenderingContext.prototype.getParameter": 2,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "window.localStorage": 2,
+          "Navigator.prototype.languages": 2,
+          "window.outerHeight": 6,
+          "window.outerWidth": 5,
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.webdriver": 1,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "Navigator.prototype.onLine": 2,
+          "Navigator.prototype.deviceMemory": 3,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 27,
+          "URL.createObjectURL": 1,
+          "Navigator.prototype.permissions": 4,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Navigator.prototype.keyboard": 3,
+          "Navigator.prototype.getBattery": 1,
+          "Navigator.prototype.storage": 3,
+          "Document.cookie setter": 3,
+          "Navigator.prototype.mimeTypes": 9,
+          "window.innerWidth": 4,
+          "window.innerHeight": 5,
+          "Screen.prototype.availWidth": 2,
+          "Screen.prototype.availHeight": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.colorDepth": 1,
+          "window.devicePixelRatio": 1,
+          "Screen.prototype.orientation": 1,
+          "HTMLMediaElement.prototype.canPlayType": 19,
+          "MediaSource.isTypeSupported": 19,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.connection": 5,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.mediaDevices": 4,
+          "MediaDevices.prototype.enumerateDevices": 1
+        },
+        "https://pub.doubleverify.com/dvtag/29433989/DV1044330/pub.js": {
+          "window.sessionStorage": 1
+        },
+        "https://fundingchoicesmessages.google.com/f/AGSKWxVh6BpoesgLHUDoMQjTx4pXU336Ny64uPgSDzvNVDN_42q5mlNSdQ1bI_aKwKGKx4fhEkKtLwEwsWG8GR_glB-ynq6xf20haPFdP76cMRnQafvZSOwx19FND1gVKOimA2dL9XA=?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzc0OTkxNTA3LDUzNzAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly9lbHBhaXMuY29tL3VzLyIsbnVsbCxbWzgsIkJsZVdiUVU1aFJvIl0sWzksImVuLVVTIl0sWzE2LCJbMSwxLDFdIl0sWzE5LCIyIl0sWzE3LCJbMF0iXSxbMjQsIiJdLFsyOSwiZmFsc2UiXV1d": {
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://pagead2.googlesyndication.com/pagead/show_companion_ad.js?fcd=true": {
+          "Navigator.prototype.userAgent": 5
+        },
+        "https://prisacom.demdex.net/dest5.html?d_nsid=0": {
+          "Document.cookie getter": 10,
+          "Date.prototype.getTime": 20,
+          "Document.cookie setter": 5
+        },
+        "https://cmp.prisa.com/dist/cmp_ep.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 3,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+          "Notification.permission": 1,
+          "Navigator.prototype.plugins": 1,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Date.prototype.getTime": 2,
+          "Document.cookie setter": 2
+        },
+        "https://es-config.sensic.net/s2s-web.js": {
+          "window.localStorage": 4,
+          "Date.prototype.getTime": 3,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.platform": 2,
+          "Navigator.prototype.language": 1
+        },
+        "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/sdk.4f386d13fe43458a11170599cadf5fbac9fa5f47.js": {
+          "Date.prototype.getTime": 20,
+          "window.localStorage": 12,
+          "Date.prototype.getTimezoneOffset": 3,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.userAgent": 5,
+          "Document.cookie getter": 2,
+          "Navigator.prototype.languages": 2,
+          "Document.cookie setter": 2
+        },
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2223": {
+          "window.localStorage": 6,
+          "Navigator.prototype.userAgent": 2,
+          "window.sessionStorage": 32,
+          "Date.prototype.getTime": 10,
+          "Document.cookie setter": 2,
+          "Document.cookie getter": 6
+        },
+        "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/ui-web-en-web.4f386d13fe43458a11170599cadf5fbac9fa5f47.js": {
+          "window.innerWidth": 4,
+          "window.innerHeight": 1
+        },
+        "https://es-config.sensic.net/3pc.html": {
+          "window.localStorage": 2,
+          "Document.cookie getter": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "FCCDCF=;path=/;expires=Sun, 01 Feb 1970 08:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "FCCDCF=;domain=elpais.com;path=/;expires=Sun, 01 Feb 1970 08:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "FCCDCF=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%223294a97f-8f91-403c-837f-c4078c21f803%5C%22%2C%5B1774991507%2C112000000%5D%5D%22%5D%5D%5D;domain=elpais.com;path=/;expires=Sun, 25 Apr 2027 21:11:47 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "com.adobe.alloy.getTld=com.adobe.alloy.getTld; path=/; domain=elpais.com"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "com.adobe.alloy.getTld=; path=/; domain=elpais.com; expires=Mon, 30 Mar 2026 21:11:47 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kndctr_2387401053DB208C0A490D4C_AdobeOrg_consent=; path=/; expires=Mon, 30 Mar 2026 21:11:47 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=cookie; path=/; domain=elpais.com;SameSite=none;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "TEST_AMCV_COOKIE_WRITE=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=elpais.com;SameSite=none;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mbox=session#4e57e5e6f3c042d38b589f9e003414fc#1774993369; path=/; domain=elpais.com; expires=Tue, 31 Mar 2026 21:42:49 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "at_check=true; path=/; domain=elpais.com"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "at_check=; path=/; expires=Mon, 30 Mar 2026 21:11:48 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mbox=session#4e57e5e6f3c042d38b589f9e003414fc#1774993369; path=/; domain=elpais.com; expires=Tue, 31 Mar 2026 21:42:49 GMT"
+          ]
+        },
+        {
+          "source": "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gd1774991508097=_gd1774991508097;domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://ak-ads-ns.prisasd.com/slot/elpais/slot.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gd1774991508097=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596308%7C9%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596308%7C9%7CMCAAMB-1775596308%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596308%7C9%7CMCAAMB-1775596308%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCVS_2387401053DB208C0A490D4C%40AdobeOrg=1; path=/; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596308%7C9%7CMCAAMB-1775596308%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998708s%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596308%7C9%7CMCAAMB-1775596308%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998708s%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mbox=session#4e57e5e6f3c042d38b589f9e003414fc#1774993369; path=/; domain=elpais.com; expires=Tue, 31 Mar 2026 21:42:49 GMT"
+          ]
+        },
+        {
+          "source": "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "FCNEC=;path=/;expires=Sun, 01 Feb 1970 08:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "FCNEC=;domain=elpais.com;path=/;expires=Sun, 01 Feb 1970 08:00:00 GMT"
+          ]
+        },
+        {
+          "source": "https://fundingchoicesmessages.google.com/f/AGSKWxWl4OHVOhONFmrW5xi_scJ2jYwch61PP591wCtLQJVTlKBzlHvrAnxtgHVpItmxcNRmUnc2DlVHjXZ1d7PY",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "FCNEC=%5B%5B%22AKsRol-_GuCj0L5qsH86tc8WR498Xy32V3ggcrclv_w2gwwfqe6mGuXNs2-FtYCE5DL1tunL0TUaHK0fNrKzA-3OFpcCaLFLrxhA253GOzjtdlp6HnVg9bVN_L8TOg2dFOn7tBreAyl-G0RvwXxZCUC2f_so_VNTGg%3D%3D%22%5D%5D;domain=elpais.com;path=/;expires=Wed, 31 Mar 2027 21:11:48 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596308%7C9%7CMCAAMB-1775596308%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998708s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596308%7C9%7CMCAAMB-1774991507%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998708s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:48 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mbox=session#4e57e5e6f3c042d38b589f9e003414fc#1774993369|PC#4e57e5e6f3c042d38b589f9e003414fc.35_0#1838236310; path=/; domain=elpais.com; expires=Sat, 01 Apr 2028 21:11:50 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mbox=session#4e57e5e6f3c042d38b589f9e003414fc#1774993370|PC#4e57e5e6f3c042d38b589f9e003414fc.35_0#1838236310; path=/; domain=elpais.com; expires=Sat, 01 Apr 2028 21:11:50 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mbox=session#4e57e5e6f3c042d38b589f9e003414fc#1774993370|PC#4e57e5e6f3c042d38b589f9e003414fc.35_0#1838236310; path=/; domain=elpais.com; expires=Sat, 01 Apr 2028 21:11:50 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596309%7C9%7CMCAAMB-1774991507%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998708s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:49 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596309%7C9%7CMCAAMB-1775596309%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998708s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:49 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596309%7C9%7CMCAAMB-1775596309%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998708s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:49 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_2387401053DB208C0A490D4C%40AdobeOrg=179643557%7CMCIDTS%7C20544%7CMCMID%7C78056112370445899240903094935671971667%7CMCAAMLH-1775596309%7C9%7CMCAAMB-1775596309%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C-1022927279%7CMCOPTOUT-1774998709s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; path=/; expires=Fri, 31 Mar 2028 21:11:49 GMT; domain=elpais.com;SameSite=None;Secure"
+          ]
+        },
+        {
+          "source": "https://prisacom.demdex.net/dest5.html?d_nsid=0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dextp=358-1-1774991508882|771-1-1774991509041;expires=Sun, 27 Sep 2026 21:11:49 GMT;path=/;domain=.demdex.net;secure;SameSite=None"
+          ]
+        },
+        {
+          "source": "https://prisacom.demdex.net/dest5.html?d_nsid=0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dextp=358-1-1774991508882|771-1-1774991509041|903-1-1774991509146;expires=Sun, 27 Sep 2026 21:11:49 GMT;path=/;domain=.demdex.net;secure;SameSite=None"
+          ]
+        },
+        {
+          "source": "https://static.prisa.com/dist/subs/pmuser/v2/latest/pmuser.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "pmuser={\"skus\":[],\"entitlements\":[],\"UT\":\"ANONYMOUS\",\"lastUpdated\":1774991507554};expires=Wed Mar 31 2027 14:11:49 GMT-0700 (Pacific Daylight Time);domain=.elpais.com;path=/;samesite=none;Secure"
+          ]
+        },
+        {
+          "source": "https://prisacom.demdex.net/dest5.html?d_nsid=0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dextp=358-1-1774991508882|771-1-1774991509041|903-1-1774991509146|19566-1-1774991509252;expires=Sun, 27 Sep 2026 21:11:49 GMT;path=/;domain=.demdex.net;secure;SameSite=None"
+          ]
+        },
+        {
+          "source": "https://prisacom.demdex.net/dest5.html?d_nsid=0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dextp=358-1-1774991508882|771-1-1774991509041|903-1-1774991509146|19566-1-1774991509252|175765-1-1774991509356;expires=Sun, 27 Sep 2026 21:11:49 GMT;path=/;domain=.demdex.net;secure;SameSite=None"
+          ]
+        },
+        {
+          "source": "https://prisacom.demdex.net/dest5.html?d_nsid=0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dextp=358-1-1774991508882|771-1-1774991509041|903-1-1774991509146|19566-1-1774991509252|175765-1-1774991509356|963840-1-1774991509462;expires=Sun, 27 Sep 2026 21:11:49 GMT;path=/;domain=.demdex.net;secure;SameSite=None"
+          ]
+        },
+        {
+          "source": "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/sdk.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "euconsent-v2=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/;domain=elpais.com"
+          ]
+        },
+        {
+          "source": "https://sdk.privacy-center.org/sdk/4f386d13fe43458a11170599cadf5fbac9fa5f47/modern/sdk.4f386d13fe43458a11170599cadf5fbac9fa5f47.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "didomi_token=eyJ1c2VyX2lkIjoiMTlkNDViZDAtOTUxNy02YjY4LThmOTYtMzg3YzEzNDEzM2I3IiwiY3JlYXRlZCI6IjIwMjYtMDMtMzFUMjE6MTE6NDkuODQxWiIsInVwZGF0ZWQiOiIyMDI2LTAzLTMxVDIxOjExOjQ5Ljg0MloiLCJ2ZXJzaW9uIjpudWxsfQ==;expires=Thu, 01 Apr 2027 21:11:49 GMT;path=/;domain=elpais.com;SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_nr30=1774991509984-New; path=/; expires=Thu, 30 Apr 2026 21:11:49 GMT; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_vncd=1775026799989%26vn%3D1; path=/; expires=Wed, 01 Apr 2026 06:59:59 GMT; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_ivc=true; path=/; expires=Tue, 31 Mar 2026 21:41:49 GMT; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "at_check=true; path=/; domain=elpais.com"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "at_check=; path=/; expires=Mon, 30 Mar 2026 21:11:50 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mbox=session#4e57e5e6f3c042d38b589f9e003414fc#1774993371|PC#4e57e5e6f3c042d38b589f9e003414fc.35_0#1838236310; path=/; domain=elpais.com; expires=Sat, 01 Apr 2028 21:11:50 GMT"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_cc=true; path=/; domain=elpais.com; secure;"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kndctr_2387401053DB208C0A490D4C_AdobeOrg_identity=CiY3ODA1NjExMjM3MDQ0NTg5OTI0MDkwMzA5NDkzNTY3MTk3MTY2N1IQCOqS9K3UMxgBKgNPUjIwA_AB6pL0rdQz; path=/; domain=elpais.com; expires=Fri, 30 Apr 2027 21:11:50 GMT; sameSite=none; secure"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kndctr_2387401053DB208C0A490D4C_AdobeOrg_cluster=or2; path=/; domain=elpais.com; expires=Tue, 31 Mar 2026 21:41:50 GMT; sameSite=none; secure"
+          ]
+        },
+        {
+          "source": "https://cmp.prisa.com/dist/cmp_ep.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cmpyoutubeConsent=false;path=/;expires=Wed, 31 Mar 2027 21:11:50 GMT"
+          ]
+        },
+        {
+          "source": "https://cmp.prisa.com/dist/cmp_ep.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cmp573Consent=false;path=/;expires=Wed, 31 Mar 2027 21:11:50 GMT"
+          ]
+        },
+        {
+          "source": "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2223",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mrf_cookie=ok;path=/;domain=elpais.com;secure"
+          ]
+        },
+        {
+          "source": "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2223",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "mrf_cookie=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=elpais.com;"
+          ]
+        },
+        {
+          "source": "https://js.datadome.co/tags.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=1; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://js.datadome.co/tags.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_testcookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://js.datadome.co/tags.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "datadome=yP778tEYNjaet~nyNNHXu7oromV3O23OmSzQQlD2VmFksq5iFreHBKRlMxI0RzcDDTG5JZGtr9nSEwnP34zSzC50q9nDS0fHKB4dqm8c70_KLS~eactQaghFQeE_Lr5Z; Max-Age=31536000; Domain=.elpais.com; Path=/; Secure; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kndctr_2387401053DB208C0A490D4C_AdobeOrg_cluster=or2; path=/; domain=elpais.com; expires=Tue, 31 Mar 2026 21:41:51 GMT; sameSite=none; secure"
+          ]
+        },
+        {
+          "arguments": [
+            "pmsegments={\"78056112370445899240903094935671971667\":{},\"lastUpdated\":1774991511168};  domain=elpais.com ; expires = ; expires=Tue, 07 Apr 2026 21:11:51 GMT; path=/"
+          ],
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "pmsegments={\"78056112370445899240903094935671971667\":{},\"lastUpdated\":1774991511168};  domain=.prisa.arcpublishing.com ; expires = ; expires=Tue, 07 Apr 2026 21:11:51 GMT; path=/"
+          ],
+          "source": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b.min.js",
+          "description": "Document.cookie setter"
+        }
+      ]
+    }
+  }
+}

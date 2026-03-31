@@ -1,0 +1,387 @@
+{
+  "initialUrl": "https://sourceforge.net/",
+  "finalUrl": "https://sourceforge.net/",
+  "timeout": false,
+  "testStarted": 1774987862397,
+  "testFinished": 1774987869143,
+  "data": {
+    "requests": [
+      {
+        "url": "https://sourceforge.net/",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 4535,
+        "remoteIPAddress": "104.18.13.149",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+          "set-cookie": "__cf_bm=vADn9q_evrCFkCLKrwj2u86t4y9nmF_wpVLvG1dGHi0-1774987863.1540344-1.0.1.1-DH03kG1Nm8Iz64IMO9EcmDaU6lBORF7lAeQYkkdHaQbavaiFNclG5aVfpApEt9I6kk6xyImfiSImwJmI9CJYjKSH_kkaZ6PC0z_MzRMxHuF.hyMaXUWfRVCV6ukggE3.; HttpOnly; Secure; Path=/; Domain=sourceforge.net; Expires=Tue, 31 Mar 2026 20:41:03 GMT"
+        },
+        "responseBodyHash": "41439023ad731734728a0d791ad8ca2101551eb7390b136e79202eb31ce3240e",
+        "initiators": [],
+        "time": 0.16361099999994622
+      },
+      {
+        "url": "https://sourceforge.net/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e520040bfb3b828",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59509,
+        "remoteIPAddress": "104.18.13.149",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "set-cookie": "__cf_bm=wC3L31MnYA1MFo99SsWF6GLLULYmFtEpnXDIjdXLmkc-1774987863.255033-1.0.1.1-Dg_BELQ_OscGpEoJRFhkQ2jNimOiSaph9x2X9x2If2kAd2Q0dlP4b4tZziLussUG60XtlIJui5doJD6CtchFXTjHRymi841Pf89kkcClUknLSazPjopd2MtBqiNWs4s3; HttpOnly; Secure; Path=/; Domain=sourceforge.net; Expires=Tue, 31 Mar 2026 20:41:03 GMT"
+        },
+        "responseBodyHash": "edfc0c757db7144f2c45b6a9250c2a1ef50bdb7c996bcb8560f9ad295d03240a",
+        "initiators": [
+          "https://sourceforge.net/"
+        ],
+        "time": 0.04458100000010745
+      },
+      {
+        "url": "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17387,
+        "remoteIPAddress": "104.18.95.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, stale-if-error=10800, stale-while-revalidate=31536000, public",
+          "timing-allow-origin": "https://sourceforge.net"
+        },
+        "responseBodyHash": "e4c4cdba4fc50a031a1148b252e402d55bc9bb8e268500d9d3870fcbe0eb5714",
+        "initiators": [
+          "https://sourceforge.net/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e520040bfb3b828",
+          "https://sourceforge.net/"
+        ],
+        "time": 0.0782710000003135
+      },
+      {
+        "url": "blob:https://sourceforge.net/83313600-fb1e-44ad-8dcb-be078304b885",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://sourceforge.net/"
+        ]
+      },
+      {
+        "url": "https://sourceforge.net/favicon.ico",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1815,
+        "remoteIPAddress": "104.18.13.149",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "W/\"60f5c3f7-5e8\"",
+          "expires": "Tue, 07 Apr 2026 20:11:05 GMT"
+        },
+        "responseBodyHash": "3be2cce689887ca2381953d6ed8f57eff32a142ded67ad194d587f91d34ed646",
+        "initiators": [
+          "https://sourceforge.net/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e520040bfb3b828",
+          "https://sourceforge.net/"
+        ],
+        "time": 0.03481199999987439
+      },
+      {
+        "url": "https://sourceforge.net/cdn-cgi/challenge-platform/h/g/flow/ov1/1999988631:1774424211:ufj9z36p3lrOYP8bcoAv7UVXu4jYYHVmCKOcowaP_oM/9e520040bfb3b828/AUUeLhrZ_BruoPTuNqhRiqRHoUz4Xc.pS6cnetmI9Sw-1774987863-1.2.1.1-Rr_yl0cG7x5BR7P9CnFJi8rfAIPbsORBkCsj7czw5mUEDDhqeaHIK.uNV1KnoCCm",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 14226,
+        "remoteIPAddress": "104.18.13.149",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=MAOr8CAaWqGYLprg2Y0RYzHfvOI7Ti30VU0Hwz3gex8-1774987866.0152726-1.0.1.1-Ah_7vV4ja2ftIjyKA75_ivBcgNMgU2WeMnQeXPxdjxJActvSp0mEL_Jqg8KLTqngiMmm6KA7mtXiLTG7lYgdbXowQrkmGW2Qfn9InL_WBdgf9QtJ7aNsesA85LHAc.3C; HttpOnly; Secure; Path=/; Domain=sourceforge.net; Expires=Tue, 31 Mar 2026 20:41:06 GMT",
+          "timing-allow-origin": "https://sourceforge.net"
+        },
+        "responseBodyHash": "efd6c897ddee1d43f83261aee5a4a6ac03593df1cd357895a71448a0eb2c987a",
+        "initiators": [
+          "https://sourceforge.net/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e520040bfb3b828",
+          "https://sourceforge.net/"
+        ],
+        "time": 0.07713599999988219
+      },
+      {
+        "url": "https://sourceforge.net/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.13.149",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "W/\"60f5c3f7-5e8\"",
+          "expires": "Tue, 07 Apr 2026 20:11:05 GMT"
+        },
+        "responseBodyHash": "3be2cce689887ca2381953d6ed8f57eff32a142ded67ad194d587f91d34ed646",
+        "initiators": [],
+        "time": 0.0009780000000318978
+      },
+      {
+        "url": "blob:https://sourceforge.net/49690469-fb95-45f5-8917-112e6adfdeaa",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f3418640c1204265881221580b9d1554424f6ed49549d408da50c690ab29f400",
+        "initiators": [
+          "https://sourceforge.net/"
+        ],
+        "time": 0.018562999999630847
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 88415,
+        "remoteIPAddress": "104.18.94.41",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        },
+        "responseBodyHash": "c17ad175efa5d5563c1256719c1fcccae7353310ef7e291a90d6d7b3d95a14f4",
+        "initiators": [
+          "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit",
+          "https://sourceforge.net/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e520040bfb3b828"
+        ],
+        "time": 0.17087699999956385
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 208,
+        "remoteIPAddress": "104.18.94.41",
+        "responseHeaders": {},
+        "responseBodyHash": "fa2ab2475e5fbb12723f8f56380ba29c26bc6d4355dd6ca2d3922599a46cb973",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.08977899999990768
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/5eb5f9bd-84b2-4a09-ba04-bb196ae28c6a",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ]
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/1151758751:1774424211:4o8Wa4Enn-QTt2lnuwi1reIgADkO95lDbuYaz16VfCU/9e5200532af570f0/8J9fbSy1KpyJsrhiYHTeOP3qxUQ7KGn0BSfX6XXhUSY-1774987866-1.2.1.1-m.uEUCCMicy.Rq6vH3Fg4WGkEAEF66xcPRR94FsWDUayn1BhB_4CGbvMBcOpjwfP",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 184627,
+        "remoteIPAddress": "104.18.94.41",
+        "responseHeaders": {
+          "timing-allow-origin": "https://challenges.cloudflare.com"
+        },
+        "responseBodyHash": "9b48cbfae1d512dc5c8bedb17456f473c20dde0ee48097ec65d80fcc4abbe498",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.16724500000054832
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/9d502991-94c0-4dd0-895b-2f155e190027",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f3418640c1204265881221580b9d1554424f6ed49549d408da50c690ab29f400",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.07037599999966915
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/9d502991-94c0-4dd0-895b-2f155e190027",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f3418640c1204265881221580b9d1554424f6ed49549d408da50c690ab29f400",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.014059999999517458
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9e5200532af570f0/1774987866559/395dfec93bbb2bbd08bb8ee4f35e310b15fbd772707546d7c11c4c9cb92d2905/PipMyTAi4yRYag3",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 401,
+        "size": 1702,
+        "remoteIPAddress": "104.18.94.41",
+        "responseHeaders": {},
+        "responseBodyHash": "6da43b944e494e885e69af021f93c6d9331c78aa228084711429160a5bbd15b5",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.06456499999967491
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/d/9e5200532af570f0/1774987866559/PxXQq0n8TNeuDm5",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 605,
+        "remoteIPAddress": "104.18.94.41",
+        "responseHeaders": {},
+        "responseBodyHash": "1b19891d2ff73704ae8df9594b9490eb7e8af490da1d06ed7c8c371ab6570f3d",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.014205000000401924
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/1151758751:1774424211:4o8Wa4Enn-QTt2lnuwi1reIgADkO95lDbuYaz16VfCU/9e5200532af570f0/8J9fbSy1KpyJsrhiYHTeOP3qxUQ7KGn0BSfX6XXhUSY-1774987866-1.2.1.1-m.uEUCCMicy.Rq6vH3Fg4WGkEAEF66xcPRR94FsWDUayn1BhB_4CGbvMBcOpjwfP",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 23553,
+        "remoteIPAddress": "104.18.94.41",
+        "responseHeaders": {
+          "timing-allow-origin": "https://challenges.cloudflare.com"
+        },
+        "responseBodyHash": "33381899e0eb743744cc23d6fbf04bbdbff44a03827f4410b81746df30853d02",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.058399000000463275
+      },
+      {
+        "url": "blob:https://challenges.cloudflare.com/4c146a56-9ffc-47c3-85dd-8c821bcbdcec",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": null,
+        "responseHeaders": {},
+        "responseBodyHash": "f3418640c1204265881221580b9d1554424f6ed49549d408da50c690ab29f400",
+        "initiators": [
+          "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+        ],
+        "time": 0.009778999999980442
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": ".sourceforge.net",
+        "path": "/",
+        "expires": 1774989666014,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://sourceforge.net/49690469-fb95-45f5-8917-112e6adfdeaa"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/9d502991-94c0-4dd0-895b-2f155e190027"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/9d502991-94c0-4dd0-895b-2f155e190027"
+      },
+      {
+        "type": "worker",
+        "url": "blob:https://challenges.cloudflare.com/4c146a56-9ffc-47c3-85dd-8c821bcbdcec"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://sourceforge.net/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e520040bfb3b828": {
+          "Document.cookie getter": 1,
+          "URL.createObjectURL": 1,
+          "window.matchMedia(\"prefers-color-scheme\")": 1
+        },
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yc2lr/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto": {
+          "Navigator.prototype.maxTouchPoints": 3,
+          "window.localStorage": 4,
+          "URL.createObjectURL": 3,
+          "BroadcastChannel.prototype.constructor": 1,
+          "window.name": 4,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "window.screenX": 2,
+          "window.screenY": 2,
+          "window.outerWidth": 2,
+          "window.outerHeight": 2,
+          "window.devicePixelRatio": 2,
+          "window.screenLeft": 2,
+          "window.screenTop": 2,
+          "window.indexedDB": 2,
+          "window.sessionStorage": 2,
+          "Navigator.prototype.vendorSub": 1,
+          "Navigator.prototype.productSub": 1,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.webkitTemporaryStorage": 1,
+          "Navigator.prototype.webkitPersistentStorage": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.cookieEnabled": 1,
+          "Navigator.prototype.appCodeName": 1,
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.product": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.language": 2,
+          "Navigator.prototype.languages": 2,
+          "Navigator.prototype.onLine": 3,
+          "Navigator.prototype.webdriver": 1,
+          "Navigator.prototype.plugins": 20,
+          "Navigator.prototype.mimeTypes": 9,
+          "Navigator.prototype.connection": 4,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.availHeight": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Screen.prototype.pixelDepth": 1,
+          "Screen.prototype.availLeft": 1,
+          "Screen.prototype.availTop": 1,
+          "Screen.prototype.orientation": 2,
+          "CanvasRenderingContext2D.prototype.getImageData": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Document.cookie getter": 2,
+          "OfflineAudioContext.prototype.constructor": 3,
+          "AudioBuffer.prototype.getChannelData": 3,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+          "WebGLRenderingContext.prototype.getParameter": 4,
+          "WebGLRenderingContext.prototype.getExtension": 1,
+          "HTMLCanvasElement.prototype.toDataURL": 2,
+          "Performance.prototype.memory": 8,
+          "window.matchMedia(\"prefers-color-scheme\")": 1,
+          "Navigator.prototype.getGamepads": 1,
+          "Navigator.prototype.permissions": 5,
+          "Navigator.prototype.getBattery": 1,
+          "Date.prototype.getTime": 12,
+          "Date.prototype.getTimezoneOffset": 1
+        },
+        "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit": {
+          "window.innerWidth": 1
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

@@ -1,0 +1,2426 @@
+{
+  "initialUrl": "https://netflix.net/",
+  "finalUrl": "https://www.netflix.com/",
+  "timeout": false,
+  "testStarted": 1774988993274,
+  "testFinished": 1774989004628,
+  "data": {
+    "requests": [
+      {
+        "url": "https://netflix.net/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "34.218.19.240",
+        "responseHeaders": {
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=3600"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.netflix.com/",
+        "initiators": [],
+        "time": 0.1086940000004688
+      },
+      {
+        "url": "https://www.netflix.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 83185,
+        "remoteIPAddress": "52.38.7.83",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "flwssn=174e67af-fcb5-402e-a9d8-7e318fc6fd02; Max-Age=10800; Domain=.netflix.com; Path=/\nnfvdid=BQFmAAEBEAybzMLC7eioRfz6lb6LIUNAyLVuTWcII71iuXAYInkl23AykuH_PvDH0P2NqvfsFTruByCnqGun3oKXbdDKQmfNIu53ZKwwofQATHR0kGHm5g%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABRl_glsw9Q6xK9FjW-MVxPSXGn0cUAR_Co.%26dt%3D1774988994724; Domain=.netflix.com; Expires=Wed, 31 Mar 2027 20:29:54 GMT; Path=/; HttpOnly; Secure; SameSite=Strict\nNetflixId=v%3D3%26ct%3DBgjHlOvcAxLAAVw_n8Dy713rb3hogwNdBP7OK8V91TPdHtzlLin3lqGjh53XX6NSWvjRu2XVy9C5f4F-EXT42SQ8afLB-HZUTAHMXAB9bI5_UZraBn72Gqm48uooEq5275SimDutmGyFscOnaZcr_Hr0e2kh-9dd4lvOgIE-1dR9FRXpUNknhaD3e-8QXmrY2mF8MlN7BIVGdPN1mt3_jmxZPmJUuoFWqy4-_OxdyIa4I8BQ_n2ggb6CrVCyDzGdrg6N1ctIbqdViBgGIg4KDMywAuhDjcnSJWPjog..; Domain=.netflix.com; Expires=Wed, 31 Mar 2027 20:29:54 GMT; Path=/; HttpOnly; Secure; SameSite=Lax\ngsid=fe1086b3-6b38-42ac-b6f9-a67117b0ed06; Max-Age=86400; Expires=Wed, 01 Apr 2026 20:29:54 GMT; Path=/; Domain=.netflix.com; Secure; HTTPOnly; SameSite=None"
+        },
+        "responseBodyHash": "0dd95bfd053486dab1c2a4dcb8c7f640e92fa2d9c0f5b166e054ce460ee831c2",
+        "redirectedFrom": "https://netflix.net/",
+        "initiators": [],
+        "time": 0.8487970000005589
+      },
+      {
+        "url": "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 709575,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:29:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2777ba6fab98fe771d58ecc302fce4665ebe9ac1ee4ae9ff869ce9346bbda236",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 3.3949759999995877
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9127,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"e626b6c7d45e890d24688cd27a13b22c\"",
+          "expires": "Wed, 01 Apr 2026 20:29:54 GMT"
+        },
+        "responseBodyHash": "ab3b499d95fdf198b15d2624ac09682c8d00efac2a938f92776be045431aa75a",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.060186000000612694
+      },
+      {
+        "url": "https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/ui-shared/dist/less/signup/nmhp/nmhp.1afe2e52bff213979e1d.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1775,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:29:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dd9ea9fa9362fea3c4fa685aadadfef8924525c9931085e0792a7561cb97d43b",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 3.172048000000359
+      },
+      {
+        "url": "https://occ.a.nflxso.net/genc/hawkins/5.15.3/font/netflix-sans-core-variable-full.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 451113,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14401",
+          "etag": "\"f87907a566c9e45f24f86ab972edf3e2\"",
+          "expires": "Wed, 01 Apr 2026 00:29:55 GMT"
+        },
+        "responseBodyHash": "71d3a33db7df195d6acc7074afd36005b8844e8555e64f915d685d8901221d4a",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.16208499999993364
+      },
+      {
+        "url": "https://assets.nflxext.com/ffe/siteui/vlv3/8cc08720-ac1c-4364-bcbd-9495bf0308cd/web/US-en-20260323-TRIFECTA-perspective_d24e482c-2bd4-466b-a2c9-67e4ab74c97d_large.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 391129,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:29:58 GMT"
+        },
+        "responseBodyHash": "78fe113bc6396f89a3b2d4da17531a9bae184b19c60085d7be26c59be93a8330",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 3.3325220000006084
+      },
+      {
+        "url": "https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteDetect&modalView=nmLanding",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1971,
+        "remoteIPAddress": "52.10.208.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.netflix.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 3.1493759999993927
+      },
+      {
+        "url": "https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteScreen&winw=756&winh=556&screenw=1440&screenh=812&ratio=1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2002,
+        "remoteIPAddress": "52.10.208.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.netflix.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 3.1502419999997073
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/consent/87b6a5c0-0104-4e96-a291-092c11350111/87b6a5c0-0104-4e96-a291-092c11350111.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 7682,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"6c5aea393bdd7b7b21626fc6a6208b56\"",
+          "expires": "Wed, 01 Apr 2026 20:29:57 GMT"
+        },
+        "responseBodyHash": "8b2e9f6fd6496571ffff66c98f29470b2bb1300abe292f9637104c21dd19fdfa",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 3.0895719999989524
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 318,
+        "remoteIPAddress": "104.18.32.137",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4da8a6638ad70698ad3d01aa0ef124aebe35c297685c0796b174822f597b1d09",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.1755699999994249
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXkP0fbEQnghb9m7rZfpuQGiN5E4Mi92--Iefy8w7_38Ny5PmhARhFznX6UKh4DHIeXoijoCwvsP00swZQ-jTQxf9ACmscAPc_5cjDXWItBehJpudiuzcw-E5niDof_Ok_jO.webp?r=fb9",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18453,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"cb8cd50858e5687714cab3574d01f143\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c0cb3aa3b2a144c92343bd43275ea5a2fc3aa184575873e1cbc9238cbbe36ba6",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.1655399999999645
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABT79Mi0iWWtYi-57TpyWlexVfLyGglHcQknKS_qF5RsRxldAflHZj1RiYT6895R-ssNAnKe-QpJV7de--OtapTkh6sGbuDOHCkq0XFA4_KVWvWDCn9_Ff9P-i2cGkBINRLBN.webp?r=09b",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10515,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"6352662660e7b68d30d3b48d2a7e412f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c3dd1658c7c844b573bef12fe84e9f83454f501f01ead7c1e37704baf2922240",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.13047199999891745
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVEtdUZiz4F_VvRar_YRYkemWQzwLgXXV3Rb09mIeldUR-FE4-C7pGxRK25v2LwdjxDmfZFrXUnFeRkiZFE-ytZMaWLGwBi0X2HaLi7OHyWJXa5pxJAztWNwovRZ39Ou52zy.webp?r=9a5",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13495,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"\"7fd64c81b4c627a0e3b2b91398a0315b\"\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a150f49ca63d995f8441af3490b1ae6ac34097afd2868afd6981fcb0d53c004d",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.13091400000121212
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcGRP-hgvRqlgn17svYuwxGgYFoTCFHWoYciZwAsp5asIlXkA-lU8RpSJvuE4dGVaa3N5KOhv3KGSVY50ZKsJVR9KbYBe_prKjUPlC7p_wmOAckRpZLE1F2BvMIBmrnEk6CI.webp?r=9e1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18119,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"\"104b694469d132aa1c07f030c74ed912\"\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "43726b363dd35e99091d5d9f418a3f4a9f0435d185f57e2884a4b7dfbaec561d",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.16587599999911617
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcwMiAXNKvtzgN1Kx06ht1pT-yTXiVSQy0BKogrxRHkSiGZlRtWZbq2ROt1kkWqfM2PWVvgDNFMw73KTzVFP0dnMIY1MsQEVJIeBdS5U2PG52vbiBsX9ajBuOg6ZrWR1H_X-.webp?r=df5",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21215,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"76093f0aa83d6ab77e45caf7e51aca3c\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f53a4cfb7381230409b875556e4a50b9dacc7a944b18d23383961103910909e5",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.1655350000000908
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbhxH0x2pBi8Ys1WbarTM7Ga8lmH9WrxMi7Tje4u-nuHOSwlVa5fNbbXyeQmb9Q1xW_ScQXivgEGJZ1hwuVB2xLVI-E7fK2mf0_GVlVCk0iRrdweyZO0OYotoncYRy3Sqbrx.webp?r=0fc",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20949,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"\"4b480ee5d2c93f21a10393815076a54a\"\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2235eca4afe709e92a4f05d5f485a7e09f30d07bdadd6e15a53e7721d4323c0c",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.16605900000104157
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYZ5bqeqtOKJ-F_hpaLsJ1pvX5X1tQ0ULofSzrh0JLkMC4rjRXl0OiSq1UPEbB8uJWqFTkcPD2hLLePb304vbP1-bgpDr3mg-3zZk7X5zpr-6EHj7cKPS9tqO54Nb7IZCL0A.webp?r=2ef",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15619,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"6dd32a20a7d86867760f911ad1b28a53\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "27adb9b2aa68fe6b1f47cd03406d0ddbeb7e56183cdc03f53e759f35cab3585d",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.16740199999912875
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABe_LT7cNuIz9k1WP6obqpCAkzYSyQXfCKcznlnN85vh9hGrEgeslstSNxjHs35EILPk9CHAyErBcck1jt-VdfAf4eNU1HHQapsiqfm6dPzt_JghfZOdb0fLDcG_RQaVzRODk.webp?r=07e",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16017,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"24b5205ba9eac62ece27afc4fd6d8230\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "48d44e98f53ea1267c912fa8c9dbec2556b3ac66ff749cb94a6f435a9a866fb1",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.16719999999986612
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQ7ohEKvJjRpCbqAfmunKHvI8o9w5laeFMNc4buPyNjGZmY_14fd_B8dQfElObt1g42YNnsl-dkNGIL-Ye2KPcc49t_1SDZL24U.webp?r=ceb",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 24851,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"9a79cffa81540c522660513b413fc9fe\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1f10780a65bc75bdb0fd512f01f29c9214d0083da70e5a1b41386160c4b5dfc9",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.1872669999993377
+      },
+      {
+        "url": "https://occ-0-1038-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcTQ7nZQ7TDnl42M2-YL1co7GNEyJgNG5gGyQ4Z0WGj0hH-S6eYMA_a4ppT4SLaHI8tP43YlZw2aqbmlac3-0e4GDEbrqVZcpm0.webp?r=c0a",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14679,
+        "remoteIPAddress": "198.189.255.139",
+        "responseHeaders": {
+          "accept-ch": "Device-Memory, Downlink, DPR, ECT, RTT, Save-Data, Viewport-Width, Width",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31104000, public, s-maxage=604800",
+          "etag": "\"fe993c8d8682088d89471809ca418a05\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c1e7be175d0e32bccdbbb916e95e2ca24b3019e666ddb5c8c24c5e1651792a9c",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.18687199999840232
+      },
+      {
+        "url": "https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 53662,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "f1aea4858cff6de9c45b3a3c21d3452a46c1908d58e811979d0bae82799e5feb",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/ui-shared/dist/less/signup/nmhp/nmhp.1afe2e52bff213979e1d.css"
+        ],
+        "time": 0.17061499999908847
+      },
+      {
+        "url": "https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 54298,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "663121ac282a2b0b09e624708d8cbc05d06e2d3e3849ff0b6a59895028178d5d",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/ui-shared/dist/less/signup/nmhp/nmhp.1afe2e52bff213979e1d.css"
+        ],
+        "time": 0.1716309999992518
+      },
+      {
+        "url": "https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 55794,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "6e560ec682571b1f9561dc48a5e6fca4360e29f3a6c787dcdd789602f9eaf220",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/ui-shared/dist/less/signup/nmhp/nmhp.1afe2e52bff213979e1d.css"
+        ],
+        "time": 0.11062399999900663
+      },
+      {
+        "url": "https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 55586,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "2c1440fee6d8b276ce9f30b7efe195231b881eea1b16cdde3e7e5faefe8e2a55",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/ui-shared/dist/less/signup/nmhp/nmhp.1afe2e52bff213979e1d.css"
+        ],
+        "time": 0.15200000000004366
+      },
+      {
+        "url": "https://logs.netflix.com/log/www/cl/2",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.10.208.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.netflix.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://logs.netflix.com/log/www/cl/2"
+        ],
+        "time": 0.0951069999991887
+      },
+      {
+        "url": "https://logs.netflix.com/log/www/cl/2",
+        "method": "OPTIONS",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "52.10.208.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.netflix.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js"
+        ],
+        "time": 0.296543999998903
+      },
+      {
+        "url": "https://www.netflix.com/log/www/1",
+        "method": "OPTIONS",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "52.38.7.83",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Model,Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://www.netflix.com"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js"
+        ],
+        "time": 0.2924480000001495
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 132222,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"426179abc347fbf70943f183b4268ef5\"",
+          "expires": "Wed, 01 Apr 2026 20:29:58 GMT"
+        },
+        "responseBodyHash": "b7171dca698ca454704426d1ff6c7514c6e0d6c415931b37da63d4c7b77ed8c6",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.04035899999871617
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise.js?render=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1081,
+        "remoteIPAddress": "142.251.153.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:29:58 GMT"
+        },
+        "responseBodyHash": "74ac7ef49509681b0e8ccf79c195364d30a430e0fce26e3acbdb7264e931e967",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js"
+        ],
+        "time": 0.7083490000004531
+      },
+      {
+        "url": "https://web.prod.cloud.netflix.com/graphql",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "44.234.232.238",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Model,Sec-CH-UA-Platform-Version",
+          "access-control-allow-origin": "https://www.netflix.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://web.prod.cloud.netflix.com/graphql"
+        ],
+        "time": 1.295696000001044
+      },
+      {
+        "url": "https://web.prod.cloud.netflix.com/graphql",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2966,
+        "remoteIPAddress": "44.234.232.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.netflix.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "2781b82dca064e77beeebb072589e53e516e6a2ad5ba013ab4787e1772976120",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js"
+        ],
+        "time": 1.4078370000006544
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/consent/87b6a5c0-0104-4e96-a291-092c11350111/019ae4b5-df0c-7f5c-bf9d-7c8da3876c6e/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 77362,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"c5315958f299cc7ac5405c422a15c961\"",
+          "expires": "Wed, 01 Apr 2026 20:29:58 GMT"
+        },
+        "responseBodyHash": "8f80cacba12d72e5f816079ab02ba2a287326610e4f21c5d0a236d2aee8c51c0",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.4819729999999254
+      },
+      {
+        "url": "https://cookies-data.onetrust.io/cfw/cmp/v1/session",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.32.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cookies-data.onetrust.io/cfw/cmp/v1/session"
+        ],
+        "time": 0.0669369999995979
+      },
+      {
+        "url": "https://cookies-data.onetrust.io/cfw/cmp/v1/session",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 85,
+        "remoteIPAddress": "104.18.32.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.09954800000014075
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/assets/otFlat.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 15664,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"d77f5085c3cad1c4a3ab27c98cc6ef74\"",
+          "expires": "Wed, 01 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "924aab78a72b813e29392d76920c66dd3505702927a01754c1ab171eaab60197",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.025247999999919557
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/assets/v2/otPcTab.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 69609,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"5e408aac86948b7fb0a4888aec80b601\"",
+          "expires": "Wed, 01 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "27eefdc14aa17e760663f8eabbd89864fe40db70697abbe4b4ad491eb1926bb6",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.05163700000048266
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4956,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"fc9bd4f89dcbb4b6f14081bd490ca6a1\"",
+          "expires": "Wed, 01 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "de45c59da3e4dad94aad246fc9cc415f9ddfaa039256fec0a795b65ff0cda828",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.02721899999960442
+      },
+      {
+        "url": "https://ae.nflximg.net/monet/scripts/adtech_iframe_target_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 2092,
+        "remoteIPAddress": "104.68.109.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"4b779caeafa0fb162afe519e1fa6b6b8:1774623090.600411\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "392e84021b712cfd06ed8c3e1cab1f1bfa010b667c2c4f088722920d3ab6a5c0",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js"
+        ],
+        "time": 0.05513199999950302
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/consent/87b6a5c0-0104-4e96-a291-092c11350111/019ae4b5-df0c-7f5c-bf9d-7c8da3876c6e/logos/static/ot_guard_logo.svg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 858,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"b57c99c9d1e3c50b2114c6db053d7ff0\"",
+          "expires": "Wed, 01 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19",
+        "initiators": [
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.010792999999466701
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/consent/87b6a5c0-0104-4e96-a291-092c11350111/019ae4b5-df0c-7f5c-bf9d-7c8da3876c6e/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16745,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"dcc4094709a2dc14af288844556ff9b7\"",
+          "expires": "Wed, 01 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "0dacbe09f680400f24bcf1c1f56264b95569b2e690a1af4cf42a3b8bf4baff98",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.017438999999285443
+      },
+      {
+        "url": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/consent/87b6a5c0-0104-4e96-a291-092c11350111/019ae4b5-df0c-7f5c-bf9d-7c8da3876c6e/logos/static/powered_by_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5556,
+        "remoteIPAddress": "45.57.90.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"63e737d3544164d2b7f4fbca416ac807\"",
+          "expires": "Wed, 01 Apr 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d",
+        "initiators": [
+          "https://www.netflix.com/"
+        ],
+        "time": 0.04019400000106543
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "172.217.12.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise.js?render=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv",
+          "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js"
+        ],
+        "time": 0.13627500000075088
+      },
+      {
+        "url": "https://www.netflix.com/ichnaea/log",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "44.234.232.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.netflix.com/ichnaea/log"
+        ],
+        "time": 0.12485000000015134
+      },
+      {
+        "url": "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 7799,
+        "remoteIPAddress": "104.68.109.117",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"e053eb1f30a8596e17cda76614800cf6:1774623090.616762\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4f027654cf5297859082808a4a5dfb2e1c12501b2005595a7702a08b29404177",
+        "initiators": [
+          "https://ae.nflximg.net/monet/scripts/adtech_iframe_target_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.018549000000348315
+      },
+      {
+        "url": "https://www.netflix.com/ichnaea/log",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1344,
+        "remoteIPAddress": "44.234.232.238",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://ae.nflximg.net/monet/scripts/adtech_iframe_target_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.22241200000098615
+      },
+      {
+        "url": "https://ichnaea-web.netflix.com/log",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.12.134.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://ichnaea-web.netflix.com/log"
+        ],
+        "time": 0.18081100000017614
+      },
+      {
+        "url": "https://ichnaea-web.netflix.com/log",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1588,
+        "remoteIPAddress": "52.12.134.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.28650699999889184
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 146371,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 20:29:59 GMT"
+        },
+        "responseBodyHash": "288b3fb08ec44f2983668b106fd6358dd315978a5c8a4b91b3d9e850a39bd1be",
+        "initiators": [
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.13461500000084925
+      },
+      {
+        "url": "https://sc-static.net/scevent.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25160,
+        "remoteIPAddress": "3.163.245.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, s-maxage=0, max-age=600",
+          "set-cookie": "X-AB=b938d01d87294515a975c7806855e359;max-age=86400;expires=Wed, 01 Apr 2026 20:29:59 GMT;Path=/scevent.min.js;Secure;SameSite=None"
+        },
+        "responseBodyHash": "97e0e9e6a1836b981ab4ecc9bd641dba8d3cab25bcf337039b8694d2a6575287",
+        "initiators": [
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.1000289999992674
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 96803,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c0d7d74e6c765f5866d804b9d217adbaaebe364f1e5a9b136a53ced92587b5d8",
+        "initiators": [
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.06805499999973108
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CRI5GNBC77UDCGHCQ7C0&lib=ttq",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2668,
+        "remoteIPAddress": "23.44.229.154",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 20:29:59 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "_ttp=3Bj4ADSGILFYH1qtwJssTMVNSDz; Path=/; Domain=tiktok.com; Max-Age=33696000; Secure; SameSite=None"
+        },
+        "responseBodyHash": "b6011291bc04ef022e2f13f17b5bdd8249d427b7fad4224d4635b3bd9dc9efde",
+        "initiators": [
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.14551899999969464
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/829253787145710?v=2.9.285&r=stable&domain=ae.nflximg.net&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44249,
+        "remoteIPAddress": "57.144.220.128",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "045d1d473fdaed1ad8b7ad0094c3258991ab334b7611e7b674e82008e3bb5d80",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.0160600000017439
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=1o8ngf6l6kxx",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 50923,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6c9e50288f3fcfe36ed8bd9032f30608c290781f0a8d1e6010ecad13309ea113",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+          "https://www.google.com/recaptcha/enterprise.js?render=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv"
+        ],
+        "time": 0.08854000000064843
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=scmbauytc8p0",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 50794,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "3365c9a4817884ab801e874be062ea79afac4f2c5982d3f714502be868c4b70e",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+          "https://www.google.com/recaptcha/enterprise.js?render=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv"
+        ],
+        "time": 0.07928200000060315
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=829253787145710&ev=PageView&dl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&rl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&if=true&ts=1774988999928&cd[content_ids]=%5B%5D&sw=800&sh=600&v=2.9.285&r=stable&ec=0&o=12318&fbp=fb.2.1774988999918.853275364249685126&cdl=API_unavailable&pmd[title]=&plt=205.5&it=1774988999820&coo=false&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": ""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/829253787145710?v=2.9.285&r=stable&domain=ae.nflximg.net&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.0761819999988802
+      },
+      {
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=829253787145710&ev=PageView&dl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&rl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&if=true&ts=1774988999928&cd[content_ids]=%5B%5D&sw=800&sh=600&v=2.9.285&r=stable&ec=0&o=12318&fbp=fb.2.1774988999918.853275364249685126&cdl=API_unavailable&pmd[title]=&plt=205.5&it=1774988999820&coo=false&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=FGET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 193,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "cache-control": "private, no-store, no-cache, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "886d7044dc32b617079285a76550c0941cd6e184b1b66be91e7a1ebaed373143",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/829253787145710?v=2.9.285&r=stable&domain=ae.nflximg.net&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.17103599999973085
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=829253787145710&ev=NM_landing&dl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&rl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&if=true&ts=1774988999944&cd[content_ids]=%5B%5D&sw=800&sh=600&v=2.9.285&r=stable&ec=1&o=12318&fbp=fb.2.1774988999936.23438432636257935&cdl=API_unavailable&plt=205.5&it=1774988999820&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "access-control-allow-origin": ""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/829253787145710?v=2.9.285&r=stable&domain=ae.nflximg.net&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.07618699999875389
+      },
+      {
+        "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=829253787145710&ev=NM_landing&dl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&rl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&if=true&ts=1774988999944&cd[content_ids]=%5B%5D&sw=800&sh=600&v=2.9.285&r=stable&ec=1&o=12318&fbp=fb.2.1774988999936.23438432636257935&cdl=API_unavailable&plt=205.5&it=1774988999820&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&rqm=FGET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 201,
+        "remoteIPAddress": "57.144.220.1",
+        "responseHeaders": {
+          "cache-control": "private, no-store, no-cache, must-revalidate",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "886d7044dc32b617079285a76550c0941cd6e184b1b66be91e7a1ebaed373143",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/829253787145710?v=2.9.285&r=stable&domain=ae.nflximg.net&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.1398719999997411
+      },
+      {
+        "url": "https://tr.snapchat.com/config/net/83129519-c5b8-449c-9442-de249017abb3.js?v=3.54.6-2603302046",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "35.190.43.134",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net"
+        },
+        "responseBodyHash": "51e533f7ed015cc6e1e3389df914ede28a186dd3993c280ded2baf5b44d73dd0",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.16465400000015507
+      },
+      {
+        "url": "https://tr.snapchat.com/cm/i?pid=83129519-c5b8-449c-9442-de249017abb3&u_scsid=c6a6c5df-b5b8-4adb-87d2-d885d916dbeb&u_sclid=4ca3587b-ab02-49ca-880e-8a8e45a9da46",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1028,
+        "remoteIPAddress": "35.190.43.134",
+        "responseHeaders": {
+          "set-cookie": "sc_at=v2|H4sIAAAAAAAA/wXBiREAMAQEwIrMHPkoB5EqFJ/du6IcYcQiTtPvJpWRFGB9qExBdPM509QAND7Gc8ogMgAAAA==;SameSite=None;Version=1;Comment=;Domain=.snapchat.com;Path=/;Max-Age=33696000;Secure"
+        },
+        "responseBodyHash": "6501140033c3bb20da4b5ac73c90f687ba8a2053c4ba37c4b6f5275166db7fa6",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js"
+        ],
+        "time": 0.1280719999995199
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 108478,
+        "remoteIPAddress": "23.44.229.154",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "2243fe5ed426b09db59f32f187f87143bbbe0d1eec79b4ecbbe7780378917baa",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CRI5GNBC77UDCGHCQ7C0&lib=ttq",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.07505900000069232
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/981179826/?random=1774989000033&cv=11&fst=1774989000033&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2284,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 20:45:00 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1bc443f41a2fa8e1b9b1449bd7b2ae66534cbe39a8dd1228b945cc6025ad688d",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.08985700000084762
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/981179826/?random=1774989000033&cv=11&fst=1774989000033&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&gcp=5",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.14422500000000582
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17080120652/?random=1774989000084&cv=11&fst=1774989000084&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2283,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Tue, 31-Mar-2026 20:45:00 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "267b0b985bd440f0274c37b048d9dda5a017c1f30835307dd77d2e4fc8210cef",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.0542249999998603
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17080120652/?random=1774989000084&cv=11&fst=1774989000084&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&gcp=5",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.11965700000109791
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/981179826/?random=1774989000108&cv=11&fst=1774989000108&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&label=40zWCLqP1XUQsrvu0wM&capi=1&gtm_ee=1&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=QA&gcl_ctr=1~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=7",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1183,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f4f2849eed1789f33cdf28b01ca162f42c6e653d9bbee8635af1eedb4ae72c20",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.19563300000118033
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=2&en=page_view&dr=ae.nflximg.net&dl=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html&scrsrc=www.googletagmanager.com&rnd=1827929033.1774989000&auid=1602316336.1774989000&navt=n&npa=0&_tu=QA&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&apve=1&apvf=f&apvc=1&tids=AW-981179826~AW-17080120652&tid=AW-981179826&tft=1774989000127&tfd=603",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.1317510000008042
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/identify_5cff1caf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40521,
+        "remoteIPAddress": "23.44.229.154",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable"
+        },
+        "responseBodyHash": "c222a1fcf344eb3ba3ad51666992a44f004a5f7e8531e05e5eb253312134fc79",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CRI5GNBC77UDCGHCQ7C0&lib=ttq",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.022371999999450054
+      },
+      {
+        "url": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 780,
+        "remoteIPAddress": "23.44.229.213",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 20:30:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CRI5GNBC77UDCGHCQ7C0&lib=ttq",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.141976999999315
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 751,
+        "remoteIPAddress": "23.44.229.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 20:30:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CRI5GNBC77UDCGHCQ7C0&lib=ttq",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.13009099999908358
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 914,
+        "remoteIPAddress": "23.44.229.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 31 Mar 2026 20:30:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CRI5GNBC77UDCGHCQ7C0&lib=ttq",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.3687480000007781
+      },
+      {
+        "url": "https://tr.snapchat.com/p",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 93,
+        "remoteIPAddress": "35.190.43.134",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.07730000000083237
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/17080120652/?random=1774989000084&cv=11&fst=1774987200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsAEABaugffrYLwM6Es2YNc9Y21JNxXBMOkkNT6qnekRt59pyACMGTDJSDNCb_tw3KsdsH8_0lqM4V0r54_SwduQZBxQyJdRMNBQ5zSZFfXlkwjUqSXXBfcuq58O8MoyS5jMQ4ULZRq6rcA1n8M-kud2rMkGA_CZew9YcD2LHCHAZOBqbdQhgOC7-J2gJYjJzI9bXJN28EDtSsCpU1q9JgxpbqX0wJh79XSLsKryXr5SQGA&random=1862329863&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17080120652/?random=1774989000084&cv=11&fst=1774989000084&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.03425199999946926
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/981179826/?random=1774989000033&cv=11&fst=1774987200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsAEABaugfZPffZeZLTmgLbgIID1LypXGQcQqcTHlSX5A7_JDMQG-QqUG3S2QSWdKG0fU5nd-vp6grlLCUeEUzJHF3TS7J4IMhgr4qlIgvNDjmbJRLCdv3SLFBxxifzNiqUtigrrCdK_1fNI7sNcOdde3dbkjaQh78qBALFTnQc2qColap4deWxl40-SeXm2cY9MCNa9yHSB6y_D8jaXwjCsGYliBdFrersvrt-ONcN5v7A&random=3936679238&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/981179826/?random=1774989000033&cv=11&fst=1774989000033&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=QA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.03518699999949604
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/981179826/?random=423613056&cv=11&fst=1774989000108&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&label=40zWCLqP1XUQsrvu0wM&capi=1&gtm_ee=1&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=QA&gcl_ctr=1~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGXRyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP11i4mhDbWRpB-fIyVau4UntbD0h6wBxHKwHx9L6Qr5_gRkCJJh1zcaAhbx&pscrd=IhMIw9fWpv3KkwMVm8CtAB1wxzTeMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL2FlLm5mbHhpbWcubmV0L0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VExnVlFNOHQ5cUdnZTdmbHJON3VTWEhlUGE1SFplUW9yLXdHRzhBdFNZQjQ2SzQ0N3VNTjZyTXoMCAliCAgAEAAYACAA",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 302,
+        "remoteIPAddress": "142.251.218.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-conversion/981179826/?random=423613056&cv=11&fst=1774989000108&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&label=40zWCLqP1XUQsrvu0wM&capi=1&gtm_ee=1&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=QA&gcl_ctr=1~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGXRyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP11i4mhDbWRpB-fIyVau4UntbD0h6wBxHKwHx9L6Qr5_gRkCJJh1zcaAhbx&pscrd=IhMIw9fWpv3KkwMVm8CtAB1wxzTeMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL2FlLm5mbHhpbWcubmV0L0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VExnVlFNOHQ5cUdnZTdmbHJON3VTWEhlUGE1SFplUW9yLXdHRzhBdFNZQjQ2SzQ0N3VNTjZyTXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQSsAEABaugfVmpXBvpJMB7WUPYmmHvvu-qSPoa7MFt4K13kUAn8MZ4raeuhpBJaQKBz-msVmb9ZaFhe1K_Mt_i4oPZhLz6VZjoWUIHbK35XVQRPrKhl4GlL4OFiJvldyyJvyimliJSaaf1uE0Uwv8nZ3l4GLr28L6Epn6Vc0msoG55-J-ox9MEcxilRJUgY00AGjWVppdqB4qXhDia-6VwNoO7dKPDYycCkNcbMfvJn8heWA&random=3649053658",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.09745499999917229
+      },
+      {
+        "url": "https://tr6.snapchat.com/p",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 42,
+        "remoteIPAddress": "35.190.43.134",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.0742580000005546
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/981179826/?random=423613056&cv=11&fst=1774989000108&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&label=40zWCLqP1XUQsrvu0wM&capi=1&gtm_ee=1&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=QA&gcl_ctr=1~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGXRyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP11i4mhDbWRpB-fIyVau4UntbD0h6wBxHKwHx9L6Qr5_gRkCJJh1zcaAhbx&pscrd=IhMIw9fWpv3KkwMVm8CtAB1wxzTeMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL2FlLm5mbHhpbWcubmV0L0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VExnVlFNOHQ5cUdnZTdmbHJON3VTWEhlUGE1SFplUW9yLXdHRzhBdFNZQjQ2SzQ0N3VNTjZyTXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQSsAEABaugfVmpXBvpJMB7WUPYmmHvvu-qSPoa7MFt4K13kUAn8MZ4raeuhpBJaQKBz-msVmb9ZaFhe1K_Mt_i4oPZhLz6VZjoWUIHbK35XVQRPrKhl4GlL4OFiJvldyyJvyimliJSaaf1uE0Uwv8nZ3l4GLr28L6Epn6Vc0msoG55-J-ox9MEcxilRJUgY00AGjWVppdqB4qXhDia-6VwNoO7dKPDYycCkNcbMfvJn8heWA&random=3649053658",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/981179826/?random=423613056&cv=11&fst=1774989000108&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be63u0h1v876272219za200zd876272219xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116991816~117266401~118012004&u_w=800&u_h=600&url=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fnetflix_tag_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&ref=https%3A%2F%2Fae.nflximg.net%2Fmonet%2Fscripts%2Fadtech_iframe_target_05.html%3Fdata%3D%257B%2522membership_status%2522%253A%2522ANONYMOUS%2522%252C%2522country%2522%253A%2522US%2522%252C%2522region_code%2522%253A%2522CA%2522%252C%2522is_member%2522%253A%2522ANONYMOUS%2522%252C%2522wasFormerMember%2522%253Afalse%252C%2522referrer%2522%253A%2522nmLanding%2522%252C%2522deniedConsentCookieGroups%2522%253A%2522C0005%2522%257D&top=https%3A%2F%2Fwww.netflix.com%2F&label=40zWCLqP1XUQsrvu0wM&capi=1&gtm_ee=1&frm=2&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1602316336.1774989000&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ec_mode=a&_tu=QA&gcl_ctr=1~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGXRyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChEI8OGtzgYQydiCzJiBoda-ARIsAAMCRP11i4mhDbWRpB-fIyVau4UntbD0h6wBxHKwHx9L6Qr5_gRkCJJh1zcaAhbx&pscrd=IhMIw9fWpv3KkwMVm8CtAB1wxzTeMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL2FlLm5mbHhpbWcubmV0L0JYQ2hFSThPR3R6Z1lRLTZDY2g1NzA5cEtzQVJJdEFKOEN3VExnVlFNOHQ5cUdnZTdmbHJON3VTWEhlUGE1SFplUW9yLXdHRzhBdFNZQjQ2SzQ0N3VNTjZyTXoMCAliCAgAEAAYACAA",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.0012230000011186348
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 42608,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 18:21:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "952367c39542f1f7a7444b1d38c94fb932299aa63315ba204e71448695bd11c2",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=1o8ngf6l6kxx"
+        ],
+        "time": 0.015381999999590334
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 370758,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=1o8ngf6l6kxx"
+        ],
+        "time": 0.10079600000062783
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 18:21:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "952367c39542f1f7a7444b1d38c94fb932299aa63315ba204e71448695bd11c2",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=scmbauytc8p0"
+        ],
+        "time": 0.0001649999994697282
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=scmbauytc8p0"
+        ],
+        "time": 0.08249400000022433
+      },
+      {
+        "url": "https://tr.snapchat.com/p",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 15,
+        "remoteIPAddress": "35.190.43.134",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://ae.nflximg.net"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js",
+          "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D"
+        ],
+        "time": 0.10027099999933853
+      },
+      {
+        "url": "https://sc-static.net/scevent.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25083,
+        "remoteIPAddress": "3.163.245.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=86400, max-age=600",
+          "etag": "b938d01d87294515a975c7806855e359"
+        },
+        "responseBodyHash": "97e0e9e6a1836b981ab4ecc9bd641dba8d3cab25bcf337039b8694d2a6575287",
+        "initiators": [
+          "https://tr.snapchat.com/cm/i?pid=83129519-c5b8-449c-9442-de249017abb3&u_scsid=c6a6c5df-b5b8-4adb-87d2-d885d916dbeb&u_sclid=4ca3587b-ab02-49ca-880e-8a8e45a9da46"
+        ],
+        "time": 0.012828999999328516
+      },
+      {
+        "url": "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1774989000673&u_scsid=c38ddf21-0ab4-437a-94fc-8c0745722273&u_sclid=6e024385-0550-4cb7-b0f8-a32f602cb174",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "35.190.43.134",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1774918191986%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js"
+        ],
+        "time": 0.07380799999918963
+      },
+      {
+        "url": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1774918191986%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "34.111.113.62",
+        "responseHeaders": {
+          "set-cookie": "sc_at=v2|H4sIAAAAAAAA/03GyxHAIAgFwIqYeRBUsBs+pgqLzzV72h55AunEIkEaPcnkKUqwvThVgrys2LyWujmA+ys+D1RGA0AAAAA=;SameSite=None;Version=1;Comment=;Domain=.snapchat.com;Path=/;Max-Age=33696000;Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1774918191986%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+        "redirectedFrom": "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1774989000673&u_scsid=c38ddf21-0ab4-437a-94fc-8c0745722273&u_sclid=6e024385-0550-4cb7-b0f8-a32f602cb174",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js"
+        ],
+        "time": 0.10935299999982817
+      },
+      {
+        "url": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1774918191986%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "34.111.113.62",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA\nSec-CH-UA-Arch\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version-List\nSec-CH-UA-Mobile\nSec-CH-UA-Model\nSec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-WoW64",
+          "access-control-allow-origin": "*",
+          "p3p": "policyref=\"http://tapad-taptags.s3.amazonaws.com/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "set-cookie": "TapAd_TS=1774989000845;Expires=Sat, 30 May 2026 20:30:00 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_DID=2c193b29-629c-45e1-8c14-2ce31dab20b1;Expires=Sat, 30 May 2026 20:30:00 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://tr.snapchat.com/cm/p?rand=1774918191986&pnid=140&pcid=2c193b29-629c-45e1-8c14-2ce31dab20b1",
+        "redirectedFrom": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1774918191986%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js"
+        ],
+        "time": 0.05503999999928055
+      },
+      {
+        "url": "https://tr.snapchat.com/cm/p?rand=1774918191986&pnid=140&pcid=2c193b29-629c-45e1-8c14-2ce31dab20b1",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 17,
+        "remoteIPAddress": "35.190.43.134",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-transform",
+          "set-cookie": "sc_at=v2|H4sIAAAAAAAA/03GyxHAIAgFwIqYeRBUsBs+pgqLzzV72h55AunEIkEaPcnkKUqwvThVgrys2LyWujmA+ys+D1RGA0AAAAA=;SameSite=None;Version=1;Comment=;Domain=.snapchat.com;Path=/;Max-Age=33696000;Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedFrom": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1774918191986%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+        "initiators": [
+          "https://sc-static.net/scevent.min.js"
+        ],
+        "time": 0.07397000000128173
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:30:01 GMT"
+        },
+        "responseBodyHash": "9b81e9a5eb8a2c4f7a3c7d22dd92bebded7d4471ee300444c67c678b4a893cc8",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=1o8ngf6l6kxx"
+        ],
+        "time": 1.0808119999983319
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2252,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Sat, 04 Apr 2026 11:29:30 GMT"
+        },
+        "responseBodyHash": "602c6728d58cf917a3dd121b624e88072a3f1b7f5413849fbbcf92ce32fe72a2",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css"
+        ],
+        "time": 0.012501999999585678
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 34700,
+        "remoteIPAddress": "142.251.214.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 27 Mar 2027 19:26:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dbb604452d1d4d417397425673e852cf58236865abd5a7abcb6f13c8b0e73f64",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=1o8ngf6l6kxx"
+        ],
+        "time": 0.08420200000000477
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 31 Mar 2026 20:30:01 GMT"
+        },
+        "responseBodyHash": "9b81e9a5eb8a2c4f7a3c7d22dd92bebded7d4471ee300444c67c678b4a893cc8",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=scmbauytc8p0"
+        ],
+        "time": 0.45331699999951525
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.214.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 27 Mar 2027 19:26:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv&co=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb206NDQz&hl=en&v=79clEdOi5xQbrrpL2L8kGmK3&size=invisible&anchor-ms=20000&execute-ms=30000&cb=scmbauytc8p0"
+        ],
+        "time": 0.0001560000000608852
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Sat, 04 Apr 2026 11:29:30 GMT"
+        },
+        "responseBodyHash": "602c6728d58cf917a3dd121b624e88072a3f1b7f5413849fbbcf92ce32fe72a2",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/styles__ltr.css"
+        ],
+        "time": 0.00013099999887344893
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+        ],
+        "time": 0.00994899999932386
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.155.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 28 Mar 2027 13:22:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb297967f5005eb95dfb369ff9f780a436a67144be372260b6f86f6fe37b917f",
+        "initiators": [
+          "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+        ],
+        "time": 0.007547999999587773
+      },
+      {
+        "url": "https://logs.netflix.com/log/www/cl/2",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1907,
+        "remoteIPAddress": "52.10.208.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.netflix.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js"
+        ],
+        "time": 0.0745039999983419
+      },
+      {
+        "url": "https://logs.netflix.com/log/www/cl/2",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.10.208.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.netflix.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://logs.netflix.com/log/www/cl/2"
+        ],
+        "time": 0.0331079999996291
+      },
+      {
+        "url": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 10181,
+        "remoteIPAddress": "45.57.91.1",
+        "responseHeaders": {
+          "cache-control": "max-age=604801",
+          "expires": "Tue, 07 Apr 2026 20:30:03 GMT"
+        },
+        "responseBodyHash": "a7c40609d9b4b4efe667c3fa997f72f18fc64f0b5c0cd14ce75593c30adf08f9",
+        "initiators": [],
+        "time": 0.017711000000417698
+      }
+    ],
+    "cookies": [
+      {
+        "name": "X-AB",
+        "domain": "sc-static.net",
+        "path": "/scevent.min.js",
+        "expires": 1775075399801,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "flwssn",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1774999794740,
+        "session": false
+      },
+      {
+        "name": "nfvdid",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1806524994740,
+        "session": false
+      },
+      {
+        "name": "SecureNetflixId",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1806524994740,
+        "session": false,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "NetflixId",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1806524994740,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gsid",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1775075394740,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "netflix-sans-normal-3-loaded",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1782764998846,
+        "session": false
+      },
+      {
+        "name": "netflix-sans-bold-3-loaded",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1782764998846,
+        "session": false
+      },
+      {
+        "name": "OptanonConsent",
+        "domain": ".netflix.com",
+        "path": "/",
+        "expires": 1806524999000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "OTSessionTracking",
+        "domain": "www.netflix.com",
+        "path": "/",
+        "expires": 1775075399000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_ttp",
+        "domain": ".tiktok.com",
+        "path": "/",
+        "expires": 1808684999852,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".nflximg.net",
+        "path": "/",
+        "expires": 1774996200044,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1774989900170,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "sc_at",
+        "domain": ".snapchat.com",
+        "path": "/",
+        "expires": 1808685000991,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TapAd_TS",
+        "domain": ".tapad.com",
+        "path": "/",
+        "expires": 1780173000912,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TapAd_DID",
+        "domain": ".tapad.com",
+        "path": "/",
+        "expires": 1780173000912,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "domain": ".tapad.com",
+        "path": "/",
+        "expires": 1780173000912,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "iframe",
+        "url": ""
+      },
+      {
+        "type": "worker",
+        "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+      },
+      {
+        "type": "worker",
+        "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=79clEdOi5xQbrrpL2L8kGmK3"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/otSDKStub.js": {
+          "window.sessionStorage": 4,
+          "Document.cookie getter": 6
+        },
+        "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js": {
+          "window.localStorage": 13,
+          "Navigator.prototype.product": 2,
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Date.prototype.getTime": 53,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie getter": 21,
+          "window.matchMedia(\"prefers-color-scheme\")": 1,
+          "window.devicePixelRatio": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Document.cookie setter": 2
+        },
+        "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 42,
+          "Date.prototype.getTime": 13,
+          "Document.cookie setter": 12,
+          "Navigator.prototype.userAgent": 11,
+          "Navigator.prototype.vendor": 1,
+          "window.innerWidth": 1,
+          "Notification.permission": 2,
+          "Navigator.prototype.plugins": 2
+        },
+        "https://ae.nflximg.net/monet/scripts/netflix_tag_05.html?data=%7B%22membership_status%22%3A%22ANONYMOUS%22%2C%22country%22%3A%22US%22%2C%22region_code%22%3A%22CA%22%2C%22is_member%22%3A%22ANONYMOUS%22%2C%22wasFormerMember%22%3Afalse%2C%22referrer%22%3A%22nmLanding%22%2C%22deniedConsentCookieGroups%22%3A%22C0005%22%7D": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://connect.facebook.net/en_US/fbevents.js": {
+          "Navigator.prototype.userAgent": 28,
+          "Navigator.prototype.vendor": 11,
+          "window.sessionStorage": 2,
+          "NavigatorUAData.prototype.brands": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "Document.cookie getter": 21,
+          "Document.cookie setter": 6,
+          "Screen.prototype.width": 6,
+          "Screen.prototype.height": 6
+        },
+        "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js": {
+          "Navigator.prototype.userAgent": 64,
+          "Event.prototype.timeStamp": 33,
+          "window.localStorage": 2,
+          "window.sessionStorage": 9,
+          "Notification.permission": 3,
+          "Navigator.prototype.plugins": 3,
+          "Navigator.prototype.getBattery": 2,
+          "Navigator.prototype.hardwareConcurrency": 2,
+          "Navigator.prototype.deviceMemory": 2,
+          "Navigator.prototype.storage": 2
+        },
+        "https://sc-static.net/scevent.min.js": {
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.width": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.maxTouchPoints": 3,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Document.cookie getter": 14,
+          "Document.cookie setter": 7,
+          "Navigator.prototype.connection": 2
+        },
+        "https://connect.facebook.net/signals/config/829253787145710?v=2.9.285&r=stable&domain=ae.nflximg.net&hme=12c8cdc903a327d6c396005880a21a0a6c955fe6b6fb47b10c9022424ec9b3ee&ex_m=101%2C194%2C143%2C22%2C69%2C70%2C136%2C65%2C64%2C11%2C151%2C87%2C16%2C130%2C123%2C72%2C75%2C129%2C148%2C153%2C8%2C4%2C5%2C7%2C6%2C3%2C88%2C98%2C154%2C159%2C208%2C59%2C175%2C176%2C52%2C264%2C30%2C71%2C220%2C219%2C218%2C23%2C32%2C100%2C58%2C10%2C60%2C94%2C95%2C96%2C102%2C126%2C31%2C29%2C128%2C125%2C124%2C144%2C73%2C147%2C145%2C146%2C47%2C57%2C119%2C15%2C150%2C42%2C251%2C252%2C250%2C26%2C27%2C28%2C45%2C137%2C74%2C109%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C89%2C93%2C107%2C135%2C138%2C43%2C108%2C24%2C21%2C115%2C66%2C35%2C140%2C139%2C141%2C132%2C131%2C25%2C34%2C56%2C106%2C149%2C67%2C17%2C142%2C111%2C78%2C63%2C19%2C82%2C83%2C112%2C81%2C33%2C280%2C201%2C190%2C191%2C189%2C283%2C275%2C49%2C202%2C104%2C127%2C77%2C117%2C51%2C44%2C46%2C110%2C116%2C122%2C55%2C61%2C50%2C53%2C97%2C152%2C1%2C120%2C14%2C118%2C12%2C2%2C54%2C90%2C62%2C114%2C86%2C85%2C155%2C156%2C91%2C92%2C9%2C121%2C99%2C48%2C133%2C84%2C76%2C68%2C113%2C103%2C40%2C134%2C0%2C79%2C36%2C105%2C13%2C157": {
+          "Navigator.prototype.userAgent": 11,
+          "window.localStorage": 3
+        },
+        "https://www.googletagmanager.com/gtag/js?id=AW-981179826": {
+          "Navigator.prototype.userAgent": 66,
+          "Document.cookie getter": 97,
+          "Date.prototype.getTime": 77,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "Document.cookie setter": 1,
+          "window.localStorage": 42,
+          "Screen.prototype.width": 6,
+          "Screen.prototype.height": 6
+        },
+        "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js": {
+          "window.sessionStorage": 12,
+          "Date.prototype.getTime": 7,
+          "Document.cookie getter": 64,
+          "Navigator.prototype.userAgent": 20,
+          "Document.cookie setter": 14,
+          "window.name": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "netflix-sans-normal-3-loaded=true; Max-Age=7776000; Domain=.netflix.com; Path=/"
+          ]
+        },
+        {
+          "source": "https://assets.nflxext.com/web/ffe/wp/ui/landingPages/nmhp/nmhpFrameworkClient.67cea9fdf70737233478.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "netflix-sans-bold-3-loaded=true; Max-Age=7776000; Domain=.netflix.com; Path=/"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e1ad4aa4-6318-4379-b3cb-10dd016c4f1a; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e1ad4aa4-6318-4379-b3cb-10dd016c4f1a&interactionCount=0; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e1ad4aa4-6318-4379-b3cb-10dd016c4f1a&interactionCount=0&isAnonUser=1; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e1ad4aa4-6318-4379-b3cb-10dd016c4f1a&interactionCount=0&isAnonUser=1&prevHadToken=0; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e1ad4aa4-6318-4379-b3cb-10dd016c4f1a&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.netflix.com%2F; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e1ad4aa4-6318-4379-b3cb-10dd016c4f1a&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.netflix.com%2F&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Mar+31+2026+13%3A29%3A59+GMT-0700+(Pacific+Daylight+Time)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e1ad4aa4-6318-4379-b3cb-10dd016c4f1a&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.netflix.com%2F&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1; expires=Wed, 31 Mar 2027 20:29:59 GMT; path=/; domain=.netflix.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-03-26/scripttemplates/202602.1.0/otBannerSdk.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OTSessionTracking=87b6a5c0-0104-4e96-a291-092c11350111; expires=Wed, 01 Apr 2026 20:29:59 GMT; path=/; SameSite=Lax"
+          ]
+        },
+        {
+          "source": "https://sc-static.net/scevent.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_schn1=7s19;path=/;SameSite=Lax;expires=Tue, 31 Mar 2026 20:32:59 GMT;domain=.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://sc-static.net/scevent.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_schn2=oezc;path=/;SameSite=Lax;expires=Tue, 31 Mar 2026 20:32:59 GMT;domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://sc-static.net/scevent.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_scid=T0Vpkx3psCONjtN_2YnmKTxaJRhvvb83;path=/;SameSite=Lax;expires=Sat, 01 May 2027 20:29:59 GMT"
+          ]
+        },
+        {
+          "source": "https://sc-static.net/scevent.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_scid=T0Vpkx3psCONjtN_2YnmKTxaJRhvvb83;path=/;SameSite=Lax;expires=Sat, 01 May 2027 20:29:59 GMT"
+          ]
+        },
+        {
+          "source": "https://sc-static.net/scevent.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_scid_r=T0Vpkx3psCONjtN_2YnmKTxaJRhvvb83;path=/;SameSite=Lax;expires=Sat, 01 May 2027 20:29:59 GMT"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.0.1774988999918.853275364249685126;expires=Mon, 29 Jun 2026 20:29:59 GMT;domain=.net;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.1.1774988999918.853275364249685126;expires=Mon, 29 Jun 2026 20:29:59 GMT;domain=.nflximg.net;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.2.1774988999918.853275364249685126;expires=Mon, 29 Jun 2026 20:29:59 GMT;domain=.ae.nflximg.net;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.0.1774988999936.23438432636257935;expires=Mon, 29 Jun 2026 20:29:59 GMT;domain=.net;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.1.1774988999936.23438432636257935;expires=Mon, 29 Jun 2026 20:29:59 GMT;domain=.nflximg.net;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.2.1774988999936.23438432636257935;expires=Mon, 29 Jun 2026 20:29:59 GMT;domain=.ae.nflximg.net;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=AW-981179826",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.1602316336.1774989000; path=/; expires=Mon, 29 Jun 2026 20:30:00 GMT; domain=nflximg.net; max-age=7200;secure;samesite=none"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_tt_enable_cookie=1; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_tt_enable_cookie=1; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_tt_enable_cookie=1; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ttp=01KN2SDFFYFEQGC2AV7T661RMD_.tt.2; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid_CRI5GNBC77UDCGHCQ7C0=1774989000198::Y3_j4zg44-YH2des4fLq.1.1774989000198.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid_CRI5GNBC77UDCGHCQ7C0=1774989000198::Y3_j4zg44-YH2des4fLq.1.1774989000198.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid=1774989000201::JdZzMoXX6GU-QMD8rdEF.1.1774989000201.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid=1774989000201::JdZzMoXX6GU-QMD8rdEF.1.1774989000201.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid=1774989000201::JdZzMoXX6GU-QMD8rdEF.1.1774989000201.0::1.-679.0::0.0.0.0::0.0.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid=1774989000201::JdZzMoXX6GU-QMD8rdEF.1.1774989000201.0::1.-679.0::0.0.0.0::0.0.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid_CRI5GNBC77UDCGHCQ7C0=1774989000216::XF6UfPaI2aG4RLFqfhrP.1.1774989000216.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid_CRI5GNBC77UDCGHCQ7C0=1774989000216::XF6UfPaI2aG4RLFqfhrP.1.1774989000216.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid=1774989000218::guD1Zg--mjfGmKfpKR9d.1.1774989000218.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwMA.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ttcsid=1774989000218::guD1Zg--mjfGmKfpKR9d.1.1774989000218.0; path=/; expires=Sun, 25 Apr 2027 20:30:00 GMT; domain=.ae.nflximg.net"
+          ]
+        },
+        {
+          "source": "https://sc-static.net/scevent.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_screload=;path=/;SameSite=Lax;expires=Wed Dec 31 1969 16:00:00 GMT-0800 (Pacific Standard Time)"
+          ]
+        },
+        {
+          "source": "https://sc-static.net/scevent.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sctr=1%7C1774940400000;path=/;SameSite=Lax;expires=Sat, 01 May 2027 20:30:01 GMT"
+          ]
+        }
+      ]
+    }
+  }
+}

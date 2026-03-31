@@ -1,0 +1,1548 @@
+{
+  "initialUrl": "https://binance.com/",
+  "finalUrl": "https://www.binance.com/en",
+  "timeout": false,
+  "testStarted": 1774993951763,
+  "testFinished": 1774993963689,
+  "data": {
+    "requests": [
+      {
+        "url": "https://binance.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "176.34.48.93",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.binance.com/",
+        "initiators": [],
+        "time": 0.3858479999998963
+      },
+      {
+        "url": "https://www.binance.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 202,
+        "size": 2450,
+        "remoteIPAddress": "3.169.183.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, max-age=0"
+        },
+        "responseBodyHash": "ea7fbefd52ad117ce35f389a10aac07806adf1a3b6aea2a573529af07cd0b57c",
+        "redirectedFrom": "https://binance.com/",
+        "initiators": [],
+        "time": 0.04814699999951699
+      },
+      {
+        "url": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 505520,
+        "remoteIPAddress": "18.238.192.129",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.binance.com/"
+        ],
+        "time": 0.13300499999968451
+      },
+      {
+        "url": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/inputs?client=browser",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 827,
+        "remoteIPAddress": "18.238.192.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "https://www.binance.com/"
+        ],
+        "time": 0.12325799999962328
+      },
+      {
+        "url": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/mp_verify",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 623,
+        "remoteIPAddress": "18.238.192.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js"
+        ],
+        "time": 0.05373400000098627
+      },
+      {
+        "url": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/mp_verify",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 622,
+        "remoteIPAddress": "18.238.192.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js"
+        ],
+        "time": 0.038765999999668566
+      },
+      {
+        "url": "https://www.binance.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "3.169.183.33",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.binance.com/en",
+        "initiators": [
+          "https://www.binance.com/"
+        ],
+        "time": 0.04188900000008289
+      },
+      {
+        "url": "https://www.binance.com/en",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 81252,
+        "remoteIPAddress": "3.169.183.33",
+        "responseHeaders": {
+          "etag": "b495fd5b6c923e67900e3c040d883bf1a9ea26d8b2efc1b236c4e9640d9a25f7",
+          "set-cookie": "theme=dark; Path=/; Domain=binance.com"
+        },
+        "responseBodyHash": "b495fd5b6c923e67900e3c040d883bf1a9ea26d8b2efc1b236c4e9640d9a25f7",
+        "redirectedFrom": "https://www.binance.com/",
+        "initiators": [
+          "https://www.binance.com/"
+        ],
+        "time": 0.5603789999986475
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/fonts/index.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 857,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"102cbdd4fe1ab2e77ed27f162c8cc51d\""
+        },
+        "responseBodyHash": "a3aac96ea8408d805da366a40c341c955591fadb619307fb60b9946bab39d830",
+        "initiators": [],
+        "time": 0.07258099999853584
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/essential/essential@0.3.70.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37331,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"d6709a6b6cd79ec8e5382100003e2dce\""
+        },
+        "responseBodyHash": "37d0403fb293e1966e1fb1dc4a954ac919b68e6c0e7af0200ed264fe1b3d53c3",
+        "initiators": [],
+        "time": 0.09136500000022352
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/vendor/vendor.umd.0.0.13.production.min.18.2.0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 48299,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ccbbca5d7b848a89e63d38a6dddef454\""
+        },
+        "responseBodyHash": "cf419220f7ba76445079344ca8dff81f826513acbf3adbef25d1268b246409e4",
+        "initiators": [],
+        "time": 0.09971200000109093
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/images/home/register/google-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1758,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4b835dcb6d8fcd4cfeb9fa8c0bb4198d\""
+        },
+        "responseBodyHash": "14b37be77f0d22c418f6e6269e296a36ee2a988a4d9e6c4fde66485125345d2a",
+        "initiators": [],
+        "time": 0.0859920000002603
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/images/home/register/apple-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1087,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"18efd33b9488adace0c619f00b3de9e9\""
+        },
+        "responseBodyHash": "03c266edbe156c2992185b56ed2656e5a35c630806de567e0c95a844b95247c0",
+        "initiators": [],
+        "time": 0.08628800000042247
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/images/home/register/apple-dark-icon.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1420,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"8ff26417c1299a8d1036437a5cb773d9\""
+        },
+        "responseBodyHash": "ff8ea7e65cfd39328818560a487314250942bf5c81fed6db50d50a3fbce08c51",
+        "initiators": [],
+        "time": 0.17158800000106567
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/julia/new-homepage/download-lite-dark-en.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38717,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4be20de82669b2f6b13341610b869c15\""
+        },
+        "responseBodyHash": "a8e99c4062585aec61a7fc370e306e1a443acbfec165db0f4d9213175abc04bc",
+        "initiators": [],
+        "time": 0.16152000000147382
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/julia/new-homepage/download-lite-light-en.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38605,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e15902f22d8a9b08c3095300940202ef\""
+        },
+        "responseBodyHash": "681d5c46b5242865a672fd7e52906f0c5df74f6aa26764ee2bed1aa30a1f35c4",
+        "initiators": [],
+        "time": 0.1705469999997149
+      },
+      {
+        "url": "https://bin.bnbstatic.com/api/i18n/-/web/cms/en/LocalHomepage",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 12997,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=900",
+          "etag": "W/\"7859510aaf11e9387fc7ef05320c6ba0\""
+        },
+        "responseBodyHash": "35dba7a70d3b164abd38280df6e2763476b7fff3e19d90950267f3fb8fd7f1c2",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.16620700000021316
+      },
+      {
+        "url": "https://bin.bnbstatic.com/api/i18n/-/web/cms/en/home-extra",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1330,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=900",
+          "etag": "W/\"73717fb05421ec9169c64280c07eb996\""
+        },
+        "responseBodyHash": "1f24f4a618d86b25fac409bae0ee4899d7705be29717554b1269e3d0bfbf5809",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.1667940000006638
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/chunks/ws-http-sdk.aeb1d3aa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13498,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"062a72db6149f0eeed4fa90186f8c212\""
+        },
+        "responseBodyHash": "7b799200a6ee7615141130854803cf9a192d5c879c331688803a0f22e8258304",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.10085899999830872
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/chunks/832.f34bb2d0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15170,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"c5c40117d867186fa5b21402f383cf94\""
+        },
+        "responseBodyHash": "689ef8ae509064a1341e3234868b05beacb092a00d8a910508e7b28ab8690ac2",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.0869089999996504
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/chunks/layout-8ea2.efa6cae1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25466,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"936366b586b303f9b2dce2cf5e48b455\""
+        },
+        "responseBodyHash": "139acbd18d37728f1b6165526fc50dd2d324c4ad90d4f9a643d0eb5ddfa19f7b",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.08708200000000943
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/chunks/810.87e5902a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17501,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"7373771caf5b43923eff959d06132423\""
+        },
+        "responseBodyHash": "8eef62c3c8c07afe36f135206e5edf92f3fb98c1769c352dddbfa4c1b216a884",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.10028600000077859
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/chunks/376.87198c9c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 69711,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"fe7f1c6b055a50481da00cee7f5aa7ad\""
+        },
+        "responseBodyHash": "65cd61547b9018159490b07d827a60e0a4639907f8934f6cf696ebb851d60d29",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.09936299999935727
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/chunks/page-8e28.451d15db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 69018,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"f3ef343c5e836937eec07abedf9f6675\""
+        },
+        "responseBodyHash": "d1e2db07cc65cd203a53bf99df871642a8b11ab6bcc0e1f5a8d09fb83bfeb4be",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.10486999999920954
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/configs/newbase/common-widget-icon.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42018,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"5818e87568981152998bd820d4147eae\""
+        },
+        "responseBodyHash": "2026d88189e72a42903eb9c1871765b73b4476517dfd3061e27692adc0d44185",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07365899999967951
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/themis/themis@0.0.39.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34645,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"f65219b5a03de286c69d33fadbfcc54b\""
+        },
+        "responseBodyHash": "021cd4ab1fde1b5552a1f4ec94d2971637fedc20c3eef51db9a18f06c52a7311",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.08567799999946146
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/vendor@1.4.84.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 109355,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"9261c39f9bc1fa76434c9508f2366fb2\""
+        },
+        "responseBodyHash": "5daec6b4b921be7fdfb328ac4d4483926f4e8fd51076e51f23231bbe2075d0a7",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.11546499999894877
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/utils@1.4.84.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13011,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"e458baa873786f8cdda3e28ac1c1bf93\""
+        },
+        "responseBodyHash": "f539723f3a0f1505bfec788acef4ddf0933baeb99a72e19b84a1ba34e2d61426",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.09315600000081758
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/data@1.4.84.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36853,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"474230ccc2432889afdba80a0f03f0fb\""
+        },
+        "responseBodyHash": "a28fefe606a0a149ac705d65560325d622a75fc872c279b979815736eb085528",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.09171100000094157
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/common@1.4.84.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51558,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"6e9e0578cee31b6d72163009fe2cfc48\""
+        },
+        "responseBodyHash": "75cd1f7b66750d5aa04745b9c17a705b719c0f9b1f5078c12e9732a77fb10b77",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.10178699999960372
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/webpack-runtime.d0b38add.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2633,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"2ee6952103835ad64dc6510a60f96402\""
+        },
+        "responseBodyHash": "718f8f9dfc986c6c3040158db6a81f30f60257a18aa240f272fb65e6d16b9864",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.10409199999958219
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/main.fc9db360.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 169104,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"f950c64b62f4ff08c84c585802c73d14\""
+        },
+        "responseBodyHash": "8a9565d05f08f8f5efc4ad263b8518906c9bf803b99fbc93d32c811be274b337",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.11545900000055553
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/config/remote-config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 965,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"96efeb026e977dccca0808fec21854ba\""
+        },
+        "responseBodyHash": "55c945f0f76efd4851e34f1609e7007568836c535d4b6d1d4693d839854ac62d",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.09186500000032538
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/js/common-widget/common-widget-render-control@0.0.1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1246,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"9cb0dc6474ea4cb09c917cd538d4bc71\""
+        },
+        "responseBodyHash": "3b886daf4d93bf21b5338cca3012fbda6f85e26ce5d61768704b93526cda9c56",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.08024599999953352
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/sw-load/cache-control-load@0.0.5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1665,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"1a9aa279559668fe92eacf295a910438\""
+        },
+        "responseBodyHash": "33ea40587e4875e4919f06757c0ebe07088ce03a4bcd1d9fd25c40a2f719b0c0",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07518900000104622
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/js/common-widget/globalthis@0.4.4.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 978,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"49a5d41a3eeb8db98118c26c5a23ad82\""
+        },
+        "responseBodyHash": "a83e15469a9f693147a57f00f9a1877f5b4a11eb31b9f34de7f5faa06d2b89dd",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07333599999947182
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/css/40e7f5dd.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 32853,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ea17f69928d5d5866ff92043e168c03b\""
+        },
+        "responseBodyHash": "27916cebc383b5c904174c38b360b53b7389ac76ce99282c9ae01b944e392dd9",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.08466200000111712
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/header@1.4.84.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4967,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"f6ad12766933f23de366ad5e83685b45\""
+        },
+        "responseBodyHash": "b6c2f720a6a9840bfb3949d384dd71f53b16d171ead5efb6f170ce88a9c59998",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07414000000062515
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/footer@1.4.84.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1260,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"45a5b12dc2c8af6cd4790a1566c767b7\""
+        },
+        "responseBodyHash": "88574a520e3765afa1a57ebb04c089c23e315f3ea30398279e3ce84bf81bd490",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07540999999946507
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/extension@1.4.84.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1302,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"4aa44fafe78e31b245890ed085c45eb6\""
+        },
+        "responseBodyHash": "43bcc78487f7cd37ed4de2b35afd3888ee1fec668c4a292261106a62c17547cf",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07630900000003749
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/vendor@1.4.84.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 12062,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"87c00342051d4e7236bf9528ad199bc6\""
+        },
+        "responseBodyHash": "15cbac0b76742b1ab558d24a0232cb2cb16526758ba84e49d367f0533d4113db",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07424700000046869
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/common@1.4.84.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7464,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"c6f0197a8899817157f32bdd9ecc2b40\""
+        },
+        "responseBodyHash": "e8d5aed6a4982d30f0a9de7df002d7e0eaf8c69fa2aaaa3899b066c00bb4fae0",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.07555200000024342
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/87496d50-2408-43e1-ad4c-78b47b448a6a.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1591,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"75f196b437f9d87fdc198bc904c66c4c\""
+        },
+        "responseBodyHash": "f99d08a6b8203cf9bc313cfe1d7b920cb51332559b9e25d7629dea91f3c3f0fe",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.11531099999956496
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1567,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"8658d5935ab59ee39d15c39226279d46\""
+        },
+        "responseBodyHash": "64100ff7b7faf2e71822871f4fddf22498f127896741c7987f3cfa7382fdffed",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.11489000000074157
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20220218/94863af2-c980-42cf-a139-7b9f462a36c2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3024,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cb84d3ca48a52e3df1025731a8bef4ec\""
+        },
+        "responseBodyHash": "3bf950ad9ff609229ee9b3fa12646bf7e3023f960771e689114bfe1bab872ba2",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.14034999999967113
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/4766a9cc-8545-4c2b-bfa4-cad2be91c135.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1414,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"92f9d15be55070c0f267e7b9609211da\""
+        },
+        "responseBodyHash": "6d695db1e8b0d91450b408fead8610af5de2b5acea1f93e0f124108cbe8bd06f",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.1522720000011759
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20251006/5dc769cc-c302-4e3e-a5d4-fe5199f1cb7e.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5651,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2731d4e78f165de3fc28e144a6c75abf\""
+        },
+        "responseBodyHash": "7165420215c090b9fb979323d8dca627b6c7f8bb98f8a8ff8cfa9f1e7b95a80e",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.1532549999992625
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20260326/95524eaf-76d3-4928-baab-1c87147e7c79.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2559,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"8064c260d4515c08aa9839d3165d5a1c\""
+        },
+        "responseBodyHash": "6f9b263da5dd3a6ba9fbd9e018bcca03263d2cdd8c5f5811d7e2e833cf6b29e1",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.152485999999044
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20260313/9bd0c4fb-83ee-4592-ac4a-b483ed2637fb.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7747,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"0b03239c15059c9b4702706a5c2c0b8f\""
+        },
+        "responseBodyHash": "8afdc8c0ce7161509cf7e31009c884796d12b2c8d9217d6734bc66dc6d1733f3",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15278399999988324
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20260316/55d8deee-e7bd-4114-b650-d8d66abb894c.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6579,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"332b959b221a94ff09f054ca06b2c30c\""
+        },
+        "responseBodyHash": "4a5b246f5731d1cdf5ffb9ea0017c3bd75de2c92199e6136a15255699c2450d8",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15439899999910267
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20260128/4da4d8b7-2cd2-42f0-a130-098d6f520d57.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5837,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "etag": "\"8da24fd46147f91e4e394f2587030822\""
+        },
+        "responseBodyHash": "300fd5460d05c065a52895452b5dacd965564c875be4518f6265483cebb3931d",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15539600000010978
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20260302/6f8c2bfb-9a6a-4323-a5ba-6101399dfba7.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3119,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"3d5340bb06268b912cae86cc7e0172c4\""
+        },
+        "responseBodyHash": "a9d0268e4ed92557d5fc06cf571b1be615e48c4549c6efd1bde0669ed78f205f",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15496299999904295
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/julia/new-homepage/safu/forbes_dark.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3413,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e76e6348e156ca041e2d7310c72fd63c\""
+        },
+        "responseBodyHash": "06f188a0bf8c54cd76cac53fa5b718d1e7f591c4638f77353c30e9c544a3f4b0",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15455699999984063
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/julia/new-homepage/safu/fortune_dark.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3691,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e81e890b2272a09b16d4a20cc2012c8c\""
+        },
+        "responseBodyHash": "5bf987654c3f2c6c83892f5ff06a8f95536adfb9aec6a169019afbbec861694f",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15650999999888882
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/julia/new-homepage/safu/cnbc_dark.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3739,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"039382b684661093235b43f0cf01f757\""
+        },
+        "responseBodyHash": "cbaa6c0a1f89f60487a559bd3fc22aa5cea7bd78ee5f4c16d27a22ecb4bf5521",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15691599999991013
+      },
+      {
+        "url": "https://www.binance.com/bapi/fe/resource/image?image=aHR0cHM6Ly9iaW4uYm5ic3RhdGljLmNvbS9pbWFnZS9qdWxpYS9uZXctaG9tZXBhZ2Uvc2FmdS9odW1hbnMtbHVpcy10aHVtYi5wbmc%3D&w=384&h=216",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "3.169.183.33",
+        "responseHeaders": {},
+        "redirectedTo": "https://bin.bnbstatic.com/image-proxy/rs_md_webp/image/julia/new-homepage/safu/humans-luis-thumb.png",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.6637740000005579
+      },
+      {
+        "url": "https://www.binance.com/bapi/fe/resource/image?image=aHR0cHM6Ly9iaW4uYm5ic3RhdGljLmNvbS9pbWFnZS9qdWxpYS9uZXctaG9tZXBhZ2Uvc2FmdS9odW1hbnMtbW9oaXQtdGh1bWIucG5n&w=384&h=216",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "3.169.183.33",
+        "responseHeaders": {
+          "etag": "\"33105c6189e5bc7cb2869af9e63906d4\""
+        },
+        "redirectedTo": "https://bin.bnbstatic.com/image-proxy/rs_md_webp/image/julia/new-homepage/safu/humans-mohit-thumb.png",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.3051690000011149
+      },
+      {
+        "url": "https://www.binance.com/bapi/fe/resource/image?image=aHR0cHM6Ly9iaW4uYm5ic3RhdGljLmNvbS9pbWFnZS9qdWxpYS9uZXctaG9tZXBhZ2Uvc2FmdS9odW1hbnMtZGVubmlzLWNuLnBuZw%3D%3D&w=384&h=216",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "3.169.183.33",
+        "responseHeaders": {
+          "etag": "\"58c47dbbd56e48bcf3dbaaa81304b7d7\""
+        },
+        "redirectedTo": "https://bin.bnbstatic.com/image-proxy/rs_md_webp/image/julia/new-homepage/safu/humans-dennis-cn.png",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.30557500000031723
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/runtime/sentry/7.38.0/bundle.es5.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20732,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"d844a6bc9b68a5834b2169c05d845911\""
+        },
+        "responseBodyHash": "2d236b04354f35176d2bb0f8922c6b9db34bdcb14efae8e3007f8eb5eee5e531",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15077000000019325
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/web-push-odin/web-push-odin-pre.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1324,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"5712806998b0b7bf04a1b204a137b8e7\""
+        },
+        "responseBodyHash": "8e0ba0dc6e64f24290ae2878d17edfa6eb8082aff55f9553417721d19c6c3641",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.1491760000008071
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/header@1.4.84.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23492,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"cd0ad2dc7af095b870326d2c8b17e26d\""
+        },
+        "responseBodyHash": "a082581dda3b3bd125714128b129644c1dbe43a6810e04b1471e50651900af5c",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.14808600000105798
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/footer@1.4.84.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4050,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"520d847cd0808d99e897e201db4ba6b3\""
+        },
+        "responseBodyHash": "b40d1c71eef0750c560d0710a15f5a7b927c911fc20065128da7b9d7b5510d12",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.14860999999837077
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/common-widget/extension@1.4.84.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36106,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"97180d928eb15fa795caf599189d2094\""
+        },
+        "responseBodyHash": "fc6320eb06e9d5d81278a08e02208305fb458dd47c9090c391d4663ef81623de",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.1595499999984895
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/e21a0e13-40c2-48a6-9ca2-57738356cdab/OtAutoBlock.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2540,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DDC2DBACC2E568",
+          "expires": "Wed, 01 Apr 2026 21:52:40 GMT"
+        },
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.29527299999972456
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9281,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DE8ED5319CAE71"
+        },
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.2807990000001155
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/one-trust/onetrust-trigger.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13983,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "etag": "W/\"1461b5de37db62e84f07908219360f14\""
+        },
+        "responseBodyHash": "cf98d77e2b262344f7e6c8ba8421a6085b698297651bda98b66a8c577a61f973",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.11392999999952735
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/images/home/register/google-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 427,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4b835dcb6d8fcd4cfeb9fa8c0bb4198d\""
+        },
+        "responseBodyHash": "14b37be77f0d22c418f6e6269e296a36ee2a988a4d9e6c4fde66485125345d2a",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.02746399999887217
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/images/home/register/apple-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 428,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"18efd33b9488adace0c619f00b3de9e9\""
+        },
+        "responseBodyHash": "03c266edbe156c2992185b56ed2656e5a35c630806de567e0c95a844b95247c0",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.029056000001219218
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image/julia/new-homepage/download-lite-dark-en.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 424,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4be20de82669b2f6b13341610b869c15\""
+        },
+        "responseBodyHash": "a8e99c4062585aec61a7fc370e306e1a443acbfec165db0f4d9213175abc04bc",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.04506700000092678
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/images/common/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4410,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"87092fed44ecb4bdf1b1a1c907dc0efd\""
+        },
+        "responseBodyHash": "57dd55f1294611562bcb216f766a983ca283153b5cde5eb1cddcdd7dbec72318",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.03174100000069302
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/fonts/bn/BinanceNova-SemiBold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 65816,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"bc9f6e22e0fc96dc4aff7214f3e6cad5\""
+        },
+        "responseBodyHash": "04ae121013bce3cf2f73145a886a787e4440344cb070fa3659c5ddfab7e454fd",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.04762900000059744
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/fonts/bn/BinanceNova-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 66305,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"7ed950e590d34fac23c52a3cc2166f6b\""
+        },
+        "responseBodyHash": "d90e65cd87e3e671109730e96a9cd81f20cc6bf289ee16df0ff65d7e33b851f4",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.05432999999902677
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/fonts/bn/BinanceNova-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 65998,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"69988a9044555505bb9a7b999ab8d094\""
+        },
+        "responseBodyHash": "18889d85c8fdad7d16aaba4b79420c595d0a69192ccab05601688d5e038d8a62",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.06063899999935529
+      },
+      {
+        "url": "https://bin.bnbstatic.com/static/fonts/bn/BinanceNova-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 66411,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"eac8350b7f51609d797f80a8615d200e\""
+        },
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.15264199999910488
+      },
+      {
+        "url": "https://o529943.ingest.sentry.io/api/6149229/envelope/?sentry_key=949d37812f604f039041170b5601fa1a&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.38.0",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "34.160.81.0",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "initiators": [
+          "https://bin.bnbstatic.com/static/runtime/sentry/7.38.0/bundle.es5.min.js",
+          "https://www.binance.com/en"
+        ]
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/essential/essential@0.3.70.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 378,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"d6709a6b6cd79ec8e5382100003e2dce\""
+        },
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.09258399999998801
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image-proxy/rs_md_webp/image/julia/new-homepage/safu/humans-mohit-thumb.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13132,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "etag": "\"33105c6189e5bc7cb2869af9e63906d4\""
+        },
+        "redirectedFrom": "https://www.binance.com/bapi/fe/resource/image?image=aHR0cHM6Ly9iaW4uYm5ic3RhdGljLmNvbS9pbWFnZS9qdWxpYS9uZXctaG9tZXBhZ2Uvc2FmdS9odW1hbnMtbW9oaXQtdGh1bWIucG5n&w=384&h=216",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.017793999999412335
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image-proxy/rs_md_webp/image/julia/new-homepage/safu/humans-dennis-cn.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12928,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "etag": "\"58c47dbbd56e48bcf3dbaaa81304b7d7\""
+        },
+        "redirectedFrom": "https://www.binance.com/bapi/fe/resource/image?image=aHR0cHM6Ly9iaW4uYm5ic3RhdGljLmNvbS9pbWFnZS9qdWxpYS9uZXctaG9tZXBhZ2Uvc2FmdS9odW1hbnMtZGVubmlzLWNuLnBuZw%3D%3D&w=384&h=216",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.014911000000211061
+      },
+      {
+        "url": "https://public.bnbstatic.com/unpkg/vendor/vendor.umd.0.0.13.production.min.18.2.0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 299,
+        "remoteIPAddress": "18.239.199.107",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ccbbca5d7b848a89e63d38a6dddef454\""
+        },
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.015201999998680549
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/e21a0e13-40c2-48a6-9ca2-57738356cdab/e21a0e13-40c2-48a6-9ca2-57738356cdab.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2977,
+        "remoteIPAddress": "104.18.86.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8DDC2DBAC959F8F",
+          "expires": "Wed, 01 Apr 2026 21:52:40 GMT"
+        },
+        "initiators": [
+          "https://bin.bnbstatic.com/static/runtime/sentry/7.38.0/bundle.es5.min.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.binance.com/en"
+        ],
+        "time": 0.05809899999985646
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "104.18.32.137",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "initiators": [
+          "https://bin.bnbstatic.com/static/runtime/sentry/7.38.0/bundle.es5.min.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://www.binance.com/en"
+        ],
+        "time": 0.12220399999932852
+      },
+      {
+        "url": "https://bin.bnbstatic.com/image-proxy/rs_md_webp/image/julia/new-homepage/safu/humans-luis-thumb.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13559,
+        "remoteIPAddress": "108.138.246.74",
+        "responseHeaders": {
+          "etag": "\"401578ae27ed4a444ebc3ec4e536a062\""
+        },
+        "redirectedFrom": "https://www.binance.com/bapi/fe/resource/image?image=aHR0cHM6Ly9iaW4uYm5ic3RhdGljLmNvbS9pbWFnZS9qdWxpYS9uZXctaG9tZXBhZ2Uvc2FmdS9odW1hbnMtbHVpcy10aHVtYi5wbmc%3D&w=384&h=216",
+        "initiators": [
+          "https://www.binance.com/en"
+        ],
+        "time": 0.01471799999853829
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202506.1.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "0x8DDC82084D31198"
+        },
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://bin.bnbstatic.com/static/runtime/sentry/7.38.0/bundle.es5.min.js",
+          "https://www.binance.com/en"
+        ]
+      }
+    ],
+    "cookies": [
+      {
+        "name": "aws-waf-token",
+        "domain": ".www.binance.com",
+        "path": "/",
+        "expires": 1775339554000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "theme",
+        "domain": ".binance.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "bnc-uuid",
+        "domain": ".binance.com",
+        "path": "/",
+        "expires": 1809553960829,
+        "session": false
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js": {
+          "Navigator.prototype.appName": 2,
+          "window.localStorage": 11,
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 12
+        },
+        "https://public.bnbstatic.com/unpkg/essential/essential@0.3.70.js": {
+          "window.localStorage": 8,
+          "window.sessionStorage": 2,
+          "Document.cookie getter": 8
+        },
+        "https://public.bnbstatic.com/unpkg/common-widget/vendor@1.4.84.min.js": {
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://bin.bnbstatic.com/static/main.fc9db360.js": {
+          "window.indexedDB": 10,
+          "window.localStorage": 7,
+          "Navigator.prototype.userAgent": 15,
+          "Document.cookie getter": 1
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202506.1.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Document.cookie getter": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=www.binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.www.binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=285ead37-6ef7-460b-8ad3-0b006f86b4d3:EwoA9ROY73hMAAAA:ZJGAcKR47WLyK6lLiUvUI62SrmTxfQwP/3pcJoNSyPlkNFs/oFLDjaj7pNjHdbHNfCQVcnwzETkmAJnnWZArVwOnpR3L2nS2Q2HMFsoI9Qd+qGLc7R+qJ+VpPNiZHMmFIdXzrUoMXMYeiF3EMdzq/ptuk7E0FbObjD4X6vDD7xaOP3ob61EJvrgERL6mQFvOo9o=; expires=Sat, 04 Apr 2026 21:52:34 GMT; path=/; samesite=Lax; domain=.www.binance.com; secure"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=www.binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.www.binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;path=/;domain=.binance.com;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=;expires=Thu, 01 Jan 1970 00:00:01 GMT"
+          ]
+        },
+        {
+          "source": "https://fe4385362baa.b3f58947.us-west-1.token.awswaf.com/fe4385362baa/306922cde096/8b22eb923d34/challenge.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "aws-waf-token=285ead37-6ef7-460b-8ad3-0b006f86b4d3:EwoA6H2Y785LAAAA:ZnGrROX2BoGCAt/uAOO5R+Zanx0gXfEph7zrB2Mole6H+VC3MfxjqU7OiEUPGPa5M5t46mIISr3F2kHkzSbE9PHe7qGNailaWKFrQRbgPptf1k2fdL5HVh6cgZXN7IEMHAs1PVdMyWmj9A6Q4s+0O2wwNaXOYEUj7daHoNpCT8brP8MXBpYymgjNmLE3HZmL5YU=; expires=Sat, 04 Apr 2026 21:52:34 GMT; path=/; samesite=Lax; domain=.www.binance.com; secure"
+          ]
+        }
+      ]
+    }
+  }
+}

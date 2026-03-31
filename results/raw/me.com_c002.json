@@ -1,0 +1,457 @@
+{
+  "initialUrl": "https://me.com/",
+  "finalUrl": "https://www.icloud.com/",
+  "timeout": true,
+  "testStarted": 1774992389268,
+  "testFinished": 1774992452846,
+  "data": {
+    "requests": [
+      {
+        "url": "https://me.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "17.253.142.4",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.icloud.com/",
+        "initiators": [],
+        "time": 0.08528300000034506
+      },
+      {
+        "url": "https://www.icloud.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 10766,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "cache-control": "public, max-age=300",
+          "etag": "\"19d41ae9630258f\"",
+          "set-cookie": "x-apple-group=false; path=/; domain=.icloud.com; secure; HttpOnly"
+        },
+        "responseBodyHash": "76b5ae62489a44c13f4e5e2f20c3e5eb46b142999e3c74d89783c5cc58be5b8e",
+        "redirectedFrom": "https://me.com/",
+        "initiators": [],
+        "time": 0.12240299999939452
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 780224,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41aef7d8be461\""
+        },
+        "responseBodyHash": "c0d6e42652b5bca2cf1b03dcf4bf47db0a6fa0025cba076d8febe25a1aa2e0bb",
+        "initiators": [
+          "https://www.icloud.com/"
+        ],
+        "time": 0.06419000000096275
+      },
+      {
+        "url": "https://setup.icloud.com/setup/ws/1/validate?clientBuildNumber=2610Hotfix23&clientMasteringNumber=2610Hotfix23&clientId=2f21c712-7c62-4854-aa7c-9cee1f4a707f&requestId=6320c0f0-19db-40f3-b64b-ba057c8d8763",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 421,
+        "size": 1386,
+        "remoteIPAddress": "17.248.192.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.icloud.com",
+          "cache-control": "no-cache, no-store, private"
+        },
+        "responseBodyHash": "af49a893b652e6778fec4f1777c491bea341f70971b374c4e3a37d7630776be5",
+        "initiators": [
+          "https://www.icloud.com/"
+        ],
+        "time": 4.945435999999972
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 47993,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41aea9b8b9bd\""
+        },
+        "responseBodyHash": "e3d2e0b46563ffc114a04831f242dfd86195962d228469cb08c24ac8546b4151",
+        "initiators": [
+          "https://www.icloud.com/"
+        ],
+        "time": 0.02772200000072189
+      },
+      {
+        "url": "blob:https://www.icloud.com/f8befdb6-d73e-4ecf-8d47-680bc86b2db3",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://www.icloud.com/"
+        ]
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/images@1x.bin",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 825,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41ae9630184\""
+        },
+        "responseBodyHash": "bdcae98fee7e0d214acaf94bb42fe2b13cfe07a7bc98c9a07ba30f3240961410",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.04694799999924726
+      },
+      {
+        "url": "https://www.icloud.com/locales/5/en-US.json?clientBuildNumber=2610Hotfix23&clientMasteringNumber=2610Hotfix23&clientId=2f21c712-7c62-4854-aa7c-9cee1f4a707f",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1407,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300",
+          "etag": "\"19d146ba4603f6\""
+        },
+        "responseBodyHash": "c632443218d81149fe7fc6dadd8eb351d00c841b2349902aaab8cb1895e87642",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.09431000000040513
+      },
+      {
+        "url": "blob:https://www.icloud.com/98c36aea-d3ef-458a-94b8-750d44b16fdc",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "446c4fde5ecf439bfed24e9704de915bdc7b0d06b4e8a6c5c7eb6493e06f4a37",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.0017119999993155943
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/6.main.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1180,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41ae8a782f3\""
+        },
+        "responseBodyHash": "98d0f67d1555bef9535afe657207f47c397068a51fc02e71e32d0bd69e9bb4d0",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.02586400000109279
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/vendors~RootComponentRoute.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14347,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41aea1e83644\""
+        },
+        "responseBodyHash": "1e564dbbfb77345b03dfd085464d7dcf3edf3231b16461873a11ee3968d15473",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.011644000000160304
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/2.main.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 24243,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41ae8e605d01\""
+        },
+        "responseBodyHash": "aefd4d2f025bec1d149c144a1adb1449ca31fdb3a49a0f1498b2e8fce2d44d5f",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.013552999998864834
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/RootComponentRoute.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89676,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41ae9e0015c5e\""
+        },
+        "responseBodyHash": "b5296a12c0c9f75c290abb79edbf92c0b92ff60c694d0da81596c8a43ec55b22",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.019664999999804422
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/wallpaper.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1808,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41b1e9c055f\""
+        },
+        "responseBodyHash": "555e46552504bf49f30e6a7566e5b10c6027264fdb25355eb24b99d28b5d468a",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.011484000000564265
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/wallpaper_dark.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1942,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41b1e9c05e3\""
+        },
+        "responseBodyHash": "82b8dae49941096ea066f74ed5fa44a3cfadc30e75bfb3fd3c93976c099f3a40",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.013458999999784282
+      },
+      {
+        "url": "https://appleid.cdn-apple.com/appleauth/static/jsapi/authService.latest.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14728,
+        "remoteIPAddress": "104.68.114.138",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800,stale-while-revalidate=1800",
+          "etag": "W/\"47307-1773265439216\""
+        },
+        "responseBodyHash": "6d435c0aafd82a044cd77f0f89d49e53eb264a8700ad91739f98658320b8429b",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 0.05177899999944202
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/0e4e931e06552e87f2fdff2832e11bb9.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 46676,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41adabd0b483\""
+        },
+        "responseBodyHash": "af88ed427a90bcbb2256f1ca8db7ab8b82dbf681ffa41eef1869dd16151dcedb",
+        "initiators": [],
+        "time": 0.014397999999346212
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/06b68855764eb0e23f269ed4ef7935f0.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 68446,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41acc558109c4\""
+        },
+        "responseBodyHash": "a3a62f5ea92587197a02c253d96a54e2b1706cc47cd148c067d6c87bc10a1f9c",
+        "initiators": [],
+        "time": 0.01615700000002107
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/7cb9ecdad2b384754de394732519f658.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 208344,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41adbb7032bac\""
+        },
+        "responseBodyHash": "49e020eae9aa512ced7bf5f7003cdee03fa640845b3de781fe5a36f658727146",
+        "initiators": [],
+        "time": 0.02264400000058231
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/fpo@1x.mp4",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 1889446,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41acd4f81ccf13\""
+        },
+        "responseBodyHash": "6716b029c5580dd4403296eeb10cea10b95f3c9d4d2b78ebcedfa31f017a1904",
+        "initiators": [],
+        "time": 0.09023400000114634
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/favicons/default-favicon-light-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2095,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41aed0c8670\""
+        },
+        "responseBodyHash": "7f66195ba4dce87a2445c33da86a3293e95c563eabd9203780417f1ed15d43aa",
+        "initiators": [],
+        "time": 0.04497399999854679
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/favicons/default-favicon-light-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41aed0c8670\""
+        },
+        "responseBodyHash": "7f66195ba4dce87a2445c33da86a3293e95c563eabd9203780417f1ed15d43aa",
+        "initiators": [],
+        "time": 0.0015449999991687946
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/vendors~Routes-HomePageRoute.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 355073,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41aedc805687a\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js",
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/RootComponentRoute.js"
+        ],
+        "time": 0.025563000001056935
+      },
+      {
+        "url": "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/Routes-HomePageRoute.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 131051,
+        "remoteIPAddress": "23.5.242.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "\"19d41aea9b81fde8\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js",
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/RootComponentRoute.js"
+        ],
+        "time": 0.02752899999904912
+      },
+      {
+        "url": "https://feedbackws.icloud.com/reportStats",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "17.248.192.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.icloud.com",
+          "cache-control": "no-cache, no-store, private"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js"
+        ],
+        "time": 51.610507999999754
+      }
+    ],
+    "cookies": [
+      {
+        "name": "x-apple-group",
+        "domain": ".icloud.com",
+        "path": "/",
+        "session": true
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.icloud.com/system/icloud.com/2610Hotfix23/en-us/main.js": {
+          "Navigator.prototype.permissions": 2,
+          "window.localStorage": 1,
+          "Date.prototype.getTime": 5,
+          "Document.cookie getter": 110,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "window.devicePixelRatio": 1,
+          "Event.prototype.timeStamp": 279
+        },
+        "https://appleid.cdn-apple.com/appleauth/static/jsapi/authService.latest.min.js": {
+          "window.innerWidth": 4,
+          "window.innerHeight": 4,
+          "window.screenLeft": 2,
+          "window.screenTop": 2,
+          "window.name": 1
+        }
+      },
+      "savedCalls": []
+    }
+  }
+}

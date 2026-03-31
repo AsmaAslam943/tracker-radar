@@ -1,0 +1,1931 @@
+{
+  "initialUrl": "https://caixa.gov.br/",
+  "finalUrl": "https://www.caixa.gov.br/Paginas/home-caixa.aspx",
+  "timeout": false,
+  "testStarted": 1774993931598,
+  "testFinished": 1774993944565,
+  "data": {
+    "requests": [
+      {
+        "url": "https://caixa.gov.br/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "200.201.165.27",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.caixa.gov.br/",
+        "initiators": [],
+        "time": 2.189500999998927
+      },
+      {
+        "url": "https://www.caixa.gov.br/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "set-cookie": "security=true; path=/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.caixa.gov.br/",
+        "redirectedFrom": "https://caixa.gov.br/",
+        "initiators": [],
+        "time": 1.3888260000003356
+      },
+      {
+        "url": "https://www.caixa.gov.br/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "http://www.caixa.gov.br/Paginas/home-caixa.aspx",
+        "redirectedFrom": "https://www.caixa.gov.br/",
+        "initiators": [],
+        "time": 0.8511680000010529
+      },
+      {
+        "url": "http://www.caixa.gov.br/Paginas/home-caixa.aspx",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.caixa.gov.br/Paginas/home-caixa.aspx",
+        "redirectedFrom": "https://www.caixa.gov.br/",
+        "initiators": [],
+        "time": 0.0006429999993997626
+      },
+      {
+        "url": "https://www.caixa.gov.br/Paginas/home-caixa.aspx",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 59992,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "private",
+          "expires": "Tue, 31 Mar 2026 21:52:59 GMT"
+        },
+        "responseBodyHash": "233cd3221d702ae0181b7443707568115d08701f6e40d4e67a3be737561f59da",
+        "redirectedFrom": "http://www.caixa.gov.br/Paginas/home-caixa.aspx",
+        "initiators": [],
+        "time": 0.6486989999993966
+      },
+      {
+        "url": "https://tag.goadopt.io/injector.js?website_code=83c6ae62-0926-450e-a47d-9fcf609403bf",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "104.26.6.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://tag.goadopt.io/injector.js/v2/0072?website_code=83c6ae62-0926-450e-a47d-9fcf609403bf",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 1.8269220000001951
+      },
+      {
+        "url": "https://cdn.rybena.com.br/dom/master/caixa/rybena.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33879,
+        "remoteIPAddress": "104.21.67.203",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400, must-revalidate",
+          "etag": "W/\"2e35e21032e19ea51aaeef9a5d79bb58\""
+        },
+        "responseBodyHash": "0695c3cdb0120376f6d259f5a4d89063e62d635230adb2ca24d480b3373a4bc8",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 1.7590689999997267
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39778,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{53563F0A-BE63-4D8A-A17C-6CDDC7064530},11pub\""
+        },
+        "responseBodyHash": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.03348800000094343
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/1046/initstrings.js?rev=mwvYlbIyUbEbxtCpAg383w%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7564,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"06abce17563d11:0\""
+        },
+        "responseBodyHash": "4d0d7fedecd8bbaa211a2a1310cd7362ba838c4f9928540b70f11ca624a31bdc",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.036477000001468696
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 77358,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"025f9816af9db1:0\""
+        },
+        "responseBodyHash": "fd5370854f98b4c549e95de85cafcfb72a8b97b85654a3adf006bb868391cf74",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.055496999999377294
+      },
+      {
+        "url": "https://www.caixa.gov.br/ScriptResource.axd?d=GyqjUVUxZqFOuMWNVRhLLmM_4FdcQX1Cr_WfBgP_HerVhzHOBWoR4KdcaVq_6YESEUmhg6W2JQrFwjUIK1YAyW_g1J4rx1vZvTAr-_oi5JUPf5LZaKKaqmXXOssazO5b1g1MXvQTSWQ27U-Oh8obNN0dWFnBZELLam7hzY7MymKUwM4Y9E0nqZbMVNSNaWRz0&t=ffffffffc820c398",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26049,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Wed, 31 Mar 2027 05:09:09 GMT"
+        },
+        "responseBodyHash": "66b804e7a96a87c11e1dd74ea04ac2285df5ad9043f48046c3e5000114d39b1c",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 1.0509760000004462
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/blank.js?rev=nBzPIm07cpYroIjvUHh4jw%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 817,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"0f8c7806af9db1:0\""
+        },
+        "responseBodyHash": "c4bb5c1107bd0b3a375321d289aacee213c05e20cf6a180b5206c125919a899a",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.054004999999961
+      },
+      {
+        "url": "https://www.caixa.gov.br/ScriptResource.axd?d=gaAiVduERC7dhIjmiYYpvaJbTMJiQ120vK1B5CGk4PyqPsReT_pGp8BkLgUUZLVRM-lQ-pK2x_uzbmegpZ0G7i6PdURy77STQdcpzyqJKKL3ZxBqSPdDhF3O2HudOdkE1Ms8QsEZiji7GUFsdGt3ma6LjHTMS_T4Xu2RLJNK_W22nE-FP5U8qYt-PmcGYvyM0&t=ffffffffc820c398",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10406,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Wed, 31 Mar 2027 04:24:20 GMT"
+        },
+        "responseBodyHash": "398cdf1b27ef247e5bc77805f266bb441e60355463fc3d1776f41aae58b08cf1",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 1.720895999998902
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/clean.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1406,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{E144BD8D-4A0A-44E8-81AB-70FB3C1B2CA9},1pub\""
+        },
+        "responseBodyHash": "b343a339d875d2667cc48f6cb9d5c0a879ecf2951e4933abc9743145f4c5ed84",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.04505500000050233
+      },
+      {
+        "url": "https://www.caixa.gov.br/WebResource.axd?d=tSn0Tfbshk3gR-CnFveKRteygcT3hOonS0dgStc4kkYcWld2vuXgEEqbUsN8k1xpX3tQnstIMbjApUnWjvg4I9rQJwaj6l5A6vtQvWy1rMI1&t=638568496745067788",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6438,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Wed, 31 Mar 2027 04:20:03 GMT"
+        },
+        "responseBodyHash": "40732e9dcfa704cf615e4691bb07aecfd1cc5e063220a46e4a7ff6560c77f5db",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.8369170000005397
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/botao-acessibilidade.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1144,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{544D3DE5-E260-436D-90A7-210E7AEC86CF},1pub\""
+        },
+        "responseBodyHash": "6fdfd05e5c2d807794fd36d4d21c2250e2aa3b4d6a0970e2a13690023a1b96e9",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.026966999999785912
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/header.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6724,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{91A8980B-9D90-4528-B961-D1C09ECAEC61},1pub\""
+        },
+        "responseBodyHash": "744016e00a4a68c5b9d65a1066718b4d9a3690682e2e8eb341bf8fd5ec16266b",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.028056999999535037
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/cabecalho.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3897,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{BCE30B41-C78C-4CBA-B39F-4A7D4F8A58F7},1pub\""
+        },
+        "responseBodyHash": "cd8fddc698cb49bef7b73047bc34f99a820720653fed1b119abf479bedd4d8b2",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.035789999999906286
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/busca-caixa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7768,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{951D534F-F267-4D9C-AD01-22237F44ED60},1pub\""
+        },
+        "responseBodyHash": "650e4c057ed315c7213e10d116b63b0eb76dcee8f5f16dd3f9d7836cb7044e20",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.036890999999741325
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/icones/x-volume-negativa-54.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3098,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{BFA918F6-1D82-4F2F-A980-EFBB046E3172},1pub\""
+        },
+        "responseBodyHash": "5a6e3a6ba76b41aadbb94acdd782f85dd83244a09993d6ce7b170463ed67668c",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.0370760000005248
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/images/logo-caixa-branco.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1289,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{9F9AA7CB-6A1C-4ECE-B471-9FD57BD86501},1pub\""
+        },
+        "responseBodyHash": "0003466de9a6a555e6df1f9a05aef1936e313af954002037a704a567a18ec491",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.024223000000347383
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/carrossel-home.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4968,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{95762070-37D3-4F88-9E39-121522BF1855},1pub\""
+        },
+        "responseBodyHash": "9771b55fee1261994ef3b6f0f4ef5feb3202bf7b49b5f8efc9158bdf2f168e4e",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.023959000000104425
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/jquery-ui.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 90929,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{48CD14D4-F932-4B91-8D58-3B96F4832FD9},32pub\""
+        },
+        "responseBodyHash": "320e9efff3b592c9ffaeef65e014b3660f95535b0949b5ae78514c9c85c71020",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.06753899999966961
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/swiper-bundle.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6862,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{02CB9861-C040-491B-8352-F9C71FA41F86},1pub\""
+        },
+        "responseBodyHash": "898854da6d6bee544883f83bd7020b6d1cff34fbae1edf550180724e8842a012",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.06762799999887648
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/swiper-bundle.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63308,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{6339A05D-7F62-4105-B8A9-3ABAE6A32A10},1pub\""
+        },
+        "responseBodyHash": "025629d087a9928987d705a7cc64849c62d1526806da7f2b721331cff33084e9",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.09215499999845633
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/carrossel-home.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1769,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{1560EF66-8B0A-457D-8460-48E31282F773},1pub\""
+        },
+        "responseBodyHash": "ce213d56274882cf07d513a695c8fa027a284003c440aeebc5b9ad01a9858b21",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.09240499999941676
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/abertura-conta/desktop.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 384254,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{97D4CD32-009F-4BCB-8BF5-C8BA7B9A8BFB},1pub\""
+        },
+        "responseBodyHash": "34ba8e5f1936bbcd7a4e792ce26be1f4c984e05ef4aad19e3febdbc71dcb5cc9",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.06350000000020373
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/abertura-conta/selo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 48232,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{6AE138E6-F83B-4363-8091-D5831E621CF4},1pub\""
+        },
+        "responseBodyHash": "de204dd81329a47311eaf20f0cb2c91deea2534e567feeb1052302c8d3aee934",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.11261599999852479
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/esportes-2026/desktop.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 222955,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{2C920BAF-4844-4267-A854-D787D38B1662},1pub\""
+        },
+        "responseBodyHash": "8239aadba0fcdf03abcbf22e00b3b5419b008cd8e10d3e712adfa7719a299cbc",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 1.8537899999992078
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/esportes-2026/selo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21051,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{5330F6F5-FC0B-408A-AAE8-E5D319649BC3},1pub\""
+        },
+        "responseBodyHash": "7fad0930074cebe51195cb1f0d3f953e5071205b8886d2bb391844bdf97fb5ac",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 2.0732110000008106
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/habitacao-2024/Home-carrossel-SimuladorB.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 422086,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{0C2CC9F5-2BB0-4E60-9C10-8178E13AC2BE},1pub\""
+        },
+        "responseBodyHash": "e52f7c8fe3d6f51956f3c30f704f055a607ba5418bb5374a1d3b04cc06035934",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 1.9415380000009463
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/habitacao-2024/texto-home-fev2026B.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 123125,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{5D98FF23-B6FB-4E88-B07E-A8C603601496},1pub\""
+        },
+        "responseBodyHash": "e045f8f4a489d08c05ddaba6b8a8f63ba70c7a5a6fe8d64313fef703ab5e44f8",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 2.3588250000011612
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/2026-seguranca/desktop.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1120971,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{DD36D0F1-DC1B-4FFF-9D3D-5204E77ECD72},1pub\""
+        },
+        "responseBodyHash": "9b527d5b693563013d568487f1a78673ead8fac94a1061205fb9922201306a84",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 2.4084709999988263
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/2026-seguranca/selo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 45533,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{CBB11A2C-909E-4391-B465-E0DA51C38EC5},1pub\""
+        },
+        "responseBodyHash": "fa3b54939d06baea8c787458eefc0dea9e250f28119aec7b26c234ebeb4f9704",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 2.171219999998357
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/abertura-conta/mobile-v2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 350184,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{5C0D5A34-C9F6-4F18-843A-FD7C76C1FC4E},1pub\""
+        },
+        "responseBodyHash": "05d6fd734da40ab13d730af093e445bfeaf4a4fc5872b0eff368892eb5316d82",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.07187799999883282
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/esportes-2026/mobile.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 210257,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{F6D5C30C-8960-4DCA-A430-48D4F609F189},1pub\""
+        },
+        "responseBodyHash": "b7bb62c78931c31ce92005bcd4a17741b88c3cbd94e4cdc8ec11362c1bf8d100",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 2.1842689999994036
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/habitacao-2024/Home-Mobile-SimuladorB.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 306296,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{23E4C45F-D9D0-4A1A-8969-EBF80875F3CE},1pub\""
+        },
+        "responseBodyHash": "a7c670e6d321c7d3789f05b94bdb4f5c412b7174282234f84b3a3dafea2f360e",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 2.418003000000681
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/carrossel/2026-seguranca/mobile.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 784820,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{71F56C39-5A12-401A-A598-280B1E9743D3},1pub\""
+        },
+        "responseBodyHash": "442906da3341fc82e1353e78dd345bb96862eaefc2fd769e4cde96f0a21bd30a",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 2.2121490000008635
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/acesso-rapido.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1820,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{A9493641-BF66-4006-9412-96510B433FBC},1pub\""
+        },
+        "responseBodyHash": "6c2867eab3ce1049da0de8905f531f111af219260fa07ecc59d58b36f535e99a",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.1147000000000844
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/acesso-rapido.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1114,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{BD43E752-DE56-48A7-975F-3B19EAFCBE53},1pub\""
+        },
+        "responseBodyHash": "b7c9d764b4d9a4a04991b3fd16a6d2753a847a9db883e8f710ce862887cc22b6",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.3393049999995128
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/destaques-home.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1730,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{CA414E8B-8F62-4861-948F-7B86970E23A9},1pub\""
+        },
+        "responseBodyHash": "ca294f79c23d5a9702c42e6bdd702bc8e875823073d7d2812081ac96530b31bf",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.13361900000018068
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/destaques-home.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1117,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{B3C69F73-C005-43B8-A5BA-FD624F603008},1pub\""
+        },
+        "responseBodyHash": "49ff93dad7b3415c3de861f2ee681066365e335cf63234599d808d9510b5b8d5",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.15439800000058312
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/loterias-home.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 14946,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{DA5EFEC4-291F-4A23-8AE7-9B46C60F3BED},1pub\""
+        },
+        "responseBodyHash": "4299b8d2966ad4dd391e1118d150d5153bdb860f24d6f2c0ae7ae0c6e5cdbe08",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.2554980000004434
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/loterias-home.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5057,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{A6B9B934-8FE3-4970-999F-D447C438573D},1pub\""
+        },
+        "responseBodyHash": "dc507094a00a286bda9604d4e628e90e65691e8a3bc3387c811f725d5d295c4e",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 1.0600090000007185
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/solucoes-conglomerado.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3111,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{93130569-8EAF-4AB9-9EF8-C3FB9671AAC2},1pub\""
+        },
+        "responseBodyHash": "d976f3e1bf39da8c8c947ddee7e4aa05f252be408c41f9983e8a7183d08530be",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.3592420000004495
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/slick.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15118,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{9B17D1B0-925F-4FFB-859A-3A85B72DDDFD},1pub\""
+        },
+        "responseBodyHash": "09ea9e0ee41368f8eb7ae0359296237a3c87ce616f31df9c816aa2f6680719a2",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.3803360000001703
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/solucoes-conglomerado.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1488,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{1079FA12-AC4A-4F89-8079-D32B871C382D},1pub\""
+        },
+        "responseBodyHash": "32891d4c1be709488b8a40cec58d99f803072a6854149bf0a77505aeda909f4c",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.40187300000070536
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/fontawesome6/css/font-awesome.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 30375,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{796A7EAD-8BA6-46C9-9544-3FD52A06F3D4},1pub\""
+        },
+        "responseBodyHash": "ae0e50c4d201dc0c6b501685527376f1b113af480261cfb09360c2a8ccafaf52",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.4226989999988291
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/css/rodape-caixa.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3698,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{BFD712DD-18CC-4F73-BA52-C11B63A39C59},1pub\""
+        },
+        "responseBodyHash": "e4e48be91788ebf7c66deaa1765504880723a664f7a974899415df479ec38b2f",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.4427250000007916
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/js/rodape-caixa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1008,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{DB463A92-A8E6-40C6-8028-2B46C58691F1},1pub\""
+        },
+        "responseBodyHash": "52dfce6e74e14f3ab7c8e6b96662e4c05e0907a4fe8fd62dfd1863edb73dc4e1",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.462229999999181
+      },
+      {
+        "url": "https://tag.goadopt.io/injector.js/v2/0072?website_code=83c6ae62-0926-450e-a47d-9fcf609403bf",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 952736,
+        "remoteIPAddress": "104.26.6.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": "08f68a57b7842c295805176d2e3d3985a69afbea8973d100516b2dc2612d3763",
+        "redirectedFrom": "https://tag.goadopt.io/injector.js?website_code=83c6ae62-0926-450e-a47d-9fcf609403bf",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.15593400000034308
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 156152,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:52:19 GMT"
+        },
+        "responseBodyHash": "43764edbbc36ff28331092ed79cd064ed314919c35c4288774b7d18660556e58",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.27377700000033656
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/images/ic-libras-azul-v1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8551,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{283FE5AE-CCA5-463A-9902-98A76A7F4FF5},1pub\""
+        },
+        "responseBodyHash": "c489f6cf1aa706b041d9c818162ccf1e80adf5d0654bb792a39d0187a2d10e40",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/css/botao-acessibilidade.css"
+        ],
+        "time": 0.036810999999943306
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/fonts/CAIXAStd-Book.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 40103,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"{DA94AEB1-D64F-493C-91B8-B8E6BA90D99C},1pub\"",
+          "expires": "Tue, 31 Mar 2026 22:52:19 GMT"
+        },
+        "responseBodyHash": "9e5f44219bd2d0698e0d6398edea96186ee911520815dd8cad0cc5c2a74bfcb9",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/css/header.css"
+        ],
+        "time": 0.03779200000099081
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/fonts/CAIXAStd-SemiBold.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 41290,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"{04A271A3-6CDB-4265-8D70-FB82E21BDF21},1pub\"",
+          "expires": "Tue, 31 Mar 2026 22:52:19 GMT"
+        },
+        "responseBodyHash": "b410455ff87654072a8d6a4fff3e181024a64f6ba68013cb7263102d8166304e",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/css/header.css"
+        ],
+        "time": 0.038378999999622465
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/fontawesome6/webfonts/fa-solid-900.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 158382,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"{823892DB-847C-44A0-AA8B-15B4367D202F},1\"",
+          "expires": "Tue, 31 Mar 2026 22:52:19 GMT"
+        },
+        "responseBodyHash": "25169ebebb2ffd3101befecb8b82fe83d63d37316570819b4a33d74ada342578",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/fontawesome6/css/font-awesome.min.css"
+        ],
+        "time": 0.12631799999871873
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/1046/strings.js?rev=Z%2B40y2YoLenFccxjN0twUQ%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53873,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"045ca428d9d41:0\""
+        },
+        "responseBodyHash": "671fe689b486c0e6e0bb1225af5e5a67dbba927bae13c5526ebe8c2e556e81da",
+        "initiators": [
+          "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0"
+        ],
+        "time": 0.14510599999994156
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 170202,
+        "remoteIPAddress": "172.217.12.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 31 Mar 2026 21:52:19 GMT"
+        },
+        "responseBodyHash": "d48cc84711a93bc7723ef81ed12e279a886751549f20e561ef94100e6e708882",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.07879499999944528
+      },
+      {
+        "url": "https://www.clarity.ms/tag/py0mwymk36",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1140,
+        "remoteIPAddress": "4.153.187.221",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "expires": "-1",
+          "set-cookie": "CLID=698b559f36ea4f9ba31d2daf5da97312.20260331.20270331; expires=Wed, 31 Mar 2027 21:52:19 GMT; path=/; secure; samesite=none; httponly"
+        },
+        "responseBodyHash": "3f38e38d65b41f012e73a4ac3dac14536d7de9df36413db9f05baffa965f77e8",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.4024119999994582
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.caixa.gov.br%2FPaginas%2Fhome-caixa.aspx&scrsrc=www.googletagmanager.com&rnd=35585244.1774993939&dt=CAIXA&auid=660786883.1774993939&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He63u0v71748258za200zd71748258xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116133312~116991816~118089342&apve=1&apvf=f&apvc=1&tft=1774993939412&tfd=7555",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "142.251.153.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.13840600000003178
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/core.js?rev=9kCBQNkpbQYAoiVcZpdkJA%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 122180,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"025f9816af9db1:0\""
+        },
+        "responseBodyHash": "c013b37c93792b602cb7cc0ef0993d900c7bf60d64800f34cdfd1057f2af7075",
+        "initiators": [
+          "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0"
+        ],
+        "time": 0.023310999999011983
+      },
+      {
+        "url": "https://servicebus4.caixa.gov.br/loterias/api/loterias/MEGA_SENA",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 936,
+        "remoteIPAddress": "200.201.160.142",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8dad1f107332b162cb4401bacdd89f66033741a83f0ed36103224fa4ab5d8493",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/js/jquery.min.js",
+          "https://www.caixa.gov.br/Style%20Library/js/loterias-home.js",
+          "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0",
+          "https://www.caixa.gov.br/_layouts/15/core.js?rev=9kCBQNkpbQYAoiVcZpdkJA%3D%3DTAG0"
+        ],
+        "time": 0.8605349999997998
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/fonts/CAIXAStd-Bold.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 41015,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"{AE20F337-4754-4B82-AFCF-1E2958D493BF},1pub\"",
+          "expires": "Tue, 31 Mar 2026 22:52:19 GMT"
+        },
+        "responseBodyHash": "dd794dfecfe5ae946b0a92f5e339fa74510f8d96ba8c048a28b2fc31af6292c3",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/css/header.css"
+        ],
+        "time": 0.07069099999898754
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/fontawesome6/webfonts/fa-regular-400.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26470,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"{4DE3556F-95FB-4CCE-A410-C70540AE0463},1\"",
+          "expires": "Tue, 31 Mar 2026 22:52:19 GMT"
+        },
+        "responseBodyHash": "07632989d9f68370504ad11b6df3ff0a198d621bdde1857bd7b7eca34a71324b",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/fontawesome6/css/font-awesome.min.css"
+        ],
+        "time": 0.05442799999946146
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/fontawesome6/webfonts/fa-brands-400.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 119209,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"{B375FA01-7AB9-47AE-9AE2-4D61EE04E0BE},1\"",
+          "expires": "Tue, 31 Mar 2026 22:52:19 GMT"
+        },
+        "responseBodyHash": "f5f20d2aafc7dc81f4a3a45d10dc5aeb5f562ed90527104d58483aafdea8af43",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/fontawesome6/css/font-awesome.min.css"
+        ],
+        "time": 0.0310300000001007
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/mquery.js?rev=G0XIYJI9ofOrcdJaLkhB7Q%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6439,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"025f9816af9db1:0\""
+        },
+        "responseBodyHash": "8c09e2bbeee366649c697a6b3afa960c02bd57dc5274bfbab0ed0f20f298f591",
+        "initiators": [
+          "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0",
+          "https://www.caixa.gov.br/_layouts/15/core.js?rev=9kCBQNkpbQYAoiVcZpdkJA%3D%3DTAG0"
+        ],
+        "time": 0.020576000000801287
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/destaque-produtos/806x516/2024/destaque-home-site-caixa-2024-habitacao-v3.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 219387,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{8F48A99E-1999-4033-A46C-4B2E2776CB00},1pub\""
+        },
+        "responseBodyHash": "ae4fa017064f5934a5850d2cdba18d50d06917f20dd249bbef88d2d931499add",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.03425000000061118
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/destaque-produtos/806x516/2024/destaque-home-site-caixa-2024-cartoes-v2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 240070,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{8AC69018-3E6E-483A-9B43-0A161B2D3503},1pub\""
+        },
+        "responseBodyHash": "27a987c03dd8f3f71acbe38310dea35da2a0cefcada2cdadb0c3c3482e54ba30",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.28052199999910954
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/destaque-produtos/806x516/2024/destaque-home-site-caixa-2024-emprestimo-v2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 278767,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{E74BE462-709E-40A3-9D84-DF06F3B28A42},1pub\""
+        },
+        "responseBodyHash": "d0fc1a338510c823372e621bd07d7507ae8ec09e4fba89182ffca57128e1cf5e",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.04951299999993353
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/destaque-produtos/806x516/2024/destaque-home-site-caixa-2024-investimento-v2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 240803,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{7FEAEB87-EE65-46F4-8A12-6F22C42A7DBE},1pub\""
+        },
+        "responseBodyHash": "f638990af42744051a5707e0feccedf607b13aa9132a21ab46285cf4df5f7060",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.29397699999935867
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/destaque-produtos/806x516/2024/destaque-home-site-caixa-2024-openfinance-v2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 215197,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{2CF11002-9D6B-4778-BFD4-61924F4B7937},1pub\""
+        },
+        "responseBodyHash": "4019c7ec64a467cd3810804baa193e7338953d4c2f4ef2bac2508751836659d0",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.052375999999640044
+      },
+      {
+        "url": "https://www.caixa.gov.br/PublishingImages/nova-home/destaque-produtos/806x516/2024/destaque-home-site-caixa-2024-sustentabilidade-v3.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 206592,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{6A7E99D8-8669-4E48-AE04-A661F97D000E},1pub\""
+        },
+        "responseBodyHash": "002825a9855fe99c3e4676f027424fa1d4fbecc8f07820fd56b05e0667ee9dae",
+        "initiators": [
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.28654400000050373
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-PD5EBJFQ7X&gtm=45je63u0v9105020563z871748258za20gzb71748258zd71748258&_p=1774993939066&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=727584795.1774993940&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAGA&_s=1&tag_exp=0~115938465~115938468~116133312~116991817&sid=1774993939&sct=1&seg=0&dl=https%3A%2F%2Fwww.caixa.gov.br%2FPaginas%2Fhome-caixa.aspx&dt=CAIXA&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=7746",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "216.239.32.181",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.05762999999933527
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-PD5EBJFQ7X&cid=727584795.1774993940&gtm=45je63u0v9105020563z871748258za20gzb71748258zd71748258&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938465~115938468~116133312~116991817",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 550,
+        "remoteIPAddress": "74.125.137.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.08007399999951303
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/sp.init.js?rev=v7C9ZcXmEYuhjJNLnCo66A%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8968,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"025f9816af9db1:0\""
+        },
+        "responseBodyHash": "823ae6772b8768f5d09a9bf7f5913e868e6ab606b021ba2d2d2b3c60903bd6d4",
+        "initiators": [
+          "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0",
+          "https://www.caixa.gov.br/_layouts/15/core.js?rev=9kCBQNkpbQYAoiVcZpdkJA%3D%3DTAG0"
+        ],
+        "time": 0.01994899999954214
+      },
+      {
+        "url": "https://www.caixa.gov.br/_layouts/15/sp.core.js?rev=bOK%2Bug%2FpfAotn0K8lTrAmw%3D%3DTAG0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21674,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"025f9816af9db1:0\""
+        },
+        "responseBodyHash": "e44e727039c0f52be791f00fa9d230d0611287e5843a15d1b1087cdd909a4e70",
+        "initiators": [
+          "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0",
+          "https://www.caixa.gov.br/_layouts/15/core.js?rev=9kCBQNkpbQYAoiVcZpdkJA%3D%3DTAG0"
+        ],
+        "time": 0.02187000000049011
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.59/clarity.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26800,
+        "remoteIPAddress": "13.107.226.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"0x8DE8E46171FEDDD\""
+        },
+        "responseBodyHash": "6a00b1393bd74ac062ad19c64062eee1ae9c257e24949b55813a9462a4820e54",
+        "initiators": [
+          "https://www.clarity.ms/tag/py0mwymk36",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.19423199999982899
+      },
+      {
+        "url": "https://disclaimer-api.goadopt.io/api/tag/get-consent",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.26.6.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://disclaimer-api.goadopt.io/api/tag/get-consent"
+        ],
+        "time": 0.6145780000006198
+      },
+      {
+        "url": "https://disclaimer-api.goadopt.io/api/tag/get-consent",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 839,
+        "remoteIPAddress": "104.26.6.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br",
+          "etag": "W/\"c8-QLplvXcWQHduGTuxDEoaU00dVVM\"",
+          "set-cookie": "AdoptVisitorIdTP=6c401d1c-9b49-440f-a6de-a8fe4448faf2; Domain=.goadopt.io; Path=/; Expires=Sat, 30 May 2026 21:52:21 GMT; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "5fa72c48bdbc6a4a8e85a4fb3fe1779aafb3f3376a401d720b51a18d6fb4babe",
+        "initiators": [],
+        "time": 1.2546220000003814
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=T; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=3B2EB6A282F9652807C4A18F86F96B6D; domain=.clarity.ms; expires=Sun, 25-Apr-2027 21:52:20 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=0015A178D8C049F9844FE87EC2AE3B76&RedC=c.clarity.ms&MXFR=3B2EB6A282F9652807C4A18F86F96B6D",
+        "initiators": [
+          "https://www.clarity.ms/tag/py0mwymk36"
+        ],
+        "time": 0.20476699999926495
+      },
+      {
+        "url": "https://i.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 280,
+        "remoteIPAddress": "4.153.72.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "https://www.clarity.ms/tag/py0mwymk36",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "https://www.caixa.gov.br/Paginas/home-caixa.aspx"
+        ],
+        "time": 0.3624650000001566
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/images/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1096,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"{C2AF84F3-A7F7-4318-A85B-A0074E8CD072},2pub\""
+        },
+        "responseBodyHash": "c4675316c76d4a6f8874a72eb7e7531e860747f1aaeb17342d1c86dd1c4ee40e",
+        "initiators": [],
+        "time": 0.2300969999996596
+      },
+      {
+        "url": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=0015A178D8C049F9844FE87EC2AE3B76&RedC=c.clarity.ms&MXFR=3B2EB6A282F9652807C4A18F86F96B6D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "150.171.27.10",
+        "responseHeaders": {
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "MUID=1CA7E6FE595864183E7EF1D3589F65C4; domain=.bing.com; expires=Sun, 25-Apr-2027 21:52:20 GMT; path=/; SameSite=None; Secure; Priority=High;\nMR=0; domain=c.bing.com; expires=Tue, 07-Apr-2026 21:52:20 GMT; path=/; SameSite=None; Secure;\nSRM_B=1CA7E6FE595864183E7EF1D3589F65C4; domain=c.bing.com; expires=Sun, 25-Apr-2027 21:52:20 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=0015A178D8C049F9844FE87EC2AE3B76&MUID=1CA7E6FE595864183E7EF1D3589F65C4",
+        "redirectedFrom": "https://c.clarity.ms/c.gif",
+        "initiators": [
+          "https://www.clarity.ms/tag/py0mwymk36"
+        ],
+        "time": 0.13703399999940302
+      },
+      {
+        "url": "https://www.caixa.gov.br/Style%20Library/images/icos_loterias.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19348,
+        "remoteIPAddress": "179.191.185.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "\"{C1E4D354-13D4-43D0-9356-63ED16D30F07},1pub\""
+        },
+        "responseBodyHash": "4ad83582458becadf3dfa0ffdd98fd8bad0877f07d54f2826716853dd1ab32f2",
+        "initiators": [
+          "https://www.caixa.gov.br/Style%20Library/css/loterias-home.css"
+        ],
+        "time": 0.020929000000251108
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=0015A178D8C049F9844FE87EC2AE3B76&MUID=1CA7E6FE595864183E7EF1D3589F65C4",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 718,
+        "remoteIPAddress": "13.107.253.69",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "etag": "\"b092be662fc1dc1:0\"",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=C; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=1CA7E6FE595864183E7EF1D3589F65C4; domain=.clarity.ms; expires=Sun, 25-Apr-2027 21:52:20 GMT; path=/; SameSite=None; Secure; Priority=High;\nMR=0; domain=c.clarity.ms; expires=Tue, 07-Apr-2026 21:52:20 GMT; path=/; SameSite=None; Secure;\nANONCHK=0; domain=c.clarity.ms; expires=Tue, 31-Mar-2026 22:02:20 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e",
+        "redirectedFrom": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=0015A178D8C049F9844FE87EC2AE3B76&RedC=c.clarity.ms&MXFR=3B2EB6A282F9652807C4A18F86F96B6D",
+        "initiators": [
+          "https://www.clarity.ms/tag/py0mwymk36"
+        ],
+        "time": 0.03273500000068452
+      },
+      {
+        "url": "https://i.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 280,
+        "remoteIPAddress": "4.153.72.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://scripts.clarity.ms/0.8.59/clarity.js"
+        ],
+        "time": 0.0826919999999518
+      },
+      {
+        "url": "https://axeptio-api.goadopt.io/flow",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "104.26.6.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.caixa.gov.br"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [],
+        "time": 0.1915630000003148
+      }
+    ],
+    "cookies": [
+      {
+        "name": "security",
+        "domain": "www.caixa.gov.br",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".caixa.gov.br",
+        "path": "/",
+        "expires": 1782769939000,
+        "session": false
+      },
+      {
+        "name": "WSS_FullScreenMode",
+        "domain": "www.caixa.gov.br",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_ga_PD5EBJFQ7X",
+        "domain": ".caixa.gov.br",
+        "path": "/",
+        "expires": 1809553939600,
+        "session": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".caixa.gov.br",
+        "path": "/",
+        "expires": 1809553939602,
+        "session": false
+      },
+      {
+        "name": "CLID",
+        "domain": "www.clarity.ms",
+        "path": "/",
+        "expires": 1806529939813,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_clck",
+        "domain": ".caixa.gov.br",
+        "path": "/",
+        "expires": 1806529940000,
+        "session": false
+      },
+      {
+        "name": "MUID",
+        "domain": ".bing.com",
+        "path": "/",
+        "expires": 1808689940478,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MR",
+        "domain": ".c.bing.com",
+        "path": "/",
+        "expires": 1775598740478,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "SRM_B",
+        "domain": ".c.bing.com",
+        "path": "/",
+        "expires": 1808689940478,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_clsk",
+        "domain": ".caixa.gov.br",
+        "path": "/",
+        "expires": 1775080340000,
+        "session": false
+      },
+      {
+        "name": "SM",
+        "domain": ".c.clarity.ms",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "MUID",
+        "domain": ".clarity.ms",
+        "path": "/",
+        "expires": 1808689940511,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "MR",
+        "domain": ".c.clarity.ms",
+        "path": "/",
+        "expires": 1775598740511,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "path": "/",
+        "expires": 1774994540511,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AdoptVisitorIdTP",
+        "domain": ".goadopt.io",
+        "path": "/",
+        "expires": 1780177941388,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AdoptConsent",
+        "domain": ".caixa.gov.br",
+        "path": "/",
+        "expires": 1780177941000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AdoptVisitorId",
+        "domain": ".caixa.gov.br",
+        "path": "/",
+        "expires": 1780177941000,
+        "session": false,
+        "sameSite": "None"
+      }
+    ],
+    "targets": [
+      {
+        "type": "page",
+        "url": "about:blank"
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://tag.goadopt.io/injector.js?website_code=83c6ae62-0926-450e-a47d-9fcf609403bf": {
+          "window.localStorage": 1,
+          "Navigator.prototype.product": 6,
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.caixa.gov.br/Paginas/home-caixa.aspx": {
+          "Date.prototype.getTime": 1
+        },
+        "https://cdn.rybena.com.br/dom/master/caixa/rybena.js": {
+          "window.localStorage": 9,
+          "Navigator.prototype.userAgent": 7
+        },
+        "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0": {
+          "Navigator.prototype.userAgent": 7,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.platform": 1,
+          "window.localStorage": 2,
+          "window.sessionStorage": 2,
+          "Document.cookie getter": 3,
+          "Document.cookie setter": 1
+        },
+        "https://www.caixa.gov.br/ScriptResource.axd?d=GyqjUVUxZqFOuMWNVRhLLmM_4FdcQX1Cr_WfBgP_HerVhzHOBWoR4KdcaVq_6YESEUmhg6W2JQrFwjUIK1YAyW_g1J4rx1vZvTAr-_oi5JUPf5LZaKKaqmXXOssazO5b1g1MXvQTSWQ27U-Oh8obNN0dWFnBZELLam7hzY7MymKUwM4Y9E0nqZbMVNSNaWRz0&t=ffffffffc820c398": {
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.userAgent": 4
+        },
+        "https://www.caixa.gov.br/WebResource.axd?d=tSn0Tfbshk3gR-CnFveKRteygcT3hOonS0dgStc4kkYcWld2vuXgEEqbUsN8k1xpX3tQnstIMbjApUnWjvg4I9rQJwaj6l5A6vtQvWy1rMI1&t=638568496745067788": {
+          "Navigator.prototype.appName": 1
+        },
+        "https://www.caixa.gov.br/Style%20Library/js/jquery-ui.min.js": {
+          "Date.prototype.getTime": 2
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 18,
+          "Date.prototype.getTime": 137,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "Document.cookie setter": 2,
+          "window.localStorage": 7
+        },
+        "https://www.caixa.gov.br/_layouts/15/core.js?rev=9kCBQNkpbQYAoiVcZpdkJA%3D%3DTAG0": {
+          "window.sessionStorage": 5,
+          "window.localStorage": 5
+        },
+        "https://www.caixa.gov.br/Style%20Library/js/swiper-bundle.min.js": {
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.userAgent": 4,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Date.prototype.getTime": 272
+        },
+        "https://www.caixa.gov.br/Style%20Library/js/carrossel-home.js": {
+          "window.innerWidth": 1
+        },
+        "https://www.caixa.gov.br/Style%20Library/js/jquery.min.js": {
+          "Element.prototype.getClientRects": 38,
+          "Event.prototype.timeStamp": 2
+        },
+        "https://www.caixa.gov.br/Style%20Library/js/slick.min.js": {
+          "window.innerWidth": 2
+        },
+        "https://www.caixa.gov.br/Style%20Library/js/busca-caixa.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 20,
+          "Date.prototype.getTime": 44,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Document.cookie setter": 6,
+          "window.name": 2
+        },
+        "https://scripts.clarity.ms/0.8.59/clarity.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Document.cookie getter": 14,
+          "window.sessionStorage": 3,
+          "window.devicePixelRatio": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.hardwareConcurrency": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Document.cookie setter": 3,
+          "Navigator.prototype.webdriver": 1,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Navigator.prototype.connection": 2
+        },
+        "about:blank": {
+          "Date.prototype.getTime": 6,
+          "Document.cookie getter": 12,
+          "Document.cookie setter": 11,
+          "window.localStorage": 7,
+          "Navigator.prototype.userAgent": 4,
+          "Navigator.prototype.product": 3,
+          "Screen.prototype.width": 4
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.660786883.1774993939; path=/; expires=Mon, 29 Jun 2026 21:52:19 GMT; domain=gov.br"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtm.js?id=GTM-NDBHSL",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.660786883.1774993939; path=/; expires=Mon, 29 Jun 2026 21:52:19 GMT; domain=caixa.gov.br"
+          ]
+        },
+        {
+          "source": "https://www.caixa.gov.br/_layouts/15/init.js?rev=RHfoRxFuwXZ%2BOo2JABCoHA%3D%3DTAG0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "WSS_FullScreenMode=false;path=/"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_PD5EBJFQ7X=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:52:19 GMT; domain=gov.br; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_PD5EBJFQ7X=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Thu, 30 Mar 2028 21:52:19 GMT; domain=caixa.gov.br; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_PD5EBJFQ7X=GS2.1.s1774993939$o1$g0$t1774993939$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 21:52:19 GMT; domain=gov.br; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_PD5EBJFQ7X=GS2.1.s1774993939$o1$g0$t1774993939$j60$l0$h0; path=/; expires=Thu, 30 Mar 2028 21:52:19 GMT; domain=caixa.gov.br; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.727584795.1774993940; path=/; expires=Thu, 30 Mar 2028 21:52:19 GMT; domain=gov.br; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-PD5EBJFQ7X&cx=c&gtm=4e63u0",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.727584795.1774993940; path=/; expires=Thu, 30 Mar 2028 21:52:19 GMT; domain=caixa.gov.br; "
+          ]
+        },
+        {
+          "source": "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_clck=eudhbp%5E2%5Eg4t%5E0%5E2281;expires=Wed, 31 Mar 2027 21:52:20 GMT;path=/;domain=.gov.br"
+          ]
+        },
+        {
+          "source": "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_clck=eudhbp%5E2%5Eg4t%5E0%5E2281;expires=Wed, 31 Mar 2027 21:52:20 GMT;path=/;domain=.caixa.gov.br"
+          ]
+        },
+        {
+          "arguments": [
+            "AdoptGD1774993940077=AdoptGD1774993940077;domain=gov.br;secure;"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptGD1774993940077=AdoptGD1774993940077;domain=caixa.gov.br;secure;"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptGD1774993940077=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=caixa.gov.br;secure;"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptVisitorId=undefined;expires=Sat, 30 May 2026 21:52:20 GMT;path=/;domain=caixa.gov.br;secure;SameSite=None"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptConsent=undefined;expires=Sat, 30 May 2026 21:52:20 GMT;path=/;domain=caixa.gov.br;secure;SameSite=None"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "source": "https://scripts.clarity.ms/0.8.59/clarity.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_clsk=15twexx%5E1774993940505%5E1%5E0%5Ei.clarity.ms%2Fcollect;expires=Wed, 01 Apr 2026 21:52:20 GMT;path=/;domain=.caixa.gov.br"
+          ]
+        },
+        {
+          "arguments": [
+            "AdoptConsent=N4Ig7gpgRgzglgFwgSQCIgFwgBwGYDGAbAIYSEBMAtAAwCc5hlALAKzUSXFMDsAJpbQBm+QYTpNquKIJAAaEADc48BAHsATsl6YQhfBICMvA/gFQmtZhMGdCvDsWyCITV0+KDyckKoAOCZAA7ABViAHMYTABtAF15PwQAeQBXBFCI6LiQfFVAmAhAgO0sADl1bABFAGUAJW8IBQK0gE9fCB0wbCg4AAkALwgS7xy8poA1CHV4XMxqeWTfXmIkXgBBBB1yagYaXEpcA2DyAwwWcgxjgDpcbFoALRAAXyA;expires=Sat, 30 May 2026 21:52:21 GMT;path=/;domain=caixa.gov.br;secure;SameSite=None"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "adoptConsentMode=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/;domain=caixa.gov.br;secure;SameSite=None"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptVisitorId=GwYwLADAjAJlIFoCcAjMSFkgMwQQ2BgFN8AObIrMcvbAJiA=;expires=Sat, 30 May 2026 21:52:21 GMT;path=/;domain=caixa.gov.br;secure;SameSite=None"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptGD1774993941417=AdoptGD1774993941417;domain=gov.br;secure;"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptGD1774993941417=AdoptGD1774993941417;domain=caixa.gov.br;secure;"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        },
+        {
+          "arguments": [
+            "AdoptGD1774993941417=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=caixa.gov.br;secure;"
+          ],
+          "source": "about:blank",
+          "description": "Document.cookie setter"
+        }
+      ]
+    }
+  }
+}
