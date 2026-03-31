@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""
-generate_demo_data.py
-=====================
-Creates realistic simulated CSV outputs (tracker_prevalence.csv, etc.)
-based on published DuckDuckGo Tracker Radar statistics, so the plotting
-script can be tested and a sample figure can be included in the README.
 
-This is NOT a replacement for running the actual crawl.
-"""
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -86,7 +78,6 @@ cat_rows = [
 pd.DataFrame(cat_rows).sort_values("site_pct", ascending=False).reset_index(drop=True) \
   .to_csv("results/tracker_by_category.csv", index=False)
 
-# ── Per-site tracker count distribution ────────────────────────────────────
 # Log-normal distribution centred around 10 trackers/site, matching real data
 tracker_counts = np.random.lognormal(mean=2.5, sigma=0.8, size=N).astype(int)
 tracker_counts = np.clip(tracker_counts, 0, 80)
