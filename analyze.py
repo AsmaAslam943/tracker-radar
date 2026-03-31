@@ -1,18 +1,7 @@
 #!/usr/bin/env python3
 """
-03_analyze.py
-=============
 Parse the raw JSON output from Tracker Radar Collector, identify third-party
 tracker domains, and produce the summary CSV files used by the plotting script.
-
-Output files (written to results/):
-  tracker_prevalence.csv  — tracker domain × sites_seen, site_pct, category
-  tracker_by_category.csv — category-level aggregation
-  site_tracker_counts.csv — per-site tracker count distribution
-  top_trackers.csv        — top 20 trackers by prevalence
-
-Usage:
-  python3 analysis/03_analyze.py [--raw results/raw] [--out results]
 """
 
 import os, json, re, argparse, collections
@@ -20,10 +9,6 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-# ---------------------------------------------------------------------------
-# Known tracker owner → category mapping (subset of DuckDuckGo Tracker Radar)
-# Extend this dict with data from https://github.com/duckduckgo/tracker-radar
-# ---------------------------------------------------------------------------
 OWNER_CATEGORY = {
     # Advertising
     "Google":               "Advertising",
@@ -77,7 +62,7 @@ OWNER_CATEGORY = {
     "Signal":               "Tag Management",
 }
 
-# Domain suffix → likely owner heuristics (very simplified; expand as needed)
+# Domain suffix 
 DOMAIN_OWNER_HINTS = {
     "google-analytics.com":     ("Google Analytics", "Analytics"),
     "googletagmanager.com":     ("Google Tag Manager", "Tag Management"),
@@ -136,7 +121,7 @@ DOMAIN_OWNER_HINTS = {
 
 
 def extract_registrable_domain(hostname: str) -> str:
-    """Very simple eTLD+1 extraction (no publicsuffix lib needed)."""
+  
     parts = hostname.lstrip(".").split(".")
     if len(parts) >= 2:
         return ".".join(parts[-2:])
@@ -162,12 +147,6 @@ def is_third_party(request_domain: str, site_domain: str) -> bool:
 
 
 def parse_results(raw_dir: Path):
-    """
-    Walk all JSON files in raw_dir and return:
-      - sites_visited: list of site domains
-      - tracker_sites: {tracker_domain: set(site_domains)}
-      - site_tracker_count: {site_domain: int}
-    """
     tracker_sites: dict[str, set] = collections.defaultdict(set)
     site_tracker_count: dict[str, int] = {}
     sites_visited = []
@@ -220,7 +199,7 @@ def parse_results(raw_dir: Path):
 def build_dataframes(sites_visited, tracker_sites, site_tracker_count):
     total_sites = len(sites_visited)
 
-    # ── Tracker prevalence table ──────────────────────────────────────────────
+    #Tracks all domains and sites in dataframes 
     rows = []
     for domain, sites in tracker_sites.items():
         owner, category = classify_domain(domain)
@@ -249,7 +228,7 @@ def build_dataframes(sites_visited, tracker_sites, site_tracker_count):
         for cat, s in cat_sites.items()
     ]).sort_values("sites_with_tracker", ascending=False).reset_index(drop=True)
 
-    # ── Per-site tracker count distribution ───────────────────────────────────
+    # Counts site per tracker distribution  
     dist_df = (
         pd.DataFrame(list(site_tracker_count.items()),
                      columns=["site", "tracker_count"])
